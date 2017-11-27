@@ -1,0 +1,160 @@
+
+body {
+  background-color: rgba(96, 125, 139, 0.5)
+}
+
+.imageLogo {
+  margin-top: 0.4em;
+  margin-right: 0.3em;
+  max-height: 1.4em;
+}
+
+.headingLogo {
+  display: inline-block;    
+  position: relative;
+  top: -0.15em;  
+}
+
+.whiteLine {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: -0.85rem;
+  height: 0.6rem;
+}
+
+.angle {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-bottom: 45px solid #fff;
+  border-left: 45px solid transparent;
+}
+
+.preview > img {
+  height: 10vw;
+  width: auto;
+  overflow: hidden;
+}
+
+.bullet > ul:not(.browser-default) > li {
+  list-style-type: circle;
+  margin-left: 1em; 
+}
+
+p > i {
+  position: relative;
+  top: -0.1em;
+  left: -0.4em;
+}
+
+.note {
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+#top {
+  margin-top: -1.5rem;
+  margin-bottom: 0.1rem;
+  padding-bottom: 0.6em;
+}
+#topic {
+  margin-bottom: -0.8rem;
+}
+
+#close {
+  position: absolute;
+  right: 0.3rem;
+  top: 0.3rem;
+}
+
+.detail-image {
+  width: 100%;
+  padding: 0.5em;
+}
+
+.detail-card {
+  width: 50%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(2em, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
+}
+
+.grid {
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1em;
+  -ms-grid-columns: (minmax(15em, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+}
+
+.image20 {
+    max-height: 20vw;
+    max-width: 15vw;
+    position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+}
+
+.card .card-image img {
+  width: auto !important;
+}
+
+.card .card-image {
+  max-height: 15vw !important;
+}
+
+.inactive {
+  background-color: #263238;
+}
+
+.inactive > .card-image > img {  
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+}
+
+.collection .collection-item.active {
+  background-color: #fde0b2 !important;
+}
+
+.materialboxed.active {
+  background-color: #fff;
+  padding: 3em;
+}
+
+.padding {
+  padding: 0.5em;
+}
+.padding > material-placeholder {
+  margin-bottom: 1em;
+}
+.padding > span {
+  position: relative;
+  margin-top: 1em;
+  background-color: rgba(96, 125, 139, 0.5);
+  padding: 0.2em; 
+  left: 1em;
+}
+
+.ordercode {  
+  font-weight: bold;
+  color: #800;
+  cursor: pointer;
+}
+
+.second {
+  margin-left: 0.5em;
+}
+
+.bot {
+  position: absolute;
+  right: 2.5em;
+  bottom: 1em;
+}

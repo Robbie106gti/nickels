@@ -1,0 +1,62 @@
+{
+    "Trims Moldings": [
+        {
+        "code": "TFLAT",
+        "title": "Flat molding",
+        "attached": [
+            {
+              "height": "Trim",
+              "link": "page"
+            },
+            {
+              "height": "Toe kick",
+              "link": "page"
+            },
+            {
+              "height": "Crown",
+              "link": "page"
+            },
+            {
+              "height": "Valance",
+              "link": "page"
+            },
+            {
+              "height": "Molding",
+              "link": "page",
+              "active": "false"
+            }
+          ],
+        "image": "https://webquoin.com/catalog/build/assets/trim/wem.260.png",
+        "tags": ["kick", "crown", "toe", "valance","molding","trim" ]
+        },
+        {
+        "code": "TFLUT",
+        "title": "Fluted Molding",
+        "attached": [
+            {
+              "height": "Trim",
+              "link": "page"
+            },
+            {
+              "height": "Toe kick",
+              "link": "page"
+            },
+            {
+              "height": "Crown",
+              "link": "page"
+            },
+            {
+              "height": "Valance",
+              "link": "page"
+            },
+            {
+              "height": "Molding",
+              "link": "page",
+              "active": "false"
+            }
+          ],
+        "image": "https://webquoin.com/catalog/build/assets/trim/wem.268.png",
+        "tags": ["toe kick", "crown", "valance", "molding", "trim" ]
+        }
+    ]
+}

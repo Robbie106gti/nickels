@@ -1,0 +1,145 @@
+{
+    "Tall Channel Cabinets": [
+      {
+        "code": "TPC",
+      "title": "TPC : Pantry - Channel",
+      "attached": [
+          {
+            "height": "68",
+            "link": "page"
+          },
+          {
+            "height": "80",
+            "link": "page"
+          },
+          {
+            "height": "91",
+            "link": "page"
+          }
+        ],
+      "image": "https://webquoin.com/catalog/images/CABINETS/DFD__79.jpg",
+      "tags": ["tall", "pantry", "channel", "68\"", "80\"", "91\"" ]
+      },
+      {
+        "code": "TP2DC",
+      "title": "TP2DC : Pantry 2 Drawer - Channel",
+      "attached": [
+        {
+          "height": "68",
+          "link": "page"
+        },
+        {
+          "height": "80",
+          "link": "page"
+        },
+        {
+          "height": "91",
+          "link": "page"
+        }
+        ],
+      "image": "https://webquoin.com/catalog/images/CABINETS/D2D__80.jpg",
+      "tags": ["tall", "pantry", "2", "drawer", "channel", "68\"", "80\"", "91\"" ]
+      },
+      {
+        "code": "TP3DC",
+      "title": "TP3DC : Pantry 3 Drawer - Channel",
+      "attached": [
+        {
+          "height": "68",
+          "link": "page"
+        },
+        {
+          "height": "80",
+          "link": "page"
+        },
+        {
+          "height": "91",
+          "link": "page"
+        }
+        ],
+      "image": "https://webquoin.com/catalog/images/CABINETS/TP3DC_80.jpg",
+      "tags": ["tall", "pantry", "3", "drawer", "channel", "68\"", "80\"", "91\"" ]
+      },
+      {
+        "code": "TA1DC",
+      "title": "TA1DC : Appliance Frame 1 Drawer - Channel",
+      "attached": [
+        {
+          "height": "68",
+          "link": "page"
+        },
+        {
+          "height": "80",
+          "link": "page"
+        },
+        {
+          "height": "91",
+          "link": "page"
+        }
+        ],
+      "image": "https://webquoin.com/catalog/images/CABINETS/DA1D__80.jpg",
+      "tags": ["tall", "appliance", "frame", "1", "drawer", "channel", "68\"", "80\"", "91\"" ]
+      },
+      {
+        "code": "TAFDC",
+      "title": "TAFDC : Appliance Frame Full Door - Channel",
+      "attached": [
+        {
+          "height": "68",
+          "link": "page"
+        },
+        {
+          "height": "80",
+          "link": "page"
+        },
+        {
+          "height": "91",
+          "link": "page"
+        }
+        ],
+      "image": "https://webquoin.com/catalog/images/CABINETS/TAFDC_81.jpg",
+      "tags": ["tall", "appliance", "frame", "full", "door", "channel", "68\"", "80\"", "91\"" ]
+      },
+      {
+        "code": "TA2DC",
+      "title": "TA2DC : Appliance Frame 2 Drawer - Channel",
+      "attached": [
+        {
+          "height": "68",
+          "link": "page"
+        },
+        {
+          "height": "80",
+          "link": "page"
+        },
+        {
+          "height": "91",
+          "link": "page"
+        }
+        ],
+      "image": "https://webquoin.com/catalog/images/CABINETS/TA2DC_80.jpg",
+      "tags": ["tall", "appliance", "frame", "2", "drawer", "channel", "68\"", "80\"", "91\"" ]
+      },
+      {
+        "code": "TA3DC",
+      "title": "TA3DC : Appliance Frame 3 Drawer - Channel",
+      "attached": [
+        {
+          "height": "68",
+          "link": "page"
+        },
+        {
+          "height": "80",
+          "link": "page"
+        },
+        {
+          "height": "91",
+          "link": "page"
+        }
+        ],
+      "image": "https://webquoin.com/catalog/images/CABINETS/DA3D__80.jpeg",
+      "tags": ["tall", "appliance", "frame", "3", "drawer", "channel", "68\"", "80\"", "91\"" ]
+      }
+    ]
+  }
+  
