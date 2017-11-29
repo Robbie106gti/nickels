@@ -11,6 +11,11 @@
             "content": "1\""
           },
           {
+            "id": "w08",
+            "title": "Width",
+            "content": "8\""
+          },
+          {
             "id": "w17",
             "title": "Width",
             "content": "17\""
@@ -21,19 +26,39 @@
             "content": "20\""
           },
           {
+            "id": "w24",
+            "title": "Width",
+            "content": "24\""
+          },
+          {
             "id": "w39",
             "title": "Width",
             "content": "39\""
           },
           {
+            "id": "w0312",
+            "title": "Widths",
+            "content": "3\" - 12\""
+          },
+          {
             "id": "w0618",
             "title": "Widths",
-            "content": "06\" - 18\""
+            "content": "6\" - 18\""
           },
           {
             "id": "w0727",
             "title": "Widths",
-            "content": "07\" - 27\""
+            "content": "7\" - 27\""
+          },
+          {
+            "id": "w2127",
+            "title": "Widths",
+            "content": "21\" - 27\""
+          },
+          {
+            "id": "w2130",
+            "title": "Widths",
+            "content": "21\" - 30\""
           },
           {
             "id": "w2133",
@@ -101,6 +126,16 @@
             "content": "27\" - 39\""
           },
           {
+            "id": "w0842",
+            "title": "Widths",
+            "content": "8\" - 42\""
+          },
+          {
+            "id": "w0942",
+            "title": "Widths",
+            "content": "9\" - 42\""
+          },
+          {
             "id": "w2242",
             "title": "Widths",
             "content": "22\" - 42\""
@@ -124,6 +159,11 @@
             "id": "w0848",
             "title": "Widths",
             "content": "8\" - 48\""
+          },
+          {
+            "id": "w0948",
+            "title": "Widths",
+            "content": "9\" - 48\""
           },
           {
             "id": "w1048",
@@ -181,6 +221,16 @@
             "content": "36\" - 60\""
           },
           {
+            "id": "h02",
+            "title": "Height",
+            "content": "2 1/4\""
+          },
+          {
+            "id": "h03",
+            "title": "Height",
+            "content": "2 7/8\""
+          },
+          {
             "id": "h15",
             "title": "Height",
             "content": "15\""
@@ -214,6 +264,11 @@
             "id": "h0618",
             "title": "Heights",
             "content": "6\" - 18\""
+          },
+          {
+            "id": "h1018",
+            "title": "Heights",
+            "content": "10\" - 18\""
           },
           {
             "id": "h1218",
@@ -276,6 +331,11 @@
             "content": "25\" - 30\""
           },
           {
+            "id": "h2730",
+            "title": "Heights",
+            "content": "27\" - 30\""
+          },
+          {
             "id": "h2930",
             "title": "Heights",
             "content": "29\" - 30\""
@@ -291,6 +351,16 @@
             "content": "31\" - 36\""
           },
           {
+            "id": "h3042",
+            "title": "Heights",
+            "content": "30\" - 42\""
+          },
+          {
+            "id": "h3642",
+            "title": "Heights",
+            "content": "36\" - 42\""
+          },
+          {
             "id": "h3648",
             "title": "Heights",
             "content": "36\" - 48\""
@@ -301,9 +371,44 @@
             "content": "37\" - 48\""
           },
           {
+            "id": "h4248",
+            "title": "Heights",
+            "content": "42\" - 48\""
+          },
+          {
+            "id": "h4254",
+            "title": "Heights",
+            "content": "42\" - 54\""
+          },
+          {
             "id": "h4956",
             "title": "Heights",
             "content": "49\" - 56\""
+          },
+          {
+            "id": "h4260",
+            "title": "Heights",
+            "content": "42\" - 60\""
+          },
+          {
+            "id": "h5460",
+            "title": "Heights",
+            "content": "54\" - 60\""
+          },
+          {
+            "id": "h1060",
+            "title": "Heights",
+            "content": "10\" - 60\""
+          },
+          {
+            "id": "h1066",
+            "title": "Heights",
+            "content": "10\" - 66\""
+          },
+          {
+            "id": "h6066",
+            "title": "Heights",
+            "content": "60\" - 66\""
           },
           {
             "id": "h4368",
@@ -336,6 +441,11 @@
             "content": "86\" - 91\""
           },
           {
+            "id": "d11",
+            "title": "Depth",
+            "content": "11\""
+          },
+          {
             "id": "d23",
             "title": "Depth",
             "content": "23\""
@@ -343,12 +453,22 @@
           {
             "id": "d0727",
             "title": "Depths",
-            "content": "12\" - 36\""
+            "content": "7\" - 27\""
+          },
+          {
+            "id": "d0829",
+            "title": "Depths",
+            "content": "8\" - 29\""
           },
           {
             "id": "d0436",
             "title": "Depths",
             "content": "4\" - 36\""
+          },
+          {
+            "id": "d0636",
+            "title": "Depths",
+            "content": "6\" - 36\""
           },
           {
             "id": "d1236",
