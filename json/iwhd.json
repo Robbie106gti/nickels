@@ -56,6 +56,11 @@
             "content": "21\" - 27\""
           },
           {
+            "id": "w24r27",
+            "title": "Widths",
+            "content": "24\" or 27\""
+          },
+          {
             "id": "w2130",
             "title": "Widths",
             "content": "21\" - 30\""
@@ -84,6 +89,11 @@
             "id": "w0936",
             "title": "Widths",
             "content": "9\" - 36\""
+          },
+          {
+            "id": "w1236",
+            "title": "Widths",
+            "content": "12\" - 36\""
           },
           {
             "id": "w2236",
@@ -134,6 +144,11 @@
             "id": "w0942",
             "title": "Widths",
             "content": "9\" - 42\""
+          },
+          {
+            "id": "w1242",
+            "title": "Widths",
+            "content": "12\" - 42\""
           },
           {
             "id": "w2242",
@@ -231,6 +246,11 @@
             "content": "2 7/8\""
           },
           {
+            "id": "h05",
+            "title": "Height",
+            "content": "5\""
+          },
+          {
             "id": "h15",
             "title": "Height",
             "content": "15\""
@@ -251,14 +271,29 @@
             "content": "26\""
           },
           {
+            "id": "h27",
+            "title": "Height",
+            "content": "27\""
+          },
+          {
             "id": "h30",
             "title": "Height",
             "content": "30\""
           },
           {
+            "id": "h47",
+            "title": "Height",
+            "content": "47\""
+          },
+          {
             "id": "h0506",
             "title": "Heights",
             "content": "5\" - 6\""
+          },
+          {
+            "id": "h0517",
+            "title": "Heights",
+            "content": "5\" - 17\""
           },
           {
             "id": "h0618",
@@ -351,6 +386,11 @@
             "content": "31\" - 36\""
           },
           {
+            "id": "h2739",
+            "title": "Heights",
+            "content": "27\" - 39\""
+          },
+          {
             "id": "h3042",
             "title": "Heights",
             "content": "30\" - 42\""
@@ -421,6 +461,11 @@
             "content": "56\" - 68\""
           },
           {
+            "id": "h6577",
+            "title": "Heights",
+            "content": "65\" - 77\""
+          },
+          {
             "id": "h6880",
             "title": "Heights",
             "content": "68\" - 80\""
@@ -429,6 +474,11 @@
             "id": "h8086",
             "title": "Heights",
             "content": "80\" - 86\""
+          },
+          {
+            "id": "h7789",
+            "title": "Heights",
+            "content": "77\" - 89\""
           },
           {
             "id": "h8091",
