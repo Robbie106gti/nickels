@@ -24,7 +24,15 @@ $.ajax({
 
 window.onload = getSubs();
 
-      
+var edge = '';
+var ua = window.navigator.userAgent;
+var msie = ua.indexOf("Edge/");
+if(msie !== -1) {
+var edge = ua.split('Edge/')
+if (edge[1] < 16) {
+    edge = 'col s3';
+    }
+}      
 
 function getSubs() {
     
@@ -50,7 +58,7 @@ function getSubs() {
             data = data[cat];
             const html = `${data.map(cat =>
                 `
-                    <div class="card">
+                    <div class="card ${edge}">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="image20 activator" src="${cat.image}">
                         </div>
@@ -78,7 +86,7 @@ function getSubs() {
 
     function getLinks(cat) {
         if (!cat.attached) return;
-        const keys = `${cat.attached.map(a => `<a href="./${a.link}.html?code=${cat.code}${a.height}">${a.height} Inch high</a><br>`).join('')}`;
+        const keys = `${cat.attached.map(a => `<a href="./item/${a.link}.html?code=${cat.code}${a.height}">${a.height} Inch high</a><br>`).join('')}`;
         return keys;
     }
 

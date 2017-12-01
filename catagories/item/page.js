@@ -1,20 +1,20 @@
 //// Main js for catagories /////
 $.ajax({
-    url: "../layout/header.html", 
+    url: "../../layout/header.html", 
     context: document.body,
     success: function(response) {
         $("#header").html(response);
     }
 });
 $.ajax({
-    url: "../layout/footer.html", 
+    url: "../../layout/footer.html", 
     context: document.body,
     success: function(response) {
         $("#footer").html(response);
     }
 });
 $.ajax({
-    url: "../layout/loader.html", 
+    url: "../../layout/loader.html", 
     context: document.body,
     success: function(response) {
         $("#loader").html(response);
@@ -36,7 +36,7 @@ function getPage() {
     }
     const code = $.urlParam('code');
     makeStructure();
-    fetch(`../json/codes.json`)
+    fetch(`../../json/codes.json`)
         .then(response => response.json())
         .then(data => {
             let codes = data[`codes`];
@@ -93,7 +93,7 @@ function getPage() {
 
     function setGI(page) {
         let topic = `
-        <a href="./index.html?cat=${page.cat}" class="right">
+        <a href="../index.html?cat=${page.cat}" class="right">
           <i class="small material-icons">arrow_back</i>
         </a>
         <div id="actions"></div>
@@ -114,7 +114,7 @@ function getPage() {
     }
 
     function setSpecs(specs, page) {
-        fetch(`../json/specifications.json`)
+        fetch(`../../json/specifications.json`)
             .then(response => response.json())
             .then(data => {
                 let spec = data['specifications'].filter(function(el, i) {
@@ -138,7 +138,7 @@ function getPage() {
     }
 
     function setNotes(notes) {
-        fetch(`../json/notes.json`)
+        fetch(`../../json/notes.json`)
             .then(response => response.json())
             .then(data => {
                 let cards = data['notes'].filter(function(el, i) {
@@ -198,7 +198,7 @@ function getPage() {
     function setActions(page) {
         // console.log(page)
         let cat = page.cat.toLowerCase();
-        fetch(`../json/${cat}.json`)
+        fetch(`../../json/${cat}.json`)
             .then(response => response.json())
             .then(data => {
                 
@@ -248,7 +248,7 @@ function getPage() {
     }
 
     function setDim(page) {
-        fetch(`../json/iwhd.json`)
+        fetch(`../../json/iwhd.json`)
             .then(response => response.json())
             .then(data => {
                 let dim = data['iwhd'].filter(function(el, i) {
@@ -267,7 +267,7 @@ function getPage() {
     }
 
     function setOptions(page) {
-        fetch(`../json/addons.json`)
+        fetch(`../../json/addons.json`)
             .then(response => response.json())
             .then(data => {
                 let addons = data['addons'].filter(function(el, i) {

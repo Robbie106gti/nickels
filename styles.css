@@ -75,23 +75,24 @@ p > i {
   padding: 0.5em;
 }
 
-.detail-card {
-  width: 50%;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(2em, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
-}
+@supports(display: grid){
+  .detail-card {
+    width: 50%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(2em, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
+  }
 
-.grid {
-  margin: 0 auto;
-  display: -ms-grid;
-  display: grid;
-  grid-gap: 1em;
-  -ms-grid-columns: (minmax(15em, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  .grid {
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1em;
+    -ms-grid-columns: (minmax(18em, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  }
 }
-
 .image20 {
     max-height: 20vw;
     max-width: 15vw;
@@ -157,4 +158,8 @@ p > i {
   position: absolute;
   right: 2.5em;
   bottom: 1em;
+}
+
+hiie {
+  height: 200px;
 }

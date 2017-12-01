@@ -1,5 +1,5 @@
 //// Main js for entry-point /////
-
+'use strict';
 $.ajax({
     url: "./layout/header.html", 
     context: document.body,
@@ -21,17 +21,18 @@ $.ajax({
         $("#loader").html(response);
     }
 });
-/* $.ajax({
-    url: "/json/catalog.json", 
-    context: document.body,
-    success: function(response) {
-        console.log(response)
-        $("#catalog").html(response);
-    }
-}); */
-
 
 window.onload = getCatalog();
+
+var edge = '';
+var ua = window.navigator.userAgent;
+var msie = ua.indexOf("Edge/");
+if(msie !== -1) {
+var edge = ua.split('Edge/')
+if (edge[1] < 16) {
+    edge = 'col s3';
+    }
+}
 
 function getCatalog() {
     fetch('./json/catalog.json')
@@ -41,7 +42,7 @@ function getCatalog() {
             data = data['catalog'];
            const html = `${data.map(cat =>
                 `
-                <div class="card"><a href="${cat.link}">
+                <div class="card ${edge}"><a href="${cat.link}">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="image20 activator" src="${cat.image}">
                     </div>
