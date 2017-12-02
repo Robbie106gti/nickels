@@ -93,7 +93,7 @@
     "title": "Doors",
     "description": "some information about general information",
     "image": "https://webquoin.com/catalog/images/Brunswick2PC.jpg",
-    "link": "https://webquoin.com/catalog/doorstyle.php",
+    "link": "../doorstyle.php",
     "tags": ["door" ]
     },
     {
@@ -101,7 +101,7 @@
     "title": "Materials and Finishes",
     "description": "some information about general information",
     "image": "https://firebasestorage.googleapis.com/v0/b/modcon-2b3c7.appspot.com/o/uploads%2Fmaterials%2FTM-01.jpg?alt=media&token=cffb2dc4-b621-4406-b172-b03f4e46839a",
-    "link": "https://webquoin.com/catalog/exteriormaterial.html",
+    "link": "../exteriormaterial.html",
     "tags": ["material", "finish" ]
     },
     {
@@ -109,7 +109,7 @@
     "title": "Finished Sides",
     "description": "some information about general information",
     "image": "https://firebasestorage.googleapis.com/v0/b/modcon-2b3c7.appspot.com/o/uploads%2Fmaterials%2FTM-01.jpg?alt=media&token=cffb2dc4-b621-4406-b172-b03f4e46839a",
-    "link": "finished-sides",
+    "link": "../FinishSide.html",
     "tags": ["finish" ]
     },
     {
@@ -117,7 +117,7 @@
     "title": "columns",
     "description": "some information about general information",
     "image": "https://st.hzcdn.com/simgs/07c1025902e2b56a_4-8427/beach-style-kitchen.jpg",
-    "link": "https://webquoin.com/catalog/Columns.html",
+    "link": "../Columns.html",
     "tags": ["column" ]
     },
     {
@@ -173,7 +173,7 @@
     "title": "Customization Charges",
     "description": "some information about general information",
     "image": "https://webquoin.com/catalog/images/CustomCodes/NoGap.jpg",
-    "link": "https://webquoin.com/catalog/CC-____.html",
+    "link": "../CC-____.html",
     "tags": ["customization", "charge" ]
     }
   ]

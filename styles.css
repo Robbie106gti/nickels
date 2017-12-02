@@ -163,3 +163,17 @@ p > i {
 hiie {
   height: 200px;
 }
+
+.listitem {  
+  margin-left: 0.5em;
+  margin-top: -0.1rem;
+  margin-bottom: 0.7rem;
+  line-height: 1.6rem;
+  display: list-item;          /* This has to be "list-item"                                               */
+  list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+}
+
+.h5 {
+  font-weight: bold;
+}
