@@ -44,7 +44,8 @@ function getCatalog() {
         // console.log(data['catalog']);
         data = data['catalog'];
         var html = '' + data.map(function (cat) {
-            return '\n                <div class="card col s3 hiie"><a href="' + cat.link + '">\n                    <div class="card-image waves-effect waves-block waves-light">\n                        <img class="image20 activator" src="' + cat.image + '">\n                    </div>\n                    <div class="card-content">\n                        <span class="card-title activator grey-text text-darken-4">' + cat.title + '</span>\n                        ' + getTags(cat.tags) + '\n                    </div></a>\n                </div>\n                ';
+            if(cat.visable === false) { return ''; }
+            return '\n                <div class="card col s3 m3"><a href="' + cat.link + '">\n                    <div class="card-image hiie waves-effect waves-block waves-light">\n                        <img class="image20 activator" src="' + cat.image + '">\n                    </div>\n                    <div class="card-content">\n                        <span class="card-title activator grey-text text-darken-4">' + cat.title + '</span>\n                        ' + getTags(cat.tags) + '\n                    </div></a>\n                </div>\n                ';
         }).join('');
         $('#catalog').html(html);
     }).catch(function (err) {

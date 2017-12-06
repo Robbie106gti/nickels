@@ -16,7 +16,7 @@
         }
       ],
     "image": "https://usa.denon.com/Assets/images/Support_Warranty_Extended.jpg",
-    "tags": ["warranty", "term", "condition", "wood", "characteristic" ]
+    "tags": ["warranty", "term", "condition", "wood" ]
     },
     {
     "code": "CKCA",
@@ -170,7 +170,7 @@
                         }
                       ],
                     "image": "https://chicagoinjurycenter.com/wp-content/uploads/2014/05/delivery-trucks.jpg",
-                    "tags": ["prepaid", "charge", "collect", "ship", "drop", "fee", "other"]
+                    "tags": ["prepaid", "charge", "collect", "ship", "drop", "fee" ]
                     },
                     {
                       "code": "EPS",

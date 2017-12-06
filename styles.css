@@ -179,8 +179,13 @@ p > i {
   bottom: 1em;
 }
 
-hiie {
-  height: 200px;
+.hiie {
+  height: 15vw !important;
+}
+
+.hie {
+  height: 8vw !important;
+  overflow: hidden;
 }
 
 .listitem {  
