@@ -64,7 +64,7 @@ function getSubs() {
         fetch(`../json/${catagory}.json`)
         .then(response => response.json())
         .then(data => {
-            // console.log(data['catalog']);
+            console.log(data['catalog']);
             data = data[cat];
             const html = `${data.map(cat =>
                 `<div class="card ${edge}">

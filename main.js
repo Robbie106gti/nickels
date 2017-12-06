@@ -40,8 +40,9 @@ function getCatalog() {
         .then(data => {
             // console.log(data['catalog']);
             data = data['catalog'];
-           const html = `${data.map(cat =>
-                `
+           const html = `${data.map(cat => {
+               if(cat.visable === false) { return ''; }
+                let html = `
                 <div class="card ${edge}"><a href="${cat.link}">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="image20 activator" src="${cat.image}">
@@ -51,7 +52,9 @@ function getCatalog() {
                         ${getTags(cat.tags)}
                     </div></a>
                 </div>
-                `
+                `;
+                return html;
+            }
             ).join('')}`;
             $('#catalog').html(html);
         })

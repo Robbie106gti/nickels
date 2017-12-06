@@ -35,24 +35,76 @@ function getPage() {
            return decodeURI(results[1]) || 0;
         }
     }
-    const code = $.urlParam('code');
-    makeStructure();
+    const code = $.urlParam('code');    
     fetch(`../../json/general information.json`)
         .then(response => response.json())
         .then(data => {
             let codes = data[`items`];
             let page = codes.filter(function(el) { return el.code === code })
-            page = page[0];
-            setGI(page);
-            setDes(page);
-            setPar(page);
-            setimages(page);
-            setNotes(page.notes);
-            setOptions(page);
-            console.log(page)
+            page = page[0]; 
+            console.log(page);
+            switch (page.template) {
+                case 'empolyees':
+                    makeEmployee();      
+                    setGI(page);
+                    setDes(page);
+                    setPar(page);
+                    insertEmployees(page);
+                    setContact(page);
+                    break;
+                default:          
+                    makeStructure();          
+                    setGI(page);
+                    setDes(page);
+                    setPar(page);
+                    setimages(page);
+                    setNotes(page.notes);
+                    setOptions(page);
+            }
         })
         .catch(err => console.log(err));
     }  
+
+    function makeEmployee() {
+        let main = `<div class="col s12 m12 card">
+            <div id="des" class="col s6 offset-s3 m6 offset-m3"></div>
+            <div id="para" class="flow-text col s6 offset-s3 m6 offset-m3"></div>
+            <div class="col s12 m12"><h3 class="center-align">Contact us</h3></div>
+            <div id="address" class="col s6 m4 "></div>
+            <div id="hours" class="col s6 m4"></div>
+            <div id="social" class="col s6 m4"></div>
+        </div>
+        <div id="images" class="col s12 m12 grid2">
+        </div>`;
+        $("#catalog").html(main);
+    }
+
+    function insertEmployees(page) {
+        let people = page.employees;
+        people.sort(dynamicSort("lname"));
+        let employees = `${people.map(p => employeeCard(p)).join('')}`;
+        $("#images").html(employees);
+    }
+
+    function employeeCard(p) {
+        if(p.working === false) { return ''; }
+        let card = `
+        <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="${p.image}">
+                <span class="card-title bgd1">${p.fname} ${p.lname}</span>
+            </div>
+            <div class="card-action">${p.position}</div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">${p.fname} ${p.lname}<i class="material-icons right">close</i></span>
+                <ul>
+                    <li>E-mail: <a href="mailto:${p.email}">${p.email}</a></li>
+                    <li># Ext: ${p.phone}</li>
+                </ul>
+            </div>
+        </div>`;
+        return card;
+    }
     
     function makeStructure() {
         let main = `
@@ -67,6 +119,55 @@ function getPage() {
             <div id="options" class="col s12 m6"></div>
         </div>`;
         $("#catalog").html(main);
+    }
+
+    function setContact(page) {
+        let address = `
+        <div class="card-panel grey lighten-5 z-depth-1">
+            <div class="row valign-wrapper">
+                <div class="col s2">
+                    <img src="../../assets/nc.gif" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                </div>
+                <div class="col s10">
+                    <h4>${page.address.name}</h4>
+                    <ul>
+                        <li>${page.address.street}</li>
+                        <li>${page.address.city}, ${page.address.state}</li>
+                        <li>${page.address.postcode}</li>
+                        <br><div class="divider"></div><br>
+                        <li>Phone: ${page.address.phone}</li>
+                        <li>Toll free: ${page.address.tfphone}</li>
+                        <li>Fax: ${page.address.fax}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>`;
+        let hours = `
+        <div class="card-panel grey lighten-5 z-depth-1">
+            <div class="row valign-wrapper">
+                <div class="col s12">
+                    <h4>Office hours:</h4>
+                    <ul>
+                        <li>${page.hours.days}</li>
+                        <li>from ${page.hours.ftime} to ${page.hours.ttime} (${page.hours.zone})</li>
+                    </ul>
+                </div>
+            </div>
+        </div>`;
+        let social = `
+        <div class="card-panel grey lighten-5 z-depth-1">
+            <div class="row valign-wrapper">
+                <div class="col s12">
+                    <h4>Other ways to connect with us:</h4>
+                    <ul>
+                        ${page.social.map(s => `<li>${s.name} <a href="${s.link}${s.email}">${s.content}</a></li>`).join('')}
+                    </ul>
+                </div>
+            </div>
+        </div>`;
+        $("#address").html(address);
+        $("#hours").html(hours);
+        $("#social").html(social);
     }
     
     function setGI(page) {
@@ -163,4 +264,16 @@ function getPage() {
                   });
         })
         .catch(err => console.log(err));
+    }
+
+    function dynamicSort(property) {
+        var sortOrder = 1;
+        if(property[0] === "-") {
+            sortOrder = -1;
+            property = property.substr(1);
+        }
+        return function (a,b) {
+            var result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 0;
+            return result * sortOrder;
+        }
     }

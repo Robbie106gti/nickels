@@ -126,29 +126,6 @@
               "image": "http://sigmatechnology.se/wp-content/uploads/sites/2/2015/04/icon-research.png",
               "tags": ["company", "product", "information", "nickels"]
               },
-              {
-                "code": "CHO",
-                "title": "Cabinet Height Options",
-                "attached": [
-                    {
-                      "sub": "TCS",
-                      "title": "Tall Cabinets",
-                      "link": "gi"
-                    },
-                    {
-                      "sub": "BCS",
-                      "title": "Base Cabinets",
-                      "link": "gi"
-                    },
-                    {
-                      "sub": "WCS",
-                      "title": "Wall Cabinets",
-                      "link": "gi"
-                    }
-                  ],
-                "image": "http://d2r5da613aq50s.cloudfront.net/wp-content/uploads/289118.image1.jpg",
-                "tags": ["tall", "wall", "base", "cabinet"]
-                },
                 {
                   "code": "PMS",
                   "title": "Promotional Materials",
@@ -166,11 +143,16 @@
                     "code": "PDY",
                     "title": "Product Delivery",
                     "attached": [
-                        {
-                          "sub": "PNC",
-                          "title": "Prepaid & Charge",
-                          "link": "gi"
-                        },
+                      {
+                        "sub": "PDY",
+                        "title": "Product Delivery",
+                        "link": "gi"
+                      },
+                      {
+                        "sub": "PNC",
+                        "title": "Prepaid & Charge",
+                        "link": "gi"
+                      },
                         {
                           "sub": "CCT",
                           "title": "Collect",
@@ -187,9 +169,22 @@
                           "link": "gi"
                         }
                       ],
-                    "image": "http://www.altitudegraphics.com/desktop/images/shirts.png",
+                    "image": "https://chicagoinjurycenter.com/wp-content/uploads/2014/05/delivery-trucks.jpg",
                     "tags": ["prepaid", "charge", "collect", "ship", "drop", "fee", "other"]
-                    }
+                    },
+                    {
+                      "code": "EPS",
+                      "title": "Employees",
+                      "attached": [
+                        {
+                          "sub": "EPS",
+                          "title": "Employees",
+                          "link": "gi"
+                        }
+                        ],
+                      "image": "../assets/nc.gif",
+                      "tags": [ "employees", "emails", "phone", "extensions"]
+                      }
   ],
   "items": [
     {
@@ -791,6 +786,426 @@
       ],
       "notes": [ ],
       "options": [  ]
+    },
+    {
+      "active": true,
+      "code": "PDYPDY",
+      "cat": "General Information",
+      "root": "PDY",
+      "title": "Product Delivery",
+      "description": "Product Delivery",
+      "paragraphs": [ 
+        {
+          "text": "delivery times are based on the volume of production in the shop. The approximate Order Desk wait times and Production lead times will be posted on the message board in Webquoin. In general, the following guidelines will apply:",
+          "class": ""
+        },
+        {
+          "text": "Regular Orders",
+          "class": "nritem"
+        },
+        {
+          "text": "Regular Orders will be scheduled for shipping based on Nickels production time see Webquoin.",
+          "class": "listitem"
+        },
+        {
+          "text": "Certain special finishes and materials may increase the lead times required.",
+          "class": "listitem"
+        },
+        {
+          "text": "If the lead time changes, the Dealer will be notified through the Webquoin system.",
+          "class": "listitem"
+        },
+        {
+          "text": "Quick Ship - Orders with Doors",
+          "class": "nritem"
+        },
+        {
+          "text": "These orders are for miscellaneous items that are needed in a hurry to complete a job.",
+          "class": "listitem"
+        },
+        {
+          "text": "Can include items like damaged cabinets, moldings, missed fillers, etc.",
+          "class": "listitem"
+        },
+        {
+          "text": "These orders can be used for an order for Dealer sample products.",
+          "class": "listitem"
+        },
+        {
+          "text": "NOT available for ordering cabinets that were not on the original order",
+          "class": "listitem"
+        },
+        {
+          "text": "These orders will be labeled as \"Quick Ship\" and will be scheduled for shipping in a minimum of 12 working days.",
+          "class": "listitem"
+        },
+        {
+          "text": "Quick Ship - Orders without Doors",
+          "class": "nritem"
+        },
+        {
+          "text": "These orders are for miscellaneous items that are needed in a hurry to complete a job.",
+          "class": "listitem"
+        },
+        {
+          "text": "Can include items like damaged moldings, missed fillers, etc.",
+          "class": "listitem"
+        },
+        {
+          "text": "NOT available for ordering cabinets that were not on the original order",
+          "class": "listitem"
+        },
+        {
+          "text": "These orders will be labeled \"Quick Ship\" and will be scheduled for shipping in a minimum of 5 working days.",
+          "class": "listitem"
+        },
+        {
+          "text": "NOTE: These are on confirmed orders.",
+          "class": "note noteitem"
+        },
+        {
+          "text": "Dealers may request earlier shipping dates, however, Nickels Cabinets cannot guarantee that the product will be shipped any sooner than the above lead times.",
+          "class": ""
+        },
+        {
+          "text": "An approximate delivery time will be given through Webquoin shortly after confirmation.  This is the date the Dealer should expect the cabinets to be shipped.",
+          "class": ""
+        },
+        {
+          "text": "All orders are FOB Nickels, Richmond BC warehouse. Nickels will offer 2 options for processing and shipping orders to the final destination: Prepaid & Charge (using ground transportation) or Collect.",
+          "class": ""
+        },
+        {
+          "text": "Dealers may also request delivery of small orders/parts by courier, either with air or ground service. If so requested, the dealer must provide their courier account information and Nickels will take care of all the required paperwork and contact with the courier. This method will be done at the dealers expense and if required, ground or air service must be specified when placing the order.",
+          "class": ""
+        }
+      ],
+      "images": [
+        {
+          "title": "",
+          "image": "https://chicagoinjurycenter.com/wp-content/uploads/2014/05/delivery-trucks.jpg"
+        }
+      ],
+      "notes": [ ],
+      "options": [  ]
+    },
+    {
+      "active": true,
+      "code": "EPSEPS",
+      "cat": "General Information",
+      "root": "EPS",
+      "title": "nickels cabinets",
+      "description": "In 1979,",
+      "template": "empolyees",
+      "paragraphs": [ 
+        {
+          "text": "Dieter Nickel convinced his dad, Peter, to join him in building a cabinet company that would have its beginnings in a garage in Richmond, British Columbia. Right from the start, the value of hard and honest work and the strength of the Nickel name was drilled into the core of our brand. Our mission is to provide value through our assurance of consistent quality and service.",
+          "class": ""
+        },
+        {
+          "text": "Time and technology have brought many changes to Nickels Cabinets, but one thing has remained true",
+          "class": ""
+        },
+        {
+          "text": "--discerning clients rely on us to care about the details required for exceptional cabinetwork.",
+          "class": ""
+        },
+        {
+          "text": "At Nickels our staff are steadfastly committed to this goal.",
+          "class": ""
+        }
+      ],
+      "employees": [
+        {
+          "fname": "Scott",
+          "lname": "Alkema",
+          "image": "http://www.nickelscabinets.com/images/team/scott.jpg",
+          "position": "custom millwork engineer",
+          "email": "scott@nickelscabinets.com",
+          "phone": "228"
+        },
+        {
+          "fname": "Leo",
+          "lname": "Almeida",
+          "image": "http://www.nickelscabinets.com/images/team/leo.jpg",
+          "position": "breakout teamleader",
+          "email": "breakout@nickelscabinets.com",
+          "phone": "238"
+        },
+        {
+          "fname": "Ken",
+          "lname": "Baerg",
+          "image": "http://www.nickelscabinets.com/images/team/ken.jpg",
+          "position": "engineering team leader",
+          "email": "ken@nickelscabinets.com",
+          "phone": "237"
+        },
+        {
+          "fname": "Kal",
+          "lname": "Bopari",
+          "image": "http://www.nickelscabinets.com/images/team/kal.jpg",
+          "position": "doors lead hand",
+          "email": "doors@nickelscabinets.com",
+          "phone": "252"
+        },
+        {
+          "fname": "David",
+          "lname": "Chan",
+          "image": "http://www.nickelscabinets.com/images/team/dchan.jpg",
+          "position": "purchasing",
+          "email": "purchasing@nickelscabinets.com",
+          "phone": "235"
+        },
+        {
+          "fname": "Arion",
+          "lname": "Choi",
+          "image": "http://www.nickelscabinets.com/images/team/arion.jpg",
+          "position": "custom millwork engineer",
+          "email": "arion@nickelscabinets.com",
+          "phone": "225"
+        },
+        {
+          "fname": "Giuliano Correa",
+          "lname": "Cristofaro",
+          "image": "http://www.nickelscabinets.com/images/team/Giuliano.jpg",
+          "position": "finishing team coordinator",
+          "email": "finishing@nickelscabinets.com",
+          "phone": "226"
+        },
+        {
+          "fname": "Chris",
+          "lname": "Czapiewski",
+          "image": "http://www.nickelscabinets.com/images/team/chris.jpg",
+          "position": "engineer",
+          "email": "chris@nickelscabinets.com",
+          "phone": "232"
+        },
+        {
+          "fname": "Khin",
+          "lname": "Dang",
+          "image": "http://www.nickelscabinets.com/images/team/khin.jpg",
+          "position": "drawer assembly lead hand",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "fname": "Ted",
+          "lname": "Federau",
+          "image": "http://www.nickelscabinets.com/images/team/ted.jpg",
+          "position": "general manager",
+          "email": "ted@nickelscabinets.com",
+          "phone": "236"
+        },
+        {
+          "fname": "Tony",
+          "lname": "Flores",
+          "image": "http://www.nickelscabinets.com/images/team/tony.jpg",
+          "position": "spray booth coordinator",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "fname": "Keith J.",
+          "lname": "Grubaugh",
+          "image": "http://www.nickelscabinets.com/images/team/keith.jpg",
+          "position": "director of sales and marketing",
+          "email": "keith@nickelscabinets.com",
+          "phone": "241"
+        },
+        {
+          "fname": "Harry",
+          "lname": "Janzen",
+          "image": "http://www.nickelscabinets.com/images/team/harry.jpg",
+          "position": "lean team leader",
+          "email": "harry@nickelscabinets.com",
+          "phone": "242"
+        },
+        {
+          "fname": "Stanimir",
+          "lname": "Kolev",
+          "image": "http://www.nickelscabinets.com/images/team/stan.jpg",
+          "position": "engineer",
+          "email": "stan@nickelscabinets.com",
+          "phone": "223"
+        },
+        {
+          "fname": "Tina",
+          "lname": "Krumhardt",
+          "image": "http://www.nickelscabinets.com/images/team/tina.jpg",
+          "position": "designer support",
+          "email": "tina@nickelscabinets.com",
+          "phone": "249"
+        },
+        {
+          "fname": "Robert",
+          "lname": "Leeuwerink",
+          "image": "http://www.nickelscabinets.com/images/team/rob.jpg",
+          "position": "graphics/web designer",
+          "email": "rob@nickelscabinets.com",
+          "phone": "234"
+        },
+        {
+          "fname": "Dan",
+          "lname": "Lenz",
+          "image": "http://www.nickelscabinets.com/images/team/dan.jpg",
+          "position": "custom millwork lead hand",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "fname": "Danny",
+          "lname": "Lenz",
+          "image": "http://www.nickelscabinets.com/images/team/danny.jpg",
+          "position": "designer support team leader",
+          "email": "danny@nickelscabinets.com",
+          "phone": "233"
+        },
+        {
+          "fname": "Sophia",
+          "lname": "Li",
+          "image": "http://www.nickelscabinets.com/images/team/sophia.jpg",
+          "position": "accountant",
+          "email": "sophia@nickelscabinets.com",
+          "phone": "229"
+        },
+        {
+          "fname": "Megan",
+          "lname": "McCrea",
+          "image": "http://www.nickelscabinets.com/images/team/megan.jpg",
+          "position": "dealer relations",
+          "email": "megan@nickelscabinets.com",
+          "phone": "221"
+        },
+        {
+          "fname": "Benny",
+          "lname": "Ng",
+          "image": "http://www.nickelscabinets.com/images/team/benny.jpg",
+          "position": "engineer",
+          "email": "benny@nickelscabinets.com",
+          "phone": "",
+          "working": false
+        },
+        {
+          "fname": "Dennis",
+          "lname": "Ng",
+          "image": "http://www.nickelscabinets.com/images/team/dennis.jpg",
+          "position": "millwork / service lead hand",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "fname": "Dieter",
+          "lname": "Nickel",
+          "image": "http://www.nickelscabinets.com/images/team/dieter.jpg",
+          "position": "president",
+          "email": "dieter@nickelscabinets.com",
+          "phone": "230"
+        },
+        {
+          "fname": "David",
+          "lname": "Richer",
+          "image": "http://www.nickelscabinets.com/images/team/davidr.jpg",
+          "position": "office manager",
+          "email": "dricher@nickelscabinets.com",
+          "phone": "231"
+        },
+        {
+          "fname": "Derek",
+          "lname": "Stewart",
+          "image": "http://www.nickelscabinets.com/images/team/Derek%20Stewart.JPG",
+          "position": "shipping team leader",
+          "email": "shipping@nickelscabinets.com",
+          "phone": "243"
+        },
+        {
+          "fname": "Miyuki",
+          "lname": "Tai",
+          "image": "http://www.nickelscabinets.com/images/team/miyuki.jpg",
+          "position": "accounts payable / receivable",
+          "email": "accounting@nickelscabinets.com",
+          "phone": "224"
+        },
+        {
+          "fname": "Sukhi",
+          "lname": "Uppal",
+          "image": "http://www.nickelscabinets.com/images/team/sukhi.jpg",
+          "position": "final assembly lead hand",
+          "email": "",
+          "phone": ""
+        },
+        {
+          "fname": "Sven",
+          "lname": "Weller",
+          "image": "http://www.nickelscabinets.com/images/team/sven.jpg",
+          "position": "millwright",
+          "email": "sven@nickelscabinets.com",
+          "phone": "242"
+        },
+        {
+          "fname": "Garett",
+          "lname": "White",
+          "image": "http://www.nickelscabinets.com/images/team/garett.jpg",
+          "position": "pre-assembly team leader",
+          "email": "garett@nickelscabinets.com",
+          "phone": "240"
+        },
+        {
+          "fname": "Ide",
+          "lname": "Wong",
+          "image": "http://www.nickelscabinets.com/images/team/Wong-Ide.jpg",
+          "position": "designer support",
+          "email": "ide@nickelscabinets.com",
+          "phone": "244"
+        }
+      ],
+      "notes": [ ],
+      "options": [  ],
+      "address": 
+        { 
+          "name": "Our head office:",
+          "street": "6760 Graybar Road",
+          "city": "Richmond",
+          "postcode": "V6W 1J1",
+          "state": "BC",
+          "phone": "604.270.8080",
+          "tfphone": "1.877.270.8081",
+          "fax": "604.270.3618"
+        },
+        "hours": {
+          "days": "Monday to Friday",
+          "ftime": "8:00 am",
+          "ttime": "4:30 pm",
+          "zone": "PST"
+        },
+        "social": [
+          { 
+            "name": "E-mail:", 
+            "link": "mailto:",
+            "email": "info@nickelscabinets.com",
+            "content": "E-mail us at"
+          },
+          {
+            "name": "Like us on:",
+            "link": "http://facebook.com/nickelscabinets",
+            "content": "Facebook"
+          },
+          {
+            "name": "Join our cicle on:",
+            "link": "https://plus.google.com/b/117592498014579966625/117592498014579966625/posts",
+            "content": "Google+"
+          },
+          {
+            "name": "Follow us on:",
+            "link": "http://pinterest.com/nickelscabinets",
+            "content": "Pinterest"
+          },
+          {
+            "name": "Follow us on:",
+            "link": "http://twitter.com/nickelscabinets",
+            "content": "Twitter"
+          }
+        ]
+
     }
   ]
 }

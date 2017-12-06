@@ -126,7 +126,8 @@
     "description": "some information about general information",
     "image": "http://oslokitchens.com/images/access/12.jpg",
     "link": "accessories-a-d",
-    "tags": ["accessories", "accessory" ]
+    "tags": ["accessories", "accessory" ],
+    "visable": false
     },
     {
     "id": "16",
@@ -134,7 +135,8 @@
     "description": "some information about general information",
     "image": "http://oslokitchens.com/images/access/12.jpg",
     "link": "accessories-e-g",
-    "tags": ["accessories", "accessory" ]
+    "tags": ["accessories", "accessory" ],
+    "visable": false
     },
     {
     "id": "17",
@@ -142,7 +144,8 @@
     "description": "some information about general information",
     "image": "http://oslokitchens.com/images/access/12.jpg",
     "link": "accessories-h-l",
-    "tags": ["accessories", "accessory" ]
+    "tags": ["accessories", "accessory" ],
+    "visable": false
     },
     {
     "id": "18",
@@ -150,7 +153,8 @@
     "description": "some information about general information",
     "image": "http://oslokitchens.com/images/access/12.jpg",
     "link": "accessories-m-z",
-    "tags": ["accessories", "accessory" ]
+    "tags": ["accessories", "accessory" ],
+    "visable": false
     },
     {
     "id": "19",
@@ -158,7 +162,8 @@
     "description": "some information about general information",
     "image": "http://www.rbscorp.com/products/images/brands/windsor-one-molding-trim.jpg",
     "link": "catagories/trim.html?cat=Trims%20Moldings",
-    "tags": ["trim", "molding" ]
+    "tags": ["trim", "molding" ],
+    "visable": false
     },
     {
     "id": "19",
@@ -166,7 +171,8 @@
     "description": "some information about general information",
     "image": "http://russwittmann.com/wp-content/uploads/2017/04/kitchen-countertops-south-jersey-together-with-installing-new-countertops-for-modern-kitchen-kitchen-picture-kitchen-counter-options.jpg",
     "link": "counters",
-    "tags": ["counter" ]
+    "tags": ["counter" ],
+    "visable": false
     },
     {
     "id": "20",

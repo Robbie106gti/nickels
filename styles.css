@@ -83,16 +83,26 @@ p > i {
     -ms-grid-columns: (minmax(2em, 1fr))[auto-fit];
         grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
   }
-
-  .grid {
-    margin: 0 auto;
-    display: -ms-grid;
-    display: grid;
-    grid-gap: 1em;
-    -ms-grid-columns: (minmax(18em, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-  }
+  
+    .grid {
+      margin: 0 auto;
+      display: -ms-grid;
+      display: grid;
+      grid-gap: 1em;
+      -ms-grid-columns: (minmax(18em, 1fr))[auto-fit];
+          grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+    }
+    
+    .grid2 {
+      margin: 0 auto;
+      display: -ms-grid;
+      display: grid;
+      grid-gap: 1em;
+      -ms-grid-columns: (minmax(12em, 1fr))[auto-fit];
+          grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+    }
 }
+
 .image20 {
     max-height: 20vw;
     max-width: 15vw;
@@ -105,12 +115,21 @@ p > i {
   width: auto !important;
 }
 
+.card-empl {
+  max-height: 10vw;
+  max-width: 100%;
+}
+
 .card .card-image {
   max-height: 15vw !important;
 }
 
 .inactive {
   background-color: #263238;
+}
+
+.bgd1 {
+ background-color: rgba(66, 96, 121, 0.459)
 }
 
 .inactive > .card-image > img {  
@@ -176,4 +195,16 @@ hiie {
 
 .h5 {
   font-weight: bold;
+}
+
+.noteitem {
+  background-color: rgb(255, 157, 157);
+  border-radius: 0.2em;
+  border: solid 1px rgb(59, 3, 3);
+}
+
+.nritem {
+  display: list-item;          /* This has to be "list-item"                                               */
+  list-style-type: circle;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
 }
