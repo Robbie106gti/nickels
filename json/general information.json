@@ -184,7 +184,30 @@
                         ],
                       "image": "../assets/nc.gif",
                       "tags": [ "employees", "emails", "phone", "extensions"]
-                      }
+                      },
+                      {
+                        "code": "MPT",
+                        "title": "Media",
+                        "attached": [
+                          {
+                            "sub": "TVS",
+                            "title": "Tutorial videos",
+                            "link": "mpt"
+                          },
+                          {
+                            "sub": "PHO",
+                            "title": "Photos",
+                            "link": "mpt"
+                          },
+                          {
+                            "sub": "DLS",
+                            "title": "Downloads",
+                            "link": "mpt"
+                          }
+                          ],
+                        "image": "http://thecinematheque.ca/education/wp-content/uploads/2012/12/Implementing-Media-Education-Large.jpg",
+                        "tags": [ "tutorials", "photos", "downloads", "videos"]
+                        }
   ],
   "items": [
     {
@@ -1206,6 +1229,156 @@
           }
         ]
 
+    },
+    {
+      "active": true,
+      "code": "MPTTVS",
+      "cat": "General Information",
+      "root": "MPT",
+      "title": "Tutorial videos",
+      "description": "get up to speed with webquoin",
+      "template": "media",
+      "paragraphs": [ 
+        {
+          "text": "",
+          "class": ""
+        }
+      ],
+      "images": [
+        {
+          "title": "",
+          "image": ""
+        }
+      ],
+      "videos": [
+        {
+          "title": "Toe kick & Leg levers",
+          "video": "224249823",
+          "tags": ["toe kick", "leg levers"]
+        },
+        {
+          "title": "Promo Mini Base",
+          "video": "224249625",
+          "tags": ["mini base" ]
+        },
+        {
+          "title": "Drawer face adjustments",
+          "video": "224249476",
+          "tags": ["drawer face", "adjustments" ]
+        },
+        {
+          "title": "Showroom video",
+          "video": "190013975",
+          "tags": ["showroom" ]
+        },
+        {
+          "title": "Color HDM Changes",
+          "video": "157468879",
+          "tags": ["color changes", "header drop-down menu" ]
+        },
+        {
+          "title": "New Euro Materials",
+          "video": "157362440",
+          "tags": ["color changes", "euro materials" ]
+        },
+        {
+          "title": "Using the Custom Library Part 4",
+          "video": "156620205",
+          "tags": [ "library items", "part 4" ]
+        },
+        {
+          "title": "Using the Custom Library Part 3",
+          "video": "156620189",
+          "tags": [ "library items", "part 3", "of 4" ]
+        },
+        {
+          "title": "Using the Custom Library Part 2",
+          "video": "156620409",
+          "tags": [ "library items", "part 2", "of 4" ]
+        },
+        {
+          "title": "Using the Custom Library Part 1",
+          "video": "156620163",
+          "tags": [ "library items", "part 1", "of 4" ]
+        },
+        {
+          "title": "Searching Items Inside a Quote",
+          "video": "156619660",
+          "tags": [ "quote", "searching", "items inside" ]
+        },
+        {
+          "title": "Editing a Cabinet",
+          "video": "156619567",
+          "tags": [ "editing", "cabinet" ]
+        },
+        {
+          "title": "Attaching Accessories and Notes",
+          "video": "156618068",
+          "tags": [ "accessories", "notes" ]
+        },
+        {
+          "title": "Adding Cabinets",
+          "video": "156618063",
+          "tags": [ "add", "cabinet" ]
+        },
+        {
+          "title": "Header Drop-Down Menus",
+          "video": "156618003",
+          "tags": [ "hdm", "header drop-down menu" ]
+        },
+        {
+          "title": "Header Drop-Down Menus",
+          "video": "156618003",
+          "tags": [ "hdm", "header drop-down menu" ]
+        },
+        {
+          "title": "Starting Your First Quote",
+          "video": "156617956",
+          "tags": [ "first", "quote" ]
+        },
+        {
+          "title": "Welcome to Webquoin",
+          "video": "156617846",
+          "tags": [ "welcome", "webquoin" ]
+        },
+        {
+          "title": "Welcome to Webquoin",
+          "video": "156617846",
+          "tags": [ "welcome", "webquoin" ]
+        },
+        {
+          "title": "Gloss Materials and Doors",
+          "video": "156617529",
+          "tags": [ "doors", "gloss material" ]
+        },
+        {
+          "title": "Gloss Materials and Doors",
+          "video": "156617529",
+          "tags": [ "doors", "gloss material" ]
+        },
+        {
+          "title": "Backorder System Part 2",
+          "video": "156331693",
+          "tags": [ "backorder", "system", "part 2 of 2" ]
+        },
+        {
+          "title": "Backorder System Part 1",
+          "video": "156331692",
+          "tags": [ "backorder", "system", "part 1 of 2" ]
+        },
+        {
+          "title": "Changes to Doors, Door Edges and Drawer Face Options",
+          "video": "156326663",
+          "tags": [ "doors", "edges", "drawersfaces" ]
+        },
+        {
+          "title": "New Webquoin Feature - Most Popular Attachments",
+          "video": "156289761",
+          "tags": [ "webquoin", "features", "popular attachments" ]
+        }
+      ],
+      "notes": [ ],
+      "options": [  ]
     }
   ]
 }
