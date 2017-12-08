@@ -1236,7 +1236,7 @@
       "cat": "General Information",
       "root": "MPT",
       "title": "Tutorial videos",
-      "description": "get up to speed with webquoin",
+      "description": "Get up to speed with webquoin, make sure to be logged in at Vimeo",
       "template": "media",
       "paragraphs": [ 
         {
@@ -1377,6 +1377,19 @@
           "tags": [ "webquoin", "features", "popular attachments" ]
         }
       ],
+      "notes": [ ],
+      "options": [  ]
+    },
+    {
+      "active": true,
+      "code": "MPTPHO",
+      "cat": "General Information",
+      "root": "MPT",
+      "title": "Images",
+      "description": "Dropbox images for public use, click on name of image to download",
+      "paragraphs": [ ],
+      "images": [ ],
+      "folder": "https://www.dropbox.com/sh/h3rph6eutrbi74f/AADASbLxYpPEYFuAkzB3LEffa?dl=0",
       "notes": [ ],
       "options": [  ]
     }

@@ -53,7 +53,9 @@ function getPage() {
                     videos(page); 
                     break;
                 default:          
-                    makeStructure();     
+                    makeMedia();   
+                    setGI(page);
+                    setImages(page);
             }
         })
         .catch(err => console.log(err));
@@ -96,6 +98,20 @@ function getPage() {
         return card;        
     }
     
+    function cardDropbox(image) {
+        let card =  `<div class="card ${edge}">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="responsive-img materialboxed" src="https://webquoin.com/catalog/build/assets${image.path_lower}">
+                        </div>
+                        <div class="card-content">
+                            <a href="https://webquoin.com/catalog/build/assets${image.path_lower}" download>
+                                <span class="card-title grey-text text-darken-4">${image.name}</span>
+                            </a>
+                        </div>
+                    </div>`;
+        return card;        
+    }
+    
     function getTags(tags) {
         if (!tags) return;
         const keys = `${tags.map(tag => `<div class="chip">${tag}</div>`).join('')}`;
@@ -109,9 +125,26 @@ function getPage() {
         </a>
         <div id="actions"></div>
         <div>
-            <h3 class="center-align">Tutorial videos from our Vimeo</h3>
-            <h6 class="center-align">Make sure to be logged in at Vimeo</h6>
+            <h3 class="center-align">${page.title}</h3>
+            <h6 class="center-align">${page.description}</h6>
         </div>        
         `;
         $("#topic").html(topic);
+    }
+
+    function setImages(page) {
+        var dbx = new Dropbox({ accessToken: 'KK55he_frfAAAAAAAAABbWEaOtBGTzkI7Hs4lMqJ1TG0TxDHpPMuOVoce72CitZm' });
+        dbx.filesListFolder({path: '/nickels kitchens'})
+            .then(response => {
+            console.log(response);
+            let images = response.entries.map(image => cardDropbox(image)).join('');
+            $("#videos").html(images);
+            $(document).ready(function(){
+                $('.materialboxed').materialbox();
+              });
+            }
+        )
+        .catch(function(error) {
+            console.log(error);
+        });
     }
