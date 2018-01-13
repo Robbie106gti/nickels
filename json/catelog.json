@@ -1,5 +1,5 @@
 {
-  "catalog": [
+  [
     {
     "id": "0",
     "title": "General Information",
@@ -163,7 +163,7 @@
     "image": "http://www.rbscorp.com/products/images/brands/windsor-one-molding-trim.jpg",
     "link": "catagories/trim.html?cat=Trims%20Moldings",
     "tags": ["trim", "molding" ],
-    "visable": true
+    "visable": false
     },
     {
     "id": "19",
