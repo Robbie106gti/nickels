@@ -2,7 +2,7 @@
     "information": [
         { 
             "title": "Kits Spots",
-            "image": "http://127.0.0.1:5500/assets/loox/round light.jpg",
+            "image": "https://webquoin.com/catalog/build/assets/loox/round light.jpg",
             "tags": [ "spots", "kit", "round", "square" ],
             "attached": [
                 {
@@ -17,7 +17,7 @@
         },
         { 
             "title": "Kits Strips",
-            "image": "http://127.0.0.1:5500/assets/loox/2037 led strip not water proof (no silicon coat).jpg",
+            "image": "https://webquoin.com/catalog/build/assets/loox/2037 led strip not water proof (no silicon coat).jpg",
             "tags": [ "strips", "kit", "water proof", "profile", "shelf" ],
             "attached": [
                 {
@@ -36,7 +36,7 @@
         },
         { 
             "title": "Parts",
-            "image": "http://127.0.0.1:5500/assets/loox/driver 12v magnitude.jpg",
+            "image": "https://webquoin.com/catalog/build/assets/loox/driver 12v magnitude.jpg",
             "tags": [ "lights", "replacements", "switches", "profile", "drivers" ],
             "attached": [
                 {
