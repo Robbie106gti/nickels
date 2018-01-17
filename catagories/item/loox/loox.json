@@ -1,206 +1,935 @@
 {
-    "information": [
-        { 
-            "title": "Kits Spots",
-            "image": "https://webquoin.com/catalog/build/assets/loox/round light.jpg",
-            "tags": [ "spots", "kit", "round", "square" ],
-            "attached": [
-                {
-                    "item": "Round",
-                    "page": "spots"
-                },
-                {
-                    "item": "Square",
-                    "page": "spots"
-                } 
-            ]
-        },
-        { 
-            "title": "Kits Strips",
-            "image": "https://webquoin.com/catalog/build/assets/loox/2037 led strip not water proof (no silicon coat).jpg",
-            "tags": [ "strips", "kit", "water proof", "profile", "shelf" ],
-            "attached": [
-                {
-                    "item": "Shelf",
-                    "page": "strips"
-                },
-                {
-                    "item": "Silicon",
-                    "page": "strips"
-                } ,
-                {
-                    "item": "Profile",
-                    "page": "strips"
-                } 
-            ]
-        },
-        { 
-            "title": "Parts",
-            "image": "https://webquoin.com/catalog/build/assets/loox/driver 12v magnitude.jpg",
-            "tags": [ "lights", "replacements", "switches", "profile", "drivers" ],
-            "attached": [
-                {
-                    "item": "Drivers",
-                    "page": "drivers"
-                },
-                {
-                    "item": "Lights",
-                    "page": "lights"
-                },
-                {
-                    "item": "Miscellaneous & Replacements",
-                    "page": "msc"
-                }
-            ]
-        }
-    ],
-    "items": [
+  "information": [
+    {
+      "title": "kits spots",
+      "id": "spots",
+      "description":
+        "LED lights generate uniform, evenly distributed light and are ideal for mood lighting in all areas. These lights can be used in a variety of situations.",
+      "image":
+        "https://webquoin.com/catalog/build/assets/loox/Loox sink round led.jpg",
+      "tags": ["spots", "kit", "round", "square"],
+      "attached": [
         {
-          "active": true,
-          "code": "MSC-LED-LIGHT",
-          "cat": "Loox LEDs",
-          "root": "LED",
-          "title": "LED light",
-          "description": "LED lights generate uniform, evenly distributed light and are ideal for mood lighting in all areas. These lights can be used in a variety of situations.",
-          "specifications": [ "4000", "4001", "4002", "4003", "4005", "4006" ],
-          "images": [
-            {
-              "title": "",
-              "image": "http://127.0.0.1:5500/assets/loox/round light.jpg"
-            },
-            {
-              "title": "Drawing ",
-              "image": "http://127.0.0.1:5500/assets/loox/round light recessed spec.jpeg"
-            }
+          "item": "round",
+          "page": "spots",
+          "pre": "kit spot",
+          "includes": ["MSC-LED-ROUND", "MSC-LED-LIGHT", "MSC-LED-LEAD"],
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/Loox sink round led.jpg"
+        },
+        {
+          "item": "square",
+          "page": "spots",
+          "pre": "kit spot",
+          "includes": ["MSC-LED-SQUARE", "MSC-LED-LIGHT", "MSC-LED-LEAD"],
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/01640949_0.jpg"
+        }
+      ]
+    },
+    {
+      "title": "kits strips",
+      "id": "strips",
+      "image":
+        "https://webquoin.com/catalog/build/assets/loox/Loox strip led couche.jpg",
+      "tags": ["strips", "kit", "water proof", "profile", "shelf"],
+      "icons": "icons.jpg",
+      "specifications": ["4018"],
+      "attached": [
+        {
+          "item": "shelf",
+          "page": "strips",
+          "pre": "kit strip",
+          "includes": ["MSC-STRIP-NS", "MSC-PROFILE-SHELF", "MSC-LED-LEAD"],
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/led glass shelf idea.jpg",
+          "description":
+            "For Glass shelves, iluminate the shelf for decorative lighting. For best result place us at back of cabinet"
+        },
+        {
+          "item": "silicon",
+          "page": "strips",
+          "pre": "kit strip",
+          "includes": ["MSC-STRIP-SI", "MSC-LED-LEAD"],
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/Loox strip led couche.jpg",
+          "description":
+            "Best suite for under cabinets (floating cabinets, Base Cabinets, Toe kicks, Behind crows or Valances), to create background lighting"
+        },
+        {
+          "item": "profile",
+          "page": "strips",
+          "pre": "kit strip",
+          "includes": [
+            "MSC-STRIP-NS",
+            "MSC-PROFILE-ALU",
+            "MSC-PROFILE-ENDCAP",
+            "MSC-PROFILE-MCOVER",
+            "MSC-LED-LEAD"
           ],
-          "notes": [ ]
-        },
-        {
-            "active": true,
-            "code": "MSC-LED-SQUARE",
-            "cat": "Loox LEDs",
-            "root": "LED",
-            "title": "Square trim",
-            "description": "Square piece of trim for use with LED light.",
-            "specifications": [ ],
-            "iwhd" : [ "2 9/16", "2 9/16" ],
-            "images": [
-              {
-                "title": "",
-                "image": "http://127.0.0.1:5500/assets/loox/square.jpg"
-              }
-            ],
-            "notes": [ ]
-        },
-        {
-            "active": true,
-            "code": "MSC-LED-ROUND",
-            "cat": "Loox LEDs",
-            "root": "LED",
-            "title": "Round trim",
-            "description": "Round piece of trim for use with LED light.",
-            "specifications": [ ],
-            "iwhd" : [ "2 9/16" ],
-            "images": [
-              {
-                "title": "",
-                "image": "http://127.0.0.1:5500/assets/loox/round.jpg"
-              }
-            ],
-            "notes": [ ]
-        },
-        {
-            "active": true,
-            "code": "MSC-LED-LEAD",
-            "cat": "Loox LEDs",
-            "root": "LED",
-            "title": "Lead",
-            "description": "For connection LED lights to the power supply/driver, rated for 12v only.",
-            "specifications": [ ],
-            "iwhd" : [ "Length of 78 3/4" ],
-            "images": [
-                {
-                    "title": "",
-                    "image": "http://127.0.0.1:5500/assets/loox/round.jpg"
-                  },
-                  {
-                    "title": "",
-                    "image": "http://127.0.0.1:5500/assets/loox/round.jpg"
-                  }
-            ],
-            "notes": [ ]
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/Loox strip led couche.jpg",
+          "description":
+            "Best suite for under cabinets, to create background lighting"
         }
-    ],
-    "specifications": [
+      ]
+    },
+    {
+      "title": "Parts",
+      "id": "parts",
+      "image":
+        "https://webquoin.com/catalog/build/assets/loox/driver 12v magnitude.jpg",
+      "tags": ["lights", "replacements", "switches", "profile", "drivers"],
+      "description": "Parts for LED lighting",
+      "attached": [
         {
-          "id": "4000",
-          "title": "LED",
-          "content": "Dimmable LED light."
+          "item": "drivers",
+          "page": "parts",
+          "includes": ["MSC-LED-DRIVER", "MSC-LED-DRIVERMAG"],
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/powerpacks-01.jpg"
         },
         {
-          "id": "4001",
-          "title": "Volatage",
-          "content": "12V"
+          "item": "lights",
+          "page": "parts",
+          "includes": ["MSC-LED-LIGHT", "MSC-STRIP-SI", "MSC-STRIP-NS"],
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/Loox strip led couche.jpg"
         },
         {
-          "id": "4002",
-          "title": "Drill hole",
-          "content": "55mm or 2 1/4\""
-        },
-        {
-          "id": "4003",
-          "title": "Requires",
-          "content": "12v Driver power supply."
-        },
-        {
-          "id": "4004",
-          "title": "Attach",
-          "content": "Add code prepare Top or Bottom, otherwise will be supplied only."
-        },
-        {
-          "id": "4005",
-          "title": "Light color(K)",
-          "content": "3000 (Warm White)"
-        },
-        {
-          "id": "4006",
-          "title": "Wattage",
-          "content": "3.8"
-        },
-        {
-          "id": "4007",
-          "title": "Supplied with",
-          "content": "1 lead of 78 3/4"
-        },
-        {
-          "id": "4008",
-          "title": "Supplied with",
-          "content": "1 LED light, 1 lead of 78 3/4\" and trim piece"
-        },
-        {
-          "id": "4009",
-          "title": "Supply only (SO)",
-          "content": "hardware is supplied only."
-        },
-        {
-          "id": "4010",
-          "title": "Prepare Top (TOP)",
-          "content": "add code: LED-PREP-TOP to have the top of the cabinet prepared for installation of LED."
-        },
-        {
-          "id": "4011",
-          "title": "Prepare Bottom (BOT)",
-          "content": "add code: LED-PREP-BOT to have the bottom of the cabinet prepared for installation of LED. this will add a set shelf for the housing of the LED and wire, which be route for having the wire exit the back of cabinet. Also will drill a hole and route a channel for a the wire on the back of the cabinet outside going to the top of cabinet."
+          "item": "miscellaneous and replacements",
+          "page": "parts",
+          "tabs": ["switches", "profiles", "clips", "extensions"],
+          "includes": [
+            "MSC-PROFILE-ENDCAP",
+            "MSC-PROFILE-ALU",
+            "MSC-PROFILE-MCOVER",
+            "MSC-PROFILE-SHELF",
+            "MSC-LED-LEAD",
+            "MSC-STRIP-CLIP-NS",
+            "MSC-STRIP-CLIP-SI",
+            "MSC-STRIP-CLIP90-NS",
+            "MSC-STRIP-CLIP90-SI",
+            "MSC-STRIP-DAISY-NS",
+            "MSC-STRIP-DAISY-SI",
+            "MSC-LED-6DIS",
+            "MSC-LED-4EXT",
+            "MSC-LED-SWITCH-TF",
+            "MSC-LED-DIMMER-TF",
+            "MSC-LED-DIMMER"
+          ],
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/Loox strip led couche.jpg"
         }
-    ],
-    "notes":[
+      ]
+    }
+  ],
+  "items": [
+    {
+      "active": true,
+      "code": "MSC-LED-LIGHT",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "LED light",
+      "description":
+        "LED lights generate uniform, evenly distributed light and are ideal for mood lighting in all areas. These lights can be used in a variety of situations.",
+      "specifications": ["4000", "4001", "4002", "4003", "4005", "4006"],
+      "images": [
         {
-            "id": "13",
-            "title": "Cutting leads, ",
-            "link": "#",
-            "content": "will void the manufacturers warranty",
-            "contentLink": "",
-            "ccontent": "."
-        }        
-    ]
+          "title": "",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/round light.jpg"
+        },
+        {
+          "title": "Drawing ",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/round light recessed spec.jpg"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "active": true,
+      "code": "MSC-LED-SQUARE",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Square trim",
+      "description": "Square piece of trim for use with LED light.",
+      "specifications": [],
+      "iwhd": ["2 9/16", "2 9/16"],
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/build/assets/loox/square.png"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "active": true,
+      "code": "MSC-LED-ROUND",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Round trim",
+      "description": "Round piece of trim for use with LED light.",
+      "specifications": [],
+      "iwhd": ["2 9/16"],
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/build/assets/loox/round.jpg"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "active": true,
+      "code": "MSC-LED-LEAD",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Lead",
+      "tab": "extensions",
+      "description":
+        "For connection LED lights to the power supply/driver, rated for 12v only.",
+      "specifications": ["4001"],
+      "iwhd": ["Length of 78 3/4"],
+      "images": [
+        {
+          "title": "",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/Connector strip-01.png"
+        }
+      ],
+      "notes": ["13"]
+    },
+    {
+      "active": true,
+      "code": "MSC-STRIP-SI",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Silicon coated LED Strip",
+      "description":
+        "The silicone encapsulation allows this strip light to be used without an aluminum profile",
+      "specifications": [
+        "4001",
+        "4005",
+        "4012",
+        "4013",
+        "4014",
+        "4015",
+        "4016",
+        "4017"
+      ],
+      "iwhd": ["196 7/8"],
+      "images": [
+        {
+          "title": "role",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/2030 led strip roll water proof (silicon coat).jpg"
+        },
+        {
+          "title": "diagram",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/2030 led strip water proof (silicon coat) diagram.jpg"
+        },
+        {
+          "title": "close-up",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/2030 led strip water proof (silicon coat).jpg"
+        }
+      ],
+      "notes": ["0", "1"]
+    },
+    {
+      "active": true,
+      "code": "MSC-STRIP-NS",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "LED Strip",
+      "description": "This strip light to be used with an profile",
+      "specifications": [
+        "4001",
+        "4005",
+        "4012",
+        "4021",
+        "4020",
+        "4015",
+        "4019",
+        "4017"
+      ],
+      "iwhd": ["196 7/8"],
+      "images": [
+        {
+          "title": "role",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/2037 led strip roll not water proof (no silicon coat).jpg"
+        },
+        {
+          "title": "diagram",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/2037 led strip not water proof (no silicon coat) diagram.jpg"
+        },
+        {
+          "title": "close-up",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/2037 led strip not water proof (no silicon coat).jpg"
+        }
+      ],
+      "notes": ["0", "2"]
+    },
+    {
+      "active": true,
+      "code": "MSC-PROFILE-SHELF",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "tab": "profiles",
+      "title": "LED Strip",
+      "description":
+        "Glass shelf profile none supportive for LED strip lighting, strip light is secured at base of profile with direction of light shining into glass shelf",
+      "specifications": [],
+      "iwhd": ["98 3/8"],
+      "images": [
+        {
+          "title": "profile",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/Glass edge led profile.jpg"
+        },
+        {
+          "title": "specifications",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/Glass edge led profile spec.jpg"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "active": true,
+      "code": "MSC-PROFILE-ALU",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "tab": "profiles",
+      "title": "LED Strip",
+      "description":
+        "Aluminum Profile for back ground lighting with LED strips, strip light is secured at base of profile with direction of light shining trough milky cover",
+      "specifications": [],
+      "iwhd": ["98 3/8"],
+      "images": [
+        {
+          "title": "profile",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/LED-Profile-01.jpg"
+        },
+        {
+          "title": "specifications",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/spec rail profile-01.png"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "active": true,
+      "code": "MSC-PROFILE-MCOVER",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "tab": "profiles",
+      "title": "Milky cover",
+      "description": "\"Milky\" cover for Aluminum profile",
+      "specifications": [],
+      "iwhd": ["98 3/8"],
+      "images": [
+        {
+          "title": "Mily cover only",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/LED-Profile-01.jpg"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "active": true,
+      "code": "MSC-PROFILE-ENDCAP",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "End cap pair",
+      "tab": "profiles",
+      "description": "End cap pair with cable outlet, plastic, silver colored",
+      "specifications": [],
+      "iwhd": ["98 3/8"],
+      "images": [
+        {
+          "title": "End cap",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/End cap Profile-01.jpg"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "active": true,
+      "code": "MSC-LED-DRIVER",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Plug & Play Driver",
+      "description":
+        "Just plug in the leads into led and driver and your ready to light up your kitchens/cabinets.",
+      "specifications": ["4001", "4022"],
+      "versions": [
+        {
+          "code": "MSC-LED-DRIVER-20",
+          "wattage": "0 - 20w",
+          "length": "5\"",
+          "width": "2\"",
+          "height": "9/16\"",
+          "output current": "1.67A"
+        },
+        {
+          "code": "MSC-LED-DRIVER-30",
+          "wattage": "0 - 30w",
+          "length": "7 11/16\"",
+          "width": "1 3/4\"",
+          "height": "1 1/8\"",
+          "output current": "2.5A"
+        },
+        {
+          "code": "MSC-LED-DRIVER-60",
+          "wattage": "0 - 60w",
+          "length": "8 3/16\"",
+          "width": "2\"",
+          "height": "2 1/4\"",
+          "output current": "5A"
+        }
+      ],
+      "vtable": ["wattage", "length", "width", "height", "output current"],
+      "images": [
+        {
+          "title": "Drivers",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/powerpacks-01.jpg"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "active": true,
+      "code": "MSC-LED-DRIVERMAG",
+      "cat": "LEDs",
+      "root": "LED",
+      "title": "DIY driver",
+      "description":
+        "Dimmable voltage LED driver is class 2 rated and designed to operate with any standard MLV/Incandescent TRIAC (Leading edge) dimmer switch. Encased in a low profile aluminum enclosure. Perfect choice for under cabinet lights, tape lights and various LED. Electrical specification includes Auto Reset, over current and short circuit protection. Efficiency of 90% and higher allows the driver to operate at low temperatures.",
+      "specifications": [],
+      "versions": [
+        {
+          "code": "MSC-LED-DRIVERMAG-20",
+          "wattage": "8 - 20w",
+          "download": "driver 20wat 12v spec.pdf"
+        },
+        {
+          "code": "MSC-LED-DRIVERMAG-40",
+          "wattage": "8 - 40w",
+          "download": "driver 40wat 12v spec.pdf"
+        },
+        {
+          "code": "MSC-LED-DRIVERMAG-60",
+          "wattage": "8 - 60w",
+          "download": "driver 60wat 12v spec.pdf"
+        }
+      ],
+      "vtable": ["wattage", "download"],
+      "images": [
+        {
+          "title": "Magnitude Driver",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/driver 12v magnitude.jpg"
+        },
+        {
+          "title": "spec",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/driver 12v magnitude spec.jpg"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "active": true,
+      "code": "MSC-STRIP-CLIP-NS",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Clip straight",
+      "tab": "clips",
+      "description": "For none silicon strip to connect two strips together",
+      "specifications": [],
+      "iwhd": [],
+      "images": [
+        {
+          "title": "Clip open",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/clip none silicon connector open.jpg"
+        },
+        {
+          "title": "Clip closed",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/clip none silicon connector.jpg"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "active": true,
+      "code": "MSC-STRIP-CLIP-SI",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Clip straight",
+      "tab": "clips",
+      "description": "For silicon strip to connect two strips together",
+      "specifications": [],
+      "iwhd": [],
+      "images": [
+        {
+          "title": "Clip closed",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/clip silicon connector.jpg"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "active": true,
+      "code": "MSC-STRIP-CLIP90-NS",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Clip 90 degree",
+      "tab": "clips",
+      "description":
+        "For none silicon strip to connect at 90 degrees two strips together",
+      "specifications": [],
+      "iwhd": [],
+      "images": [
+        {
+          "title": "Clip closed",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/clip 90 corner none silicon connector.jpg"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "active": true,
+      "code": "MSC-STRIP-CLIP90-SI",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Clip 90 degree",
+      "tab": "clips",
+      "description":
+        "For silicon strip to connect at 90 degrees two strips together",
+      "specifications": [],
+      "iwhd": [],
+      "images": [
+        {
+          "title": "Clip closed",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/clip 90 corner silicon connector.jpg"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "active": true,
+      "code": "MSC-STRIP-DAISY-NS",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Clip Daisy",
+      "tab": "clips",
+      "description": "For daisy chaining none silicon strips together",
+      "specifications": [],
+      "iwhd": [],
+      "images": [
+        {
+          "title": "Clip open",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/daisy chain connector 2037 for none silicon open.jpg"
+        },
+        {
+          "title": "Clip closed",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/clip 90 corner silicon connector.jpg"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "active": true,
+      "code": "MSC-STRIP-DAISY-SI",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Clip Daisy",
+      "tab": "clips",
+      "description": "For daisy chaining silicon strips together",
+      "specifications": [],
+      "iwhd": [],
+      "images": [
+        {
+          "title": "Clip closed",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/daisy chain connector.jpg"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "active": true,
+      "code": "MSC-LED-4EXT",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "4 way extension",
+      "tab": "extensions",
+      "description":
+        "A single lead for attaching 4 LED lights, for a total length of 255 7/8\"",
+      "specifications": ["4028", "4029", "4001", "4030", "4031"],
+      "iwhd": [],
+      "images": [
+        {
+          "title": "4 way extension",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/4way extension.png"
+        },
+        {
+          "title": "Diagram",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/digram 4 way.png"
+        }
+      ],
+      "notes": [ "13" ]
+    },
+    {
+      "active": true,
+      "code": "MSC-LED-6DIS",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "6 way Distributor",
+      "tab": "extensions",
+      "description":
+        "A 6 way distributor for attaching 6 LED lights, lead length to connect to Driver is 78 3/4\"",
+      "specifications": [ "4029", "4001", "4032"],
+      "iwhd": [],
+      "images": [
+        {
+          "title": "6 way distributor",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/6way extension.png"
+        },
+        {
+          "title": "Diagram",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/6way extension digram.png"
+        }
+      ],
+      "notes": [ "13" ]
+    },
+    {
+      "active": true,
+      "code": "MSC-LED-SWITCH-TF",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Switch touch free",
+      "tab": "switches",
+      "description":
+        "Touch-free on/off switch",
+      "specifications": [ "4001", "4033", "4034", "4035", "4036", "4037", "4007" ],
+      "iwhd": [],
+      "images": [
+        {
+          "title": "switch",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/switch touch free.jpg"
+        },
+        {
+          "title": "switch spec",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/switch touch free spec.jpg"
+        }
+      ],
+      "notes": [ "13" ]
+    },
+    {
+      "active": true,
+      "code": "MSC-LED-DIMMER-TF",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Dimmer touch free",
+      "tab": "switches",
+      "description":
+        "Touch-free dimmer switch",
+      "specifications": [ "4001", "4033", "4034", "4035", "4036", "4037", "4007" ],
+      "iwhd": [],
+      "icon": "https://webquoin.com/catalog/build/assets/loox/10to100.jpg",
+      "images": [
+        {
+          "title": "switch",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/switch touch free.jpg"
+        },
+        {
+          "title": "switch spec",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/switch touch free spec.jpg"
+        }
+      ],
+      "notes": [ "13" ]
+    },
+    {
+      "active": true,
+      "code": "MSC-LED-DIMMER",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Dimmer",
+      "tab": "switches",
+      "description":
+        "Dimmer switch",
+      "specifications": [ "4001", "4033", "4039", "4038", "4037", "4007" ],
+      "iwhd": [],
+      "icon": "https://webquoin.com/catalog/build/assets/loox/10to100.jpg",
+      "images": [
+        {
+          "title": "switch",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/touch dimmer.jpg"
+        },
+        {
+          "title": "switch spec",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/touch dimmer spec.jpg"
+        }
+      ],
+      "notes": [ "13" ]
+    }
+  ],
+  "specifications": [
+    {
+      "id": "4039",
+      "title": "Length",
+      "content": "2 3/8\""
+    },
+    {
+      "id": "4038",
+      "title": "Wattage Range",
+      "content": "0.3 - 30 W"
+    },
+    {
+      "id": "4037",
+      "title": "Finish",
+      "content": "Plastic, Silver Colored"
+    },
+    {
+      "id": "4036",
+      "title": "Sensor Range",
+      "content": "0 - 3 1/8\""
+    },
+    {
+      "id": "4035",
+      "title": "Contact Rating",
+      "content": "0.3 - 75 W"
+    },
+    {
+      "id": "4034",
+      "title": "Length",
+      "content": "1 7/8\""
+    },
+    {
+      "id": "4033",
+      "title": "Drill Hole",
+      "content": "1/2\""
+    },
+    {
+      "id": "4032",
+      "title": "Distributor",
+      "content": "6 way distributor"
+    },
+    {
+      "id": "4031",
+      "title": "Lengths",
+      "content": "(2000mm) 78 3/4”, (1500mm) 59” and (500mm) 19 5/8\""
+    },
+    {
+      "id": "4030",
+      "title": "Total length",
+      "content": "255 7/8\" (6500mm)"
+    },
+    {
+      "id": "4029",
+      "title": "Single",
+      "content": "connection to Driver"
+    },
+    {
+      "id": "4028",
+      "title": "Extension",
+      "content": "4 way lead"
+    },
+    {
+      "id": "4027",
+      "title": "Number of Slots",
+      "content":
+        "6 slots for 12 V lights, 1 slot for switch, 1 slot for primary lead"
+    },
+    {
+      "id": "4026",
+      "title": "Input Voltage",
+      "content": "100 - 240 V; 50 - 60Hz"
+    },
+    {
+      "id": "4022",
+      "title": "Requires",
+      "content":
+        "Power supply/Driver does not come with switch to turn on/off lights"
+    },
+    {
+      "id": "4021",
+      "title": "Width, height",
+      "content": "10mm, 1.3mm"
+    },
+    {
+      "id": "4020",
+      "title": "Wattage",
+      "content": "22w (~1.34w per feet)"
+    },
+    {
+      "id": "4019",
+      "title": "Light output",
+      "content": "1940lm"
+    },
+    {
+      "id": "4018",
+      "title": "Order in",
+      "content": "In linear feet"
+    },
+    {
+      "id": "4017",
+      "title": "Efficacy (Lm/W)",
+      "content": "80"
+    },
+    {
+      "id": "4016",
+      "title": "Light output",
+      "content": "1940lm"
+    },
+    {
+      "id": "4015",
+      "title": "Number of LEDs",
+      "content": "600 (120/m)"
+    },
+    {
+      "id": "4014",
+      "title": "Wattage",
+      "content": "24w (~1.46w per feet)"
+    },
+    {
+      "id": "4013",
+      "title": "Width, height",
+      "content": "8mm, 2.3mm"
+    },
+    {
+      "id": "4012",
+      "title": "Length",
+      "content": "5000mm (196 7/8\")"
+    },
+    {
+      "id": "4000",
+      "title": "LED",
+      "content": "Dimmable LED light."
+    },
+    {
+      "id": "4001",
+      "title": "Voltage",
+      "content": "12V"
+    },
+    {
+      "id": "4002",
+      "title": "Drill hole",
+      "content": "55mm or 2 1/4\""
+    },
+    {
+      "id": "4003",
+      "title": "Requires",
+      "content": "12v Driver power supply."
+    },
+    {
+      "id": "4004",
+      "title": "Attach",
+      "content":
+        "Add code prepare Top or Bottom, otherwise will be supplied only."
+    },
+    {
+      "id": "4005",
+      "title": "Light color(K)",
+      "content": "3000 (Warm White)"
+    },
+    {
+      "id": "4006",
+      "title": "Wattage",
+      "content": "3.8"
+    },
+    {
+      "id": "4007",
+      "title": "Supplied with",
+      "content": "1 lead of 78 3/4\""
+    },
+    {
+      "id": "4008",
+      "title": "Supplied with",
+      "content": "1 LED light, 1 lead of 78 3/4\" and trim piece"
+    },
+    {
+      "id": "4009",
+      "title": "Supply only (SO)",
+      "content": "hardware is supplied only."
+    },
+    {
+      "id": "4010",
+      "title": "Prepare Top (TOP)",
+      "content":
+        "add code: LED-PREP-TOP to have the top of the cabinet prepared for installation of LED."
+    },
+    {
+      "id": "4011",
+      "title": "Prepare Bottom (BOT)",
+      "content":
+        "add code: LED-PREP-BOT to have the bottom of the cabinet prepared for installation of LED. this will add a set shelf for the housing of the LED and wire, which be route for having the wire exit the back of cabinet. Also will drill a hole and route a channel for a the wire on the back of the cabinet outside going to the top of cabinet."
+    }
+  ],
+  "notes": [
+    {
+      "id": "0",
+      "title": "Max ",
+      "link": "#",
+      "content": "6m (20’) per lead",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "1",
+      "title": "Silicone coat, ",
+      "link": "#",
+      "content":
+        "shifts light output cooler. Test the silicone strip light when mixing with other strips. Warmer color temperature maybe more suitable",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "2",
+      "title": "Should only ",
+      "link": "#",
+      "content": "be used with a profile. Risk of shocks without",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "13",
+      "title": "Cutting leads, ",
+      "link": "#",
+      "content": "will void the manufacturers warranty",
+      "contentLink": "",
+      "ccontent": "."
+    }
+  ]
 }
