@@ -41,7 +41,7 @@ function getPage() {
   };
   const code = $.urlParam("code");
   const page = $.urlParam("page");
-  const tab = $.urlParam("#");
+  const id = $.urlParam("id");
   fetch(`./loox.json`)
     .then(response => response.json())
     .then(data => {
@@ -68,7 +68,7 @@ function getPage() {
       info = { ...info,
         page: page,
         code: code,
-        tab: tab
+        tab: id
       };
       let item = info.attached.filter(i => i.item == code)[0];
       let includes = item.includes.map(item => {
@@ -117,18 +117,21 @@ function makeStructure(info) {
       $("#catalog").html(card);
       includesCard(info);
       setSpecs(info.item);
+      callButton();
       break;
     case "strips":
       card = cardWithAction(info);
       $("#catalog").html(card);
       includesCard(info);
       setSpecs(info.item);
+      callButton();
       break;
     case "parts":
       partsChose(info);
       break;
     default:
       $("#catalog").html(index);
+      callButton();
   }
 }
 
@@ -142,15 +145,32 @@ function partsChose(info) {
       $(document).ready(function () {
         $(".slider").slider();
       });
+      callButton();
       break;
     case "lights":
       card = info.includes.map(item => cardWithActionLight(item));
       $("#catalog").html(card);
       setSpecs(info.item);
+      callButton();
       break;
     default:
       makeTabs(info);
+      callButton();
   }
+}
+
+function callButton() {
+    $('.dropdown-button').dropdown({
+        inDuration: 300,
+        outDuration: 225,
+        constrainWidth: true, // Does not change width of dropdown to that of the activator
+        hover: true, // Activate on hover
+        gutter: 0, // Spacing from edge
+        belowOrigin: true, // Displays dropdown below the button
+        alignment: 'left', // Displays dropdown with edge aligned to the left of button
+        stopPropagation: false // Stops event propagation
+      }
+    );
 }
 
 function setGI(info) {
@@ -210,9 +230,11 @@ function makeTabs(info) {
   let tabs = `<div><ul id="tabs-swipe-demo" class="tabs">
                     ${info.item.tabs
                       .map(
-                        tab =>
-                          `<li class="tab col s3"><a href="#${tab}">${tab}</a></li>`
-                      )
+                        tab => { 
+                            if(tab === info.tab) { return `<li class="tab col s3"><a href="#${tab}" class="active">${tab}</a></li>`}
+                            if (info.tab == null && tab === info.item.tabs[0]) { return `<li class="tab col s3"><a href="#${tab}" class="active">${tab}</a></li>`}
+                            return `<li class="tab col s3"><a href="#${tab}">${tab}</a></li>`;
+                        })
                       .join("")}</ul>
                     ${info.item.tabs
                       .map(
@@ -221,6 +243,9 @@ function makeTabs(info) {
                       )
                       .join("")}</div>`;
   $("#catalog").html(tabs);
+  $(document).ready(function(){
+    $('ul.tabs').tabs();
+  });
 }
 
 function composeTab(tab, info) {

@@ -108,18 +108,21 @@ function makeStructure(info) {
       $("#catalog").html(card);
       includesCard(info);
       setSpecs(info.item);
+      callButton();
       break;
     case "strips":
       card = cardWithAction(info);
       $("#catalog").html(card);
       includesCard(info);
       setSpecs(info.item);
+      callButton();
       break;
     case "parts":
       partsChose(info);
       break;
     default:
       $("#catalog").html(index);
+      callButton();
   }
 }
 
@@ -134,17 +137,35 @@ function partsChose(info) {
       $(document).ready(function () {
         $(".slider").slider();
       });
+      callButton();
       break;
     case "lights":
       card = info.includes.map(function (item) {
         return cardWithActionLight(item);
+        callButton();
       });
       $("#catalog").html(card);
       setSpecs(info.item);
+      callButton();
       break;
     default:
       makeTabs(info);
+      callButton();
   }
+}
+
+function callButton() {
+    $('.dropdown-button').dropdown({
+        inDuration: 300,
+        outDuration: 225,
+        constrainWidth: true, // Does not change width of dropdown to that of the activator
+        hover: true, // Activate on hover
+        gutter: 0, // Spacing from edge
+        belowOrigin: true, // Displays dropdown below the button
+        alignment: 'left', // Displays dropdown with edge aligned to the left of button
+        stopPropagation: false // Stops event propagation
+      }
+    );
 }
 
 function setGI(info) {
@@ -166,12 +187,15 @@ function makeActions(card) {
 }
 
 function makeTabs(info) {
-  var tabs = "<div><ul id=\"tabs-swipe-demo\" class=\"tabs\">\n                    " + info.item.tabs.map(function (tab) {
+  var tabs = "<div><ul id=\"tabs-swipe-demo\" class=\"tabs\">\n" + info.item.tabs.map(function (tab) {
     return "<li class=\"tab col s3\"><a href=\"#" + tab + "\">" + tab + "</a></li>";
   }).join("") + "</ul>\n                    " + info.item.tabs.map(function (tab) {
     return "<div id=\"" + tab + "\" class=\"grid\">" + composeTab(tab, info) + "</div>";
   }).join("") + "</div>";
   $("#catalog").html(tabs);
+  $(document).ready(function(){
+    $('ul.tabs').tabs();
+  });
 }
 
 function composeTab(tab, info) {
@@ -207,7 +231,7 @@ function cardWithActionLight(item) {
 }
 
 function cardWithActioMSC(item) {
-  var card = "<div class=\"card\">\n                  <div class=\"card-image waves-effect waves-block waves-light\">\n                      <img class=\"activator image20\" src=\"" + item.images[0].image + "\">\n                  </div>\n                  <div class=\"card-content\">\n                      <span class=\"card-title activator grey-text text-darken-4\">" + titleCase(item.title) + "</span>\n                      <a class=\"btn-floating right waves-effect waves-light red\"><i class=\"material-icons\">add</i></a>\n                      <p>" + item.description + ".</p>\n                  </div>\n                  <div id=\"spec" + item.code + "\">" + setSpecs2(item) + "</div>\n                  <div id=\"note" + item.code + "\">" + setNotes(item) + "</div>\n              </div>";
+  var card = "<div class=\"card col s3\">\n                  <div class=\"card-image waves-effect waves-block waves-light\">\n                      <img class=\"activator image20\" src=\"" + item.images[0].image + "\">\n                  </div>\n                  <div class=\"card-content\">\n                      <span class=\"card-title activator grey-text text-darken-4\">" + titleCase(item.title) + "</span>\n                      <a class=\"btn-floating right waves-effect waves-light red\"><i class=\"material-icons\">add</i></a>\n                      <p>" + item.description + ".</p>\n                  </div>\n                  <div id=\"spec" + item.code + "\">" + setSpecs2(item) + "</div>\n                  <div id=\"note" + item.code + "\">" + setNotes(item) + "</div>\n              </div>";
   return card;
 }
 
