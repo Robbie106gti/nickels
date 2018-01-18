@@ -244,7 +244,7 @@ function getPage() {
                 <ul>
                     <li class="waves-effect waves-light"><a href="#TopPage"><i class="material-icons">arrow_upward</i> Top</a></li>
                     <li class="waves-effect waves-light"><a href="#BottomPage"><i class="material-icons">arrow_downward</i> Bottom</a></li>
-                    <li class="waves-effect waves-light"><a href="../index.html"><i class="material-icons">arrow_back</i> Back</a></li>
+                    <li class="waves-effect waves-light"><a href="../index.html?cat=Accessories"><i class="material-icons">arrow_back</i> Back</a></li>
                     
                 </ul>
             </div>`;

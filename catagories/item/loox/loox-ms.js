@@ -172,7 +172,7 @@ function callButton() {
 
 function setGI(info) {
   console.log(info);
-  var topic = "\n        <a href=\"" + (info.page ? './index.html' : '../../../') + "\" class=\"right\">\n          <i class=\"small material-icons\">arrow_back</i>\n        </a>\n        <div id=\"actions\"></div>\n        <div>\n            <h1 id=\"titleHeader\">" + titleCase(info.title) + "</h1>\n            " + (info.item.pre ? '<h5 id="subHeader">Option: ' + titleCase(info.item.pre) + " " + titleCase(info.item.item) + "</h5>" : "") + "\n        </div>\n        <div class=\"fixed-action-btn\" style=\"top: 85px; right: 24px;\">\n        <a class=\"waves-effect waves-light btn btn-floating cyan\" onclick=\"$('.tap-target').tapTarget('open')\">?</a>\n        </div>\n        <div id=\"ddwn\"></div>\n        <div id=\"helper\"></div>    \n        ";
+  var topic = "\n        <a href=\"" + (info.page ? './index.html' : '../../index.html?cat=Accessories') + "\" class=\"right\">\n          <i class=\"small material-icons\">arrow_back</i>\n        </a>\n        <div id=\"actions\"></div>\n        <div>\n            <h1 id=\"titleHeader\">" + titleCase(info.title) + "</h1>\n            " + (info.item.pre ? '<h5 id="subHeader">Option: ' + titleCase(info.item.pre) + " " + titleCase(info.item.item) + "</h5>" : "") + "\n        </div>\n        <div class=\"fixed-action-btn\" style=\"top: 85px; right: 24px;\">\n        <a class=\"waves-effect waves-light btn btn-floating cyan\" onclick=\"$('.tap-target').tapTarget('open')\">?</a>\n        </div>\n        <div id=\"ddwn\"></div>\n        <div id=\"helper\"></div>    \n        ";
   $("#topic").html(topic);
 }
 

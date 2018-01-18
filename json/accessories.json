@@ -1,0 +1,32 @@
+{
+  "Accessories": [
+    {
+      "code": "LED",
+      "title": "LED : Led Lighting",
+      "attached": [
+        {
+          "sub": "LED",
+          "title": "Led Lighting",
+          "link": "loox/index"
+        }
+      ],
+      "image":
+        "https://webquoin.com/catalog/build/assets/loox/Loox%20strip%20led%20couche.jpg",
+      "tags": ["led", "kits", "spot", "strip", "parts", "shelf"]
+    },
+    {
+      "code": "RGB",
+      "title": "RGB : Recycle bins",
+      "attached": [
+        {
+          "sub": "LED",
+          "title": "Recycle bins",
+          "link": "pod"
+        }
+      ],
+      "image":
+        "https://webquoin.com/catalog/build/assets/rgb/38L%2038L%2012L%202.5L%20461950100%20rgb-pod-25.jpg",
+      "tags": ["single bin", "double bin", "4 bin"]
+    }
+  ]
+}

@@ -182,7 +182,7 @@ function callButton() {
 function setGI(info) {
   console.log(info);
   let topic = `
-        <a href="${info.page ? './index.html' : '../../../'}" class="right">
+        <a href="${info.page ? './index.html' : '../../index.html?cat=Accessories'}" class="right">
           <i class="small material-icons">arrow_back</i>
         </a>
         <div id="actions"></div>

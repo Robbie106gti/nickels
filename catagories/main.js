@@ -53,6 +53,9 @@ function getSubs() {
             case 'General Information':
                 fetchGI(cat);
                 break;
+            case 'Accessories':
+                fetchGI(cat);
+                break;
             default:
                 fetchCabinets(cat);
         }
@@ -64,7 +67,7 @@ function getSubs() {
         fetch(`../json/${catagory}.json`)
         .then(response => response.json())
         .then(data => {
-            console.log(data['catalog']);
+            console.log(data[cat]);
             data = data[cat];
             const html = `${data.map(cat =>
                 `<div class="card ${edge}">
@@ -144,7 +147,7 @@ function getSubs() {
               </div>`;
         } else {
             card =  `<div class="card ${edge}">
-                <a href="./item/${cat.attached[0].link}.html?code=${cat.code}${cat.attached[0].sub}">
+                <a href="./item/${configLink(cat)}">
                   <div class="card-image waves-effect waves-block waves-light">
                       <img class="image20 activator" src="${cat.image}">
                   </div>
@@ -156,6 +159,16 @@ function getSubs() {
               </div>`;
         }
       return card;        
+    }
+
+    function configLink(cat) {
+        switch(cat.attached[0].sub) {
+            case 'LED':
+                return `${cat.attached[0].link}.html`;
+                break;
+            default:
+                return `${cat.attached[0].link}.html?code=${cat.code}${cat.attached[0].sub}`;
+        }
     }
 
     function setGI(title) {

@@ -122,6 +122,15 @@
     },
     {
     "id": "15",
+    "title": "Accessories: ",
+    "description": "some information about general information",
+    "image": "http://oslokitchens.com/images/access/12.jpg",
+    "link": "catagories/index.html?cat=Accessories",
+    "tags": ["led", "rgb", "accessory" ],
+    "visable": true
+    },
+    {
+    "id": "15",
     "title": "Accessories: A-D",
     "description": "some information about general information",
     "image": "http://oslokitchens.com/images/access/12.jpg",

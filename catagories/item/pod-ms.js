@@ -173,6 +173,6 @@ function setNotes(notes) {
 }
 
 function setActions() {
-    var action = '\n            <div class="fixed-action-btn toolbar">\n                <a class="btn-floating btn-large red">\n                    <i class="large material-icons">assistant</i>\n                </a>\n                <ul>\n                    <li class="waves-effect waves-light"><a href="#TopPage"><i class="material-icons">arrow_upward</i> Top</a></li>\n                    <li class="waves-effect waves-light"><a href="#BottomPage"><i class="material-icons">arrow_downward</i> Bottom</a></li>\n                    <li class="waves-effect waves-light"><a href="../index.html"><i class="material-icons">arrow_back</i> Back</a></li>\n                    \n                </ul>\n            </div>';
+    var action = '\n            <div class="fixed-action-btn toolbar">\n                <a class="btn-floating btn-large red">\n                    <i class="large material-icons">assistant</i>\n                </a>\n                <ul>\n                    <li class="waves-effect waves-light"><a href="#TopPage"><i class="material-icons">arrow_upward</i> Top</a></li>\n                    <li class="waves-effect waves-light"><a href="#BottomPage"><i class="material-icons">arrow_downward</i> Bottom</a></li>\n                    <li class="waves-effect waves-light"><a href="../index.html?cat=Accessories"><i class="material-icons">arrow_back</i> Back</a></li>\n                    \n                </ul>\n            </div>';
     $("#actions").html(action);
 }
