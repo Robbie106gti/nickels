@@ -23,7 +23,7 @@ if (msie !== -1) {
   var edge = ua.split("Edge/");
   if (edge[1] < 16) {
     edge = "col s3";
-  }
+  } 
 }
 
 function getPage() {
@@ -45,7 +45,7 @@ function getPage() {
   fetch(`./loox.json`)
     .then(response => response.json())
     .then(data => {
-      console.log(data);
+      // console.log(data);
       if (!code && !page) {
         const d = document.getElementById("catalog");
         d.className += " grid";
@@ -65,11 +65,14 @@ function getPage() {
         return;
       }
       let info = data.information.filter(i => i.id == page)[0];
-      info = { ...info,
+      info['page'] = page;
+      info['code'] = code;
+      info['tab'] = id;
+/*       info = { ...info,
         page: page,
         code: code,
         tab: id
-      };
+      }; */
       let item = info.attached.filter(i => i.item == code)[0];
       let includes = item.includes.map(item => {
         return data.items.filter(i => i.code === item)[0];
@@ -78,16 +81,19 @@ function getPage() {
         let spec = [];
         includes.map(item => (spec = spec.concat(item.specifications)));
         spec.sort((a, b) => a - b);
-        item = {
+        item['specifications'] = unique(spec);
+/*         item = {
           specifications: unique(spec),
           ...item
-        };
+        }; */
       }
-      info = {
+      info['includes'] = includes;
+      info['item'] = item;
+/*       info = {
         item,
         ...info,
         includes
-      };
+      }; */
       makeStructure(info);
     })
     .catch(err => console.log(err));
@@ -170,7 +176,7 @@ function callButton() {
         alignment: 'left', // Displays dropdown with edge aligned to the left of button
         stopPropagation: false // Stops event propagation
       }
-    );
+    ); 
 }
 
 function setGI(info) {
@@ -293,8 +299,8 @@ function cardWithAction(info) {
                   <div class="card-content">
                       <span class="card-title activator grey-text text-darken-4">${titleCase(
                         info.item.pre
-                      )} ${titleCase(info.item.item)}</span>
-                      <a class="btn-floating right waves-effect waves-light red"><i class="material-icons">add</i></a>
+                      )} ${titleCase(info.item.item)} (${info.item.wcode})</span>
+                      <a  class="btn-floating right waves-effect waves-light red"><i onclick="addCodenow(${'\''+info.item.wcode+'\''})" class="material-icons">add</i></a>
                       <p>${
                         info.item.description
                           ? info.item.description
@@ -323,8 +329,8 @@ function cardWithActionLight(item) {
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">${titleCase(
                             item.title
-                        )}</span>
-                        <a class="btn-floating right waves-effect waves-light red"><i class="material-icons">add</i></a>
+                        )} (${item.code})</span>
+                        <a onclick="addCodenow(${'\''+item.code+'\''})" class="btn-floating right waves-effect waves-light red"><i class="material-icons">add</i></a>
                         <p>${item.description}.</p>
                     </div>
                     <div id="spec${item.code}">${setSpecs2(item)}</div>
@@ -343,8 +349,8 @@ function cardWithActioMSC(item) {
                   <div class="card-content">
                       <span class="card-title activator grey-text text-darken-4">${titleCase(
                         item.title
-                      )}</span>
-                      <a class="btn-floating right waves-effect waves-light red"><i class="material-icons">add</i></a>
+                      )} (${item.code})</span>
+                      <a onclick="addCodenow(${'\''+item.code+'\''})" class="btn-floating right waves-effect waves-light red"><i class="material-icons">add</i></a>
                       <p>${item.description}.</p>
                   </div>
                   <div id="spec${item.code}">${setSpecs2(item)}</div>
@@ -374,7 +380,7 @@ function hcard(item) {
             <p>${item.description}</p>
           </div>
           <div class="card-action">
-            <a href="#">Replacement part code: ${item.code}</a>
+            <a onclick="addCodenow(${'\''+item.code+'\''})" >Replacement part code: <span class="ordercode" cart=''>${item.code}</span></a>
           </div>
         </div>
       </div><div id="note${item.code}">${setNotes(item)}</div>`;
@@ -531,7 +537,7 @@ function setSpecNversions(item) {
                 <thead>
                 <tr>
                     <th></th>
-                    ${item.versions.map(th => `<th>${th.code}</th>`)
+                    ${item.versions.map(th => `<th onclick="addCodenow(${'\''+th.code+'\''})" class="ordercode">${th.code}</th>`)
                         .join("")}
                 </tr>
                 </thead>
@@ -592,3 +598,11 @@ function makeHelper() {
         </div>`;
   $("#helper").html(help);
 }
+
+// This is the left click function 2018 
+function addCodenow(wcode) {
+	wcode = `<span>${wcode}</span>`;
+	 if (confirm("Do you want to add this item to your order?")) {
+	   parent.addtocart(wcode);
+	 }
+  }

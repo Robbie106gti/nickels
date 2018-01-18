@@ -16,6 +16,8 @@ $.ajax({
 });
 
 window.onload = getPage();
+var ua = window.navigator;
+console.log(ua);
 var edge = "col s3";
 
 function getPage() {

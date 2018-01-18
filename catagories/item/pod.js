@@ -120,13 +120,52 @@ function getPage() {
                     <div class="collection">
                         <h5 class="collection-item blue-grey-text text-darken-1">${spec.title}</h5>
                         ${makeSpec(spec.specifications)}
-                        <div class="collection-item blue-grey-text text-darken-4"><b>Code</b>:  <code class="ordercode">${spec.title}</code></div>
+                        <div class="collection-item blue-grey-text text-darken-4"><b><ul><li>Code</b>: <span class="ordercode" cart="">${spec.title}</span></li></ul></div>
                     </div>
                 </div>
                 <a href="pod.html"><i id="close" class="close material-icons">close</i></a>
             </div>
             `).join('')}`;
         $("#code").html(code);
+        var currentDiv = null;
+        $(document).ready(function() {
+            if (parent.shopcart) {
+               $("[cart='']").css("cursor","pointer")
+               $("[cart='']").attr("title","Click to add this item to your job.")
+               addtocartcontextmenu();
+               $("#Search").hide();
+               $('[href="http://www.nickelscabinets.com/"]').hide();
+            }
+        });
+    
+        function addtocartcontextmenu() {
+            $("[cart='']").contextMenu({
+             menu: 'AddToCartMenu'
+            },
+    
+            function onclick(action, el, pos) {
+                //location.href = "main.wcsx?sid=50&pk=" + $(el).attr('pk')
+                //    $(this).find('ul').hide();
+                switch (action) {
+                    case 'add':
+                        parent.addtocart(el)
+                        break
+                    case 'edit':
+    
+                        break
+    
+                    default:
+                        alert('Feature currently unavailable.')
+                }
+            });
+    
+            // This is the left click function
+            $("[cart='']").click(function() {
+               if (confirm("Do you want to add this item to your order?")) {
+                  parent.addtocart(this);
+               }
+            });
+        } 
 
         }
     }

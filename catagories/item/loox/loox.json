@@ -13,6 +13,7 @@
           "item": "round",
           "page": "spots",
           "pre": "kit spot",
+          "wcode": "kit-led-round",
           "includes": ["MSC-LED-ROUND", "MSC-LED-LIGHT", "MSC-LED-LEAD"],
           "image":
             "https://webquoin.com/catalog/build/assets/loox/Loox sink round led.jpg"
@@ -21,6 +22,7 @@
           "item": "square",
           "page": "spots",
           "pre": "kit spot",
+          "wcode": "kit-led-squares",
           "includes": ["MSC-LED-SQUARE", "MSC-LED-LIGHT", "MSC-LED-LEAD"],
           "image":
             "https://webquoin.com/catalog/build/assets/loox/01640949_0.jpg"
@@ -40,6 +42,7 @@
           "item": "shelf",
           "page": "strips",
           "pre": "kit strip",
+          "wcode": "kit-led-stripshelf",
           "includes": ["MSC-STRIP-NS", "MSC-PROFILE-SHELF", "MSC-LED-LEAD"],
           "image":
             "https://webquoin.com/catalog/build/assets/loox/led glass shelf idea.jpg",
@@ -50,6 +53,7 @@
           "item": "silicon",
           "page": "strips",
           "pre": "kit strip",
+          "wcode": "kit-led-stripsi",
           "includes": ["MSC-STRIP-SI", "MSC-LED-LEAD"],
           "image":
             "https://webquoin.com/catalog/build/assets/loox/Loox strip led couche.jpg",
@@ -60,6 +64,7 @@
           "item": "profile",
           "page": "strips",
           "pre": "kit strip",
+          "wcode": "kit-led-strip",
           "includes": [
             "MSC-STRIP-NS",
             "MSC-PROFILE-ALU",
