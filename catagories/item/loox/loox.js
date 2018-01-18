@@ -582,9 +582,9 @@ function makeHelper() {
           <div class="tap-target-content" style="text-align: right;">
             <h5>Steps</h5>
             <p>
-                <b>Step 1:</b> Choise kind of light, strip or spot.<br>
-                <b>Step 2:</b> Where do you want to apply the light?<br>
-                <b>Step 3:</b> Choice a driver.<br>
+                <b>Step 1:</b> Choose the kind of light, strip or spot.<br>
+                <b>Step 2:</b> Where do you want to apply these lights?<br>
+                <b>Step 3:</b> Choose a driver.<br>
                 <b>Step 4:</b> Do you need a switch?<br>
                 <b>Step 5:</b> Do you need extensions?
             </p>
