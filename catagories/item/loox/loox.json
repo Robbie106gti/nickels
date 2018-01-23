@@ -1,7 +1,7 @@
 {
   "information": [
     {
-      "title": "kits spots",
+      "title": "kit for spot lights",
       "id": "spots",
       "description":
         "LED lights generate uniform, evenly distributed light and are ideal for mood lighting in all areas. These lights can be used in a variety of situations",
@@ -12,7 +12,7 @@
         {
           "item": "round",
           "page": "spots",
-          "pre": "kit spot",
+          "pre": "kit for spot",
           "wcode": "kit-led-round",
           "includes": ["MSC-LED-ROUND", "MSC-LED-LIGHT", "MSC-LED-LEAD"],
           "image":
@@ -21,7 +21,7 @@
         {
           "item": "square",
           "page": "spots",
-          "pre": "kit spot",
+          "pre": "kit for spot",
           "wcode": "kit-led-squares",
           "includes": ["MSC-LED-SQUARE", "MSC-LED-LIGHT", "MSC-LED-LEAD"],
           "image":
@@ -30,20 +30,20 @@
       ]
     },
     {
-      "title": "kits strips",
+      "title": "kit for strip lights",
       "id": "strips",
       "image":
         "https://webquoin.com/catalog/build/assets/loox/Loox strip led couche.jpg",
       "tags": ["strips", "kit", "water proof", "profile", "shelf"],
       "icons": "icons.jpg",
-      "specifications": ["4018"],
+      "specifications": [ "4018", "4003" ],
       "attached": [
         {
           "item": "shelf",
           "page": "strips",
-          "pre": "kit strip",
+          "pre": "kit for strip",
           "wcode": "kit-led-stripshelf",
-          "includes": ["MSC-STRIP-NS", "MSC-PROFILE-SHELF", "MSC-LED-LEAD"],
+          "includes": ["MSC-STRIP-NS", "MSC-PROFILE-SHELF", "MSC-LED-LEADNS"],
           "image":
             "https://webquoin.com/catalog/build/assets/loox/led glass shelf idea.jpg",
           "description":
@@ -52,9 +52,9 @@
         {
           "item": "silicon",
           "page": "strips",
-          "pre": "kit strip",
+          "pre": "kit for strip",
           "wcode": "kit-led-stripsi",
-          "includes": ["MSC-STRIP-SI", "MSC-LED-LEAD"],
+          "includes": ["MSC-STRIP-SI", "MSC-LED-LEADSI"],
           "image":
             "https://webquoin.com/catalog/build/assets/loox/Loox strip led couche.jpg",
           "description":
@@ -63,14 +63,14 @@
         {
           "item": "profile",
           "page": "strips",
-          "pre": "kit strip",
+          "pre": "kit for strip",
           "wcode": "kit-led-strip",
           "includes": [
             "MSC-STRIP-NS",
             "MSC-PROFILE-ALU",
             "MSC-PROFILE-ENDCAP",
             "MSC-PROFILE-MCOVER",
-            "MSC-LED-LEAD"
+            "MSC-LED-LEADNS"
           ],
           "image":
             "https://webquoin.com/catalog/build/assets/loox/Loox strip led couche.jpg",
@@ -84,11 +84,11 @@
       "id": "parts",
       "image":
         "https://webquoin.com/catalog/build/assets/loox/driver 12v magnitude.jpg",
-      "tags": ["lights", "replacements", "switches", "profile", "drivers"],
+      "tags": ["lights", "replacements", "switches", "profile", "power supplies"],
       "description": "Parts for LED lighting",
       "attached": [
         {
-          "item": "drivers",
+          "item": "power supplies",
           "page": "parts",
           "includes": ["MSC-LED-DRIVER", "MSC-LED-DRIVERMAG"],
           "image":
@@ -111,6 +111,8 @@
             "MSC-PROFILE-MCOVER",
             "MSC-PROFILE-SHELF",
             "MSC-LED-LEAD",
+            "MSC-LED-LEADNS",
+            "MSC-LED-LEADSI",
             "MSC-STRIP-CLIP-NS",
             "MSC-STRIP-CLIP-SI",
             "MSC-STRIP-CLIP90-NS",
@@ -192,10 +194,30 @@
       "code": "MSC-LED-LEAD",
       "cat": "Loox LEDs",
       "root": "LED",
-      "title": "Lead",
+      "title": "Lead Spot",
       "tab": "extensions",
       "description":
-        "For connection LED lights to the power supply/driver, rated for 12v only.",
+        "For connection LED lights to the power supply, rated for 12v only. Length of 78 3/4\"",
+      "specifications": ["4001"],
+      "iwhd": ["Length of 78 3/4"],
+      "images": [
+        {
+          "title": "",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/833.72.128.9.3.jpg"
+        }
+      ],
+      "notes": ["13"]
+    },
+    {
+      "active": true,
+      "code": "MSC-LED-LEADNS",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Lead Strip",
+      "tab": "extensions",
+      "description":
+        "For connection none silicon strip lights to the power supply, rated for 12v only. Length of 78 3/4\"",
       "specifications": ["4001"],
       "iwhd": ["Length of 78 3/4"],
       "images": [
@@ -209,20 +231,42 @@
     },
     {
       "active": true,
+      "code": "MSC-LED-LEADSI",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Lead Strip",
+      "tab": "extensions",
+      "description":
+        "For connection silicon strip lights to the power supply, rated for 12v only. Length of 78 3/4\"",
+      "specifications": ["4001"],
+      "iwhd": ["Length of 78 3/4"],
+      "images": [
+        {
+          "title": "",
+          "image":
+            "https://webquoin.com/catalog/build/assets/loox/01630994_0.jpg"
+        }
+      ],
+      "notes": ["13"]
+    },
+    {
+      "active": true,
       "code": "MSC-STRIP-SI",
       "cat": "Loox LEDs",
       "root": "LED",
       "title": "Silicon coated LED Strip",
       "description":
-        "The silicone encapsulation allows this strip light to be used without an aluminum profile",
+        "The silicone encapsulation allows this strip light to be used without an aluminum profile, order in linear feet",
       "specifications": [
         "4001",
+        "4003",
         "4005",
         "4012",
         "4013",
         "4014",
         "4015",
         "4016",
+        "4018",
         "4017"
       ],
       "iwhd": ["196 7/8"],
@@ -251,16 +295,18 @@
       "cat": "Loox LEDs",
       "root": "LED",
       "title": "LED Strip",
-      "description": "This strip light to be used with an profile",
+      "description": "This strip light to be used with an profile, order in linear feet",
       "specifications": [
         "4001",
+        "4003",
         "4005",
         "4012",
         "4021",
         "4020",
         "4015",
         "4019",
-        "4017"
+        "4017",
+        "4018"
       ],
       "iwhd": ["196 7/8"],
       "images": [
@@ -375,9 +421,9 @@
       "code": "MSC-LED-DRIVER",
       "cat": "Loox LEDs",
       "root": "LED",
-      "title": "Plug & Play Driver",
+      "title": "Plug & Play Power supply",
       "description":
-        "Just plug in the leads into led and driver and your ready to light up your kitchen's/cabinets.",
+        "Just plug in the leads into led and power supply and you're ready to light up your kitchen's/cabinets. Dimmable with our dimmer switches.",
       "specifications": ["4001", "4022"],
       "versions": [
         {
@@ -408,7 +454,7 @@
       "vtable": ["wattage", "length", "width", "height", "output current"],
       "images": [
         {
-          "title": "Drivers",
+          "title": "Power supplies",
           "image":
             "https://webquoin.com/catalog/build/assets/loox/powerpacks-01.jpg"
         }
@@ -420,9 +466,9 @@
       "code": "MSC-LED-DRIVERMAG",
       "cat": "LEDs",
       "root": "LED",
-      "title": "DIY driver",
+      "title": "DIY power supply",
       "description":
-        "Dimmable voltage LED driver is class 2 rated and designed to operate with any standard MLV/Incandescent TRIAC (Leading edge) dimmer switch. Encased in a low profile aluminum enclosure. Perfect choice for under cabinet lights, tape lights and various LED. Electrical specification includes Auto Reset, over current and short circuit protection. Efficiency of 90% and higher allows the driver to operate at low temperatures.",
+        "Dimmable voltage LED power supply is class 2 rated and designed to operate with any standard MLV/Incandescent TRIAC (Leading edge) dimmer switch. Encased in a low profile aluminum enclosure. Perfect choice for under cabinet lights, tape lights and various LED. Electrical specification includes Auto Reset, over current and short circuit protection. Efficiency of 90% and higher allows the power supply to operate at low temperatures.",
       "specifications": [],
       "versions": [
         {
@@ -444,7 +490,7 @@
       "vtable": ["wattage", "download"],
       "images": [
         {
-          "title": "Magnitude Driver",
+          "title": "Magnitude Power supply",
           "image":
             "https://webquoin.com/catalog/build/assets/loox/driver 12v magnitude.jpg"
         },
@@ -615,7 +661,7 @@
       "title": "6 way Distributor",
       "tab": "extensions",
       "description":
-        "A 6 way distributor for attaching 6 LED lights, lead length to connect to Driver is 78 3/4\"",
+        "A 6 way distributor for attaching 6 LED lights, lead length to connect to Power supply is 78 3/4\"",
       "specifications": [ "4029", "4001", "4032"],
       "iwhd": [],
       "images": [
@@ -718,7 +764,7 @@
     },
     {
       "id": "4038",
-      "title": "Wattage Range",
+      "title": "Contact Range",
       "content": "0.3 - 30 W"
     },
     {
@@ -764,7 +810,7 @@
     {
       "id": "4029",
       "title": "Single",
-      "content": "connection to Driver"
+      "content": "connection to Power supply"
     },
     {
       "id": "4028",
@@ -786,7 +832,7 @@
       "id": "4022",
       "title": "Requires",
       "content":
-        "Power supply/Driver does not come with switch to turn on/off lights"
+        "Power supply does not come with switch to turn on/off lights"
     },
     {
       "id": "4021",
@@ -805,7 +851,7 @@
     },
     {
       "id": "4018",
-      "title": "Order in",
+      "title": "# Order in",
       "content": "In linear feet"
     },
     {
@@ -836,7 +882,7 @@
     {
       "id": "4012",
       "title": "Length",
-      "content": "5000 mm (196 7/8\")"
+      "content": "5 m (16 3/8') per role"
     },
     {
       "id": "4000",
@@ -856,7 +902,7 @@
     {
       "id": "4003",
       "title": "Requires",
-      "content": "12 V Driver power supply."
+      "content": "12 V Power supply, not included."
     },
     {
       "id": "4004",

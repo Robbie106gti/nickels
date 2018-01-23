@@ -143,7 +143,7 @@ function makeStructure(info) {
 
 function partsChose(info) {
   switch (info.code) {
-    case "drivers":
+    case "power supplies":
       card = info.includes.map(
         card => `<div class="col s12 m6">${partHcard(card)}</div>`
       );
@@ -177,6 +177,10 @@ function callButton() {
         stopPropagation: false // Stops event propagation
       }
     ); 
+
+    $(document).ready(function(){
+      $('.tooltipped').tooltip({delay: 50});
+    });
 }
 
 function setGI(info) {
@@ -299,8 +303,8 @@ function cardWithAction(info) {
                   <div class="card-content">
                       <span class="card-title activator grey-text text-darken-4">${titleCase(
                         info.item.pre
-                      )} ${titleCase(info.item.item)} (${info.item.wcode})</span>
-                      <a  class="btn-floating right waves-effect waves-light red"><i onclick="addCodenow(${'\''+info.item.wcode+'\''})" class="material-icons">add</i></a>
+                      )} ${titleCase(info.item.item)} <span onclick="addCodenow(${'\''+info.item.wcode+'\''})" class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">(${info.item.wcode})</span></span>
+                      <a  class="btn-floating right waves-effect waves-light red"><i onclick="addCodenow(${'\''+info.item.wcode+'\''})" class="material-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">add</i></a>
                       <p>${
                         info.item.description
                           ? info.item.description
@@ -329,8 +333,8 @@ function cardWithActionLight(item) {
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">${titleCase(
                             item.title
-                        )} (${item.code})</span>
-                        <a onclick="addCodenow(${'\''+item.code+'\''})" class="btn-floating right waves-effect waves-light red"><i class="material-icons">add</i></a>
+                        )} <span onclick="addCodenow(${'\''+item.code+'\''})" class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">(${item.code})</span></span>
+                        <a onclick="addCodenow(${'\''+item.code+'\''})" class="btn-floating right waves-effect waves-light red"><i class="material-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">add</i></a>
                         <p>${item.description}.</p>
                     </div>
                     <div id="spec${item.code}">${setSpecs2(item)}</div>
@@ -349,8 +353,8 @@ function cardWithActioMSC(item) {
                   <div class="card-content">
                       <span class="card-title activator grey-text text-darken-4">${titleCase(
                         item.title
-                      )} (${item.code})</span>
-                      <a onclick="addCodenow(${'\''+item.code+'\''})" class="btn-floating right waves-effect waves-light red"><i class="material-icons">add</i></a>
+                      )} <span onclick="addCodenow(${'\''+item.code+'\''})" class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">(${item.code})</span></span>
+                      <a onclick="addCodenow(${'\''+item.code+'\''})" class="btn-floating right waves-effect waves-light red"><i class="material-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">add</i></a>
                       <p>${item.description}.</p>
                   </div>
                   <div id="spec${item.code}">${setSpecs2(item)}</div>
@@ -380,7 +384,7 @@ function hcard(item) {
             <p>${item.description}</p>
           </div>
           <div class="card-action">
-            <a onclick="addCodenow(${'\''+item.code+'\''})" >Replacement part code: <span class="ordercode" cart=''>${item.code}</span></a>
+            <a onclick="addCodenow(${'\''+item.code+'\''})" >Replacement part code: <span class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order" cart=''>${item.code}</span></a>
           </div>
         </div>
       </div><div id="note${item.code}">${setNotes(item)}</div>`;
@@ -463,7 +467,12 @@ function setSpecs(item) {
   fetch(`./loox.json`)
     .then(response => response.json())
     .then(data => {
-      let spec = data["specifications"].filter(function (el, i) {
+      let spec = data["specifications"].sort((a, b) => {
+        if(a.title < b.title) return -1;
+        if(a.title > b.title) return 1;
+        return 0;
+      });
+      spec = spec.filter(function (el, i) {
         let t = item.specifications.includes(el.id);
         let id;
         if (t === true) {
@@ -485,7 +494,12 @@ function setSpecs2(item) {
   fetch(`./loox.json`)
     .then(response => response.json())
     .then(data => {
-      let spec = data["specifications"].filter(function (el, i) {
+      let spec = data["specifications"].sort((a, b) => {
+        if(a.title < b.title) return -1;
+        if(a.title > b.title) return 1;
+        return 0;
+      });
+      spec = spec.filter(function (el, i) {
         let t = item.specifications.includes(el.id);
         let id;
         if (t === true) {
@@ -517,7 +531,13 @@ function setSpecNversions(item) {
   fetch(`./loox.json`)
     .then(response => response.json())
     .then(data => {
-      let spec = data["specifications"].filter(function (el, i) {
+        let spec = data["specifications"];
+        spec.sort((a, b) => {
+          if(a.title < b.title) return -1;
+          if(a.title > b.title) return 1;
+          return 0;
+        });
+        spec = spec.filter(function (el, i) {
         let t = item.specifications.includes(el.id);
         let id;
         if (t === true) {
@@ -537,7 +557,7 @@ function setSpecNversions(item) {
                 <thead>
                 <tr>
                     <th></th>
-                    ${item.versions.map(th => `<th onclick="addCodenow(${'\''+th.code+'\''})" class="ordercode">${th.code}</th>`)
+                    ${item.versions.map(th => `<th onclick="addCodenow(${'\''+th.code+'\''})" class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">${th.code}</th>`)
                         .join("")}
                 </tr>
                 </thead>
@@ -590,7 +610,7 @@ function makeHelper() {
             <p>
                 <b>Step 1:</b> Choose the kind of light, strip or spot.<br>
                 <b>Step 2:</b> Where do you want to apply these lights?<br>
-                <b>Step 3:</b> Choose a driver.<br>
+                <b>Step 3:</b> Choose a power supply.<br>
                 <b>Step 4:</b> Do you need a switch?<br>
                 <b>Step 5:</b> Do you need extensions?
             </p>

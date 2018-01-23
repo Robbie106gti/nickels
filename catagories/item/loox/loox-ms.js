@@ -131,7 +131,7 @@ function makeStructure(info) {
 function partsChose(info) {
     var card;
   switch (info.code) {
-    case "drivers":
+    case "power supplies":
       card = info.includes.map(function (card) {
         return "<div class=\"col s12 m6\">" + partHcard(card) + "</div>";
       });
@@ -400,6 +400,6 @@ function getTags(tags) {
 }
 
 function makeHelper() {
-  var help = "<div class=\"fixed-action-btn\" style=\"bottom: 45px; right: 24px;\">\n          <a id=\"menu\" class=\"btn btn-floating btn-large cyan\"><i class=\"material-icons\">menu</i></a>\n        </div>\n        <!-- Tap Target Structure -->\n        <div class=\"tap-target\" data-activates=\"menu\">\n          <div class=\"tap-target-content\" style=\"text-align: right;\">\n            <h5>Steps</h5>\n            <p>\n                <b>Step 1:</b> Choose the kind of light, strip or spot.<br>\n                <b>Step 2:</b> Where do you want to apply these lights?<br>\n                <b>Step 3:</b> Choose a driver.<br>\n                <b>Step 4:</b> Do you need a switch?<br>\n                <b>Step 5:</b> Do you need extensions?\n            </p>\n          </div>\n        </div>";
+  var help = "<div class=\"fixed-action-btn\" style=\"bottom: 45px; right: 24px;\">\n          <a id=\"menu\" class=\"btn btn-floating btn-large cyan\"><i class=\"material-icons\">menu</i></a>\n        </div>\n        <!-- Tap Target Structure -->\n        <div class=\"tap-target\" data-activates=\"menu\">\n          <div class=\"tap-target-content\" style=\"text-align: right;\">\n            <h5>Steps</h5>\n            <p>\n                <b>Step 1:</b> Choose the kind of light, strip or spot.<br>\n                <b>Step 2:</b> Where do you want to apply these lights?<br>\n                <b>Step 3:</b> Choose a power supply.<br>\n                <b>Step 4:</b> Do you need a switch?<br>\n                <b>Step 5:</b> Do you need extensions?\n            </p>\n          </div>\n        </div>";
   $("#helper").html(help);
 }
