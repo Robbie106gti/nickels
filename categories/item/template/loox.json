@@ -1,4 +1,41 @@
 {
-    "information": {},
-    "items": {}
+    "information": [{
+        "title": "kit for spot lights",
+        "id": "spots",
+        "description": "LED lights generate uniform, evenly ...",
+        "image": "https://",
+        "tags": ["spots", "kit", "round", "square"],
+        "attached": [
+          {
+            "item": "round",
+            "page": "spots",
+            "pre": "kit for spot",
+            "wcode": "kit-led-round",
+            "includes": ["MSC-LED-ROUND..." ],
+            "image": "https://"
+          }
+        ]
+    }],
+    "items": [{
+        "active": true,
+        "code": "MSC-LED-LIGHT",
+        "cat": "Loox LEDs",
+        "root": "LED",
+        "title": "LED light",
+        "description": "LED lights generate uniform, evenly...",
+        ///// number referces too specs.json object number
+        "specifications": [ "4000" ],
+        "images": [
+          {
+            "title": "",
+            "image": "https://"
+          },
+          {
+            "title": "Drawing ",
+            "image":"https://"
+          }
+        ],
+        ///// number referces too notes.json object number
+        "notes": []
+    }]
 }

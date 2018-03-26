@@ -64,7 +64,7 @@
                     {
                         "id": "2",
                         "title": "",
-                        "content": "A backer panel is used for attaching hardware to Door."
+                        "content": "A backer panel is used for attaching hardware to Door. The backer panel will be the same material as the interior material selected; for example, if White Melamine is chosen for the interior of the cabinets the back panel is White Melamine."
                     }
                 ]
             }

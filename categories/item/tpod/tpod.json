@@ -1,0 +1,28 @@
+{
+  "information": {
+    "title": "Tall Pull-Out Door",
+    "subTitle": "for TBR cabinets",
+    "id": "tpod",
+    "description": "Unit is attached to door and pulls out when door is opened.",
+    "image": "https://webquoin.com/catalog/build/assets/loox/Loox sink round led.jpg",
+    "image-spec": "https://webquoin.com/catalog/build/assets/tpod/tpod-spec.jpg",
+    "tags": ["spots", "kit", "round", "square"],
+    "specifications": [],
+    "notes": [],
+    "codes": [],
+    "baskets": [
+      {
+        "title": "Grey"
+      },
+      {
+        "title": "White"
+      },
+      {
+        "title": "Maple"
+      },
+      {
+        "title": "Chrome"
+      }
+    ]
+  }
+}

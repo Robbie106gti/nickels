@@ -58,7 +58,7 @@ function getPage() {
 				<div class="card-image waves-effect waves-block waves-light">
 					<img class="responsive-img activator" src="${image.image}">
 				</div>
-				<div class="card-content activator">
+				<div class="card-content activator open">
 					<span><i class="material-icons activator">details</i></span>
 					${getTags(image.tags)}
 				</div>

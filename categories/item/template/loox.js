@@ -36,6 +36,26 @@ function getPage() {
         .then(response => response.json())
         .then(data => {
             console.log(data)
-        })
-        .catch(err => console.log(err));
-    }
+            setGI(data.information);
+          })
+          .catch(err => console.log(err));
+      }
+      
+      function setGI(information) {
+        const cat = `<h1 id="topic">${information.title}</h1><h5>${information.subTitle}</h5><div id="actions"></div>`;
+        $("#topic").html(cat);
+        const des = `${information.description}`;
+        $("#des").html(des);
+      }
+      
+      function titleCase(str) {
+        if (str == null) return "";
+        return str
+          .toLowerCase()
+          .split(" ")
+          .map(function (word) {
+            if (!word) return;
+            return word.replace(word[0], word[0].toUpperCase());
+          })
+          .join(" ");
+      }

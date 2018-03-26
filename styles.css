@@ -213,3 +213,7 @@ p > i {
   list-style-type: circle;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
   list-style-position: inside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
 }
+
+.open {
+  cursor: pointer;
+}

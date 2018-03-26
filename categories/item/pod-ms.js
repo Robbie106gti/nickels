@@ -54,7 +54,7 @@ function setImages(info) {
         style = "inactive";
     }
     var images = '' + info.imageCards.map(function (image) {
-        return '\n\t\t<div class="col s6 m3 l3">\n\t\t\t<div id="imageCard' + image.id + '" class="card hoverable medium ' + style + '">\n\t\t\t\t<div class="card-image waves-effect waves-block waves-light">\n\t\t\t\t\t<img class="responsive-img activator" src="' + image.image + '">\n\t\t\t\t</div>\n\t\t\t\t<div class="card-content activator">\n\t\t\t\t\t<span><i class="material-icons activator">details</i></span>\n\t\t\t\t\t' + getTags(image.tags) + '\n\t\t\t\t</div>\n\t\t\t\t<div class="card-reveal">\n\t\t\t\t  <span class="card-title blue-grey-text text-darken-3">Codes: <i class="material-icons right">close</i></span>\n\t\t\t\t  ' + getCollections(info, image.links) + '\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>        \n        ';
+        return '\n\t\t<div class="col s6 m3 l3">\n\t\t\t<div id="imageCard' + image.id + '" class="card hoverable medium ' + style + '">\n\t\t\t\t<div class="card-image waves-effect waves-block waves-light">\n\t\t\t\t\t<img class="responsive-img activator" src="' + image.image + '">\n\t\t\t\t</div>\n\t\t\t\t<div class="card-content activator open">\n\t\t\t\t\t<span><i class="material-icons activator">details</i></span>\n\t\t\t\t\t' + getTags(image.tags) + '\n\t\t\t\t</div>\n\t\t\t\t<div class="card-reveal">\n\t\t\t\t  <span class="card-title blue-grey-text text-darken-3">Codes: <i class="material-icons right">close</i></span>\n\t\t\t\t  ' + getCollections(info, image.links) + '\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>        \n        ';
     }).join('');
     $("#images").html(images);
 }

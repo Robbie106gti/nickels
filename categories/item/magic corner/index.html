@@ -32,29 +32,12 @@
 
   <body>
     <div id="header"></div>
+    <div id="loader"></div>
     <div id="top" class="card">
-      <div class="container ">
-        <a href="../index.html?cat=Accessories" class="right">
-          <i class="small material-icons">arrow_back</i>
-        </a>
-        <div id="topic"></div>
+      <div id="topic" class="container ">
       </div>
     </div>
-    <div id="catalog" class="row">
-      <div class="col s12 m6">
-        <div class="card-panel  blue-grey darken-1 white-text">
-          <span class="card-title">
-            <h4>Description</h4>
-          </span>
-          <div class="divider"></div>
-          <span id="des" class="flow-text">
-          </span>
-        </div>
-        <div id="spec"></div>			
-      </div>
-      <div id="code" class="col s12 m6"></div>
-      <div id="images"></div>
-    </div>
+    <div id="catalog" class="row grid"></div>
     <div id="footer"></div>
 
     <!--Import jQuery before materialize.js-->
@@ -62,12 +45,12 @@
     <script type="text/javascript" src="../../../node_modules/materialize-css/dist/js/materialize.min.js"></script>
     <script type="text/javascript">
       if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
-        document.write('<script src="../../../node_modules/promise-polyfill/promise.min.js"><\/script><script src="../../../node_modules/whatwg-fetch/fetch.js"><\/script><script src="../../../includes.js"><\/script><script src="./loox-ms.js"><\/script>');
+        document.write('<script src="../../../node_modules/promise-polyfill/promise.min.js"><\/script><script src="../../../node_modules/whatwg-fetch/fetch.js"><\/script><script src="../../../includes.js"><\/script><script src="./mc-ms.js"><\/script>');
           var ua = window.navigator.userAgent;
           var msie = ua.indexOf("MSIE ");
           alert('Our appologies it seems like you are using Internet Explorer, your experiance will be worse using this browser and not all information can be garantied. Would you please switch to Chrome/Edge/Firefox/Safari or Opera.');
       } else {     
-        document.write('<script src="./loox.js"><\/script>');  
+        document.write('<script src="./mc.js"><\/script>');  
       }
     </script>
   </body>
