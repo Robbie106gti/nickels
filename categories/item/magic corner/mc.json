@@ -1,4 +1,133 @@
 {
-  "information": [{}],
-  "items": [{}]
+  "information": {
+    "title": "Magic Corners",
+    "subTitle": "for corner cabinets",
+    "id": "mc",
+    "image": "https://webquoin.com/catalog/build/assets/loox/Loox sink round led.jpg",
+    "code": "LS",
+    "sides": [
+      {
+        "option": "Right",
+        "code": "R"
+      },
+      {
+        "option": "Left",
+        "code": "R"
+      }
+    ],
+    "baskets": [
+      {
+        "title": "Grey",
+        "base": "Silver powder coated",
+        "image": "",
+        "color": "",
+        "code": "GA" 
+      },
+      {
+        "title": "White",
+        "base": "Silver powder coated",
+        "image": "",
+        "color": "",
+        "code": "WH"
+      },
+      {
+        "title": "Maple",
+        "base": "Silver powder coated",
+        "image": "",
+        "color": "",
+        "code": "MA"
+      },
+      {
+        "title": "Chrome",
+        "base": "Silver powder coated",
+        "image": "",
+        "color": "",
+        "code": "CH"
+      }
+    ]
+  },
+  "items": [
+    {
+      "title": "Wari",
+      "description": "Door mounted Magic Corner, easily store and access use for corner cabinets. Possible in both a left or right setup. The “LS-WARI” uses a single action to open, with options in colours for the baskets, Grey, White, Maple and Chrome.",
+      "image": "",
+      "imageSpec": "",
+      "code": "WARI",
+      "notes": [],
+      "specifications": []
+    },
+    {
+      "title": "Flex",
+      "description": "Cabinet secured Magic Corner, easily store and access use for corner cabinets. Possible in both a left or right setup. The “LS-FLEX” uses a two step opening action, with options in colours for the baskets, Grey, White, Maple and Chrome. All 4 baskets can completely come out of the cabinet.",
+      "image": "",
+      "imageSpec": "",
+      "code": "FLEX",
+      "notes": [],
+      "specifications": []
+    }
+  ],
+  "specifications": [
+    {
+      "title": "Door hanging plates 3 way adjustable",
+      "content": "450 mm (17 3/4”), 500 mm (19 11/16”), 600 mm (23 5/8”)"
+    },
+    {
+      "title": "min depth",
+      "content": "485mm (19 3/32”)"
+    },
+    {
+      "title": "min height",
+      "content": "530mm (20 7/8”)"
+    },
+    {
+      "title": "min width door",
+      "content": "450mm (17 3/4”)"
+    },
+    {
+      "title": "min depth",
+      "content": "480mm (18 7/8”)"
+    },
+    {
+      "title": "min height",
+      "content": "530mm (20 7/8”)"
+    },
+    {
+      "title": "min width cabinet",
+      "content": "900mm (35 7/16 ”)"
+    },
+    {
+      "title": "max load",
+      "content": "32kg (70.5lbs)"
+    },
+    {
+      "title": "Baskets",
+      "content": "are individually height adjustable"
+    },
+    {
+      "title": "Includes:",
+      "content": "4 Baskets, 2 for door of a max. load of 8kg (18lbs) each, 2 for cabinet of a max. load of 9.5kg (21lbs) each"
+    },
+    {
+      "title": "Includes:",
+      "content": "4 Baskets, max. load of 8kg (17.5 lbs) each basket"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Order",
+      "content": "additional baskets with code: LS-WARI-BASKET"
+    },
+    {
+      "title": "Order",
+      "content": "additional baskets with code: LS-FLEX-BASKET"
+    },
+    {
+      "title": "Baskets",
+      "content": "not attached to door do not come of cabinet without un-clicking them"
+    },
+    {
+      "title": "Handles",
+      "content": "can interfere with the slide out motion, ensure the handles on cabinet to the left or right doesn’t stick out more then ??"
+    }
+  ]
 }

@@ -6,22 +6,82 @@
     "description": "Unit is attached to door and pulls out when door is opened.",
     "image": "https://webquoin.com/catalog/build/assets/loox/Loox sink round led.jpg",
     "image-spec": "https://webquoin.com/catalog/build/assets/tpod/tpod-spec.jpg",
-    "tags": ["spots", "kit", "round", "square"],
-    "specifications": [],
+    "tags": [],
+    "specifications": [
+      {
+        "title": "Adjustment",
+        "content": "3D front adjustment"
+      },
+      {
+        "title": "Baskets",
+        "content": "Height-adjustable basket assembly using functional clip"
+      },
+      {
+        "title": "Motion",
+        "content": "firm grip and low noise"
+      },
+      {
+        "title": "Cabinet height",
+        "content": "1450 - 1700 mm"
+      },
+      {
+        "title": "Cabinet depth",
+        "content": "min. 475 mm"
+      },
+      {
+        "title": "Dim. (D x H) Baskets",
+        "content": "430 x 85 mm"
+      },
+      {
+        "title": "Includes",
+        "content": "4 Baskets"
+      },
+      {
+        "title": "Load bearing capacity",
+        "content": "Basket: 16 kg each, total capacity: 120 kg (7 baskets at 16kg eachand door)"
+      }
+    ],
     "notes": [],
-    "codes": [],
+    "code": "TPOD-VS",
+    "widths": [ 12, 16, 18, 20, 24 ],
+    "sides": [
+      {
+        "option": "Right",
+        "code": "R"
+      },
+      {
+        "option": "Left",
+        "code": "R"
+      }
+    ],
     "baskets": [
       {
-        "title": "Grey"
+        "title": "Grey",
+        "base": "Silver epoxy coated tubular steel",
+        "image": "",
+        "color": "",
+        "code": "GA" 
       },
       {
-        "title": "White"
+        "title": "White",
+        "base": "Silver epoxy coated tubular steel",
+        "image": "",
+        "color": "",
+        "code": "WH"
       },
       {
-        "title": "Maple"
+        "title": "Maple",
+        "base": "Silver epoxy coated tubular steel",
+        "image": "",
+        "color": "",
+        "code": "MA"
       },
       {
-        "title": "Chrome"
+        "title": "Chrome",
+        "base": "Silver epoxy coated tubular steel",
+        "image": "",
+        "color": "",
+        "code": "CH"
       }
     ]
   }
