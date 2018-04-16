@@ -5,7 +5,7 @@
       "title": "LED : Led Lighting",
       "attached": [
         {
-          "sub": "LED",
+          "code": "NONE",
           "title": "Led Lighting",
           "link": "loox/index"
         }
@@ -19,14 +19,42 @@
       "title": "RGB : Recycle bins",
       "attached": [
         {
-          "sub": "LED",
+          "code": "NONE",
           "title": "Recycle bins",
           "link": "pod"
         }
       ],
       "image":
-        "https://webquoin.com/catalog/build/assets/rgb/38L%2038L%2012L%202.5L%20461950100%20rgb-pod-25.jpg",
+      "https://webquoin.com/catalog/build/assets/rgb/38L%2038L%2012L%202.5L%20461950100%20rgb-pod-25.jpg",
       "tags": ["single bin", "double bin", "4 bin"]
+    },
+    {
+      "code": "TPOD",
+      "title": "TPOD : Tall pull-out door",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Tall pull-out",
+          "link": "tpod/index"
+        }
+      ],
+      "image":
+      "https://webquoin.com/catalog/build/assets/tpod/tpod.jpg",
+      "tags": ["pantry", "tall", "hardware", "maple", "white", "grey", "chrome"]
+    },
+    {
+      "code": "MC",
+      "title": "MC : Magic corners",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Magic corners",
+          "link": "magic corner/index"
+        }
+      ],
+      "image":
+        "https://webquoin.com/catalog/build/assets/mc/wari.jpg",
+      "tags": ["corner", "cab", "hardware", "maple", "white", "grey", "chrome"]
     }
   ]
 }

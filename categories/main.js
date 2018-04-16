@@ -162,8 +162,8 @@ function getSubs() {
     }
 
     function configLink(cat) {
-        switch(cat.attached[0].sub) {
-            case 'LED':
+        switch(cat.attached[0].code) {
+            case 'NONE':
                 return `${cat.attached[0].link}.html`;
                 break;
             default:

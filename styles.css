@@ -1,4 +1,3 @@
-
 body {
   background-color: rgba(96, 125, 139, 0.5)
 }
@@ -10,9 +9,9 @@ body {
 }
 
 .headingLogo {
-  display: inline-block;    
+  display: inline-block;
   position: relative;
-  top: -0.15em;  
+  top: -0.15em;
 }
 
 .whiteLine {
@@ -33,18 +32,18 @@ body {
   border-left: 45px solid transparent;
 }
 
-.preview > img {
+.preview>img {
   height: 10vw;
   width: auto;
   overflow: hidden;
 }
 
-.bullet > ul:not(.browser-default) > li {
+.bullet>ul:not(.browser-default)>li {
   list-style-type: circle;
-  margin-left: 1em; 
+  margin-left: 1em;
 }
 
-p > i {
+p>i {
   position: relative;
   top: -0.1em;
   left: -0.4em;
@@ -60,6 +59,7 @@ p > i {
   margin-bottom: 0.1rem;
   padding-bottom: 0.6em;
 }
+
 #topic {
   margin-bottom: -0.8rem;
 }
@@ -75,40 +75,62 @@ p > i {
   padding: 0.5em;
 }
 
-@supports(display: grid){
+@supports(display: grid) {
   .detail-card {
     width: 50%;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (minmax(2em, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
   }
-  
-    .grid {
-      margin: 0 auto;
-      display: -ms-grid;
-      display: grid;
-      grid-gap: 1em;
-      -ms-grid-columns: (minmax(18em, 1fr))[auto-fit];
-          grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-    }
-    
-    .grid2 {
-      margin: 0 auto;
-      display: -ms-grid;
-      display: grid;
-      grid-gap: 1em;
-      -ms-grid-columns: (minmax(12em, 1fr))[auto-fit];
-          grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-    }
+  .grid {
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1em;
+    -ms-grid-columns: (minmax(18em, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  }
+  .grid2 {
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1em;
+    -ms-grid-columns: (minmax(12em, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  }
+}
+
+.box-image {
+  height: 5em;
+  width: 5em;
+  padding: 0.5rem;
+  overflow: hidden;
+  display: inline-block;
+}
+
+img.materialboxed.initialized {
+  max-inline-size: 10em;
+}
+
+img.materialboxed.initialized.active {
+  max-inline-size: none !important;
+}
+img.responsive-img.materialboxed {
+  max-inline-size: none !important;
+  width: 100%;
+  height: auto;
 }
 
 .image20 {
-    max-height: 20vw;
-    max-width: 15vw;
-    position: absolute;
-    top: 0; bottom:0; left: 0; right:0;
-    margin: auto;
+  max-height: 20vw;
+  max-width: 15vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .card .card-image img {
@@ -129,10 +151,10 @@ p > i {
 }
 
 .bgd1 {
- background-color: rgba(66, 96, 121, 0.459)
+  background-color: rgba(66, 96, 121, 0.459)
 }
 
-.inactive > .card-image > img {  
+.inactive>.card-image>img {
   filter: blur(2px);
   -webkit-filter: blur(2px);
   -moz-filter: blur(2px);
@@ -152,18 +174,20 @@ p > i {
 .padding {
   padding: 0.5em;
 }
-.padding > material-placeholder {
+
+.padding>material-placeholder {
   margin-bottom: 1em;
 }
-.padding > span {
+
+.padding>span {
   position: relative;
   margin-top: 1em;
   background-color: rgba(96, 125, 139, 0.5);
-  padding: 0.2em; 
+  padding: 0.2em;
   left: 1em;
 }
 
-.ordercode {  
+.ordercode {
   font-weight: bold;
   color: #800;
   cursor: pointer;
@@ -188,14 +212,17 @@ p > i {
   overflow: hidden;
 }
 
-.listitem {  
+.listitem {
   margin-left: 0.5em;
   margin-top: -0.1rem;
   margin-bottom: 0.7rem;
   line-height: 1.6rem;
-  display: list-item;          /* This has to be "list-item"                                               */
-  list-style-type: disc;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
-  list-style-position: inside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+  display: list-item;
+  /* This has to be "list-item"                                               */
+  list-style-type: disc;
+  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;
+  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
 }
 
 .h5 {
@@ -209,9 +236,12 @@ p > i {
 }
 
 .nritem {
-  display: list-item;          /* This has to be "list-item"                                               */
-  list-style-type: circle;       /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
-  list-style-position: inside; /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
+  display: list-item;
+  /* This has to be "list-item"                                               */
+  list-style-type: circle;
+  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+  list-style-position: inside;
+  /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position */
 }
 
 .open {

@@ -1,7 +1,7 @@
 {
   "information": {
     "title": "Magic Corners",
-    "subTitle": "for corner cabinets",
+    "subTitle": "Hardware for corner cabinets",
     "id": "mc",
     "image": "https://webquoin.com/catalog/build/assets/loox/Loox sink round led.jpg",
     "code": "LS",
@@ -50,54 +50,74 @@
     {
       "title": "Wari",
       "description": "Door mounted Magic Corner, easily store and access use for corner cabinets. Possible in both a left or right setup. The “LS-WARI” uses a single action to open, with options in colours for the baskets, Grey, White, Maple and Chrome.",
-      "image": "",
-      "imageSpec": "",
+      "image": "https://webquoin.com/catalog/build/assets/mc/wari.jpg",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/build/assets/mc/wari.jpg"
+        },
+        {
+          "title": "Spec",
+          "image": ""
+        }
+      ],
       "code": "WARI",
       "notes": [],
+      "tags": [ "corner cabinets", "fixed to door", "hardware"],
       "specifications": []
     },
     {
       "title": "Flex",
       "description": "Cabinet secured Magic Corner, easily store and access use for corner cabinets. Possible in both a left or right setup. The “LS-FLEX” uses a two step opening action, with options in colours for the baskets, Grey, White, Maple and Chrome. All 4 baskets can completely come out of the cabinet.",
-      "image": "",
-      "imageSpec": "",
+      "image": "https://webquoin.com/catalog/build/assets/mc/flex.jpg",
+      "images": [
+        {
+          "title": "",
+          "image": ""
+        },
+        {
+          "title": "Spec",
+          "image": ""
+        }
+      ],
       "code": "FLEX",
       "notes": [],
+      "tags": [ "corner cabinets", "fixed to cabinet", "hardware"],
       "specifications": []
     }
   ],
   "specifications": [
     {
       "title": "Door hanging plates 3 way adjustable",
-      "content": "450 mm (17 3/4”), 500 mm (19 11/16”), 600 mm (23 5/8”)"
+      "content": "17 3/4\" (450 mm), 19 11/16\" (500 mm), 23 5/8\" (600 mm)"
     },
     {
       "title": "min depth",
-      "content": "485mm (19 3/32”)"
+      "content": "19 3/32\" (485 mm)"
     },
     {
       "title": "min height",
-      "content": "530mm (20 7/8”)"
+      "content": "20 7/8\" (530 mm)"
     },
     {
       "title": "min width door",
-      "content": "450mm (17 3/4”)"
+      "content": "17 3/4\" (450 mm)"
     },
     {
       "title": "min depth",
-      "content": "480mm (18 7/8”)"
+      "content": "18 7/8\" (480 mm)"
     },
     {
       "title": "min height",
-      "content": "530mm (20 7/8”)"
+      "content": "20 7/8\" (530 mm)"
     },
     {
       "title": "min width cabinet",
-      "content": "900mm (35 7/16 ”)"
+      "content": "35 7/16\" (900 mm)"
     },
     {
       "title": "max load",
-      "content": "32kg (70.5lbs)"
+      "content": "70.5 lbs (32 kg)"
     },
     {
       "title": "Baskets",
@@ -105,21 +125,57 @@
     },
     {
       "title": "Includes:",
-      "content": "4 Baskets, 2 for door of a max. load of 8kg (18lbs) each, 2 for cabinet of a max. load of 9.5kg (21lbs) each"
+      "content": "4 Baskets, 2 for door of a max. load of 18lbs (8 kg) each, 2 for cabinet of a max. load of 21 lbs (9.5 kg) each"
     },
     {
       "title": "Includes:",
-      "content": "4 Baskets, max. load of 8kg (17.5 lbs) each basket"
+      "content": "4 Baskets, max. load of 17.5 lbs (8 kg) each basket"
     }
   ],
   "notes": [
     {
       "title": "Order",
-      "content": "additional baskets with code: LS-WARI-BASKET"
+      "content": "additional baskets with code:",
+      "codes": [ 
+        {
+          "title": "Grey basket",
+          "code": "LS-WARI-BASKET-GA"
+        },
+        {
+          "title": "White basket",
+          "code": "LS-WARI-BASKET-WH"
+        },
+        {
+          "title": "Maple basket",
+          "code": "LS-WARI-BASKET-MA"
+        },
+        {
+          "title": "Chrome basket",
+          "code": "LS-WARI-BASKET-CH"
+        }
+      ]
     },
     {
       "title": "Order",
-      "content": "additional baskets with code: LS-FLEX-BASKET"
+      "content": "additional baskets with code:",
+      "codes": [ 
+        {
+          "title": "Grey basket",
+          "code": "LS-FLEX-BASKET-GA"
+        },
+        {
+          "title": "White basket",
+          "code": "LS-FLEX-BASKET-WH"
+        },
+        {
+          "title": "Maple basket",
+          "code": "LS-FLEX-BASKET-MA"
+        },
+        {
+          "title": "Chrome basket",
+          "code": "LS-FLEX-BASKET-CH"
+        }
+      ]
     },
     {
       "title": "Baskets",
