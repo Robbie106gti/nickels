@@ -45,7 +45,7 @@
       "code": "WARI",
       "notes": [ 1, 3],
       "tags": [ "corner cabinets", "fixed to door", "hardware"],
-      "specifications": [ 1, 2, 3, 7, 10 ],
+      "specifications": [ 4, 2, 3, 7, 10 ],
       "baskets": [
         {
           "title": "Grey",
@@ -156,7 +156,7 @@
     },
     {
       "title": "min width door",
-      "content": "18\" (450 mm)",
+      "content": "18\" (457 mm)",
       "id": 4
     },
     {
