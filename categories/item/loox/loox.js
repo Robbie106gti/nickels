@@ -23,7 +23,7 @@ if (msie !== -1) {
   var edge = ua.split("Edge/");
   if (edge[1] < 16) {
     edge = "col s3";
-  } 
+  }
 }
 
 function getPage() {
@@ -45,7 +45,7 @@ function getPage() {
   fetch(`./loox.json`)
     .then(response => response.json())
     .then(data => {
-      // console.log(data);
+      console.log(data);
       if (!code && !page) {
         const d = document.getElementById("catalog");
         d.className += " grid";
@@ -68,11 +68,11 @@ function getPage() {
       info['page'] = page;
       info['code'] = code;
       info['tab'] = id;
-/*       info = { ...info,
-        page: page,
-        code: code,
-        tab: id
-      }; */
+      /*       info = { ...info,
+              page: page,
+              code: code,
+              tab: id
+            }; */
       let item = info.attached.filter(i => i.item == code)[0];
       let includes = item.includes.map(item => {
         return data.items.filter(i => i.code === item)[0];
@@ -82,18 +82,18 @@ function getPage() {
         includes.map(item => (spec = spec.concat(item.specifications)));
         spec.sort((a, b) => a - b);
         item['specifications'] = unique(spec);
-/*         item = {
-          specifications: unique(spec),
-          ...item
-        }; */
+        /*         item = {
+                  specifications: unique(spec),
+                  ...item
+                }; */
       }
       info['includes'] = includes;
       info['item'] = item;
-/*       info = {
-        item,
-        ...info,
-        includes
-      }; */
+      /*       info = {
+              item,
+              ...info,
+              includes
+            }; */
       makeStructure(info);
     })
     .catch(err => console.log(err));
@@ -130,6 +130,7 @@ function makeStructure(info) {
       $("#catalog").html(card);
       includesCard(info);
       setSpecs(info.item);
+      info.item.prepare ? setPrepare(info.item.prepare) : null;
       callButton();
       break;
     case "parts":
@@ -166,21 +167,26 @@ function partsChose(info) {
 }
 
 function callButton() {
-    $('.dropdown-button').dropdown({
-        inDuration: 300,
-        outDuration: 225,
-        constrainWidth: true, // Does not change width of dropdown to that of the activator
-        hover: true, // Activate on hover
-        gutter: 0, // Spacing from edge
-        belowOrigin: true, // Displays dropdown below the button
-        alignment: 'left', // Displays dropdown with edge aligned to the left of button
-        stopPropagation: false // Stops event propagation
-      }
-    ); 
+  $('.dropdown-button').dropdown({
+    inDuration: 300,
+    outDuration: 225,
+    constrainWidth: true, // Does not change width of dropdown to that of the activator
+    hover: true, // Activate on hover
+    gutter: 0, // Spacing from edge
+    belowOrigin: true, // Displays dropdown below the button
+    alignment: 'left', // Displays dropdown with edge aligned to the left of button
+    stopPropagation: false // Stops event propagation
+  });
 
-    $(document).ready(function(){
-      $('.tooltipped').tooltip({delay: 50});
+  $(document).ready(function () {
+    $('.tooltipped').tooltip({
+      delay: 50
     });
+  });
+
+  $(document).ready(function () {
+    $('.slider').slider();
+  });
 }
 
 function setGI(info) {
@@ -223,14 +229,15 @@ function makeDDWN(ddwn) {
 }
 
 function makeActions(card) {
+  console.log(card);
   let action = `${card
     .map(
-      a =>
+      a => a.active !== false ? 
         `<li class="waves-effect waves-light"><a class="white-text" href="./index.html?page=${
           a.page
         }&code=${a.item}"><i class="material-icons">art_track</i>${titleCase(
           a.item
-        )}</a></li>`
+        )}</a></li>` : ''
     )
     .join("")}`;
   return action;
@@ -242,8 +249,13 @@ function makeTabs(info) {
                       .map(
                         tab => { 
                             if(tab === info.tab) { return `<li class="tab col s3"><a href="#${tab}" class="active">${tab}</a></li>`}
-                            if (info.tab == null && tab === info.item.tabs[0]) { return `<li class="tab col s3"><a href="#${tab}" class="active">${tab}</a></li>`}
-                            return `<li class="tab col s3"><a href="#${tab}">${tab}</a></li>`;
+                            if (info.tab == null && tab === info.item.tabs[0]) { return ` < li class = "tab col s3" > < a href = "#${tab}"
+  class = "active" > $ {
+    tab
+  } < /a></li > `}
+                            return ` < li class = "tab col s3" > < a href = "#${tab}" > $ {
+    tab
+  } < /a></li > `;
                         })
                       .join("")}</ul>
                     ${info.item.tabs
@@ -253,7 +265,7 @@ function makeTabs(info) {
                       )
                       .join("")}</div>`;
   $("#catalog").html(tabs);
-  $(document).ready(function(){
+  $(document).ready(function () {
     $('ul.tabs').tabs();
   });
 }
@@ -278,7 +290,8 @@ function titleCase(str) {
 function cardWith(cat) {
   const card = `<div class="card ${edge}">
                   <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="${cat.image}">
+                      <img class="activator"
+                      src="${cat.image}" >
                   </div>
                   <div class="card-content">
                       <span class="card-title activator grey-text text-darken-4">${
@@ -295,16 +308,38 @@ function cardWith(cat) {
   return card;
 }
 
+function webqoinCode(info) {
+  let wqCode = `<span onclick="addCodenow(${'\''+info.item.wcode+'\''})" class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">(${info.item.wcode})</span></span>
+                      <a class="btn-floating right waves-effect waves-light red"><i onclick="addCodenow(${'\''+info.item.wcode+'\''})" class="material-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">add</i></a>`;
+  if (info.item.length) {
+    wqCode = null;
+    wqCode = info.item.length.map(l => `<span onclick="addCodenow(${'\''+info.item.wcode+'-'+l+'\''})" class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add ${'\''+info.item.wcode+'-'+l+'\''} to your order">(${info.item.wcode+'-'+l})</span>`).join("/");
+    wqCode = wqCode + '</span>';
+  }
+  if (info.colors) {
+    wqCode = null;
+    wqCode = info.colors.map(l =>
+      `<span onclick="addCodenow(${'\''+info.item.wcode+'-'+l.code+'\''})" class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add ${'\''+info.item.wcode+'-'+l.code+'\''} to your order">(${info.item.wcode+'-'+l.code})</span>
+      <a class="btn-floating right waves-effect waves-light second" style="background-color: ${l.color}">
+      <i onclick="addCodenow(${'\''+info.item.wcode+'-'+l.code+'\''})" class="material-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add ${'\''+l.title+'\''} to your order">add</i>
+      </a>
+      `).join("/");
+    wqCode = '</span>' + wqCode;
+  }
+  return wqCode;
+}
+
 function cardWithAction(info) {
-  const card = `<div class="card col s12 m6">
+  let card = `<div class="card col s12 m6">
                   <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="${info.item.image}">
+                      <img class="activator"
+                      src="${info.item.image}" >
                   </div>
                   <div class="card-content">
                       <span class="card-title activator grey-text text-darken-4">${titleCase(
                         info.item.pre
-                      )} ${titleCase(info.item.item)} <span onclick="addCodenow(${'\''+info.item.wcode+'\''})" class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">(${info.item.wcode})</span></span>
-                      <a  class="btn-floating right waves-effect waves-light red"><i onclick="addCodenow(${'\''+info.item.wcode+'\''})" class="material-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">add</i></a>
+                      )} ${titleCase(info.item.item)}
+                      ${webqoinCode(info)}
                       <p>${
                         info.item.description
                           ? info.item.description
@@ -319,6 +354,9 @@ function cardWithAction(info) {
                         <div id="specli"></div>
                   </div>
               </div><div id="include"></div>`;
+  if (info.item.prepare) {
+    card = card + '<div id="prepare"></div>';
+  }
   return card;
 }
 
@@ -346,7 +384,8 @@ function cardWithActionLight(item) {
 function cardWithActioMSC(item) {
   const card = `<div class="card">
                   <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator image20" src="${
+                      <img class="materialboxed activator image20"
+                      src="${
                         item.images[0].image
                       }">
                   </div>
@@ -375,9 +414,9 @@ function includesCard(info) {
 }
 
 function hcard(item) {
-  let hcard = `<div class="card horizontal">
+  let hcard = item.images.length !== 1 ? makeSliders(item) : `<div class="card horizontal">
         <div class="card-image" style="overflow: hidden">
-          <img src="${item.images[0].image}" alt="${item.images[0].title}">
+          <img class="materialboxed" src="${item.images[0].image}" alt="${item.images[0].title}">
         </div>
         <div class="card-stacked">
           <div class="card-content">
@@ -389,6 +428,11 @@ function hcard(item) {
         </div>
       </div><div id="note${item.code}">${setNotes(item)}</div>`;
   return hcard;
+}
+
+function makeSliders(item) {
+  const slides = `<div class="slider card"><ul class="slides">${item.images.map(image => `<li><img class="responsive-img" src="${image.image}" alt="${image.title}"/><div class="caption right-align"><h5>${image.title}</h5></div></li>`)}</ul></div><div class="slide-conent"></div>`;
+  return slides;
 }
 
 function partHcard(item) {
@@ -416,7 +460,7 @@ function partHcard(item) {
 }
 
 function setImage(image) {
-  return (image = `<img class="image20" src="${image.image}" alt="${
+  return (image = `<img class="image20 materialboxed" src="${image.image}" alt="${
     image.title
   }">`);
 }
@@ -424,7 +468,9 @@ function setImage(image) {
 function setSlides(image) {
   return (image = `
         <li>
-            <img src="${image.image}" alt="${image.title}">               
+            <img class="materialboxed"
+            src="${image.image}"
+            alt="${image.title}" >
         </li>`);
 }
 
@@ -468,8 +514,8 @@ function setSpecs(item) {
     .then(response => response.json())
     .then(data => {
       let spec = data["specifications"].sort((a, b) => {
-        if(a.title < b.title) return -1;
-        if(a.title > b.title) return 1;
+        if (a.title < b.title) return -1;
+        if (a.title > b.title) return 1;
         return 0;
       });
       spec = spec.filter(function (el, i) {
@@ -495,8 +541,8 @@ function setSpecs2(item) {
     .then(response => response.json())
     .then(data => {
       let spec = data["specifications"].sort((a, b) => {
-        if(a.title < b.title) return -1;
-        if(a.title > b.title) return 1;
+        if (a.title < b.title) return -1;
+        if (a.title > b.title) return 1;
         return 0;
       });
       spec = spec.filter(function (el, i) {
@@ -526,18 +572,46 @@ function setSpecs2(item) {
     .catch(err => console.log(err));
 }
 
+function setPrepare(preps) {
+  fetch(`./loox.json`)
+    .then(response => response.json())
+    .then(data => {
+      let prepare = data["prepare"];
+      prepare.sort((a, b) => {
+        if (a.id < b.id) return -1;
+        if (a.id > b.id) return 1;
+        return 0;
+      });
+      prepare = prepare.filter(function (el, i) {
+        let t = preps.includes(el.id);
+        let id;
+        if (t === true) {
+          id = el.id;
+        } else {
+          id = t;
+        }
+        return el.id === id;
+      });
+      console.log(prepare);
+      const p = prepare.map(pre =>
+        `<div class="col s12 m6"><div class="card horizontal"><div class="card-image" style="overflow: hidden"><img class="materialboxed" src="${pre.image}" alt="${pre.title}"/></div><div class="card-stacked"><div class="card-content"><h5>${pre.title}</h5><p>${pre.description}</p></div><div class="card-action"><a onclick="addCodenow(${'\''+pre.code+'\''})">Prepare cabinet code: <span class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order" cart="">${pre.code}</span></a></div></div></div></div>`);
+      $(`#prepare`).html(p);
+    })
+    .catch(err => console.log(err));
+}
+
 function setSpecNversions(item) {
   console.log(item);
   fetch(`./loox.json`)
     .then(response => response.json())
     .then(data => {
-        let spec = data["specifications"];
-        spec.sort((a, b) => {
-          if(a.title < b.title) return -1;
-          if(a.title > b.title) return 1;
-          return 0;
-        });
-        spec = spec.filter(function (el, i) {
+      let spec = data["specifications"];
+      spec.sort((a, b) => {
+        if (a.title < b.title) return -1;
+        if (a.title > b.title) return 1;
+        return 0;
+      });
+      spec = spec.filter(function (el, i) {
         let t = item.specifications.includes(el.id);
         let id;
         if (t === true) {
@@ -575,14 +649,17 @@ function rowIt(tr, item) {
       if (tr === "download") {
         return `<td><a href="https://webquoin.com/catalog/build/assets/loox/${th[tr]}">${th[tr]}</a></td>`;
       }
-      return `<td>${th[tr]}</td>`;
-}).join("")}</tr>`;
+      return ` < td > $ {
+    th[tr]
+  } < /td>`;
+}).join("")
+} < /tr>`;
 return tr;
 }
 
 function getLinks(cat) {
   if (!cat.attached) return;
-  const keys = `${cat.attached.map(a => formatLink(a)).join("")}`;
+  const keys = `${cat.attached.map(a => a.active !== false ? formatLink(a) : '').join("")}`;
   return keys;
 }
 
@@ -621,8 +698,8 @@ function makeHelper() {
 
 // This is the left click function 2018 
 function addCodenow(wcode) {
-	wcode = `<span>${wcode}</span>`;
-	 if (confirm("Do you want to add this item to your order?")) {
-	   parent.addtocart(wcode);
-	 }
+  wcode = `<span>${wcode}</span>`;
+  if (confirm("Do you want to add this item to your order?")) {
+    parent.addtocart(wcode);
   }
+}
