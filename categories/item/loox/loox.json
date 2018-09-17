@@ -1,10 +1,10 @@
 {
   "information": [{
-      "title": "kit for spot lights",
+      "title": "kit for modular spot lights",
       "id": "spots",
       "description": "LED lights generate uniform, evenly distributed light and are ideal for mood lighting in all areas. These lights can be used in a variety of situations",
       "image": "https://webquoin.com/catalog/build/assets/loox/Loox sink round led.jpg",
-      "tags": ["spots", "kit", "round", "square"],
+      "tags": ["spots", "kit", "round", "square", "modular"],
       "kit": ["A LED Modular Spot", "A Trimpiece", "A Lead to connect to driver/powersupply"],
       "colors": [{
         "code": "NK",
