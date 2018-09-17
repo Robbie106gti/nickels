@@ -79,6 +79,7 @@ function getPage() {
       });
       if (includes.length >= 0) {
         let spec = [];
+        console.log(item, includes);
         includes.map(item => (spec = spec.concat(item.specifications)));
         spec.sort((a, b) => a - b);
         item['specifications'] = unique(spec);
@@ -212,7 +213,7 @@ function setGI(info) {
         <a class="waves-effect waves-light btn btn-floating cyan" onclick="$('.tap-target').tapTarget('open')">?</a>
         </div>
         <div id="ddwn"></div>
-        <div id="helper"></div>    
+        <div id="helper"></div>
         `;
   $("#topic").html(topic);
 }
@@ -220,7 +221,7 @@ function setGI(info) {
 function makeDDWN(ddwn) {
   ddwn = `<!-- Dropdown Trigger -->
         <a class='dropdown-button btn bot red' data-activates='dropdown1'>Related items</a>
-      
+
         <!-- Dropdown Structure -->
         <ul id='dropdown1' class='dropdown-content red'>
             ${makeActions(ddwn)}
@@ -232,7 +233,7 @@ function makeActions(card) {
   console.log(card);
   let action = `${card
     .map(
-      a => a.active !== false ? 
+      a => a.active !== false ?
         `<li class="waves-effect waves-light"><a class="white-text" href="./index.html?page=${
           a.page
         }&code=${a.item}"><i class="material-icons">art_track</i>${titleCase(
@@ -244,26 +245,16 @@ function makeActions(card) {
 }
 
 function makeTabs(info) {
-  let tabs = `<div><ul id="tabs-swipe-demo" class="tabs">
-                    ${info.item.tabs
-                      .map(
-                        tab => { 
-                            if(tab === info.tab) { return `<li class="tab col s3"><a href="#${tab}" class="active">${tab}</a></li>`}
-                            if (info.tab == null && tab === info.item.tabs[0]) { return ` < li class = "tab col s3" > < a href = "#${tab}"
-  class = "active" > $ {
-    tab
-  } < /a></li > `}
-                            return ` < li class = "tab col s3" > < a href = "#${tab}" > $ {
-    tab
-  } < /a></li > `;
-                        })
-                      .join("")}</ul>
-                    ${info.item.tabs
-                      .map(
-                        tab =>
-                          `<div id="${tab}" class="grid">${composeTab(tab, info)}</div>`
-                      )
-                      .join("")}</div>`;
+  console.log(info);
+  let tabs =
+    `<div>
+    <ul id="tabs-swipe-demo" class="tabs">
+      ${info.item.tabs.map(tab => `<li class="tab col s3"><a href="./index.html?page=${
+        info.page
+      }&code=${info.code}&tab=${tab}#${tab}" class="${info.tab === tab ? active : ''}">${tab}</a></li>`).join("")}
+    </ul>
+    ${info.item.tabs.map(tab => `<div id="${tab}" class="grid">${composeTab(tab, info)}</div>`).join("")}
+  </div>`;
   $("#catalog").html(tabs);
   $(document).ready(function () {
     $('ul.tabs').tabs();
@@ -303,7 +294,7 @@ function cardWith(cat) {
                       <span class="card-title grey-text text-darken-4">${
                         titleCase(cat.title)
                       }<i class="material-icons right">close</i></span>
-                      ${getLinks(cat)} 
+                      ${getLinks(cat)}
               </div></div>`;
   return card;
 }
@@ -329,7 +320,12 @@ function webqoinCode(info) {
   return wqCode;
 }
 
+function kitIncludes(item) {
+  return `<ul class="collection with-header"><li class="collection-header"><h5>Kit includes the following items:</h5></li>${item.includes.map(i => `<li class="collection-item">${i.title}</li>`).join("")}</ul>`;
+}
+
 function cardWithAction(info) {
+  console.log(info);
   let card = `<div class="card col s12 m6">
                   <div class="card-image waves-effect waves-block waves-light">
                       <img class="activator"
@@ -345,6 +341,7 @@ function cardWithAction(info) {
                           ? info.item.description
                           : info.description
                       }.</p>
+                      ${info.includes ? kitIncludes(info): ''}
                   </div>
                   <div class="card-panel grey lighten-3 bullet">
                         <span class="card-title">
@@ -371,8 +368,8 @@ function cardWithActionLight(item) {
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">${titleCase(
                             item.title
-                        )} <span onclick="addCodenow(${'\''+item.code+'\''})" class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">(${item.code})</span></span>
-                        <a onclick="addCodenow(${'\''+item.code+'\''})" class="btn-floating right waves-effect waves-light red"><i class="material-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">add</i></a>
+                        )}
+                        ${item.length ? item.length.map(l => codeswebby(`${item.code}-${l}`)).join(" "):codeswebby(item.code)}
                         <p>${item.description}.</p>
                     </div>
                     <div id="spec${item.code}">${setSpecs2(item)}</div>
@@ -392,14 +389,18 @@ function cardWithActioMSC(item) {
                   <div class="card-content">
                       <span class="card-title activator grey-text text-darken-4">${titleCase(
                         item.title
-                      )} <span onclick="addCodenow(${'\''+item.code+'\''})" class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">(${item.code})</span></span>
-                      <a onclick="addCodenow(${'\''+item.code+'\''})" class="btn-floating right waves-effect waves-light red"><i class="material-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">add</i></a>
+                      )} ${item.length ? item.length.map(l => codeswebby(`${item.code}-${l}`)).join(" "):codeswebby(item.code)}
                       <p>${item.description}.</p>
                   </div>
                   <div id="spec${item.code}">${setSpecs2(item)}</div>
                   <div id="note${item.code}">${setNotes(item)}</div>
               </div>`;
   return card;
+}
+
+function codeswebby(code) {
+  let web = `<span onclick="addCodenow(${'\''+code+'\''})" class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">(${code})</span></span>`;
+  return web;
 }
 
 function includesCard(info) {
@@ -431,15 +432,36 @@ function hcard(item) {
 }
 
 function makeSliders(item) {
-  const slides = `<div class="slider card"><ul class="slides">${item.images.map(image => `<li><img class="responsive-img" src="${image.image}" alt="${image.title}"/><div class="caption right-align"><h5>${image.title}</h5></div></li>`)}</ul></div><div class="slide-conent"></div>`;
+  const slides = `<div class="card"><div class="slider"><ul class="slides">${item.images.map(image => `<li><img class="responsive-img" src="${image.image}" alt="${image.title}"/><div class="caption right-align"><h5>${image.title}</h5></div></li>`)}</ul></div>
+          <div class="card-content">
+            <p>${item.description}</p>
+          </div>
+          <div class="card-action">
+            ${partsCode(item)}
+          </div>
+  </div><div id="note${item.code}">${setNotes(item)}</div>`;
   return slides;
+}
+
+function partsCode(item) {
+  let pcodes = `<a onclick="addCodenow(${'\''+item.code+'\''})" >Replacement part code: <span class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order" cart=''>${item.code}</span></a>`;
+  if (item.colors) {
+    pcodes = item.colors.map(color => ` <span onclick="addCodenow(${'\''+item.code+'-'+color.code+'\''})"  class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add ${item.title} in ${color.title} to your order" cart=''>${item.code}-${color.code}</span>`);
+    pcodes = '<a >Replacement part code: ' + pcodes + '</a>'
+  }
+  if (item.length) {
+    pcodes = item.length.map(l => ` <span onclick="addCodenow(${'\''+item.code+'-'+l+'\''})"  class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add ${item.title} ${l} feet to your order" cart=''>${item.code}-${l}</span>`);
+    pcodes = '<a >Replacement part code: ' + pcodes + '</a>'
+
+  }
+  return pcodes;
 }
 
 function partHcard(item) {
   let hcard = `
         <div class="slider">
             <ul class="slides">
-                ${item.images.map(image => setSlides(image)).join("")}  
+                ${item.images.map(image => setSlides(image)).join("")}
             </ul>
         </div>
         <div class="card-panel  blue-grey darken-1 white-text">
@@ -468,7 +490,7 @@ function setImage(image) {
 function setSlides(image) {
   return (image = `
         <li>
-            <img class="materialboxed"
+            <img
             src="${image.image}"
             alt="${image.title}" >
         </li>`);
@@ -621,40 +643,37 @@ function setSpecNversions(item) {
         }
         return el.id === id;
       });
-      let n = `<ul class="flow-text">
-                ${spec.map(
-                    n => `<li><b>${n.title}</b>: ${n.content}</li>`
-                    )
-                    .join("")}
-            </ul>
-            <table class="striped highlight centered">
-                <thead>
-                <tr>
-                    <th></th>
-                    ${item.versions.map(th => `<th onclick="addCodenow(${'\''+th.code+'\''})" class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">${th.code}</th>`)
-                        .join("")}
-                </tr>
-                </thead>
-                <tbody id="tbody">                
-                    ${item.vtable.map(tr => rowIt(tr, item))
-                        .join("")}
-                </tbody>`;
+      let n = `<ul class="flow-text">${spec.map(n => `<li><b>${n.title}</b>: ${n.content}</li>`).join("")}</ul>`;
+      const table =
+        `<table class="striped highlight centered">
+        <thead>
+          <tr>
+            <th></th>
+            ${item.versions.map(th => {
+              if(th.active === false) return '';
+              const thu = `<th onclick="addCodenow(${'\''+th.code+'\''})" class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">${th.code}</th>`;
+              return thu;
+            }).join("")}
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          ${item.vtable.map(tr => rowIt(tr, item)).join("")}
+        </tbody>
+      </table>`;
+      n = n + table;
       $(`#spec${item.code}`).html(n);
     })
     .catch(err => console.log(err));
 }
 
 function rowIt(tr, item) {
-  tr = `<tr><td>${titleCase(tr)}</td>${item.versions.map(th => {
-      if (tr === "download") {
-        return `<td><a href="https://webquoin.com/catalog/build/assets/loox/${th[tr]}">${th[tr]}</a></td>`;
-      }
-      return ` < td > $ {
-    th[tr]
-  } < /td>`;
-}).join("")
-} < /tr>`;
-return tr;
+  let line = item.versions.map(th => {
+    if (th.active === false) return '';
+    const y = tr !== "download" ? `<td>${th[tr]}</td>` : `<td><a href="https://webquoin.com/catalog/build/assets/loox/${th[tr]}">${th[tr]}</a></td>`;
+    return y;
+  }).join("");
+  line = `<tr><td>${titleCase(tr)}</td>` + line + '</tr>';
+  return line;
 }
 
 function getLinks(cat) {
@@ -696,7 +715,7 @@ function makeHelper() {
   $("#helper").html(help);
 }
 
-// This is the left click function 2018 
+// This is the left click function 2018
 function addCodenow(wcode) {
   wcode = `<span>${wcode}</span>`;
   if (confirm("Do you want to add this item to your order?")) {

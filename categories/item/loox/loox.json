@@ -5,6 +5,7 @@
       "description": "LED lights generate uniform, evenly distributed light and are ideal for mood lighting in all areas. These lights can be used in a variety of situations",
       "image": "https://webquoin.com/catalog/build/assets/loox/Loox sink round led.jpg",
       "tags": ["spots", "kit", "round", "square"],
+      "kit": ["A LED Modular Spot", "A Trimpiece", "A Lead to connect to driver/powersupply"],
       "colors": [{
         "code": "NK",
         "color": "#b6b4a0",
@@ -42,9 +43,10 @@
       "title": "kit for strip lights",
       "id": "strips",
       "image": "https://webquoin.com/catalog/build/assets/loox/Loox strip led couche.jpg",
-      "tags": ["strips", "kit", "water proof", "profile", "shelf"],
+      "tags": ["strips", "kit", "profile"],
       "icons": "icons.jpg",
       "specifications": ["4018", "4003"],
+      "kit": ["A LED strip", "Aluminum Profile", "A Lead to connect to driver/powersupply", "Endcaps to close of the profile"],
       "attached": [{
           "active": false,
           "item": "shelf",
@@ -52,7 +54,7 @@
           "pre": "kit for strip",
           "wcode": "kit-led-stripshelf",
           "old_includes": ["MSC-STRIP-NS", "MSC-PROFILE-SHELF", "MSC-LED-LEADNS"],
-          "includes": ["LED-LOOX-LS", "MSC-PROFILE-SHELF", "LED-PR-LEAD"],
+          "includes": ["LED-PR-LS", "LED-PR-SHELF", "LED-PR-LEAD"],
           "image": "https://webquoin.com/catalog/build/assets/loox/led glass shelf idea.jpg",
           "description": "For Glass shelves, illuminate the shelf for decorative lighting. For best result place at back of cabinet"
         },
@@ -73,8 +75,8 @@
           "wcode": "LED-KIT-PR",
           "length": [4, 8],
           "includes": [
-            "LED-LOOX-PROFILE",
-            "LED-LOOX-LS",
+            "LED-PR-CHAN",
+            "LED-PR-LS",
             "LED-PR-LEAD",
             "LED-PR-ENDCAP"
           ],
@@ -104,14 +106,14 @@
       "attached": [{
           "item": "power supplies",
           "page": "parts",
-          "includes": ["MSC-LED-DRIVER", "MSC-LED-DRIVERMAG"],
+          "includes": ["LED-PWR", "LED-PWR-DIM"],
           "image": "https://webquoin.com/catalog/build/assets/loox/powerpacks-01.jpg"
         },
         {
           "item": "lights",
           "page": "parts",
           "old_includes": ["MSC-LED-LIGHT", "MSC-STRIP-SI", "MSC-STRIP-NS"],
-          "includes": ["LED-ML-L", "LED-LOOX-LS"],
+          "includes": ["LED-ML-L", "LED-PR-LS"],
           "image": "https://webquoin.com/catalog/build/assets/loox/Loox strip led couche.jpg"
         },
         {
@@ -140,9 +142,12 @@
             "MSC-LED-DIMMER"
           ],
           "includes": [
-            "LED-LOOX-PROFILE",
+            "LED-PR-LS",
             "LED-PR-LEAD",
-            "LED-PR-ENDCAP"
+            "LED-PR-ENDCAP",
+            "LED-PR-CHAN",
+            "LED-SWITCHONOFF",
+            "LED-SWITCHDIM"
           ],
           "image": "https://webquoin.com/catalog/build/assets/loox/Loox strip led couche.jpg"
         }
@@ -154,7 +159,7 @@
       "code": "LED-ML-L",
       "cat": "Loox LEDs",
       "root": "LED",
-      "title": "LED light",
+      "title": "LED modular light",
       "description": "LED lights generate uniform, evenly distributed light and are ideal for mood lighting in all areas. These lights can be used in a variety of situations",
       "specifications": ["4000", "4001", "4002", "4003", "4005", "4006"],
       "images": [{
@@ -164,6 +169,9 @@
         {
           "title": "Drawing ",
           "image": "https://webquoin.com/catalog/build/assets/loox/round light recessed spec.jpg"
+        }, {
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Drivers%2F1536937331002_Loox%20driver%20setup%20image.PNG?alt=media&token=80ea19c8-ead1-49a7-8a99-97469ed28140",
+          "title": "Loox power"
         }
       ],
       "notes": []
@@ -173,9 +181,21 @@
       "code": "LED-ML-SQ",
       "cat": "Loox LEDs",
       "root": "LED",
-      "title": "Square trim",
+      "title": "Square trim piece for modular LED spot",
       "description": "Square piece of trim for use with LED light.",
-      "colors": ["BK", "NK", "WH"],
+      "colors": [{
+        "code": "NK",
+        "color": "#b6b4a0",
+        "title": "Matt Nickel"
+      }, {
+        "code": "BK",
+        "color": "#39322a",
+        "title": "Black"
+      }, {
+        "code": "WH",
+        "color": "#e9e9e9",
+        "title": "White"
+      }],
       "specifications": [],
       "iwhd": ["2 9/16", "2 9/16"],
       "images": [{
@@ -198,8 +218,20 @@
       "code": "LED-ML-RD",
       "cat": "Loox LEDs",
       "root": "LED",
-      "colors": ["BK", "NK", "WH"],
-      "title": "Round trim",
+      "colors": [{
+        "code": "NK",
+        "color": "#b6b4a0",
+        "title": "Matt Nickel"
+      }, {
+        "code": "BK",
+        "color": "#39322a",
+        "title": "Black"
+      }, {
+        "code": "WH",
+        "color": "#e9e9e9",
+        "title": "White"
+      }],
+      "title": "Round trim for modular LED spot",
       "description": "Round piece of trim for use with LED light.",
       "specifications": [],
       "iwhd": ["2 9/16"],
@@ -223,7 +255,7 @@
       "code": "LED-ML-LEAD",
       "cat": "Loox LEDs",
       "root": "LED",
-      "title": "Lead Spot",
+      "title": "Lead for modular LED spot",
       "tab": "extensions",
       "description": "For connection LED lights to the power supply, rated for 12v only. Length of 78 3/4\"",
       "specifications": ["4001"],
@@ -239,7 +271,7 @@
       "code": "LED-PR-LEAD",
       "cat": "Loox LEDs",
       "root": "LED",
-      "title": "Lead Strip",
+      "title": "Lead for LED Strip",
       "tab": "extensions",
       "description": "For connection none silicon strip lights to the power supply, rated for 12v only. Length of 78 3/4\"",
       "specifications": ["4001"],
@@ -303,8 +335,8 @@
     },
     {
       "active": true,
-      "code": "LED-LOOX-LS",
-      "length": [4, 8],
+      "code": "LED-PR-LS",
+      "length": [4, 8, 16],
       "cat": "Loox LEDs",
       "root": "LED",
       "title": "LED Strip",
@@ -338,7 +370,7 @@
       "notes": ["0", "2"]
     },
     {
-      "active": true,
+      "active": false,
       "code": "MSC-PROFILE-SHELF",
       "cat": "Loox LEDs",
       "root": "LED",
@@ -360,22 +392,26 @@
     },
     {
       "active": true,
-      "code": "LED-LOOX-PROFILE",
+      "code": "LED-PR-CHAN",
       "cat": "Loox LEDs",
       "root": "LED",
       "tab": "profiles",
-      "title": "LED Strip",
-      "description": "Aluminum Profile for back ground lighting with LED strips, strip light is secured at base of profile with direction of light shining through milky cover",
+      "title": "Aluminum Profile for LED Strip",
+      "description": "Aluminum Profile for back ground lighting for LED strips, strip light is secured at base of profile with direction of light shining through milky cover",
       "specifications": [],
       "iwhd": ["98 3/8"],
       "length": [4, 8],
       "images": [{
+          "title": "profile with led installed",
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Aluminum%20Profile%2F1536872938170_Loox%20Milky%20Profile.PNG?alt=media&token=059764b1-608d-4f94-941c-d53bf721a118"
+        },
+        {
           "title": "profile",
           "image": "https://webquoin.com/catalog/build/assets/loox/LED-Profile-01.jpg"
         },
         {
           "title": "specifications",
-          "image": "https://webquoin.com/catalog/build/assets/loox/spec rail profile-01.png"
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Aluminum%20Profile%2F1536872975384_Loox%20Milky%20Profile%20-%20specs.PNG?alt=media&token=97c02359-156b-4fe2-bda2-74b6cac35f40"
         }
       ],
       "notes": []
@@ -401,7 +437,7 @@
       "code": "LED-PR-ENDCAP",
       "cat": "Loox LEDs",
       "root": "LED",
-      "title": "End cap pair",
+      "title": "End cap pair for Aluminium Profile",
       "tab": "profiles",
       "description": "End cap pair with cable outlet, plastic, silver colored",
       "specifications": [],
@@ -414,13 +450,14 @@
     },
     {
       "active": true,
-      "code": "MSC-LED-DRIVER",
+      "code": "LED-PWR",
       "cat": "Loox LEDs",
       "root": "LED",
       "title": "Plug & Play Power supply",
       "description": "Just plug in the leads into led and power supply and you're ready to light up your kitchen's/cabinets. Dimmable with our dimmer switches.",
       "specifications": ["4001", "4022"],
       "versions": [{
+          "active": false,
           "code": "MSC-LED-DRIVER-20",
           "wattage": "0 - 20 W",
           "length": "5\"",
@@ -429,6 +466,7 @@
           "output current": "1.67 A"
         },
         {
+          "active": false,
           "code": "MSC-LED-DRIVER-30",
           "wattage": "0 - 30 W",
           "length": "7 11/16\"",
@@ -437,40 +475,59 @@
           "output current": "2.5 A"
         },
         {
+          "active": false,
           "code": "MSC-LED-DRIVER-60",
           "wattage": "0 - 60 W",
           "length": "8 3/16\"",
           "width": "2\"",
           "height": "2 1/4\"",
           "output current": "5 A"
+        },
+        {
+          "active": true,
+          "code": "LED-PWR-40W",
+          "wattage": "0 - 40 W",
+          "length": "8 3/16\"",
+          "width": "2\"",
+          "height": "2 1/4\"",
+          "output current": "2.5 A"
         }
       ],
       "vtable": ["wattage", "length", "width", "height", "output current"],
       "images": [{
         "title": "Power supplies",
         "image": "https://webquoin.com/catalog/build/assets/loox/powerpacks-01.jpg"
+      }, {
+        "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Drivers%2F1536937331002_Loox%20driver%20setup%20image.PNG?alt=media&token=80ea19c8-ead1-49a7-8a99-97469ed28140",
+        "title": "Loox power"
+      }, {
+        "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20Drivers%2F1536935261743_Loox%20LED%20driver%20-%2040W.PNG?alt=media&token=12d74fc2-1d7b-4606-bc67-d46ba749a88e",
+        "title": "Power supply 40 watt"
       }],
       "notes": []
     },
     {
       "active": true,
-      "code": "MSC-LED-DRIVERMAG",
+      "code": "LED-PWR-DIM",
       "cat": "LEDs",
       "root": "LED",
       "title": "DIY power supply",
       "description": "Dimmable voltage LED power supply is class 2 rated and designed to operate with any standard MLV/Incandescent TRIAC (Leading edge) dimmer switch. Encased in a low profile aluminum enclosure. Perfect choice for under cabinet lights, tape lights and various LED. Electrical specification includes Auto Reset, over current and short circuit protection. Efficiency of 90% and higher allows the power supply to operate at low temperatures.",
       "specifications": [],
       "versions": [{
+          "active": false,
           "code": "MSC-LED-DRIVERMAG-20",
           "wattage": "8 - 20 W",
           "download": "driver 20wat 12v spec.pdf"
         },
         {
-          "code": "MSC-LED-DRIVERMAG-40",
+          "active": true,
+          "code": "LED-PWR-40W-DIM",
           "wattage": "8 - 40 W",
           "download": "driver 40wat 12v spec.pdf"
         },
         {
+          "active": false,
           "code": "MSC-LED-DRIVERMAG-60",
           "wattage": "8 - 60 W",
           "download": "driver 60wat 12v spec.pdf"
@@ -489,7 +546,7 @@
       "notes": []
     },
     {
-      "active": true,
+      "active": false,
       "code": "MSC-STRIP-CLIP-NS",
       "cat": "Loox LEDs",
       "root": "LED",
@@ -510,7 +567,7 @@
       "notes": []
     },
     {
-      "active": true,
+      "active": false,
       "code": "MSC-STRIP-CLIP-SI",
       "cat": "Loox LEDs",
       "root": "LED",
@@ -526,7 +583,7 @@
       "notes": []
     },
     {
-      "active": true,
+      "active": false,
       "code": "MSC-STRIP-CLIP90-NS",
       "cat": "Loox LEDs",
       "root": "LED",
@@ -542,7 +599,7 @@
       "notes": []
     },
     {
-      "active": true,
+      "active": false,
       "code": "MSC-STRIP-CLIP90-SI",
       "cat": "Loox LEDs",
       "root": "LED",
@@ -558,7 +615,7 @@
       "notes": []
     },
     {
-      "active": true,
+      "active": false,
       "code": "MSC-STRIP-DAISY-NS",
       "cat": "Loox LEDs",
       "root": "LED",
@@ -579,7 +636,7 @@
       "notes": []
     },
     {
-      "active": true,
+      "active": false,
       "code": "MSC-STRIP-DAISY-SI",
       "cat": "Loox LEDs",
       "root": "LED",
@@ -616,7 +673,7 @@
       "notes": ["13"]
     },
     {
-      "active": true,
+      "active": false,
       "code": "MSC-LED-6DIS",
       "cat": "Loox LEDs",
       "root": "LED",
@@ -638,7 +695,7 @@
     },
     {
       "active": true,
-      "code": "MSC-LED-SWITCH-TF",
+      "code": "LED-SWITCHONOFF",
       "cat": "Loox LEDs",
       "root": "LED",
       "title": "Switch touch free",
@@ -659,7 +716,7 @@
     },
     {
       "active": true,
-      "code": "MSC-LED-DIMMER-TF",
+      "code": "LED-SWITCHDIM",
       "cat": "Loox LEDs",
       "root": "LED",
       "title": "Dimmer touch free",
@@ -680,7 +737,7 @@
       "notes": ["13"]
     },
     {
-      "active": true,
+      "active": false,
       "code": "MSC-LED-DIMMER",
       "cat": "Loox LEDs",
       "root": "LED",
