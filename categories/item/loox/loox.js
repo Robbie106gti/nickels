@@ -389,7 +389,7 @@ function cardWithActioMSC(item) {
                   <div class="card-content">
                       <span class="card-title activator grey-text text-darken-4">${titleCase(
                         item.title
-                      )} ${item.length ? item.length.map(l => codeswebby(`${item.code}-${l}`)).join(" "):codeswebby(item.code)}
+                      )}</span> ${makeCodes(item)}
                       <p>${item.description}.</p>
                   </div>
                   <div id="spec${item.code}">${setSpecs2(item)}</div>
@@ -398,8 +398,26 @@ function cardWithActioMSC(item) {
   return card;
 }
 
-function codeswebby(code) {
-  let web = `<span onclick="addCodenow(${'\''+code+'\''})" class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order">(${code})</span></span>`;
+function makeCodes(item) {
+  if (item.length) {
+    return item.length.map(l => codeswebby({
+      code: `${item.code}-${l}`,
+      title: `${item.title} ${l} inch`
+    })).join(" / ");
+  }
+  if (item.colors) {
+    return item.colors.map(l => codeswebby({
+      code: `${item.code}-${l.code}`,
+      title: `${item.title} ${l.title}`
+    })).join(" / ");
+  }
+  return codeswebby({
+    code: item.code
+  })
+}
+
+function codeswebby(c) {
+  let web = `<span onclick="addCodenow(${'\''+c.code+'\''})" class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add ${c.title} to your order">(${c.code})</span>`;
   return web;
 }
 

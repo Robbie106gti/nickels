@@ -147,7 +147,11 @@
             "LED-PR-ENDCAP",
             "LED-PR-CHAN",
             "LED-SWITCHONOFF",
-            "LED-SWITCHDIM"
+            "LED-SWITCHDIM",
+            "LED-ML-RD",
+            "LED-ML-SQ",
+            "LED-SWITCH-LEAD",
+            "LED-ML-LEAD"
           ],
           "image": "https://webquoin.com/catalog/build/assets/loox/Loox strip led couche.jpg"
         }
@@ -181,6 +185,7 @@
       "code": "LED-ML-SQ",
       "cat": "Loox LEDs",
       "root": "LED",
+      "tab": "profiles",
       "title": "Square trim piece for modular LED spot",
       "description": "Square piece of trim for use with LED light.",
       "colors": [{
@@ -218,6 +223,7 @@
       "code": "LED-ML-RD",
       "cat": "Loox LEDs",
       "root": "LED",
+      "tab": "profiles",
       "colors": [{
         "code": "NK",
         "color": "#b6b4a0",
@@ -671,6 +677,24 @@
         }
       ],
       "notes": ["13"]
+    },
+    {
+      "active": true,
+      "code": "LED-SWITCH-LEAD",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Loox LED switch connector",
+      "tab": "extensions",
+      "description": "Lead with snap-in connector, Häfele Loox, for modular switches - Length: (78 3/4\") 2000 mm",
+      "specifications": ["4001"],
+      "iwhd": [],
+      "images": [{
+        "title": "power cord",
+        "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoos%20LED%20-%20Switches%2F1536942198806_Loox%20LED%20switch%20connector.PNG?alt=media&token=b5a29aed-7cdc-48ee-8689-b852585d3962"
+      }],
+      "notes": [
+        "13"
+      ]
     },
     {
       "active": false,
