@@ -42,10 +42,11 @@ function getPage() {
   const code = $.urlParam("code");
   const page = $.urlParam("page");
   const id = $.urlParam("id");
+  const tab = $.urlParam("tab");
   fetch(`./loox.json`)
     .then(response => response.json())
     .then(data => {
-      console.log(data);
+      // console.log(data);
       if (!code && !page) {
         const d = document.getElementById("catalog");
         d.className += " grid";
@@ -67,7 +68,7 @@ function getPage() {
       let info = data.information.filter(i => i.id == page)[0];
       info['page'] = page;
       info['code'] = code;
-      info['tab'] = id;
+      info['tab'] = tab;
       /*       info = { ...info,
               page: page,
               code: code,
@@ -79,7 +80,7 @@ function getPage() {
       });
       if (includes.length >= 0) {
         let spec = [];
-        console.log(item, includes);
+        // console.log(item, includes);
         includes.map(item => (spec = spec.concat(item.specifications)));
         spec.sort((a, b) => a - b);
         item['specifications'] = unique(spec);
@@ -118,12 +119,14 @@ function makeStructure(info) {
   setGI(info);
   makeDDWN(info.attached);
   makeHelper();
+  console.log(info.item);
   switch (info.page) {
     case "spots":
       card = cardWithAction(info);
       $("#catalog").html(card);
       includesCard(info);
       setSpecs(info.item);
+      info.prepare ? setPrepare(info.prepare) : null;
       callButton();
       break;
     case "strips":
@@ -191,7 +194,7 @@ function callButton() {
 }
 
 function setGI(info) {
-  console.log(info);
+  // console.log(info);
   let topic = `
         <a href="${info.page ? './index.html' : '../../index.html?cat=Accessories'}" class="right">
           <i class="small material-icons">arrow_back</i>
@@ -230,7 +233,7 @@ function makeDDWN(ddwn) {
 }
 
 function makeActions(card) {
-  console.log(card);
+  // console.log(card);
   let action = `${card
     .map(
       a => a.active !== false ?
@@ -251,19 +254,29 @@ function makeTabs(info) {
     <ul id="tabs-swipe-demo" class="tabs">
       ${info.item.tabs.map(tab => `<li class="tab col s3"><a href="./index.html?page=${
         info.page
-      }&code=${info.code}&tab=${tab}#${tab}" class="${info.tab === tab ? active : ''}">${tab}</a></li>`).join("")}
+      }&code=${info.code}&tab=${tab}#${tab}" class="${info.tab === tab ? 'active' : ''}">${tab}</a></li>`).join("")}
     </ul>
-    ${info.item.tabs.map(tab => `<div id="${tab}" class="grid">${composeTab(tab, info)}</div>`).join("")}
+    ${
+      info.item.tabs.map(tab => `<div id="${tab}" class="${tab !== 'prepare'?'grid':''} ${info.tab === tab ? 'active' : ''}" >${composeTab(tab, info)}</div>`).join("")
+    }
   </div>`;
   $("#catalog").html(tabs);
   $(document).ready(function () {
     $('ul.tabs').tabs();
   });
+  //info.tab ? instance.select(info.tab) : null;
 }
 
 function composeTab(tab, info) {
-  let cards = info.includes.filter(i => i.tab == tab);
+  let cards = tab !== "prepare" ? info.includes.filter(i => i.tab == tab) : prepareTab(tab, info);
   return cards.map(card => cardWithActioMSC(card)).join('');
+}
+
+function prepareTab(tab, info) {
+  console.log(tab, info);
+  let card = [];
+  setPrepare(info.item.prepare);
+  return card;
 }
 
 function titleCase(str) {
@@ -354,6 +367,9 @@ function cardWithAction(info) {
   if (info.item.prepare) {
     card = card + '<div id="prepare"></div>';
   }
+  if (info.prepare) {
+    card = card + '<div id="prepare"></div>';
+  }
   return card;
 }
 
@@ -369,7 +385,7 @@ function cardWithActionLight(item) {
                         <span class="card-title activator grey-text text-darken-4">${titleCase(
                             item.title
                         )}
-                        ${item.length ? item.length.map(l => codeswebby(`${item.code}-${l}`)).join(" "):codeswebby(item.code)}
+                        ${item.length ? item.length.map(l => codeswebby({code:`${item.code}-${l}`, title: `${item.title} ${l} feet`})).join(" "):codeswebby({ code: item.code, title: item.title})}
                         <p>${item.description}.</p>
                     </div>
                     <div id="spec${item.code}">${setSpecs2(item)}</div>
@@ -380,12 +396,7 @@ function cardWithActionLight(item) {
 
 function cardWithActioMSC(item) {
   const card = `<div class="card">
-                  <div class="card-image waves-effect waves-block waves-light">
-                      <img class="materialboxed activator image20"
-                      src="${
-                        item.images[0].image
-                      }">
-                  </div>
+                  ${imagesMSC(item)}
                   <div class="card-content">
                       <span class="card-title activator grey-text text-darken-4">${titleCase(
                         item.title
@@ -398,11 +409,23 @@ function cardWithActioMSC(item) {
   return card;
 }
 
+function imagesMSC(item) {
+
+  const imgmsc = item.images.length >= 2 ? `<div class="slider"><ul class="slides">${item.images.map(image => `<li><img class="responsive-img" src="${image.image}" alt="${image.title}"/><div class="caption right-align"><h5 class="black-text">${image.title}</h5></div></li>`)}</ul></div>` : `
+                  <div class="card-image waves-effect waves-block waves-light">
+                      <img class="materialboxed activator image20"
+                      src="${
+                        item.images[0].image
+                      }">
+                  </div>`;
+  return imgmsc;
+}
+
 function makeCodes(item) {
   if (item.length) {
     return item.length.map(l => codeswebby({
       code: `${item.code}-${l}`,
-      title: `${item.title} ${l} inch`
+      title: `${item.title} ${l} feet`
     })).join(" / ");
   }
   if (item.colors) {
@@ -450,7 +473,7 @@ function hcard(item) {
 }
 
 function makeSliders(item) {
-  const slides = `<div class="card"><div class="slider"><ul class="slides">${item.images.map(image => `<li><img class="responsive-img" src="${image.image}" alt="${image.title}"/><div class="caption right-align"><h5>${image.title}</h5></div></li>`)}</ul></div>
+  const slides = `<div class="card"><div class="slider"><ul class="slides">${item.images.map(image => `<li><img class="responsive-img" src="${image.image}" alt="${image.title}"/><div class="caption right-align"><h5 class="black-text">${image.title}</h5></div></li>`)}</ul></div>
           <div class="card-content">
             <p>${item.description}</p>
           </div>
@@ -634,10 +657,21 @@ function setPrepare(preps) {
       });
       console.log(prepare);
       const p = prepare.map(pre =>
-        `<div class="col s12 m6"><div class="card horizontal"><div class="card-image" style="overflow: hidden"><img class="materialboxed" src="${pre.image}" alt="${pre.title}"/></div><div class="card-stacked"><div class="card-content"><h5>${pre.title}</h5><p>${pre.description}</p></div><div class="card-action"><a onclick="addCodenow(${'\''+pre.code+'\''})">Prepare cabinet code: <span class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order" cart="">${pre.code}</span></a></div></div></div></div>`);
+        `<div class="col s12 m6"><div class="card horizontal"><div class="card-image" style="overflow: hidden"><img class="materialboxed" src="${pre.image}" alt="${pre.title}"/></div><div class="card-stacked"><div class="card-content"><h5>${pre.title}</h5><p>${pre.description}</p></div>${prepareCodes(pre)}</div></div></div>`);
       $(`#prepare`).html(p);
+      $(document).ready(function () {
+        $('.materialboxed').materialbox();
+      });
     })
     .catch(err => console.log(err));
+}
+
+function prepareCodes(pre) {
+  let codes = pre.code ? `<div class="card-action"><a onclick="addCodenow(${'\''+pre.code+'\''})">Prepare cabinet code: <span class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add this to your order" cart="">${pre.code}</span></a></div>` : '';
+  if (pre.lights) {
+    codes = `<div class="card-action"><a>Prepare cabinet code: ${pre.lights.map(light => `<span onclick="addCodenow(${'\''+pre.code+'-'+light+'\''})" class="ordercode tooltipped" data-position="bottom" data-delay="50" data-tooltip="Would you like to add prepare for ${light} light(s) to your order" cart="">${pre.code}-${light}</span>`).join(", ")}</a></div>`;
+  }
+  return codes;
 }
 
 function setSpecNversions(item) {
