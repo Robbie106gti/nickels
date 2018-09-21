@@ -53,7 +53,7 @@
     {
       "title": "kit for strip lights",
       "id": "strips",
-      "image": "https://webquoin.com/catalog/build/assets/loox/Loox strip led couche.jpg",
+      "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Aluminum%20Profiles%2F1537371613774_Loox-profile-image.PNG?alt=media&token=706ef262-931e-4bbb-a6da-d109cb7e8755",
       "tags": ["strips", "kit", "profile"],
       "icons": "icons.jpg",
       "specifications": ["4018", "4003"],
@@ -479,11 +479,11 @@
         },
         {
           "title": "profile",
-          "image": "https://webquoin.com/catalog/build/assets/loox/LED-Profile-01.jpg"
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Aluminum%20Profiles%2F1537371628197_Loox%20Milky%20Profile%20-%202.PNG?alt=media&token=36c5ba86-014b-4595-905c-11ca6bbaa548"
         },
         {
           "title": "specifications",
-          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Aluminum%20Profile%2F1536872975384_Loox%20Milky%20Profile%20-%20specs.PNG?alt=media&token=97c02359-156b-4fe2-bda2-74b6cac35f40"
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Aluminum%20Profiles%2F1537371651962_Loox%20Milky%20Profile%20-%20specs.PNG?alt=media&token=249d1598-bc26-4273-b23e-cce0f8299329"
         }
       ],
       "notes": []
@@ -574,7 +574,7 @@
       "images": [
         {
           "title": "Power supplies",
-          "image": "https://webquoin.com/catalog/build/assets/loox/powerpacks-01.jpg"
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Drivers%2F1537541461223_Loox-driver%20setup.PNG?alt=media&token=d37408e9-992d-4b0d-96f9-f9862cf831ce"
         },
         {
           "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Drivers%2F1536937331002_Loox%20driver%20setup%20image.PNG?alt=media&token=80ea19c8-ead1-49a7-8a99-97469ed28140",
@@ -898,7 +898,7 @@
       "code": "LED-PREP-PR-PANEL",
       "id": "LED-PREP-PR-PANEL-75",
       "active": true,
-      "description": "Route bottom of 3/4\" thick panel to accept LOOX aluminum profile(dealer to install on site) - cabinet bottoms are raised 3/4\" to accept panel on site - doors hang past cabinet bottom to cover 3/4\" thick panel - route will be set back 2\" from front and travel the full width of the panel"
+      "description": "Route bottom of 3/4\" thick panel to accept LOOX aluminum profile(dealer to install on site) - cabinet bottoms are raised 3/4\" to accept panel on site - doors hang past cabinet bottom to cover 3/4\" thick panel -  route will be in the center of set shelf and travel the full width of the panel"
     },
     {
       "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Aluminum%20Profiles%2F1537393810376_LED-PREP-PR-PANEL%20(FE%20setup).PNG?alt=media&token=8f6b1275-0455-402f-8271-3b7942bc6975",
@@ -906,7 +906,7 @@
       "code": "LED-PREP-PR-PANEL",
       "id": "LED-PREP-PR-PANEL-FE",
       "active": true,
-      "description": "Route bottom of 3/4\" thick panel to accept LOOX aluminum profile(dealer to install on site) - cabinet bottoms are raised 3 / 4\" to accept panel on site - doors hang past cabinet bottom to cover 3/4\" thick panel - route will be set back 2\" from front and travel the full width of the panel"
+      "description": "Route bottom of 3/4\" thick panel to accept LOOX aluminum profile(dealer to install on site) - cabinet bottoms are raised 3 / 4\" to accept panel on site - doors hang past cabinet bottom to cover 3/4\" thick panel - route will be in the center of set shelf and travel the full width of the panel"
     },
     {
       "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Aluminum%20Profiles%2F1537393800773_LED-PREP-PR%20(per%20cabinet).PNG?alt=media&token=21f516bd-a5e6-4cb0-87b1-bc5eb7172337",
