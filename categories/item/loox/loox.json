@@ -1,6 +1,5 @@
 {
-  "information": [
-    {
+  "information": [{
       "title": "kit for modular spot lights",
       "id": "spots",
       "description": "LED lights generate uniform, evenly distributed light and are ideal for mood lighting in all areas. These lights can be used in a variety of situations",
@@ -11,8 +10,7 @@
         "A Trimpiece",
         "A Lead to connect to driver/powersupply"
       ],
-      "colors": [
-        {
+      "colors": [{
           "code": "NK",
           "color": "#b6b4a0",
           "title": "Matt Nickel LED Kit"
@@ -29,8 +27,7 @@
         }
       ],
       "prepare": ["MD-INSTALL", "MD-PREP", "MD-PREPT", "MD-BASIC"],
-      "attached": [
-        {
+      "attached": [{
           "item": "round",
           "page": "spots",
           "pre": "kit for spot",
@@ -63,8 +60,7 @@
         "A Lead to connect to driver/powersupply",
         "Endcaps to close of the profile"
       ],
-      "attached": [
-        {
+      "attached": [{
           "active": false,
           "item": "shelf",
           "page": "strips",
@@ -130,8 +126,7 @@
         "power supplies"
       ],
       "description": "Parts for LED lighting",
-      "attached": [
-        {
+      "attached": [{
           "item": "power supplies",
           "page": "parts",
           "includes": ["LED-PWR", "LED-PWR-DIM"],
@@ -174,12 +169,13 @@
             "LED-PR-LEAD",
             "LED-PR-ENDCAP",
             "LED-PR-CHAN",
-            "LED-SWITCHONOFF",
-            "LED-SWITCHDIM",
+            "LED-KIT-SWITCHONOFF",
+            "LED-KIT-SWITCHDIM",
             "LED-ML-RD",
             "LED-ML-SQ",
             "LED-SWITCH-LEAD",
-            "LED-ML-LEAD"
+            "LED-ML-LEAD",
+            "LED-PWR-CORD"
           ],
           "prepare": [
             "LED-PREP-PR-PANEL-75",
@@ -195,8 +191,7 @@
       ]
     }
   ],
-  "items": [
-    {
+  "items": [{
       "active": true,
       "code": "LED-ML-L",
       "cat": "Loox LEDs",
@@ -204,8 +199,7 @@
       "title": "LED modular light",
       "description": "LED lights generate uniform, evenly distributed light and are ideal for mood lighting in all areas. These lights can be used in a variety of situations",
       "specifications": ["4000", "4001", "4002", "4003", "4005", "4006"],
-      "images": [
-        {
+      "images": [{
           "title": "",
           "image": "https://webquoin.com/catalog/build/assets/loox/round light.jpg"
         },
@@ -228,8 +222,7 @@
       "tab": "profiles",
       "title": "Square trim piece for modular LED spot",
       "description": "Square piece of trim for use with LED light.",
-      "colors": [
-        {
+      "colors": [{
           "code": "NK",
           "color": "#b6b4a0",
           "title": "Matt Nickel"
@@ -247,8 +240,7 @@
       ],
       "specifications": [],
       "iwhd": ["2 9/16", "2 9/16"],
-      "images": [
-        {
+      "images": [{
           "title": "Matt Nickel",
           "color": "#b6b4a0",
           "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Modular%20Puck%20Lights%2F1536939019850_Modular%20Puck%20Light%20Trim%20(Square%20-Matt%20Nickel).PNG?alt=media&token=9e763b1c-82a5-48dc-844b-ee8d7fddad19"
@@ -272,8 +264,7 @@
       "cat": "Loox LEDs",
       "root": "LED",
       "tab": "profiles",
-      "colors": [
-        {
+      "colors": [{
           "code": "NK",
           "color": "#b6b4a0",
           "title": "Matt Nickel"
@@ -293,8 +284,7 @@
       "description": "Round piece of trim for use with LED light.",
       "specifications": [],
       "iwhd": ["2 9/16"],
-      "images": [
-        {
+      "images": [{
           "title": "Matt Nickel",
           "color": "#b6b4a0",
           "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Modular%20Puck%20Lights%2F1536936450629_Modular%20Puck%20Light%20Trim%20(Round%20-%20Matt%20Nickel).PNG?alt=media&token=5ee9f152-e322-4b84-b62b-4d3d73919fb6"
@@ -322,12 +312,26 @@
       "description": "For connection LED lights to the power supply, rated for 12v only. Length of 78 3/4\"",
       "specifications": ["4001"],
       "iwhd": ["Length of 78 3/4"],
-      "images": [
-        {
-          "title": "",
-          "image": "https://webquoin.com/catalog/build/assets/loox/833.72.128.9.3.jpg"
-        }
-      ],
+      "images": [{
+        "title": "",
+        "image": "https://webquoin.com/catalog/build/assets/loox/833.72.128.9.3.jpg"
+      }],
+      "notes": ["13"]
+    },
+    {
+      "active": true,
+      "code": "LED-PWR-CORD",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Lead for power supply Loox US",
+      "tab": "extensions",
+      "description": "Mains Cable w.plug/US/black/2m (for driver). Length of 78 3/4\"",
+      "specifications": ["4001"],
+      "iwhd": ["Length of 78 3/4"],
+      "images": [{
+        "title": "",
+        "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Drivers%2F1536935539885_Loox%20driver%20power%20cord.PNG?alt=media&token=f5de360c-fe51-42ac-b941-73379ef1787a"
+      }],
       "notes": ["13"]
     },
     {
@@ -340,12 +344,10 @@
       "description": "For connection none silicon strip lights to the power supply, rated for 12v only. Length of 78 3/4\"",
       "specifications": ["4001"],
       "iwhd": ["Length of 78 3/4"],
-      "images": [
-        {
-          "title": "",
-          "image": "https://webquoin.com/catalog/build/assets/loox/Connector strip-01.png"
-        }
-      ],
+      "images": [{
+        "title": "",
+        "image": "https://webquoin.com/catalog/build/assets/loox/Connector strip-01.png"
+      }],
       "notes": ["13"]
     },
     {
@@ -358,12 +360,10 @@
       "description": "For connection silicon strip lights to the power supply, rated for 12v only. Length of 78 3/4\"",
       "specifications": ["4001"],
       "iwhd": ["Length of 78 3/4"],
-      "images": [
-        {
-          "title": "",
-          "image": "https://webquoin.com/catalog/build/assets/loox/01630994_0.jpg"
-        }
-      ],
+      "images": [{
+        "title": "",
+        "image": "https://webquoin.com/catalog/build/assets/loox/01630994_0.jpg"
+      }],
       "notes": ["13"]
     },
     {
@@ -386,9 +386,8 @@
         "4017"
       ],
       "iwhd": ["196 7/8"],
-      "images": [
-        {
-          "title": "role",
+      "images": [{
+          "title": "roll",
           "image": "https://webquoin.com/catalog/build/assets/loox/2030 led strip roll water proof (silicon coat).jpg"
         },
         {
@@ -423,9 +422,8 @@
         "4018"
       ],
       "iwhd": ["196 7/8"],
-      "images": [
-        {
-          "title": "role",
+      "images": [{
+          "title": "roll",
           "image": "https://webquoin.com/catalog/build/assets/loox/2037 led strip roll not water proof (no silicon coat).jpg"
         },
         {
@@ -449,8 +447,7 @@
       "description": "Glass shelf profile none supportive for LED strip lighting, strip light is secured at base of profile with direction of light shining into glass shelf. Glass shelves between 4 and 8 mm can slide into this profile",
       "specifications": [],
       "iwhd": ["98 3/8"],
-      "images": [
-        {
+      "images": [{
           "title": "profile",
           "image": "https://webquoin.com/catalog/build/assets/loox/Glass edge led profile.jpg"
         },
@@ -472,8 +469,7 @@
       "specifications": [],
       "iwhd": ["98 3/8"],
       "length": [4, 8],
-      "images": [
-        {
+      "images": [{
           "title": "profile with led installed",
           "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Aluminum%20Profile%2F1536872938170_Loox%20Milky%20Profile.PNG?alt=media&token=059764b1-608d-4f94-941c-d53bf721a118"
         },
@@ -498,12 +494,10 @@
       "description": "\"Milky\" cover for Aluminum profile",
       "specifications": [],
       "iwhd": ["98 3/8"],
-      "images": [
-        {
-          "title": "Mily cover only",
-          "image": "https://webquoin.com/catalog/build/assets/loox/LED-Profile-01.jpg"
-        }
-      ],
+      "images": [{
+        "title": "Mily cover only",
+        "image": "https://webquoin.com/catalog/build/assets/loox/LED-Profile-01.jpg"
+      }],
       "notes": []
     },
     {
@@ -516,12 +510,10 @@
       "description": "End cap pair with cable outlet, plastic, silver colored",
       "specifications": [],
       "iwhd": ["98 3/8"],
-      "images": [
-        {
-          "title": "End cap",
-          "image": "https://webquoin.com/catalog/build/assets/loox/End cap Profile-01.jpg"
-        }
-      ],
+      "images": [{
+        "title": "End cap",
+        "image": "https://webquoin.com/catalog/build/assets/loox/End cap Profile-01.jpg"
+      }],
       "notes": []
     },
     {
@@ -530,10 +522,9 @@
       "cat": "Loox LEDs",
       "root": "LED",
       "title": "Plug & Play Power supply",
-      "description": "Just plug in the leads into led and power supply and you're ready to light up your kitchen's/cabinets. Dimmable with our dimmer switches.",
+      "description": "Just plug in the leads into led and power supply and you're ready to light up your kitchen's/cabinets. Dimmable with our dimmer switches and comes with power cord for wall socket",
       "specifications": ["4001", "4022"],
-      "versions": [
-        {
+      "versions": [{
           "active": false,
           "code": "MSC-LED-DRIVER-20",
           "wattage": "0 - 20 W",
@@ -571,8 +562,7 @@
         }
       ],
       "vtable": ["wattage", "length", "width", "height", "output current"],
-      "images": [
-        {
+      "images": [{
           "title": "Power supplies",
           "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Drivers%2F1537541461223_Loox-driver%20setup.PNG?alt=media&token=d37408e9-992d-4b0d-96f9-f9862cf831ce"
         },
@@ -595,8 +585,7 @@
       "title": "DIY power supply",
       "description": "Dimmable voltage LED power supply is class 2 rated and designed to operate with any standard MLV/Incandescent TRIAC (Leading edge) dimmer switch. Encased in a low profile aluminum enclosure. Perfect choice for under cabinet lights, tape lights and various LED. Electrical specification includes Auto Reset, over current and short circuit protection. Efficiency of 90% and higher allows the power supply to operate at low temperatures.",
       "specifications": [],
-      "versions": [
-        {
+      "versions": [{
           "active": false,
           "code": "MSC-LED-DRIVERMAG-20",
           "wattage": "8 - 20 W",
@@ -616,8 +605,7 @@
         }
       ],
       "vtable": ["wattage", "download"],
-      "images": [
-        {
+      "images": [{
           "title": "Magnitude Power supply",
           "image": "https://webquoin.com/catalog/build/assets/loox/driver 12v magnitude.jpg"
         },
@@ -638,8 +626,7 @@
       "description": "For none silicon strip to connect two strips together",
       "specifications": [],
       "iwhd": [],
-      "images": [
-        {
+      "images": [{
           "title": "Clip open",
           "image": "https://webquoin.com/catalog/build/assets/loox/clip none silicon connector open.jpg"
         },
@@ -660,12 +647,10 @@
       "description": "For silicon strip to connect two strips together",
       "specifications": [],
       "iwhd": [],
-      "images": [
-        {
-          "title": "Clip closed",
-          "image": "https://webquoin.com/catalog/build/assets/loox/clip silicon connector.jpg"
-        }
-      ],
+      "images": [{
+        "title": "Clip closed",
+        "image": "https://webquoin.com/catalog/build/assets/loox/clip silicon connector.jpg"
+      }],
       "notes": []
     },
     {
@@ -678,12 +663,10 @@
       "description": "For none silicon strip to connect at 90 degrees two strips together",
       "specifications": [],
       "iwhd": [],
-      "images": [
-        {
-          "title": "Clip closed",
-          "image": "https://webquoin.com/catalog/build/assets/loox/clip 90 corner none silicon connector.jpg"
-        }
-      ],
+      "images": [{
+        "title": "Clip closed",
+        "image": "https://webquoin.com/catalog/build/assets/loox/clip 90 corner none silicon connector.jpg"
+      }],
       "notes": []
     },
     {
@@ -696,12 +679,10 @@
       "description": "For silicon strip to connect at 90 degrees two strips together",
       "specifications": [],
       "iwhd": [],
-      "images": [
-        {
-          "title": "Clip closed",
-          "image": "https://webquoin.com/catalog/build/assets/loox/clip 90 corner silicon connector.jpg"
-        }
-      ],
+      "images": [{
+        "title": "Clip closed",
+        "image": "https://webquoin.com/catalog/build/assets/loox/clip 90 corner silicon connector.jpg"
+      }],
       "notes": []
     },
     {
@@ -714,8 +695,7 @@
       "description": "For daisy chaining none silicon strips together",
       "specifications": [],
       "iwhd": [],
-      "images": [
-        {
+      "images": [{
           "title": "Clip open",
           "image": "https://webquoin.com/catalog/build/assets/loox/daisy chain connector 2037 for none silicon open.jpg"
         },
@@ -736,12 +716,10 @@
       "description": "For daisy chaining silicon strips together",
       "specifications": [],
       "iwhd": [],
-      "images": [
-        {
-          "title": "Clip closed",
-          "image": "https://webquoin.com/catalog/build/assets/loox/daisy chain connector.jpg"
-        }
-      ],
+      "images": [{
+        "title": "Clip closed",
+        "image": "https://webquoin.com/catalog/build/assets/loox/daisy chain connector.jpg"
+      }],
       "notes": []
     },
     {
@@ -754,8 +732,7 @@
       "description": "A single lead for attaching 4 LED lights, for a total length of 255 7/8\"",
       "specifications": ["4028", "4029", "4001", "4030", "4031"],
       "iwhd": [],
-      "images": [
-        {
+      "images": [{
           "title": "4 way extension",
           "image": "https://webquoin.com/catalog/build/assets/loox/4way extension.png"
         },
@@ -776,12 +753,10 @@
       "description": "Lead with snap-in connector, Häfele Loox, for modular switches - Length: (78 3/4\") 2000 mm",
       "specifications": ["4001"],
       "iwhd": [],
-      "images": [
-        {
-          "title": "power cord",
-          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoos%20LED%20-%20Switches%2F1536942198806_Loox%20LED%20switch%20connector.PNG?alt=media&token=b5a29aed-7cdc-48ee-8689-b852585d3962"
-        }
-      ],
+      "images": [{
+        "title": "power cord",
+        "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoos%20LED%20-%20Switches%2F1536942198806_Loox%20LED%20switch%20connector.PNG?alt=media&token=b5a29aed-7cdc-48ee-8689-b852585d3962"
+      }],
       "notes": ["13"]
     },
     {
@@ -794,8 +769,7 @@
       "description": "A 6 way distributor for attaching 6 LED lights, lead length to connect to Power supply is 78 3/4\"",
       "specifications": ["4029", "4001", "4032"],
       "iwhd": [],
-      "images": [
-        {
+      "images": [{
           "title": "6 way distributor",
           "image": "https://webquoin.com/catalog/build/assets/loox/6way extension.png"
         },
@@ -808,10 +782,10 @@
     },
     {
       "active": true,
-      "code": "LED-SWITCHONOFF",
+      "code": "LED-KIT-SWITCHONOFF",
       "cat": "Loox LEDs",
       "root": "LED",
-      "title": "Switch touch free",
+      "title": "Kit Switch touch free",
       "tab": "switches",
       "description": "Touch-free on/off switch",
       "specifications": [
@@ -824,8 +798,7 @@
         "4007"
       ],
       "iwhd": [],
-      "images": [
-        {
+      "images": [{
           "title": "switch",
           "image": "https://webquoin.com/catalog/build/assets/loox/switch touch free.jpg"
         },
@@ -838,10 +811,10 @@
     },
     {
       "active": true,
-      "code": "LED-SWITCHDIM",
+      "code": "LED-KIT-SWITCHDIM",
       "cat": "Loox LEDs",
       "root": "LED",
-      "title": "Dimmer touch free",
+      "title": "Kit Dimmer touch free",
       "tab": "switches",
       "description": "Touch-free dimmer switch",
       "specifications": [
@@ -855,8 +828,7 @@
       ],
       "iwhd": [],
       "icon": "https://webquoin.com/catalog/build/assets/loox/10to100.jpg",
-      "images": [
-        {
+      "images": [{
           "title": "switch",
           "image": "https://webquoin.com/catalog/build/assets/loox/switch touch free.jpg"
         },
@@ -878,8 +850,7 @@
       "specifications": ["4001", "4033", "4039", "4038", "4037", "4007"],
       "iwhd": [],
       "icon": "https://webquoin.com/catalog/build/assets/loox/10to100.jpg",
-      "images": [
-        {
+      "images": [{
           "title": "switch",
           "image": "https://webquoin.com/catalog/build/assets/loox/touch dimmer.jpg"
         },
@@ -891,8 +862,7 @@
       "notes": ["13"]
     }
   ],
-  "prepare": [
-    {
+  "prepare": [{
       "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Aluminum%20Profiles%2F1537393817859_LED-PREP-PR-PANEL%20(P.75%20setup).PNG?alt=media&token=b7310170-9ea0-4f54-973f-58e9878c7f4f",
       "title": "Prepare Cabinet for LED-Profile P.75 setup",
       "code": "LED-PREP-PR-PANEL",
@@ -949,8 +919,7 @@
       "description": "Overview Loox mudular light setup"
     }
   ],
-  "specifications": [
-    {
+  "specifications": [{
       "id": "4039",
       "title": "Length",
       "content": "2 3/8\""
@@ -1073,7 +1042,7 @@
     {
       "id": "4012",
       "title": "Length",
-      "content": "5 m (16 3/8') per role"
+      "content": "5 m (16 3/8') per roll"
     },
     {
       "id": "4000",
@@ -1136,8 +1105,7 @@
       "content": "add code: LED-PREP-BOT to have the bottom of the cabinet prepared for installation of LED. this will add a set shelf for the housing of the LED and wire, which be route for having the wire exit the back of cabinet. Also will drill a hole and route a channel for a the wire on the back of the cabinet outside going to the top of cabinet."
     }
   ],
-  "notes": [
-    {
+  "notes": [{
       "id": "0",
       "title": "Max ",
       "link": "#",
