@@ -334,7 +334,7 @@ function webqoinCode(info) {
 }
 
 function kitIncludes(item) {
-  return `<ul class="collection with-header"><li class="collection-header"><h5>Kit includes the following items:</h5></li>${item.includes.map(i => `<li class="collection-item">${i.title}</li>`).join("")}</ul>`;
+  return `<ul class="collection with-header"><li class="collection-header"><h5>Kit includes the following items:</h5></li><li class="collection-item">Power supply not included</li>${item.includes.map(i => `<li class="collection-item">${i.title}</li>`).join("")}</ul>`;
 }
 
 function cardWithAction(info) {
