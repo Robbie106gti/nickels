@@ -215,7 +215,7 @@ function imageTitle(image) {
   return title;
 }
 
-function setNotes(notes) {
+function set(notes) {
   fetch(`../../json/notes.json`)
     .then(response => response.json())
     .then(data => {

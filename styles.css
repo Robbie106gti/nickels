@@ -2,6 +2,22 @@ body {
   background-color: rgba(96, 125, 139, 0.5)
 }
 
+#modals {
+  position: fixed;
+  top: 3rem;
+  left: 0;
+  z-index: 1003;
+}
+
+#modals>.modal {
+  max-height: 85%;
+  width: 85%;
+}
+
+.modal .modal-close {
+  float: right;
+}
+
 .imageLogo {
   margin-top: 0.4em;
   margin-right: 0.3em;
@@ -83,6 +99,7 @@ p>i {
     -ms-grid-columns: (minmax(2em, 1fr))[auto-fit];
     grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
   }
+
   .grid {
     margin: 0 auto;
     display: -ms-grid;
@@ -91,6 +108,7 @@ p>i {
     -ms-grid-columns: (minmax(18em, 1fr))[auto-fit];
     grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   }
+
   .grid2 {
     margin: 0 auto;
     display: -ms-grid;
@@ -116,6 +134,7 @@ img.materialboxed.initialized {
 img.materialboxed.initialized.active {
   max-inline-size: none !important;
 }
+
 img.responsive-img.materialboxed {
   max-inline-size: none !important;
   width: 100%;

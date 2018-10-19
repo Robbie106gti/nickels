@@ -1,62 +1,46 @@
 {
-    "Trims Moldings": [
-        {
-        "code": "TFLAT",
-        "title": "Flat molding",
-        "attached": [
-            {
-              "height": "Trim",
-              "link": "page"
-            },
-            {
-              "height": "Toe kick",
-              "link": "page"
-            },
-            {
-              "height": "Crown",
-              "link": "page"
-            },
-            {
-              "height": "Valance",
-              "link": "page"
-            },
-            {
-              "height": "Molding",
-              "link": "page",
-              "active": "false"
-            }
-          ],
-        "image": "https://webquoin.com/catalog/build/assets/trim/wem.260.png",
-        "tags": ["kick", "crown", "toe", "valance","molding","trim" ]
-        },
-        {
-        "code": "TFLUT",
-        "title": "Fluted Molding",
-        "attached": [
-            {
-              "height": "Trim",
-              "link": "page"
-            },
-            {
-              "height": "Toe kick",
-              "link": "page"
-            },
-            {
-              "height": "Crown",
-              "link": "page"
-            },
-            {
-              "height": "Valance",
-              "link": "page"
-            },
-            {
-              "height": "Molding",
-              "link": "page",
-              "active": "false"
-            }
-          ],
-        "image": "https://webquoin.com/catalog/build/assets/trim/wem.268.png",
-        "tags": ["toe kick", "crown", "valance", "molding", "trim" ]
-        }
-    ]
+  "Trims Moldings": [{
+    "title": "Proud Valance with Return",
+    "code": "PVR",
+    "image": "https://webquoin.com/catalog/images/ProudValanceWithReturn.png",
+    "imageTitle": "Proud Valance - with Return - with Detailed edge",
+    "specIMage": "",
+    "lengths": [4, 8, 10],
+    "description": "The Proud Valance is typically used over sinks to bridge between wall cabinets, or set inside an open cabinet.",
+    "standards": [{
+        "title": "Construction",
+        "content": "Available in composite core or solid material."
+      },
+      {
+        "title": "Height",
+        "content": "Specify height (max. 8\")."
+      },
+      {
+        "title": "Finish",
+        "content": "All faces and edges are finished except for valance ends."
+      }
+    ],
+    "options": [{
+      "title": "DE",
+      "content": "A detailed edge is applied to the front bottom edge.",
+      "action": "Edges",
+      "edges": ["BV3", "BV5", "CA", "CV6", "CV11", "HS", "OV", "RD3", "RD6", "SC", "SH", "SQ"]
+    }],
+    "restrictions": [
+      "Detailed Edge only available in Solid WOOD and Painted MDF.",
+      "Not available on Euro Materials."
+    ],
+    "notes": [{
+      "title": "Grain",
+      "content": "runs horizontally and does not change according to the Exterior Material Header Drop - down Menu selection."
+    }],
+    "table": {
+      "header": [],
+      "content": []
+    },
+    "tags": ["PVR", "DE", "Valance", "Return"],
+    "link": "trim.html?cat=Trims%20Moldings&item=PVR"
+  }, {
+    "code": "MA"
+  }]
 }
