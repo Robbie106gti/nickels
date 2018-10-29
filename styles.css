@@ -6,7 +6,7 @@ body {
   position: fixed;
   top: 3rem;
   left: 0;
-  z-index: 1003;
+  z-index: 1005;
 }
 
 #modals>.modal {

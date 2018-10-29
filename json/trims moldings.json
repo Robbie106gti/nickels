@@ -2,7 +2,7 @@
   "Trims Moldings": [{
     "title": "Proud Valance with Return",
     "code": "PVR",
-    "image": "https://webquoin.com/catalog/images/ProudValanceWithReturn.png",
+    "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/PVR%20-%20wf%20-%20spec.JPG",
     "imageTitle": "Proud Valance - with Return - with Detailed edge",
     "specIMage": "",
     "lengths": [4, 8, 10],
@@ -35,12 +35,47 @@
       "content": "runs horizontally and does not change according to the Exterior Material Header Drop - down Menu selection."
     }],
     "table": {
-      "header": [],
-      "content": []
+      "header": ["Detailed Edge", "Order Code", "Description"],
+      "content": [{
+          "de": "No",
+          "code": "PVR-4",
+          "description": "4' Proud Valance with Return"
+        },
+        {
+          "de": "No",
+          "code": "PVR-8",
+          "description": "8' Proud Valance with Return"
+        },
+        {
+          "de": "No",
+          "code": "PVR-10",
+          "description": "10' Proud Valance with Return"
+        },
+        {
+          "de": "Yes",
+          "code": "PVR-DE-4",
+          "description": "4' Proud Valance with Return and a detailed edge"
+        },
+        {
+          "de": "Yes",
+          "code": "PVR-DE-8",
+          "description": "8' Proud Valance with Return and a detailed edge"
+        },
+        {
+          "de": "Yes",
+          "code": "PVR-DE-10",
+          "description": "10' Proud Valance with Return and a detailed edge"
+        }
+      ]
     },
     "tags": ["PVR", "DE", "Valance", "Return"],
     "link": "trim.html?cat=Trims%20Moldings&item=PVR"
   }, {
-    "code": "MA"
+    "code": "MA",
+    "title": "Applied Molding (AM)",
+    "image": "https://www.webquoin.com/Catalog/images/JPGs/Custom/Moldings/AM-SQ.jpg",
+    "specImage": "https://www.webquoin.com/Catalog/build/assets/trimsNmoldings/am%20spec%20finishes.JPG",
+    "imageTitle": "",
+    "specIMageTitle": "Cross section"
   }]
 }

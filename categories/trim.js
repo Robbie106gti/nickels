@@ -68,10 +68,8 @@ function structure(params) {
         <div class="col s12 m6">
             <div id="images"></div>
         </div>
-        <div class="col s12 m12">
             <div id="codes" class="col s12 m6"></div>
-            <div id="options" class="col s12 m6"></div>
-        </div>` : null;
+            <div id="options" class="col s12 m6"></div>` : null;
   $('#catalog').html(html);
 }
 
@@ -107,6 +105,7 @@ function buildItem(data, params) {
   setStandards(item);
   setNotes(item.notes);
   setImages(item);
+  setCodes(item);
 }
 
 function setImages(item) {
@@ -132,7 +131,7 @@ function setDescription(item) {
 
 function setStandards(item) {
   const specs = item.standards;
-  let htmlspecs = `<div class="card-panel grey lighten-3 bullet">
+  let htmlspecs = `<div class="card-panel grey lighten-3">
                         <span class="card-title">
                             <h4>Standards</h4>
                         </span>
@@ -151,6 +150,55 @@ function setOptions(options) {
                         <div class="divider"></div>
                         <div id="specli"><ul class="flow-text">${options.map(option => `<li><small><b>${option.title}: </b>${option.content}</small>${option.action ? actionButton(option): ''}</li>`).join('')}</ul></div>`;
   return htmloptions;
+}
+
+function setCodes(item) {
+  let htmlcodes = `<div class="card-panel grey lighten-3">
+                        <table class="bordered striped highlight">
+                        <theader><tr>${item.table.header.map(th => `<th>${th}</th>`).join('')}</tr></theader>
+                        <tbody>${item.table.content.map(row => `<tr><td>${row.de}</td><td><ul><li><span  class="ordercode" cart=''>${row.code}</span></li></ul></td><td>${row.description}</td></tr>`).join('')}</tbody>
+                        </table>
+                    </div>`;
+  $("#codes").html(htmlcodes);
+  var currentDiv = null;
+  $(document).ready(function () {
+    if (parent.shopcart) {
+      $("[cart='']").css("cursor", "pointer")
+      $("[cart='']").attr("title", "Click to add this item to your job.")
+      addtocartcontextmenu();
+      $("#Search").hide();
+      $('[href="http://www.nickelscabinets.com/"]').hide();
+    }
+  });
+
+  function addtocartcontextmenu() {
+    $("[cart='']").contextMenu({
+        menu: 'AddToCartMenu'
+      },
+
+      function onclick(action, el, pos) {
+        //location.href = "main.wcsx?sid=50&pk=" + $(el).attr('pk')
+        //    $(this).find('ul').hide();
+        switch (action) {
+          case 'add':
+            parent.addtocart(el)
+            break
+          case 'edit':
+
+            break
+
+          default:
+            alert('Feature currently unavailable.')
+        }
+      });
+
+    // This is the left click function
+    $("[cart='']").click(function () {
+      if (confirm("Do you want to add this item to your order?")) {
+        parent.addtocart(this);
+      }
+    });
+  }
 }
 
 function actionButton(option) {
