@@ -43,7 +43,7 @@ Temporary Items
 /dist
 /tmp
 /out-tsc
-/assets
+# /assets
 
 # dependencies
 /node_modules
@@ -73,8 +73,8 @@ npm-debug.log
 testem.log
 
 # JSON files
-*/codes.json
-*/specifications.json
-*/notes.json
-*/addons.json
-*/pod.json
+# */codes.json
+# */specifications.json
+# */notes.json
+# */addons.json
+# */pod.json

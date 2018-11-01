@@ -1,81 +1,342 @@
 {
   "Trims Moldings": [{
-    "title": "Proud Valance with Return",
-    "code": "PVR",
-    "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/PVR%20-%20wf%20-%20spec.JPG",
-    "imageTitle": "Proud Valance - with Return - with Detailed edge",
-    "specIMage": "",
-    "lengths": [4, 8, 10],
-    "description": "The Proud Valance is typically used over sinks to bridge between wall cabinets, or set inside an open cabinet.",
-    "standards": [{
-        "title": "Construction",
-        "content": "Available in composite core or solid material."
-      },
-      {
-        "title": "Height",
-        "content": "Specify height (max. 8\")."
-      },
-      {
-        "title": "Finish",
-        "content": "All faces and edges are finished except for valance ends."
-      }
-    ],
-    "options": [{
-      "title": "DE",
-      "content": "A detailed edge is applied to the front bottom edge.",
-      "action": "Edges",
-      "edges": ["BV3", "BV5", "CA", "CV6", "CV11", "HS", "OV", "RD3", "RD6", "SC", "SH", "SQ"]
-    }],
-    "restrictions": [
-      "Detailed Edge only available in Solid WOOD and Painted MDF.",
-      "Not available on Euro Materials."
-    ],
-    "notes": [{
-      "title": "Grain",
-      "content": "runs horizontally and does not change according to the Exterior Material Header Drop - down Menu selection."
-    }],
-    "table": {
-      "header": ["Detailed Edge", "Order Code", "Description"],
-      "content": [{
-          "de": "No",
-          "code": "PVR-4",
-          "description": "4' Proud Valance with Return"
+      "title": "Proud Valance with Return",
+      "code": "PVR",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/PVR%20-%20wf%20-%20spec.JPG",
+      "imageTitle": "Proud Valance - with Return - with Detailed edge",
+      "lengths": [4, 8, 10],
+      "description": "The Proud Valance is typically used over sinks to bridge between wall cabinets, or set inside an open cabinet.",
+      "standards": [{
+          "title": "Construction",
+          "content": "Available in composite core or solid material."
         },
         {
-          "de": "No",
-          "code": "PVR-8",
-          "description": "8' Proud Valance with Return"
+          "title": "Height",
+          "content": "Specify height (max. 8\")."
         },
         {
-          "de": "No",
-          "code": "PVR-10",
-          "description": "10' Proud Valance with Return"
-        },
-        {
-          "de": "Yes",
-          "code": "PVR-DE-4",
-          "description": "4' Proud Valance with Return and a detailed edge"
-        },
-        {
-          "de": "Yes",
-          "code": "PVR-DE-8",
-          "description": "8' Proud Valance with Return and a detailed edge"
-        },
-        {
-          "de": "Yes",
-          "code": "PVR-DE-10",
-          "description": "10' Proud Valance with Return and a detailed edge"
+          "title": "Finish",
+          "content": "All faces and edges are finished except for valance ends."
         }
-      ]
+      ],
+      "options": [{
+        "title": "DE",
+        "content": "A detailed edge is applied to the front bottom edge.",
+        "action": "Edges",
+        "edges": [
+          "BV3",
+          "BV5",
+          "CA",
+          "CV6",
+          "CV11",
+          "HS",
+          "OV",
+          "RD3",
+          "RD6",
+          "SC",
+          "SH",
+          "SQ"
+        ]
+      }],
+      "restrictions": [
+        "Detailed Edge only available in Solid WOOD and Painted MDF.",
+        "Not available on Euro Materials."
+      ],
+      "notes": [{
+        "title": "Grain",
+        "content": "runs horizontally and does not change according to the Exterior Material Header Drop - down Menu selection."
+      }],
+      "table": {
+        "header": ["Detailed Edge", "Order Code", "Description"],
+        "content": [{
+            "de": "No",
+            "code": "PVR-4",
+            "description": "4' Proud Valance with Return"
+          },
+          {
+            "de": "No",
+            "code": "PVR-8",
+            "description": "8' Proud Valance with Return"
+          },
+          {
+            "de": "No",
+            "code": "PVR-10",
+            "description": "10' Proud Valance with Return"
+          },
+          {
+            "de": "Yes",
+            "code": "PVR-DE-4",
+            "description": "4' Proud Valance with Return and a detailed edge"
+          },
+          {
+            "de": "Yes",
+            "code": "PVR-DE-8",
+            "description": "8' Proud Valance with Return and a detailed edge"
+          },
+          {
+            "de": "Yes",
+            "code": "PVR-DE-10",
+            "description": "10' Proud Valance with Return and a detailed edge"
+          }
+        ]
+      },
+      "tags": ["PVR", "DE", "Return", "Valance"],
+      "link": "trim.html?cat=Trims%20Moldings&item=PVR"
     },
-    "tags": ["PVR", "DE", "Valance", "Return"],
-    "link": "trim.html?cat=Trims%20Moldings&item=PVR"
-  }, {
-    "code": "MA",
-    "title": "Applied Molding (AM)",
-    "image": "https://www.webquoin.com/Catalog/images/JPGs/Custom/Moldings/AM-SQ.jpg",
-    "specImage": "https://www.webquoin.com/Catalog/build/assets/trimsNmoldings/am%20spec%20finishes.JPG",
-    "imageTitle": "",
-    "specIMageTitle": "Cross section"
-  }]
+    {
+      "code": "AM",
+      "title": "Applied Molding (AM)",
+      "image": "https://www.webquoin.com/Catalog/images/JPGs/Custom/Moldings/AM-SQ.jpg",
+      "specImage": "https://www.webquoin.com/Catalog/build/assets/trimsNmoldings/am%20spec%20finishes.JPG",
+      "imageTitle": "Applied Molding",
+      "specImageTitle": "Cross section",
+      "tags": ["MA", "DE", "Molding"],
+      "link": "trim.html?cat=Trims%20Moldings&item=AM",
+      "lengths": [4, 8, 10],
+      "description": "The Proud Valance is typically used over sinks to bridge between wall cabinets, or set inside an open cabinet.",
+      "standards": [{
+          "title": "Construction",
+          "content": "Available in all materials with a composite core."
+        },
+        {
+          "title": "Finish",
+          "content": "The top, bottom and 1 edge are finished. The front edge is taped except with painted applications."
+        }
+      ],
+      "options": [{
+          "title": "DE edges",
+          "content": "A detailed edge is applied to the front bottom edge.",
+          "action": "Edges",
+          "edges": ["BV3", "BV5", "CV6", "OV", "RD3", "RD6", "SC", "SQ"]
+        },
+        {
+          "title": "(DE) Materials",
+          "content": "Not available in Engineered."
+        },
+        {
+          "title": "(DE) Construction",
+          "content": "Made from solid wood or MDF if painted."
+        }
+      ],
+      "table": {
+        "header": ["Detailed Edge", "Order Code", "Description"],
+        "content": [{
+            "de": "No",
+            "code": "AM-4",
+            "description": "4' Molding"
+          },
+          {
+            "de": "No",
+            "code": "AM-8",
+            "description": "8' Molding"
+          },
+          {
+            "de": "No",
+            "code": "AM-10",
+            "description": "10' Molding (excludes Engineered, Melamine and QS White Oak)"
+          },
+          {
+            "de": "Yes",
+            "code": "AM-DE-4",
+            "description": "4' Molding with a detailed edge"
+          },
+          {
+            "de": "Yes",
+            "code": "AM-DE-8",
+            "description": "8' Molding with a detailed edge"
+          },
+          {
+            "de": "Yes",
+            "code": "AM-DE-10",
+            "description": "10' Molding with a detailed edge (excludes Melamine)"
+          }
+        ]
+      }
+    },
+    {
+      "code": "TK",
+      "title": "Toekick (TK)",
+      "sizeImage": "small",
+      "image": "https://www.webquoin.com/Catalog/build/assets/trimsNmoldings/Toe-Kick.jpg",
+      "specImage": "https://webquoin.com/catalog/images/GIFs/Custom/Moldings%20and%20Trims/ToeKick75.gif",
+      "specImage2": "https://webquoin.com/catalog/images/GIFs/Custom/Moldings%20and%20Trims/ToeKickSetup.gif",
+      "imageTitle": "Toekick with legleveller",
+      "specImageTitle": "Cross section",
+      "specImageTitle2": "Overview setup",
+      "tags": ["TK", "TKA", "TKSW", "Toekicks"],
+      "link": "trim.html?cat=Trims%20Moldings&item=TK",
+      "lengths": [4, 8, 10],
+      "description": "For use with Nickels leg leveller system.",
+      "standards": [{
+          "title": "Construction",
+          "content": "3/4\" thick composite core material finished to match the color and material of the cabinets exterior or with an aluminum finish."
+        },
+        {
+          "title": "Supplied with",
+          "content": "A kerf and notch in the back to integrate with the leg leveller system."
+        }
+      ],
+      "options": [{
+          "title": "TK",
+          "content": "To match color and material of cabinet exterior"
+        },
+        {
+          "title": "TKA",
+          "content": "For aluminum finish"
+        },
+        {
+          "title": "TKSW",
+          "content": "3/4” thick solid wood material finished to match the color and material of the cabinet exterior."
+        }
+      ],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection."
+      ],
+      "notes": [{
+        "title": "10'",
+        "content": "toekicks are only available in Painted and Wood Veneer (except Engineered) materials."
+      }],
+      "table": {
+        "template": "two",
+        "header": ["Code", "Heights", "Lengths", "Order Code", "Description"],
+        "content": [{
+            "code": "TK",
+            "lengths": [4, 8, 10],
+            "heights": [4, 5, 6, 7],
+            "description": "Match color and material of cabinet exterior"
+          },
+          {
+            "lengths": [4, 8],
+            "heights": [4, 5, 6, 7],
+            "code": "TKA",
+            "description": "Aluminum finish"
+          },
+          {
+            "lengths": [4, 8],
+            "heights": [4, 5, 6, 7],
+            "code": "TKSW",
+            "description": "3/4\" thick solid wood material"
+          }
+        ]
+      }
+    },
+    {
+      "code": "SBK",
+      "title": "Site-built Kicks",
+      "image": "https://webquoin.com/catalog/images/JPGs/Custom/Moldings/SBK-VS.jpg",
+      "imageTitle": "Skin for Site-built Kicks",
+      "tags": ["SBK", "Composite core", "Plywood"],
+      "link": "trim.html?cat=Trims%20Moldings&item=SBK",
+      "lengths": [8],
+      "description": "3/4\" thick unfinished material.",
+      "standards": [{
+        "title": "Construction",
+        "content": "3/4\" thick unfinished material."
+      }],
+      "options": [{
+          "title": "Composite (CC)",
+          "content": "Available in composite core"
+        },
+        {
+          "title": "Plywood (PLY)",
+          "content": "Available in plywood"
+        },
+        {
+          "title": "Skin for Sitebuilt kicks (VS)",
+          "content": "3/16\" thick baseboard skin material is available to match the color and material of the cabinets"
+        }
+      ],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection."
+      ],
+      "table": {
+        "template": "two",
+        "header": ["Code", "Heights", "Lengths", "Order Code", "Description"],
+        "content": [{
+            "code": "SBK-CC",
+            "lengths": [8],
+            "heights": [4, 5, 6, 7],
+            "description": "Composite Core"
+          },
+          {
+            "lengths": [8],
+            "heights": [4, 5, 6, 7],
+            "code": "SBK-PLY",
+            "description": "Plywood"
+          },
+          {
+            "lengths": [8],
+            "heights": [4, 5, 6, 7],
+            "code": "SBK-VS",
+            "description": "Skin for Site-Built Kicks"
+          }
+        ]
+      }
+    },
+    {
+      "code": "PK1",
+      "title": "Proud Kick 1",
+      "sizeImage": "small",
+      "specImage2": "https://webquoin.com/catalog/images/Edge-Details/OV-edge.png",
+      "specImageTitle2": "DE setup",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/proudKick.jpg",
+      "imageTitle": "Proud Kick 1",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/spec%20pk1.PNG",
+      "specImageTitle": "Cross section",
+      "tags": ["PK1", "Composite core"],
+      "link": "trim.html?cat=Trims%20Moldings&item=PK1",
+      "lengths": [8],
+      "description": "3/4\" thick material.",
+      "standards": [{
+        "title": "Construction",
+        "content": "Available in a 3/4\" veneer/composite core with a taped edge in all materials."
+      }],
+      "options": [{
+        "title": "DE edges",
+        "content": "A detailed edge is applied to the front bottom edge.",
+        "action": "Edges",
+        "edges": ["BV3", "BV5", "CV6", "OV", "RD3", "RD6", "SC", "SQ"]
+      }, {
+        "title": "Return",
+        "content": "Add a return."
+      }],
+      "restrictions": [
+        "All returns for moldings are made of composite core material, regardless of whether or not the molding to which it is attached is made of solid or composite material.",
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection."
+      ],
+      "notes": [{
+        "title": "Moldings",
+        "content": "While moldings are often shown as available in 4', 8', or 10' lengths, Nickels is unable to stock moldings in specific lengths. We will supply moldings based on the total order quantity."
+      }, {
+        "title": "Order consisting",
+        "content": "When an order consisting of 10' lengths is placed, we will send a minimum of one 10' length and the rest of the order will consist of minimum 8' lengths with 1 extra piece to complete the total footage required in the order. When more than one 10' length is required, the quantity must be noted on the order and we will meet the request"
+      }, {
+        "title": "Defects",
+        "content": "When a defective piece of molding is sent, an additional piece will be sent to compensate for the defective length lost, plus 1'."
+      }],
+      "table": {
+        "template": "two",
+        "header": ["Code", "Return", "Lengths", "Order Code", "Description"],
+        "content": [{
+            "code": "PK1",
+            "lengths": ["DE"],
+            "heights": [4, 5, 6, 7],
+            "description": "Composite Core"
+          },
+          {
+            "lengths": [8],
+            "heights": [4, 5, 6, 7],
+            "code": "SBK-PLY",
+            "description": "Plywood"
+          },
+          {
+            "lengths": [8],
+            "heights": [4, 5, 6, 7],
+            "code": "SBK-VS",
+            "description": "Skin for Site-Built Kicks"
+          }
+        ]
+      }
+    }
+  ]
 }

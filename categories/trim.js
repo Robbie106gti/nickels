@@ -1,40 +1,40 @@
 //// Main js for catagories /////
 
 $.ajax({
-  url: "../layout/header.html",
+  url: '../layout/header.html',
   context: document.body,
   success: function (response) {
-    $("#header").html(response);
+    $('#header').html(response);
   }
 });
 $.ajax({
-  url: "../layout/footer.html",
+  url: '../layout/footer.html',
   context: document.body,
   success: function (response) {
-    $("#footer").html(response);
+    $('#footer').html(response);
   }
 });
 
 window.onload = getSubs();
 
-
-
 function getSubs() {
   $.urlParam = function (name) {
-    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(
+      window.location.href
+    );
     if (results == null) {
       return null;
     } else {
       return decodeURI(results[1]) || 0;
     }
-  }
+  };
   const edges = [];
   const cat = $.urlParam('cat');
   const item = $.urlParam('item') ? $.urlParam('item') : null;
   const params = {
     cat: cat,
     item: item
-  }
+  };
   structure(params);
   setGI(cat);
   const catagory = cat.toLowerCase();
@@ -43,9 +43,10 @@ function getSubs() {
     .then(data => {
       // console.log(data['catalog']);
       data = data[cat];
-      const html = params.item !== null ? buildItem(data, params) : mainCatView(data);
-
-    }).then(() => initMaterializeJS())
+      const html =
+        params.item !== null ? buildItem(data, params) : mainCatView(data);
+    })
+    .then(() => initMaterializeJS())
     .catch(err => console.log(err));
 }
 
@@ -58,7 +59,9 @@ function initMaterializeJS() {
 }
 
 function structure(params) {
-  const html = params.item !== null ? `
+  const html =
+    params.item !== null ?
+    `
         <div id="modals"></div>
         <div class="col s12 m6">
             <div id="des"></div>
@@ -69,24 +72,29 @@ function structure(params) {
             <div id="images"></div>
         </div>
             <div id="codes" class="col s12 m6"></div>
-            <div id="options" class="col s12 m6"></div>` : null;
+            <div id="options" class="col s12 m6"></div>` :
+    null;
   $('#catalog').html(html);
 }
 
 function mainCatView(data) {
-  const b = document.getElementById("catalog");
-  b.setAttribute("class", "grid");
-  const html = `${data.map(cat =>                `
-                    <div class="card"><a href="${cat.link}">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="image20 activator" src="${cat.image}">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">${cat.title}<i class="material-icons right">more_vert</i></span>
-                            ${getTags(cat.tags)}
-                        </div></a>
-                    </div>`
-            ).join('')}`;
+  const b = document.getElementById('catalog');
+  b.setAttribute('class', 'grid');
+  const html = `${data
+    .map(
+      cat => `<div class="card"><a href="${cat.link}">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="image20 activator" src="${cat.image}">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">${
+                      cat.title
+                    }<i class="material-icons right">more_vert</i></span>
+                    ${getTags(cat.tags)}
+                </div></a>
+            </div>`
+    )
+    .join('')}`;
   $('#catalog').html(html);
 }
 
@@ -109,13 +117,51 @@ function buildItem(data, params) {
 }
 
 function setImages(item) {
-  let image = `<div class="card">
+  let image = '';
+  switch (item.sizeImage) {
+    case 'small':
+      image = imageCard(item);
+      break;
+    default:
+      image = `<div class="card">
                             <div class="padding">
-                                <img class="responsive-img materialboxed" src="${item.image}" alt="${item.imageTitle}">
-                                <span class="card-title black-text"><b>${item.imageTitle}</b></span>
+                                <img class="responsive-img materialboxed" src="${
+                                  item.image
+                                }" alt="${item.imageTitle}">
+                                <span class="card-title black-text"><b>${
+                                  item.imageTitle
+                                }</b></span>
                             </div>
+                            ${item.specImage ? specImage(item) : ''}
                         </div>`;
-  $("#images").html(image);
+  }
+  $('#images').html(image);
+}
+
+function imageCard(item) {
+  let card = `<div class="col s4"><div class="card small"><div class="padding">
+      <img class="responsive-img materialboxed" src="${item.image}" alt="${item.imageTitle}">
+      <span class="card-title black-text"><b>${item.imageTitle}</b></span>
+  </div></div></div>`;
+  card = card + `<div class="col s4"><div class="card small"><div class="padding">
+      <img class="responsive-img materialboxed" src="${item.specImage}" alt="${item.specImageTitle}">
+      <span class="card-title black-text"><b>${item.specImageTitle}</b></span>
+  </div></div></div>`;
+  card = card + `<div class="col s4"><div class="card small"><div class="padding">
+      <img class="responsive-img materialboxed" src="${item.specImage2}" alt="${item.specImageTitle2}">
+      <span class="card-title black-text"><b>${item.specImageTitle2}</b></span>
+  </div></div></div>`;
+  return card;
+}
+
+function specImage(item) {
+  return `
+  <div class="padding">
+      <img class="responsive-img materialboxed" src="${item.specImage}" alt="${
+    item.specImageTitle
+  }">
+      <span class="card-title black-text"><b>${item.specImageTitle}</b></span>
+  </div>`;
 }
 
 function setDescription(item) {
@@ -124,9 +170,11 @@ function setDescription(item) {
                             <h4>Description</h4>
                         </span>
                         <div class="divider"></div>
-                        <span id="des" class="flow-text">${item.title}, ${item.description}</span>
+                        <span id="des" class="flow-text">${item.title}, ${
+    item.description
+  }</span>
                     </div>`;
-  $("#des").html(htmldes);
+  $('#des').html(htmldes);
 }
 
 function setStandards(item) {
@@ -136,37 +184,74 @@ function setStandards(item) {
                             <h4>Standards</h4>
                         </span>
                         <div class="divider"></div>
-                        <div id="specli"><ul class="flow-text">${specs.map(spec => `<li><small><b>${spec.title}: </b>${spec.content}</small></li>`).join('')}</ul></div>
+                        <div id="specli"><ul class="flow-text">${specs
+                          .map(
+                            spec =>
+                              `<li><small><b>${spec.title}: </b>${
+                                spec.content
+                              }</small></li>`
+                          )
+                          .join('')}</ul></div>
             <div id="options">${setOptions(item.options)}</div>
             <div id="restrictions">${setRestrictions(item.restrictions)}</div>
                     </div>`;
-  $("#specs").html(htmlspecs);
+  $('#specs').html(htmlspecs);
 }
 
 function setOptions(options) {
+  if (options === undefined) return '';
   let htmloptions = `<span class="card-title">
                             <h4>Options</h4>
                         </span>
                         <div class="divider"></div>
-                        <div id="specli"><ul class="flow-text">${options.map(option => `<li><small><b>${option.title}: </b>${option.content}</small>${option.action ? actionButton(option): ''}</li>`).join('')}</ul></div>`;
+                        <div id="specli"><ul class="flow-text">${options
+                          .map(
+                            option =>
+                              `<li><small><b>${option.title}: </b>${
+                                option.content
+                              }</small>${
+                                option.action ? actionButton(option) : ''
+                              }</li>`
+                          )
+                          .join('')}</ul></div>`;
   return htmloptions;
 }
 
 function setCodes(item) {
-  let htmlcodes = `<div class="card-panel grey lighten-3">
+  let htmlcodes = ``;
+  switch (item.table.template) {
+    case 'two':
+      htmlcodes = tableTwo(item.table);
+      break;
+    default:
+      htmlcodes = `<div class="card-panel grey lighten-3">
                         <table class="bordered striped highlight">
-                        <theader><tr>${item.table.header.map(th => `<th>${th}</th>`).join('')}</tr></theader>
-                        <tbody>${item.table.content.map(row => `<tr><td>${row.de}</td><td><ul><li><span  class="ordercode" cart=''>${row.code}</span></li></ul></td><td>${row.description}</td></tr>`).join('')}</tbody>
+                        <theader><tr>${item.table.header
+                          .map(th => `<th>${th}</th>`)
+                          .join('')}</tr></theader>
+                        <tbody>${item.table.content
+                          .map(
+                            row =>
+                              `<tr><td>${
+                                row.de
+                              }</td><td><ul><li><span  class="ordercode" cart=''>${
+                                row.code
+                              }</span></li></ul></td><td>${
+                                row.description
+                              }</td></tr>`
+                          )
+                          .join('')}</tbody>
                         </table>
                     </div>`;
-  $("#codes").html(htmlcodes);
+  }
+  $('#codes').html(htmlcodes);
   var currentDiv = null;
   $(document).ready(function () {
     if (parent.shopcart) {
-      $("[cart='']").css("cursor", "pointer")
-      $("[cart='']").attr("title", "Click to add this item to your job.")
+      $("[cart='']").css('cursor', 'pointer');
+      $("[cart='']").attr('title', 'Click to add this item to your job.');
       addtocartcontextmenu();
-      $("#Search").hide();
+      $('#Search').hide();
       $('[href="http://www.nickelscabinets.com/"]').hide();
     }
   });
@@ -181,30 +266,75 @@ function setCodes(item) {
         //    $(this).find('ul').hide();
         switch (action) {
           case 'add':
-            parent.addtocart(el)
-            break
+            parent.addtocart(el);
+            break;
           case 'edit':
-
-            break
+            break;
 
           default:
-            alert('Feature currently unavailable.')
+            alert('Feature currently unavailable.');
         }
-      });
+      }
+    );
 
     // This is the left click function
     $("[cart='']").click(function () {
-      if (confirm("Do you want to add this item to your order?")) {
+      if (confirm('Do you want to add this item to your order?')) {
         parent.addtocart(this);
       }
     });
   }
 }
 
+function tableTwo(table) {
+  const tableTwo = `<div class="card-panel grey lighten-3">
+  <table class="bordered striped highlight">
+  <theader><tr>${table.header
+    .map(th => `<th>${th}</th>`)
+    .join('')}</tr></theader>
+  <tbody>${table.content
+    .map(
+      row =>
+        `<tr>
+          <td>${row.code}</td>
+          <td>${row.heights} (Inch)</td>
+          <td>${row.lengths} (feet)</td>
+          <td>
+          <a class='dropdown-button btn' href='#' data-activates='dropdownordercodes${
+            row.code
+          }'>OrderCodes</a>
+          <ul id='dropdownordercodes${row.code}' class='dropdown-content'>
+            ${row.heights
+              .map(height =>
+                row.lengths
+                  .map(
+                    length =>
+                      `<li><span class="ordercode" cart=''>${row.code +
+                        height}-${length}</span><small>${height}" high - ${length}' long</small></li>`
+                  )
+                  .join('')
+              )
+              .join('')}
+          </ul></td>
+          <td>${row.description}</td>
+        </tr>`
+    )
+    .join('')}</tbody>
+  </table>
+</div>`;
+
+  $('.dropdown-button').dropdown({
+    hover: true
+  });
+  return tableTwo;
+}
+
 function actionButton(option) {
   edges = option.edges;
 
-  const htmlbutton = `<button data-target="modaledges" class="btn modal-trigger" (onclick)="openModal('modaledges')">${option.action}</button>`;
+  const htmlbutton = `<button data-target="modaledges" class="btn modal-trigger" (onclick)="openModal('modaledges')">${
+    option.action
+  }</button>`;
   getEdges(edges);
   return htmlbutton;
 }
@@ -218,22 +348,33 @@ function closeModal(id) {
 }
 
 function setRestrictions(res) {
+  if (res === undefined) return '';
   let htmlrestictions = `<span class="card-title">
                             <h4>Restrictions</h4>
                         </span>
                         <div class="divider"></div>
-                        <div id="specli"><ul class="flow-text">${res.map(r => `<li><small><i  class="material-icons">notifications</i> - ${r}</small></li>`).join('')}</ul></div>`;
+                        <div id="specli"><ul class="flow-text">${res
+                          .map(
+                            r =>
+                              `<li><small><i  class="material-icons">notifications</i> - ${r}</small></li>`
+                          )
+                          .join('')}</ul></div>`;
   return htmlrestictions;
 }
 
 function setNotes(notes) {
-  let htmlnotes = notes.map(note => `<div class="card orange lighten-4">
+  if (notes === undefined) return '';
+  let htmlnotes = notes
+    .map(
+      note => `<div class="card orange lighten-4">
                             <p class="note flow-text">
                                 <i class="material-icons">announcement</i>
                                 <b>${note.title},</b> ${note.content}
                             </p>
-                        </div>`).join('');
-  $("#notes").html(htmlnotes);
+                        </div>`
+    )
+    .join('');
+  $('#notes').html(htmlnotes);
 }
 
 function isString(value) {
@@ -241,8 +382,12 @@ function isString(value) {
 }
 
 function setGI(data) {
-  const cat = isString(data) ? `<h1 id="topic">${data}</h1>` : `<h1 id="topic">${data.sub}</h1><h5>${data.title}</h5><div id="actions"></div>`;
-  $("#topic").html(cat);
+  const cat = isString(data) ?
+    `<h1 id="topic">${data}</h1>` :
+    `<h1 id="topic">${data.sub}</h1><h5>${
+        data.title
+      }</h5><div id="actions"></div>`;
+  $('#topic').html(cat);
 }
 
 function getTags(tags) {
@@ -251,16 +396,24 @@ function getTags(tags) {
   return keys;
 }
 
-
-
 function getEdges() {
   fetch(`../json/edges.json`)
     .then(response => response.json())
     .then(data => {
       const shownEdges = new Array();
-      data.forEach(edge => edges.includes(edge.title) ? shownEdges.push(edge) : '');
-      const html = `${shownEdges.map(e => `<div class="card padding"> <img class="responsive-img" src="${e.image}"><h5>${e.title} ${e.description ? `(${e.description})`: ''}</h5><span>Length: ${e.size.inch}"</span></div>`              
-        ).join('')}`;
+      data.forEach(
+        edge => (edges.includes(edge.title) ? shownEdges.push(edge) : '')
+      );
+      const html = `${shownEdges
+        .map(
+          e =>
+            `<div class="card padding"> <img class="responsive-img" src="${
+              e.image
+            }"><h5>${e.title} ${
+              e.description ? `(${e.description})` : ''
+            }</h5><span>Length: ${e.size.inch}"</span></div>`
+        )
+        .join('')}`;
       const modaledges = `<!-- Modal Structure -->
       <div id="modaledges" class="modal">
         <div class="modal-content">
@@ -269,7 +422,7 @@ function getEdges() {
           <div id="edges" class="row grid">${html}</div>
         </div>
       </div>`;
-      $("#modals").html(modaledges);
+      $('#modals').html(modaledges);
       initMaterializeJS();
     })
     .catch(err => console.log(err));
