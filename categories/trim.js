@@ -78,6 +78,11 @@ function structure(params) {
 }
 
 function mainCatView(data) {
+  data.sort(function (a, b) {
+    if (a.title.toLowerCase() < b.title.toLowerCase()) return -1;
+    if (a.title.toLowerCase() > b.title.toLowerCase()) return 1;
+    return 0;
+  });
   const b = document.getElementById('catalog');
   b.setAttribute('class', 'grid');
   const html = `${data
@@ -123,7 +128,7 @@ function setImages(item) {
       image = imageCard(item);
       break;
     default:
-      image = `<div class="card">
+      image = `<div class="card" style="overflow: hidden; max-height: 100%;">
                             <div class="padding">
                                 <img class="responsive-img materialboxed" src="${
                                   item.image
@@ -136,21 +141,26 @@ function setImages(item) {
                         </div>`;
   }
   $('#images').html(image);
+  $(document).ready(function () {
+    $('.materialboxed').materialbox();
+  })
 }
 
 function imageCard(item) {
-  let card = `<div class="col s4"><div class="card small"><div class="padding">
+  let card = `<div class="col s4"><div class="card small" style="overflow: hidden; max-height: 100%;"><div class="padding">
       <img class="responsive-img materialboxed" src="${item.image}" alt="${item.imageTitle}">
       <span class="card-title black-text"><b>${item.imageTitle}</b></span>
   </div></div></div>`;
-  card = card + `<div class="col s4"><div class="card small"><div class="padding">
+  card = card + `<div class="col s4"><div class="card small" style="overflow: hidden; max-height: 100%;"><div class="padding">
       <img class="responsive-img materialboxed" src="${item.specImage}" alt="${item.specImageTitle}">
       <span class="card-title black-text"><b>${item.specImageTitle}</b></span>
   </div></div></div>`;
-  card = card + `<div class="col s4"><div class="card small"><div class="padding">
+  if (item.specImage2) {
+    card = card + `<div class="col s4"><div class="card small" style="overflow: hidden; max-height: 100%;"><div class="padding">
       <img class="responsive-img materialboxed" src="${item.specImage2}" alt="${item.specImageTitle2}">
       <span class="card-title black-text"><b>${item.specImageTitle2}</b></span>
   </div></div></div>`;
+  }
   return card;
 }
 
@@ -220,6 +230,9 @@ function setOptions(options) {
 function setCodes(item) {
   let htmlcodes = ``;
   switch (item.table.template) {
+    case 'three':
+      htmlcodes = tableThree(item.table);
+      break;
     case 'two':
       htmlcodes = tableTwo(item.table);
       break;
@@ -245,6 +258,10 @@ function setCodes(item) {
                     </div>`;
   }
   $('#codes').html(htmlcodes);
+
+  $('.dropdown-button').dropdown({
+    hover: true
+  });
   var currentDiv = null;
   $(document).ready(function () {
     if (parent.shopcart) {
@@ -322,10 +339,40 @@ function tableTwo(table) {
     .join('')}</tbody>
   </table>
 </div>`;
+  return tableTwo;
+}
 
-  $('.dropdown-button').dropdown({
-    hover: true
-  });
+function tableThree(table) {
+  const tableTwo = `<div class="card-panel grey lighten-3">
+  <table class="bordered striped highlight">
+  <theader><tr>${table.header
+    .map(th => `<th>${th}</th>`)
+    .join('')}</tr></theader>
+  <tbody>${table.content
+    .map(
+      row =>
+        `<tr>
+          <td>${row.lengths}' (Feet)</td>
+          <td>${row.return ? 'Yes' : 'No'}</td>
+          <td>${row.de ? 'Yes' : 'No'}</td>
+          <td>
+          <a class='dropdown-button btn' href='#' data-activates='dropdownordercodes${
+            row.code
+          }'>OrderCodes</a>
+          <ul id='dropdownordercodes${row.code}' class='dropdown-content'>
+                ${row.lengths
+                  .map(
+                    length =>
+                      `<li><span class="ordercode" cart=''>${row.code}-${length}</span><small>${length}' long</small></li>`
+                  )
+                  .join('')}
+          </ul></td>
+          <td>${row.description}</td>
+        </tr>`
+    )
+    .join('')}</tbody>
+  </table>
+</div>`;
   return tableTwo;
 }
 

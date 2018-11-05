@@ -90,7 +90,7 @@
       "specImage": "https://www.webquoin.com/Catalog/build/assets/trimsNmoldings/am%20spec%20finishes.JPG",
       "imageTitle": "Applied Molding",
       "specImageTitle": "Cross section",
-      "tags": ["MA", "DE", "Molding"],
+      "tags": ["AM", "DE", "Molding"],
       "link": "trim.html?cat=Trims%20Moldings&item=AM",
       "lengths": [4, 8, 10],
       "description": "The Proud Valance is typically used over sinks to bridge between wall cabinets, or set inside an open cabinet.",
@@ -213,7 +213,7 @@
           },
           {
             "lengths": [4, 8],
-            "heights": [4, 5, 6, 7],
+            "heights": [4, 5, 6],
             "code": "TKSW",
             "description": "3/4\" thick solid wood material"
           }
@@ -283,13 +283,901 @@
       "imageTitle": "Proud Kick 1",
       "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/spec%20pk1.PNG",
       "specImageTitle": "Cross section",
-      "tags": ["PK1", "Composite core"],
+      "tags": ["PK1", "DE", "7/8\"", "3/4\"", "Return"],
       "link": "trim.html?cat=Trims%20Moldings&item=PK1",
       "lengths": [8],
-      "description": "3/4\" thick material.",
+      "description": "3/4\" thick material or 7/8\" Solid wood with optional return and detailed edge",
+      "standards": [{
+          "title": "Construction",
+          "content": "Available in a 3/4\" veneer/composite core with a taped edge in all materials."
+        },
+        {
+          "title": "DE Construction",
+          "content": "7/8\" Solid wood."
+        }
+      ],
+      "options": [{
+          "title": "DE edges",
+          "content": "A detailed edge is applied to the front bottom edge.",
+          "action": "Edges",
+          "edges": ["BV3", "BV5", "CV6", "OV", "RD3", "RD6", "SC", "SQ"]
+        },
+        {
+          "title": "Return",
+          "content": "Add a return."
+        }
+      ],
+      "restrictions": [
+        "All returns for moldings are made of composite core material, regardless of whether or not the molding to which it is attached is made of solid or composite material.",
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.",
+        "10' excludes, Engineered Melamine and QS White Oak, limitations of the material."
+      ],
+      "notes": [{
+          "title": "Moldings",
+          "content": "While moldings are often shown as available in 4', 8', or 10' lengths, Nickels is unable to stock moldings in specific lengths. We will supply moldings based on the total order quantity."
+        },
+        {
+          "title": "Order consisting",
+          "content": "When an order consisting of 10' lengths is placed, we will send a minimum of one 10' length and the rest of the order will consist of minimum 8' lengths with 1 extra piece to complete the total footage required in the order. When more than one 10' length is required, the quantity must be noted on the order and we will meet the request"
+        },
+        {
+          "title": "Defects",
+          "content": "When a defective piece of molding is sent, an additional piece will be sent to compensate for the defective length lost, plus 1'."
+        }
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+            "code": "PK1",
+            "lengths": [4, 8, 10],
+            "de": false,
+            "return": false,
+            "description": "Proud kick 3/4\" veneer composite core"
+          },
+          {
+            "code": "PK1R",
+            "lengths": [4, 8, 10],
+            "de": false,
+            "return": true,
+            "description": "Proud kick 3/4\" veneer composite core with return"
+          },
+          {
+            "code": "PK1-DE",
+            "lengths": [4, 8, 10],
+            "de": true,
+            "return": false,
+            "description": "Proud kick 7/8\" Solid wood with detailed edge"
+          },
+          {
+            "code": "PK1R-DE",
+            "lengths": [4, 8, 10],
+            "de": true,
+            "return": true,
+            "description": "Proud kick 7/8\" Solid wood with detailed edge and a return"
+          }
+        ]
+      }
+    },
+    {
+      "code": "PK2",
+      "title": "Proud Kick 2",
+      "sizeImage": "small",
+      "specImage2": "https://webquoin.com/catalog/images/ProudKick2.gif",
+      "specImageTitle2": "3D view of setup",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/pk2.jpg",
+      "imageTitle": "Proud Kick 2",
+      "specImage": "https://webquoin.com/catalog/images/proud-kick-moldings.gif",
+      "specImageTitle": "Cross section",
+      "tags": ["PK2", "5/8\"", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=PK2",
+      "lengths": [8],
+      "description": "5/8\" Solid wood with optional return",
+      "standards": [{
+          "title": "Construction",
+          "content": "5/8\" Solid wood."
+        },
+        {
+          "title": "Materials",
+          "content": "Alder, Black Walnut, Cherry, Fir, Maple and Painted."
+        }
+      ],
+      "options": [{
+        "title": "Return",
+        "content": "Add a return."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+            "code": "PK2",
+            "lengths": [4, 8, 10],
+            "de": false,
+            "return": false,
+            "description": "Proud kick #2 5/8\" Solid wood with routered design"
+          },
+          {
+            "code": "PK2R",
+            "lengths": [4, 8, 10],
+            "de": false,
+            "return": true,
+            "description": "Proud kick #2 5/8\" Solid wood with routered design and a return"
+          }
+        ]
+      }
+    },
+    {
+      "code": "PK3",
+      "title": "Proud Kick 3",
+      "sizeImage": "small",
+      "specImage2": "https://webquoin.com/catalog/images/ProudKick2.gif",
+      "specImageTitle2": "3D view of setup",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/pk2.jpg",
+      "imageTitle": "Proud Kick 3",
+      "specImage": "https://webquoin.com/catalog/images/proud-kick-moldings.gif",
+      "specImageTitle": "Cross section",
+      "tags": ["PK3", "5/8\"", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=PK3",
+      "lengths": [8],
+      "description": "5/8\" Solid wood with optional return",
+      "standards": [{
+          "title": "Construction",
+          "content": "5/8\" Solid wood."
+        },
+        {
+          "title": "Materials",
+          "content": "Alder, Black Walnut, Cherry, Fir, Maple and Painted."
+        }
+      ],
+      "options": [{
+        "title": "Return",
+        "content": "Add a return."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+            "code": "PK3",
+            "lengths": [4, 8, 10],
+            "de": false,
+            "return": false,
+            "description": "Proud kick #3 5/8\" Solid wood with routered design"
+          },
+          {
+            "code": "PK3R",
+            "lengths": [4, 8, 10],
+            "de": false,
+            "return": true,
+            "description": "Proud kick #3 5/8\" Solid wood with routered design and a return"
+          }
+        ]
+      }
+    },
+    {
+      "code": "CM1R",
+      "title": "Crown Molding 01",
+      "sizeImage": "small",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM1.jpg",
+      "imageTitle": "Crown Molding 1",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CMR1.gif",
+      "specImageTitle": "Cross section",
+      "tags": ["CM1R", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=CM1R",
+      "lengths": [8],
+      "description": "Crown Molding Solid wood with routered design and a return",
       "standards": [{
         "title": "Construction",
-        "content": "Available in a 3/4\" veneer/composite core with a taped edge in all materials."
+        "content": "The sketch shows the standard setup used when installed at the top of a cabinet."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.",
+        "Not available in Engineered and Melamine."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+          "code": "CM1R",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": true,
+          "description": "Crown Molding Solid wood with routered design and a return"
+        }]
+      }
+    },
+    {
+      "code": "CM2",
+      "title": "Crown Molding 02",
+      "sizeImage": "small",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CMR2.jpg",
+      "imageTitle": "Crown Molding 2",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CMR2.gif",
+      "specImageTitle": "Cross section",
+      "tags": ["CM2", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=CM2",
+      "lengths": [8],
+      "description": "Crown Molding #2 Solid wood with routered design and a optional return",
+      "standards": [{
+        "title": "Construction",
+        "content": "The sketch shows the standard setup used when installed at the top of a cabinet."
+      }],
+      "options": [{
+        "title": "Return",
+        "content": "Add a return."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.",
+        "Not available in Engineered and Melamine."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+          "code": "CM2",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": false,
+          "description": "Crown Molding #2 Solid wood with routered design"
+        }, {
+          "code": "CM2R",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": true,
+          "description": "Crown Molding #2 Solid wood with routered design and a return"
+        }]
+      }
+    },
+    {
+      "code": "CM4",
+      "title": "Crown Molding 04",
+      "sizeImage": "small",
+      "specImage2": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM4R-01-01.png",
+      "specImageTitle2": "view of setup",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CMR4.jpg",
+      "imageTitle": "Crown Molding 4",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM4.gif",
+      "specImageTitle": "Cross section",
+      "tags": ["CM4", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=CM4",
+      "lengths": [8],
+      "description": "Crown Molding #4 Solid wood with routered design and a optional return",
+      "standards": [{
+        "title": "Construction",
+        "content": "The sketch shows the standard setup used when installed at the top of a cabinet."
+      }],
+      "options": [{
+        "title": "Return",
+        "content": "Add a return."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.",
+        "Not available in Engineered and Melamine."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+          "code": "CM4",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": false,
+          "description": "Crown Molding #4 Solid wood with routered design"
+        }, {
+          "code": "CM4R",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": true,
+          "description": "Crown Molding #4 Solid wood with routered design and a return"
+        }]
+      }
+    },
+    {
+      "code": "CM5",
+      "title": "Crown Molding 05",
+      "sizeImage": "small",
+      "specImage2": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CMR5.gif",
+      "specImageTitle2": "view of setup",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM5.jpg",
+      "imageTitle": "Crown Molding 5",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM5.gif",
+      "specImageTitle": "Cross section",
+      "tags": ["CM5", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=CM5",
+      "lengths": [8],
+      "description": "Crown Molding #5 Solid wood with routered design and a optional return",
+      "standards": [{
+        "title": "Construction",
+        "content": "The sketch shows the standard setup used when installed at the top of a cabinet."
+      }],
+      "options": [{
+        "title": "Return",
+        "content": "Add a return."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.",
+        "Not available in Engineered and Melamine."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+          "code": "CM5",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": false,
+          "description": "Crown Molding #5 Solid wood with routered design"
+        }, {
+          "code": "CM5R",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": true,
+          "description": "Crown Molding #5 Solid wood with routered design and a return"
+        }]
+      }
+    },
+    {
+      "code": "CM6",
+      "title": "Crown Molding 06",
+      "sizeImage": "small",
+      "specImage2": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM6-01-01-01.png",
+      "specImageTitle2": "view of setup",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM6.jpg",
+      "imageTitle": "Crown Molding 6",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM6.png",
+      "specImageTitle": "Cross section",
+      "tags": ["CM6", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=CM6",
+      "lengths": [8],
+      "description": "Crown Molding #6 Solid wood with routered design and a optional return",
+      "standards": [{
+        "title": "Construction",
+        "content": "The sketch shows the standard setup used when installed at the top of a cabinet."
+      }],
+      "options": [{
+        "title": "Return",
+        "content": "Add a return."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.",
+        "Not available in Engineered and Melamine."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+          "code": "CM6",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": false,
+          "description": "Crown Molding #6 Solid wood with routered design"
+        }, {
+          "code": "CM6R",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": true,
+          "description": "Crown Molding #6 Solid wood with routered design and a return"
+        }]
+      }
+    },
+    {
+      "code": "CM7",
+      "title": "Crown Molding 07",
+      "sizeImage": "small",
+      "specImage2": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CMR7.gif",
+      "specImageTitle2": "view of setup",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CMR7.jpg",
+      "imageTitle": "Crown Molding 7",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM7.jpg",
+      "specImageTitle": "Cross section",
+      "tags": ["CM7", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=CM7",
+      "lengths": [8],
+      "description": "Crown Molding #7 Solid wood with routered design and a return",
+      "standards": [{
+        "title": "Construction",
+        "content": "The sketch shows the standard setup used when installed at the top of a cabinet."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.",
+        "Not available in Engineered and Melamine."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+          "code": "CM7R",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": true,
+          "description": "Crown Molding #7 Solid wood with routered design and a return"
+        }]
+      }
+    },
+    {
+      "code": "CM8",
+      "title": "Crown Molding 08",
+      "sizeImage": "small",
+      "specImage2": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CMR8.png",
+      "specImageTitle2": "view of setup",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM8.jpg",
+      "imageTitle": "Crown Molding 8",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM8.gif",
+      "specImageTitle": "Cross section",
+      "tags": ["CM8", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=CM8",
+      "lengths": [8],
+      "description": "Crown Molding #8 Solid wood with routered design and a return",
+      "standards": [{
+        "title": "Construction",
+        "content": "The sketch shows the standard setup used when installed at the top of a cabinet."
+      }],
+      "options": [{
+        "title": "Return",
+        "content": "Add a return."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.",
+        "Not available in Engineered and Melamine."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+          "code": "CM8",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": false,
+          "description": "Crown Molding #8 Solid wood with routered design"
+        }, {
+          "code": "CM8R",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": true,
+          "description": "Crown Molding #8 Solid wood with routered design and a return"
+        }]
+      }
+    },
+    {
+      "code": "CM10",
+      "title": "Crown Molding 10",
+      "sizeImage": "small",
+      "specImage2": "https://webquoin.com/catalog/images/GIFs/Custom/Moldings%20and%20Trims/CM10R.gif",
+      "specImageTitle2": "view of setup",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CR10.jpg",
+      "imageTitle": "Crown Molding 10",
+      "specImage": "https://webquoin.com/catalog/images/GIFs/Custom/Moldings%20and%20Trims/CM10.gif",
+      "specImageTitle": "Cross section",
+      "tags": ["CM10", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=CM10",
+      "lengths": [8],
+      "description": "Crown Molding #10 Solid wood with routered design and a return",
+      "standards": [{
+        "title": "Construction",
+        "content": "The sketch shows the standard setup used when installed at the top of a cabinet."
+      }],
+      "options": [{
+        "title": "Return",
+        "content": "Add a return."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.",
+        "Not available in Engineered and Melamine."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+          "code": "CM10",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": false,
+          "description": "Crown Molding #10 Solid wood with routered design"
+        }, {
+          "code": "CM10R",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": true,
+          "description": "Crown Molding #10 Solid wood with routered design and a return"
+        }]
+      }
+    },
+    {
+      "code": "CM11",
+      "title": "Crown Molding 11",
+      "sizeImage": "small",
+      "specImage2": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CMR11spec.png",
+      "specImageTitle2": "view of setup",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM11.png",
+      "imageTitle": "Crown Molding 11",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM11spec.png",
+      "specImageTitle": "Cross section",
+      "tags": ["CM11", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=CM11",
+      "lengths": [8],
+      "description": "Crown Molding #11 Solid wood with routered design and a return",
+      "standards": [{
+        "title": "Construction",
+        "content": "The sketch shows the standard setup used when installed at the top of a cabinet."
+      }],
+      "options": [{
+        "title": "Return",
+        "content": "Add a return."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.",
+        "Not available in Engineered and Melamine."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+          "code": "CM11",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": false,
+          "description": "Crown Molding #11 Solid wood with routered design"
+        }, {
+          "code": "CM11R",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": true,
+          "description": "Crown Molding #11 Solid wood with routered design and a return"
+        }]
+      }
+    },
+    {
+      "code": "CM12",
+      "title": "Crown Molding 12",
+      "sizeImage": "small",
+      "specImage2": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM12Rspec.png",
+      "specImageTitle2": "view of setup",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CMR12.jpg",
+      "imageTitle": "Crown Molding 12",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM12spec.png",
+      "specImageTitle": "Cross section",
+      "tags": ["CM12", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=CM12",
+      "lengths": [8],
+      "description": "Crown Molding #12 Solid wood with routered design and a return",
+      "standards": [{
+        "title": "Construction",
+        "content": "The sketch shows the standard setup used when installed at the top of a cabinet."
+      }],
+      "options": [{
+        "title": "Return",
+        "content": "Add a return."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.",
+        "Not available in Engineered and Melamine."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+          "code": "CM12",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": false,
+          "description": "Crown Molding #12 Solid wood with routered design"
+        }, {
+          "code": "CM12R",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": true,
+          "description": "Crown Molding #12 Solid wood with routered design and a return"
+        }]
+      }
+    },
+    {
+      "code": "CM14",
+      "title": "Crown Molding 14",
+      "sizeImage": "small",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM14.jpg",
+      "imageTitle": "Crown Molding 14",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM14spec.png",
+      "specImageTitle": "Cross section",
+      "tags": ["CM14", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=CM14",
+      "lengths": [8],
+      "description": "Crown Molding #14 Solid wood with routered design",
+      "standards": [{
+        "title": "Construction",
+        "content": "The sketch shows the standard setup used when installed at the top of a cabinet."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.",
+        "Not available in Fir, Engineered, QS White Oak and Melamine",
+        "Due to the height of this molding, the attached return option for CM14 will not be available. If a return is needed, it must be ordered as a seperate piece and attached onsite by an installer."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+          "code": "CM14",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": false,
+          "description": "Crown Molding #14 Solid wood with routered design"
+        }]
+      }
+    },
+    {
+      "code": "CM15",
+      "title": "Crown Molding 15",
+      "sizeImage": "small",
+      "specImage2": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CMR15.gif",
+      "specImageTitle2": "view of setup",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CMR15.jpg",
+      "imageTitle": "Crown Molding 15",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM15.gif",
+      "specImageTitle": "Cross section",
+      "tags": ["CM15", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=CM15",
+      "lengths": [8],
+      "description": "Crown Molding #15 Solid wood with routered design and a return",
+      "standards": [{
+        "title": "Construction",
+        "content": "The sketch shows the standard setup used when installed at the top of a cabinet."
+      }, {
+        "title": "Materials",
+        "content": "Only available in Alder, Cherry, Maple, and Painted"
+      }],
+      "options": [{
+        "title": "Return",
+        "content": "Add a return."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+          "code": "CM15",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": false,
+          "description": "Crown Molding #15 Solid wood with routered design"
+        }, {
+          "code": "CM15R",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": true,
+          "description": "Crown Molding #15 Solid wood with routered design and a return"
+        }]
+      }
+    },
+    {
+      "code": "CM16",
+      "title": "Crown Molding 16",
+      "sizeImage": "small",
+      "specImage2": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM16Rspec.png",
+      "specImageTitle2": "view of setup with return",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM16.jpg",
+      "imageTitle": "Crown Molding 16",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM16spec.png",
+      "specImageTitle": "Cross section",
+      "tags": ["CM16", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=CM16",
+      "lengths": [8],
+      "description": "Crown Molding #16 Solid wood with routered design and a optional return",
+      "standards": [{
+        "title": "Construction",
+        "content": "The sketch shows the standard setup used when installed at the top of a cabinet."
+      }, {
+        "title": "Materials",
+        "content": "Only available in Alder, Black Walnut, Cherry, Fir, Maple, and Painted"
+      }],
+      "options": [{
+        "title": "Return",
+        "content": "Add a return."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+          "code": "CM16",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": false,
+          "description": "Crown Molding #16 Solid wood with routered design"
+        }, {
+          "code": "CM16R",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": true,
+          "description": "Crown Molding #16 Solid wood with routered design and a return"
+        }]
+      }
+    },
+    {
+      "code": "CM17",
+      "title": "Crown Molding 17",
+      "sizeImage": "small",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM17.jpg",
+      "imageTitle": "Crown Molding 17",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM16spec.png",
+      "specImageTitle": "Cross section",
+      "tags": ["CM17"],
+      "link": "trim.html?cat=Trims%20Moldings&item=CM17",
+      "lengths": [8],
+      "description": "Crown Molding #17 Solid wood with routered design",
+      "standards": [{
+        "title": "Construction",
+        "content": "The sketch shows the standard setup used when installed at the top of a cabinet."
+      }, {
+        "title": "Materials",
+        "content": "Only available in Alder, Cherry, Maple, QS White Oak, and Painted"
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.",
+        "Due to the height of this molding, the attached return option for CM17 will not be available. If a return is needed, it must be ordered as a seperate piece and attached onsite by an installer."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+          "code": "CM17",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": false,
+          "description": "Crown Molding #17 Solid wood with routered design"
+        }]
+      }
+    },
+    {
+      "code": "CM18",
+      "title": "Crown Molding 18",
+      "sizeImage": "small",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CM18.jpg",
+      "imageTitle": "Crown Molding 18",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/CROWN MOLDING-01.jpg",
+      "specImageTitle": "Cross section",
+      "tags": ["CM18", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=CM18",
+      "lengths": [8],
+      "description": "Crown Molding #16 Solid wood with routered design and a optional return",
+      "standards": [{
+        "title": "Construction",
+        "content": "The sketch shows the standard setup used when installed at the top of a cabinet."
+      }, {
+        "title": "Materials",
+        "content": "Only available in Alder, Black Walnut, Cherry, Fir, Maple, PS, White Oak, and Painted"
+      }],
+      "options": [{
+        "title": "Return",
+        "content": "Add a return."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection."
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+          "code": "CM18",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": false,
+          "description": "Crown Molding #18 Solid wood with routered design"
+        }, {
+          "code": "CM18R",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": true,
+          "description": "Crown Molding #18 Solid wood with routered design and a return"
+        }]
+      }
+    },
+    {
+      "code": "HM",
+      "title": "Header Molding",
+      "sizeImage": "small",
+      "specImage2": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/HMR-DEspec.png",
+      "specImageTitle2": "(DE) view of setup with return",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/HM-sq.jpg",
+      "imageTitle": "Header Molding",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/HMRspec.png",
+      "specImageTitle": "view of setup with return",
+      "tags": ["HM", "DE", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=HM",
+      "lengths": [8],
+      "description": "Header Molding and a optional return and/or detailed edge",
+      "standards": [{
+        "title": "Construction",
+        "content": "The sketch shows the standard setup used when installed at the top of a cabinet."
+      }, {
+        "title": "Materials",
+        "content": "Available in all materials."
+      }, {
+        "title": "Height",
+        "content": "Specify height (max. 8\") when ordering."
+      }, {
+        "title": "Finish",
+        "content": "Finished on the front face and bottom edge."
+      }],
+      "options": [{
+        "title": "DE edges",
+        "content": "A detailed edge is applied to the front bottom edge.",
+        "action": "Edges",
+        "edges": ["BV3", "BV5", "CV6", "OV", "RD3", "RD6", "SC", "SQ"]
+      }, {
+        "title": "DE height",
+        "content": "Specify height (max. 6\") when ordering."
+      }, {
+        "title": "Return",
+        "content": "Add a return."
+      }, {
+        "title": "Nailing strip",
+        "content": "If nailing strips are required, they must be ordered separately."
+      }],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.",
+        "(DE) Not available in Engineered, Textured Melamine, Euro materials and Gloss"
+      ],
+      "table": {
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
+        "content": [{
+          "code": "HM",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": false,
+          "description": "Header Molding"
+        }, {
+          "code": "HMR",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": true,
+          "description": "Header Molding with return"
+        }, {
+          "code": "HM-DE",
+          "lengths": [4, 8, 10],
+          "de": true,
+          "return": false,
+          "description": "Header Molding Solid wood with detailed edge"
+        }, {
+          "code": "HMR-DE",
+          "lengths": [4, 8, 10],
+          "de": true,
+          "return": true,
+          "description": "Header Molding Solid wood with detailed edge and a return"
+        }]
+      }
+    },
+    {
+      "code": "SV",
+      "title": "Straight Valance",
+      "sizeImage": "small",
+      "specImage2": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/SVR-DEspec.png",
+      "specImageTitle2": "(DE) view of setup with return",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/proudKick.jpg",
+      "imageTitle": "Straight Valance",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/SVspec.png",
+      "specImageTitle": "view of setup no return/detailed edge",
+      "tags": ["SV", "DE", "Return"],
+      "link": "trim.html?cat=Trims%20Moldings&item=SV",
+      "lengths": [8],
+      "description": "Straight Valance and a optional return and/or detailed edge. The Straight Valance is typically used over sinks to bridge between wall cabinets, or set inside an open cabinet.",
+      "standards": [{
+        "title": "Construction",
+        "content": "Available in composite core or solid material."
+      }, {
+        "title": "Height",
+        "content": "Specify height (max. 8\") when ordering."
+      }, {
+        "title": "Finish",
+        "content": "All faces and bottom edge are finished except for valance ends."
       }],
       "options": [{
         "title": "DE edges",
@@ -301,41 +1189,37 @@
         "content": "Add a return."
       }],
       "restrictions": [
-        "All returns for moldings are made of composite core material, regardless of whether or not the molding to which it is attached is made of solid or composite material.",
-        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection."
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.",
+        "(DE) Detailed Edge only available in Solid WOOD and Painted MDF."
       ],
-      "notes": [{
-        "title": "Moldings",
-        "content": "While moldings are often shown as available in 4', 8', or 10' lengths, Nickels is unable to stock moldings in specific lengths. We will supply moldings based on the total order quantity."
-      }, {
-        "title": "Order consisting",
-        "content": "When an order consisting of 10' lengths is placed, we will send a minimum of one 10' length and the rest of the order will consist of minimum 8' lengths with 1 extra piece to complete the total footage required in the order. When more than one 10' length is required, the quantity must be noted on the order and we will meet the request"
-      }, {
-        "title": "Defects",
-        "content": "When a defective piece of molding is sent, an additional piece will be sent to compensate for the defective length lost, plus 1'."
-      }],
       "table": {
-        "template": "two",
-        "header": ["Code", "Return", "Lengths", "Order Code", "Description"],
+        "template": "three",
+        "header": ["Lengths", "Return", "DE", "Order Code", "Description"],
         "content": [{
-            "code": "PK1",
-            "lengths": ["DE"],
-            "heights": [4, 5, 6, 7],
-            "description": "Composite Core"
-          },
-          {
-            "lengths": [8],
-            "heights": [4, 5, 6, 7],
-            "code": "SBK-PLY",
-            "description": "Plywood"
-          },
-          {
-            "lengths": [8],
-            "heights": [4, 5, 6, 7],
-            "code": "SBK-VS",
-            "description": "Skin for Site-Built Kicks"
-          }
-        ]
+          "code": "SV",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": false,
+          "description": "Straight Valance"
+        }, {
+          "code": "SVR",
+          "lengths": [4, 8, 10],
+          "de": false,
+          "return": true,
+          "description": "Straight Valance with return"
+        }, {
+          "code": "SV-DE",
+          "lengths": [4, 8, 10],
+          "de": true,
+          "return": false,
+          "description": "Straight Valance Solid wood/Painted with detailed edge"
+        }, {
+          "code": "SVR-DE",
+          "lengths": [4, 8, 10],
+          "de": true,
+          "return": true,
+          "description": "Straight Valance Solid wood/Painted with detailed edge and a return"
+        }]
       }
     }
   ]
