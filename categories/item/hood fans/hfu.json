@@ -1,0 +1,142 @@
+{
+  "information": {
+    "title": "Hood Fan Units",
+    "subTitle": "",
+    "id": "hfu",
+    "code": "hfu"
+  },
+  "items": [{
+      "category": "accessories",
+      "sub": "Hood Fans",
+      "tags": ["Hoodfan"],
+      "code": "HFUA",
+      "title": "Hood fan unit: A",
+      "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20A%20preview.jpg",
+      "imageTitle": "",
+      "description": "",
+      "widths": [24, 30, 32, 36],
+      "heights": [18, 24, 30],
+      "depth": "12",
+      "specImage": "https://webquoin.com/Catalog/build/assets/hfu/Hfua3630.png",
+      "specImageTitle": "Specifcations for a HFUA3630",
+      "notes": [{
+        "title": "Installation",
+        "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
+      }],
+      "standards": [{
+        "title": "Materials",
+        "content": "Available in all materials including Painted application."
+      }]
+    }, {
+      "category": "accessories",
+      "sub": "Hood Fans",
+      "tags": ["Hoodfan"],
+      "code": "HFUB",
+      "title": "Hood fan unit: B",
+      "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20B%20preview.jpg",
+      "imageTitle": "",
+      "description": "",
+      "widths": [30, 32, 36],
+      "heights": [24, 30],
+      "depth": "22",
+      "specImage": "https://webquoin.com/Catalog/build/assets/hfu/HFUB3630.png",
+      "specImageTitle": "Specifcations for a HFUB3630",
+      "notes": [{
+        "title": "Installation",
+        "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
+      }],
+      "standards": [{
+        "title": "Materials",
+        "content": "Available in all woods and Painted application."
+      }, {
+        "title": "Finish",
+        "content": "The open bottom area where the fan mounts will be finished to match the cabinet exterior."
+      }]
+    }, {
+      "category": "accessories",
+      "sub": "Hood Fans",
+      "tags": ["Hoodfan"],
+      "code": "HFUC",
+      "title": "Hood fan unit: C",
+      "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20C%20preview.jpg",
+      "imageTitle": "",
+      "description": "",
+      "widths": [30, 32, 36],
+      "heights": [24, 30],
+      "depth": "21 1/2",
+      "specImage": "https://webquoin.com/Catalog/build/assets/hfu/HFUC3630.png",
+      "specImageTitle": "Specifcations for a HFUC3630",
+      "notes": [{
+        "title": "Installation",
+        "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
+      }],
+      "standards": [{
+        "title": "Materials",
+        "content": "Available in all woods and Painted application."
+      }, {
+        "title": "Doors",
+        "content": "The door on this unit will match the cabinet doors and is removable."
+      }, {
+        "title": "Finish",
+        "content": "The open bottom area where the fan mounts will be finished to match the cabinet exterior."
+      }]
+    }, {
+      "category": "accessories",
+      "sub": "Hood Fans",
+      "tags": ["Hoodfan"],
+      "code": "HFUD",
+      "title": "Hood fan unit: D",
+      "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20D%20preview.jpg",
+      "imageTitle": "",
+      "description": "",
+      "widths": [30, 32, 36],
+      "heights": [24, 30],
+      "depth": "22",
+      "specImage": "https://webquoin.com/Catalog/build/assets/hfu/HFUD3630.png",
+      "specImageTitle": "Specifcations for a HFUD3630",
+      "notes": [{
+        "title": "Installation",
+        "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
+      }],
+      "standards": [{
+        "title": "Materials",
+        "content": "Available in all woods and Painted application."
+      }, {
+        "title": "Doors",
+        "content": "The door on this unit will match the cabinet doors."
+      }, {
+        "title": "Finish",
+        "content": "The open bottom area where the fan mounts will be finished to match the cabinet exterior."
+      }]
+    }, {
+      "category": "accessories",
+      "sub": "Hood Fans",
+      "tags": ["Hoodfan"],
+      "code": "HFUE",
+      "title": "Hood fan unit: E",
+      "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20E%20preview.jpg",
+      "imageTitle": "",
+      "description": "",
+      "widths": [30, 32, 36],
+      "heights": [24, 30],
+      "depth": "21",
+      "specImage": "https://webquoin.com/Catalog/build/assets/hfu/HFUE3630.png",
+      "specImageTitle": "Specifcations for a HFUE3630",
+      "notes": [{
+        "title": "Installation",
+        "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
+      }],
+      "standards": [{
+        "title": "Materials",
+        "content": "Available in all woods and Painted application."
+      }, {
+        "title": "Doors",
+        "content": "The door on this unit will match the cabinet doors."
+      }, {
+        "title": "Finish",
+        "content": "The open bottom area where the fan mounts will be finished to match the cabinet exterior."
+      }]
+    }
+
+  ]
+}
