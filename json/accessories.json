@@ -1,14 +1,14 @@
 {
   "Accessories": [{
       "code": "LED",
-      "title": "LED : Led Lighting",
+      "title": "LED : Led Loox Lighting",
       "attached": [{
         "code": "NONE",
-        "title": "Led Lighting",
+        "title": "Led Loox Lighting",
         "link": "loox/index"
       }],
       "image": "https://webquoin.com/catalog/build/assets/loox/Loox%20strip%20led%20couche.jpg",
-      "tags": ["led", "kits", "spot", "strip", "parts", "shelf"]
+      "tags": ["led", "kits", "spot", "strip", "parts", "shelf", "loox"]
     },
     {
       "code": "RGB",

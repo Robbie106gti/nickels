@@ -1,10 +1,10 @@
 {
   "information": [{
-      "title": "kit for modular spot lights",
+      "title": "kit for modular Loox spot lights",
       "id": "spots",
       "description": "LED lights generate uniform, evenly distributed light and are ideal for mood lighting in all areas. These lights can be used in a variety of situations",
       "image": "https://webquoin.com/catalog/build/assets/loox/Loox sink round led.jpg",
-      "tags": ["spots", "kit", "round", "square", "modular"],
+      "tags": ["spots", "kit", "round", "square", "modular", "loox"],
       "kit": [
         "A LED Modular Spot",
         "A Trimpiece",
@@ -48,10 +48,10 @@
       ]
     },
     {
-      "title": "kit for strip lights",
+      "title": "kit for strip lights Loox",
       "id": "strips",
       "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FLoox%20LED%20-%20Aluminum%20Profiles%2F1537371613774_Loox-profile-image.PNG?alt=media&token=706ef262-931e-4bbb-a6da-d109cb7e8755",
-      "tags": ["strips", "kit", "profile"],
+      "tags": ["strips", "kit", "profile", "loox"],
       "icons": "icons.jpg",
       "specifications": ["4018", "4003"],
       "kit": [
@@ -123,7 +123,8 @@
         "replacements",
         "switches",
         "profile",
-        "power supplies"
+        "power supplies",
+        "loox"
       ],
       "description": "Parts for LED lighting",
       "attached": [{

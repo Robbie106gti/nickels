@@ -56,7 +56,7 @@ function getPage() {
           cat: "Loox",
           root: page,
           height: code,
-          title: "LED lighting",
+          title: "LED Loox lighting",
           item: {
             pre: false
           }
