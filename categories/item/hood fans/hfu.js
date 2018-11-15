@@ -67,15 +67,6 @@ function getPage() {
 
 function makeLayout() {
   let html = `
-<<<<<<< HEAD
-  <div class="col s12 m6">
-    <div id="des"></div>
-    <div id="spec"></div>	
-    <div id="notes"></div>		
-  </div>
-  <div id="images"></div>
-  <div id="codes" class="col s12 m6"></div>`;
-=======
   <div class="col s12 m8">
     <div id="des"></div>
     <div id="spec"></div>
@@ -84,7 +75,6 @@ function makeLayout() {
   </div>
   <div id="images" class="col s12 m4"></div>
   `;
->>>>>>> 0da6687a7cf39f524bdd2f9a448622ebfd65d3c2
   $("#catalog").html(html);
 }
 
@@ -125,18 +115,6 @@ function setSpecs(item) {
   $("#spec").html(spec);
 }
 
-<<<<<<< HEAD
-function setImages(item) {
-  let card = `<div class="col s3"><div class="card" style="overflow: hidden;"><div class="padding">
-      <img class="responsive-img materialboxed" src="${item.image}" alt="${item.imageTitle}">
-      <span class="card-title black-text"><b>${item.imageTitle}</b></span>
-  </div></div></div>`;
-  card = card + `<div class="col s3"><div class="card small" style="overflow: hidden;"><div class="padding">
-      <img class="responsive-img materialboxed" src="${item.specImage}" alt="${item.specImageTitle}">
-      <span class="card-title black-text"><b>${item.specImageTitle}</b></span>
-  </div></div></div>`;
-  $("#images").html(card);
-=======
 function setMainImage(info) {}
 
 function exampleImages(item) {
@@ -174,25 +152,16 @@ function setImages(item) {
     <img class="responsive-img materialboxed tooltipped" data-position="top" data-tooltip="click to enlarge ${item.imageTitle}" data-caption="${item.imageTitle}" src="${item.image}">
     ${exampleListImages(item)}</div>`;
   $("#images").html(main);
->>>>>>> 0da6687a7cf39f524bdd2f9a448622ebfd65d3c2
 }
 
 function setCodes(item) {
   const htmlcodes = `<div class="card-panel grey lighten-3">
   <table class="bordered striped highlight">
-<<<<<<< HEAD
-  <theader><tr><th>Codes</th><th>Width</th><th>Depth</th><th>Height</th><th>Description</th></tr></theader>
-  <tbody>
-  ${item.widths.map(width => {
-    return item.heights.map(height => `
-    <tr><td><span class="ordercode tooltipped" data-position="top" data-tooltip="add to order" onclick="addCodenow(${item.code+width+height})">${item.code+width+height}</span></td><td>${width}"</td><td>${item.depth}"</td><td>${height}"</td><td>${item.title} - (w) ${width}" x (d) ${item.depth}" x (h) ${height}"</td></tr>
-=======
   <theader><tr><th>Codes</th><th>Description (width - depth - height)</th><th>Recommended Hood fan</th></tr></theader>
   <tbody>
   ${item.widths.map(width => {
     return item.heights.map(height => `
     <tr><td><span class="ordercode tooltipped" data-position="top" data-tooltip="add to order" onclick="addCodenow(${item.code+width+height})">${item.code+width+height}</span></td><td>${item.title} - (w) ${width}" x (d) ${item.depth}" x (h) ${height}"</td><td>${item.versions[width].length? item.versions[width].map(hood => `<a href="${hood.link}">${hood.title}</a>`).join(" / ") :`<a href="${item.versions[width].link}">${item.versions[width].title}</a>`}</td></tr>
->>>>>>> 0da6687a7cf39f524bdd2f9a448622ebfd65d3c2
     `).join("")
   }).join("")}
   </tbody>
@@ -229,11 +198,15 @@ function cardWith(cat) {
   return card;
 }
 
-<<<<<<< HEAD
-// This is the left click function 2018 
-=======
-// This is the left click function 2018
->>>>>>> 0da6687a7cf39f524bdd2f9a448622ebfd65d3c2
+<<
+<< << < HEAD
+  // This is the left click function 2018 
+  ===
+  === =
+  // This is the left click function 2018
+  >>>
+  >>> > 0 da6687a7cf39f524bdd2f9a448622ebfd65d3c2
+
 function addCodenow(wcode) {
   if (confirm(`Do you want to add ${wcode} item to your order?`)) {
     wcode = `<span>${wcode}</span>`;
