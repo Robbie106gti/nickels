@@ -116,7 +116,7 @@
       "options": [
         {
           "title": "DE edges",
-          "content": "A detailed edge is applied to the front bottom edge.",
+          "content": "A detailed edge is applied to the front bottom edge and top edge.",
           "action": "Edges",
           "edges": ["BV3", "BV5", "CV6", "OV", "RD3", "RD6", "SC", "SQ"]
         },

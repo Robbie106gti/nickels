@@ -11,6 +11,7 @@
       "tags": ["Hoodfan"],
       "code": "HFUA",
       "title": "Hood fan unit: A",
+<<<<<<< HEAD
       "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20A%20preview.jpg",
       "imageTitle": "",
       "description": "",
@@ -19,6 +20,70 @@
       "depth": "12",
       "specImage": "https://webquoin.com/images/library/_5BX0L1L0P.png?dummy=uid40924929",
       "specImageTitle": "Specifcations for a HFUA3630",
+=======
+      "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20Hood%20A.jpg",
+      "imageTitle": "Painted HFU A",
+      "description": "",
+      "widths": [24, 30, 36],
+      "heights": [18, 24, 30],
+      "versions": {
+        "24": {
+          "title": "Perfekt Glide – 24",
+          "link": "http://www.aeg-appliances.ca/kitchen-appliances/range-hoods/perfekt-glide-24/"
+        },
+        "30": {
+          "title": "Perfekt Glide – 30",
+          "link": "http://www.aeg-appliances.ca/kitchen-appliances/range-hoods/perfekt-glide-30/"
+        },
+        "36": {
+          "title": "Perfekt Glide – 36",
+          "link": "http://www.aeg-appliances.ca/kitchen-appliances/range-hoods/perfekt-glide-36/"
+        }
+      },
+      "depth": "12",
+      "specImage": "https://webquoin.com/Catalog/build/assets/hfu/Hfua3630.png",
+      "specImageTitle": "Specifcations for a HFUA3630",
+      "images": [{
+          "title": "Painted Hood fan A",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20A%20preview.jpg"
+        }, {
+          "title": "Specifcations for a HFUA3630",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua3630.png"
+        },
+        {
+          "title": "Specifcations for a HFUA3624",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua3624.png"
+        },
+        {
+          "title": "Specifcations for a HFUA3618",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua3618.png"
+        },
+        {
+          "title": "Specifcations for a HFUA3030",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua3030.png"
+        },
+        {
+          "title": "Specifcations for a HFUA3024",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua3024.png"
+        },
+        {
+          "title": "Specifcations for a HFUA2418",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua2418.png"
+        },
+        {
+          "title": "Specifcations for a HFUA2430",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua2430.png"
+        },
+        {
+          "title": "Specifcations for a HFUA2424",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua2424.png"
+        },
+        {
+          "title": "Specifcations for a HFUA2418",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua2418.png"
+        }
+      ],
+>>>>>>> 0da6687a7cf39f524bdd2f9a448622ebfd65d3c2
       "notes": [{
         "title": "Installation",
         "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
@@ -33,14 +98,64 @@
       "tags": ["Hoodfan"],
       "code": "HFUB",
       "title": "Hood fan unit: B",
+<<<<<<< HEAD
       "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20B%20preview.jpg",
       "imageTitle": "",
+=======
+      "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20Hood%20B.jpg",
+      "imageTitle": "Hood fan unit: B - in raw Alder",
+>>>>>>> 0da6687a7cf39f524bdd2f9a448622ebfd65d3c2
       "description": "",
       "widths": [30, 32, 36],
       "heights": [24, 30],
       "depth": "22",
+<<<<<<< HEAD
       "specImage": "https://webquoin.com/images/library/_5AU0UNFRG.png?dummy=uid47633679",
       "specImageTitle": "Specifcations for a HFUB3630",
+=======
+      "versions": {
+        "30": {
+          "title": "Broan Elite EC62 - 30\"",
+          "link": "http://www.broan.ca/products/product/08f30442-dce3-441d-aa94-43aafb562ba2"
+        },
+        "32": {
+          "title": "Broan Elite EC62 - 30\"",
+          "link": "http://www.broan.ca/products/product/08f30442-dce3-441d-aa94-43aafb562ba2"
+        },
+        "36": {
+          "title": "Broan RMIP33 - 33\"",
+          "link": "http://www.broan.ca/products/product/245684b7-ca08-4a9f-b714-d4787154c0a0"
+        }
+      },
+      "images": [{
+          "title": "Painted Hood fan B",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20B%20preview.jpg"
+        }, {
+          "title": "Specifcations for a HFUB3630",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HFUB3630.png"
+        },
+        {
+          "title": "Specifcations for a HFUB3624",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuB3624.png"
+        },
+        {
+          "title": "Specifcations for a HFUB3230",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuB3230.png"
+        },
+        {
+          "title": "Specifcations for a HFUB3224",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuB3224.png"
+        },
+        {
+          "title": "Specifcations for a HFUB3030",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuB3030.png"
+        },
+        {
+          "title": "Specifcations for a HFUB3024",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuB3024.png"
+        }
+      ],
+>>>>>>> 0da6687a7cf39f524bdd2f9a448622ebfd65d3c2
       "notes": [{
         "title": "Installation",
         "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
@@ -58,14 +173,64 @@
       "tags": ["Hoodfan"],
       "code": "HFUC",
       "title": "Hood fan unit: C",
+<<<<<<< HEAD
       "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20C%20preview.jpg",
       "imageTitle": "",
+=======
+      "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20Hood%20C.jpg",
+      "imageTitle": "Hood fan unit: C - in raw Alder",
+>>>>>>> 0da6687a7cf39f524bdd2f9a448622ebfd65d3c2
       "description": "",
       "widths": [30, 32, 36],
       "heights": [24, 30],
       "depth": "21 1/2",
+<<<<<<< HEAD
       "specImage": "https://webquoin.com/images/library/_5BL0SN59Q.png?dummy=uid47610036",
       "specImageTitle": "Specifcations for a HFUC3630",
+=======
+      "versions": {
+        "30": {
+          "title": "Broan Elite EC62 - 30\"",
+          "link": "http://www.broan.ca/products/product/08f30442-dce3-441d-aa94-43aafb562ba2"
+        },
+        "32": {
+          "title": "Broan Elite EC62 - 30\"",
+          "link": "http://www.broan.ca/products/product/08f30442-dce3-441d-aa94-43aafb562ba2"
+        },
+        "36": {
+          "title": "Broan RMIP33 - 33\"",
+          "link": "http://www.broan.ca/products/product/245684b7-ca08-4a9f-b714-d4787154c0a0"
+        }
+      },
+      "images": [{
+          "title": "Painted Hood fan C",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20C%20preview.jpg"
+        }, {
+          "title": "Specifcations for a HFUC3630",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HFUC3630.png"
+        },
+        {
+          "title": "Specifcations for a HFUC3624",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuC3624.png"
+        },
+        {
+          "title": "Specifcations for a HFUC3230",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuC3230.png"
+        },
+        {
+          "title": "Specifcations for a HFUC3224",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuC3224.png"
+        },
+        {
+          "title": "Specifcations for a HFUC3030",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuC3030.png"
+        },
+        {
+          "title": "Specifcations for a HFUC3024",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuC3024.png"
+        }
+      ],
+>>>>>>> 0da6687a7cf39f524bdd2f9a448622ebfd65d3c2
       "notes": [{
         "title": "Installation",
         "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
@@ -86,14 +251,84 @@
       "tags": ["Hoodfan"],
       "code": "HFUD",
       "title": "Hood fan unit: D",
+<<<<<<< HEAD
       "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20D%20preview.jpg",
       "imageTitle": "",
+=======
+      "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU Hood D.jpg",
+      "imageTitle": "Hood fan unit: D - in raw Alder",
+>>>>>>> 0da6687a7cf39f524bdd2f9a448622ebfd65d3c2
       "description": "",
       "widths": [30, 32, 36],
       "heights": [24, 30],
       "depth": "22",
+<<<<<<< HEAD
       "specImage": "https://webquoin.com/images/library/_5BX0L5X4M.png?dummy=uid47432959",
       "specImageTitle": "Specifcations for a HFUD3630",
+=======
+      "specImage": "https://webquoin.com/Catalog/build/assets/hfu/HFUD3630.png",
+      "specImageTitle": "Specifcations for a HFUD3630",
+      "versions": {
+        "30": [{
+          "title": "Broan PM250 - 20 1/2\"",
+          "link": "http://www.broan.ca/products/product/791c6eac-ec64-45ae-9268-414adb1d8f9b"
+        }, {
+          "title": "Broan PM390 - 20 1/2\"",
+          "link": "http://www.broan.ca/products/product/99e28416-c640-43c7-99d3-75dd5ba00be9"
+        }, {
+          "title": "Faber INCA INSM28SS - 28\"",
+          "link": "https://www.faberonline.com/hoods/inca-smart-stainless/"
+        }],
+        "32": [{
+          "title": "Broan PM250 - 20 1/2\"",
+          "link": "http://www.broan.ca/products/product/791c6eac-ec64-45ae-9268-414adb1d8f9b"
+        }, {
+          "title": "Broan PM390 - 20 1/2\"",
+          "link": "http://www.broan.ca/products/product/99e28416-c640-43c7-99d3-75dd5ba00be9"
+        }, {
+          "title": "Faber INCA INSM28SS - 28\"",
+          "link": "https://www.faberonline.com/hoods/inca-smart-stainless/"
+        }],
+        "36": [{
+          "title": "Broan PM250 - 20 1/2\"",
+          "link": "http://www.broan.ca/products/product/791c6eac-ec64-45ae-9268-414adb1d8f9b"
+        }, {
+          "title": "Broan PM390 - 20 1/2\"",
+          "link": "http://www.broan.ca/products/product/99e28416-c640-43c7-99d3-75dd5ba00be9"
+        }, {
+          "title": "Faber INCA INSM28SS - 28\"",
+          "link": "https://www.faberonline.com/hoods/inca-smart-stainless/"
+        }]
+      },
+      "images": [{
+          "title": "Painted Hood fan D",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20D%20preview.jpg"
+        }, {
+          "title": "Specifcations for a HFUD3630",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfud3630.png"
+        },
+        {
+          "title": "Specifcations for a HFUD3624",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfud3624.png"
+        },
+        {
+          "title": "Specifcations for a HFUD3230",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfud3230.png"
+        },
+        {
+          "title": "Specifcations for a HFUD3224",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfud3224.png"
+        },
+        {
+          "title": "Specifcations for a HFUD3030",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfud3030.png"
+        },
+        {
+          "title": "Specifcations for a HFUD3024",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfud3024.png"
+        }
+      ],
+>>>>>>> 0da6687a7cf39f524bdd2f9a448622ebfd65d3c2
       "notes": [{
         "title": "Installation",
         "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
@@ -114,14 +349,64 @@
       "tags": ["Hoodfan"],
       "code": "HFUE",
       "title": "Hood fan unit: E",
+<<<<<<< HEAD
       "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20E%20preview.jpg",
       "imageTitle": "",
+=======
+      "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU Hood E.jpg",
+      "imageTitle": "Hood fan unit: E - in raw Alder",
+>>>>>>> 0da6687a7cf39f524bdd2f9a448622ebfd65d3c2
       "description": "",
       "widths": [30, 32, 36],
       "heights": [24, 30],
       "depth": "21",
+<<<<<<< HEAD
       "specImage": "https://webquoin.com/images/library/_5BL0WEILB.png?dummy=uid47543487",
       "specImageTitle": "Specifcations for a HFUE3630",
+=======
+      "versions": {
+        "30": {
+          "title": "KitchenAid/ Jenn-Air UXL5430BSS - 30\"",
+          "link": "https://www.kitchenaid.ca/en_ca/major-appliances/hoods-and-vents/custom-hood-liners/p.30-hood-liner.uxl5430bss.html"
+        },
+        "32": {
+          "title": "KitchenAid/ Jenn-Air UXL5430BSS - 30\"",
+          "link": "https://www.kitchenaid.ca/en_ca/major-appliances/hoods-and-vents/custom-hood-liners/p.30-hood-liner.uxl5430bss.html"
+        },
+        "36": {
+          "title": "KitchenAid/ Jenn-Air UXL5430BSS - 30\"",
+          "link": "https://www.kitchenaid.ca/en_ca/major-appliances/hoods-and-vents/custom-hood-liners/p.30-hood-liner.uxl5430bss.html"
+        }
+      },
+      "images": [{
+          "title": "Painted Hood fan E",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20E%20preview.jpg"
+        }, {
+          "title": "Specifcations for a HFUE3630",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfu e3630.png"
+        },
+        {
+          "title": "Specifcations for a HFUE3624",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfu e3624.png"
+        },
+        {
+          "title": "Specifcations for a HFUE3230",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfu e3230.png"
+        },
+        {
+          "title": "Specifcations for a HFUE3224",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfu e3224.png"
+        },
+        {
+          "title": "Specifcations for a HFUE3030",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfu e3030.png"
+        },
+        {
+          "title": "Specifcations for a HFUe3024",
+          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfu e3024.png"
+        }
+      ],
+>>>>>>> 0da6687a7cf39f524bdd2f9a448622ebfd65d3c2
       "notes": [{
         "title": "Installation",
         "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
