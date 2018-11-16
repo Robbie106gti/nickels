@@ -314,10 +314,10 @@ function tableTwo(table) {
       row =>
         `<tr>
           <td>${row.code}</td>
-          <td>${row.heights} (Inch)</td>
-          <td>${row.lengths} (feet)</td>
+          <td>${row.unique ? 'Set height': `${row.heights} (Inch)`}</td>
+          <td>${row.unique ? 'Set lengths': `${row.lengths} (feet)`}</td>
           <td>
-          <a class='dropdown-button btn' href='#' data-activates='dropdownordercodes${
+          ${row.unique ? `<span class="ordercode" cart=''>${row.code}</span>`:`<a class='dropdown-button btn' href='#' data-activates='dropdownordercodes${
             row.code
           }'>OrderCodes</a>
           <ul id='dropdownordercodes${row.code}' class='dropdown-content'>
@@ -332,7 +332,7 @@ function tableTwo(table) {
                   .join('')
               )
               .join('')}
-          </ul></td>
+          </ul>`}</td>
           <td>${row.description}</td>
         </tr>`
     )
