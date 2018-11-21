@@ -216,7 +216,7 @@ function setOptions(options) {
                         <div class="divider"></div>
                         <div id="specli"><ul class="flow-text">${options
                           .map(
-                            option =>
+                            option => option.active === false? '':
                               `<li><small><b>${option.title}: </b>${
                                 option.content
                               }</small>${
@@ -311,8 +311,7 @@ function tableTwo(table) {
     .join('')}</tr></theader>
   <tbody>${table.content
     .map(
-      row =>
-        `<tr>
+      row => row.active === false ? '' : `<tr>
           <td>${row.code}</td>
           <td>${row.unique ? 'Set height': `${row.heights} (Inch)`}</td>
           <td>${row.unique ? 'Set lengths': `${row.lengths} (feet)`}</td>

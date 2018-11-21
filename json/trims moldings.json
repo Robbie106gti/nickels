@@ -237,6 +237,7 @@
         "content": "3/4\" thick unfinished material."
       }],
       "options": [{
+        "active": false,
           "title": "Composite (CC)",
           "content": "Available in composite core"
         },
@@ -250,7 +251,7 @@
         },
         {
           "title": "TK-LADDERPACK",
-          "content": "Ladder pack - 4.5\" High - 2 x 8' SBK-PLY5-8 and 8 x 2' SBK-PLY5-2"
+          "content": "Ladder pack - 4.5\" High - 2 x 8' and 8 x 2' foot pieces"
         }
       ],
       "restrictions": [
@@ -263,7 +264,8 @@
             "code": "SBK-CC",
             "lengths": [8],
             "heights": [4, 5, 6, 7],
-            "description": "Composite Core"
+            "description": "Composite Core",
+            "active": false
           },
           {
             "lengths": [8],
@@ -281,7 +283,7 @@
             "unique": true,
             "heights": ["4.5"],
             "code": "TK-LADDERPACK",
-            "description": "Ladder pack - 4.5\" High - 2 x 8' SBK-PLY5-8 and 8 x 2' SBK-PLY5-2"
+            "description": "Ladder pack - 4.5\" High - 2 x 8' and 8 x 2' foot pieces"
           }
         ]
       }
