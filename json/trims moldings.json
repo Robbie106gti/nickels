@@ -195,6 +195,23 @@
       "restrictions": [
         "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection."
       ],
+      "legLeveller": {
+        "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/leglevellers.JPG",
+        "options": [
+          "6\" High: 5 3/4\" - 6 11/16\"",
+          "5 1/2\" High: 5 5/16\" - 6 1/4\"",
+          "4 1/2\" High: 4 1/8\" - 5 1/8\"",
+          "4\" High: 3 3/8\" - 4 1/4\""
+        ],
+        "optionsTitle": "Available in 4 sizes with the adjustable height ranges as shown:",
+        "description": "Black Polymer adjustable height legs with a 650 lb/leveller capacity.",
+        "title": "Leg Levellers",
+        "standards": [
+          "Include Black Polymer baseboard attachment with metal clips.",
+          "Select the desired leg leveller height from the drop down menu in the cabinet selection/edit screen",
+          "To eliminate the leg levellers and be credited for them, select \"no\" from the drop down menu."
+        ]
+      },
       "notes": [{
         "title": "10'",
         "content": "toekicks are only available in Painted and Wood Veneer (except Engineered) materials."
@@ -237,7 +254,7 @@
         "content": "3/4\" thick unfinished material."
       }],
       "options": [{
-        "active": false,
+          "active": false,
           "title": "Composite (CC)",
           "content": "Available in composite core"
         },

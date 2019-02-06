@@ -72,7 +72,7 @@ function structure(params) {
             <div id="images"></div>
         </div>
             <div id="codes" class="col s12 m6"></div>
-            <div id="options" class="col s12 m6"></div>` :
+            <div id="options2" class="col s12 m6"></div>` :
     null;
   $('#catalog').html(html);
 }
@@ -119,6 +119,9 @@ function buildItem(data, params) {
   setNotes(item.notes);
   setImages(item);
   setCodes(item);
+  if (item.legLeveller) {
+    setOptions2(item.legLeveller);
+  }
 }
 
 function setImages(item) {
@@ -225,6 +228,32 @@ function setOptions(options) {
                           )
                           .join('')}</ul></div>`;
   return htmloptions;
+}
+
+function setOptions2(option) {
+  console.log(option);
+  let options = `<div class="card-panel grey lighten-3 row">
+  <span class="card-title">
+      <h4>${option.title}</h4>
+  </span>
+  <div class="divider"></div>
+  <div class="col s12">
+    <p>${option.description}</p>
+    <ul class="col s9"><span>${option.optionsTitle}</span>
+      ${option.options.map(option => `<li>${option}</li>`).join('')}
+    </ul>
+    <div class="card-image col s3">
+    <img src="${option.image}" class="responsive-img materialboxed">
+  </div>
+    <div class="divider"></div>
+    <ul class="col s12"><span><h5>Standards</h5></span>
+      ${option.standards.map(option => `<li>${option}</li>`).join('')}
+    </ul>
+    </div>
+  </div>`;
+
+
+  $('#options2').html(options);
 }
 
 function setCodes(item) {
