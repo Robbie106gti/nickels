@@ -4497,7 +4497,7 @@
       "height": "24",
       "title": "Floating Vanity Full Door - Channel",
       "description": "Floating vanity with full door(s) and channel 24\" high.",
-      "specifications": ["000", "100", "501"],
+      "specifications": ["000", "100", "501", "2025"],
       "iwhd": ["i18", "w0839", "h24", "d0424"],
       "images": [{
           "title": "",
@@ -4508,7 +4508,7 @@
           "image": "https://webquoin.com/catalog/build/assets/cabinets/FVSFDC4524.png"
         }
       ],
-      "notes": ["1"],
+      "notes": ["1", "8", "17", "18"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
       "options": ["ccd6"]
     },
@@ -4520,7 +4520,7 @@
       "height": "24",
       "title": "Floating Vanity Sink Full Door - Channel",
       "description": "Floating vanity for sink applications with full door(s) and channel 24\" high.",
-      "specifications": ["000", "100"],
+      "specifications": ["000", "100", "500", "2025"],
       "iwhd": ["i18", "w1548", "h24", "d1224"],
       "images": [{
           "title": "",
@@ -4531,7 +4531,7 @@
           "image": "https://webquoin.com/catalog/build/assets/cabinets/FVSFDC4524.png"
         }
       ],
-      "notes": ["1"],
+      "notes": ["1", "8", "17", "18"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39"],
       "options": ["ccd6"]
     },
@@ -4539,11 +4539,11 @@
       "active": true,
       "code": "FV2DC24",
       "cat": "Floating Vanity Channel Cabinets",
-      "root": "V2DC",
+      "root": "FV2DC",
       "height": "24",
       "title": "Floating Vanity 2 Drawer - Channel",
       "description": "2 channels and 2 drawers, floating vanity drawer cabinet 24\" high.",
-      "specifications": [],
+      "specifications": ["2025"],
       "iwhd": ["i18", "w1039", "h24", "d1224"],
       "images": [{
           "title": "",
@@ -4554,7 +4554,7 @@
           "image": "https://webquoin.com/catalog/build/assets/cabinets/FV2DC3024.png"
         }
       ],
-      "notes": ["1"],
+      "notes": ["1", "8", "17", "18"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
       "options": ["ccd6"]
     },
@@ -4566,7 +4566,7 @@
       "height": "24",
       "title": "Floating Vanity 3 Drawer - Channel",
       "description": "2 channels and 3 drawers, floating vanity drawer cabinet 24\" high.",
-      "specifications": [],
+      "specifications": ["2025"],
       "iwhd": ["i18", "w1039", "h24", "d1224"],
       "images": [{
           "title": "",
@@ -4577,7 +4577,7 @@
           "image": "https://webquoin.com/catalog/build/assets/cabinets/FV3DC3024.png"
         }
       ],
-      "notes": ["1"],
+      "notes": ["1", "8", "17", "18"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
       "options": ["ccd6"]
     },

@@ -50,24 +50,28 @@ function fetchCabinets(cat) {
     .then(data => {
       console.log(data[cat]);
       data = data[cat];
-      const html = `${data.map(cat =>
-                `<div class="card ${edge}">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="image20 activator" src="${cat.image}">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">${cat.title}<i class="material-icons right">more_vert</i></span>
-                        ${getTags(cat.tags)}
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">${cat.title}<i class="material-icons right">close</i></span>
-                        ${getLinks(cat)}
-                    </div>
-                </div>
-                `).join('')}`;
+      const html = `${data.map(cat => cat.active === false ? null : cabinetCard(cat)
+                ).join('')}`;
       $('#catalog').html(html);
     })
     .catch(err => console.log(err));
+}
+
+function cabinetCard(cat) {
+  return `<div class="card ${edge}">
+  <div class="card-image waves-effect waves-block waves-light">
+      <img class="image20 activator" src="${cat.image}">
+  </div>
+  <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">${cat.title}<i class="material-icons right">more_vert</i></span>
+      ${getTags(cat.tags)}
+  </div>
+  <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">${cat.title}<i class="material-icons right">close</i></span>
+      ${getLinks(cat)}
+  </div>
+</div>
+`;
 }
 
 function fetchGI(cat) {

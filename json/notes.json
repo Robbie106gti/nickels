@@ -65,7 +65,7 @@
       "id": "8",
       "title": "Floating Cabinet, ",
       "link": "#",
-      "content": "3\" long cabinet screws will be supplied with this cabinet. These screws are to be installed into wall studs (16\" center) in order to secure the cabinet",
+      "content": "It is recommended that you use 3\" screws for installation. These screws are to be installed into wall studs (16\" center) in order to secure the cabinet",
       "contentLink": "",
       "ccontent": "."
     },
@@ -122,6 +122,22 @@
       "title": "Notches ",
       "link": "#",
       "content": "may need to be cut in set shevling to allow for air flow dependent on appliance specifications",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "17",
+      "title": "Finishing ",
+      "link": "#",
+      "content": "The bottom of the cabinet is unfinished. If finishing the bottom is required, attach an Finish Cabinet Bottom (FCB)",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "18",
+      "title": "Doweled ",
+      "link": "#",
+      "content": "The back of the cabinet is dowel for added strenght and is joint with the Plywood top",
       "contentLink": "",
       "ccontent": "."
     }

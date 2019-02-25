@@ -380,6 +380,11 @@
       "content": "Interior and exterior material and color MUST match."
     },
     {
+      "id": "2025",
+      "title": "Setshelf",
+      "content": "The top set shelf  is constructed of solid 5/8” plywood for strength and stability."
+    },
+    {
       "id": "3000",
       "title": "Lazy Susan",
       "content": "Adding a Lazy Susan does not automatically remove the adjustable shelf(s)."
