@@ -240,7 +240,7 @@ function setOptions2(option) {
   <div class="col s12">
     <p>${option.description}</p>
     <ul class="col s9"><span>${option.optionsTitle}</span>
-      ${option.options.map(option => `<li>${option}</li>`).join('')}
+      ${option.options.map(option => `<li><b><span class="ordercode" cart=''>${option.code}: </span></b>${option.description}</li>`).join('')}
     </ul>
     <div class="card-image col s3">
     <img src="${option.image}" class="responsive-img materialboxed">

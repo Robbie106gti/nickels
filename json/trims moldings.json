@@ -198,10 +198,10 @@
       "legLeveller": {
         "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/leglevellers.JPG",
         "options": [
-          "6\" High: 5 3/4\" - 6 11/16\"",
-          "5 1/2\" High: 5 5/16\" - 6 1/4\"",
-          "4 1/2\" High: 4 1/8\" - 5 1/8\"",
-          "4\" High: 3 3/8\" - 4 1/4\""
+          {"description": "6\" High: 5 3/4\" - 6 11/16\" with clip and hub, ship loose.", "code": "MSC-LEGLEVELLER6"},
+          {"description": "5 1/2\" High: 5 5/16\" - 6 1/4\" with clip and hub, ship loose.", "code": "MSC-LEGLEVELLER5.5"},
+            {"description": "4 1/2\" High: 4 1/8\" - 5 1/8\" with clip and hub, ship loose.", "code": "MSC-LEGLEVELLER4.5"},
+              {"description": "4\" High: 3 3/8\" - 4 1/4\" with clip and hub, ship loose.", "code": "MSC-LEGLEVELLER4"}
         ],
         "optionsTitle": "Available in 4 sizes with the adjustable height ranges as shown:",
         "description": "Black Polymer adjustable height legs with a 650 lb/leveller capacity.",
