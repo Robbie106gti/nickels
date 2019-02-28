@@ -4343,7 +4343,7 @@
       "height": "26",
       "title": "Vanity Sink Full Door - Channel",
       "description": "channel and door(s).",
-      "specifications": ["000", "100", "501"],
+      "specifications": ["000", "100", "500"],
       "iwhd": ["i18", "w1548", "h26", "d1236"],
       "images": [{
           "title": "",
