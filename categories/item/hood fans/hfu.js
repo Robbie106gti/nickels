@@ -1,33 +1,33 @@
 //// Main js for catagories /////
 $.ajax({
-  url: "../../../layout/header.html",
+  url: '../../../layout/header.html',
   context: document.body,
-  success: function (response) {
-    $("#header").html(response);
+  success: function(response) {
+    $('#header').html(response);
   }
 });
 $.ajax({
-  url: "../../../layout/footer.html",
+  url: '../../../layout/footer.html',
   context: document.body,
-  success: function (response) {
-    $("#footer").html(response);
+  success: function(response) {
+    $('#footer').html(response);
   }
 });
 
 window.onload = getPage();
-var edge = "";
+var edge = '';
 var ua = window.navigator.userAgent;
-var msie = ua.indexOf("Edge/");
+var msie = ua.indexOf('Edge/');
 if (msie !== -1) {
-  var edge = ua.split("Edge/");
+  var edge = ua.split('Edge/');
   if (edge[1] < 16) {
-    edge = "col s3";
+    edge = 'col s3';
   }
 }
 
 function getPage() {
-  $.urlParam = function (name) {
-    var results = new RegExp("[?&]" + name + "=([^&#]*)").exec(
+  $.urlParam = function(name) {
+    var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(
       window.location.href
     );
     if (results == null) {
@@ -38,19 +38,19 @@ function getPage() {
       return url;
     }
   };
-  const code = $.urlParam("code");
-  const page = $.urlParam("page");
-  const id = $.urlParam("id");
+  const code = $.urlParam('code');
+  const page = $.urlParam('page');
+  const id = $.urlParam('id');
   fetch(`./hfu.json`)
     .then(response => response.json())
     .then(data => {
       console.log(data);
       setGI(data.information, code);
       if (!code && !page) {
-        const d = document.getElementById("catalog");
-        d.className += " grid";
-        const html = `${data.items.map(cat => cardWith(cat)).join("")}`;
-        $("#catalog").html(html);
+        const d = document.getElementById('catalog');
+        d.className += ' grid';
+        const html = `${data.items.map(cat => cardWith(cat)).join('')}`;
+        $('#catalog').html(html);
       } else {
         makeLayout();
         let item = data.items.filter(item => item.code === code.toUpperCase());
@@ -75,14 +75,16 @@ function makeLayout() {
   </div>
   <div id="images" class="col s12 m4"></div>
   `;
-  $("#catalog").html(html);
+  $('#catalog').html(html);
 }
 
 function setGI(information, code) {
   code = !code ? '../../index.html?cat=Accessories' : './index.html';
   const cat = `<a href="${code}" class="right"><i class="small material-icons">arrow_back</i></a>
-  <h1 id="topic">${information.title}</h1><h5 id="subtitle">${information.subTitle}</h5><div id="actions"></div>`;
-  $("#topic").html(cat);
+  <h1 id="topic">${information.title}</h1><h5 id="subtitle">${
+    information.subTitle
+  }</h5><div id="actions"></div>`;
+  $('#topic').html(cat);
 }
 
 function setDes(item) {
@@ -95,9 +97,9 @@ function setDes(item) {
     <span id="des" class="flow-text">
     ${item.description}
     </span>
-  </div>`
-  item.description !== "" ? $("#des").html(des) : '';
-  $("#subtitle").html(item.title);
+  </div>`;
+  item.description !== '' ? $('#des').html(des) : '';
+  $('#subtitle').html(item.title);
 }
 
 function setSpecs(item) {
@@ -108,50 +110,66 @@ function setSpecs(item) {
       </span>
       <div class="divider"></div>
       <ul class="flow-text">
-      ${item.standards.map(li => `<li>${li.link ? '<a href="'+li.link+'">': ''}<b>${li.title}: </b><br>${li.content}${li.link ? '</a>' : ''}</li>`).join('')}
+      ${item.standards
+        .map(
+          li =>
+            `<li>${li.link ? '<a href="' + li.link + '">' : ''}<b>${
+              li.title
+            }: </b><br>${li.content}${li.link ? '</a>' : ''}</li>`
+        )
+        .join('')}
       </ul>
     </div>
     `;
-  $("#spec").html(spec);
+  $('#spec').html(spec);
 }
 
 function setMainImage(info) {}
 
 function exampleImages(item) {
-  let icons = `${item.images.map(image => {
-    return im = `<div class="box-image">
-                  <img src="${image.image}" class="materialboxed tooltipped" data-position="top" data-tooltip="click to enlarge ${image.title}" data-caption="${image.title}">
-               </div>`;
-  }).join('')}`;
+  let icons = `${item.images
+    .map(image => {
+      return (im = `<div class="box-image">
+                  <img src="${
+                    image.image
+                  }" class="materialboxed tooltipped" data-position="top" data-tooltip="click to enlarge ${
+        image.title
+      }" data-caption="${image.title}">
+               </div>`);
+    })
+    .join('')}`;
   return icons;
 }
 
 function exampleListImages(item) {
   let icons = `
   <table class="bordered striped highlight">
-  <theader><tr><th>Images <small>(click to enlarge)</small></th><th>Title</th></tr></theader><tbody>${item.images.map(image => {
-    return im = `<tr><td>
-    <img src="${image.image}" alt="" class="materialboxed tooltipped" data-position="top" data-tooltip="click to enlarge ${image.title}" data-caption="${image.title}">
-               </td><td>${image.title}</td>`;
-  }).join('')}</tbody></table>`;
+  <theader><tr><th>Images <small>(click to enlarge)</small></th><th>Title</th></tr></theader><tbody>${item.images
+    .map(image => {
+      return (im = `<tr><td>
+    <img src="${image.image}" alt="${
+        image.title
+      }" class="materialboxed" width="200px" data-position="top" data-tooltip="click to enlarge ${
+        image.title
+      }" data-caption="${image.title}">
+               </td><td>${image.title}</td>`);
+    })
+    .join('')}</tbody></table>`;
   return icons;
 }
 
 function setImages(item) {
-  /*
-    let card = `<div class="col s3"><div class="card" style="overflow: hidden;"><div class="padding">
-        <img class="responsive-img materialboxed" src="${item.image}" alt="${item.imageTitle}">
-        <span class="card-title black-text"><b>${item.imageTitle}</b></span>
-    </div></div></div>`;
-    card = card + `<div class="col s3"><div class="card small" style="overflow: hidden;"><div class="padding">
-        <img class="responsive-img materialboxed" src="${item.specImage}" alt="${item.specImageTitle}">
-        <span class="card-title black-text"><b>${item.specImageTitle}</b></span>
-    </div></div></div>`; */
-
   const main = `<div class="card card-panel"><div class="center"><span class="card-title ">Images</span></div>
-    <img class="responsive-img materialboxed tooltipped" data-position="top" data-tooltip="click to enlarge ${item.imageTitle}" data-caption="${item.imageTitle}" src="${item.image}">
+    <img class="responsive-img materialboxed tooltipped" data-position="top" data-tooltip="click to enlarge ${
+      item.imageTitle
+    }" data-caption="${item.imageTitle}" src="${item.image}">
     ${exampleListImages(item)}</div>`;
-  $("#images").html(main);
+  $('#images').html(main);
+  $(document).ready(function() {
+    setTimeout(function() {
+      $('.materialboxed').materialbox();
+    }, 2000);
+  });
 }
 
 function setCodes(item) {
@@ -159,11 +177,29 @@ function setCodes(item) {
   <table class="bordered striped highlight">
   <theader><tr><th>Codes</th><th>Description (width - depth - height)</th><th>Recommended Hood fan</th></tr></theader>
   <tbody>
-  ${item.widths.map(width => {
-    return item.heights.map(height => `
-    <tr><td><span class="ordercode tooltipped" data-position="top" data-tooltip="add to order" onclick="addCodenow(${item.code+width+height})">${item.code+width+height}</span></td><td>${item.title} - (w) ${width}" x (d) ${item.depth}" x (h) ${height}"</td><td>${item.versions[width].length? item.versions[width].map(hood => `<a href="${hood.link}">${hood.title}</a>`).join(" / ") :`<a href="${item.versions[width].link}">${item.versions[width].title}</a>`}</td></tr>
-    `).join("")
-  }).join("")}
+  ${item.widths
+    .map(width => {
+      return item.heights
+        .map(
+          height => `
+    <tr><td><span class="ordercode tooltipped" data-position="top" data-tooltip="add to order" onclick="addCodenow(${item.code +
+      width +
+      height})">${item.code + width + height}</span></td><td>${
+            item.title
+          } - (w) ${width}" x (d) ${item.depth}" x (h) ${height}"</td><td>${
+            item.versions[width].length
+              ? item.versions[width]
+                  .map(hood => `<a href="${hood.link}">${hood.title}</a>`)
+                  .join(' / ')
+              : `<a href="${item.versions[width].link}">${
+                  item.versions[width].title
+                }</a>`
+          }</td></tr>
+    `
+        )
+        .join('');
+    })
+    .join('')}
   </tbody>
   </table>
 </div>`;
@@ -171,41 +207,40 @@ function setCodes(item) {
 }
 
 function setNotes(item) {
-  let n = item.notes.map(note => `
+  let n = item.notes
+    .map(
+      note => `
   <div class="card orange lighten-4">
       <p class="note flow-text">
           <i class="material-icons">announcement</i>
           <b>${note.title}, </b>
           ${note.content}
       </p>
-  </div>`).join('');
-  $("#notes").html(n);
+  </div>`
+    )
+    .join('');
+  $('#notes').html(n);
 }
 
 function cardWith(cat) {
   const card = `
   <div class="card ${edge}">
-    <div class="card-image waves-effect waves-block waves-light"><a href="?code=${cat.code}">
+    <div class="card-image waves-effect waves-block waves-light"><a href="?code=${
+      cat.code
+    }">
       <img class="responsive-img" src="${cat.image}">
     </a></div>
     <div class="card-content">
       <a href="#code=${cat.code}">
-        <span class="card-title grey-text text-darken-4">${titleCase(cat.title)}</span>
+        <span class="card-title grey-text text-darken-4">${titleCase(
+          cat.title
+        )}</span>
         ${getTags(cat.tags)}
       </a>
     </div>
   </div>`;
   return card;
 }
-
-<<
-<< << < HEAD
-  // This is the left click function 2018 
-  ===
-  === =
-  // This is the left click function 2018
-  >>>
-  >>> > 0 da6687a7cf39f524bdd2f9a448622ebfd65d3c2
 
 function addCodenow(wcode) {
   if (confirm(`Do you want to add ${wcode} item to your order?`)) {
@@ -216,7 +251,7 @@ function addCodenow(wcode) {
 
 function unique(array) {
   var seen = new Set();
-  return array.filter(function (item) {
+  return array.filter(function(item) {
     if (!seen.has(item)) {
       seen.add(item);
       return true;
@@ -226,18 +261,18 @@ function unique(array) {
 
 function getTags(tags) {
   if (!tags) return;
-  const keys = `${tags.map(tag => `<div class="chip">${tag}</div>`).join("")}`;
+  const keys = `${tags.map(tag => `<div class="chip">${tag}</div>`).join('')}`;
   return keys;
 }
 
 function titleCase(str) {
-  if (str == null) return "";
+  if (str == null) return '';
   return str
     .toLowerCase()
-    .split(" ")
-    .map(function (word) {
+    .split(' ')
+    .map(function(word) {
       if (!word) return;
       return word.replace(word[0], word[0].toUpperCase());
     })
-    .join(" ");
+    .join(' ');
 }

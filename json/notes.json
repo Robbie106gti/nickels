@@ -1,5 +1,6 @@
 {
-  "notes": [{
+  "notes": [
+    {
       "id": "0",
       "title": "",
       "link": "",
@@ -65,7 +66,7 @@
       "id": "8",
       "title": "Floating Cabinet, ",
       "link": "#",
-      "content": "It is recommended that you use 3\" screws for installation. These screws are to be installed into wall studs (16\" center) in order to secure the cabinet",
+      "content": "It is recommended that you use 3\" screws with washers for installation. These screws are to be installed into wall studs (16\" center) in order to secure the cabinet",
       "contentLink": "",
       "ccontent": "."
     },
@@ -129,15 +130,15 @@
       "id": "17",
       "title": "Finishing ",
       "link": "#",
-      "content": "The bottom of the cabinet is unfinished. If finishing the bottom is required, attach an Finish Cabinet Bottom (FCB)",
+      "content": "The bottom of the cabinet is unfinished. If finishing the bottom is required, attach Finish Cabinet Bottom (FCB)",
       "contentLink": "",
       "ccontent": "."
     },
     {
       "id": "18",
-      "title": "Doweled ",
+      "title": "Dowelled ",
       "link": "#",
-      "content": "The back of the cabinet is dowel for added strenght and is joint with the Plywood top",
+      "content": "The back of the cabinet is dowelled for added strength and is joined with the Plywood top",
       "contentLink": "",
       "ccontent": "."
     }
