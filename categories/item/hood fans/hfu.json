@@ -5,7 +5,8 @@
     "id": "hfu",
     "code": "hfu"
   },
-  "items": [{
+  "items": [
+    {
       "category": "accessories",
       "sub": "Hood Fans",
       "tags": ["Hoodfan"],
@@ -19,24 +20,26 @@
       "versions": {
         "24": {
           "title": "Perfekt Glide – 24",
-          "link": "http://www.aeg-appliances.ca/kitchen-appliances/range-hoods/perfekt-glide-24/"
+          "link": "https://www.aeg-appliances.ca/kitchen-appliances/range-hoods/perfekt-glide-24/"
         },
         "30": {
           "title": "Perfekt Glide – 30",
-          "link": "http://www.aeg-appliances.ca/kitchen-appliances/range-hoods/perfekt-glide-30/"
+          "link": "https://www.aeg-appliances.ca/kitchen-appliances/range-hoods/perfekt-glide-30/"
         },
         "36": {
           "title": "Perfekt Glide – 36",
-          "link": "http://www.aeg-appliances.ca/kitchen-appliances/range-hoods/perfekt-glide-36/"
+          "link": "https://www.aeg-appliances.ca/kitchen-appliances/range-hoods/perfekt-glide-36/"
         }
       },
       "depth": "12",
       "specImage": "https://webquoin.com/Catalog/build/assets/hfu/Hfua3630.png",
       "specImageTitle": "Specifcations for a HFUA3630",
-      "images": [{
+      "images": [
+        {
           "title": "Painted Hood fan A",
           "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20A%20preview.jpg"
-        }, {
+        },
+        {
           "title": "Specifcations for a HFUA3630",
           "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua3630.png"
         },
@@ -73,15 +76,20 @@
           "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua2418.png"
         }
       ],
-      "notes": [{
-        "title": "Installation",
-        "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
-      }],
-      "standards": [{
-        "title": "Materials",
-        "content": "Available in all materials including Painted application."
-      }]
-    }, {
+      "notes": [
+        {
+          "title": "Installation",
+          "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
+        }
+      ],
+      "standards": [
+        {
+          "title": "Materials",
+          "content": "Available in all materials including Painted application."
+        }
+      ]
+    },
+    {
       "category": "accessories",
       "sub": "Hood Fans",
       "tags": ["Hoodfan"],
@@ -96,21 +104,23 @@
       "versions": {
         "30": {
           "title": "Broan Elite EC62 - 30\"",
-          "link": "http://www.broan.ca/products/product/08f30442-dce3-441d-aa94-43aafb562ba2"
+          "link": "https://www.broan.ca/products/product/08f30442-dce3-441d-aa94-43aafb562ba2"
         },
         "32": {
           "title": "Broan Elite EC62 - 30\"",
-          "link": "http://www.broan.ca/products/product/08f30442-dce3-441d-aa94-43aafb562ba2"
+          "link": "https://www.broan.ca/products/product/08f30442-dce3-441d-aa94-43aafb562ba2"
         },
         "36": {
           "title": "Broan RMIP33 - 33\"",
-          "link": "http://www.broan.ca/products/product/245684b7-ca08-4a9f-b714-d4787154c0a0"
+          "link": "https://www.broan.ca/products/product/245684b7-ca08-4a9f-b714-d4787154c0a0"
         }
       },
-      "images": [{
+      "images": [
+        {
           "title": "Painted Hood fan B",
           "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20B%20preview.jpg"
-        }, {
+        },
+        {
           "title": "Specifcations for a HFUB3630",
           "image": "https://webquoin.com/Catalog/build/assets/hfu/HFUB3630.png"
         },
@@ -135,18 +145,24 @@
           "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuB3024.png"
         }
       ],
-      "notes": [{
-        "title": "Installation",
-        "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
-      }],
-      "standards": [{
-        "title": "Materials",
-        "content": "Available in all woods and Painted application."
-      }, {
-        "title": "Finish",
-        "content": "The open bottom area where the fan mounts will be finished to match the cabinet exterior."
-      }]
-    }, {
+      "notes": [
+        {
+          "title": "Installation",
+          "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
+        }
+      ],
+      "standards": [
+        {
+          "title": "Materials",
+          "content": "Available in all woods and Painted application."
+        },
+        {
+          "title": "Finish",
+          "content": "The open bottom area where the fan mounts will be finished to match the cabinet exterior."
+        }
+      ]
+    },
+    {
       "category": "accessories",
       "sub": "Hood Fans",
       "tags": ["Hoodfan"],
@@ -161,21 +177,23 @@
       "versions": {
         "30": {
           "title": "Broan Elite EC62 - 30\"",
-          "link": "http://www.broan.ca/products/product/08f30442-dce3-441d-aa94-43aafb562ba2"
+          "link": "https://www.broan.ca/products/product/08f30442-dce3-441d-aa94-43aafb562ba2"
         },
         "32": {
           "title": "Broan Elite EC62 - 30\"",
-          "link": "http://www.broan.ca/products/product/08f30442-dce3-441d-aa94-43aafb562ba2"
+          "link": "https://www.broan.ca/products/product/08f30442-dce3-441d-aa94-43aafb562ba2"
         },
         "36": {
           "title": "Broan RMIP33 - 33\"",
-          "link": "http://www.broan.ca/products/product/245684b7-ca08-4a9f-b714-d4787154c0a0"
+          "link": "https://www.broan.ca/products/product/245684b7-ca08-4a9f-b714-d4787154c0a0"
         }
       },
-      "images": [{
+      "images": [
+        {
           "title": "Painted Hood fan C",
           "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20C%20preview.jpg"
-        }, {
+        },
+        {
           "title": "Specifcations for a HFUC3630",
           "image": "https://webquoin.com/Catalog/build/assets/hfu/HFUC3630.png"
         },
@@ -200,21 +218,28 @@
           "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuC3024.png"
         }
       ],
-      "notes": [{
-        "title": "Installation",
-        "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
-      }],
-      "standards": [{
-        "title": "Materials",
-        "content": "Available in all woods and Painted application."
-      }, {
-        "title": "Doors",
-        "content": "The door on this unit will match the cabinet doors and is removable."
-      }, {
-        "title": "Finish",
-        "content": "The open bottom area where the fan mounts will be finished to match the cabinet exterior."
-      }]
-    }, {
+      "notes": [
+        {
+          "title": "Installation",
+          "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
+        }
+      ],
+      "standards": [
+        {
+          "title": "Materials",
+          "content": "Available in all woods and Painted application."
+        },
+        {
+          "title": "Doors",
+          "content": "The door on this unit will match the cabinet doors and is removable."
+        },
+        {
+          "title": "Finish",
+          "content": "The open bottom area where the fan mounts will be finished to match the cabinet exterior."
+        }
+      ]
+    },
+    {
       "category": "accessories",
       "sub": "Hood Fans",
       "tags": ["Hoodfan"],
@@ -229,41 +254,55 @@
       "specImage": "https://webquoin.com/Catalog/build/assets/hfu/HFUD3630.png",
       "specImageTitle": "Specifcations for a HFUD3630",
       "versions": {
-        "30": [{
-          "title": "Broan PM250 - 20 1/2\"",
-          "link": "http://www.broan.ca/products/product/791c6eac-ec64-45ae-9268-414adb1d8f9b"
-        }, {
-          "title": "Broan PM390 - 20 1/2\"",
-          "link": "http://www.broan.ca/products/product/99e28416-c640-43c7-99d3-75dd5ba00be9"
-        }, {
-          "title": "Faber INCA INSM28SS - 28\"",
-          "link": "https://www.faberonline.com/hoods/inca-smart-stainless/"
-        }],
-        "32": [{
-          "title": "Broan PM250 - 20 1/2\"",
-          "link": "http://www.broan.ca/products/product/791c6eac-ec64-45ae-9268-414adb1d8f9b"
-        }, {
-          "title": "Broan PM390 - 20 1/2\"",
-          "link": "http://www.broan.ca/products/product/99e28416-c640-43c7-99d3-75dd5ba00be9"
-        }, {
-          "title": "Faber INCA INSM28SS - 28\"",
-          "link": "https://www.faberonline.com/hoods/inca-smart-stainless/"
-        }],
-        "36": [{
-          "title": "Broan PM250 - 20 1/2\"",
-          "link": "http://www.broan.ca/products/product/791c6eac-ec64-45ae-9268-414adb1d8f9b"
-        }, {
-          "title": "Broan PM390 - 20 1/2\"",
-          "link": "http://www.broan.ca/products/product/99e28416-c640-43c7-99d3-75dd5ba00be9"
-        }, {
-          "title": "Faber INCA INSM28SS - 28\"",
-          "link": "https://www.faberonline.com/hoods/inca-smart-stainless/"
-        }]
+        "30": [
+          {
+            "title": "Broan PM250 - 20 1/2\"",
+            "link": "https://www.broan.ca/products/product/791c6eac-ec64-45ae-9268-414adb1d8f9b"
+          },
+          {
+            "title": "Broan PM390 - 20 1/2\"",
+            "link": "https://www.broan.ca/products/product/99e28416-c640-43c7-99d3-75dd5ba00be9"
+          },
+          {
+            "title": "Faber INCA INSM28SS - 28\"",
+            "link": "https://www.faberonline.com/hoods/inca-smart-stainless/"
+          }
+        ],
+        "32": [
+          {
+            "title": "Broan PM250 - 20 1/2\"",
+            "link": "https://www.broan.ca/products/product/791c6eac-ec64-45ae-9268-414adb1d8f9b"
+          },
+          {
+            "title": "Broan PM390 - 20 1/2\"",
+            "link": "https://www.broan.ca/products/product/99e28416-c640-43c7-99d3-75dd5ba00be9"
+          },
+          {
+            "title": "Faber INCA INSM28SS - 28\"",
+            "link": "https://www.faberonline.com/hoods/inca-smart-stainless/"
+          }
+        ],
+        "36": [
+          {
+            "title": "Broan PM250 - 20 1/2\"",
+            "link": "http://www.broan.ca/products/product/791c6eac-ec64-45ae-9268-414adb1d8f9b"
+          },
+          {
+            "title": "Broan PM390 - 20 1/2\"",
+            "link": "http://www.broan.ca/products/product/99e28416-c640-43c7-99d3-75dd5ba00be9"
+          },
+          {
+            "title": "Faber INCA INSM28SS - 28\"",
+            "link": "https://www.faberonline.com/hoods/inca-smart-stainless/"
+          }
+        ]
       },
-      "images": [{
+      "images": [
+        {
           "title": "Painted Hood fan D",
           "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20D%20preview.jpg"
-        }, {
+        },
+        {
           "title": "Specifcations for a HFUD3630",
           "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfud3630.png"
         },
@@ -288,21 +327,28 @@
           "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfud3024.png"
         }
       ],
-      "notes": [{
-        "title": "Installation",
-        "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
-      }],
-      "standards": [{
-        "title": "Materials",
-        "content": "Available in all woods and Painted application."
-      }, {
-        "title": "Doors",
-        "content": "The door on this unit will match the cabinet doors."
-      }, {
-        "title": "Finish",
-        "content": "The open bottom area where the fan mounts will be finished to match the cabinet exterior."
-      }]
-    }, {
+      "notes": [
+        {
+          "title": "Installation",
+          "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
+        }
+      ],
+      "standards": [
+        {
+          "title": "Materials",
+          "content": "Available in all woods and Painted application."
+        },
+        {
+          "title": "Doors",
+          "content": "The door on this unit will match the cabinet doors."
+        },
+        {
+          "title": "Finish",
+          "content": "The open bottom area where the fan mounts will be finished to match the cabinet exterior."
+        }
+      ]
+    },
+    {
       "category": "accessories",
       "sub": "Hood Fans",
       "tags": ["Hoodfan"],
@@ -328,10 +374,12 @@
           "link": "https://www.kitchenaid.ca/en_ca/major-appliances/hoods-and-vents/custom-hood-liners/p.30-hood-liner.uxl5430bss.html"
         }
       },
-      "images": [{
+      "images": [
+        {
           "title": "Painted Hood fan E",
           "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20E%20preview.jpg"
-        }, {
+        },
+        {
           "title": "Specifcations for a HFUE3630",
           "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfu e3630.png"
         },
@@ -352,25 +400,30 @@
           "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfu e3030.png"
         },
         {
-          "title": "Specifcations for a HFUe3024",
+          "title": "Specifcations for a HFUE3024",
           "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfu e3024.png"
         }
       ],
-      "notes": [{
-        "title": "Installation",
-        "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
-      }],
-      "standards": [{
-        "title": "Materials",
-        "content": "Available in all woods and Painted application."
-      }, {
-        "title": "Doors",
-        "content": "The door on this unit will match the cabinet doors."
-      }, {
-        "title": "Finish",
-        "content": "The open bottom area where the fan mounts will be finished to match the cabinet exterior."
-      }]
+      "notes": [
+        {
+          "title": "Installation",
+          "content": "These cabinets need to be installed at a minimum of 30\" above the top of a gas burner."
+        }
+      ],
+      "standards": [
+        {
+          "title": "Materials",
+          "content": "Available in all woods and Painted application."
+        },
+        {
+          "title": "Doors",
+          "content": "The door on this unit will match the cabinet doors."
+        },
+        {
+          "title": "Finish",
+          "content": "The open bottom area where the fan mounts will be finished to match the cabinet exterior."
+        }
+      ]
     }
-
   ]
 }

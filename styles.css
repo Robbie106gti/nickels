@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(96, 125, 139, 0.5)
+  background-color: rgba(96, 125, 139, 0.5);
 }
 
 #modals {
@@ -9,7 +9,7 @@ body {
   z-index: 1005;
 }
 
-#modals>.modal {
+#modals > .modal {
   max-height: 85%;
   width: 85%;
 }
@@ -21,13 +21,17 @@ body {
 .imageLogo {
   margin-top: 0.4em;
   margin-right: 0.3em;
-  max-height: 1.4em;
+  max-height: 3.3em;
+}
+
+nav ul a {
+  padding: 0px;
 }
 
 .headingLogo {
   display: inline-block;
   position: relative;
-  top: -0.15em;
+  top: 0.15em;
 }
 
 .whiteLine {
@@ -48,18 +52,18 @@ body {
   border-left: 45px solid transparent;
 }
 
-.preview>img {
+.preview > img {
   height: 10vw;
   width: auto;
   overflow: hidden;
 }
 
-.bullet>ul:not(.browser-default)>li {
+.bullet > ul:not(.browser-default) > li {
   list-style-type: circle;
   margin-left: 1em;
 }
 
-p>i {
+p > i {
   position: relative;
   top: -0.1em;
   left: -0.4em;
@@ -91,12 +95,12 @@ p>i {
   padding: 0.5em;
 }
 
-@supports(display: grid) {
+@supports (display: grid) {
   .detail-card {
     width: 50%;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(2em, 1fr))[auto-fit];
+    -ms-grid-columns: (minmax(2em, 1fr)) [auto-fit];
     grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
   }
 
@@ -105,7 +109,7 @@ p>i {
     display: -ms-grid;
     display: grid;
     grid-gap: 1em;
-    -ms-grid-columns: (minmax(18em, 1fr))[auto-fit];
+    -ms-grid-columns: (minmax(18em, 1fr)) [auto-fit];
     grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   }
 
@@ -114,7 +118,7 @@ p>i {
     display: -ms-grid;
     display: grid;
     grid-gap: 1em;
-    -ms-grid-columns: (minmax(12em, 1fr))[auto-fit];
+    -ms-grid-columns: (minmax(12em, 1fr)) [auto-fit];
     grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   }
 }
@@ -170,10 +174,10 @@ img.responsive-img.materialboxed {
 }
 
 .bgd1 {
-  background-color: rgba(66, 96, 121, 0.459)
+  background-color: rgba(66, 96, 121, 0.459);
 }
 
-.inactive>.card-image>img {
+.inactive > .card-image > img {
   filter: blur(2px);
   -webkit-filter: blur(2px);
   -moz-filter: blur(2px);
@@ -194,11 +198,11 @@ img.responsive-img.materialboxed {
   padding: 0.5em;
 }
 
-.padding>material-placeholder {
+.padding > material-placeholder {
   margin-bottom: 1em;
 }
 
-.padding>span {
+.padding > span {
   position: relative;
   margin-top: 1em;
   background-color: rgba(96, 125, 139, 0.5);

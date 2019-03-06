@@ -41,6 +41,10 @@ function getPage() {
   const code = $.urlParam('code');
   const page = $.urlParam('page');
   const id = $.urlParam('id');
+
+  $.getJSON('./hfu.json', function(response) {
+    console.log(response);
+  });
   fetch(`./hfu.json`)
     .then(response => response.json())
     .then(data => {
@@ -189,9 +193,18 @@ function setCodes(item) {
           } - (w) ${width}" x (d) ${item.depth}" x (h) ${height}"</td><td>${
             item.versions[width].length
               ? item.versions[width]
-                  .map(hood => `<a href="${hood.link}">${hood.title}</a>`)
+                  .map(
+                    hood =>
+                      `<a href="${
+                        hood.link
+                      }" rel="noopener noreferrer" target="_blank">${
+                        hood.title
+                      }</a>`
+                  )
                   .join(' / ')
-              : `<a href="${item.versions[width].link}">${
+              : `<a href="${
+                  item.versions[width].link
+                }" rel="noopener noreferrer" target="_blank">${
                   item.versions[width].title
                 }</a>`
           }</td></tr>
