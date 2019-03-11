@@ -3,14 +3,14 @@
 $.ajax({
   url: '../layout/header.html',
   context: document.body,
-  success: function (response) {
+  success: function(response) {
     $('#header').html(response);
   }
 });
 $.ajax({
   url: '../layout/footer.html',
   context: document.body,
-  success: function (response) {
+  success: function(response) {
     $('#footer').html(response);
   }
 });
@@ -18,7 +18,7 @@ $.ajax({
 window.onload = getSubs();
 
 function getSubs() {
-  $.urlParam = function (name) {
+  $.urlParam = function(name) {
     var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(
       window.location.href
     );
@@ -51,7 +51,7 @@ function getSubs() {
 }
 
 function initMaterializeJS() {
-  $(document).ready(function () {
+  $(document).ready(function() {
     $('.modal').modal({
       dismissible: true
     });
@@ -60,8 +60,8 @@ function initMaterializeJS() {
 
 function structure(params) {
   const html =
-    params.item !== null ?
-    `
+    params.item !== null
+      ? `
         <div id="modals"></div>
         <div class="col s12 m6">
             <div id="des"></div>
@@ -72,13 +72,13 @@ function structure(params) {
             <div id="images"></div>
         </div>
             <div id="codes" class="col s12 m6"></div>
-            <div id="options2" class="col s12 m6"></div>` :
-    null;
+            <div id="options2" class="col s12 m6"></div>`
+      : null;
   $('#catalog').html(html);
 }
 
 function mainCatView(data) {
-  data.sort(function (a, b) {
+  data.sort(function(a, b) {
     if (a.title.toLowerCase() < b.title.toLowerCase()) return -1;
     if (a.title.toLowerCase() > b.title.toLowerCase()) return 1;
     return 0;
@@ -144,23 +144,33 @@ function setImages(item) {
                         </div>`;
   }
   $('#images').html(image);
-  $(document).ready(function () {
+  $(document).ready(function() {
     $('.materialboxed').materialbox();
-  })
+  });
 }
 
 function imageCard(item) {
   let card = `<div class="col s4"><div class="card small" style="overflow: hidden; max-height: 100%;"><div class="padding">
-      <img class="responsive-img materialboxed" src="${item.image}" alt="${item.imageTitle}">
+      <img class="responsive-img materialboxed" src="${item.image}" alt="${
+    item.imageTitle
+  }">
       <span class="card-title black-text"><b>${item.imageTitle}</b></span>
   </div></div></div>`;
-  card = card + `<div class="col s4"><div class="card small" style="overflow: hidden; max-height: 100%;"><div class="padding">
-      <img class="responsive-img materialboxed" src="${item.specImage}" alt="${item.specImageTitle}">
+  card =
+    card +
+    `<div class="col s4"><div class="card small" style="overflow: hidden; max-height: 100%;"><div class="padding">
+      <img class="responsive-img materialboxed" src="${item.specImage}" alt="${
+      item.specImageTitle
+    }">
       <span class="card-title black-text"><b>${item.specImageTitle}</b></span>
   </div></div></div>`;
   if (item.specImage2) {
-    card = card + `<div class="col s4"><div class="card small" style="overflow: hidden; max-height: 100%;"><div class="padding">
-      <img class="responsive-img materialboxed" src="${item.specImage2}" alt="${item.specImageTitle2}">
+    card =
+      card +
+      `<div class="col s4"><div class="card small" style="overflow: hidden; max-height: 100%;"><div class="padding">
+      <img class="responsive-img materialboxed" src="${item.specImage2}" alt="${
+        item.specImageTitle2
+      }">
       <span class="card-title black-text"><b>${item.specImageTitle2}</b></span>
   </div></div></div>`;
   }
@@ -218,13 +228,14 @@ function setOptions(options) {
                         </span>
                         <div class="divider"></div>
                         <div id="specli"><ul class="flow-text">${options
-                          .map(
-                            option => option.active === false? '':
-                              `<li><small><b>${option.title}: </b>${
-                                option.content
-                              }</small>${
-                                option.action ? actionButton(option) : ''
-                              }</li>`
+                          .map(option =>
+                            option.active === false
+                              ? ''
+                              : `<li><small><b>${option.title}: </b>${
+                                  option.content
+                                }</small>${
+                                  option.action ? actionButton(option) : ''
+                                }</li>`
                           )
                           .join('')}</ul></div>`;
   return htmloptions;
@@ -240,7 +251,14 @@ function setOptions2(option) {
   <div class="col s12">
     <p>${option.description}</p>
     <ul class="col s9"><span>${option.optionsTitle}</span>
-      ${option.options.map(option => `<li><b><span class="ordercode" cart=''>${option.code}: </span></b>${option.description}</li>`).join('')}
+      ${option.options
+        .map(
+          option =>
+            `<li><b><span class="ordercode" cart=''>${
+              option.code
+            }: </span></b>${option.description}</li>`
+        )
+        .join('')}
     </ul>
     <div class="card-image col s3">
     <img src="${option.image}" class="responsive-img materialboxed">
@@ -251,7 +269,6 @@ function setOptions2(option) {
     </ul>
     </div>
   </div>`;
-
 
   $('#options2').html(options);
 }
@@ -276,9 +293,9 @@ function setCodes(item) {
                             row =>
                               `<tr><td>${
                                 row.de
-                              }</td><td><ul><li><span  class="ordercode" cart=''>${
+                              }</td><td><ul><li><span  class="ordercode" cart=''  onclick="addToOrder('${
                                 row.code
-                              }</span></li></ul></td><td>${
+                              }')">${row.code}</span></li></ul></td><td>${
                                 row.description
                               }</td></tr>`
                           )
@@ -292,7 +309,7 @@ function setCodes(item) {
     hover: true
   });
   var currentDiv = null;
-  $(document).ready(function () {
+  $(document).ready(function() {
     if (parent.shopcart) {
       $("[cart='']").css('cursor', 'pointer');
       $("[cart='']").attr('title', 'Click to add this item to your job.');
@@ -303,7 +320,8 @@ function setCodes(item) {
   });
 
   function addtocartcontextmenu() {
-    $("[cart='']").contextMenu({
+    $("[cart='']").contextMenu(
+      {
         menu: 'AddToCartMenu'
       },
 
@@ -324,7 +342,7 @@ function setCodes(item) {
     );
 
     // This is the left click function
-    $("[cart='']").click(function () {
+    $("[cart='']").click(function() {
       if (confirm('Do you want to add this item to your order?')) {
         parent.addtocart(this);
       }
@@ -339,28 +357,35 @@ function tableTwo(table) {
     .map(th => `<th>${th}</th>`)
     .join('')}</tr></theader>
   <tbody>${table.content
-    .map(
-      row => row.active === false ? '' : `<tr>
+    .map(row =>
+      row.active === false
+        ? ''
+        : `<tr>
           <td>${row.code}</td>
-          <td>${row.unique ? 'Set height': `${row.heights} (Inch)`}</td>
-          <td>${row.unique ? 'Set lengths': `${row.lengths} (feet)`}</td>
+          <td>${row.unique ? 'Set height' : `${row.heights} (Inch)`}</td>
+          <td>${row.unique ? 'Set lengths' : `${row.lengths} (feet)`}</td>
           <td>
-          ${row.unique ? `<span class="ordercode" cart=''>${row.code}</span>`:`<a class='dropdown-button btn' href='#' data-activates='dropdownordercodes${
-            row.code
-          }'>OrderCodes</a>
+          ${
+            row.unique
+              ? `<span class="ordercode" cart=''>${row.code}</span>`
+              : `<a class='dropdown-button btn' href='#' data-activates='dropdownordercodes${
+                  row.code
+                }'>OrderCodes</a>
           <ul id='dropdownordercodes${row.code}' class='dropdown-content'>
             ${row.heights
               .map(height =>
                 row.lengths
                   .map(
                     length =>
-                      `<li><span class="ordercode" cart=''>${row.code +
+                      `<li><span class="ordercode" cart='' onclick="addToOrder('${row.code +
+                        height}-${length}')">${row.code +
                         height}-${length}</span><small>${height}" high - ${length}' long</small></li>`
                   )
                   .join('')
               )
               .join('')}
-          </ul>`}</td>
+          </ul>`
+          }</td>
           <td>${row.description}</td>
         </tr>`
     )
@@ -391,7 +416,11 @@ function tableThree(table) {
                 ${row.lengths
                   .map(
                     length =>
-                      `<li><span class="ordercode" cart=''>${row.code}-${length}</span><small>${length}' long</small></li>`
+                      `<li><span class="ordercode" cart='' onclick="addToOrder('${
+                        row.code
+                      }')">${
+                        row.code
+                      }-${length}</span><small>${length}' long</small></li>`
                   )
                   .join('')}
           </ul></td>
@@ -457,9 +486,9 @@ function isString(value) {
 }
 
 function setGI(data) {
-  const cat = isString(data) ?
-    `<h1 id="topic">${data}</h1>` :
-    `<h1 id="topic">${data.sub}</h1><h5>${
+  const cat = isString(data)
+    ? `<h1 id="topic">${data}</h1>`
+    : `<h1 id="topic">${data.sub}</h1><h5>${
         data.title
       }</h5><div id="actions"></div>`;
   $('#topic').html(cat);
@@ -476,8 +505,8 @@ function getEdges() {
     .then(response => response.json())
     .then(data => {
       const shownEdges = new Array();
-      data.forEach(
-        edge => (edges.includes(edge.title) ? shownEdges.push(edge) : '')
+      data.forEach(edge =>
+        edges.includes(edge.title) ? shownEdges.push(edge) : ''
       );
       const html = `${shownEdges
         .map(
@@ -501,4 +530,14 @@ function getEdges() {
       initMaterializeJS();
     })
     .catch(err => console.log(err));
+}
+
+function addToOrder(code) {
+  console.log(
+    code + ': this is the ordercode to add, CORS is blocking the JS interaction'
+  );
+  let input = parent.getElementById('txtItemcode');
+  input ? document.getElementById('txtItemcode') : input;
+  console.log(input);
+  input.value = code;
 }
