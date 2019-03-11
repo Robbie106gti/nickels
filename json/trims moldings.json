@@ -1304,6 +1304,166 @@
           }
         ]
       }
+    },
+    {
+      "code": "FV1",
+      "title": "Figured Valance #1",
+      "sizeImage": "small",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/FV1%20figure%20valance%201.jpg",
+      "imageTitle": "Figured Valance #1",
+      "specImage": "https://webquoin.com/catalog/images/FiguredValance1.gif",
+      "specImageTitle": "Drawing",
+      "tags": ["FV1", "DE"],
+      "link": "trim.html?cat=Trims%20Moldings&item=FV1",
+      "lengths": ["Specify"],
+      "description": "Figure valance with a radius on each end on the inside, perfect for giving a little detail under your hanging cabinets or inbetween.",
+      "standards": [
+        {
+          "title": "Materials",
+          "content": "Available in all wood species (except Engineered) and painted applications."
+        },
+        {
+          "title": "Finishing",
+          "content": "Except for ends(2) all surfaces are finished."
+        },
+        {
+          "title": "Specify",
+          "content": "Specify desired length and height, Priced by the square foot."
+        }
+      ],
+      "options": [{
+          "title": "DE edges",
+          "content": "A detailed edge is applied to the front bottom edge and top edge.",
+          "action": "Edges",
+          "edges": ["BV3", "BV5", "CV6", "OV", "RD3", "RD6", "SC", "SQ"]
+        },
+        {
+          "title": "(DE) Materials",
+          "content": "Not available in Engineered."
+        },
+        {
+          "title": "(DE) Construction",
+          "content": "Made from solid wood(Maple) or MDF if painted."
+        }
+      ],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.", "Not available in Engineered."
+      ],
+      "table": {
+        "header": [ "Detailed Edge", "Order Code", "Description" ],
+        "content": [{
+            "de": "Optional",
+            "code": "FV1-DE",
+            "description": "1 Inner radius on each side"
+          }
+        ]
+      }
+    },
+    {
+      "code": "FV2",
+      "title": "Figured Valance #2",
+      "sizeImage": "small",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/FV2%20figure%20valance%202.jpg",
+      "imageTitle": "Figured Valance #2 (Image not correct, see drawing for inner Radiis)",
+      "specImage": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/FV2%20drawing.jpg",
+      "specImageTitle": "Drawing",
+      "tags": ["FV2", "DE"],
+      "link": "trim.html?cat=Trims%20Moldings&item=FV2",
+      "lengths": ["Specify"],
+      "description": "Figure valance with a double radii on each end on the inside, perfect for giving a little detail under your hanging cabinets or inbetween.",
+      "standards": [
+        {
+          "title": "Materials",
+          "content": "Available in all wood species (except Engineered) and painted applications."
+        },
+        {
+          "title": "Finishing",
+          "content": "Except for ends(2) all surfaces are finished."
+        },
+        {
+          "title": "Specify",
+          "content": "Specify desired length and height, Priced by the square foot."
+        }
+      ],
+      "options": [{
+          "title": "DE edges",
+          "content": "A detailed edge is applied to the front bottom edge and top edge.",
+          "action": "Edges",
+          "edges": ["BV3", "BV5", "CV6", "OV", "RD3", "RD6", "SC", "SQ"]
+        },
+        {
+          "title": "(DE) Materials",
+          "content": "Not available in Engineered."
+        },
+        {
+          "title": "(DE) Construction",
+          "content": "Made from solid wood(Maple) or MDF if painted."
+        }
+      ],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.", "Not available in Engineered."
+      ],
+      "table": {
+        "header": [ "Detailed Edge", "Order Code", "Description" ],
+        "content": [{
+            "de": "Optional",
+            "code": "FV2-DE",
+            "description": "2 Inner radius on each side"
+          }
+        ]
+      }
+    },
+    {
+      "code": "FV3",
+      "title": "Figured Valance #3",
+      "sizeImage": "small",
+      "image": "https://webquoin.com/Catalog/build/assets/trimsNmoldings/FV3%20figure%20valance%203.jpg",
+      "imageTitle": "Figured Valance #3",
+      "specImage": "https://webquoin.com/catalog/images/FiguredValance3.gif",
+      "specImageTitle": "Drawing",
+      "tags": ["FV3", "DE"],
+      "link": "trim.html?cat=Trims%20Moldings&item=FV3",
+      "lengths": [8],
+      "description": "Figure valance with one smooth radius going from end to end with 3\" margins, perfect for giving a little detail under your hanging cabinets or inbetween.",
+      "standards": [
+        {
+          "title": "Materials",
+          "content": "Available in all wood species (except Engineered) and painted applications."
+        },
+        {
+          "title": "Finishing",
+          "content": "Except for ends(2) all surfaces are finished."
+        },
+        {"title": "Lengths",
+        "content": "Available in 8’ lengths to be trimmed to the appropriate size on site."}
+      ],
+      "options": [{
+          "title": "DE edges",
+          "content": "A detailed edge is applied to the front bottom edge and top edge.",
+          "action": "Edges",
+          "edges": ["BV3", "BV5", "CV6", "OV", "RD3", "RD6", "SC", "SQ"]
+        },
+        {
+          "title": "(DE) Materials",
+          "content": "Not available in Engineered."
+        },
+        {
+          "title": "(DE) Construction",
+          "content": "Made from solid wood(Maple) or MDF if painted."
+        }
+      ],
+      "restrictions": [
+        "Grain runs horizontally and does not change according to the Exterior Material Header Drop-down Menu selection.", "Not available in Engineered."
+      ],
+      "table": {
+        "header": [ "Detailed Edge", "Order Code", "Description" ],
+        "content": [{
+            "de": "Optional",
+            "code": "FV3-DE",
+            "description": "8' foot valance with 1 smooth radius from 3\" out to the other end"
+          }
+        ]
+      }
     }
   ]
 }
