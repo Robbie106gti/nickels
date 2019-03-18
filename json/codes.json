@@ -22,7 +22,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6", "ros"]
+      "options": ["ccd6", "ros"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -47,7 +54,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -72,7 +86,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -97,7 +118,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -122,7 +150,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "code": "B18",
@@ -147,7 +182,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -172,7 +214,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -197,7 +246,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -222,7 +278,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -247,7 +310,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -270,7 +340,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -293,7 +370,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -316,7 +400,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -339,7 +430,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -362,7 +460,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -385,7 +490,14 @@
       ],
       "notes": ["1"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -408,7 +520,14 @@
       ],
       "notes": ["1"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -431,7 +550,14 @@
       ],
       "notes": ["1"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -454,7 +580,14 @@
       ],
       "notes": ["1"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -477,7 +610,14 @@
       ],
       "notes": ["1"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -500,7 +640,14 @@
       ],
       "notes": ["1"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -521,7 +668,14 @@
       }],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -544,7 +698,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -567,7 +728,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -590,7 +758,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -613,7 +788,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -636,7 +818,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -659,7 +848,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -682,7 +878,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -705,7 +908,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -728,7 +938,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -751,7 +968,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -774,7 +998,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -797,7 +1028,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -820,7 +1058,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -843,7 +1088,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -866,7 +1118,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -889,7 +1148,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -912,7 +1178,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -935,7 +1208,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -958,7 +1238,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -981,7 +1268,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1004,7 +1298,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1027,7 +1328,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1050,7 +1358,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1073,7 +1388,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1096,7 +1418,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1119,7 +1448,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1142,7 +1478,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1165,7 +1508,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1188,7 +1538,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1211,7 +1568,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1234,7 +1598,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1257,7 +1628,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1280,7 +1658,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1303,7 +1688,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1326,7 +1718,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1349,7 +1748,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1372,7 +1778,14 @@
       ],
       "notes": ["1"],
       "widths": ["36", "39", "42", "45", "48", "51", "54", "57", "60"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1395,7 +1808,14 @@
       ],
       "notes": ["1"],
       "widths": ["36", "39", "42", "45", "48", "51", "54", "57", "60"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1418,7 +1838,14 @@
       ],
       "notes": ["1"],
       "widths": ["36", "39", "42", "45", "48", "51", "54", "57", "60"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1441,7 +1868,14 @@
       ],
       "notes": ["1"],
       "widths": ["36", "39", "42", "45", "48", "51", "54", "57", "60"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1464,7 +1898,14 @@
       ],
       "notes": ["1"],
       "widths": ["36", "39", "42", "45", "48", "51", "54", "57", "60"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1487,7 +1928,14 @@
       ],
       "notes": ["1"],
       "widths": ["36", "39", "42", "45", "48", "51", "54", "57", "60"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1510,7 +1958,14 @@
       ],
       "notes": ["1"],
       "widths": ["36", "39", "42", "45", "48", "51", "54", "57", "60"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1533,7 +1988,14 @@
       ],
       "notes": ["1"],
       "widths": ["36", "39", "42", "45", "48", "51", "54", "57", "60"],
-      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "adj34", "can", "potb", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -1590,6 +2052,13 @@
             "dw": "14 1/16\" x2"
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -1647,6 +2116,13 @@
             "dw": "14 1/16\" x2"
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -1704,6 +2180,13 @@
             "dw": "14 1/16\" x2"
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -1761,6 +2244,13 @@
             "dw": "14 1/16\" x2"
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -1818,6 +2308,13 @@
             "dw": "14 1/16\" x2"
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -1875,6 +2372,13 @@
             "dw": "14 1/16\" x2"
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -1932,6 +2436,13 @@
             "dw": "14 1/16\" x2"
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -1989,6 +2500,13 @@
             "dw": "14 1/16\" x2"
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -2028,6 +2546,13 @@
             "dw": "20 3/16\""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -2067,6 +2592,13 @@
             "dw": "20 3/16\""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -2112,6 +2644,13 @@
             "dw": "BC3D3930-SI"
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -2130,7 +2669,14 @@
       }],
       "notes": ["1", "6"],
       "widths": ["-"],
-      "options": []
+      "options": [],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2148,7 +2694,14 @@
       }],
       "notes": ["1", "6"],
       "widths": ["-"],
-      "options": []
+      "options": [],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2171,7 +2724,14 @@
       ],
       "notes": ["1"],
       "widths": ["20"],
-      "options": []
+      "options": [],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2194,7 +2754,14 @@
       ],
       "notes": ["1"],
       "widths": ["20"],
-      "options": []
+      "options": [],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2217,7 +2784,14 @@
       ],
       "notes": ["1"],
       "widths": ["20"],
-      "options": []
+      "options": [],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2240,7 +2814,14 @@
       ],
       "notes": ["1"],
       "widths": ["09", "12", "15", "18", "21", "24", "27"],
-      "options": ["ccd6", "adj34"]
+      "options": ["ccd6", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2263,7 +2844,14 @@
       ],
       "notes": ["1"],
       "widths": ["09", "12", "15", "18", "21", "24", "27"],
-      "options": ["ccd6", "adj34"]
+      "options": ["ccd6", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2286,7 +2874,14 @@
       ],
       "notes": ["1"],
       "widths": ["09", "12", "15", "18", "21", "24", "27"],
-      "options": ["ccd6", "adj34"]
+      "options": ["ccd6", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2309,7 +2904,14 @@
       ],
       "notes": ["1"],
       "widths": ["09", "12", "15", "18", "21", "24", "27"],
-      "options": ["ccd6", "adj34"]
+      "options": ["ccd6", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2332,7 +2934,14 @@
       ],
       "notes": ["1"],
       "widths": ["09", "12", "15", "18", "21", "24", "27"],
-      "options": ["ccd6", "adj34"]
+      "options": ["ccd6", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2355,7 +2964,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6", "adj34"]
+      "options": ["ccd6", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2378,7 +2994,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6", "adj34"]
+      "options": ["ccd6", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2401,7 +3024,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6", "adj34"]
+      "options": ["ccd6", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2424,7 +3054,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6", "adj34"]
+      "options": ["ccd6", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2447,7 +3084,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6", "adj34"]
+      "options": ["ccd6", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2470,7 +3114,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6", "adj34"]
+      "options": ["ccd6", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2493,7 +3144,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6", "adj34"]
+      "options": ["ccd6", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2516,7 +3174,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6", "adj34"]
+      "options": ["ccd6", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2579,6 +3244,13 @@
             "dw": "-"
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -2642,6 +3314,13 @@
             "dw": "-"
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -2693,6 +3372,13 @@
             "dw": "-"
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -2774,6 +3460,13 @@
             "dw": "-"
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -2855,6 +3548,13 @@
             "dw": "-"
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -2878,7 +3578,14 @@
       ],
       "notes": ["1", "7"],
       "widths": ["24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2901,7 +3608,14 @@
       ],
       "notes": ["1", "7"],
       "widths": ["24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2924,7 +3638,14 @@
       ],
       "notes": ["1", "7"],
       "widths": ["24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2947,7 +3668,14 @@
       ],
       "notes": ["1", "7"],
       "widths": ["24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2970,7 +3698,14 @@
       ],
       "notes": ["1", "7"],
       "widths": ["24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -2993,7 +3728,14 @@
       ],
       "notes": ["1", "7"],
       "widths": ["24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3016,7 +3758,14 @@
       ],
       "notes": ["1", "7"],
       "widths": ["24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3039,7 +3788,14 @@
       ],
       "notes": ["1", "7"],
       "widths": ["24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3062,7 +3818,14 @@
       ],
       "notes": ["1", "7"],
       "widths": ["24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3085,7 +3848,14 @@
       ],
       "notes": ["1"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3108,7 +3878,14 @@
       ],
       "notes": ["1"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3131,7 +3908,14 @@
       ],
       "notes": ["1"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3154,7 +3938,14 @@
       ],
       "notes": ["1"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3177,7 +3968,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3200,7 +3998,14 @@
       ],
       "notes": ["1"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3223,7 +4028,14 @@
       ],
       "notes": ["1"],
       "widths": ["36", "39", "42", "45", "48", "51", "54", "57", "60"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3246,7 +4058,14 @@
       ],
       "notes": ["1"],
       "widths": ["36", "39", "42", "45", "48", "51", "54", "57", "60"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3285,6 +4104,13 @@
             "dw": "20 3/8\""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -3309,7 +4135,14 @@
       ],
       "notes": ["1"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3333,7 +4166,14 @@
       ],
       "notes": ["1"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3357,7 +4197,14 @@
       ],
       "notes": ["1"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3380,7 +4227,14 @@
       ],
       "notes": ["1"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3403,7 +4257,14 @@
       ],
       "notes": ["1"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3426,7 +4287,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3449,7 +4317,14 @@
       ],
       "notes": ["1"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3472,7 +4347,14 @@
       ],
       "notes": ["1"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3495,7 +4377,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3518,7 +4407,14 @@
       ],
       "notes": ["1"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3541,7 +4437,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3564,7 +4467,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3587,7 +4497,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3610,7 +4527,14 @@
       ],
       "notes": ["1", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3633,7 +4557,14 @@
       ],
       "notes": ["1"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3656,7 +4587,14 @@
       ],
       "notes": ["1"],
       "widths": ["30", "33", "36", "39", "42"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3695,6 +4633,13 @@
             "dw": ""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -3718,7 +4663,14 @@
       ],
       "notes": ["1"],
       "widths": ["33", "36", "39", "42", "45", "48", "51", "54", "57"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3741,7 +4693,14 @@
       ],
       "notes": ["1"],
       "widths": ["33", "36", "39", "42", "45", "48", "51", "54", "57"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3764,7 +4723,14 @@
       ],
       "notes": ["1"],
       "widths": ["33", "36", "39", "42", "45", "48", "51", "54", "57"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3787,7 +4753,14 @@
       ],
       "notes": ["1"],
       "widths": ["33", "36", "39", "42", "45", "48", "51", "54", "57"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3856,6 +4829,13 @@
             "dw": ""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -3879,7 +4859,14 @@
       ],
       "notes": ["1"],
       "widths": ["17"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3902,7 +4889,14 @@
       ],
       "notes": ["1"],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3925,7 +4919,14 @@
       ],
       "notes": ["1"],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -3988,6 +4989,13 @@
             "dw": ""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -4051,6 +5059,13 @@
             "dw": ""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -4102,6 +5117,13 @@
             "dw": ""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -4183,6 +5205,13 @@
             "dw": ""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -4264,6 +5293,13 @@
             "dw": ""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -4287,7 +5323,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4310,7 +5353,14 @@
       ],
       "notes": [],
       "widths": ["27", "30", "33", "36", "39", "42"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4333,7 +5383,14 @@
       ],
       "notes": ["1"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4356,7 +5413,14 @@
       ],
       "notes": ["1"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4379,7 +5443,14 @@
       ],
       "notes": ["1"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4402,7 +5473,14 @@
       ],
       "notes": ["1"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4425,7 +5503,14 @@
       ],
       "notes": ["1"],
       "widths": ["33", "36", "39", "42", "45", "48", "51", "54", "57"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4448,7 +5533,14 @@
       ],
       "notes": ["1"],
       "widths": ["33", "36", "39", "42", "45", "48", "51", "54", "57"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4487,6 +5579,13 @@
             "dw": "22 5/8\""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -4510,7 +5609,14 @@
       ],
       "notes": ["1", "8", "17", "18"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4533,7 +5639,14 @@
       ],
       "notes": ["1", "8", "17", "18"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4556,7 +5669,14 @@
       ],
       "notes": ["1", "8", "17", "18"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4579,7 +5699,14 @@
       ],
       "notes": ["1", "8", "17", "18"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4602,7 +5729,14 @@
       ],
       "notes": ["1", "8"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6", "can", "potb", "adj34"]
+      "options": ["ccd6", "can", "potb", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4625,7 +5759,14 @@
       ],
       "notes": ["1", "2", "8"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6", "can", "potb", "adj34"]
+      "options": ["ccd6", "can", "potb", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4648,7 +5789,14 @@
       ],
       "notes": ["1", "8"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6", "can", "potb", "adj34"]
+      "options": ["ccd6", "can", "potb", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4671,7 +5819,14 @@
       ],
       "notes": ["1", "8"],
       "widths": ["15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6", "can", "potb", "adj34"]
+      "options": ["ccd6", "can", "potb", "adj34"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4694,7 +5849,14 @@
       ],
       "notes": ["1", "8"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6", "can", "potb", "adj34", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "can", "potb", "adj34", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4717,7 +5879,14 @@
       ],
       "notes": ["1", "8"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6", "can", "potb", "adj34", "fdd", "sst", "sstn", "tst", "tstn"]
+      "options": ["ccd6", "can", "potb", "adj34", "fdd", "sst", "sstn", "tst", "tstn"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4740,7 +5909,14 @@
       ],
       "notes": ["1", "2", "8"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4763,7 +5939,14 @@
       ],
       "notes": ["1", "2", "8"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4786,7 +5969,14 @@
       ],
       "notes": ["1", "8"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4809,7 +5999,14 @@
       ],
       "notes": ["1", "2", "8"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4832,7 +6029,14 @@
       ],
       "notes": ["1", "8"],
       "widths": ["27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4855,7 +6059,14 @@
       ],
       "notes": ["1", "8"],
       "widths": ["33", "36", "39", "42", "45", "48", "51", "54", "57"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4878,7 +6089,14 @@
       ],
       "notes": ["1", "8"],
       "widths": ["33", "36", "39", "42", "45", "48", "51", "54", "57"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4901,7 +6119,14 @@
       ],
       "notes": ["1", "8"],
       "widths": ["33", "36", "39", "42", "45", "48", "51", "54", "57"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4924,7 +6149,14 @@
       ],
       "notes": ["1", "8"],
       "widths": ["33", "36", "39", "42", "45", "48", "51", "54", "57"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -4947,7 +6179,14 @@
       ],
       "notes": [],
       "widths": ["21", "24", "27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5042,6 +6281,13 @@
         ],
         "notes": ["* = modified sizes for taller cutout opening setups"],
         "image": "https://webquoin.com/catalog/images/TallOvenSetups.gif"
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -5137,6 +6383,13 @@
         ],
         "notes": ["* = modified sizes for taller cutout opening setups"],
         "image": "https://webquoin.com/catalog/images/TallOvenSetups.gif"
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -5232,6 +6485,13 @@
         ],
         "notes": ["* = modified sizes for taller cutout opening setups"],
         "image": "https://webquoin.com/catalog/images/TallOvenSetups.gif"
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -5255,7 +6515,14 @@
       ],
       "widths": ["27", "30", "33"],
       "notes": ["13", "14", "15"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5278,7 +6545,14 @@
       ],
       "notes": ["13", "14", "15"],
       "widths": ["27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5301,7 +6575,14 @@
       ],
       "notes": ["13", "14", "15"],
       "widths": ["27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5324,7 +6605,14 @@
       ],
       "notes": ["13", "14", "15"],
       "widths": ["27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5347,7 +6635,14 @@
       ],
       "widths": ["27", "30", "33"],
       "notes": ["13", "14", "15"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5370,7 +6665,14 @@
       ],
       "notes": ["13", "14", "15"],
       "widths": ["27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5393,7 +6695,14 @@
       ],
       "notes": ["13", "14", "15"],
       "widths": ["27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5416,7 +6725,14 @@
       ],
       "notes": ["13", "14", "15"],
       "widths": ["27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5439,7 +6755,14 @@
       ],
       "widths": ["27", "30", "33"],
       "notes": ["13", "14", "15"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5462,7 +6785,14 @@
       ],
       "notes": ["13", "14", "15"],
       "widths": ["27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5485,7 +6815,14 @@
       ],
       "notes": ["13", "14", "15"],
       "widths": ["27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5508,7 +6845,14 @@
       ],
       "notes": ["13", "14", "15"],
       "widths": ["27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5561,6 +6905,13 @@
             "dw": ""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -5614,6 +6965,13 @@
             "dw": ""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -5667,6 +7025,13 @@
             "dw": ""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -5690,7 +7055,14 @@
       ],
       "notes": [],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5713,7 +7085,14 @@
       ],
       "notes": [],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5736,7 +7115,14 @@
       ],
       "notes": [],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5759,7 +7145,14 @@
       ],
       "notes": [],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5782,7 +7175,14 @@
       ],
       "notes": [],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5805,7 +7205,14 @@
       ],
       "notes": [],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5828,7 +7235,14 @@
       ],
       "notes": [],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5851,7 +7265,14 @@
       ],
       "notes": [],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5874,7 +7295,14 @@
       ],
       "notes": [],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5897,7 +7325,14 @@
       ],
       "notes": [],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5920,7 +7355,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5943,7 +7385,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5966,7 +7415,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -5989,7 +7445,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6012,7 +7475,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6035,7 +7505,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6058,7 +7535,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6081,7 +7565,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6104,7 +7595,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6127,7 +7625,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6150,7 +7655,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6173,7 +7685,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6196,7 +7715,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6219,7 +7745,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6242,7 +7775,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6265,7 +7805,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6288,7 +7835,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6311,7 +7865,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6334,7 +7895,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6357,7 +7925,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6380,7 +7955,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6403,7 +7985,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6426,7 +8015,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6449,7 +8045,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6472,7 +8075,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6495,7 +8105,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6518,7 +8135,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6541,7 +8165,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6564,7 +8195,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6587,7 +8225,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6610,7 +8255,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6633,7 +8285,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6656,7 +8315,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6679,7 +8345,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6702,7 +8375,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6725,7 +8405,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6748,7 +8435,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6771,7 +8465,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -6840,6 +8541,13 @@
             "dw": ""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -6909,6 +8617,13 @@
             "dw": ""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -6978,6 +8693,13 @@
             "dw": ""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -7047,6 +8769,13 @@
             "dw": ""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -7116,6 +8845,13 @@
             "dw": ""
           }
         ]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -7139,7 +8875,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7162,7 +8905,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7185,7 +8935,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7208,7 +8965,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7231,7 +8995,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7254,7 +9025,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7277,7 +9055,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7300,7 +9085,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7323,7 +9115,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7346,7 +9145,14 @@
       ],
       "notes": [],
       "widths": ["06", "09", "12", "15", "18"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7369,7 +9175,14 @@
       ],
       "notes": [],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7392,7 +9205,14 @@
       ],
       "notes": [],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7415,7 +9235,14 @@
       ],
       "notes": [],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7438,7 +9265,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7461,7 +9295,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7484,7 +9325,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7507,7 +9355,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7530,7 +9385,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7553,7 +9415,14 @@
       ],
       "notes": ["2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7576,7 +9445,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7599,7 +9475,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7622,7 +9505,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7645,7 +9535,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7668,7 +9565,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7691,7 +9595,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7714,7 +9625,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7737,7 +9655,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7760,7 +9685,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7783,7 +9715,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7806,7 +9745,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7829,7 +9775,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7852,7 +9805,14 @@
       ],
       "notes": ["10"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7875,7 +9835,14 @@
       ],
       "notes": ["10"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7898,7 +9865,14 @@
       ],
       "notes": ["10"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7921,7 +9895,14 @@
       ],
       "notes": ["10"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7944,7 +9925,14 @@
       ],
       "notes": ["10"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7967,7 +9955,14 @@
       ],
       "notes": ["10"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -7990,7 +9985,14 @@
       ],
       "notes": ["10"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8013,7 +10015,14 @@
       ],
       "notes": ["10"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8036,7 +10045,14 @@
       ],
       "notes": ["10"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8059,7 +10075,14 @@
       ],
       "notes": ["10"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8082,7 +10105,14 @@
       ],
       "notes": ["10"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8105,7 +10135,14 @@
       ],
       "notes": ["10"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8128,7 +10165,14 @@
       ],
       "notes": ["10"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8151,7 +10195,14 @@
       ],
       "notes": ["10"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8174,7 +10225,14 @@
       ],
       "notes": ["10"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8197,7 +10255,14 @@
       ],
       "notes": ["10", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8220,7 +10285,14 @@
       ],
       "notes": ["10", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8243,7 +10315,14 @@
       ],
       "notes": ["10", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8266,7 +10345,14 @@
       ],
       "notes": ["10", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8289,7 +10375,14 @@
       ],
       "notes": ["10", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8312,7 +10405,14 @@
       ],
       "notes": ["10", "2"],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8354,6 +10454,13 @@
           "l": "15",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -8396,6 +10503,13 @@
           "l": "15",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -8438,6 +10552,13 @@
           "l": "15",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -8480,6 +10601,13 @@
           "l": "15",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -8522,6 +10650,13 @@
           "l": "15",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -8564,6 +10699,13 @@
           "l": "15",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -8606,6 +10748,13 @@
           "l": "15",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -8648,6 +10797,13 @@
           "l": "15",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -8690,6 +10846,13 @@
           "l": "15",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -8732,6 +10895,13 @@
           "l": "15",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -8755,7 +10925,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8778,7 +10955,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8801,7 +10985,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8824,7 +11015,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8847,7 +11045,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8870,7 +11075,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8893,7 +11105,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8916,7 +11135,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8939,7 +11165,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8962,7 +11195,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -8985,7 +11225,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9008,7 +11255,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9031,7 +11285,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9054,7 +11315,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9077,7 +11345,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9100,7 +11375,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9123,7 +11405,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9146,7 +11435,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9169,7 +11465,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9192,7 +11495,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9215,7 +11525,14 @@
       ],
       "notes": [],
       "widths": ["08"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9238,7 +11555,14 @@
       ],
       "notes": [],
       "widths": ["08"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9261,7 +11585,14 @@
       ],
       "notes": [],
       "widths": ["08"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9284,7 +11615,14 @@
       ],
       "notes": [],
       "widths": ["08"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9307,7 +11645,14 @@
       ],
       "notes": [],
       "widths": ["08"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9330,7 +11675,14 @@
       ],
       "notes": [],
       "widths": ["08"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9353,7 +11705,14 @@
       ],
       "notes": [],
       "widths": ["08"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9376,7 +11735,14 @@
       ],
       "notes": [],
       "widths": ["08"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9399,7 +11765,14 @@
       ],
       "notes": [],
       "widths": ["08"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9422,7 +11795,14 @@
       ],
       "notes": [],
       "widths": ["08"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9445,7 +11825,14 @@
       ],
       "notes": ["5"],
       "widths": ["24"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9468,7 +11855,14 @@
       ],
       "notes": ["5"],
       "widths": ["24"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9491,7 +11885,14 @@
       ],
       "notes": ["5"],
       "widths": ["24"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9514,7 +11915,14 @@
       ],
       "notes": ["5"],
       "widths": ["24"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9537,7 +11945,14 @@
       ],
       "notes": ["5"],
       "widths": ["24"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9560,7 +11975,14 @@
       ],
       "notes": ["5"],
       "widths": ["24"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9583,7 +12005,14 @@
       ],
       "notes": ["5"],
       "widths": ["24"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9606,7 +12035,14 @@
       ],
       "notes": ["5"],
       "widths": ["24"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9629,7 +12065,14 @@
       ],
       "notes": ["5"],
       "widths": ["24"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9652,7 +12095,14 @@
       ],
       "notes": ["5"],
       "widths": ["24"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -9714,6 +12164,13 @@
           "l": "",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -9776,6 +12233,13 @@
           "l": "",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -9838,6 +12302,13 @@
           "l": "",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -9900,6 +12371,13 @@
           "l": "",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -9962,6 +12440,13 @@
           "l": "",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -10024,6 +12509,13 @@
           "l": "",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -10086,6 +12578,13 @@
           "l": "",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -10148,6 +12647,13 @@
           "l": "",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -10210,6 +12716,13 @@
           "l": "",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -10272,6 +12785,13 @@
           "l": "",
           "dw": ""
         }]
+      },
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
       }
     },
     {
@@ -10295,7 +12815,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10318,7 +12845,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10341,7 +12875,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10364,7 +12905,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10387,7 +12935,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10410,7 +12965,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10433,7 +12995,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10456,7 +13025,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10479,7 +13055,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10502,7 +13085,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10525,7 +13115,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10548,7 +13145,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10571,7 +13175,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10594,7 +13205,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10617,7 +13235,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10640,7 +13265,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10663,7 +13295,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10686,7 +13325,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10709,7 +13355,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10732,7 +13385,14 @@
       ],
       "notes": [],
       "widths": ["03", "06", "09", "12"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10755,7 +13415,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10778,7 +13445,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10801,7 +13475,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10824,7 +13505,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10847,7 +13535,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10870,7 +13565,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10893,7 +13595,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10916,7 +13625,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10939,7 +13655,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10962,7 +13685,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -10985,7 +13715,14 @@
       ],
       "notes": ["7"],
       "widths": ["24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11008,7 +13745,14 @@
       ],
       "notes": [],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11031,7 +13775,14 @@
       ],
       "notes": [],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11054,7 +13805,14 @@
       ],
       "notes": [],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11077,7 +13835,14 @@
       ],
       "notes": [],
       "widths": ["09", "12", "15", "18", "21", "24", "27", "30", "33", "36", "39"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11100,7 +13865,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11123,7 +13895,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11146,7 +13925,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11169,7 +13955,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11192,7 +13985,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11215,7 +14015,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11238,7 +14045,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11261,7 +14075,14 @@
       ],
       "notes": [],
       "widths": ["24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11284,7 +14105,14 @@
       ],
       "notes": ["5"],
       "widths": ["24"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11307,7 +14135,14 @@
       ],
       "notes": ["5"],
       "widths": ["24"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11330,7 +14165,14 @@
       ],
       "notes": ["5"],
       "widths": ["24"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11353,7 +14195,14 @@
       ],
       "notes": ["5"],
       "widths": ["24"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11376,7 +14225,14 @@
       ],
       "notes": [],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11399,7 +14255,14 @@
       ],
       "notes": [],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42", "45", "48"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11422,7 +14285,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11445,7 +14315,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11468,7 +14345,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11491,7 +14375,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11514,7 +14405,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11537,7 +14435,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11560,7 +14465,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11583,7 +14495,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11606,7 +14525,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11629,7 +14555,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11652,7 +14585,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11675,7 +14615,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11698,7 +14645,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11721,7 +14675,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11744,7 +14705,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11767,7 +14735,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11790,7 +14765,14 @@
       ],
       "notes": ["11", "12"],
       "widths": ["24", "27"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11813,7 +14795,14 @@
       ],
       "notes": ["11", "12"],
       "widths": ["24", "27"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11836,7 +14825,14 @@
       ],
       "notes": ["11", "12"],
       "widths": ["24", "27"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11859,7 +14855,14 @@
       ],
       "notes": ["11", "12"],
       "widths": ["24", "27"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11882,7 +14885,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11905,7 +14915,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11928,7 +14945,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11951,7 +14975,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11974,7 +15005,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -11997,7 +15035,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -12020,7 +15065,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     },
     {
       "active": true,
@@ -12043,7 +15095,14 @@
       ],
       "notes": ["11"],
       "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36", "39", "42"],
-      "options": ["ccd6"]
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     }
   ]
 }
