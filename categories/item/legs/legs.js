@@ -199,7 +199,7 @@ function setSpecs(item) {
 ${item.materials
   .map((mat, i, arr) => {
     i++;
-    let text = i === arr.length ? ' and' + mat : mat + ', ';
+    let text = i === arr.length ? ' and ' + mat : mat + ', ';
     return text;
   })
   .join('')}
