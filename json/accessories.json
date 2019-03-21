@@ -1,57 +1,81 @@
 {
-  "Accessories": [{
+  "Accessories": [
+    {
       "code": "LED",
       "title": "LED : Led Loox Lighting",
-      "attached": [{
-        "code": "NONE",
-        "title": "Led Loox Lighting",
-        "link": "loox/index"
-      }],
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Led Loox Lighting",
+          "link": "loox/index"
+        }
+      ],
       "image": "https://webquoin.com/catalog/build/assets/loox/Loox%20strip%20led%20couche.jpg",
       "tags": ["led", "kits", "spot", "strip", "parts", "shelf", "loox"]
     },
     {
       "code": "RGB",
       "title": "RGB : Recycle bins",
-      "attached": [{
-        "code": "NONE",
-        "title": "Recycle bins",
-        "link": "pod"
-      }],
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Recycle bins",
+          "link": "pod"
+        }
+      ],
       "image": "https://webquoin.com/catalog/build/assets/rgb/38L%2038L%2012L%202.5L%20461950100%20rgb-pod-25.jpg",
       "tags": ["single bin", "double bin", "4 bin"]
     },
     {
       "code": "TPOD",
       "title": "TPOD : Tall pull-out door",
-      "attached": [{
-        "code": "NONE",
-        "title": "Tall pull-out",
-        "link": "tpod/index"
-      }],
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Tall pull-out",
+          "link": "tpod/index"
+        }
+      ],
       "image": "https://webquoin.com/catalog/build/assets/tpod/tpod.jpg",
       "tags": ["pantry", "tall", "hardware", "maple", "white", "grey", "chrome"]
     },
     {
       "code": "MC",
       "title": "MC : Magic corners",
-      "attached": [{
-        "code": "NONE",
-        "title": "Magic corners",
-        "link": "magic corner/index"
-      }],
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Magic corners",
+          "link": "magic corner/index"
+        }
+      ],
       "image": "https://webquoin.com/catalog/build/assets/mc/wari.jpg",
       "tags": ["corner", "cab", "hardware", "maple", "white", "grey", "chrome"]
     },
     {
       "code": "HFU",
       "title": "HFU : Hood fan units",
-      "attached": [{
-        "code": "NONE",
-        "title": "Hood fan units",
-        "link": "Hood fans/index"
-      }],
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Hood fan units",
+          "link": "Hood fans/index"
+        }
+      ],
       "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20E%20preview.jpg",
+      "tags": ["hoodfan", "cabinet", "chrome"]
+    },
+    {
+      "code": "LEGS",
+      "title": "LEGS : Legs and Posts",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Legs and Posts",
+          "link": "legs/index"
+        }
+      ],
+      "image": "https://webquoin.com/Catalog/build/assets/legs/legs.jpg",
       "tags": ["hoodfan", "cabinet", "chrome"]
     }
   ]
