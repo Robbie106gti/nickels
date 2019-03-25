@@ -16,7 +16,9 @@
     <!--Import custom css style sheet-->
     <link rel="stylesheet" href="../../../styles.css" />
     <!--Let browser know website is optimized for mobile-->
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- Favicons -->
     <link
@@ -129,26 +131,10 @@
         document.write('<script src="./legs.js"><\/script>');
       }
     </script>
-
-    <script
-      type="text/javascript"
-      src="../../../jquery.contextMenu.js"
-    ></script>
-    <link
-      href="../../../../../../css/jquery.contextMenu.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <ul id="AddToCartMenu" class="contextMenu">
-      <li class="add">
-        <a href="#add" style="font-family:verdana;"
-          ><img
-            src="../../../../../../images/cart.gif"
-            align="absmiddle"
-            style="border:0;"
-          />&nbsp;Add this item to job</a
-        >
-      </li>
-    </ul>
+    <script>
+      $(document).ready(function() {
+        parent.activatecat();
+      });
+    </script>
   </body>
 </html>

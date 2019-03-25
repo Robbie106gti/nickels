@@ -90,6 +90,7 @@ function makeStructure(info) {
   $('#catalog').html(structure);
   setDes(info.item);
   setSpecs(info.item);
+  setCodes(info.item);
 }
 
 function setMainImage(info) {
@@ -207,6 +208,14 @@ ${item.materials
     </div>
     `;
   $('#spec').html(spec);
+}
+
+function setCodes(item) {
+  const codes = `<div class="card-panel blue accent-1">
+  <p class=""><b>Click the ordercode to add to your job:</b>
+    <span class="ordercode">${item.code}</span></p>
+  </div>`;
+  $('#codes').html(codes);
 }
 
 function setNotes(item) {

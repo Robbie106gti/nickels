@@ -486,6 +486,17 @@ function isString(value) {
 }
 
 function setGI(data) {
+  const link = isString(data)
+    ? '../index.html'
+    : './trim.html?cat=Trims%20Moldings';
+  let div = `
+  <div class="container ">
+    <a href="${link}" class="right">
+      <i class="small material-icons">arrow_back</i>
+    </a>
+    <div id="topic"></div>
+  </div>`;
+  $('#top').html(div);
   const cat = isString(data)
     ? `<h1 id="topic">${data}</h1>`
     : `<h1 id="topic">${data.sub}</h1><h5>${
