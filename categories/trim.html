@@ -1,74 +1,155 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../node_modules/materialize-css/dist/css/materialize.min.css"
+      media="screen,projection"
+    />
+    <!--Import custom css style sheet-->
+    <link rel="stylesheet" href="../styles.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css" media="screen,projection" />
-  <!--Import custom css style sheet-->
-  <link rel="stylesheet" href="../styles.css" />
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="../assets/favicons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="../assets/favicons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="../assets/favicons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="../assets/favicons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="../assets/favicons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="../assets/favicons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="../assets/favicons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="../assets/favicons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/favicons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="../assets/favicons/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="../assets/favicons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../assets/favicons/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="../assets/favicons/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
 
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="57x57" href="../assets/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="../assets/favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="../assets/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="../assets/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="../assets/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="../assets/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="../assets/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="../assets/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="../assets/favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="../assets/favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicons/favicon-16x16.png">
-  <link rel="manifest" href="../assets/favicons/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="../assets/favicons/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-</head>
+  <body>
+    <div id="header"></div>
 
-<body>
-  <div id="header"></div>
-  <div id="loader"></div>
-  <div id="top" class="card">
-    <div class="container ">
-      <a href="trim.html?cat=Trims%20Moldings" class="right">
-        <i class="small material-icons">arrow_back</i>
-      </a>
-      <div id="topic"></div>
+    <div id="top" class="card">
+      <div class="container ">
+        <a href="trim.html?cat=Trims%20Moldings" class="right">
+          <i class="small material-icons">arrow_back</i>
+        </a>
+        <div id="topic"></div>
+      </div>
     </div>
-  </div>
-  <div id="catalog" class="row"></div>
-  <div id="footer"></div>
+    <div id="catalog" class="row"></div>
+    <div id="footer"></div>
 
-  <!--Import jQuery before materialize.js-->
-  <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
-  <script type="text/javascript" src="../node_modules/materialize-css/dist/js/materialize.min.js"></script>
-  <script type="text/javascript">
-    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
-      document.write(
-        '<script src="../node_modules/promise-polyfill/promise.min.js"><\/script><script src="../node_modules/whatwg-fetch/fetch.js"><\/script><script src="../includes.js"><\/script><script src="./trim-ms.js"><\/script>'
-      );
-      var ua = window.navigator.userAgent;
-      var msie = ua.indexOf("MSIE ");
-      alert(
-        'Our appologies it seems like you are using Internet Explorer, your experiance will be worse using this browser and not all information can be garantied. Would you please switch to Chrome/Edge/Firefox/Safari or Opera.'
-      );
-    } else {
-      document.write('<script src="./trim.js"><\/script>');
-    }
-
-  </script>
-  <script type="text/javascript" src="../jquery.contextMenu.js"></script>
-  <link href="../../../css/jquery.contextMenu.css" rel="stylesheet" type="text/css" />
-  <ul id="AddToCartMenu" class="contextMenu">
-    <li class="add"><a href="#add" style="font-family:verdana;"><img src='../../../images/cart.gif' align='absmiddle'
-          style='border:0;' />&nbsp;Add this item to job</a></li>
-  </ul>
-</body>
-
+    <!--Import jQuery before materialize.js-->
+    <script
+      type="text/javascript"
+      src="../node_modules/jquery/dist/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="../node_modules/materialize-css/dist/js/materialize.min.js"
+    ></script>
+    <script type="text/javascript">
+      if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+        document.write(
+          '<script src="../node_modules/promise-polyfill/promise.min.js"><\/script><script src="../node_modules/whatwg-fetch/fetch.js"><\/script><script src="../includes.js"><\/script><script src="./trim-ms.js"><\/script>'
+        );
+        var ua = window.navigator.userAgent;
+        var msie = ua.indexOf('MSIE ');
+        alert(
+          'Our appologies it seems like you are using Internet Explorer, your experiance will be worse using this browser and not all information can be garantied. Would you please switch to Chrome/Edge/Firefox/Safari or Opera.'
+        );
+      } else {
+        document.write('<script src="./trim.js"><\/script>');
+      }
+    </script>
+    <script type="text/javascript" src="../jquery.contextMenu.js"></script>
+    <link
+      href="../../../css/jquery.contextMenu.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <ul id="AddToCartMenu" class="contextMenu">
+      <li class="add">
+        <a href="#add" style="font-family:verdana;"
+          ><img
+            src="../../../images/cart.gif"
+            align="absmiddle"
+            style="border:0;"
+          />&nbsp;Add this item to job</a
+        >
+      </li>
+    </ul>
+  </body>
 </html>
