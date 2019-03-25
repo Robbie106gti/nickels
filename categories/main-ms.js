@@ -89,7 +89,7 @@ function fetchCabinets(cat) {
 }
 
 function cabinetCard(cat) {
-  return '<div class="card '
+  return '<div class="col s3"><div class="card medium'
     .concat(
       edge,
       '">\n  <div class="card-image waves-effect waves-block waves-light">\n      <img class="image20 activator" src="'
@@ -110,7 +110,7 @@ function cabinetCard(cat) {
       cat.title,
       '<i class="material-icons right">close</i></span>\n      '
     )
-    .concat(getLinks(cat), '\n  </div>\n</div>\n');
+    .concat(getLinks(cat), '\n  </div>\n</div></div>\n');
 }
 
 function fetchGI(cat) {
@@ -170,7 +170,7 @@ function switchCard(cat) {
 }
 
 function cardWith(cat) {
-  var card = '<div class="card '
+  var card = '<div class="col s3"><div class="card medium'
     .concat(
       edge,
       '">\n            <div class="card-image waves-effect waves-block waves-light">\n                <img class="image20 activator" src="'
@@ -191,7 +191,7 @@ function cardWith(cat) {
       cat.title,
       '<i class="material-icons right">close</i></span>\n                '
     )
-    .concat(getLinks(cat), '\n            </div>\n        </div>');
+    .concat(getLinks(cat), '\n            </div>\n        </div> </div>');
   return card;
 }
 
@@ -199,7 +199,7 @@ function cardWithout(cat) {
   var card;
 
   if (cat.attached[0].sub === '') {
-    card = '<div class="card '
+    card = '<div class="col s3"><div class="card '
       .concat(edge, '">\n                <a href="')
       .concat(
         cat.attached[0].link,
@@ -215,10 +215,10 @@ function cardWithout(cat) {
       )
       .concat(
         getTags(cat.tags),
-        '\n                  </div>\n                </a>\n              </div>'
+        '\n                  </div>\n                </a>\n              </div> </div>'
       );
   } else {
-    card = '<div class="card '
+    card = '<div class="col s3"><div class="card medium'
       .concat(edge, '">\n                <a href="./item/')
       .concat(
         configLink(cat),
@@ -234,7 +234,7 @@ function cardWithout(cat) {
       )
       .concat(
         getTags(cat.tags),
-        '\n                  </div>\n                </a>\n              </div>'
+        '\n                  </div>\n                </a>\n              </div> </div>'
       );
   }
 
