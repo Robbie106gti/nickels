@@ -10,7 +10,7 @@
           "link": "loox/index"
         }
       ],
-      "image": "https://webquoin.com/catalog/build/assets/loox/Loox%20strip%20led%20couche.jpg",
+      "image": "/catalog/build/assets/loox/Loox%20strip%20led%20couche.jpg",
       "tags": ["led", "kits", "spot", "strip", "parts", "shelf", "loox"]
     },
     {
@@ -23,7 +23,7 @@
           "link": "pod"
         }
       ],
-      "image": "https://webquoin.com/catalog/build/assets/rgb/38L%2038L%2012L%202.5L%20461950100%20rgb-pod-25.jpg",
+      "image": "/catalog/build/assets/rgb/38L%2038L%2012L%202.5L%20461950100%20rgb-pod-25.jpg",
       "tags": ["single bin", "double bin", "4 bin"]
     },
     {
@@ -36,7 +36,7 @@
           "link": "tpod/index"
         }
       ],
-      "image": "https://webquoin.com/catalog/build/assets/tpod/tpod.jpg",
+      "image": "/catalog/build/assets/tpod/tpod.jpg",
       "tags": ["pantry", "tall", "hardware", "maple", "white", "grey", "chrome"]
     },
     {
@@ -49,7 +49,7 @@
           "link": "magic corner/index"
         }
       ],
-      "image": "https://webquoin.com/catalog/build/assets/mc/wari.jpg",
+      "image": "/catalog/build/assets/mc/wari.jpg",
       "tags": ["corner", "cab", "hardware", "maple", "white", "grey", "chrome"]
     },
     {
@@ -62,7 +62,7 @@
           "link": "Hood fans/index"
         }
       ],
-      "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20E%20preview.jpg",
+      "image": "/catalog/build/assets/hfu/HFU%20E%20preview.jpg",
       "tags": ["hoodfan", "cabinet", "chrome"]
     },
     {
@@ -75,7 +75,7 @@
           "link": "legs/index"
         }
       ],
-      "image": "https://webquoin.com/Catalog/build/assets/legs/legs.jpg",
+      "image": "/catalog/build/assets/legs/legs.jpg",
       "tags": ["hoodfan", "cabinet", "chrome"]
     }
   ]

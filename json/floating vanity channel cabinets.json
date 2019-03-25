@@ -6,7 +6,7 @@
         "height": "24",
         "link": "page"
       }],
-      "image": "https://webquoin.com/catalog/build/assets/cabinets/FVSFDC__24.png",
+      "image": "/catalog/build/assets/cabinets/FVSFDC__24.png",
       "tags": ["vanity", "full", "door", "channel", "24\""]
     },
     {
@@ -16,7 +16,7 @@
         "height": "24",
         "link": "page"
       }],
-      "image": "https://webquoin.com/catalog/build/assets/cabinets/FVSFDC__24.png",
+      "image": "/catalog/build/assets/cabinets/FVSFDC__24.png",
       "tags": ["vanity", "sink", "full", "door", "channel", "24\""]
     },
     {
@@ -26,7 +26,7 @@
         "height": "24",
         "link": "page"
       }],
-      "image": "https://webquoin.com/catalog/build/assets/cabinets/FV2DC__24.png",
+      "image": "/catalog/build/assets/cabinets/FV2DC__24.png",
       "tags": ["vanity", "2", "drawer", "channel", "24\""]
     },
     {
@@ -36,7 +36,7 @@
         "height": "24",
         "link": "page"
       }],
-      "image": "https://webquoin.com/catalog/build/assets/cabinets/FV3DC__24.png",
+      "image": "/catalog/build/assets/cabinets/FV3DC__24.png",
       "tags": ["vanity", "3", "drawer", "channel", "24\""]
     }
   ]

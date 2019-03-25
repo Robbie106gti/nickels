@@ -12,7 +12,7 @@
       "tags": ["Hoodfan"],
       "code": "HFUA",
       "title": "Hood fan unit: A",
-      "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20Hood%20A.jpg",
+      "image": "/catalog/build/assets/hfu/HFU%20Hood%20A.jpg",
       "imageTitle": "Painted HFU A",
       "description": "",
       "widths": [24, 30, 36],
@@ -32,48 +32,48 @@
         }
       },
       "depth": "12",
-      "specImage": "https://webquoin.com/Catalog/build/assets/hfu/Hfua3630.png",
+      "specImage": "/catalog/build/assets/hfu/Hfua3630.png",
       "specImageTitle": "Specifcations for a HFUA3630",
       "images": [
         {
           "title": "Painted Hood fan A",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20A%20preview.jpg"
+          "image": "/catalog/build/assets/hfu/HFU%20A%20preview.jpg"
         },
         {
           "title": "Specifcations for a HFUA3630",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua3630.png"
+          "image": "/catalog/build/assets/hfu/Hfua3630.png"
         },
         {
           "title": "Specifcations for a HFUA3624",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua3624.png"
+          "image": "/catalog/build/assets/hfu/Hfua3624.png"
         },
         {
           "title": "Specifcations for a HFUA3618",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua3618.png"
+          "image": "/catalog/build/assets/hfu/Hfua3618.png"
         },
         {
           "title": "Specifcations for a HFUA3030",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua3030.png"
+          "image": "/catalog/build/assets/hfu/Hfua3030.png"
         },
         {
           "title": "Specifcations for a HFUA3024",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua3024.png"
+          "image": "/catalog/build/assets/hfu/Hfua3024.png"
         },
         {
           "title": "Specifcations for a HFUA2418",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua2418.png"
+          "image": "/catalog/build/assets/hfu/Hfua2418.png"
         },
         {
           "title": "Specifcations for a HFUA2430",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua2430.png"
+          "image": "/catalog/build/assets/hfu/Hfua2430.png"
         },
         {
           "title": "Specifcations for a HFUA2424",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua2424.png"
+          "image": "/catalog/build/assets/hfu/Hfua2424.png"
         },
         {
           "title": "Specifcations for a HFUA2418",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Hfua2418.png"
+          "image": "/catalog/build/assets/hfu/Hfua2418.png"
         }
       ],
       "notes": [
@@ -95,7 +95,7 @@
       "tags": ["Hoodfan"],
       "code": "HFUB",
       "title": "Hood fan unit: B",
-      "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20Hood%20B.jpg",
+      "image": "/catalog/build/assets/hfu/HFU%20Hood%20B.jpg",
       "imageTitle": "Hood fan unit: B - in raw Alder",
       "description": "",
       "widths": [30, 32, 36],
@@ -118,31 +118,31 @@
       "images": [
         {
           "title": "Painted Hood fan B",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20B%20preview.jpg"
+          "image": "/catalog/build/assets/hfu/HFU%20B%20preview.jpg"
         },
         {
           "title": "Specifcations for a HFUB3630",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HFUB3630.png"
+          "image": "/catalog/build/assets/hfu/HFUB3630.png"
         },
         {
           "title": "Specifcations for a HFUB3624",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuB3624.png"
+          "image": "/catalog/build/assets/hfu/HfuB3624.png"
         },
         {
           "title": "Specifcations for a HFUB3230",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuB3230.png"
+          "image": "/catalog/build/assets/hfu/HfuB3230.png"
         },
         {
           "title": "Specifcations for a HFUB3224",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuB3224.png"
+          "image": "/catalog/build/assets/hfu/HfuB3224.png"
         },
         {
           "title": "Specifcations for a HFUB3030",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuB3030.png"
+          "image": "/catalog/build/assets/hfu/HfuB3030.png"
         },
         {
           "title": "Specifcations for a HFUB3024",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuB3024.png"
+          "image": "/catalog/build/assets/hfu/HfuB3024.png"
         }
       ],
       "notes": [
@@ -168,7 +168,7 @@
       "tags": ["Hoodfan"],
       "code": "HFUC",
       "title": "Hood fan unit: C",
-      "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20Hood%20C.jpg",
+      "image": "/catalog/build/assets/hfu/HFU%20Hood%20C.jpg",
       "imageTitle": "Hood fan unit: C - in raw Alder",
       "description": "",
       "widths": [30, 32, 36],
@@ -191,31 +191,31 @@
       "images": [
         {
           "title": "Painted Hood fan C",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20C%20preview.jpg"
+          "image": "/catalog/build/assets/hfu/HFU%20C%20preview.jpg"
         },
         {
           "title": "Specifcations for a HFUC3630",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HFUC3630.png"
+          "image": "/catalog/build/assets/hfu/HFUC3630.png"
         },
         {
           "title": "Specifcations for a HFUC3624",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuC3624.png"
+          "image": "/catalog/build/assets/hfu/HfuC3624.png"
         },
         {
           "title": "Specifcations for a HFUC3230",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuC3230.png"
+          "image": "/catalog/build/assets/hfu/HfuC3230.png"
         },
         {
           "title": "Specifcations for a HFUC3224",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuC3224.png"
+          "image": "/catalog/build/assets/hfu/HfuC3224.png"
         },
         {
           "title": "Specifcations for a HFUC3030",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuC3030.png"
+          "image": "/catalog/build/assets/hfu/HfuC3030.png"
         },
         {
           "title": "Specifcations for a HFUC3024",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HfuC3024.png"
+          "image": "/catalog/build/assets/hfu/HfuC3024.png"
         }
       ],
       "notes": [
@@ -245,13 +245,13 @@
       "tags": ["Hoodfan"],
       "code": "HFUD",
       "title": "Hood fan unit: D",
-      "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU Hood D.jpg",
+      "image": "/catalog/build/assets/hfu/HFU Hood D.jpg",
       "imageTitle": "Hood fan unit: D - in raw Alder",
       "description": "",
       "widths": [30, 32, 36],
       "heights": [24, 30],
       "depth": "22",
-      "specImage": "https://webquoin.com/Catalog/build/assets/hfu/HFUD3630.png",
+      "specImage": "/catalog/build/assets/hfu/HFUD3630.png",
       "specImageTitle": "Specifcations for a HFUD3630",
       "versions": {
         "30": [
@@ -300,31 +300,31 @@
       "images": [
         {
           "title": "Painted Hood fan D",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20D%20preview.jpg"
+          "image": "/catalog/build/assets/hfu/HFU%20D%20preview.jpg"
         },
         {
           "title": "Specifcations for a HFUD3630",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfud3630.png"
+          "image": "/catalog/build/assets/hfu/Cornerstone Hfud3630.png"
         },
         {
           "title": "Specifcations for a HFUD3624",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfud3624.png"
+          "image": "/catalog/build/assets/hfu/Cornerstone Hfud3624.png"
         },
         {
           "title": "Specifcations for a HFUD3230",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfud3230.png"
+          "image": "/catalog/build/assets/hfu/Cornerstone Hfud3230.png"
         },
         {
           "title": "Specifcations for a HFUD3224",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfud3224.png"
+          "image": "/catalog/build/assets/hfu/Cornerstone Hfud3224.png"
         },
         {
           "title": "Specifcations for a HFUD3030",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfud3030.png"
+          "image": "/catalog/build/assets/hfu/Cornerstone Hfud3030.png"
         },
         {
           "title": "Specifcations for a HFUD3024",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfud3024.png"
+          "image": "/catalog/build/assets/hfu/Cornerstone Hfud3024.png"
         }
       ],
       "notes": [
@@ -354,7 +354,7 @@
       "tags": ["Hoodfan"],
       "code": "HFUE",
       "title": "Hood fan unit: E",
-      "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU Hood E.jpg",
+      "image": "/catalog/build/assets/hfu/HFU Hood E.jpg",
       "imageTitle": "Hood fan unit: E - in raw Alder",
       "description": "",
       "widths": [30, 32, 36],
@@ -377,31 +377,31 @@
       "images": [
         {
           "title": "Painted Hood fan E",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/HFU%20E%20preview.jpg"
+          "image": "/catalog/build/assets/hfu/HFU%20E%20preview.jpg"
         },
         {
           "title": "Specifcations for a HFUE3630",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfu e3630.png"
+          "image": "/catalog/build/assets/hfu/Cornerstone Hfu e3630.png"
         },
         {
           "title": "Specifcations for a HFUE3624",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfu e3624.png"
+          "image": "/catalog/build/assets/hfu/Cornerstone Hfu e3624.png"
         },
         {
           "title": "Specifcations for a HFUE3230",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfu e3230.png"
+          "image": "/catalog/build/assets/hfu/Cornerstone Hfu e3230.png"
         },
         {
           "title": "Specifcations for a HFUE3224",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfu e3224.png"
+          "image": "/catalog/build/assets/hfu/Cornerstone Hfu e3224.png"
         },
         {
           "title": "Specifcations for a HFUE3030",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfu e3030.png"
+          "image": "/catalog/build/assets/hfu/Cornerstone Hfu e3030.png"
         },
         {
           "title": "Specifcations for a HFUE3024",
-          "image": "https://webquoin.com/Catalog/build/assets/hfu/Cornerstone Hfu e3024.png"
+          "image": "/catalog/build/assets/hfu/Cornerstone Hfu e3024.png"
         }
       ],
       "notes": [

@@ -589,7 +589,7 @@ function rowIt(tr, item) {
       .map(function(th) {
         if (tr === 'download') {
           return (
-            '<td><a href="https://webquoin.com/catalog/build/assets/loox/' +
+            '<td><a href="/catalog/build/assets/loox/' +
             th[tr] +
             '">' +
             th[tr] +

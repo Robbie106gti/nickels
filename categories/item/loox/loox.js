@@ -721,7 +721,7 @@ function setSpecNversions(item) {
 function rowIt(tr, item) {
   let line = item.versions.map(th => {
     if (th.active === false) return '';
-    const y = tr !== "download" ? `<td>${th[tr]}</td>` : `<td><a href="https://webquoin.com/catalog/build/assets/loox/${th[tr]}">${th[tr]}</a></td>`;
+    const y = tr !== "download" ? `<td>${th[tr]}</td>` : `<td><a href="/catalog/build/assets/loox/${th[tr]}">${th[tr]}</a></td>`;
     return y;
   }).join("");
   line = `<tr><td>${titleCase(tr)}</td>` + line + '</tr>';

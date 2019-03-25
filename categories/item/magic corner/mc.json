@@ -19,59 +19,59 @@
     {
       "title": "Wari",
       "description": "Door mounted Magic Corner, easily store and access use for corner cabinets. Possible in both a left or right setup. The “LS-WARI” uses a single action to open, with options in colours for the baskets, Grey, White, Maple and Chrome.",
-      "image": "https://webquoin.com/catalog/build/assets/mc/wari.jpg",
+      "image": "/catalog/build/assets/mc/wari.jpg",
       "images": [
         {
           "title": "Pulling out door",
-          "image": "https://webquoin.com/catalog/build/assets/mc/wari-1.jpg"
+          "image": "/catalog/build/assets/mc/wari-1.jpg"
         },
         {
           "title": "First angular motion",
-          "image": "https://webquoin.com/catalog/build/assets/mc/wari-2.jpg"
+          "image": "/catalog/build/assets/mc/wari-2.jpg"
         },
         {
           "title": "Pulled out all the way",
-          "image": "https://webquoin.com/catalog/build/assets/mc/wari-3.jpg"
+          "image": "/catalog/build/assets/mc/wari-3.jpg"
         },
         {
           "title": "Spec",
-          "image": "https://webquoin.com/catalog/build/assets/mc/wari-spec.jpg"
+          "image": "/catalog/build/assets/mc/wari-spec.jpg"
         },
         {
           "title": "Motion of wari hardware",
-          "image": "https://webquoin.com/catalog/build/assets/mc/wari-diagram.jpg"
+          "image": "/catalog/build/assets/mc/wari-diagram.jpg"
         }
       ],
       "code": "WARI",
-      "notes": [ 1, 3],
-      "tags": [ "corner cabinets", "fixed to door", "hardware"],
-      "specifications": [ 4, 2, 3, 7, 10 ],
+      "notes": [1, 3],
+      "tags": ["corner cabinets", "fixed to door", "hardware"],
+      "specifications": [4, 2, 3, 7, 10],
       "baskets": [
         {
           "title": "Grey",
           "base": "Silver epoxy coated tubular steel",
-          "image": "https://webquoin.com/catalog/build/assets/mc/grey-flex-basket.jpg",
+          "image": "/catalog/build/assets/mc/grey-flex-basket.jpg",
           "color": "#c7c5c4",
-          "code": "GA" 
+          "code": "GA"
         },
         {
           "title": "White",
           "base": "Silver epoxy coated tubular steel",
-          "image": "https://webquoin.com/catalog/build/assets/tpod/white-2.jpg",
+          "image": "/catalog/build/assets/tpod/white-2.jpg",
           "color": "#ffffff",
           "code": "WH"
         },
         {
           "title": "Maple",
           "base": "Silver epoxy coated tubular steel",
-          "image": "https://webquoin.com/catalog/build/assets/mc/maple-wari-basket.jpg",
+          "image": "/catalog/build/assets/mc/maple-wari-basket.jpg",
           "color": "#e6d296",
           "code": "MA"
         },
         {
           "title": "Chrome",
           "base": "Silver epoxy coated tubular steel",
-          "image": "https://webquoin.com/catalog/build/assets/tpod/chrome-2.jpg",
+          "image": "/catalog/build/assets/tpod/chrome-2.jpg",
           "color": "#d7dee3",
           "code": "CH"
         }
@@ -80,63 +80,63 @@
     {
       "title": "Flex",
       "description": "Cabinet secured Magic Corner, easily store and access use for corner cabinets. Possible in both a left or right setup. The “LS-FLEX” uses a two step opening action, with options in colours for the baskets, Grey, White, Maple and Chrome. All 4 baskets can completely come out of the cabinet.",
-      "image": "https://webquoin.com/catalog/build/assets/mc/flex.jpg",
+      "image": "/catalog/build/assets/mc/flex.jpg",
       "images": [
         {
           "title": "In cabinet",
-          "image": "https://webquoin.com/catalog/build/assets/mc/flex-1.jpg"
+          "image": "/catalog/build/assets/mc/flex-1.jpg"
         },
         {
           "title": "Pulled out",
-          "image": "https://webquoin.com/catalog/build/assets/mc/flex-2.jpg"
+          "image": "/catalog/build/assets/mc/flex-2.jpg"
         },
         {
           "title": "Pulled out and sliding over",
-          "image": "https://webquoin.com/catalog/build/assets/mc/flex-3.jpg"
+          "image": "/catalog/build/assets/mc/flex-3.jpg"
         },
         {
           "title": "Pulled out and slide over all the way",
-          "image": "https://webquoin.com/catalog/build/assets/mc/flex-4.jpg"
+          "image": "/catalog/build/assets/mc/flex-4.jpg"
         },
         {
           "title": "Spec",
-          "image": "https://webquoin.com/catalog/build/assets/mc/flex-spec.jpg"
+          "image": "/catalog/build/assets/mc/flex-spec.jpg"
         },
         {
           "title": "Motion of flex hardware",
-          "image": "https://webquoin.com/catalog/build/assets/mc/flex-diagram.jpg"
+          "image": "/catalog/build/assets/mc/flex-diagram.jpg"
         }
       ],
       "code": "FLEX",
       "notes": [2, 4],
-      "tags": [ "corner cabinets", "fixed to cabinet", "hardware"],
-      "specifications": [ 5, 3, 7, 4, 8, 9, 11 ],
+      "tags": ["corner cabinets", "fixed to cabinet", "hardware"],
+      "specifications": [5, 3, 7, 4, 8, 9, 11],
       "baskets": [
         {
           "title": "Grey",
           "base": "Silver epoxy coated tubular steel",
-          "image": "https://webquoin.com/catalog/build/assets/mc/grey-flex-basket.jpg",
+          "image": "/catalog/build/assets/mc/grey-flex-basket.jpg",
           "color": "#c7c5c4",
-          "code": "GA" 
+          "code": "GA"
         },
         {
           "title": "White",
           "base": "Silver epoxy coated tubular steel",
-          "image": "https://webquoin.com/catalog/build/assets/tpod/white-2.jpg",
+          "image": "/catalog/build/assets/tpod/white-2.jpg",
           "color": "#ffffff",
           "code": "WH"
         },
         {
           "title": "Maple",
           "base": "Silver epoxy coated tubular steel",
-          "image": "https://webquoin.com/catalog/build/assets/mc/maple-wari-basket.jpg",
+          "image": "/catalog/build/assets/mc/maple-wari-basket.jpg",
           "color": "#e6d296",
           "code": "MA"
         },
         {
           "title": "Chrome",
           "base": "Silver epoxy coated tubular steel",
-          "image": "https://webquoin.com/catalog/build/assets/tpod/chrome-2.jpg",
+          "image": "/catalog/build/assets/tpod/chrome-2.jpg",
           "color": "#d7dee3",
           "code": "CH"
         }
@@ -195,7 +195,7 @@
     {
       "title": "Order",
       "content": "replacement baskets with code:",
-      "codes": [ 
+      "codes": [
         {
           "title": "Grey basket",
           "code": "LS-WARI-BASKET-GA"
@@ -218,7 +218,7 @@
     {
       "title": "Order",
       "content": "replacement baskets with code:",
-      "codes": [ 
+      "codes": [
         {
           "title": "Grey basket",
           "code": "LS-FLEX-BASKET-GA"

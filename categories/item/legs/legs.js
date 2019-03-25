@@ -55,7 +55,6 @@ function getPage() {
         const html = `${data.legs.map(cat => cardWith(cat)).join('')}`;
         $('#catalog').html(html);
         setGI(info);
-        makeHelper();
         return;
       } else {
         info.item = data.legs.filter(

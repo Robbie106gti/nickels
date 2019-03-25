@@ -72,7 +72,7 @@
         "imageCards": [
             {
                 "id": "0",
-                "image": "https://webquoin.com/catalog/build/assets/rgb/30l%20461912100%20rgb-pod-13.jpg",
+                "image": "/catalog/build/assets/rgb/30l%20461912100%20rgb-pod-13.jpg",
                 "tags": [
                     "single bin", "30L capacity"
                 ],
@@ -100,10 +100,10 @@
             },
             {
                 "id": "1",
-                "image": "https://webquoin.com/catalog/build/assets/rgb/38l 7l 461935100 rgb-pod-15.jpg",
+                "image": "/catalog/build/assets/rgb/38l 7l 461935100 rgb-pod-15.jpg",
                 "tags": [
                     "2 bins", "38L & 7L capacity"
-                ], 
+                ],
                 "links": [
                     {
                         "id": "0",
@@ -139,10 +139,10 @@
             },
             {
                 "id": "2",
-                "image": "https://webquoin.com/catalog/build/assets/rgb/38L 38L 461950100 rgb-pod-19.jpg",
+                "image": "/catalog/build/assets/rgb/38L 38L 461950100 rgb-pod-19.jpg",
                 "tags": [
                     "Double bin", "38L x 2 capacity"
-                ], 
+                ],
                 "links": [
                     {
                         "id": "0",
@@ -172,10 +172,10 @@
             },
             {
                 "id": "3",
-                "image": "https://webquoin.com/catalog/build/assets/rgb/38L 38L 12L 2.5L 461950100 rgb-pod-25.jpg",
+                "image": "/catalog/build/assets/rgb/38L 38L 12L 2.5L 461950100 rgb-pod-25.jpg",
                 "tags": [
                     "4 bins", "38L x 2", "12L", "2.5L"
-                ], 
+                ],
                 "links": [
                     {
                         "id": "0",
@@ -245,8 +245,8 @@
             "title": "RGB.625-POD11.75",
             "code": "RGB.625-POD11.75",
             "active": "true",
-            "image": "https://webquoin.com/catalog/build/assets/rgb/POD 30L 11.75.png",
-            "image2": "https://webquoin.com/catalog/build/assets/rgb/POD front 30L.png",
+            "image": "/catalog/build/assets/rgb/POD 30L 11.75.png",
+            "image2": "/catalog/build/assets/rgb/POD front 30L.png",
             "cardId": "0",
             "specifications": [
                 {
@@ -286,8 +286,8 @@
             "title": "RGB.625-POD13",
             "code": "RGB.625-POD13",
             "active": "true",
-            "image": "https://webquoin.com/catalog/build/assets/rgb/POD 30L 13 spacer.png",
-            "image2": "https://webquoin.com/catalog/build/assets/rgb/POD front 30L spacer.png",
+            "image": "/catalog/build/assets/rgb/POD 30L 13 spacer.png",
+            "image2": "/catalog/build/assets/rgb/POD front 30L spacer.png",
             "cardId": "0",
             "specifications": [
                 {
@@ -327,8 +327,8 @@
             "title": "RGB.625-POD15",
             "code": "RGB.625-POD15",
             "active": "true",
-            "image": "https://webquoin.com/catalog/build/assets/rgb/POD 38L 7L 15 spacer.png",
-            "image2": "https://webquoin.com/catalog/build/assets/rgb/POD front 38L 7L spacer.png",
+            "image": "/catalog/build/assets/rgb/POD 38L 7L 15 spacer.png",
+            "image2": "/catalog/build/assets/rgb/POD front 38L 7L spacer.png",
             "cardId": "1",
             "specifications": [
                 {
@@ -368,8 +368,8 @@
             "title": "RGB.625-POD15.5",
             "code": "RGB.625-POD15.5",
             "active": "true",
-            "image": "https://webquoin.com/catalog/build/assets/rgb/POD 38L 7L 15.5.png",
-            "image2": "https://webquoin.com/catalog/build/assets/rgb/POD front 38L 7L.png",
+            "image": "/catalog/build/assets/rgb/POD 38L 7L 15.5.png",
+            "image2": "/catalog/build/assets/rgb/POD front 38L 7L.png",
             "cardId": "1",
             "specifications": [
                 {
@@ -409,8 +409,8 @@
             "title": "RGB.625-POD17",
             "code": "RGB.625-POD17",
             "active": "true",
-            "image": "https://webquoin.com/catalog/build/assets/rgb/POD 38L 7L 17 spacer.png",
-            "image2": "https://webquoin.com/catalog/build/assets/rgb/POD front 38L 7L spacer.png",
+            "image": "/catalog/build/assets/rgb/POD 38L 7L 17 spacer.png",
+            "image2": "/catalog/build/assets/rgb/POD front 38L 7L spacer.png",
             "cardId": "1",
             "specifications": [
                 {
@@ -450,8 +450,8 @@
             "title": "RGB.625-POD17.5",
             "code": "RGB.625-POD17.5",
             "active": "true",
-            "image": "https://webquoin.com/catalog/build/assets/rgb/POD 38Lx2 17.5.png",
-            "image2": "https://webquoin.com/catalog/build/assets/rgb/POD front 38Lx2.png",
+            "image": "/catalog/build/assets/rgb/POD 38Lx2 17.5.png",
+            "image2": "/catalog/build/assets/rgb/POD front 38Lx2.png",
             "cardId": "2",
             "specifications": [
                 {
@@ -491,8 +491,8 @@
             "title": "RGB.625-POD19",
             "code": "RGB.625-POD19",
             "active": "true",
-            "image": "https://webquoin.com/catalog/build/assets/rgb/POD 38Lx2 19 spacer.png",
-            "image2": "https://webquoin.com/catalog/build/assets/rgb/POD front 38Lx2 spacer.png",
+            "image": "/catalog/build/assets/rgb/POD 38Lx2 19 spacer.png",
+            "image2": "/catalog/build/assets/rgb/POD front 38Lx2 spacer.png",
             "cardId": "2",
             "specifications": [
                 {
@@ -532,8 +532,8 @@
             "title": "RGB.625-POD19.5",
             "code": "RGB.625-POD19.5",
             "active": "true",
-            "image": "https://webquoin.com/catalog/build/assets/rgb/POD 38Lx2 19.5.png",
-            "image2": "https://webquoin.com/catalog/build/assets/rgb/POD front 38Lx2.png",
+            "image": "/catalog/build/assets/rgb/POD 38Lx2 19.5.png",
+            "image2": "/catalog/build/assets/rgb/POD front 38Lx2.png",
             "cardId": "2",
             "specifications": [
                 {
@@ -573,8 +573,8 @@
             "title": "RGB.625-POD23.5",
             "code": "RGB.625-POD23.5",
             "active": "true",
-            "image": "https://webquoin.com/catalog/build/assets/rgb/POD 38Lx2 12L 2.5L 23.5.png",
-            "image2": "https://webquoin.com/catalog/build/assets/rgb/POD front 38Lx2 12L 2.5L.png",
+            "image": "/catalog/build/assets/rgb/POD 38Lx2 12L 2.5L 23.5.png",
+            "image2": "/catalog/build/assets/rgb/POD front 38Lx2 12L 2.5L.png",
             "cardId": "3",
             "specifications": [
                 {
@@ -614,8 +614,8 @@
             "title": "RGB.625-POD24",
             "code": "RGB.625-POD24",
             "active": "true",
-            "image": "https://webquoin.com/catalog/build/assets/rgb/POD 38Lx2 12L 2.5L 24 spacer.png",
-            "image2": "https://webquoin.com/catalog/build/assets/rgb/POD front 38Lx2 12L 2.5L spacer.png",
+            "image": "/catalog/build/assets/rgb/POD 38Lx2 12L 2.5L 24 spacer.png",
+            "image2": "/catalog/build/assets/rgb/POD front 38Lx2 12L 2.5L spacer.png",
             "cardId": "3",
             "specifications": [
                 {
@@ -655,8 +655,8 @@
             "title": "RGB.75-POD12",
             "code": "RGB.75-POD12",
             "active": "true",
-            "image": "https://webquoin.com/catalog/build/assets/rgb/POD 30L 12.png",
-            "image2": "https://webquoin.com/catalog/build/assets/rgb/POD front 30L.png",
+            "image": "/catalog/build/assets/rgb/POD 30L 12.png",
+            "image2": "/catalog/build/assets/rgb/POD front 30L.png",
             "cardId": "0",
             "specifications": [
                 {
@@ -696,8 +696,8 @@
             "title": "RGB.75-POD14",
             "code": "RGB.75-POD14",
             "active": "true",
-            "image": "https://webquoin.com/catalog/build/assets/rgb/POD 38L 7L 14.png",
-            "image2": "https://webquoin.com/catalog/build/assets/rgb/POD front 38L 7L.png",
+            "image": "/catalog/build/assets/rgb/POD 38L 7L 14.png",
+            "image2": "/catalog/build/assets/rgb/POD front 38L 7L.png",
             "cardId": "1",
             "specifications": [
                 {
@@ -737,8 +737,8 @@
             "title": "RGB.75-POD16",
             "code": "RGB.75-POD16",
             "active": "true",
-            "image": "https://webquoin.com/catalog/build/assets/rgb/POD 38L 7L 16.png",
-            "image2": "https://webquoin.com/catalog/build/assets/rgb/POD front 38L 7L.png",
+            "image": "/catalog/build/assets/rgb/POD 38L 7L 16.png",
+            "image2": "/catalog/build/assets/rgb/POD front 38L 7L.png",
             "cardId": "1",
             "specifications": [
                 {
@@ -778,8 +778,8 @@
             "code": "RGB.75-POD18",
             "title": "RGB.75-POD18",
             "active": "true",
-            "image": "https://webquoin.com/catalog/build/assets/rgb/POD 38Lx2 18.png",
-            "image2": "https://webquoin.com/catalog/build/assets/rgb/POD front 38Lx2.png",
+            "image": "/catalog/build/assets/rgb/POD 38Lx2 18.png",
+            "image2": "/catalog/build/assets/rgb/POD front 38Lx2.png",
             "cardId": "2",
             "specifications": [
                 {
@@ -819,8 +819,8 @@
             "code": "RGB.75-POD25",
             "title": "RGB.75-POD25",
             "active": "true",
-            "image": "https://webquoin.com/catalog/build/assets/rgb/POD 38Lx2 12L 2.5L 25 spacer.png",
-            "image2": "https://webquoin.com/catalog/build/assets/rgb/POD front 38Lx2 12L 2.5L spacer.png",
+            "image": "/catalog/build/assets/rgb/POD 38Lx2 12L 2.5L 25 spacer.png",
+            "image2": "/catalog/build/assets/rgb/POD front 38Lx2 12L 2.5L spacer.png",
             "cardId": "3",
             "specifications": [
                 {

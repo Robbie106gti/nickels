@@ -1,14 +1,14 @@
 //// Main js for catagories /////
 'use strict';
 $.ajax({
-    url: "../../../layout/header.html", 
+    url: "../../../layout/header.html",
     context: document.body,
     success: function(response) {
         $("#header").html(response);
     }
 });
 $.ajax({
-    url: "../../../layout/footer.html", 
+    url: "../../../layout/footer.html",
     context: document.body,
     success: function(response) {
         $("#footer").html(response);
@@ -371,7 +371,7 @@ function setSpecNversions(item) {
 function rowIt(tr, item) {
   tr = "<tr><td>" + titleCase(tr) + "</td>" + item.versions.map(function (th) {
     if (tr === "download") {
-      return "<td><a href=\"https://webquoin.com/catalog/build/assets/loox/" + th[tr] + "\">" + th[tr] + "</a></td>";
+      return "<td><a href=\"/catalog/build/assets/loox/" + th[tr] + "\">" + th[tr] + "</a></td>";
     }
     return "<td>" + th[tr] + "</td>";
   }).join("") + "</tr>";
