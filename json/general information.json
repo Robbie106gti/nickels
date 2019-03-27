@@ -1,9 +1,9 @@
 {
   "General Information": [
     {
-    "code": "WAR",
-    "title": "Warranty",
-    "attached": [
+      "code": "WAR",
+      "title": "Warranty",
+      "attached": [
         {
           "title": "Terms & Conditions",
           "sub": "TNC",
@@ -15,13 +15,13 @@
           "link": "gi"
         }
       ],
-    "image": "https://usa.denon.com/Assets/images/Support_Warranty_Extended.jpg",
-    "tags": ["warranty", "term", "condition", "wood" ]
+      "image": "https://usa.denon.com/Assets/images/Support_Warranty_Extended.jpg",
+      "tags": ["warranty", "term", "condition", "wood"]
     },
     {
-    "code": "CKCA",
-    "title": "CKCA Certification and Standards",
-    "attached": [
+      "code": "CKCA",
+      "title": "CKCA Certification and Standards",
+      "attached": [
         {
           "sub": "PDR",
           "title": "Paint Disclaimer",
@@ -48,166 +48,166 @@
           "link": "gi"
         }
       ],
-    "image": "https://www.woodworkingnetwork.com/sites/woodworking/files/field/image/CKCA_RGB_Seal_POS.jpg",
-    "tags": ["CKCA", "Certification", "standard" ]
+      "image": "https://www.woodworkingnetwork.com/sites/woodworking/files/field/image/CKCA_RGB_Seal_POS.jpg",
+      "tags": ["CKCA", "Certification", "standard"]
     },
     {
       "code": "CCE",
       "title": "Cabinetry Care",
       "attached": [
-          {
-            "sub": "CCE",
-            "title": "Cabinetry Care",
-            "link": "gi"
-          }
-        ],
+        {
+          "sub": "CCE",
+          "title": "Cabinetry Care",
+          "link": "gi"
+        }
+      ],
       "image": "data:image/jpeg;base64,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",
       "tags": ["cabinet", "care"]
-      },
-      {
-        "code": "NOI",
-        "title": "Necessary Order Information",
-        "attached": [
-            {
-              "sub": "OSN",
-              "title": "Order Submission",
-              "link": "gi"
-            }
-          ],
-        "image": "https://www.handshake.com/blog/wp-content/uploads/2014/07/speeding_wholesale_order4.jpg",
-        "tags": ["order", "information", "submission"]
+    },
+    {
+      "code": "NOI",
+      "title": "Necessary Order Information",
+      "attached": [
+        {
+          "sub": "OSN",
+          "title": "Order Submission",
+          "link": "gi"
+        }
+      ],
+      "image": "https://www.handshake.com/blog/wp-content/uploads/2014/07/speeding_wholesale_order4.jpg",
+      "tags": ["order", "information", "submission"]
+    },
+    {
+      "code": "CPY",
+      "title": "Cancellation Policy",
+      "attached": [
+        {
+          "sub": "CPY",
+          "title": "Cancellation Policy",
+          "link": "gi"
+        }
+      ],
+      "image": "https://www.astaritacarservice.com/images/yootheme/astaritacarservice/cancellation-policy.jpg",
+      "tags": ["cancel", "policy", "submission"]
+    },
+    {
+      "code": "ORF",
+      "title": "Order Replacement & Fixup Items",
+      "attached": [
+        {
+          "sub": "ORT",
+          "title": "Order Replacement & Fixup Items",
+          "link": "gi"
+        }
+      ],
+      "image": "https://ecdn.teacherspayteachers.com/thumbitem/Fix-Up-Strategies-for-Readers-1506203618/original-345725-1.jpg",
+      "tags": ["order", "replacement", "fixup"]
+    },
+    {
+      "code": "CNI",
+      "title": "Company and Product Information",
+      "attached": [
+        {
+          "sub": "NCS",
+          "title": "Nickels",
+          "link": "gi"
         },
         {
-          "code": "CPY",
-          "title": "Cancellation Policy",
-          "attached": [
-              {
-                "sub": "CPY",
-                "title": "Cancellation Policy",
-                "link": "gi"
-              }
-            ],
-          "image": "https://www.astaritacarservice.com/images/yootheme/astaritacarservice/cancellation-policy.jpg",
-          "tags": ["cancel", "policy", "submission"]
-          },
-          {
-            "code": "ORF",
-            "title": "Order Replacement & Fixup Items",
-            "attached": [
-                {
-                  "sub": "ORT",
-                  "title": "Order Replacement & Fixup Items",
-                  "link": "gi"
-                }
-              ],
-            "image": "https://ecdn.teacherspayteachers.com/thumbitem/Fix-Up-Strategies-for-Readers-1506203618/original-345725-1.jpg",
-            "tags": ["order", "replacement", "fixup"]
-            },
-            {
-              "code": "CNI",
-              "title": "Company and Product Information",
-              "attached": [
-                  {
-                    "sub": "NCS",
-                    "title": "Nickels",
-                    "link": "gi"
-                  },
-                  {
-                    "sub": "CTM",
-                    "title": "Custom",
-                    "link": "gi"
-                  },
-                  {
-                    "sub": "CAB",
-                    "title": "Cabinets",
-                    "link": "gi"
-                  }
-                ],
-              "image": "http://sigmatechnology.se/wp-content/uploads/sites/2/2015/04/icon-research.png",
-              "tags": ["company", "product", "information", "nickels"]
-              },
-                {
-                  "code": "PMS",
-                  "title": "Promotional Materials",
-                  "attached": [
-                      {
-                        "sub": "",
-                        "title": "Promotional Materials",
-                        "link": "..\/..\/Promotional Materials"
-                      }
-                    ],
-                  "image": "http://www.altitudegraphics.com/desktop/images/shirts.png",
-                  "tags": ["promo", "materials", "merch"]
-                  },
-                  {
-                    "code": "PDY",
-                    "title": "Product Delivery",
-                    "attached": [
-                      {
-                        "sub": "PDY",
-                        "title": "Product Delivery",
-                        "link": "gi"
-                      },
-                      {
-                        "sub": "PNC",
-                        "title": "Prepaid & Charge",
-                        "link": "gi"
-                      },
-                        {
-                          "sub": "CCT",
-                          "title": "Collect",
-                          "link": "gi"
-                        },
-                        {
-                          "sub": "SOG",
-                          "title": "Ship With Other Goods",
-                          "link": "gi"
-                        },
-                        {
-                          "sub": "DFE",
-                          "title": "Drop Fee",
-                          "link": "gi"
-                        }
-                      ],
-                    "image": "https://chicagoinjurycenter.com/wp-content/uploads/2014/05/delivery-trucks.jpg",
-                    "tags": ["prepaid", "charge", "collect", "ship", "drop", "fee" ]
-                    },
-                    {
-                      "code": "EPS",
-                      "title": "Employees",
-                      "attached": [
-                        {
-                          "sub": "EPS",
-                          "title": "Employees",
-                          "link": "gi"
-                        }
-                        ],
-                      "image": "../assets/nc.gif",
-                      "tags": [ "employees", "emails", "phone", "extensions"]
-                      },
-                      {
-                        "code": "MPT",
-                        "title": "Media",
-                        "attached": [
-                          {
-                            "sub": "TVS",
-                            "title": "Tutorial videos",
-                            "link": "mpt"
-                          },
-                          {
-                            "sub": "PHO",
-                            "title": "Photos",
-                            "link": "mpt"
-                          },
-                          {
-                            "sub": "DLS",
-                            "title": "Downloads",
-                            "link": "mpt"
-                          }
-                          ],
-                        "image": "http://thecinematheque.ca/education/wp-content/uploads/2012/12/Implementing-Media-Education-Large.jpg",
-                        "tags": [ "tutorials", "photos", "downloads", "videos"]
-                        }
+          "sub": "CTM",
+          "title": "Custom",
+          "link": "gi"
+        },
+        {
+          "sub": "CAB",
+          "title": "Cabinets",
+          "link": "gi"
+        }
+      ],
+      "image": "http://sigmatechnology.se/wp-content/uploads/sites/2/2015/04/icon-research.png",
+      "tags": ["company", "product", "information", "nickels"]
+    },
+    {
+      "code": "PMS",
+      "title": "Promotional Materials",
+      "attached": [
+        {
+          "sub": "",
+          "title": "Promotional Materials",
+          "link": "../../Promotional Materials"
+        }
+      ],
+      "image": "http://www.altitudegraphics.com/desktop/images/shirts.png",
+      "tags": ["promo", "materials", "merch"]
+    },
+    {
+      "code": "PDY",
+      "title": "Product Delivery",
+      "attached": [
+        {
+          "sub": "PDY",
+          "title": "Product Delivery",
+          "link": "gi"
+        },
+        {
+          "sub": "PNC",
+          "title": "Prepaid & Charge",
+          "link": "gi"
+        },
+        {
+          "sub": "CCT",
+          "title": "Collect",
+          "link": "gi"
+        },
+        {
+          "sub": "SOG",
+          "title": "Ship With Other Goods",
+          "link": "gi"
+        },
+        {
+          "sub": "DFE",
+          "title": "Drop Fee",
+          "link": "gi"
+        }
+      ],
+      "image": "https://chicagoinjurycenter.com/wp-content/uploads/2014/05/delivery-trucks.jpg",
+      "tags": ["prepaid", "charge", "collect", "ship", "drop", "fee"]
+    },
+    {
+      "code": "EPS",
+      "title": "Employees",
+      "attached": [
+        {
+          "sub": "EPS",
+          "title": "Employees",
+          "link": "gi"
+        }
+      ],
+      "image": "../assets/nc.gif",
+      "tags": ["employees", "emails", "phone", "extensions"]
+    },
+    {
+      "code": "MPT",
+      "title": "Media",
+      "attached": [
+        {
+          "sub": "TVS",
+          "title": "Tutorial videos",
+          "link": "mpt"
+        },
+        {
+          "sub": "PHO",
+          "title": "Photos",
+          "link": "mpt"
+        },
+        {
+          "sub": "DLS",
+          "title": "Downloads",
+          "link": "mpt"
+        }
+      ],
+      "image": "http://thecinematheque.ca/education/wp-content/uploads/2012/12/Implementing-Media-Education-Large.jpg",
+      "tags": ["tutorials", "photos", "downloads", "videos"]
+    }
   ],
   "items": [
     {
@@ -217,7 +217,7 @@
       "root": "WAR",
       "title": "Terms & Conditions",
       "description": "Nickels Cabinets warrants:",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "Our products will be free from defects in materials and workmanship under normal use at the initial site of installation. This warranty is applicable to the original consumer purchaser for as long as they own their home and is non-transferable.",
           "class": ""
@@ -261,8 +261,8 @@
           "image": "http://www.nickelscabinets.com/images/headers/workmanship1.jpg"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -271,7 +271,7 @@
       "root": "WAR",
       "title": "Wood Characteristics",
       "description": "Wood has long been admired for its distinct and unique characteristics.",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "All wood species undergo a gradual aging process that will enhance the texture, color, and grain patterns in the wood. The pronounced features of each wood species give a uniqueness and timeless appeal that can only be found in nature. These characteristics are particularly evident with our lighter stained finishes. While we make every effort to ensure that all of our finishes are consistent with our samples, variations in graining, knots, mineral deposits, and color are inherent in wood and are considered acceptable.",
           "class": ""
@@ -295,8 +295,8 @@
           "image": "https://webquoin.com/catalog/images/Headers/Exterior-Materials/White-Oak-QuarterSawnvg.jpg"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -305,7 +305,7 @@
       "root": "CKC",
       "title": "Paint Disclaimer",
       "description": "Paints",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "Nickels typically applies paint onto one-piece or two-piece MDF doors in order to avoid the problem of cracks developing on the door faces. When a 5-piece door is painted, the joints will inevitably telegraph through the painted finish. On some occasions, the joints will open up, thereby developing hairline cracks on the door face. These cracks in the joints are considered normal and acceptable, and are therefore not covered as a warranty issue.",
           "class": ""
@@ -317,8 +317,8 @@
           "image": "http://www.majicpainting.com/wp-content/uploads/2014/07/Peeling-Paint-Due-to-Interior-Moisture-Under-Paint-Film.jpg"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -327,7 +327,7 @@
       "root": "CKC",
       "title": "Warping",
       "description": "Warping",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "Nickels Cabinets have been certified by the CKCA, and as such, the standards set by the CKCA shall determine the maximum warp for doors. Any warp within these tolerances will be considered normal and acceptable, and therefore not covered as a warranty issue.",
           "class": ""
@@ -347,8 +347,8 @@
           "image": "https://cdn-fastly.hometalk.com/media/2015/06/20/2895148/q-how-to-fix-warped-kitchen-cabinet-doors-home-maintenance-repairs-kitchen-cabinets-kitchen-design.jpg?size=500x500&nocrop=1"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -357,7 +357,7 @@
       "root": "CKC",
       "title": "Defective Materials",
       "description": "Defective Materials",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "Cabinets or parts will be replaced on a ‘Quick Ship’ basis. Replacement materials will be invoiced according to their market price. Credit will be issued after the defective material has been returned and an inspection by Nickels deems the material to be defective.",
           "class": ""
@@ -369,8 +369,8 @@
           "image": "https://s3.amazonaws.com/eakes-production/assets/13529/original.jpg?1418402944"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -379,7 +379,7 @@
       "root": "CKC",
       "title": "Responsibility",
       "description": "Responsibility",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "Cabinets and parts must be inspected prior to installation as Nickels Cabinets will not cover any expense involved in removing or reinstalling the product. All products will undergo a quality inspection at our plant prior to shipping in an effort to ensure satisfactory receipt of goods. Nickels will not be responsible for any freight damage or lost product. Claims for such problems must be made directly to the carrier involved.",
           "class": ""
@@ -391,8 +391,8 @@
           "image": "http://kitchen.paulgarvin.net/wp-content/uploads/2010/09/lidingo1.jpg"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -401,7 +401,7 @@
       "root": "CKC",
       "title": "Filing a Claim",
       "description": "Filing a Claim",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "To file a warranty claim, the purchaser should contact the local authorized Nickels Cabinets Dealer who will assist in servicing the claim.",
           "class": ""
@@ -413,8 +413,8 @@
           "image": "http://kitchen.paulgarvin.net/wp-content/uploads/2010/09/lidingo1.jpg"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -423,7 +423,7 @@
       "root": "CCE",
       "title": "Cabinetry Care",
       "description": "Cabinetry Care",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "All cabinet materials, particularly finished wood and painted products, demand your care and attention. Caution must be taken to protect your cabinetry from extremes of temperature and exposure to moisture. Any prolonged exposure to moisture, whether liquid or steam, is likely to cause damage, so proper care is required in order to maintain the finish on your cabinetry. It is important to wipe off any excessive moisture when it occurs, particularly around the sink, stove, dishwasher, and shower areas where high humidity is typical. Such conditions can accelerate the natural expansion and contraction of the wood fibers that may cause irreparable damage and will void your warranty.",
           "class": ""
@@ -455,8 +455,8 @@
           "image": "http://wdsmithconstruction.com/wp-content/uploads/2017/07/white_kitchen_cabinets_raleigh.jpg"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -465,9 +465,9 @@
       "root": "CCE",
       "title": "Necessary Order Information",
       "description": "Order Submission",
-      "paragraphs": [ 
+      "paragraphs": [
         {
-          "text": "Nickels Cabinets has designed the Webquoin ordering software to assist the Dealer in completing all details prior to placing an order with the Nickels Order Desk.",
+          "text": "Nickels Cabinets has designed the Webquoin ordering software to assist the Dealer in completing all details prior to placing an order with the Nickels Dealer Service.",
           "class": ""
         },
         {
@@ -509,8 +509,8 @@
           "image": "http://wdsmithconstruction.com/wp-content/uploads/2017/07/white_kitchen_cabinets_raleigh.jpg"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -519,13 +519,13 @@
       "root": "CPY",
       "title": "Cancellation Policy",
       "description": "Cancellation Policy",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "In the event that an entire order is cancelled after a Dealer has given Nickels a confirmation for that order, the following policy will take effect:",
           "class": ""
         },
         {
-          "text": "Nickels will determine the total costs incurred for the order up to the date it is cancelled. These costs will be passed on to the Dealer who will be fully responsible to pay Nickels for these costs. The costs could include materials prepared or assembled for the order as well as time spent by the Order Desk person, Engineering person, and all Production people involved.",
+          "text": "Nickels will determine the total costs incurred for the order up to the date it is cancelled. These costs will be passed on to the Dealer who will be fully responsible to pay Nickels for these costs. The costs could include materials prepared or assembled for the order as well as time spent by the Dealer Service person, Engineering person, and all Production people involved.",
           "class": ""
         },
         {
@@ -543,8 +543,8 @@
           "image": "http://gymnasticsadventure.ca/wp-content/uploads/2014/11/2014-cancelled.jpg"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -553,7 +553,7 @@
       "root": "CPY",
       "title": "Order Replacement & Fixup Items",
       "description": "Order Replacement & Fixup Items",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "Items that need to be fixed or replaced will fall into one of the following four situations:",
           "class": ""
@@ -601,8 +601,8 @@
           "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvHzl2nLf3F9Tg5iSAzLHRq3ysZCsaZt_iv4t7IsZ15BjSZmpDA"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -611,7 +611,7 @@
       "root": "CPY",
       "title": "Nickels",
       "description": "Nickels cabinets",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "Nickels Cabinets was established in 1979 as a family owned and operated business. Since that time, our commitment to the principals of excellence in craftsmanship, customized design, timely delivery and competitive pricing have formed the foundation of our company.",
           "class": ""
@@ -627,8 +627,8 @@
           "image": "https://s3-media4.fl.yelpcdn.com/bphoto/l40ATO-PafEc7A170okwDw/o.jpg"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -637,7 +637,7 @@
       "root": "CNI",
       "title": "Custom",
       "description": "Custom",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "Fit: Nickels cabinets are available in 8\" width increments which allows you to fit cabinetry within your client’s wall space with minimal use of fillers.",
           "class": ""
@@ -665,8 +665,8 @@
           "image": "http://corridorkitchens.ca/storage/Merit%20Photo.JPG?__SQUARESPACE_CACHEVERSION=1492121378333"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -675,7 +675,7 @@
       "root": "CNI",
       "title": "Cabinets",
       "description": "Cabinets",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "Cabinets are doweled, glued and case clamped to achieve strength and accuracy.",
           "class": ""
@@ -719,8 +719,8 @@
           "image": "http://corridorkitchens.ca/storage/Merit%20Photo.JPG?__SQUARESPACE_CACHEVERSION=1492121378333"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -729,7 +729,7 @@
       "root": "PDY",
       "title": "Prepaid & Charge",
       "description": "Prepaid & Charge",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "Nickels will arrange trucking, schedule and prepay all related costs. Nickels will process and pay for all border brokerage charges. For this service, Nickels will charge according to the delivery location. These delivery rates are programmed into your Webquoin software according to your location. Rates are based on current trucking charges and may change without warning.",
           "class": ""
@@ -741,8 +741,8 @@
           "image": "http://corridorkitchens.ca/storage/Merit%20Photo.JPG?__SQUARESPACE_CACHEVERSION=1492121378333"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -751,7 +751,7 @@
       "root": "PDY",
       "title": "Collect",
       "description": "Collect",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "Nickels will produce orders and stay in contact with the Dealer regarding pick up schedule. Nickels will arrange trucking with the Dealer’s preferred firm, but will not pay for any transportation charges. Nickels will load the truck and prepare border documentation, but will not pay for brokerage fees. The Dealer is responsible to set up an account with a brokerage firm. Nickels recommends Border Brokerage as all documents will be prepared using their software.",
           "class": ""
@@ -763,8 +763,8 @@
           "image": "http://corridorkitchens.ca/storage/Merit%20Photo.JPG?__SQUARESPACE_CACHEVERSION=1492121378333"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -773,9 +773,9 @@
       "root": "PDY",
       "title": "Ship With Other Goods",
       "description": "Ship With Other Goods",
-      "paragraphs": [ 
+      "paragraphs": [
         {
-          "text": "SWOG can be used when you need to add product to an existing scheduled delivery to a specified location. The product can be for the original job, or from a different job, as long as it is delivered at the same time and to the same location as part of a previously scheduled complete order. The Order Desk will verify that the minimum delivery charges have been covered and that you can use SWOG as a delivery option.",
+          "text": "SWOG can be used when you need to add product to an existing scheduled delivery to a specified location. The product can be for the original job, or from a different job, as long as it is delivered at the same time and to the same location as part of a previously scheduled complete order. The Dealer Service will verify that the minimum delivery charges have been covered and that you can use SWOG as a delivery option.",
           "class": ""
         }
       ],
@@ -785,8 +785,8 @@
           "image": "http://corridorkitchens.ca/storage/Merit%20Photo.JPG?__SQUARESPACE_CACHEVERSION=1492121378333"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -795,9 +795,9 @@
       "root": "PDY",
       "title": "Drop Fee",
       "description": "Drop Fee",
-      "paragraphs": [ 
+      "paragraphs": [
         {
-          "text": "Drop Fee will allow you to include additional drop points for products within the same delivery zone, and on the same delivery route. The Order Desk will verify your drop shipment address to be sure the charges are correct. If the shipment address is outside of the delivery zone or route (as determined by our trucking companies) then the standard shipping fees will be applied to your order.",
+          "text": "Drop Fee will allow you to include additional drop points for products within the same delivery zone, and on the same delivery route. The Dealer Service will verify your drop shipment address to be sure the charges are correct. If the shipment address is outside of the delivery zone or route (as determined by our trucking companies) then the standard shipping fees will be applied to your order.",
           "class": ""
         }
       ],
@@ -807,8 +807,8 @@
           "image": "http://corridorkitchens.ca/storage/Merit%20Photo.JPG?__SQUARESPACE_CACHEVERSION=1492121378333"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -817,9 +817,9 @@
       "root": "PDY",
       "title": "Product Delivery",
       "description": "Product Delivery",
-      "paragraphs": [ 
+      "paragraphs": [
         {
-          "text": "delivery times are based on the volume of production in the shop. The approximate Order Desk wait times and Production lead times will be posted on the message board in Webquoin. In general, the following guidelines will apply:",
+          "text": "delivery times are based on the volume of production in the shop. The approximate Dealer Service wait times and Production lead times will be posted on the message board in Webquoin. In general, the following guidelines will apply:",
           "class": ""
         },
         {
@@ -909,8 +909,8 @@
           "image": "https://chicagoinjurycenter.com/wp-content/uploads/2014/05/delivery-trucks.jpg"
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -920,7 +920,7 @@
       "title": "nickels cabinets",
       "description": "In 1979,",
       "template": "empolyees",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "Dieter Nickel convinced his dad, Peter, to join him in building a cabinet company that would have its beginnings in a garage in Richmond, British Columbia. Right from the start, the value of hard and honest work and the strength of the Nickel name was drilled into the core of our brand. Our mission is to provide value through our assurance of consistent quality and service.",
           "class": ""
@@ -1181,54 +1181,52 @@
           "phone": "244"
         }
       ],
-      "notes": [ ],
-      "options": [  ],
-      "address": 
-        { 
-          "name": "Our head office:",
-          "street": "6760 Graybar Road",
-          "city": "Richmond",
-          "postcode": "V6W 1J1",
-          "state": "BC",
-          "phone": "604.270.8080",
-          "tfphone": "1.877.270.8081",
-          "fax": "604.270.3618"
+      "notes": [],
+      "options": [],
+      "address": {
+        "name": "Our head office:",
+        "street": "6760 Graybar Road",
+        "city": "Richmond",
+        "postcode": "V6W 1J1",
+        "state": "BC",
+        "phone": "604.270.8080",
+        "tfphone": "1.877.270.8081",
+        "fax": "604.270.3618"
+      },
+      "hours": {
+        "days": "Monday to Friday",
+        "ftime": "8:00 am",
+        "ttime": "4:30 pm",
+        "zone": "PST"
+      },
+      "social": [
+        {
+          "name": "E-mail:",
+          "link": "mailto:",
+          "email": "info@nickelscabinets.com",
+          "content": "E-mail us at"
         },
-        "hours": {
-          "days": "Monday to Friday",
-          "ftime": "8:00 am",
-          "ttime": "4:30 pm",
-          "zone": "PST"
+        {
+          "name": "Like us on:",
+          "link": "http://facebook.com/nickelscabinets",
+          "content": "Facebook"
         },
-        "social": [
-          { 
-            "name": "E-mail:", 
-            "link": "mailto:",
-            "email": "info@nickelscabinets.com",
-            "content": "E-mail us at"
-          },
-          {
-            "name": "Like us on:",
-            "link": "http://facebook.com/nickelscabinets",
-            "content": "Facebook"
-          },
-          {
-            "name": "Join our cicle on:",
-            "link": "https://plus.google.com/b/117592498014579966625/117592498014579966625/posts",
-            "content": "Google+"
-          },
-          {
-            "name": "Follow us on:",
-            "link": "http://pinterest.com/nickelscabinets",
-            "content": "Pinterest"
-          },
-          {
-            "name": "Follow us on:",
-            "link": "http://twitter.com/nickelscabinets",
-            "content": "Twitter"
-          }
-        ]
-
+        {
+          "name": "Join our cicle on:",
+          "link": "https://plus.google.com/b/117592498014579966625/117592498014579966625/posts",
+          "content": "Google+"
+        },
+        {
+          "name": "Follow us on:",
+          "link": "http://pinterest.com/nickelscabinets",
+          "content": "Pinterest"
+        },
+        {
+          "name": "Follow us on:",
+          "link": "http://twitter.com/nickelscabinets",
+          "content": "Twitter"
+        }
+      ]
     },
     {
       "active": true,
@@ -1238,7 +1236,7 @@
       "title": "Tutorial videos",
       "description": "Get up to speed with webquoin, make sure to be logged in at Vimeo",
       "template": "media",
-      "paragraphs": [ 
+      "paragraphs": [
         {
           "text": "",
           "class": ""
@@ -1259,126 +1257,126 @@
         {
           "title": "Promo Mini Base",
           "video": "224249625",
-          "tags": ["mini base" ]
+          "tags": ["mini base"]
         },
         {
           "title": "Drawer face adjustments",
           "video": "224249476",
-          "tags": ["drawer face", "adjustments" ]
+          "tags": ["drawer face", "adjustments"]
         },
         {
           "title": "Showroom video",
           "video": "190013975",
-          "tags": ["showroom" ]
+          "tags": ["showroom"]
         },
         {
           "title": "Color HDM Changes",
           "video": "157468879",
-          "tags": ["color changes", "header drop-down menu" ]
+          "tags": ["color changes", "header drop-down menu"]
         },
         {
           "title": "New Euro Materials",
           "video": "157362440",
-          "tags": ["color changes", "euro materials" ]
+          "tags": ["color changes", "euro materials"]
         },
         {
           "title": "Using the Custom Library Part 4",
           "video": "156620205",
-          "tags": [ "library items", "part 4" ]
+          "tags": ["library items", "part 4"]
         },
         {
           "title": "Using the Custom Library Part 3",
           "video": "156620189",
-          "tags": [ "library items", "part 3", "of 4" ]
+          "tags": ["library items", "part 3", "of 4"]
         },
         {
           "title": "Using the Custom Library Part 2",
           "video": "156620409",
-          "tags": [ "library items", "part 2", "of 4" ]
+          "tags": ["library items", "part 2", "of 4"]
         },
         {
           "title": "Using the Custom Library Part 1",
           "video": "156620163",
-          "tags": [ "library items", "part 1", "of 4" ]
+          "tags": ["library items", "part 1", "of 4"]
         },
         {
           "title": "Searching Items Inside a Quote",
           "video": "156619660",
-          "tags": [ "quote", "searching", "items inside" ]
+          "tags": ["quote", "searching", "items inside"]
         },
         {
           "title": "Editing a Cabinet",
           "video": "156619567",
-          "tags": [ "editing", "cabinet" ]
+          "tags": ["editing", "cabinet"]
         },
         {
           "title": "Attaching Accessories and Notes",
           "video": "156618068",
-          "tags": [ "accessories", "notes" ]
+          "tags": ["accessories", "notes"]
         },
         {
           "title": "Adding Cabinets",
           "video": "156618063",
-          "tags": [ "add", "cabinet" ]
+          "tags": ["add", "cabinet"]
         },
         {
           "title": "Header Drop-Down Menus",
           "video": "156618003",
-          "tags": [ "hdm", "header drop-down menu" ]
+          "tags": ["hdm", "header drop-down menu"]
         },
         {
           "title": "Header Drop-Down Menus",
           "video": "156618003",
-          "tags": [ "hdm", "header drop-down menu" ]
+          "tags": ["hdm", "header drop-down menu"]
         },
         {
           "title": "Starting Your First Quote",
           "video": "156617956",
-          "tags": [ "first", "quote" ]
+          "tags": ["first", "quote"]
         },
         {
           "title": "Welcome to Webquoin",
           "video": "156617846",
-          "tags": [ "welcome", "webquoin" ]
+          "tags": ["welcome", "webquoin"]
         },
         {
           "title": "Welcome to Webquoin",
           "video": "156617846",
-          "tags": [ "welcome", "webquoin" ]
+          "tags": ["welcome", "webquoin"]
         },
         {
           "title": "Gloss Materials and Doors",
           "video": "156617529",
-          "tags": [ "doors", "gloss material" ]
+          "tags": ["doors", "gloss material"]
         },
         {
           "title": "Gloss Materials and Doors",
           "video": "156617529",
-          "tags": [ "doors", "gloss material" ]
+          "tags": ["doors", "gloss material"]
         },
         {
           "title": "Backorder System Part 2",
           "video": "156331693",
-          "tags": [ "backorder", "system", "part 2 of 2" ]
+          "tags": ["backorder", "system", "part 2 of 2"]
         },
         {
           "title": "Backorder System Part 1",
           "video": "156331692",
-          "tags": [ "backorder", "system", "part 1 of 2" ]
+          "tags": ["backorder", "system", "part 1 of 2"]
         },
         {
           "title": "Changes to Doors, Door Edges and Drawer Face Options",
           "video": "156326663",
-          "tags": [ "doors", "edges", "drawersfaces" ]
+          "tags": ["doors", "edges", "drawersfaces"]
         },
         {
           "title": "New Webquoin Feature - Most Popular Attachments",
           "video": "156289761",
-          "tags": [ "webquoin", "features", "popular attachments" ]
+          "tags": ["webquoin", "features", "popular attachments"]
         }
       ],
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     },
     {
       "active": true,
@@ -1387,11 +1385,11 @@
       "root": "MPT",
       "title": "Images",
       "description": "Dropbox images for public use, click on name of image to download",
-      "paragraphs": [ ],
-      "images": [ ],
+      "paragraphs": [],
+      "images": [],
       "folder": "https://www.dropbox.com/sh/h3rph6eutrbi74f/AADASbLxYpPEYFuAkzB3LEffa?dl=0",
-      "notes": [ ],
-      "options": [  ]
+      "notes": [],
+      "options": []
     }
   ]
 }
