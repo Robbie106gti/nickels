@@ -21,12 +21,16 @@
       "title": "FV : Floating Vanity Door & Drawer",
       "attached": [
         {
+          "height": "24",
+          "link": "page"
+        },
+        {
           "height": "26",
           "link": "page"
         }
       ],
       "image": "https://webquoin.com/catalog/images/JPGs/Custom/Floating%20Vanity/FV__26.jpg",
-      "tags": ["vanity", "floating", "drawer", "door", "26\""]
+      "tags": ["vanity", "floating", "drawer", "door", "26\"", "24\""]
     },
     {
       "code": "FVDD",
