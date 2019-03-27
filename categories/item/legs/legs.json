@@ -2,7 +2,7 @@
   "legs": [
     {
       "title": "Tapered leg",
-      "code": "LEG-TAPERED",
+      "code": "LP-LEG-TAPERED",
       "description": "A slightly tapered leg with default height of 36\"",
       "images": [
         {
@@ -29,7 +29,7 @@
     },
     {
       "title": "Square Solid Wood leg",
-      "code": "LEG-SQ-SOLID",
+      "code": "LP-LEG-SQ-SOLID",
       "description": "",
       "images": [
         {
@@ -56,7 +56,7 @@
     },
     {
       "title": "Mitered leg",
-      "code": "LEG-MITERED",
+      "code": "LP-LEG-MITERED",
       "description": "",
       "images": [
         {
