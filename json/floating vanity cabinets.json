@@ -65,12 +65,25 @@
       "title": "FVS : Floating Vanity Sink Door & False Drawer",
       "attached": [
         {
+          "height": "24",
+          "link": "page"
+        },
+        {
           "height": "26",
           "link": "page"
         }
       ],
       "image": "https://webquoin.com/catalog/images/JPGs/Custom/Floating%20Vanity/FVS__26.jpg",
-      "tags": ["vanity", "floating", "sink", "false", "drawer", "door", "26\""]
+      "tags": [
+        "vanity",
+        "floating",
+        "sink",
+        "false",
+        "drawer",
+        "door",
+        "26\"",
+        "24\""
+      ]
     },
     {
       "code": "FVSDD",
