@@ -1,85 +1,8 @@
 {
-  "legs": [
+  "structure": [
     {
-      "title": "Tapered leg",
-      "code": "LP-LEG-TAPERED",
-      "description": "A slightly tapered leg with default height of 36\"",
-      "images": [
-        {
-          "title": "drawing",
-          "image": "../../../assets/legs/Leg-LEG-TAPERED-01.png"
-        }
-      ],
-      "tags": ["leg", "post", "tapered", "36\""],
-      "materials": [
-        "Alder",
-        "Black Walnut",
-        "Cherry",
-        "Maple",
-        "QS White Oak",
-        "PS White Oak",
-        "Painted"
-      ],
-      "notes": [],
-      "dimensions": {
-        "height": "36\"",
-        "width": "2 to 5\"",
-        "depth": "2 to 5\""
-      }
-    },
-    {
-      "title": "Square Solid Wood leg",
-      "code": "LP-LEG-SQ-SOLID",
-      "description": "",
-      "images": [
-        {
-          "title": "drawing",
-          "image": "../../../assets/legs/Leg-LEG-SQ-SOLID-01.png"
-        }
-      ],
-      "tags": ["leg", "post", "solid", "sq", "36\""],
-      "materials": [
-        "Alder",
-        "Black Walnut",
-        "Cherry",
-        "Maple",
-        "QS White Oak",
-        "PS White Oak",
-        "Painted"
-      ],
-      "notes": [],
-      "dimensions": {
-        "height": "36\"",
-        "width": "1 1/2\"",
-        "depth": "1 1/2\""
-      }
-    },
-    {
-      "title": "Mitered leg",
-      "code": "LP-LEG-MITERED",
-      "description": "",
-      "images": [
-        {
-          "title": "drawing",
-          "image": "../../../assets/legs/Leg-LEG-MITERED-01.png"
-        }
-      ],
-      "tags": ["leg", "post", "mitered", "36\""],
-      "materials": [
-        "Alder",
-        "Black Walnut",
-        "Cherry",
-        "Maple",
-        "QS White Oak",
-        "PS White Oak",
-        "Painted"
-      ],
-      "notes": [],
-      "dimensions": {
-        "height": "36\"",
-        "width": "2\" to 5\"",
-        "depth": "2\" to 5\""
-      }
+      "title": "Column"
     }
-  ]
+  ],
+  "items": []
 }
