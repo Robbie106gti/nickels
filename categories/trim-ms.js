@@ -322,7 +322,7 @@ function setOptions2(option) {
           function(option) {
             _newArrowCheck(this, _this6);
 
-            return '<li><b><span class="ordercode" cart=\'\'>'
+            return '<li><b><span class="ordercode" >'
               .concat(option.code, ': </span></b>')
               .concat(option.description, '</li>');
           }.bind(this)
@@ -386,7 +386,7 @@ function setCodes(item) {
                 return '<tr><td>'
                   .concat(
                     row.de,
-                    '</td><td><ul><li><span  class="ordercode" cart=\'\'  onclick="addToOrder(\''
+                    '</td><td><ul><li><span  class="ordercode"   onclick="addToOrder(\''
                   )
                   .concat(row.code, '\')">')
                   .concat(row.code, '</span></li></ul></td><td>')
@@ -402,45 +402,6 @@ function setCodes(item) {
   $('.dropdown-button').dropdown({
     hover: true
   });
-  var currentDiv = null;
-  $(document).ready(function() {
-    if (parent.shopcart) {
-      $("[cart='']").css('cursor', 'pointer');
-      $("[cart='']").attr('title', 'Click to add this item to your job.');
-      addtocartcontextmenu();
-      $('#Search').hide();
-      $('[href="http://www.nickelscabinets.com/"]').hide();
-    }
-  });
-
-  function addtocartcontextmenu() {
-    $("[cart='']").contextMenu(
-      {
-        menu: 'AddToCartMenu'
-      },
-      function onclick(action, el, pos) {
-        //location.href = "main.wcsx?sid=50&pk=" + $(el).attr('pk')
-        //    $(this).find('ul').hide();
-        switch (action) {
-          case 'add':
-            parent.addtocart(el);
-            break;
-
-          case 'edit':
-            break;
-
-          default:
-            alert('Feature currently unavailable.');
-        }
-      }
-    ); // This is the left click function
-
-    $("[cart='']").click(function() {
-      if (confirm('Do you want to add this item to your order?')) {
-        parent.addtocart(this);
-      }
-    });
-  }
 }
 
 function tableTwo(table) {
@@ -485,10 +446,7 @@ function tableTwo(table) {
                   )
                   .concat(
                     row.unique
-                      ? '<span class="ordercode" cart=\'\'>'.concat(
-                          row.code,
-                          '</span>'
-                        )
+                      ? '<span class="ordercode" >'.concat(row.code, '</span>')
                       : "<a class='dropdown-button btn' href='#' data-activates='dropdownordercodes"
                           .concat(
                             row.code,
@@ -511,7 +469,7 @@ function tableTwo(table) {
                                       function(length) {
                                         _newArrowCheck(this, _this10);
 
-                                        return '<li><span class="ordercode" cart=\'\' onclick="addToOrder(\''
+                                        return '<li><span class="ordercode"  onclick="addToOrder(\''
                                           .concat(row.code + height, '-')
                                           .concat(length, '\')">')
                                           .concat(row.code + height, '-')
@@ -582,7 +540,7 @@ function tableThree(table) {
                     function(length) {
                       _newArrowCheck(this, _this12);
 
-                      return '<li><span class="ordercode" cart=\'\' onclick="addToOrder(\''
+                      return '<li><span class="ordercode"  onclick="addToOrder(\''
                         .concat(row.code, '\')">')
                         .concat(row.code, '-')
                         .concat(length, '</span><small>')

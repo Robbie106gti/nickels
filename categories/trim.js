@@ -254,9 +254,9 @@ function setOptions2(option) {
       ${option.options
         .map(
           option =>
-            `<li><b><span class="ordercode" cart=''>${
-              option.code
-            }: </span></b>${option.description}</li>`
+            `<li><b><span class="ordercode" >${option.code}: </span></b>${
+              option.description
+            }</li>`
         )
         .join('')}
     </ul>
@@ -293,9 +293,9 @@ function setCodes(item) {
                             row =>
                               `<tr><td>${
                                 row.de
-                              }</td><td><ul><li><span  class="ordercode" cart=''  onclick="addToOrder('${
+                              }</td><td><ul><li><span  class="ordercode">${
                                 row.code
-                              }')">${row.code}</span></li></ul></td><td>${
+                              }</span></li></ul></td><td>${
                                 row.description
                               }</td></tr>`
                           )
@@ -308,46 +308,6 @@ function setCodes(item) {
   $('.dropdown-button').dropdown({
     hover: true
   });
-  var currentDiv = null;
-  $(document).ready(function() {
-    if (parent.shopcart) {
-      $("[cart='']").css('cursor', 'pointer');
-      $("[cart='']").attr('title', 'Click to add this item to your job.');
-      addtocartcontextmenu();
-      $('#Search').hide();
-      $('[href="http://www.nickelscabinets.com/"]').hide();
-    }
-  });
-
-  function addtocartcontextmenu() {
-    $("[cart='']").contextMenu(
-      {
-        menu: 'AddToCartMenu'
-      },
-
-      function onclick(action, el, pos) {
-        //location.href = "main.wcsx?sid=50&pk=" + $(el).attr('pk')
-        //    $(this).find('ul').hide();
-        switch (action) {
-          case 'add':
-            parent.addtocart(el);
-            break;
-          case 'edit':
-            break;
-
-          default:
-            alert('Feature currently unavailable.');
-        }
-      }
-    );
-
-    // This is the left click function
-    $("[cart='']").click(function() {
-      if (confirm('Do you want to add this item to your order?')) {
-        parent.addtocart(this);
-      }
-    });
-  }
 }
 
 function tableTwo(table) {
@@ -367,7 +327,7 @@ function tableTwo(table) {
           <td>
           ${
             row.unique
-              ? `<span class="ordercode" cart=''>${row.code}</span>`
+              ? `<span class="ordercode" >${row.code}</span>`
               : `<a class='dropdown-button btn' href='#' data-activates='dropdownordercodes${
                   row.code
                 }'>OrderCodes</a>
@@ -377,8 +337,7 @@ function tableTwo(table) {
                 row.lengths
                   .map(
                     length =>
-                      `<li><span class="ordercode" cart='' onclick="addToOrder('${row.code +
-                        height}-${length}')">${row.code +
+                      `<li><span class="ordercode">${row.code +
                         height}-${length}</span><small>${height}" high - ${length}' long</small></li>`
                   )
                   .join('')
@@ -416,9 +375,7 @@ function tableThree(table) {
                 ${row.lengths
                   .map(
                     length =>
-                      `<li><span class="ordercode" cart='' onclick="addToOrder('${
-                        row.code
-                      }')">${
+                      `<li><span class="ordercode">${
                         row.code
                       }-${length}</span><small>${length}' long</small></li>`
                   )
@@ -541,14 +498,4 @@ function getEdges() {
       initMaterializeJS();
     })
     .catch(err => console.log(err));
-}
-
-function addToOrder(code) {
-  console.log(
-    code + ': this is the ordercode to add, CORS is blocking the JS interaction'
-  );
-  let input = parent.getElementById('txtItemcode');
-  input ? document.getElementById('txtItemcode') : input;
-  console.log(input);
-  input.value = code;
 }

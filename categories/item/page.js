@@ -220,7 +220,7 @@ function codeTable(page) {
                     ${page.widths
                       .map(
                         code =>
-                          `<tr><td>${code}"</td><td><ul><li><span  class="ordercode" cart=''>${
+                          `<tr><td>${code}"</td><td><ul><li><span class="ordercode">${
                             page.root
                           }${code}${page.height}</span></li></ul></td></tr>`
                       )
@@ -231,46 +231,6 @@ function codeTable(page) {
         </div>
         `;
   $('#codes').html(table);
-  var currentDiv = null;
-  $(document).ready(function() {
-    if (parent.shopcart) {
-      $("[cart='']").css('cursor', 'pointer');
-      $("[cart='']").attr('title', 'Click to add this item to your job.');
-      addtocartcontextmenu();
-      $('#Search').hide();
-      $('[href="http://www.nickelscabinets.com/"]').hide();
-    }
-  });
-
-  function addtocartcontextmenu() {
-    $("[cart='']").contextMenu(
-      {
-        menu: 'AddToCartMenu'
-      },
-
-      function onclick(action, el, pos) {
-        //location.href = "main.wcsx?sid=50&pk=" + $(el).attr('pk')
-        //    $(this).find('ul').hide();
-        switch (action) {
-          case 'add':
-            parent.addtocart(el);
-            break;
-          case 'edit':
-            break;
-
-          default:
-            alert('Feature currently unavailable.');
-        }
-      }
-    );
-
-    // This is the left click function
-    $("[cart='']").click(function() {
-      if (confirm('Do you want to add this item to your order?')) {
-        parent.addtocart(this);
-      }
-    });
-  }
 }
 
 function setActions(page) {

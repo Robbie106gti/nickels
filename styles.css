@@ -210,9 +210,33 @@ img.responsive-img.materialboxed {
   left: 1em;
 }
 
+span.ordercode > a {
+  font-weight: bold;
+  color: #800;
+  cursor: pointer;
+}
+
+.ordercode > a {
+  font-weight: bold;
+  color: #800;
+  cursor: pointer;
+}
+
 .ordercode {
   font-weight: bold;
   color: #800;
+  cursor: pointer;
+}
+
+.parts {
+  color: #ffab40 !important;
+  transition: color 0.3s ease;
+  text-transform: uppercase !important;
+}
+
+.parts > span.ordercode > a {
+  font-weight: bold;
+  color: #800 !important;
   cursor: pointer;
 }
 
