@@ -93,6 +93,12 @@
         "Available in 1/8” increments from 2” - 6” wide.",
         "Available in Wood and Painted only."
       ],
+      "dimensions": {
+        "depths": "4 7/8\" to 24 7/8\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
       "notes": ["21"],
       "fronts": ["clm-100"],
       "heights": [
@@ -138,6 +144,12 @@
         "Left and Right sides are not finished. (specify - FEs)",
         "Choose front of Column. (see table)"
       ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
       "options": [
         "Available in 1/8” increments from 2” - 6” wide.",
         "Available in All materials.",
@@ -335,6 +347,12 @@
           "image": "https://webquoin.com/catalog/images/CLM/CLM-100.jpg"
         }
       ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
       "standards": [
         "Front will be either Veneer or Paint",
         "Depth of case is 24 7/8” by default, FRONT is included in case depth",
@@ -371,7 +389,7 @@
       "dimensions": {
         "depths": "4\" to 24\"",
         "heights": "12\" to 96\"",
-        "widths": "2\" to 24\"",
+        "widths": "2\" to 6\"",
         "thickness": "7/8\" or 3/4\""
       },
       "standards": [
@@ -405,6 +423,12 @@
           "image": "https://webquoin.com/catalog/images/CLM/CLM-201.jpg"
         }
       ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
       "standards": [
         "A solid Wood or Painted MDF cornerblock at top and bottom with a molding in between",
         "Depth of case is 24” by default, FRONT is additional to case depth",
@@ -431,6 +455,12 @@
         "cornerstone": true,
         "modal": false,
         "modcon": false
+      },
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
       },
       "tags": ["column front", "cornerblocks", "flat", "channel"],
       "images": [
@@ -466,6 +496,12 @@
         "modal": false,
         "modcon": false
       },
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
       "tags": ["column front", "cornerblocks", "flat", "fluted"],
       "images": [
         {
@@ -499,6 +535,12 @@
         "cornerstone": true,
         "modal": false,
         "modcon": false
+      },
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
       },
       "tags": ["column front", "rosette", "flat"],
       "images": [
@@ -541,6 +583,12 @@
           "image": "https://webquoin.com/catalog/images/CLM/CLM-208.jpg"
         }
       ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
       "standards": [
         "A solid Wood or Painted MDF rosette 2 cornerblock at top and bottom with a channel molding in between",
         "Depth of case is 24” by default, FRONT is additional to case depth",
@@ -567,6 +615,12 @@
         "cornerstone": true,
         "modal": false,
         "modcon": false
+      },
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
       },
       "tags": ["column front", "rosette", "fluted"],
       "images": [
@@ -609,6 +663,12 @@
           "image": "https://webquoin.com/catalog/images/CLM/CLM-220.jpg"
         }
       ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
       "standards": [
         "A solid Wood or Painted MDF cornerblock at top with a molding below",
         "Depth of case is 24” by default, FRONT is additional to case depth",
@@ -643,6 +703,12 @@
           "image": "https://webquoin.com/catalog/images/CLM/CLM-221.jpg"
         }
       ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
       "standards": [
         "A solid Wood or Painted MDF cornerblock at top with a molding below",
         "Depth of case is 24” by default, FRONT is additional to case depth",
@@ -677,6 +743,12 @@
           "image": "https://webquoin.com/catalog/images/CLM/CLM-222.jpg"
         }
       ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
       "standards": [
         "A solid Wood or Painted MDF cornerblock at top with a fluted molding below",
         "Depth of case is 24” by default, FRONT is additional to case depth",
@@ -711,6 +783,12 @@
           "image": "https://webquoin.com/catalog/images/CLM/CLM-226.jpg"
         }
       ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
       "standards": [
         "A solid Wood or Painted MDF rosette cornerblock at top with a molding in below",
         "Depth of case is 24” by default, FRONT is additional to case depth",
@@ -750,6 +828,12 @@
         "Depth of case is 24” by default, FRONT is additional to case depth",
         "Available in 1/8” increments from 2” - 6” wide"
       ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
       "restrictions": [
         "Not available for CLM-Miter column",
         "Not available in Engineered, Melamine, Gloss and Euro Materials",
@@ -779,6 +863,12 @@
           "image": "https://webquoin.com/catalog/images/CLM/CLM-228.jpg"
         }
       ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
       "standards": [
         "A solid Wood or Painted MDF rosette cornerblock at top with a fluted molding below",
         "Depth of case is 24” by default, FRONT is additional to case depth",
@@ -813,6 +903,12 @@
           "image": "https://webquoin.com/catalog/images/CLM/CLM-250.jpg"
         }
       ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
       "standards": [
         "The front has the fluted molding that starts 3/4\" from either end",
         "Depth of case is 24” by default, FRONT is additional to case depth",
@@ -851,6 +947,12 @@
         "Depth of case is 24” by default, FRONT is additional to case depth",
         "Available in 1/8” increments from 2” - 6” wide"
       ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
       "restrictions": [
         "Not available for CLM-Miter column",
         "Not available in Engineered, Melamine, Gloss and Euro Materials"
@@ -879,6 +981,12 @@
           "image": "https://webquoin.com/catalog/images/CLM/CLM-301.jpg"
         }
       ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
       "standards": [
         "Wainscot design is on the front",
         "Front face is made from 4 pieces of material with horizontal grain across the top and bottom rails, and vertical grain on the styles",

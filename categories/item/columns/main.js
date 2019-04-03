@@ -53,10 +53,29 @@ function getPage() {
         info.item = data.items.filter(
           item => item.code.toLowerCase() === code
         )[0];
+        info.item.requires ? addRequired(info, data) : info;
+        info.item.fronts ? addFronts(info, data) : info;
       }
       makeStructure(info);
     })
     .catch(err => console.log(err));
+}
+
+function addFronts(info, data) {
+  info.item.fronts = info.item.fronts.map(
+    front => data.items.filter(item => item.code === front)[0]
+  );
+  return info;
+}
+
+function addRequired(info, data) {
+  info.item.requires = data.items.filter(
+    item => item.code === info.item.requires[0]
+  )[0];
+  info.item.images = info.item.images.concat(info.item.requires.images);
+  info.item.notes = info.item.notes.concat(info.item.requires.notes);
+  console.log(info);
+  return info;
 }
 
 function tabbedSec(object, tabs) {
@@ -89,6 +108,7 @@ function tabbedSec(object, tabs) {
 }
 
 function makeStructure(info) {
+  console.log(info);
   setGI(info);
   const structure = `
   <div class="col s12 m8">
@@ -98,12 +118,20 @@ function makeStructure(info) {
     <div id="codes"></div>
   </div>
   <div id="images" class="col s12 m4">
-  ${setMainImage(info.item)}</div>`;
+  ${setMainImage(info.item)}</div>
+  <div id="table" class="col s12 m4">${organizeTables(info)}</div>`;
   $('#catalog').html(structure);
   setDes(info.item);
   setSpecs(info.item);
   $('#codes').html(setCode(info.item.code));
   setNotes(null, info.item.notes);
+}
+
+function organizeTables(info) {
+  if (!info.item.requires) return null;
+  return `<div class="card-panel">${setTableColumns(
+    info.item
+  )}</div><div class="card-panel">${setColumnHeights(info.item)}</div>`;
 }
 
 function setMainImage(info) {
@@ -131,7 +159,7 @@ function exampleImages(info) {
 }
 
 function setGI(info) {
-  const link = !info.code ? '../../../' : './index.html';
+  const link = !info.code ? '../../../' : './index.html#' + info.item.root;
   let topic = `
         <a href="${link}" class="right">
           <i class="small material-icons">arrow_back</i>
@@ -181,20 +209,23 @@ function setSpecs(item) {
         <li class="second"><i class="material-icons">tune</i> Depth: ${
           item.dimensions.depths
         }</li>
-        <li class="second"><i class="material-icons">tune</i> front: ${
+        <li class="second"><i class="material-icons">tune</i> Front: ${
           item.dimensions.thickness
         }</li>
         </ul></li>
         ${item.standards.map(st => `<li>${st}</li>`).join('')}
       </ul>
-      <div id="restrictions">${setRestrictions(item.restrictions)}</div></div>
+      ${
+        item.options
+          ? `<div id="options">${setOptions(item.options)}</div>`
+          : ''
+      }
+      ${
+        item.restrictions
+          ? `<div id="restrictions">${setRestrictions(item.restrictions)}</div>`
+          : ''
+      }</div>
     </div>
     `;
   $('#spec').html(spec);
-}
-
-function getTags(tags) {
-  if (!tags) return;
-  const keys = `${tags.map(tag => `<div class="chip">${tag}</div>`).join('')}`;
-  return keys;
 }

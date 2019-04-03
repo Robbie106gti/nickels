@@ -4,6 +4,8 @@
   "description": "Digital catalogs",
   "main": "index.html",
   "dependencies": {
+    "csv-parser": "^2.2.0",
+    "csv-writer": "^1.2.0",
     "dropbox": "^2.5.12",
     "jquery": "^3.2.1",
     "materialize-css": "^0.100.2",
