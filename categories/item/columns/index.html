@@ -132,9 +132,19 @@
       }
     </script>
     <script>
-      $(document).ready(function() {
-        parent.activatecat();
-      });
+      if (window.location !== window.parent.location) {
+        console.log({
+          window: window.location,
+          parent: window.parent.location
+        });
+        $(document).ready(function() {
+          parent.activatecat();
+        });
+      } else {
+        console.log({
+          window: window.location
+        });
+      }
     </script>
   </body>
 </html>

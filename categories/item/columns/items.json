@@ -70,7 +70,7 @@
   "items": [
     {
       "active": true,
-      "root": "constructions",
+      "root": "construction",
       "title": "Column Miter",
       "code": "clm-miter",
       "images": [
@@ -122,7 +122,7 @@
     },
     {
       "active": true,
-      "root": "constructions",
+      "root": "construction",
       "title": "Column",
       "code": "clm",
       "images": [

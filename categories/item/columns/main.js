@@ -50,10 +50,16 @@ function getPage() {
         item: null
       };
       if (!code) {
-        const d = document.getElementById('catalog');
-        d.className += ' grid';
-        const html = `${data.items.map(cat => cardWith(cat)).join('')}`;
-        $('#catalog').html(html);
+        const tabs = data['sub-cats'];
+        let html = {};
+        tabs.forEach(tab => {
+          html = {
+            [tab.root]: data.items.filter(item => tab.root === item.root),
+            ...html
+          };
+        });
+
+        $('#catalog').html(tabbedSec(html, tabs));
         setGI(info);
         return;
       } else {
@@ -64,6 +70,35 @@ function getPage() {
       makeStructure(info);
     })
     .catch(err => console.log(err));
+}
+
+function tabbedSec(object, tabs) {
+  console.log(object, tabs);
+  const li = tabs
+    .map(tab => {
+      const i = `<li class="tab col s3"><a class="" href="#${tab.root}">${
+        tab.title
+      }</a></li>`;
+      return i;
+    })
+    .join('');
+  const grids = tabs
+    .map(tab => {
+      const g = `<div id="${tab.root}" class="grid">${object[tab.root]
+        .map(card => cardWith(card))
+        .join('')}</div>`;
+      return g;
+    })
+    .join('');
+  const html = `<div class="row">
+  <div class="">
+    <ul class="tabs">
+      ${li}
+    </ul>
+  </div>
+  ${grids}
+</div>`;
+  return html;
 }
 
 function unique(array) {
