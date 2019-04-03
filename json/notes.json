@@ -104,7 +104,7 @@
     },
     {
       "id": "13",
-      "title": "Flush mount ",
+      "title": "Flush mount, ",
       "link": "#",
       "content": "make and model of the appliance(s) must be supplied with the installation instructions. ",
       "contentLink": "",
@@ -112,7 +112,7 @@
     },
     {
       "id": "14",
-      "title": "CC-MILLWORK ",
+      "title": "CC-MILLWORK, ",
       "link": "#",
       "content": "may be added if complexity increases",
       "contentLink": "",
@@ -120,7 +120,7 @@
     },
     {
       "id": "15",
-      "title": "Notches ",
+      "title": "Notches, ",
       "link": "#",
       "content": "may need to be cut in set shevling to allow for air flow dependent on appliance specifications",
       "contentLink": "",
@@ -128,7 +128,7 @@
     },
     {
       "id": "17",
-      "title": "Finishing ",
+      "title": "Finishing, ",
       "link": "#",
       "content": "The bottom of the cabinet is unfinished. If finishing the bottom is required, attach Finish Cabinet Bottom (FCB)",
       "contentLink": "",
@@ -136,9 +136,49 @@
     },
     {
       "id": "18",
-      "title": "Dowelled ",
+      "title": "Dowelled, ",
       "link": "#",
       "content": "The back of the cabinet is dowelled for added strength and is joined with the Plywood top",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "19",
+      "title": "Finished ends, ",
+      "link": "#",
+      "content": "Melamines and Soho materials do not have finished ends available. Attach accessories CLM-FEL, CLM-FER or CLM-FELR to finish sides",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "20",
+      "title": "Gables, ",
+      "link": "#",
+      "content": "The gable depth is controled in webquoin, the final depth is gable depth plus front",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "21",
+      "title": "Depth, ",
+      "link": "#",
+      "content": "The depth of a default regular COLUMN is 24” plus the front, which is always additional to depth. For a MITERED COLUMN the depth is 24 7/8” including the front of Column",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "22",
+      "title": "Materials, ",
+      "link": "#",
+      "content": "for Melanines, Euro Materials or Gloss Columns use CLM column with CLM-101 front",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "23",
+      "title": "Miter, ",
+      "link": "#",
+      "content": "for mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front",
       "contentLink": "",
       "ccontent": "."
     }

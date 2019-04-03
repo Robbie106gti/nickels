@@ -244,7 +244,7 @@ function cardWith(cat) {
       <img class="responsive-img" src="${cat.image}">
     </a></div>
     <div class="card-content">
-      <a href="#code=${cat.code}">
+      <a href="?code=${cat.code}">
         <span class="card-title grey-text text-darken-4">${titleCase(
           cat.title
         )}</span>

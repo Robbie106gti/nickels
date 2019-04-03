@@ -93,9 +93,7 @@
         "Available in 1/8” increments from 2” - 6” wide.",
         "Available in Wood and Painted only."
       ],
-      "notes": [
-        "The depth of a default regular COLUMN is 24” plus the front, which is always additional to depth. For a MITERED COLUMN the depth is 24 7/8” including the front of Column."
-      ],
+      "notes": ["21"],
       "fronts": ["clm-100"],
       "heights": [
         "12",
@@ -146,10 +144,7 @@
         "FCB/FCT to finish bottom or top.",
         "To finish back of column add a second Column front."
       ],
-      "notes": [
-        "Melamines and Soho materials do not have finished ends available. Attach accessories CLM-FEL, CLM-FER or CLM-FELR to finish sides.",
-        "The gable depth is controled in webquoin, the final depth is gable depth plus front."
-      ],
+      "notes": ["19", "20"],
       "fronts": [
         "clm-101",
         "clm-201",
@@ -349,9 +344,7 @@
         "Only available for CLM-Miter column",
         "Only available in WOOD Veneers, Engineered or Painted"
       ],
-      "notes": [
-        "For Melanines, Euro Materials or Gloss Columns use CLM column with CLM-101 front"
-      ],
+      "notes": ["22"],
       "cnm": ["none", "none"],
       "requires": ["clm-miter"]
     },
@@ -375,6 +368,12 @@
           "image": "https://webquoin.com/catalog/images/CLM/CLM-101.jpg"
         }
       ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 24\"",
+        "thickness": "7/8\" or 3/4\""
+      },
       "standards": [
         "A flat molding applied to the front of a CLM cabinet",
         "Depth of case is 24” by default, FRONT is additional to case depth",
@@ -382,9 +381,7 @@
         "Available in 1/8” increments from 2” - 6” wide"
       ],
       "restrictions": ["Not available for CLM-Miter column"],
-      "notes": [
-        "For mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front"
-      ],
+      "notes": ["23"],
       "cnm": ["none", "slab"],
       "requires": ["clm"]
     },
@@ -418,9 +415,7 @@
         "Not available in Engineered, Melamine, Gloss and Euro Materials",
         "Height of cornerblocks matches width"
       ],
-      "notes": [
-        "For mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front"
-      ],
+      "notes": ["23"],
       "cnm": ["flat", "flat"],
       "requires": ["clm"]
     },
@@ -454,9 +449,7 @@
         "Not available in Engineered, Melamine, Gloss and Euro Materials",
         "Height of cornerblocks matches width"
       ],
-      "notes": [
-        "For mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front"
-      ],
+      "notes": ["23"],
       "cnm": ["flat", "channel"],
       "requires": ["clm"]
     },
@@ -490,9 +483,7 @@
         "Not available in Engineered, Melamine, Gloss and Euro Materials",
         "Height of cornerblocks matches width"
       ],
-      "notes": [
-        "For mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front"
-      ],
+      "notes": ["23"],
       "cnm": ["flat", "channel"],
       "requires": ["clm"]
     },
@@ -526,9 +517,7 @@
         "Not available in Engineered, Melamine, Gloss and Euro Materials",
         "Height of cornerblocks matches width"
       ],
-      "notes": [
-        "For mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front"
-      ],
+      "notes": ["23"],
       "cnm": ["rosette", "flat"],
       "requires": ["clm"]
     },
@@ -562,9 +551,7 @@
         "Not available in Engineered, Melamine, Gloss and Euro Materials",
         "Height of cornerblocks matches width"
       ],
-      "notes": [
-        "For mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front"
-      ],
+      "notes": ["23"],
       "cnm": ["rosette", "channel"],
       "requires": ["clm"]
     },
@@ -598,9 +585,7 @@
         "Not available in Engineered, Melamine, Gloss and Euro Materials",
         "Height of cornerblocks matches width"
       ],
-      "notes": [
-        "For mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front"
-      ],
+      "notes": ["23"],
       "cnm": ["rosette", "fluted"],
       "requires": ["clm"]
     },
@@ -634,9 +619,7 @@
         "Not available in Engineered, Melamine, Gloss and Euro Materials",
         "Height of cornerblock matches width"
       ],
-      "notes": [
-        "For mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front"
-      ],
+      "notes": ["23"],
       "cnm": ["flat", "flat"],
       "requires": ["clm"]
     },
@@ -670,9 +653,7 @@
         "Not available in Engineered, Melamine, Gloss and Euro Materials",
         "Height of cornerblock matches width"
       ],
-      "notes": [
-        "For mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front"
-      ],
+      "notes": ["23"],
       "cnm": ["flat", "channel"],
       "requires": ["clm"]
     },
@@ -706,9 +687,7 @@
         "Not available in Engineered, Melamine, Gloss and Euro Materials",
         "Height of cornerblock matches width"
       ],
-      "notes": [
-        "For mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front"
-      ],
+      "notes": ["23"],
       "cnm": ["flat", "fluted"],
       "requires": ["clm"]
     },
@@ -742,9 +721,7 @@
         "Not available in Engineered, Melamine, Gloss and Euro Materials",
         "Height of cornerblock matches width"
       ],
-      "notes": [
-        "For mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front"
-      ],
+      "notes": ["23"],
       "cnm": ["rosette", "flat"],
       "requires": ["clm"]
     },
@@ -778,9 +755,7 @@
         "Not available in Engineered, Melamine, Gloss and Euro Materials",
         "Height of cornerblock matches width"
       ],
-      "notes": [
-        "For mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front"
-      ],
+      "notes": ["23"],
       "cnm": ["rosette", "channel"],
       "requires": ["clm"]
     },
@@ -814,9 +789,7 @@
         "Not available in Engineered, Melamine, Gloss and Euro Materials",
         "Height of cornerblock matches width"
       ],
-      "notes": [
-        "For mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front"
-      ],
+      "notes": ["23"],
       "cnm": ["rosette", "fluted"],
       "requires": ["clm"]
     },
@@ -849,9 +822,7 @@
         "Not available for CLM-Miter column",
         "Not available in Engineered, Melamine, Gloss and Euro Materials"
       ],
-      "notes": [
-        "For mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front"
-      ],
+      "notes": ["23"],
       "cnm": ["none", "fluted"],
       "requires": ["clm"]
     },
@@ -884,9 +855,7 @@
         "Not available for CLM-Miter column",
         "Not available in Engineered, Melamine, Gloss and Euro Materials"
       ],
-      "notes": [
-        "For mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front"
-      ],
+      "notes": ["23"],
       "cnm": ["none", "channel"],
       "requires": ["clm"]
     },

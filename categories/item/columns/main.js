@@ -88,16 +88,6 @@ function tabbedSec(object, tabs) {
   return html;
 }
 
-function unique(array) {
-  var seen = new Set();
-  return array.filter(function(item) {
-    if (!seen.has(item)) {
-      seen.add(item);
-      return true;
-    }
-  });
-}
-
 function makeStructure(info) {
   setGI(info);
   const structure = `
@@ -113,6 +103,7 @@ function makeStructure(info) {
   setDes(info.item);
   setSpecs(info.item);
   $('#codes').html(setCode(info.item.code));
+  setNotes(null, info.item.notes);
 }
 
 function setMainImage(info) {
@@ -154,18 +145,6 @@ function setGI(info) {
   $('#topic').html(topic);
 }
 
-function titleCase(str) {
-  if (str == null) return '';
-  return str
-    .toLowerCase()
-    .split(' ')
-    .map(function(word) {
-      if (!word) return;
-      return word.replace(word[0], word[0].toUpperCase());
-    })
-    .join(' ');
-}
-
 function cardWith(cat) {
   const card = `<div class="card ${edge}"><a href="./index.html?code=${
     cat.code
@@ -184,20 +163,6 @@ function cardWith(cat) {
   return card;
 }
 
-function setDes(item) {
-  const des = `
-  <div class="card-panel  blue-grey darken-1 white-text">
-    <span class="card-title">
-      <h4>Description</h4>
-    </span>
-    <div class="divider"></div>
-    <span id="des" class="flow-text">
-    ${item.description}
-    </span>
-  </div>`;
-  item.description ? $('#des').html(des) : null;
-}
-
 function setSpecs(item) {
   const spec = `
     <div class="card-panel grey lighten-3 bullet">
@@ -207,48 +172,25 @@ function setSpecs(item) {
       <div class="divider"></div>
       <ul class="flow-text">
         <li><ul>
-        <li class="second"><i class="material-icons">tune</i> Height: </li>
-        <li class="second"><i class="material-icons">tune</i> Width: </li>
-        <li class="second"><i class="material-icons">tune</i> Depth: </li>
+        <li class="second"><i class="material-icons">tune</i> Height: ${
+          item.dimensions.heights
+        }</li>
+        <li class="second"><i class="material-icons">tune</i> Width: ${
+          item.dimensions.widths
+        }</li>
+        <li class="second"><i class="material-icons">tune</i> Depth: ${
+          item.dimensions.depths
+        }</li>
+        <li class="second"><i class="material-icons">tune</i> front: ${
+          item.dimensions.thickness
+        }</li>
         </ul></li>
-        <li>Available in the following materials:
-        </li>
+        ${item.standards.map(st => `<li>${st}</li>`).join('')}
       </ul>
+      <div id="restrictions">${setRestrictions(item.restrictions)}</div></div>
     </div>
     `;
   $('#spec').html(spec);
-}
-
-function setNotes(item) {
-  fetch(`./loox.json`)
-    .then(response => response.json())
-    .then(data => {
-      let cards = data['notes'].filter(function(el, i) {
-        let t = item.notes.includes(el.id);
-        let id;
-        if (t === true) {
-          id = el.id;
-        } else {
-          id = t;
-        }
-        return el.id === id;
-      });
-      let n = `${cards
-        .map(
-          note =>
-            `<div class="card orange lighten-4">
-                            <p class="note flow-text">
-                                <i class="material-icons">announcement</i>
-                                <b>${note.title}</b>${note.content}<a href="${
-              note.link
-            }">${note.contentLink}<a/>${note.ccontent}
-                            </p>
-                        </div>`
-        )
-        .join('')}`;
-      $(`#note${item.code}`).html(n);
-    })
-    .catch(err => console.log(err));
 }
 
 function getTags(tags) {
