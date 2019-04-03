@@ -1,18 +1,5 @@
 //// Main js for catagories /////
-$.ajax({
-  url: '../../../layout/header.html',
-  context: document.body,
-  success: function(response) {
-    $('#header').html(response);
-  }
-});
-$.ajax({
-  url: '../../../layout/footer.html',
-  context: document.body,
-  success: function(response) {
-    $('#footer').html(response);
-  }
-});
+headerFooter(null);
 
 window.onload = getPage();
 
@@ -125,7 +112,7 @@ function makeStructure(info) {
   $('#catalog').html(structure);
   setDes(info.item);
   setSpecs(info.item);
-  setCodes(info.item);
+  $('#codes').html(setCode(info.item.code));
 }
 
 function setMainImage(info) {
@@ -220,37 +207,16 @@ function setSpecs(item) {
       <div class="divider"></div>
       <ul class="flow-text">
         <li><ul>
-        <li class="second"><i class="material-icons">tune</i> Height: ${
-          item.dimensions.height
-        }</li>
-        <li class="second"><i class="material-icons">tune</i> Width: ${
-          item.dimensions.width
-        }</li>
-        <li class="second"><i class="material-icons">tune</i> Depth: ${
-          item.dimensions.depth
-        }</li>
+        <li class="second"><i class="material-icons">tune</i> Height: </li>
+        <li class="second"><i class="material-icons">tune</i> Width: </li>
+        <li class="second"><i class="material-icons">tune</i> Depth: </li>
         </ul></li>
         <li>Available in the following materials:
-${item.materials
-  .map((mat, i, arr) => {
-    i++;
-    let text = i === arr.length ? ' and ' + mat : mat + ', ';
-    return text;
-  })
-  .join('')}
         </li>
       </ul>
     </div>
     `;
   $('#spec').html(spec);
-}
-
-function setCodes(item) {
-  const codes = `<div class="card-panel blue accent-1">
-  <p class=""><b>Click the ordercode to add to your job:</b>
-    <span class="ordercode">${item.code}</span></p>
-  </div>`;
-  $('#codes').html(codes);
 }
 
 function setNotes(item) {
@@ -289,12 +255,4 @@ function getTags(tags) {
   if (!tags) return;
   const keys = `${tags.map(tag => `<div class="chip">${tag}</div>`).join('')}`;
   return keys;
-}
-
-// This is the left click function 2018
-function addCodenow(wcode) {
-  wcode = `<span>${wcode}</span>`;
-  if (confirm('Do you want to add this item to your order?')) {
-    parent.addtocart(wcode);
-  }
 }
