@@ -444,7 +444,7 @@ function isString(value) {
 
 function setGI(data) {
   const link = isString(data)
-    ? '../index.html'
+    ? '../catalog.html'
     : './trim.html?cat=Trims%20Moldings';
   let div = `
   <div class="container ">

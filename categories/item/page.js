@@ -32,9 +32,12 @@ function getPage() {
   fetch(`../../json/codes.json`)
     .then(response => response.json())
     .then(data => {
+      console.log(pline);
       let codes = data[`codes`];
       let page = codes.filter(function(el) {
-        return el.code === code;
+        const res = code.search(el.root);
+        return res !== -1 ? true : false;
+        // return el.code === code;
       });
       page = page[0];
       setGI(page);

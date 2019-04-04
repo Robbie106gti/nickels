@@ -90,6 +90,22 @@ p > i {
   top: 0.3rem;
 }
 
+#closeWQ {
+  position: fixed;
+  top: 2px;
+  right: 2px;
+  background-image: radial-gradient(rgb(179, 15, 15), rgb(212, 137, 137));
+  text-align: center;
+  z-index: 9999;
+  color: #fff;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 0.8 !important;
+  border-radius: 0.2rem;
+  border: rgb(255, 175, 175) solid 2px;
+  cursor: pointer;
+}
+
 .detail-image {
   width: 100%;
   padding: 0.5em;
