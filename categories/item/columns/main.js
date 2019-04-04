@@ -159,10 +159,12 @@ function exampleImages(info) {
 }
 
 function setGI(info) {
-  const link = !info.code ? '../../../' : './index.html#' + info.item.root;
+  const link = !info.code
+    ? '../../../catalog.html'
+    : './index.html#' + info.item.root;
   let topic = `
         <a href="${link}" class="right">
-          <i class="small material-icons">arrow_back</i>
+          <i class="small material-icons">arrow_back</i> <span class="lift">Back</span>
         </a>
         <div>
             <h1 id="titleHeader">${titleCase(info.title)}</h1>

@@ -38,9 +38,9 @@ function setFrontOptions(item) {
                   ${item.fronts
                     .map(
                       f =>
-                        `<tr><td>${
-                          f.code
-                        }</td>${f.cnm.map(c => `<td>${c}</td>`).join('')${h}"</td>}</tr>`
+                        `<tr><td>${f.code}</td>${f.cnm
+                          .map(c => `<td>${c}</td>`)
+                          .join('')}${h}"</td></tr>`
                     )
                     .join('')}
                 </tbody></table>`;

@@ -143,7 +143,7 @@ function setGI(information, code) {
   let title = titleCase(code);
   const mc = title ? ` - ${title}` : '';
   code = !code ? '../../index.html?cat=Accessories' : './index.html';
-  const cat = `<a href="${code}" class="right"><i class="small material-icons">arrow_back</i></a>
+  const cat = `<a href="${code}" class="right"><i class="small material-icons">arrow_back</i> <span class="lift">Back</span></a>
   <h1 id="topic">${information.title}${mc}</h1><h5>${
     information.subTitle
   }</h5><div id="actions"></div>`;

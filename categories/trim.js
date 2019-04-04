@@ -449,7 +449,7 @@ function setGI(data) {
   let div = `
   <div class="container ">
     <a href="${link}" class="right">
-      <i class="small material-icons">arrow_back</i>
+      <i class="small material-icons">arrow_back</i> <span class="lift">Back</span>
     </a>
     <div id="topic"></div>
   </div>`;

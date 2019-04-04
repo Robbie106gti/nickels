@@ -630,7 +630,7 @@ function setGI(data) {
     : './trim.html?cat=Trims%20Moldings';
   var div = '<div class="container "> <a href="'.concat(
     linkies,
-    '" class="right"><i class="small material-icons">arrow_back</i></a><div id="topic"></div></div>'
+    '" class="right"><i class="small material-icons">arrow_back</i> <span class="lift">Back</span></a><div id="topic"></div></div>'
   );
   $('#top').html(div);
   var cat = isString(data)

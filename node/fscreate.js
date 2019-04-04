@@ -1,10 +1,10 @@
 var csv = require('csv-parser');
 var createCsvWriter = require('csv-writer').createObjectCsvWriter;
 var fs = require('fs');
-var codes = JSON.parse(fs.readFileSync('./json/codes.json'));
+var codes = JSON.parse(fs.readFileSync('./categories/item/columns/items.json'));
 
 var csvWriter = createCsvWriter({
-  path: 'node/data.csv',
+  path: 'categories/item/columns/data.csv',
   header: [
     { id: 'title', title: 'Title' },
     { id: 'itemcode', title: 'Item Code' },
@@ -24,10 +24,10 @@ const htmlFile = (code, title) => `<!DOCTYPE html>
   <head>
     <meta
       http-equiv="refresh"
-      content="0; url=/categories/item/page.html?code=${code}"
+      content="0; url=/categories/item/columns/index.html?code=${code}"
     />
     <script type="text/javascript">
-      window.location.href = '/categories/item/page.html?code=${code}';
+      window.location.href = '/categories/item/columns/index.html?code=${code}';
     </script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
@@ -40,19 +40,19 @@ const htmlFile = (code, title) => `<!DOCTYPE html>
 
   <body>
     <div class="container">
-      <a href="/categories/item/page.html?code=${code}">
+      <a href="/categories/item/columns/index.html?code=${code}">
         <h1>${title}</h1>
       </a>
       <p>
-        <a href="/categories/item/page.html?code=${code}">Redirect</a>
+        <a href="/categories/item/columns/index.html?code=${code}">Redirect</a>
       </p>
     </div>
   </body>
 </html>`;
 
-const csvdata = codes.codes.map(code => {
-  const html = code.root + '__' + code.height + '.html';
-  const itemcode = code.root + '__' + code.height;
+const csvdata = codes.items.map(code => {
+  const html = code.code + '.html';
+  const itemcode = code.code;
   const link = code.code;
   const title = code.title;
   const item = {
@@ -61,16 +61,20 @@ const csvdata = codes.codes.map(code => {
     html,
     link
   };
-  // createFile(html, itemcode, title);
+  createFile(html, itemcode, title);
   return item;
 });
 createCsv(csvdata);
 
 function createFile(html, code, title) {
-  fs.writeFile('node/redirects/' + html, htmlFile(code, title), function(err) {
-    if (err) throw err;
-    console.log('File is created successfully.');
-  });
+  fs.writeFile(
+    'categories/item/columns/redirects/' + html,
+    htmlFile(code, title),
+    function(err) {
+      if (err) throw err;
+      console.log('File is created successfully.');
+    }
+  );
 }
 
 function createCsv(data) {

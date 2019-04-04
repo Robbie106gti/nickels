@@ -36,7 +36,15 @@ function getPage() {
       let codes = data[`codes`];
       let page = codes.filter(function(el) {
         const res = code.search(el.root);
-        return res !== -1 ? true : false;
+        const arr = new Array();
+        arr.push(el.root + '__' + el.height);
+        arr.push(el.code);
+        if (res !== -1) {
+          el.height
+            ? el.widths.map(h => arr.push(el.root + h + el.height))
+            : '';
+        }
+        return arr.includes(code);
         // return el.code === code;
       });
       page = page[0];
@@ -94,7 +102,7 @@ function setCode(page) {
 function setGI(page) {
   let topic = `
         <a href="../index.html?cat=${page.cat}" class="right">
-          <i class="small material-icons">arrow_back</i>
+        <i class="small material-icons">arrow_back</i> <span class="lift">Back</span> <span class="lift">Back</span>
         </a>
         <div id="actions"></div>
         <div>
@@ -261,7 +269,7 @@ function setActions(page) {
                         </ul>
                     </div>
                     <!-- Dropdown Trigger -->
-                    <a class='dropdown-button btn bot red' data-activates='dropdown1'>Related items</a>
+                    <a class='dropdown-button btn bot red' data-activates='dropdown1'>Other options</a>
 
                     <!-- Dropdown Structure -->
                     <ul id='dropdown1' class='dropdown-content red'>

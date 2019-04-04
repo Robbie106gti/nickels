@@ -37,7 +37,25 @@ function getPage() {
     .then(function(data) {
       var codes = data['codes'];
       var page = codes.filter(function(el) {
-        return el.code === code;
+        var _this = this;
+        var res = code.search(el.root);
+        var arr = new Array();
+        arr.push(el.root + '__' + el.height);
+        arr.push(el.code);
+
+        if (res !== -1) {
+          el.height
+            ? el.widths.map(
+                function(h) {
+                  _newArrowCheck(this, _this);
+
+                  return arr.push(el.root + h + el.height);
+                }.bind(this)
+              )
+            : '';
+        }
+
+        return arr.includes(code);
       });
       page = page[0];
       setGI(page);
@@ -78,7 +96,7 @@ function setGI(page) {
   var topic =
     '\n        <a href="../index.html?cat=' +
     page.cat +
-    '" class="right">\n          <i class="small material-icons">arrow_back</i>\n        </a>\n        <div id="actions"></div>\n        <div>\n            <h1 id="titleHeader">' +
+    '" class="right">\n          <i class="small material-icons">arrow_back</i> <span class="lift">Back</span>\n        </a>\n        <div id="actions"></div>\n        <div>\n            <h1 id="titleHeader">' +
     page.cat +
     '</h1>\n            <h5 id="subHeader">' +
     page.root +
@@ -250,7 +268,7 @@ function setActions(page) {
       var action =
         '\n                    <div class="fixed-action-btn toolbar">\n                        <a class="btn-floating btn-large red">\n                            <i class="large material-icons">assistant</i>\n                        </a>\n                        <ul>\n                            <li class="waves-effect waves-light"><a href="#TopPage"><i class="material-icons">arrow_upward</i> Top</a></li>\n                            <li class="waves-effect waves-light"><a href="#BottomPage"><i class="material-icons">arrow_downward</i> Bottom</a></li>\n                            <li class="waves-effect waves-light"><a href="./index.html?cat=' +
         page.cat +
-        "\"><i class=\"material-icons\">arrow_back</i> Back</a></li>\n                        </ul>\n                    </div>\n                    <!-- Dropdown Trigger -->\n                    <a class='dropdown-button btn bot red' data-activates='dropdown1'>Related items</a>\n                  \n                    <!-- Dropdown Structure -->\n                    <ul id='dropdown1' class='dropdown-content red'>\n                        " +
+        "\"><i class=\"material-icons\">arrow_back</i> Back</a></li>\n                        </ul>\n                    </div>\n                    <!-- Dropdown Trigger -->\n                    <a class='dropdown-button btn bot red' data-activates='dropdown1'>Other options</a>\n                  \n                    <!-- Dropdown Structure -->\n                    <ul id='dropdown1' class='dropdown-content red'>\n                        " +
         makeActions(card) +
         '\n                    </ul>\n                    ';
       $('#actions').html(action);

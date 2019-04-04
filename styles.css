@@ -84,6 +84,15 @@ p > i {
   margin-bottom: -0.8rem;
 }
 
+.right {
+  margin: 0.5rem;
+}
+
+.lift {
+  position: relative;
+  top: -0.5rem;
+}
+
 #close {
   position: absolute;
   right: 0.3rem;

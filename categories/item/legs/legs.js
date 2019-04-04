@@ -121,7 +121,7 @@ function setGI(info) {
   const link = !info.code ? '../../index.html?cat=Accessories' : './index.html';
   let topic = `
         <a href="${link}" class="right">
-          <i class="small material-icons">arrow_back</i>
+          <i class="small material-icons">arrow_back</i> <span class="lift">Back</span>
         </a>
         <div>
             <h1 id="titleHeader">${titleCase(info.title)}</h1>

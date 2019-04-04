@@ -127,7 +127,7 @@ function setGI(info) {
   var topic = '\n        <a href="'
     .concat(
       link,
-      '" class="right">\n          <i class="small material-icons">arrow_back</i>\n        </a>\n        <div>\n            <h1 id="titleHeader">'
+      '" class="right">\n          <i class="small material-icons">arrow_back</i> <span class="lift">Back</span>\n        </a>\n        <div>\n            <h1 id="titleHeader">'
     )
     .concat(titleCase(info.title), '</h1>\n            ')
     .concat(
