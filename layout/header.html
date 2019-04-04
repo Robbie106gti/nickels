@@ -1,4 +1,4 @@
-<div id="closeWQ"><i class="material-icons" >close</i></div>
+<div id="closeWQ" class="hide"><i class="material-icons" >close</i></div>
 <nav>
   <div class="nav-wrapper brown darken-3">
     <div class="whiteLine"></div>
@@ -36,12 +36,15 @@
 </nav>
 
 <script>
-  const myIframe = parent.document.getElementById('pgCatalog');
-  const myIframe2 = parent.document.getElementById('nklcatalog');
   const refreshBtn = document.getElementById('refresh');
   const closeBtn = document.getElementById('closeWQ');
-  var pline = parent.document.getElementById('pline').innerText;
+  const myIframe = parent.document.getElementById('pgCatalog');
+  const myIframe2 = parent.document.getElementById('nklcatalog');
 
+  if(window.location !== window.parent.location) {
+    closeBtn.classList.remove('hide');
+   // myIframe.src ? '' : closeBtn.classList.remove('hide');
+  }
   refreshBtn.onclick = function(evt) {
     myIframe.src === null ? null : myIframe.contentWindow.location.reload(true);
     myIframe2.src === null ? null : myIframe2.contentWindow.location.reload(true);
@@ -49,11 +52,13 @@
 
   closeBtn.onclick = function(evt) {
     if(window.location !== window.parent.location) {
+      var pline = parent.document.getElementById('pline').innerText;
       if (parent.seeTR) {
         var seeItem = parent.seeTR;
         $(seeItem).unbind( "click" );
         seeItem.next().remove();
       }
+
     }
   }
 </script>

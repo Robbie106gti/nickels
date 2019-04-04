@@ -102,7 +102,7 @@ function setCode(page) {
 function setGI(page) {
   let topic = `
         <a href="../index.html?cat=${page.cat}" class="right">
-        <i class="small material-icons">arrow_back</i> <span class="lift">Back</span> <span class="lift">Back</span>
+        <i class="small material-icons">arrow_back</i> <span class="lift">Back</span>
         </a>
         <div id="actions"></div>
         <div>

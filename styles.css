@@ -239,18 +239,21 @@ span.ordercode > a {
   font-weight: bold;
   color: #800;
   cursor: pointer;
+  text-transform: uppercase !important;
 }
 
 .ordercode > a {
   font-weight: bold;
   color: #800;
   cursor: pointer;
+  text-transform: uppercase !important;
 }
 
 .ordercode {
   font-weight: bold;
   color: #800;
   cursor: pointer;
+  text-transform: uppercase !important;
 }
 
 .parts {
@@ -263,6 +266,7 @@ span.ordercode > a {
   font-weight: bold;
   color: #800 !important;
   cursor: pointer;
+  text-transform: uppercase !important;
 }
 
 .second {
