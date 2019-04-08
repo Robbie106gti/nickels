@@ -98,6 +98,7 @@
     },
     {
       "id": "12",
+      "visable": false,
       "title": "Doors",
       "description": "some information about general information",
       "image": "https://webquoin.com/catalog/images/Brunswick2PC.jpg",
@@ -107,6 +108,7 @@
     {
       "id": "13",
       "title": "Materials and Finishes",
+      "visable": false,
       "description": "some information about general information",
       "image": "https://firebasestorage.googleapis.com/v0/b/modcon-2b3c7.appspot.com/o/uploads%2Fmaterials%2FTM-01.jpg?alt=media&token=cffb2dc4-b621-4406-b172-b03f4e46839a",
       "link": "../exteriormaterial.html",
@@ -115,6 +117,7 @@
     {
       "id": "14",
       "title": "Finished Sides",
+      "visable": false,
       "description": "some information about general information",
       "image": "https://firebasestorage.googleapis.com/v0/b/modcon-2b3c7.appspot.com/o/uploads%2Fmaterials%2FTM-01.jpg?alt=media&token=cffb2dc4-b621-4406-b172-b03f4e46839a",
       "link": "../FinishSide.html",

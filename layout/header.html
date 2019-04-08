@@ -40,10 +40,14 @@
   const closeBtn = document.getElementById('closeWQ');
   const myIframe = parent.document.getElementById('pgCatalog');
   const myIframe2 = parent.document.getElementById('nklcatalog');
+  var pline = null;
 
   if(window.location !== window.parent.location) {
-    closeBtn.classList.remove('hide');
+    myIframe2.parentNode.nodeName === 'TD' ? closeBtn.classList.remove('hide'): '';
+    // closeBtn.classList.remove('hide');
    // myIframe.src ? '' : closeBtn.classList.remove('hide');
+   console.log({"within job: ": myIframe.parentNode.nodeName, "catalog: ": myIframe2.parentNode.nodeName});
+   // myIframe.querySelector("#closeWQ").classList.remove('hide');
   }
   refreshBtn.onclick = function(evt) {
     myIframe.src === null ? null : myIframe.contentWindow.location.reload(true);
@@ -52,7 +56,7 @@
 
   closeBtn.onclick = function(evt) {
     if(window.location !== window.parent.location) {
-      var pline = parent.document.getElementById('pline').innerText;
+      pline = parent.document.getElementById('pline').innerText;
       if (parent.seeTR) {
         var seeItem = parent.seeTR;
         $(seeItem).unbind( "click" );
