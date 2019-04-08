@@ -37,7 +37,16 @@
         }
       ],
       "image": "/catalog/build/assets/tpod/tpod.jpg",
-      "tags": ["pantry", "tall", "hardware", "maple", "white", "grey", "chrome"]
+      "tags": [
+        "pantry",
+        "tall",
+        "hardware",
+        "maple",
+        "white",
+        "grey",
+        "chrome"
+      ],
+      "active": false
     },
     {
       "code": "MC",
@@ -50,7 +59,8 @@
         }
       ],
       "image": "/catalog/build/assets/mc/wari.jpg",
-      "tags": ["corner", "cab", "hardware", "maple", "white", "grey", "chrome"]
+      "tags": ["corner", "cab", "hardware", "maple", "white", "grey", "chrome"],
+      "active": false
     },
     {
       "code": "HFU",
