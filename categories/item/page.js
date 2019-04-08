@@ -2,14 +2,14 @@
 $.ajax({
   url: '../../layout/header.html',
   context: document.body,
-  success: function(response) {
+  success: function (response) {
     $('#header').html(response);
   }
 });
 $.ajax({
   url: '../../layout/footer.html',
   context: document.body,
-  success: function(response) {
+  success: function (response) {
     $('#footer').html(response);
   }
 });
@@ -17,7 +17,7 @@ $.ajax({
 window.onload = getPage();
 
 function getPage() {
-  $.urlParam = function(name) {
+  $.urlParam = function (name) {
     var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(
       window.location.href
     );
@@ -32,9 +32,11 @@ function getPage() {
   fetch(`../../json/codes.json`)
     .then(response => response.json())
     .then(data => {
+
+      pline = parent.document.getElementById('pline').innerText;
       console.log(pline);
       let codes = data[`codes`];
-      let page = codes.filter(function(el) {
+      let page = codes.filter(function (el) {
         const res = code.search(el.root);
         const arr = new Array();
         arr.push(el.root + '__' + el.height);
@@ -80,7 +82,7 @@ function setCode(page) {
                         <div class="divider"></div>
                         <span id="des" class="flow-text">${page.title}, ${
     page.description
-  }</span>
+    }</span>
                     </div>`;
   $('#des').html(des);
   let specs = `<div class="card-panel grey lighten-3 bullet">
@@ -109,7 +111,7 @@ function setGI(page) {
             <h1 id="titleHeader">${page.cat}</h1>
             <h5 id="subHeader">${page.root}__${page.height} : ${page.title} ${
     page.height
-  }" high</h5>
+    }" high</h5>
         </div>
         `;
   $('#topic').html(topic);
@@ -127,7 +129,7 @@ function setSpecs(specs, page) {
   fetch(`../../json/specifications.json`)
     .then(response => response.json())
     .then(data => {
-      let spec = data['specifications'].filter(function(el, i) {
+      let spec = data['specifications'].filter(function (el, i) {
         let t = specs.includes(el.id);
         let id;
         if (t === true) {
@@ -161,7 +163,7 @@ function setNotes(notes) {
   fetch(`../../json/notes.json`)
     .then(response => response.json())
     .then(data => {
-      let cards = data['notes'].filter(function(el, i) {
+      let cards = data['notes'].filter(function (el, i) {
         let t = notes.includes(el.id);
         let id;
         if (t === true) {
@@ -179,7 +181,7 @@ function setNotes(notes) {
                             <p class="note flow-text">
                                 <i class="material-icons">announcement</i>
                                 <b>${note.title}</b>${note.content}<a href="${
-              note.link
+            note.link
             }">${note.contentLink}<a/>${note.ccontent}
                             </p>
                         </div>`
@@ -198,18 +200,18 @@ function setImages(images, title, height) {
                         <div class="card">
                             <div class="padding">
                                 <img class="responsive-img materialboxed" src="${
-                                  image.image
-                                }">
+        image.image
+        }">
                                 ${
-                                  image.image2 !== undefined
-                                    ? `<img class="responsive-img materialboxed" src="${
-                                        image.image2
-                                      }">`
-                                    : ''
-                                }
+        image.image2 !== undefined
+          ? `<img class="responsive-img materialboxed" src="${
+          image.image2
+          }">`
+          : ''
+        }
                                 <span class="card-title black-text"><b>${
-                                  image.title
-                                }${title} ${height}" high</b></span>
+        image.title
+        }${title} ${height}" high</b></span>
                             </div>
                         </div>`
     )
@@ -229,13 +231,13 @@ function codeTable(page) {
                 </thead>
                 <tbody id="tbody">
                     ${page.widths
-                      .map(
-                        code =>
-                          `<tr><td>${code}"</td><td><ul><li><span class="ordercode">${
-                            page.root
-                          }${code}${page.height}</span></li></ul></td></tr>`
-                      )
-                      .join('')}
+      .map(
+        code =>
+          `<tr><td>${code}"</td><td><ul><li><span class="ordercode">${
+          page.root
+          }${code}${page.height}</span></li></ul></td></tr>`
+      )
+      .join('')}
                 </tbody>
             </table>
             ${additional(page)}
@@ -250,7 +252,7 @@ function setActions(page) {
   fetch(`../../json/${cat}.json`)
     .then(response => response.json())
     .then(data => {
-      let card = data[page.cat].filter(function(el, i) {
+      let card = data[page.cat].filter(function (el, i) {
         return el.code === page.root;
       });
       card = card[0];
@@ -264,8 +266,8 @@ function setActions(page) {
                             <li class="waves-effect waves-light"><a href="#TopPage"><i class="material-icons">arrow_upward</i> Top</a></li>
                             <li class="waves-effect waves-light"><a href="#BottomPage"><i class="material-icons">arrow_downward</i> Bottom</a></li>
                             <li class="waves-effect waves-light"><a href="./index.html?cat=${
-                              page.cat
-                            }"><i class="material-icons">arrow_back</i> Back</a></li>
+        page.cat
+        }"><i class="material-icons">arrow_back</i> Back</a></li>
                         </ul>
                     </div>
                     <!-- Dropdown Trigger -->
@@ -296,9 +298,9 @@ function makeActions(card) {
     .map(
       a =>
         `<li class="waves-effect waves-light"><a class="white-text" href="./${
-          a.link
+        a.link
         }.html?code=${card.code}${
-          a.height
+        a.height
         }"><i class="material-icons">art_track</i>${a.height}" high</a></li>`
     )
     .join('')}`;
@@ -309,7 +311,7 @@ function setDim(page) {
   fetch(`../../json/iwhd.json`)
     .then(response => response.json())
     .then(data => {
-      let dim = data['iwhd'].filter(function(el, i) {
+      let dim = data['iwhd'].filter(function (el, i) {
         let t = page.iwhd.includes(el.id);
         let id;
         if (t === true) {
@@ -323,7 +325,7 @@ function setDim(page) {
         .map(
           iwhd =>
             `<li class="second"><i class="material-icons">tune</i> ${
-              iwhd.title
+            iwhd.title
             } - ${iwhd.content}</li>`
         )
         .join('')}</ul>`;
@@ -337,7 +339,7 @@ function setOptions(page) {
   fetch(`../../json/addons.json`)
     .then(response => response.json())
     .then(data => {
-      let addons = data['addons'].filter(function(el, i) {
+      let addons = data['addons'].filter(function (el, i) {
         let t = page.options.includes(el.id);
         let id;
         if (t === true) {
@@ -352,22 +354,22 @@ function setOptions(page) {
                     <h4>Addional Customizations:</h4>
                         <ul class="collapsible popout" data-collapsible="accordion">
                         ${addons
-                          .map(
-                            addon =>
-                              `<li class="white">
+          .map(
+            addon =>
+              `<li class="white">
                           <div class="collapsible-header"><i class="material-icons">${
-                            addon.icon
-                          }</i>${addon.title}</div>
+              addon.icon
+              }</i>${addon.title}</div>
                           <div class="collapsible-body"><span><b>${
-                            addon.title
-                          }</b> ${addon.content}</span></div>
+              addon.title
+              }</b> ${addon.content}</span></div>
                         </li>`
-                          )
-                          .join('')}
+          )
+          .join('')}
                    </ul></div>`;
       // console.log(n);
       $('#options').html(n);
-      $(document).ready(function() {
+      $(document).ready(function () {
         $('.collapsible').collapsible();
       });
     })
@@ -385,13 +387,13 @@ function additional(page) {
             </tr></thead>
             <tbody id="tbody">
             ${page.additional.rows
-              .map(
-                r =>
-                  `<tr><td>${r.cw}</td><td>${r.fw}</td><td>${r.l}</td><td>${
-                    r.dw
-                  }</td></tr>`
-              )
-              .join('')}
+      .map(
+        r =>
+          `<tr><td>${r.cw}</td><td>${r.fw}</td><td>${r.l}</td><td>${
+          r.dw
+          }</td></tr>`
+      )
+      .join('')}
             </tbody>
         </table>
         ${addnotes(page.additional)}`;

@@ -1,10 +1,10 @@
-<div id="closeWQ" class="hide"><i class="material-icons" >close</i></div>
+<!-- <div id="closeWQ" class="hide" onClick="closebtn(this.id)"><i class="material-icons" >close</i></div> -->
 <nav>
   <div class="nav-wrapper brown darken-3">
     <div class="whiteLine"></div>
     <ul class="brand-logo">
       <li>
-        <a href="/catalog.html">
+        <a href="/Catalog/build/catalog.html">
           <img
             class="imageLogo"
             src="/catalog/build/assets/logoNC.png"
@@ -43,26 +43,28 @@
   var pline = null;
 
   if(window.location !== window.parent.location) {
-    myIframe2.parentNode.nodeName === 'TD' ? closeBtn.classList.remove('hide'): '';
+    pline = parent.document.getElementById('pline').innerText;
+    // myIframe2.parentNode.nodeName === 'TD' ? closeBtn.classList.remove('hide'): '';
     // closeBtn.classList.remove('hide');
    // myIframe.src ? '' : closeBtn.classList.remove('hide');
-   console.log({"within job: ": myIframe.parentNode.nodeName, "catalog: ": myIframe2.parentNode.nodeName});
+   // console.log({"within job: ": myIframe.parentNode.nodeName, "catalog: ": myIframe2.parentNode.nodeName});
+   // console.log(myIframe);
+   // console.log(myIframe2);
    // myIframe.querySelector("#closeWQ").classList.remove('hide');
   }
-  refreshBtn.onclick = function(evt) {
+  refreshBtn.onclick = function() {
     myIframe.src === null ? null : myIframe.contentWindow.location.reload(true);
     myIframe2.src === null ? null : myIframe2.contentWindow.location.reload(true);
   };
 
-  closeBtn.onclick = function(evt) {
+/*   function closebtn(id) {
+    console.log(id)
     if(window.location !== window.parent.location) {
-      pline = parent.document.getElementById('pline').innerText;
-      if (parent.seeTR) {
-        var seeItem = parent.seeTR;
-        $(seeItem).unbind( "click" );
-        seeItem.next().remove();
-      }
+      const pt = myIframe2.parentNode.nodeName;
+      const ptt = myIframe2.parentNode.parentElement;
+      console.log(ptt, pt)
+    myIframe2.parentNode.nodeName === 'TD' ? ptt.remove(): '';
 
     }
-  }
+  } */
 </script>
