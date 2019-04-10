@@ -1,89 +1,91 @@
 {
-    "Vanity Channel Cabinets": [
-      {
-        "code": "VFDC",
+  "Vanity Channel Cabinets": [
+    {
+      "code": "VFDC",
       "title": "VFDC : Vanity Full Door - Channel",
       "attached": [
-          {
-            "height": "26",
-            "link": "page"
-          }
-        ],
+        {
+          "height": "26",
+          "link": "page"
+        }
+      ],
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Vanity/LFD__27sm.jpg",
-      "tags": ["vanity", "full", "door", "channel", "26\"" ]
-      },
-      {
-        "code": "VSFDC",
+      "tags": ["vanity", "full", "door", "channel", "26\""]
+    },
+    {
+      "code": "VSFDC",
       "title": "VSFDC : Vanity Sink Full Door - Channel",
       "attached": [
-          {
-            "height": "26",
-            "link": "page"
-          }
-        ],
+        {
+          "height": "26",
+          "link": "page"
+        }
+      ],
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Vanity/LSFD__27sm.jpg",
-      "tags": ["vanity", "sink", "full", "door", "channel", "26\"" ]
-      },
-      {
-        "code": "V2DC",
+      "tags": ["vanity", "sink", "full", "door", "channel", "26\""]
+    },
+    {
+      "code": "V2DC",
       "title": "V2DC : Vanity 2 Drawer - Channel",
       "attached": [
-          {
-            "height": "26",
-            "link": "page"
-          }
-        ],
+        {
+          "height": "26",
+          "link": "page"
+        }
+      ],
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Vanity/L2D__27sm.jpg",
-      "tags": ["vanity", "2", "drawer", "channel", "26\"" ]
-      },
-      {
-        "code": "V3DC",
+      "tags": ["vanity", "2", "drawer", "channel", "26\""]
+    },
+    {
+      "code": "V3DC",
       "title": "V3DC : Vanity 3 Drawer - Channel",
       "attached": [
-          {
-            "height": "26",
-            "link": "page"
-          }
-        ],
+        {
+          "height": "26",
+          "link": "page"
+        }
+      ],
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Vanity/L3D__27sm.jpg",
-      "tags": ["vanity", "3", "drawer", "channel", "26\"" ]
-      },
-      {
-        "code": "VFDLBC",
+      "tags": ["vanity", "3", "drawer", "channel", "26\""]
+    },
+    {
+      "active": false,
+      "code": "VFDLBC",
       "title": "VFDLBC : Vanity Full Door Left Blind - Channel",
       "attached": [
-          {
-            "height": "26",
-            "link": "page"
-          }
-        ],
+        {
+          "height": "26",
+          "link": "page"
+        }
+      ],
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Vanity/LFDLB__27sm.jpg",
-      "tags": ["vanity", "full", "door", "left", "blind", "channel", "26\"" ]
-      },
-      {
-        "code": "VFDRBC",
+      "tags": ["vanity", "full", "door", "left", "blind", "channel", "26\""]
+    },
+    {
+      "active": false,
+      "code": "VFDRBC",
       "title": "VFDRBC : Vanity Full Door Right Blind - Channel",
       "attached": [
-          {
-            "height": "26",
-            "link": "page"
-          }
-        ],
+        {
+          "height": "26",
+          "link": "page"
+        }
+      ],
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Vanity/LFDRB__27sm.jpg",
-      "tags": ["vanity", "full", "door", "right", "blind", "channel", "26\"" ]
-      },
-      {
-        "code": "VCFDC",
+      "tags": ["vanity", "full", "door", "right", "blind", "channel", "26\""]
+    },
+    {
+      "active": false,
+      "code": "VCFDC",
       "title": "VCFDC : Vanity Corner Full Door - Channel",
       "attached": [
-          {
-            "height": "26",
-            "link": "page"
-          }
-        ],
+        {
+          "height": "26",
+          "link": "page"
+        }
+      ],
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Vanity/LCFD__27sm.jpg",
-      "tags": ["vanity", "full", "door", "corner", "channel", "26\"" ]
-      }
-    ]
-  }
-  
+      "tags": ["vanity", "full", "door", "corner", "channel", "26\""]
+    }
+  ]
+}
