@@ -40,10 +40,12 @@ function getPage() {
         const tabs = data['sub-cats'];
         let html = {};
         tabs.forEach(tab => {
-          html = {
-            [tab.root]: data.items.filter(item => tab.root === item.root),
-            ...html
-          };
+
+          html = Object.assign({}, html, { [tab.root]: data.items.filter(item => tab.root === item.root) });
+          /*  html = {
+             [tab.root]: data.items.filter(item => tab.root === item.root),
+             ...html
+           }; */
         });
 
         $('#catalog').html(tabbedSec(html, tabs));
@@ -128,8 +130,11 @@ function makeStructure(info) {
 }
 
 function organizeTables(info) {
-  if (info.item.fronts.length) {
-    return `<div class="card-panel">${setFrontOptions(info.item)}</div><div class="card-panel">${setColumnHeights(info.item, '24')}</div>`;
+  let tables;
+  if (info.item.fronts) {
+    tables = `<div class="card-panel">${setFrontOptions(info.item)}</div><div class="card-panel">${setColumnHeights(info.item, '24')}</div>`;
+    console.log(tables)
+    return tables;
   }
   if (!info.item.requires) return '';
   return `<div class="card-panel">${setTableColumns(
