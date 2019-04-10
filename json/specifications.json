@@ -1,5 +1,6 @@
 {
-  "specifications": [{
+  "specifications": [
+    {
       "id": "000",
       "title": "Hinging",
       "content": "Specify hinging L (left) or R (right) when applicable."
@@ -13,6 +14,11 @@
       "id": "002",
       "title": "Hinging",
       "content": "Single door units (all units less than 42\") will be hinged on the blind side."
+    },
+    {
+      "id": "003",
+      "title": "Hinging",
+      "content": "Single door units (all units less than 46\" wide) will be hinged on the blind side"
     },
     {
       "id": "99",
@@ -100,6 +106,11 @@
       "content": "By default, height reductions will decrease the door height of this cabinet down to a minimum of 11 7/8\"."
     },
     {
+      "id": "208",
+      "title": "Appliance Frame",
+      "content": "By default, height reductions will decrease the total appliance frame section down to a minimum of 12 7/8\" until desired height is reached. The frame configuration will be changed according to your requirements and/or appliance specs."
+    },
+    {
       "id": "300",
       "title": "Header",
       "content": "On cabinets with double doors, a stretcher matching the cabinet interior will be added below the false front. The front and bottom edge of the stretcher will be finished to match the cabinet exterior."
@@ -122,7 +133,7 @@
     {
       "id": "500",
       "title": "Shelves",
-      "content": "No adjustable shelves will be added by default for this height."
+      "content": "No adjustable shelves or fixed shelves will be added by default for this height."
     },
     {
       "id": "501",
@@ -205,6 +216,21 @@
       "content": "Four adjustable shelfs will be added by default for this height in upper section."
     },
     {
+      "id": "525",
+      "title": "Shelves",
+      "content": "One fixed shelf will be added by default for this height."
+    },
+    {
+      "id": "526",
+      "title": "Shelves",
+      "content": "Two fixed shelves will be added by default for this height."
+    },
+    {
+      "id": "527",
+      "title": "Shelves",
+      "content": "Two fixed shelves will be added by default for this height."
+    },
+    {
       "id": "600",
       "title": "Drawer",
       "content": "Drawer height may be decreased to a minimum of 5 7/8\" each."
@@ -240,6 +266,16 @@
       "content": "3 drawer options, White Intivo Drawers / Black Intivo Drawers / Stainless Steel Intivo Drawers."
     },
     {
+      "id": "607",
+      "title": "Drawer",
+      "content": "By default, height reductions will reduce the height of the middle drawer down to a minimum of 5 7/8\" until the desired height is reached."
+    },
+    {
+      "id": "608",
+      "title": "Drawer",
+      "content": "By default, height reductions will decrease the height of the top drawer down to a minimum of 6 7/8\" until the desired height is reached."
+    },
+    {
       "id": "1400",
       "title": "Sink",
       "content": "A 4 7/16\" high header will be included on cabinet (as shown), which will serve to support a sink."
@@ -262,7 +298,7 @@
     {
       "id": "2001",
       "title": "Cabinet",
-      "content": "When something other than the default height reduction is required, you must specify the desired drawer heights on a drawing and as a note attached to the cabinet in webquoin. The reconfigure cabinet custom charge (CC-D6) will apply."
+      "content": "When something other than the default height reduction is required, you must specify the desired drawer heights on a drawing and as a note attached to the cabinet in webquoin. The modify section height custom charge (CC-MODSECTIONH) will apply."
     },
     {
       "id": "2002",

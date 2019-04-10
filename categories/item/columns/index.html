@@ -129,6 +129,7 @@
     <!-- category overview functions -->
     <script src="../../../helpers/getTags.js"></script>
     <script src="../../../helpers/catCard.js"></script>
+    <script src="../../../components/tabs.js"></script>
 
     <!-- item page functions -->
     <script src="../../../helpers/setDescription.js"></script>
@@ -152,20 +153,6 @@
         document.write('<script src="./main.js"><\/script>');
       }
     </script>
-    <script>
-      if (window.location !== window.parent.location) {
-        console.log({
-          window: window.location,
-          parent: window.parent.location
-        });
-        $(document).ready(function() {
-          parent.activatecat();
-        });
-      } else {
-        console.log({
-          window: window.location
-        });
-      }
-    </script>
+    <script src="../../../helpers/runcodes.js"></script>
   </body>
 </html>

@@ -32,8 +32,10 @@ function getPage() {
   fetch(`../../json/codes.json`)
     .then(response => response.json())
     .then(data => {
-
-      pline = parent.document.getElementById('pline').innerText;
+      if (window.location !== window.parent.location) {
+        pline = parent.document.getElementById('pline').innerText
+        document.getElementById('prodline').innerHTML = '- ' + pline;
+      }
       console.log(pline);
       let codes = data[`codes`];
       let page = codes.filter(function (el) {
@@ -52,7 +54,7 @@ function getPage() {
       page = page[0];
       setGI(page);
       setCode(page);
-      setActive();
+      // setActive();
     })
     .catch(err => console.log(err));
 }
@@ -257,24 +259,26 @@ function setActions(page) {
       });
       card = card[0];
       // console.log(card);
+
+      /*       <div class="fixed-action-btn toolbar">
+            <a class="btn-floating btn-large red">
+                <i class="large material-icons">assistant</i>
+            </a>
+            <ul>
+                <li class="waves-effect waves-light"><a href="#TopPage"><i class="material-icons">arrow_upward</i> Top</a></li>
+                <li class="waves-effect waves-light"><a href="#BottomPage"><i class="material-icons">arrow_downward</i> Bottom</a></li>
+                <li class="waves-effect waves-light"><a href="./index.html?cat=${
+      page.cat
+      }"><i class="material-icons">arrow_back</i> Back</a></li>
+            </ul>
+        </div> */
+
       let action = `
-                    <div class="fixed-action-btn toolbar">
-                        <a class="btn-floating btn-large red">
-                            <i class="large material-icons">assistant</i>
-                        </a>
-                        <ul>
-                            <li class="waves-effect waves-light"><a href="#TopPage"><i class="material-icons">arrow_upward</i> Top</a></li>
-                            <li class="waves-effect waves-light"><a href="#BottomPage"><i class="material-icons">arrow_downward</i> Bottom</a></li>
-                            <li class="waves-effect waves-light"><a href="./index.html?cat=${
-        page.cat
-        }"><i class="material-icons">arrow_back</i> Back</a></li>
-                        </ul>
-                    </div>
                     <!-- Dropdown Trigger -->
-                    <a class='dropdown-button btn bot red' data-activates='dropdown1'>Other options</a>
+                    <a class='dropdown-button btn bot light-blue darken-4' data-activates='dropdown1'>Other options</a>
 
                     <!-- Dropdown Structure -->
-                    <ul id='dropdown1' class='dropdown-content red'>
+                    <ul id='dropdown1' class='dropdown-content light-blue darken-4'>
                         ${makeActions(card)}
                     </ul>
                     `;

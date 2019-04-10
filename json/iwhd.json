@@ -1,5 +1,6 @@
 {
-  "iwhd": [{
+  "iwhd": [
+    {
       "id": "i18",
       "title": "Increments",
       "content": "1/8\""
@@ -513,6 +514,11 @@
       "id": "d23",
       "title": "Depth",
       "content": "23\""
+    },
+    {
+      "id": "d24",
+      "title": "Depth",
+      "content": "24\""
     },
     {
       "id": "d0727",

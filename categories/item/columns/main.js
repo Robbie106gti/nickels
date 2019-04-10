@@ -79,7 +79,7 @@ function addRequired(info, data) {
 }
 
 function tabbedSec(object, tabs) {
-  console.log(object, tabs);
+  // console.log(object, tabs);
   const li = tabs
     .map(tab => {
       const i = `<li class="tab col s3"><a class="" href="#${tab.root}">${
@@ -97,7 +97,7 @@ function tabbedSec(object, tabs) {
     })
     .join('');
   const html = `<div class="row">
-  <div class="">
+  <div class="" onload="loadTabs()">
     <ul class="tabs">
       ${li}
     </ul>
@@ -108,7 +108,7 @@ function tabbedSec(object, tabs) {
 }
 
 function makeStructure(info) {
-  console.log(info);
+  // console.log(info);
   setGI(info);
   const structure = `
   <div class="col s12 m8">

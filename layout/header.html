@@ -18,9 +18,10 @@
         >
       </li>
       <li class="">
-        <button" id="refresh" class="btn-small open green-text"
+        <button" id="refresh" class="btn-small open brown-text"
           ><i class="material-icons">refresh</i></button>
       </li>
+      <li><small id="prodline" class="headingLogo"></small></li>
     </ul>
 
     <ul class="right hide-on-med-and-down hide">
@@ -44,6 +45,7 @@
 
   if(window.location !== window.parent.location) {
     pline = parent.document.getElementById('pline').innerText;
+    document.getElementById('prodline').innerHTML = '- '+pline;
     // myIframe2.parentNode.nodeName === 'TD' ? closeBtn.classList.remove('hide'): '';
     // closeBtn.classList.remove('hide');
    // myIframe.src ? '' : closeBtn.classList.remove('hide');
