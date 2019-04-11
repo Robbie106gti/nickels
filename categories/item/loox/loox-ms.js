@@ -200,7 +200,7 @@ function setGI(info) {
 
 function makeDDWN(ddwn) {
   ddwn =
-    "<!-- Dropdown Trigger -->\n        <a class='dropdown-button btn bot red' data-activates='dropdown1'>Other options</a>\n      \n        <!-- Dropdown Structure -->\n        <ul id='dropdown1' class='dropdown-content red'>\n            " +
+    "<!-- Dropdown Trigger -->\n        <a class='dropdown-button btn bot  light-blue darken-4' data-activates='dropdown1'>Other options</a>\n      \n        <!-- Dropdown Structure -->\n        <ul id='dropdown1' class='dropdown-content  light-blue darken-4'>\n            " +
     makeActions(ddwn) +
     '\n        </ul>';
   $('#ddwn').html(ddwn);

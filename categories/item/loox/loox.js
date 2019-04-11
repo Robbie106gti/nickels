@@ -225,10 +225,10 @@ function setGI(info) {
 
 function makeDDWN(ddwn) {
   ddwn = `<!-- Dropdown Trigger -->
-        <a class='dropdown-button btn bot red' data-activates='dropdown1'>Other options</a>
+        <a class='dropdown-button btn bot  light-blue darken-4' data-activates='dropdown1'>Other options</a>
 
         <!-- Dropdown Structure -->
-        <ul id='dropdown1' class='dropdown-content red'>
+        <ul id='dropdown1' class='dropdown-content  light-blue darken-4'>
             ${makeActions(ddwn)}
         </ul>`;
   $('#ddwn').html(ddwn);
