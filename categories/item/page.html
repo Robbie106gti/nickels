@@ -115,6 +115,27 @@
       type="text/javascript"
       src="../../node_modules/materialize-css/dist/js/materialize.min.js"
     ></script>
+
+    <!-- Basic layout functions -->
+    <script src="../../helpers/headerFooter.js"></script>
+
+    <!-- helper functions -->
+    <script src="../../helpers/arrowFunc.js"></script>
+    <script src="../../helpers/isUnique.js"></script>
+    <script src="../../helpers/toTitlecase.js"></script>
+
+    <!-- category overview functions -->
+    <script src="../../helpers/getTags.js"></script>
+    <script src="../../helpers/catCard.js"></script>
+
+    <!-- item page functions -->
+    <script src="../../helpers/setDescription.js"></script>
+    <script src="../../helpers/setOptions.js"></script>
+    <script src="../../helpers/setRestrictions.js"></script>
+    <script src="../../helpers/setTable.js"></script>
+    <script src="../../helpers/setCodes.js"></script>
+    <script src="../../helpers/setNotes.js"></script>
+
     <script type="text/javascript">
       if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
         document.write(
@@ -122,9 +143,6 @@
         );
         var ua = window.navigator.userAgent;
         var msie = ua.indexOf('MSIE ');
-        alert(
-          'Our appologies it seems like you are using Internet Explorer, your experiance will be worse using this browser and not all information can be garantied. Would you please switch to Chrome/Edge/Firefox/Safari or Opera.'
-        );
       } else {
         document.write('<script src="./page.js"><\/script>');
       }

@@ -1,4 +1,5 @@
 //// Main js for catagories /////
+headerFooter('../');
 
 if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
   window.onload = getSubs();

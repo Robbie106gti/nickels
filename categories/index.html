@@ -123,22 +123,7 @@
       type="text/javascript"
       src="../node_modules/materialize-css/dist/js/materialize.min.js"
     ></script>
-    <script>
-      $.ajax({
-        url: '../layout/header.html',
-        context: document.body,
-        success: function(response) {
-          $('#header').html(response);
-        }
-      });
-      $.ajax({
-        url: '../layout/footer.html',
-        context: document.body,
-        success: function(response) {
-          $('#footer').html(response);
-        }
-      });
-    </script>
+    <script src="../helpers/headerFooter.js"></script>
 
     <script type="text/javascript">
       if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
@@ -147,9 +132,6 @@
         );
         var ua = window.navigator.userAgent;
         var msie = ua.indexOf('MSIE ');
-        alert(
-          'Our appologies it seems like you are using Internet Explorer, your experiance will be worse using this browser and not all information can be garantied. Would you please switch to Chrome/Edge/Firefox/Safari or Opera.'
-        );
       } else {
         document.write('<script src="./main.js"><\/script>');
       }

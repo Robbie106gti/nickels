@@ -14,7 +14,7 @@ if (msie !== -1) {
 }
 
 function getPage() {
-  $.urlParam = function (name) {
+  $.urlParam = function(name) {
     var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(
       window.location.href
     );
@@ -40,8 +40,9 @@ function getPage() {
         const tabs = data['sub-cats'];
         let html = {};
         tabs.forEach(tab => {
-
-          html = Object.assign({}, html, { [tab.root]: data.items.filter(item => tab.root === item.root) });
+          html = Object.assign({}, html, {
+            [tab.root]: data.items.filter(item => tab.root === item.root)
+          });
           /*  html = {
              [tab.root]: data.items.filter(item => tab.root === item.root),
              ...html
@@ -86,7 +87,7 @@ function tabbedSec(object, tabs) {
     .map(tab => {
       const i = `<li class="tab col s3"><a class="" href="#${tab.root}">${
         tab.title
-        }</a></li>`;
+      }</a></li>`;
       return i;
     })
     .join('');
@@ -132,8 +133,10 @@ function makeStructure(info) {
 function organizeTables(info) {
   let tables;
   if (info.item.fronts) {
-    tables = `<div class="card-panel">${setFrontOptions(info.item)}</div><div class="card-panel">${setColumnHeights(info.item, '24')}</div>`;
-    console.log(tables)
+    tables = `<div class="card-panel">${setFrontOptions(
+      info.item
+    )}</div><div class="card-panel">${setColumnHeights(info.item, '24')}</div>`;
+    console.log(tables);
     return tables;
   }
   if (!info.item.requires) return '';
@@ -146,7 +149,7 @@ function setMainImage(info) {
   const main = `<div class="card card-panel"><div class="center"><span class="card-title ">Images</span></div>
     ${exampleImages(info)}
     <img class="responsive-img materialboxed" src="${
-    info.images[0].image
+      info.images[0].image
     }"></div>`;
   return main;
 }
@@ -156,10 +159,10 @@ function exampleImages(info) {
     .map(image => {
       return (im = `<div class="box-image">
                   <img src="${
-        image.image
-        }" class="materialboxed tooltipped" data-position="top" data-tooltip="click to enlarge" data-caption="${
+                    image.image
+                  }" class="materialboxed tooltipped" data-position="top" data-tooltip="click to enlarge" data-caption="${
         image.title
-        }">
+      }">
                </div>`);
     })
     .join('')}`;
@@ -186,15 +189,15 @@ function setGI(info) {
 function cardWith(cat) {
   const card = `<div class="card ${edge}"><a href="./index.html?code=${
     cat.code
-    }">
+  }">
                   <div class="card-image waves-effect waves-block waves-light">
                       <img class=""
                       src="${cat.images[0].image}" >
                   </div>
                   <div class="card-content">
                       <span class="card-title grey-text text-darken-4">${titleCase(
-      cat.title
-    )}<i class="material-icons right">more_vert</i></span>
+                        cat.title
+                      )}<i class="material-icons right">more_vert</i></span>
                       ${getTags(cat.tags)}
                   </div></a>
                 </div>`;
@@ -209,32 +212,34 @@ function setSpecs(item) {
       </span>
       <div class="divider"></div>
       <ul class="flow-text">
-        <li><ul>
+        <li style="list-style-type: none"><ul>
         <li class="second"><i class="material-icons">tune</i> Height: ${
-    item.dimensions.heights
-    }</li>
+          item.dimensions.heights
+        }</li>
         <li class="second"><i class="material-icons">tune</i> Width: ${
-    item.dimensions.widths
-    }</li>
+          item.dimensions.widths
+        }</li>
         <li class="second"><i class="material-icons">tune</i> Depth: ${
-    item.dimensions.depths
-    }</li>
+          item.dimensions.depths
+        }</li>
         <li class="second"><i class="material-icons">tune</i> Front: ${
-    item.dimensions.thickness
-    }</li>
+          item.dimensions.thickness
+        }</li>
         </ul></li>
-        ${item.standards.map(st => `<li>${st}</li>`).join('')}
+        ${item.standards
+          .map(st => `<li  style="list-style-type: none">${st}</li>`)
+          .join('')}
       </ul>
       ${
-    item.options
-      ? `<div id="options">${setOptions(item.options)}</div>`
-      : ''
-    }
+        item.options
+          ? `<div id="options">${setOptions(item.options)}</div>`
+          : ''
+      }
       ${
-    item.restrictions
-      ? `<div id="restrictions">${setRestrictions(item.restrictions)}</div>`
-      : ''
-    }</div>
+        item.restrictions
+          ? `<div id="restrictions">${setRestrictions(item.restrictions)}</div>`
+          : ''
+      }</div>
     </div>
     `;
   $('#spec').html(spec);

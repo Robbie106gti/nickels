@@ -1,5 +1,6 @@
 //// Main js for catagories /////
 'use strict';
+headerFooter('../');
 
 var edge = '';
 var ua = window.navigator.userAgent;
@@ -16,7 +17,7 @@ if (!/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
 }
 
 function getSubs() {
-  $.urlParam = function (name) {
+  $.urlParam = function(name) {
     var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(
       window.location.href
     );
@@ -65,14 +66,14 @@ function cabinetCard(cat) {
   </div>
   <div class="card-content activator">
       <span class="card-title grey-text text-darken-4">${
-    cat.title
-    }<i class="material-icons right">more_vert</i></span>
+        cat.title
+      }<i class="material-icons right">more_vert</i></span>
       ${getTags(cat.tags)}
   </div>
   <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">${
-    cat.title
-    }<i class="material-icons right">close</i></span>
+        cat.title
+      }<i class="material-icons right">close</i></span>
       ${getLinks(cat)}
   </div>
 </div>
@@ -87,7 +88,9 @@ function fetchGI(cat) {
     .then(data => {
       // console.log(data['catalog']);
       data = data[cat];
-      const html = `${data.map(cat => (cat.active === false ? null : switchCard(cat))).join('')}`;
+      const html = `${data
+        .map(cat => (cat.active === false ? null : switchCard(cat)))
+        .join('')}`;
       $('#catalog').html(html);
     })
     .catch(err => console.log(err));
@@ -110,14 +113,14 @@ function cardWith(cat) {
             </div>
             <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">${
-    cat.title
-    }<i class="material-icons right">more_vert</i></span>
+                  cat.title
+                }<i class="material-icons right">more_vert</i></span>
                 ${getTags(cat.tags)}
             </div>
             <div class="card-reveal">
                 <span class="card-title grey-text text-darken-4">${
-    cat.title
-    }<i class="material-icons right">close</i></span>
+                  cat.title
+                }<i class="material-icons right">close</i></span>
                 ${getLinks(cat)}
             </div>
         </div>`;
@@ -134,8 +137,8 @@ function cardWithout(cat) {
                   </div>
                   <div class="card-content">
                       <span class="card-title grey-text text-darken-4">${
-      cat.title
-      }<i class="material-icons right">more_vert</i></span>
+                        cat.title
+                      }<i class="material-icons right">more_vert</i></span>
                       ${getTags(cat.tags)}
                   </div>
                 </a>
@@ -148,8 +151,8 @@ function cardWithout(cat) {
                   </div>
                   <div class="card-content">
                       <span class="card-title grey-text text-darken-4">${
-      cat.title
-      }<i class="material-icons right">more_vert</i></span>
+                        cat.title
+                      }<i class="material-icons right">more_vert</i></span>
                       ${getTags(cat.tags)}
                   </div>
                 </a>
@@ -166,7 +169,7 @@ function configLink(cat) {
     default:
       return `${cat.attached[0].link}.html?code=${cat.code}${
         cat.attached[0].sub
-        }`;
+      }`;
   }
 }
 
@@ -186,11 +189,11 @@ function formatLink(cat, a) {
   if (a.sub) {
     link = `<a href="./item/${a.link}.html?code=${cat.code}${a.sub}">${
       a.title
-      }</a><br>`;
+    }</a><br>`;
   } else {
     link = `<a href="./item/${a.link}.html?code=${cat.code}${a.height}">${
       a.height
-      } Inch high</a><br>`;
+    } Inch high</a><br>`;
   }
   return link;
 }
