@@ -31,10 +31,7 @@ function setFrontOptions(item) {
   <tr class=""><th colspan="3">Front options</th></tr>
                   <tr ><th>CLM</th><th>Cornerblock</th><th>Molding</th></tr>
                 </thead><tbody>`;
-  table = table + item.fronts.map(f =>
-    `<tr><td>${f.code}</td>
-  ${f.cnm.map(c => `<td>${c}</td>`).join('')}
-  "</td></tr>`).join('') + '</tbody></table>';
+  table = table + item.fronts.map(f => `<tr><td>${f.code}</td>${f.cnm.map(c => `<td>${c}</td>`).join('')}</td></tr>`).join('') + '</tbody></table>';
 
   return table;
 }
