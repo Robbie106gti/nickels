@@ -1,7 +1,7 @@
 //// Main js for catagories /////
 'use strict';
 headerFooter('../');
-
+console.log('header null');
 var edge = '';
 var ua = window.navigator.userAgent;
 var msie = ua.indexOf('Edge/');
@@ -49,7 +49,7 @@ function fetchCabinets(cat) {
   fetch(`../json/${catagory}.json`)
     .then(response => response.json())
     .then(data => {
-      console.log(data[cat]);
+      // console.log(data[cat]);
       data = data[cat];
       const html = `${data
         .map(cat => (cat.active === false ? null : cabinetCard(cat)))

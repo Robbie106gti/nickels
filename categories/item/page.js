@@ -19,11 +19,6 @@ function getPage() {
   fetch(`../../json/codes.json`)
     .then(response => response.json())
     .then(data => {
-      if (window.location !== window.parent.location) {
-        pline = parent.document.getElementById('pline').innerText;
-        document.getElementById('prodline').innerHTML = '- ' + pline;
-      }
-      console.log(pline);
       let codes = data[`codes`];
       let page = codes.filter(function(el) {
         const res = code.search(el.root);

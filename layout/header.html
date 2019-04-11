@@ -45,7 +45,7 @@
 
   if(window.location !== window.parent.location) {
     pline = parent.document.getElementById('pline').innerText;
-    document.getElementById('prodline').innerHTML = '- '+pline;
+    window.load = setPline();
     // myIframe2.parentNode.nodeName === 'TD' ? closeBtn.classList.remove('hide'): '';
     // closeBtn.classList.remove('hide');
    // myIframe.src ? '' : closeBtn.classList.remove('hide');
@@ -69,4 +69,8 @@
 
     }
   } */
+  function setPline() {
+    pline = parent.document.getElementById('pline').innerText;
+    document.getElementById('prodline').innerHTML = '- '+pline;
+  }
 </script>
