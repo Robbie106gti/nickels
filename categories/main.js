@@ -1,7 +1,7 @@
 //// Main js for catagories /////
 'use strict';
 headerFooter('../');
-console.log('header null');
+
 var edge = '';
 var ua = window.navigator.userAgent;
 var msie = ua.indexOf('Edge/');

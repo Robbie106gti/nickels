@@ -1,19 +1,5 @@
 //// Main js for catagories /////
-
-$.ajax({
-  url: '../layout/header.html',
-  context: document.body,
-  success: function(response) {
-    $('#header').html(response);
-  }
-});
-$.ajax({
-  url: '../layout/footer.html',
-  context: document.body,
-  success: function(response) {
-    $('#footer').html(response);
-  }
-});
+headerFooter('../');
 
 window.onload = getSubs();
 
@@ -254,7 +240,7 @@ function setOptions2(option) {
       ${option.options
         .map(
           option =>
-            `<li><b><span class="ordercode" >${option.code}: </span></b>${
+            `<li><b><span class="ordercode" >${option.code}</span>: </b>${
               option.description
             }</li>`
         )

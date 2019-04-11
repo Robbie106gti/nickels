@@ -121,26 +121,29 @@
       type="text/javascript"
       src="../node_modules/materialize-css/dist/js/materialize.min.js"
     ></script>
-    <script type="text/javascript">
-      if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
-        document.write(
-          '<script src="../node_modules/promise-polyfill/promise.min.js"><\/script><script src="../node_modules/whatwg-fetch/fetch.js"><\/script><script src="./c-charges-ms.js"><\/script>'
-        );
-        var ua = window.navigator.userAgent;
-        var msie = ua.indexOf('MSIE ');
-      } else {
-        document.write('<script src="./c-charges.js"><\/script>');
-      }
-    </script>
-    <script>
-      $(document).ready(function() {
-        parent.activatecat();
-      });
-      $(window).bind('load', function() {
-        setTimeout(function() {
-          parent.activatecat();
-        }, 2000);
-      });
-    </script>
+
+    <!-- Basic layout functions -->
+    <script src="../helpers/headerFooter.js"></script>
+
+    <!-- helper functions -->
+    <script src="../helpers/arrowFunc.js"></script>
+    <script src="../helpers/isUnique.js"></script>
+    <script src="../helpers/toTitlecase.js"></script>
+
+    <!-- category overview functions -->
+    <script src="../helpers/getTags.js"></script>
+    <script src="../helpers/catCard.js"></script>
+    <script src="../components/tabs.js"></script>
+
+    <!-- item page functions -->
+    <script src="../helpers/setDescription.js"></script>
+    <script src="../helpers/setOptions.js"></script>
+    <script src="../helpers/setRestrictions.js"></script>
+    <script src="../helpers/setTable.js"></script>
+    <script src="../helpers/setCodes.js"></script>
+    <script src="../helpers/setNotes.js"></script>
+    <script src="../helpers/runcodes.js"></script>
+
+    <script src="./c-charges.js"></script>
   </body>
 </html>

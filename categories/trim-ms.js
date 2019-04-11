@@ -323,7 +323,7 @@ function setOptions2(option) {
             _newArrowCheck(this, _this6);
 
             return '<li><b><span class="ordercode" >'
-              .concat(option.code, ': </span></b>')
+              .concat(option.code, '</span>: </b>')
               .concat(option.description, '</li>');
           }.bind(this)
         )

@@ -1,10 +1,6 @@
 if (window.location !== window.parent.location) {
-  $(document).ready(function () {
+  window.load = parent.activatecat();
+  window.load = setTimeout(function() {
     parent.activatecat();
-  });
-  $(window).bind('load', function () {
-    setTimeout(function () {
-      parent.activatecat();
-    }, 2000);
-  });
+  }, 2000);
 }
