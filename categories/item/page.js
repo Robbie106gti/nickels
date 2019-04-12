@@ -36,21 +36,12 @@ function getPage() {
 
 function makeStructure() {
   var main =
-    '<div class="col s12 m6"><div id="des"></div><div id="specs"></div><div id="notes"></div></div><div class="col s12 m6"><div id="images"></div></div><div class="col s12 m12"><div id="codes" class="col s12 m6"></div><div id="options" class="col s12 m6"></div></div>';
+    '<div class="col s12 m6"><div id="des"></div><div id="specs"><div class="card-panel grey lighten-3 bullet"><span class="card-title"><h4>Specifications</h4></span><div class="divider"></div><div id="specli"></div></div></div><div id="notes"></div></div><div class="col s12 m6"><div id="images"></div></div><div class="col s12 m12"><div id="codes" class="col s12 m6"></div><div id="options" class="col s12 m6"></div></div>';
   $('#catalog').html(main);
 }
 
 function setCode(page) {
-  var des =
-    '<div class="card-panel  blue-grey darken-1 white-text"><span class="card-title"><h4>Description</h4></span><div class="divider"></div><span id="des" class="flow-text">' +
-    page.title +
-    ', ' +
-    page.description +
-    '</span></div>';
-  $('#des').html(des);
-  var specs =
-    '<div class="card-panel grey lighten-3 bullet"><span class="card-title"><h4>Specifications</h4></span><div class="divider"></div><div id="specli"></div></div>';
-  $('#specs').html(specs);
+  description(page.title, page.description);
   setSpecs(page.specifications, page);
   codeTable(page);
   setImages(page.images, page.title, page.height);
