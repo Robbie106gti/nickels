@@ -55,3 +55,21 @@ function addnotes(add) {
     .concat(add.image, '"/>\n            ');
   return tnotes;
 }
+
+function notes(notes) {
+  var n2 = notes.map(function(note) {
+    return (
+      '<div class="card orange lighten-4"><p class="note flow-text"><i class="material-icons">announcement</i><b>' +
+      note.title +
+      '</b>' +
+      note.content +
+      '<a href="' +
+      note.link +
+      '">' +
+      note.contentLink +
+      '<a/>' +
+      note.ccontent +
+      '</p></div>'
+    );
+  });
+}

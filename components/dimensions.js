@@ -14,7 +14,7 @@ function setDim(page) {
         }
         return el.id === id;
       });
-      var n =
+      var n3 =
         '<ul><b>Dimensional adjustments</b>:' +
         dim
           .map(function(iwhd) {
@@ -29,7 +29,7 @@ function setDim(page) {
           .join('') +
         '</ul>';
       // console.log(n); <i class="material-icons">tune</i>
-      $('#dim').html(n);
+      $('#dim').html(n3);
     })
     .catch(function(err) {
       return console.log(err);

@@ -23,3 +23,9 @@ $.urlParam = function(name) {
   }
 };
 var code = $.urlParam('code');
+
+var info = {
+  title: '',
+  code: code,
+  item: ''
+};
