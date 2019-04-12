@@ -3,16 +3,6 @@ headerFooter(null);
 
 window.onload = getPage();
 
-var edge = '';
-var ua = window.navigator.userAgent;
-var msie = ua.indexOf('Edge/');
-if (msie !== -1) {
-  var edge = ua.split('Edge/');
-  if (edge[1] < 16) {
-    edge = 'col s3';
-  }
-}
-
 function getPage() {
   $.urlParam = function(name) {
     var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(
