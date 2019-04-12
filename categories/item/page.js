@@ -54,7 +54,7 @@ function setCode(page) {
   setSpecs(page.specifications, page);
   codeTable(page);
   setImages(page.images, page.title, page.height);
-  setNotes(page.notes);
+  setNotes('../../', page.notes);
   setActions(page);
 }
 
@@ -101,44 +101,6 @@ function makeActions(card) {
     })
     .join('');
   return action;
-}
-
-function setDim(page) {
-  fetch('../../json/iwhd.json')
-    .then(function(response) {
-      return response.json();
-    })
-    .then(function(data) {
-      var dim = data['iwhd'].filter(function(el, i) {
-        var t = page.iwhd.includes(el.id);
-        var id;
-        if (t === true) {
-          id = el.id;
-        } else {
-          id = t;
-        }
-        return el.id === id;
-      });
-      var n =
-        '<ul><b>Dimensional adjustments</b>:' +
-        dim
-          .map(function(iwhd) {
-            return (
-              '<li class="second" style="list-style-type: circle"> ' +
-              iwhd.title +
-              ' - ' +
-              iwhd.content +
-              '</li>'
-            );
-          })
-          .join('') +
-        '</ul>';
-      // console.log(n); <i class="material-icons">tune</i>
-      $('#dim').html(n);
-    })
-    .catch(function(err) {
-      return console.log(err);
-    });
 }
 
 function additional(page) {

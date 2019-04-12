@@ -1,5 +1,5 @@
-function setNotes(notes) {
-  fetch('../../json/notes.json')
+function setNotes(loc, notes) {
+  fetch(loc + 'json/notes.json')
     .then(function(response) {
       return response.json();
     })
