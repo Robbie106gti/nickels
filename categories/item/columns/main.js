@@ -17,7 +17,7 @@ function getPage() {
     }
   };
   const code = $.urlParam('code');
-  fetch(`./items.json`)
+  fetch('./items.json')
     .then(response => response.json())
     .then(data => {
       // console.log(data);
