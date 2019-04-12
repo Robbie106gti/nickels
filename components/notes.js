@@ -1,4 +1,7 @@
 function setNotes(loc, notes) {
+  if (!notes) {
+    return;
+  }
   fetch(loc + 'json/notes.json')
     .then(function(response) {
       return response.json();
