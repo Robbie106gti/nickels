@@ -5,10 +5,10 @@ function getTags(tags) {
   var keys = ''.concat(
     tags
       .map(
-        function (tag) {
+        function(tag) {
           _newArrowCheck(this, _this);
 
-          return '<div class="chip">'.concat(tag, '</div>');
+          return '<span class="chip activator">'.concat(tag, '</span>');
         }.bind(this)
       )
       .join('')

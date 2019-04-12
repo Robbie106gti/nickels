@@ -44,7 +44,7 @@ function cabinetCard(cat) {
     )
     .concat(
       cat.image,
-      '">\n  </div>\n  <div class="card-content activator">\n      <span class="card-title grey-text text-darken-4">'
+      '">\n  </div>\n  <div class="card-content">\n      <span class="card-title grey-text text-darken-4 activator">'
     )
     .concat(
       cat.title,

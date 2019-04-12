@@ -1,11 +1,12 @@
 if (window.location !== window.parent.location) {
-  window.load = parent.activatecat();
   window.load = setTimeout(function() {
-    parent.activatecat();
+    addOrdercodes();
   }, 2000);
-  $(document).ready(function() {
-    $(window).ready(function() {
-      parent.activatecat();
-    });
-  });
+
+  window.onchange = addOrdercodes();
+}
+
+function addOrdercodes() {
+  console.log('add ordercodes');
+  parent.activatecat();
 }
