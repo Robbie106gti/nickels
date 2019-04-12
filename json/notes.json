@@ -1,0 +1,186 @@
+{
+  "notes": [
+    {
+      "id": "0",
+      "title": "",
+      "link": "",
+      "content": "3/4\" RGB’s only possible in 3/4\" cabinet rooms, same for 5/8\" only possible in 5/8\" cabinet rooms."
+    },
+    {
+      "id": "1",
+      "title": "Change! ",
+      "link": "https://webquoin.com/catalog/solidtop.html",
+      "content": "We are replacing stretchers for ",
+      "contentLink": "Solid tops",
+      "ccontent": ", please see link for details."
+    },
+    {
+      "id": "2",
+      "title": "Movento slides",
+      "link": "#",
+      "content": ", due to the size of Movento hardware, drawerboxes below 8 3/8\" wide will use Tandem not Movento slides. Roughly that translates to a 10\" cabinet for a Drawer and 11\" for Rollout",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "3",
+      "title": "CC-D6 ",
+      "link": "#",
+      "content": "Due to the complexity of what this code can do, we require a detailed sketches/drawings of what you want to do",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "4",
+      "title": "CC-INCR-CORNER or CC-DCR-CORNER ",
+      "link": "#",
+      "content": "The left and right widths will always match (use a note to indicate widths that do not match and attach CC-INCR-CORNER or CC-DCR-CORNER custom charge)",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "5",
+      "title": "Door styles ",
+      "link": "#",
+      "content": "Be aware of the minimum door widths available as some door styles (like wide rail doors) will not work. There is a U-shaped cutout at the top of the center backing on this unit to allow access for fastening counters",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "6",
+      "title": "Drawer styles ",
+      "link": "#",
+      "content": "Drawers will only be available with a slab face for this cabinet type (regardless of the drawer standard that is normal for the door style selected). Available only with the Blum Intivo drawer systems. Be aware that the drawers in this cabinet may not match the drawer system chosen as a default in the room.",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "7",
+      "title": "Appliance specs, ",
+      "link": "#",
+      "content": "we recommend you include all appliance specifications when ordering. If specs are not included, the frame will be replaced by a veneer composite panel with square taped edges and cutouts will be done on site by others",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "8",
+      "title": "Floating Cabinet, ",
+      "link": "#",
+      "content": "It is recommended that you use 3\" screws with washers for installation. These screws are to be installed into wall studs (16\" center) in order to secure the cabinet",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "9",
+      "title": "Maximum cutout, ",
+      "link": "#",
+      "content": "The maximum cutout size for a single large cutout (double oven) is: ",
+      "contentLink": "",
+      "ccontent": "E + F + G = 502\" high or E + F + *G = 542\" high."
+    },
+    {
+      "id": "10",
+      "title": "A vertical center divider, ",
+      "link": "#",
+      "content": "will automatically be added in cabinets over 39\" wide and 12\" high. This vertical divider will be set back from the front edge by 1/16\". Each adjustable shelf will be separated into two, one on either side of the vertical center divider. In Webquoin, each pair of shelves will remain as a quantity of one in the cabinet details",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "11",
+      "title": "Doors, ",
+      "link": "#",
+      "content": "if doors are going on a unit with rods inside, only the 24\" deep and deeper units will work",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "12",
+      "title": "Hanging Corner, ",
+      "link": "#",
+      "content": "By default, depth modifications ONLY affect the left (non-rod) side of the cabinet. The right (36\" long) side is to remain fixed in depth",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "13",
+      "title": "Flush mount, ",
+      "link": "#",
+      "content": "make and model of the appliance(s) must be supplied with the installation instructions. ",
+      "contentLink": "",
+      "ccontent": "Model must be flush mount."
+    },
+    {
+      "id": "14",
+      "title": "CC-MILLWORK, ",
+      "link": "#",
+      "content": "may be added if complexity increases",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "15",
+      "title": "Notches, ",
+      "link": "#",
+      "content": "may need to be cut in set shevling to allow for air flow dependent on appliance specifications",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "17",
+      "title": "Finishing, ",
+      "link": "#",
+      "content": "The bottom of the cabinet is unfinished. If finishing the bottom is required, attach Finish Cabinet Bottom (FCB)",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "18",
+      "title": "Dowelled, ",
+      "link": "#",
+      "content": "The back of the cabinet is dowelled for added strength and is joined with the Plywood top",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "19",
+      "title": "Finished ends, ",
+      "link": "#",
+      "content": "Melamines and Soho materials do not have finished ends available. Attach accessories CLM-FEL, CLM-FER or CLM-FELR to finish sides",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "20",
+      "title": "Gables, ",
+      "link": "#",
+      "content": "The gable depth is controled in webquoin, the final depth is gable depth plus front",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "21",
+      "title": "Depth, ",
+      "link": "#",
+      "content": "The depth of a default regular COLUMN is 24” plus the front, which is always additional to depth. For a MITERED COLUMN the depth is 24 7/8” including the front of Column",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "22",
+      "title": "Materials, ",
+      "link": "#",
+      "content": "for Melanines, Euro Materials or Gloss Columns use CLM column with CLM-101 front",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "23",
+      "title": "Miter, ",
+      "link": "#",
+      "content": "for mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front",
+      "contentLink": "",
+      "ccontent": "."
+    }
+  ]
+}

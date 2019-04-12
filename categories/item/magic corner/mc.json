@@ -1,0 +1,252 @@
+{
+  "information": {
+    "title": "Magic Corners",
+    "subTitle": "Hardware for corner cabinets",
+    "id": "mc",
+    "code": "LS",
+    "sides": [
+      {
+        "option": "Right",
+        "code": "R"
+      },
+      {
+        "option": "Left",
+        "code": "L"
+      }
+    ]
+  },
+  "items": [
+    {
+      "title": "Wari",
+      "description": "Door mounted Magic Corner, easily store and access use for corner cabinets. Possible in both a left or right setup. The “LS-WARI” uses a single action to open, with options in colours for the baskets, Grey, White, Maple and Chrome.",
+      "image": "/catalog/build/assets/mc/wari.jpg",
+      "images": [
+        {
+          "title": "Pulling out door",
+          "image": "/catalog/build/assets/mc/wari-1.jpg"
+        },
+        {
+          "title": "First angular motion",
+          "image": "/catalog/build/assets/mc/wari-2.jpg"
+        },
+        {
+          "title": "Pulled out all the way",
+          "image": "/catalog/build/assets/mc/wari-3.jpg"
+        },
+        {
+          "title": "Spec",
+          "image": "/catalog/build/assets/mc/wari-spec.jpg"
+        },
+        {
+          "title": "Motion of wari hardware",
+          "image": "/catalog/build/assets/mc/wari-diagram.jpg"
+        }
+      ],
+      "code": "WARI",
+      "notes": [1, 3],
+      "tags": ["corner cabinets", "fixed to door", "hardware"],
+      "specifications": [4, 2, 3, 7, 10],
+      "baskets": [
+        {
+          "title": "Grey",
+          "base": "Silver epoxy coated tubular steel",
+          "image": "/catalog/build/assets/mc/grey-flex-basket.jpg",
+          "color": "#c7c5c4",
+          "code": "GA"
+        },
+        {
+          "title": "White",
+          "base": "Silver epoxy coated tubular steel",
+          "image": "/catalog/build/assets/tpod/white-2.jpg",
+          "color": "#ffffff",
+          "code": "WH"
+        },
+        {
+          "title": "Maple",
+          "base": "Silver epoxy coated tubular steel",
+          "image": "/catalog/build/assets/mc/maple-wari-basket.jpg",
+          "color": "#e6d296",
+          "code": "MA"
+        },
+        {
+          "title": "Chrome",
+          "base": "Silver epoxy coated tubular steel",
+          "image": "/catalog/build/assets/tpod/chrome-2.jpg",
+          "color": "#d7dee3",
+          "code": "CH"
+        }
+      ]
+    },
+    {
+      "title": "Flex",
+      "description": "Cabinet secured Magic Corner, easily store and access use for corner cabinets. Possible in both a left or right setup. The “LS-FLEX” uses a two step opening action, with options in colours for the baskets, Grey, White, Maple and Chrome. All 4 baskets can completely come out of the cabinet.",
+      "image": "/catalog/build/assets/mc/flex.jpg",
+      "images": [
+        {
+          "title": "In cabinet",
+          "image": "/catalog/build/assets/mc/flex-1.jpg"
+        },
+        {
+          "title": "Pulled out",
+          "image": "/catalog/build/assets/mc/flex-2.jpg"
+        },
+        {
+          "title": "Pulled out and sliding over",
+          "image": "/catalog/build/assets/mc/flex-3.jpg"
+        },
+        {
+          "title": "Pulled out and slide over all the way",
+          "image": "/catalog/build/assets/mc/flex-4.jpg"
+        },
+        {
+          "title": "Spec",
+          "image": "/catalog/build/assets/mc/flex-spec.jpg"
+        },
+        {
+          "title": "Motion of flex hardware",
+          "image": "/catalog/build/assets/mc/flex-diagram.jpg"
+        }
+      ],
+      "code": "FLEX",
+      "notes": [2, 4],
+      "tags": ["corner cabinets", "fixed to cabinet", "hardware"],
+      "specifications": [5, 3, 7, 4, 8, 9, 11],
+      "baskets": [
+        {
+          "title": "Grey",
+          "base": "Silver epoxy coated tubular steel",
+          "image": "/catalog/build/assets/mc/grey-flex-basket.jpg",
+          "color": "#c7c5c4",
+          "code": "GA"
+        },
+        {
+          "title": "White",
+          "base": "Silver epoxy coated tubular steel",
+          "image": "/catalog/build/assets/tpod/white-2.jpg",
+          "color": "#ffffff",
+          "code": "WH"
+        },
+        {
+          "title": "Maple",
+          "base": "Silver epoxy coated tubular steel",
+          "image": "/catalog/build/assets/mc/maple-wari-basket.jpg",
+          "color": "#e6d296",
+          "code": "MA"
+        },
+        {
+          "title": "Chrome",
+          "base": "Silver epoxy coated tubular steel",
+          "image": "/catalog/build/assets/tpod/chrome-2.jpg",
+          "color": "#d7dee3",
+          "code": "CH"
+        }
+      ]
+    }
+  ],
+  "specifications": [
+    {
+      "title": "Door hanging plates 3 way adjustable",
+      "content": "17 3/4\" (450 mm), 19 11/16\" (500 mm), 23 5/8\" (600 mm)",
+      "id": 1
+    },
+    {
+      "title": "min height",
+      "content": "20 7/8\" (530 mm)",
+      "id": 3
+    },
+    {
+      "title": "min width door",
+      "content": "18\" (457 mm)",
+      "id": 4
+    },
+    {
+      "title": "min height",
+      "content": "20 7/8\" (530 mm)",
+      "id": 6
+    },
+    {
+      "title": "min width cabinet",
+      "content": "42\"",
+      "id": 7
+    },
+    {
+      "title": "max load",
+      "content": "70.5 lbs (32 kg)",
+      "id": 8
+    },
+    {
+      "title": "Baskets",
+      "content": "are individually height adjustable",
+      "link": "https://youtu.be/c_z5ILSaCic?t=16s",
+      "id": 9
+    },
+    {
+      "title": "Includes",
+      "content": "4 Baskets, 2 for door of a max. load of 18lbs (8 kg) each, 2 for cabinet of a max. load of 21 lbs (9.5 kg) each",
+      "id": 10
+    },
+    {
+      "title": "Includes",
+      "content": "4 Baskets, max. load of 17.5 lbs (8 kg) each basket",
+      "id": 11
+    }
+  ],
+  "notes": [
+    {
+      "title": "Order",
+      "content": "replacement baskets with code:",
+      "codes": [
+        {
+          "title": "Grey basket",
+          "code": "LS-WARI-BASKET-GA"
+        },
+        {
+          "title": "White basket",
+          "code": "LS-WARI-BASKET-WH"
+        },
+        {
+          "title": "Maple basket",
+          "code": "LS-WARI-BASKET-MA"
+        },
+        {
+          "title": "Chrome basket",
+          "code": "LS-WARI-BASKET-CH"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "title": "Order",
+      "content": "replacement baskets with code:",
+      "codes": [
+        {
+          "title": "Grey basket",
+          "code": "LS-FLEX-BASKET-GA"
+        },
+        {
+          "title": "White basket",
+          "code": "LS-FLEX-BASKET-WH"
+        },
+        {
+          "title": "Maple basket",
+          "code": "LS-FLEX-BASKET-MA"
+        },
+        {
+          "title": "Chrome basket",
+          "code": "LS-FLEX-BASKET-CH"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "title": "Note",
+      "content": "baskets not attached to door do not come out of cabinet without un-clicking them",
+      "id": 3
+    },
+    {
+      "title": "Handles",
+      "content": "can interfere with the slide out motion, ensure the handles on cabinet to the left or right doesn’t stick out more then 1\"",
+      "id": 4
+    }
+  ]
+}

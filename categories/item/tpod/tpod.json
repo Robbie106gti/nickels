@@ -1,0 +1,140 @@
+{
+  "information": {
+    "title": "Tall Pull-Out Door",
+    "subTitle": "Hardware for TBR cabinets",
+    "id": "tpod",
+    "description": "Unit is attached to door and pulls out when door is opened.",
+    "mainImage": "/catalog/build/assets/tpod/tpod.jpg",
+    "images": [
+      {
+        "id": "1",
+        "image": "/catalog/build/assets/tpod/tpod-spec.jpg",
+        "title":"Spec"
+      },
+      {
+        "id": "2",
+        "image": "/catalog/build/assets/tpod/tpod-tb.jpg",
+        "title":"Top back clip for basket"
+      },
+      {
+        "id": "3",
+        "image": "/catalog/build/assets/tpod/tpod-tfh.jpg",
+        "title":"Top front clip and hardware installed"
+      },
+      {
+        "id": "4",
+        "image": "/catalog/build/assets/tpod/tpod-bfh.jpg",
+        "title":"Bottom front clip and hardware installed"
+      }
+    ],
+    "tags": [],
+    "specifications": [
+      {
+        "title": "Cabinet height",
+        "content": "57\" - 66 7/8\" (1450 - 1700 mm)"
+      },
+      {
+        "title": "Cabinet depth",
+        "content": "min. 18 3/4\" (475 mm)"
+      },
+      {
+        "title": "Cabinet widths",
+        "content": "12\" to 24\" (305 - 610 mm)"
+      },
+      {
+        "title": "Adjustment",
+        "content": "3D front adjustment"
+      },
+      {
+        "title": "Baskets Dim. (D x H)",
+        "content": "16 7/8\" x 3 3/8\" (430 x 85 mm)"
+      },
+      {
+        "title": "Baskets options",
+        "content": "Mesh chrome or melamine in White, Grey and Maple"
+      },
+      {
+        "title": "Baskets adjustments",
+        "content": "Height-adjustable basket assembly using clips"
+      },
+      {
+        "title": "Motion",
+        "content": "firm grip and low noise"
+      },
+      {
+        "title": "Includes",
+        "content": "4 Baskets"
+      },
+      {
+        "title": "Load bearing capacity",
+        "content": "Basket: 35.2lb (16 kg) each, total capacity: 264.5lb (120 kg, 7 baskets and the door)"
+      }
+    ],
+    "notes": [
+      {
+        "title": "Order",
+        "content": "additional baskets with code:",
+        "codes": [
+          {
+            "title": "Grey basket",
+            "code": "TPOD-VS-BASKET-GA"
+          },
+          {
+            "title": "White basket",
+            "code": "TPOD-VS-BASKET-WH"
+          },
+          {
+            "title": "Maple basket",
+            "code": "TPOD-VS-BASKET-MA"
+          },
+          {
+            "title": "Chrome basket",
+            "code": "TPOD-VS-BASKET-CH"
+          }
+        ]
+      }
+    ],
+    "code": "TPOD-VS",
+    "widths": [ 12, 16, 18, 20, 24 ],
+    "sides": [
+      {
+        "option": "Right",
+        "code": "R"
+      },
+      {
+        "option": "Left",
+        "code": "R"
+      }
+    ],
+    "baskets": [
+      {
+        "title": "Grey",
+        "base": "Silver epoxy coated tubular steel",
+        "image": "/catalog/build/assets/tpod/grey-2.jpg",
+        "color": "#c7c5c4",
+        "code": "GA"
+      },
+      {
+        "title": "White",
+        "base": "Silver epoxy coated tubular steel",
+        "image": "/catalog/build/assets/tpod/white-2.jpg",
+        "color": "#ffffff",
+        "code": "WH"
+      },
+      {
+        "title": "Maple",
+        "base": "Silver epoxy coated tubular steel",
+        "image": "/catalog/build/assets/tpod/maple-2.jpg",
+        "color": "#e6d296",
+        "code": "MA"
+      },
+      {
+        "title": "Chrome",
+        "base": "Silver epoxy coated tubular steel",
+        "image": "/catalog/build/assets/tpod/chrome-2.jpg",
+        "color": "#d7dee3",
+        "code": "CH"
+      }
+    ]
+  }
+}

@@ -29,6 +29,7 @@ $RECYCLE.BIN/
 .TemporaryItems
 .Trashes
 .VolumeIcon.icns
+package-lock.json
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -43,7 +44,7 @@ Temporary Items
 /dist
 /tmp
 /out-tsc
-/assets
+# /assets
 
 # dependencies
 /node_modules
@@ -73,9 +74,17 @@ npm-debug.log
 testem.log
 
 # JSON files
+<<<<<<< HEAD
 */codes.json
 */specifications.json
 */notes.json
 */addons.json
 */pod.json
 package-lock.json
+=======
+# */codes.json
+# */specifications.json
+# */notes.json
+# */addons.json
+# */pod.json
+>>>>>>> 921de2314a88e6623eaf5b747e927aacc0aa4827
