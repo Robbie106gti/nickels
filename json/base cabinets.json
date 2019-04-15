@@ -213,6 +213,37 @@
       ]
     },
     {
+      "id": "6",
+      "title": "BS2U : Base Sink Door & Double Drawer Under",
+      "code": "BS2U",
+      "attached": [
+        {
+          "height": "24",
+          "link": "page"
+        },
+        {
+          "height": "30",
+          "link": "page"
+        },
+        {
+          "height": "36",
+          "link": "page"
+        }
+      ],
+      "image": "https://webquoin.com/catalog/images/JPGs/Custom/Base/BSU__24sm.jpg",
+      "tags": [
+        "base",
+        "sink",
+        "double",
+        "drawer",
+        "under",
+        "door",
+        "24\"",
+        "30\"",
+        "36\""
+      ]
+    },
+    {
       "id": "7",
       "title": "B1D : Base 1 Drawer",
       "code": "B1D",
