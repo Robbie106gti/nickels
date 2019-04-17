@@ -14,6 +14,10 @@ body {
   width: 85%;
 }
 
+#prodline {
+  text-transform: capitalize;
+}
+
 .modal .modal-close {
   float: right;
 }

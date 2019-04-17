@@ -12,7 +12,7 @@ if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
   edge = 'col s3 m3 medium';
 }
 
-$.urlParam = function(name) {
+$.urlParam = function (name) {
   var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(
     window.location.href
   );
@@ -23,9 +23,11 @@ $.urlParam = function(name) {
   }
 };
 var code = $.urlParam('code');
+var act = $.urlParam('act') || true;
 
 var info = {
   title: '',
   code: code,
-  item: ''
+  item: '',
+  active: act
 };

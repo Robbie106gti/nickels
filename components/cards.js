@@ -30,9 +30,11 @@ function cardMenu(cat) {
 }
 
 function cabinetCard(cat) {
+  const dactive = cat.active ? '' : ' red';
   return '<div class="card '
     .concat(
       edge,
+      dactive,
       '"><div class="card-image waves-effect waves-block waves-light"><img class="image20 activator" src="'
     )
     .concat(

@@ -41,10 +41,10 @@
   const closeBtn = document.getElementById('closeWQ');
   const myIframe = parent.document.getElementById('pgCatalog');
   const myIframe2 = parent.document.getElementById('nklcatalog');
-  var pline = null;
+  var pline = 'custom';
 
   if(window.location !== window.parent.location) {
-    pline = parent.document.getElementById('pline').innerText;
+    pline = parent.document.getElementById('pline').innerText.toLocaleLowerCase();
     window.load = setPline();
     // myIframe2.parentNode.nodeName === 'TD' ? closeBtn.classList.remove('hide'): '';
     // closeBtn.classList.remove('hide');
@@ -70,7 +70,7 @@
     }
   } */
   function setPline() {
-    pline = parent.document.getElementById('pline').innerText;
+    pline = parent.document.getElementById('pline').innerText.toLocaleLowerCase();
     document.getElementById('prodline').innerHTML = '- '+pline;
   }
 </script>
