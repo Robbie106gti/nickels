@@ -86,7 +86,7 @@ function cardNoreveal(cat) {
   var card;
 
   if (cat.attached[0].sub === '') {
-    card = '<div class="card '
+    var card = '<div class="card '
       .concat(edge, '"><a href="')
       .concat(
         cat.attached[0].link,

@@ -87,3 +87,23 @@ function organizeTables(info) {
     .concat(setTableColumns(info.item), '</div><div class="card-panel">')
     .concat(setColumnHeights(info.item), '</div>');
 }
+
+function mscTable(info) {
+  var msrow = info.item.itemcodes
+    .map(function(at) {
+      return '<tr>'
+        .concat('<td>', at.title, '</td>')
+        .concat('<td>', at.description, '</td>')
+        .concat(
+          '<td><span class="ordercode">',
+          at.itemcode,
+          '</span></td></tr>'
+        );
+    })
+    .join('');
+  var mstable = '<table><thead><tr><th>Title</th><th>Description</th><th>Itemcode</th></tr></thead><tbody>'.concat(
+    msrow,
+    '</tbody></table>'
+  );
+  return '<div class="card-panel">'.concat(mstable, '</div>');
+}

@@ -87,6 +87,28 @@
       ],
       "image": "/catalog/build/assets/legs/legs.jpg",
       "tags": ["hoodfan", "cabinet", "chrome"]
+    },
+    {
+      "code": "MSC",
+      "title": "MSC : Miscellaneous",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Miscellaneous",
+          "link": "msc/index",
+          "cat": "Miscellaneous"
+        }
+      ],
+      "image": "/catalog/build/assets/tpod/tpod.jpg",
+      "tags": ["soap"],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     }
   ]
 }

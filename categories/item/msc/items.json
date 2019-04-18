@@ -1,0 +1,131 @@
+{
+  "sub-cats": [
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["soap", "tray", "sink", "stove", "single", "double"],
+      "active": true,
+      "title": "Soap Trays",
+      "code": "soap",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/Soap-Tray.jpg"
+        }
+      ]
+    },
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["aluminum", "profiles"],
+      "active": true,
+      "title": "Aluminum Profiles",
+      "code": "alupro",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/JPGs/Modal/Misc/MSC-AP-LCH-CCH.jpg"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "active": true,
+      "title": "Soap Trays",
+      "itemcodes": [
+        {
+          "title": "No Soap Tray - Flip down",
+          "description": "For flip down drawer front without soap tray - 1 pair of hinges",
+          "itemcode": "MSC-NST-WH"
+        },
+        {
+          "title": "Single Soap Tray - with hinges",
+          "description": "For single soap tray with 1 pair of hinges",
+          "itemcode": "MSC-SST-WH"
+        },
+        {
+          "title": "Single Soap Tray - no hinges",
+          "description": "For single soap tray no hinges",
+          "itemcode": "MSC-SST-NH"
+        },
+        {
+          "title": "Double Soap Tray - with hinges",
+          "description": "For two soap trays with 1 pair of hinges",
+          "itemcode": "MSC-2ST-WH"
+        },
+        {
+          "title": "Double Soap Tray - no hinges",
+          "description": "For two soap trays no hinges",
+          "itemcode": "MSC-2ST-NH"
+        }
+      ],
+      "code": "soap",
+      "description": "",
+      "standards": [
+        "The plastic soap tray is available in 2 sizes: <br> 14\" wide x 3 3/4\" high x 2\" deep <br> 11\" wide x 3 3/4\" high x 2\" deep",
+        "The minimum cabinet width must be at least 2” wider than the soap tray width.",
+        "The soap tray can attached to the back of a door or the back of a blank drawer with flip-down hinges.",
+        "The minimum unit width for double false flip-down drawers with 11\" soap trays is 27\".",
+        "The minimum unit width for double false flip-down drawers with 14\" soap trays is 33\".",
+        "24\" wide cabinets will not include a header or stile. Units 27” or wider will have a stile attached but no header."
+      ],
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/Soap-Tray.jpg"
+        },
+        {
+          "title": "Drawings SOP-MSC-2ST",
+          "image": "/catalog/build/assets/msc/soap-tray-SOP-MSC-2ST.png"
+        },
+        {
+          "title": "Drawings SOP-MSC-NST",
+          "image": "/catalog/build/assets/msc/soap-tray-SOP-MSC-NST.png"
+        },
+        {
+          "title": "Drawings SOP-MSC-SST",
+          "image": "/catalog/build/assets/msc/soap-tray-SOP-MSC-SST.png"
+        }
+      ]
+    },
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "active": true,
+      "title": "Aluminum Profiles",
+      "itemcodes": ["alupro"],
+      "code": "alupro",
+      "description": "",
+      "standards": [],
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/JPGs/Modal/Misc/MSC-AP-LCH-CCH.jpg"
+        }
+      ]
+    }
+  ]
+}

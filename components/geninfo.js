@@ -32,3 +32,19 @@ function setGICol(page) {
     );
   $('#topic').html(topic);
 }
+
+function setGIA(page) {
+  var giaTitle = page.item
+    ? '<h5 id="subHeader">'.concat(page.item.title, '</h5>')
+    : '';
+  var giaLink = page.item ? './' : '../../index.html?cat=Accessories';
+  var topic =
+    '<a href="' +
+    giaLink +
+    '" class="right"><i class="small material-icons">arrow_back</i> <span class="lift">Back</span></a><div id="actions"></div><div><h1 id="titleHeader">' +
+    page.cat +
+    '</h1>' +
+    giaTitle +
+    '</div>';
+  $('#topic').html(topic);
+}
