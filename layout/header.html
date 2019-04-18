@@ -18,7 +18,7 @@
         >
       </li>
       <li class="">
-        <button" id="refresh" class="btn-small open brown-text"
+        <button" id="refresh" class="btn-small open brown-text hide"
           ><i class="material-icons">refresh</i></button>
       </li>
       <li><small id="prodline" class="headingLogo"></small></li>
@@ -36,41 +36,17 @@
   <a id="TopPage"></a>
 </nav>
 
-<script>
-  const refreshBtn = document.getElementById('refresh');
-  const closeBtn = document.getElementById('closeWQ');
-  const myIframe = parent.document.getElementById('pgCatalog');
-  const myIframe2 = parent.document.getElementById('nklcatalog');
-  var pline = 'custom';
 
-  if(window.location !== window.parent.location) {
-    pline = parent.document.getElementById('pline').innerText.toLocaleLowerCase();
-    window.load = setPline();
-    // myIframe2.parentNode.nodeName === 'TD' ? closeBtn.classList.remove('hide'): '';
-    // closeBtn.classList.remove('hide');
-   // myIframe.src ? '' : closeBtn.classList.remove('hide');
-   // console.log({"within job: ": myIframe.parentNode.nodeName, "catalog: ": myIframe2.parentNode.nodeName});
-   // console.log(myIframe);
-   // console.log(myIframe2);
-   // myIframe.querySelector("#closeWQ").classList.remove('hide');
-  }
-  refreshBtn.onclick = function() {
-    myIframe.src === null ? null : myIframe.contentWindow.location.reload(true);
-    myIframe2.src === null ? null : myIframe2.contentWindow.location.reload(true);
-  };
+<script> 
+setLine()
+var refreshBtn = document.getElementById('refresh');
+var myIframe = parent.document.getElementById('pgCatalog');
+var myIframe2 = parent.document.getElementById('nklcatalog');
+if (window.location !== window.parent.location) refreshBtn.classList.remove('hide');
 
-/*   function closebtn(id) {
-    console.log(id)
-    if(window.location !== window.parent.location) {
-      const pt = myIframe2.parentNode.nodeName;
-      const ptt = myIframe2.parentNode.parentElement;
-      console.log(ptt, pt)
-    myIframe2.parentNode.nodeName === 'TD' ? ptt.remove(): '';
+refreshBtn.onclick = function() {
+  myIframe.src === null ? null : myIframe.contentWindow.location.reload(true);
+  myIframe2.src === null ? null : myIframe2.contentWindow.location.reload(true);
+};
 
-    }
-  } */
-  function setPline() {
-    pline = parent.document.getElementById('pline').innerText.toLocaleLowerCase();
-    document.getElementById('prodline').innerHTML = '- '+pline;
-  }
 </script>

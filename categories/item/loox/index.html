@@ -111,6 +111,7 @@
       type="text/javascript"
       src="../../../node_modules/jquery/dist/jquery.min.js"
     ></script>
+    <script src="../../../helpers/url.js"></script>
     <script
       type="text/javascript"
       src="../../../node_modules/materialize-css/dist/js/materialize.min.js"
@@ -126,26 +127,6 @@
         document.write('<script src="./loox.js"><\/script>');
       }
     </script>
-
-    <script
-      type="text/javascript"
-      src="../../../jquery.contextMenu.js"
-    ></script>
-    <link
-      href="../../../../../../css/jquery.contextMenu.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-
-    <script>
-      $(document).ready(function() {
-        parent.activatecat();
-      });
-      $(window).bind('load', function() {
-        setTimeout(function() {
-          parent.activatecat();
-        }, 2000);
-      });
-    </script>
+    <script src="../../../helpers/runcodes.js"></script>
   </body>
 </html>

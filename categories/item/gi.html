@@ -111,6 +111,7 @@
       type="text/javascript"
       src="../../node_modules/jquery/dist/jquery.min.js"
     ></script>
+    <script src="../../helpers/url.js"></script>
     <script
       type="text/javascript"
       src="../../node_modules/materialize-css/dist/js/materialize.min.js"
@@ -125,16 +126,6 @@
       } else {
         document.write('<script src="./gi.js"><\/script>');
       }
-    </script>
-    <script>
-      $(document).ready(function() {
-        parent.activatecat();
-      });
-      $(window).bind('load', function() {
-        setTimeout(function() {
-          parent.activatecat();
-        }, 2000);
-      });
     </script>
   </body>
 </html>
