@@ -85,7 +85,10 @@
         "The soap tray can attached to the back of a door or the back of a blank drawer with flip-down hinges.",
         "The minimum unit width for double false flip-down drawers with 11\" soap trays is 27\".",
         "The minimum unit width for double false flip-down drawers with 14\" soap trays is 33\".",
-        "24\" wide cabinets will not include a header or stile. Units 27” or wider will have a stile attached but no header."
+        "The minimum unit width for single false flip-down drawers with 11\" soap tray is 14\".",
+        "The minimum unit width for single false flip-down drawers with 14\" soap tray is 17\".",
+        "Units that are to 26\" wide will not include a header or support. (use single soap tray code)",
+        "Unit 27\" wide and up will receive a header and support. (use double soap tray code)"
       ],
       "images": [
         {
