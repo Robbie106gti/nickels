@@ -9,6 +9,7 @@
           "link": "page"
         },
         {
+          "active": false,
           "height": "26",
           "link": "page"
         }
@@ -25,6 +26,7 @@
           "link": "page"
         },
         {
+          "active": false,
           "height": "26",
           "link": "page"
         }
@@ -33,6 +35,7 @@
       "tags": ["vanity", "floating", "drawer", "door", "26\"", "24\""]
     },
     {
+      "active": false,
       "code": "FVDD",
       "title": "FVDD : Floating Vanity Door & Double Drawer",
       "attached": [
@@ -53,6 +56,7 @@
           "link": "page"
         },
         {
+          "active": false,
           "height": "26",
           "link": "page"
         }
@@ -69,6 +73,7 @@
           "link": "page"
         },
         {
+          "active": false,
           "height": "26",
           "link": "page"
         }
@@ -86,6 +91,7 @@
       ]
     },
     {
+      "active": false,
       "code": "FVSDD",
       "title": "FVSDD : Floating Vanity Sink Door & Double False Drawer",
       "attached": [
@@ -115,6 +121,7 @@
           "link": "page"
         },
         {
+          "active": false,
           "height": "26",
           "link": "page"
         }
@@ -131,6 +138,7 @@
           "link": "page"
         },
         {
+          "active": false,
           "height": "26",
           "link": "page"
         }
@@ -153,6 +161,7 @@
     },
     {
       "code": "FV4D",
+      "active": false,
       "title": "FV4D : Floating Vanity 4 Drawer",
       "attached": [
         {
@@ -178,6 +187,7 @@
     },
     {
       "code": "FVFDLB",
+      "active": false,
       "title": "FVFDLB : Floating Vanity Full Door Left Blind",
       "attached": [
         {
@@ -190,6 +200,7 @@
     },
     {
       "code": "FVFDRB",
+      "active": false,
       "title": "FVFDRB : Floating Vanity Full Door Right Blind",
       "attached": [
         {
@@ -202,6 +213,7 @@
     },
     {
       "code": "FVLB",
+      "active": false,
       "title": "FVLB : Floating Vanity Door & Drawer Left Blind",
       "attached": [
         {
@@ -214,6 +226,7 @@
     },
     {
       "code": "FVRB",
+      "active": false,
       "title": "FVRB : Floating Vanity Door & Drawer Right Blind",
       "attached": [
         {

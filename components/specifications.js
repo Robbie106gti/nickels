@@ -69,6 +69,9 @@ function setSpecsND(loc, specs) {
 
 function setSpecsCol(item) {
   // console.log(item);
+  if (!item.dimensions && item.standards.length === 0) {
+    return '';
+  }
   var cardcol =
     '<div class="card-panel grey lighten-3 bullet"> <span class="card-title"><h4>Specifications</h4></span> <div class="divider"></div> <ul class="flow-text"><li style="list-style-type: none"><ul>';
   var licol = new Array();

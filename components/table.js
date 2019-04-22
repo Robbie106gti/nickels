@@ -89,6 +89,9 @@ function organizeTables(info) {
 }
 
 function mscTable(info) {
+  if (info.item.itemcodes.length === 0) {
+    return '';
+  }
   var msrow = info.item.itemcodes
     .map(function(at) {
       return '<tr>'

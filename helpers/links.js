@@ -3,6 +3,7 @@ function getLinks(cat) {
   var keys = ''.concat(
     cat.attached
       .map(function(a) {
+        if (a.active === false) return '';
         return formatLink(cat, a);
       })
       .join('')

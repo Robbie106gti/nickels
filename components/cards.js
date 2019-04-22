@@ -15,7 +15,7 @@ function cardWith(cat) {
 }
 
 function cardMenu(cat) {
-  return '    <div class="card '
+  return '<div class="card '
     .concat(edge, '"><a href="')
     .concat(
       cat.link,
