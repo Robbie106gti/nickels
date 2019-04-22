@@ -107,3 +107,26 @@ function mscTable(info) {
   );
   return '<div class="card-panel">'.concat(mstable, '</div>');
 }
+
+function shTable(info) {
+  var msrow = info.item.itemcodes
+    .map(function(at) {
+      return '<tr>'
+        .concat('<td>', info.item.title, ' ', at.title, '</td>')
+        .concat('<td>', at.brackets, '</td>')
+        .concat('<td>', at.widths, '</td>')
+        .concat('<td>lb ', at.lbs, '</td>')
+        .concat(
+          '<td><span class="ordercode">',
+          info.item.code,
+          at.itemcode,
+          '</span></td></tr>'
+        );
+    })
+    .join('');
+  var mstable = '<table><thead><tr><th>Title</th><th>Nº  Brackets</th><th>Widths</th><th>Max. distrubuted weight</th><th>Itemcode</th></tr></thead><tbody>'.concat(
+    msrow,
+    '</tbody></table>'
+  );
+  return '<div class="card-panel">'.concat(mstable, '</div>');
+}

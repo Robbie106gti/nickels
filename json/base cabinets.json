@@ -214,21 +214,11 @@
     },
     {
       "id": "6",
-      "title": "BS2U : Base Sink Door & Double Drawer Under",
-      "code": "BS2U",
+      "title": "BS2DU : Base Sink Door & Double Drawer Under",
+      "code": "BS2DU",
       "attached": [
         {
-          "active": false,
-          "height": "24",
-          "link": "page"
-        },
-        {
           "height": "30",
-          "link": "page"
-        },
-        {
-          "active": false,
-          "height": "36",
           "link": "page"
         }
       ],

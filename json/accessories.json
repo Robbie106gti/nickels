@@ -109,6 +109,28 @@
         "modal": false,
         "modcon": false
       }
+    },
+    {
+      "code": "SH",
+      "title": "SH : Shelves",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Shelves",
+          "link": "shelves/index",
+          "cat": "Shelves"
+        }
+      ],
+      "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/SH-TFS.jpg",
+      "tags": ["shelves"],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     }
   ]
 }

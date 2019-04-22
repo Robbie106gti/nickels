@@ -181,6 +181,22 @@
       "content": "for mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front",
       "contentLink": "",
       "ccontent": "."
+    },
+    {
+      "id": "24",
+      "title": "Additional traides, ",
+      "link": "#",
+      "content": "Use MSC-TRIADE to add extra(s) bracket to support more weight (7 kg/15 lbs per traide.)",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "25",
+      "title": "Ordering, ",
+      "link": "#",
+      "content": "Procedure: After entering the Floating Shelf code in webQuoin, double click into the CC-SH-WXD (in red) and enter the width and depth dimensions.",
+      "contentLink": "",
+      "ccontent": "."
     }
   ]
 }

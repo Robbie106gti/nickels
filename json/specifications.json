@@ -454,6 +454,51 @@
       "id": "3006",
       "title": "Finished ends",
       "content": "Seamless finished ends are possible."
+    },
+    {
+      "id": "3007",
+      "title": "Available Materials",
+      "content": "all Wood Species, Engineered and Painted applications."
+    },
+    {
+      "id": "3008",
+      "title": "Finishing",
+      "content": "Top face, bottom face, front edge and both side edges are finished."
+    },
+    {
+      "id": "3009",
+      "title": "Size",
+      "content": "W x D"
+    },
+    {
+      "id": "3010",
+      "title": "Brackets",
+      "content": "Bracket hardware supplied will be 1 for every 16\" of shelf. See chart."
+    },
+    {
+      "id": "3011",
+      "title": "Construction",
+      "content": "Minimum shelf depth is 8\" and maximum shelf depth is 15 3/4\", 1 1/2\" thick composite core with a taped edge."
+    },
+    {
+      "id": "3012",
+      "title": "Options",
+      "content": "N/A"
+    },
+    {
+      "id": "3013",
+      "title": "Restrictions",
+      "content": "Maximum load restriction is 7 kg (15 lbs) per bracket, not including the shelf. Maximum 94\" inch wide."
+    },
+    {
+      "id": "3014",
+      "title": "Finishing",
+      "content": "Shelf has a solid wood edge on the front and both sides, Top and bottom faces are finished."
+    },
+    {
+      "id": "3015",
+      "title": "Construction",
+      "content": "Minimum shelf depth is 8\" and maximum shelf depth is 15 3/4\". 2 1/4\" thick composite core with a taped edge."
     }
   ]
 }

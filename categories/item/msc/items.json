@@ -15,7 +15,7 @@
       "images": [
         {
           "title": "",
-          "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/Soap-Tray.jpg"
+          "image": "/catalog/build/assets/msc/soap-tray.jpg"
         }
       ]
     },
@@ -93,7 +93,7 @@
       "images": [
         {
           "title": "",
-          "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/Soap-Tray.jpg"
+          "image": "/catalog/build/assets/msc/soap-tray.jpg"
         },
         {
           "title": "Drawings SOP-MSC-2ST",

@@ -885,8 +885,8 @@
         "modcon": false
       },
       "id": "6",
-      "title": "BS2U : Base Sink Door & Double Drawer Under",
-      "code": "BS2U",
+      "title": "BS2DU : Base Sink Door & Double Drawer Under",
+      "code": "BS2DU",
       "attached": [
         {
           "active": true,
@@ -898,69 +898,19 @@
             "modcon": false
           },
           "itemcodes": [
-            "BS2U1524",
-            "BS2U1824",
-            "BS2U2124",
-            "BS2U2424",
-            "BS2U2724",
-            "BS2U3024",
-            "BS2U3324",
-            "BS2U3624",
-            "BS2U3924",
-            "BS2U__24",
-            "BS2U24"
-          ],
-          "height": "24",
-          "link": "page"
-        },
-        {
-          "active": true,
-          "lines": {
-            "custom": false,
-            "lighthouse": false,
-            "cornerstone": false,
-            "modal": false,
-            "modcon": false
-          },
-          "itemcodes": [
-            "BS2U1530",
-            "BS2U1830",
-            "BS2U2130",
-            "BS2U2430",
-            "BS2U2730",
-            "BS2U3030",
-            "BS2U3330",
-            "BS2U3630",
-            "BS2U3930",
-            "BS2U__30",
-            "BS2U30"
+            "BS2DU1530",
+            "BS2DU1830",
+            "BS2DU2130",
+            "BS2DU2430",
+            "BS2DU2730",
+            "BS2DU3030",
+            "BS2DU3330",
+            "BS2DU3630",
+            "BS2DU3930",
+            "BS2DU__30",
+            "BS2DU30"
           ],
           "height": "30",
-          "link": "page"
-        },
-        {
-          "active": true,
-          "lines": {
-            "custom": false,
-            "lighthouse": false,
-            "cornerstone": false,
-            "modal": false,
-            "modcon": false
-          },
-          "itemcodes": [
-            "BS2U1536",
-            "BS2U1836",
-            "BS2U2136",
-            "BS2U2436",
-            "BS2U2736",
-            "BS2U3036",
-            "BS2U3336",
-            "BS2U3636",
-            "BS2U3936",
-            "BS2U__36",
-            "BS2U36"
-          ],
-          "height": "36",
           "link": "page"
         }
       ],
