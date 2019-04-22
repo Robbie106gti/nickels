@@ -116,7 +116,8 @@
       "link": "#",
       "content": "may be added if complexity increases",
       "contentLink": "",
-      "ccontent": "."
+      "ccontent": ".",
+      "itemcodes": ["CC-MILLWORK"]
     },
     {
       "id": "15",
@@ -148,7 +149,8 @@
       "link": "#",
       "content": "Melamines and Soho materials do not have finished ends available. Attach accessories CLM-FEL, CLM-FER or CLM-FELR to finish sides",
       "contentLink": "",
-      "ccontent": "."
+      "ccontent": ".",
+      "itemcodes": ["CLM-FEL", "CLM-FER", "CLM-FELR"]
     },
     {
       "id": "20",
@@ -162,41 +164,33 @@
       "id": "21",
       "title": "Depth, ",
       "link": "#",
-      "content": "The depth of a default regular COLUMN is 24” plus the front, which is always additional to depth. For a MITERED COLUMN the depth is 24 7/8” including the front of Column",
+      "content": "The depth of a default regular COLUMN is 24\" plus the front, which is always additional to depth. For a MITERED COLUMN the depth is 24 7/8\" including the front of Column",
       "contentLink": "",
       "ccontent": "."
     },
     {
       "id": "22",
       "title": "Materials, ",
-      "link": "#",
       "content": "for Melanines, Euro Materials or Gloss Columns use CLM column with CLM-101 front",
-      "contentLink": "",
-      "ccontent": "."
+      "itemcodes": ["CLM", "CLM-101"]
     },
     {
       "id": "23",
       "title": "Miter, ",
-      "link": "#",
       "content": "for mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front",
-      "contentLink": "",
-      "ccontent": "."
+      "itemcodes": ["CLM-MITER", "CLM-100"]
     },
     {
       "id": "24",
       "title": "Additional traides, ",
-      "link": "#",
       "content": "Use MSC-TRIADE to add extra(s) bracket to support more weight (7 kg/15 lbs per traide.)",
-      "contentLink": "",
-      "ccontent": "."
+      "itemcodes": ["MSC-TRIADE"]
     },
     {
       "id": "25",
       "title": "Ordering, ",
-      "link": "#",
-      "content": "Procedure: After entering the Floating Shelf code in webQuoin, double click into the CC-SH-WXD (in red) and enter the width and depth dimensions.",
-      "contentLink": "",
-      "ccontent": "."
+      "content": "Procedure: After entering the Floating Shelf code in webQuoin, double click into the CC-SH-WXD and enter the width and depth dimensions.",
+      "itemcodes": ["CC-SH-WXD"]
     }
   ]
 }

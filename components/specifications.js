@@ -54,26 +54,17 @@ function setSpecsND(loc, specs) {
         }
         return el.id === id;
       });
-      var n =
-        '<div class="card-panel">' +
-        spec
-          .map(function(n) {
-            return '<li><b>' + n.title + '</b>: ' + n.content + '</li>';
-          })
-          .join('') +
-        '</div>';
-      n = '<ul class="flow-text">' + n + '</ul>';
+      var n = spec
+        .map(function(n) {
+          return '<li><b>' + n.title + '</b>: ' + n.content + '</li>';
+        })
+        .join('');
+      n = '<div class="card-panel"><ul class="flow-text">' + n + '</ul></div>';
       $('#spec').html(n);
     })
     .catch(function(err) {
       return console.log(err);
     });
-  var s = specs
-    .map(function(spec) {
-      return '<li><b>' + spec.title + '</b>: ' + spec.content + '</li>';
-    })
-    .join('');
-  return s;
 }
 
 function setSpecsCol(item) {
