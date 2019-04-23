@@ -27,7 +27,7 @@ function setSpecsND(loc, items) {
     })
     .then(function (data) {
       var res = filterItems(data['restrictions'], items);
-      $('#rest').html(res);
+      $('#restrictions').html(res);
     })
     .catch(function (err) {
       return console.log(err);

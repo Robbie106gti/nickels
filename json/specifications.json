@@ -514,32 +514,6 @@
       "id": "3018",
       "title": "Construction",
       "content": "nominal 1 9/16\" thick panel constructed from a door integrated with a 3/4\" back panel. Can be ordered as a wide horizontal panel (DEPH) or a tall vertical panel (DEPV). The dimensions for the stiles and rails will match the specifications of the selected door"
-    },
-    {
-      "id": "3019",
-      "title": "Restrictions",
-      "content": "not available in Knotty Woods (knotty material will be replaced with clear Alder), all Melamines, Engineered Veneer, Euro materials, and Gloss"
-    },
-    {
-      "id": "3020",
-      "title": "Horizontal",
-      "type": "list",
-      "list": [
-        "Maximum horizontal panel size 120\" wide x 48\" tall.",
-        "Panels that are up to 35 7/8\" wide will be 1 panel wide x 1 panel high.",
-        "Panels that are from 36\" to 65 7/8\" wide will be 2 panels wide x 1 panel high.",
-        "Panels that are from 66\" to 95 7/8\" wide will be 3 panels wide x 1 panel high."
-      ]
-    },
-    {
-      "id": "3021",
-      "title": "Vertical",
-      "type": "list",
-      "list": [
-        "Maximum vertical panel size 36\" wide x 120\" tall.",
-        "Panels that are up to 47 7/8\" high will be 1 panel high x 1 panel wide.",
-        "Panels that are from 48\" to 95 7/8\" high will be 2 panels high x 1 panel wide."
-      ]
     }
   ]
 }

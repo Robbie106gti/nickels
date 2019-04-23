@@ -30,8 +30,6 @@ function setSpecs(specs, page) {
 }
 
 function setSpecsND(loc, specs) {
-  console.log('hello')
-  console.log(specs);
   fetch(loc + '/json/specifications.json')
     .then(function (response) {
       return response.json();
@@ -39,7 +37,7 @@ function setSpecsND(loc, specs) {
     .then(function (data) {
       var spec = filterItems(data['specifications'], specs);
       var n = spec.map(function (n) { return styleSpec(n) }).join('');
-      n = '<div class="card-panel"><ul class="flow-text">' + n + '</ul></div>';
+      n = '<div class="card-panel"><ul class="flow-text">' + n + '</ul><div id="options"></div><div id="restrictions"></div></div>';
       $('#spec').html(n);
     })
     .catch(function (err) {

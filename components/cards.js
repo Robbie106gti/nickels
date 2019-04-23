@@ -1,5 +1,5 @@
 function cardWith(cat) {
-  console.log(cat);
+  // console.log(cat);
   var image = cat.image ? cat.image : cat.images[0].image;
   var card = '<div class="card '
     .concat(

@@ -1,0 +1,30 @@
+{
+  "options": [
+    {
+      "id": "0",
+      "title": "Horizontal",
+      "type": "list",
+      "list": [
+        "Maximum horizontal panel size 120\" wide x 48\" tall.",
+        "Panels that are up to 35 7/8\" wide will be 1 panel wide x 1 panel high.",
+        "Panels that are from 36\" to 65 7/8\" wide will be 2 panels wide x 1 panel high.",
+        "Panels that are from 66\" to 95 7/8\" wide will be 3 panels wide x 1 panel high."
+      ]
+    },
+    {
+      "id": "1",
+      "title": "Vertical",
+      "type": "list",
+      "list": [
+        "Maximum vertical panel size 36\" wide x 120\" tall.",
+        "Panels that are up to 47 7/8\" high will be 1 panel high x 1 panel wide.",
+        "Panels that are from 48\" to 95 7/8\" high will be 2 panels high x 1 panel wide."
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Options",
+      "content": "N/A"
+    }
+  ]
+}
