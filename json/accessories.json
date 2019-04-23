@@ -131,6 +131,50 @@
         "modal": false,
         "modcon": false
       }
+    },
+    {
+      "code": "P",
+      "title": "P : Panels",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Panels",
+          "link": "panels/index",
+          "cat": "Panels"
+        }
+      ],
+      "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/SH-TFS.jpg",
+      "tags": ["panels"],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
+    },
+    {
+      "code": "F",
+      "title": "F : Fillers",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Fillers",
+          "link": "fillers/index",
+          "cat": "Fillers"
+        }
+      ],
+      "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/SH-TFS.jpg",
+      "tags": ["fillers"],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
     }
   ]
 }

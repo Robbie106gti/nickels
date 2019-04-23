@@ -1,0 +1,80 @@
+{
+  "sub-cats": [
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "active": true,
+      "tags": ["vertical", "horizontal"],
+      "title": "Door End Panel - Vertical or Horizontal",
+      "code": "dep",
+      "images": [
+        {
+          "title": "",
+          "image": "http://testquoin.com/catalog/images/JPGs/Custom/Accessories/DEP1.jpg"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "active": true,
+      "title": "Door End Panel",
+      "itemcodes": [
+        {
+          "title": "Vertical",
+          "itemcode": "v"
+        },
+        {
+          "title": "Horizontal",
+          "itemcode": "H"
+        }
+      ],
+      "code": "dep",
+      "description": "Typically used for finishing the backs of islands or peninsulas but can also be used for any other application that calls for this type of material",
+      "specifications": [
+        "3012",
+        "3016",
+        "3017",
+        "3018",
+        "3019",
+        "3020",
+        "3021"
+      ],
+      "images": [
+        {
+          "title": "FRONT VIEW - FINISHED",
+          "image": "http://testquoin.com/catalog/images/JPGs/Custom/Accessories/DEP1.jpg"
+        },
+        {
+          "title": "BACK VIEW - FINISHED",
+          "image": "http://testquoin.com/catalog/images/JPGs/Custom/Accessories/DEP1-Back.jpg"
+        },
+        {
+          "title": "Examples of Finished Edges (DEPH)",
+          "image": "http://testquoin.com/catalog/images/Edge-Details/DEP1-HORZfin.png"
+        },
+        {
+          "title": "Examples of Finished Edges (DEPV)",
+          "image": "http://testquoin.com/catalog/images/Edge-Details/DEP1-VERTfin.png"
+        },
+        {
+          "title": "DEPH & DEPV example construction",
+          "image": "http://testquoin.com/catalog/images/GIFs/Custom/Accessories/DEP1-SECTIONS.gif"
+        }
+      ],
+      "notes": ["27", "28", "29"]
+    }
+  ]
+}

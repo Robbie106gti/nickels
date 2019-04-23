@@ -1,21 +1,12 @@
 function setSpecs(specs, page) {
   fetch('../../json/specifications.json')
-    .then(function(response) {
+    .then(function (response) {
       return response.json();
     })
-    .then(function(data) {
-      var spec = data['specifications'].filter(function(el, i) {
-        var t = specs.includes(el.id);
-        var id;
-        if (t === true) {
-          id = el.id;
-        } else {
-          id = t;
-        }
-        return el.id === id;
-      });
+    .then(function (data) {
+      var spec = filterItems(data['specifications'], specs);
       var n = spec
-        .map(function(n) {
+        .map(function (n) {
           return '<li><b>' + n.title + '</b>: ' + n.content + '</li>';
         })
         .join('');
@@ -27,11 +18,11 @@ function setSpecs(specs, page) {
         '</ul>';
       $('#specli').html(n);
     })
-    .catch(function(err) {
+    .catch(function (err) {
       return console.log(err);
     });
   var s = specs
-    .map(function(spec) {
+    .map(function (spec) {
       return '<li><b>' + spec.title + '</b>: ' + spec.content + '</li>';
     })
     .join('');
@@ -39,32 +30,39 @@ function setSpecs(specs, page) {
 }
 
 function setSpecsND(loc, specs) {
+  console.log('hello')
+  console.log(specs);
   fetch(loc + '/json/specifications.json')
-    .then(function(response) {
+    .then(function (response) {
       return response.json();
     })
-    .then(function(data) {
-      var spec = data['specifications'].filter(function(el, i) {
-        var t = specs.includes(el.id);
-        var id;
-        if (t === true) {
-          id = el.id;
-        } else {
-          id = t;
-        }
-        return el.id === id;
-      });
-      var n = spec
-        .map(function(n) {
-          return '<li><b>' + n.title + '</b>: ' + n.content + '</li>';
-        })
-        .join('');
+    .then(function (data) {
+      var spec = filterItems(data['specifications'], specs);
+      var n = spec.map(function (n) { return styleSpec(n) }).join('');
       n = '<div class="card-panel"><ul class="flow-text">' + n + '</ul></div>';
       $('#spec').html(n);
     })
-    .catch(function(err) {
+    .catch(function (err) {
       return console.log(err);
     });
+}
+
+function styleSpec(n) {
+  var sli;
+  if (!n.type) return '<li><b>' + n.title + '</b>: ' + n.content + '</li>';
+  switch (n.type) {
+    case 'list':
+      sli = makelist(n)
+      break;
+    default:
+      sli = '<li><b>' + n.title + '</b>: ' + n.content + '</li>';
+      break;
+  }
+  return sli;
+}
+
+function makelist(n) {
+  return '<ul>'.concat('<b>', n.title, ':</b>').concat(n.list.map(function (i) { return '<li class="second">'.concat(i, '</li>') }).join(''), '</ul>')
 }
 
 function setSpecsCol(item) {
@@ -82,7 +80,7 @@ function setSpecsCol(item) {
       { name: 'depths', title: 'Depth' },
       { name: 'thickness', title: 'Front' }
     ]
-      .map(function(li) {
+      .map(function (li) {
         return (
           '<li class="second">' +
           li.title +
@@ -94,15 +92,15 @@ function setSpecsCol(item) {
       .join('');
   }
   licol += item.standards
-    .map(function(st) {
+    .map(function (st) {
       return '<li>' + st + '<li>';
     })
     .join('');
   var resopt = item.options
     ? '<div id="options">' + setOptions(item.options) + '</div>'
     : '' + item.restrictions
-    ? '<div id="restrictions">' + setRestrictions(item.restrictions) + '</div>'
-    : '';
+      ? '<div id="restrictions">' + setRestrictions(item.restrictions) + '</div>'
+      : '';
   cardcol = cardcol + licol + resopt + '</ul></li></ul></div>';
 
   return cardcol;

@@ -199,6 +199,21 @@
       "content": "please fill out ",
       "contentLink": "this form",
       "ccontent": " and attach to job."
+    },
+    {
+      "id": "27",
+      "title": "Grain, ",
+      "content": "(if applicable) will run vertically, or in the direction of the selection in the Exterior Material Header Drop-Down Menu if there is a choice of VG or HG"
+    },
+    {
+      "id": "28",
+      "title": "Edge, ",
+      "content": "Only a square outside edge profile can be used in this application"
+    },
+    {
+      "id": "29",
+      "title": "The door style, ",
+      "content": "will only be applied onto the front face of the panel. Be aware that the joints may develop hairline cracks when applying paint onto a 5 piece door. This is considered normal and acceptable and therefore, not a warranty item."
     }
   ]
 }

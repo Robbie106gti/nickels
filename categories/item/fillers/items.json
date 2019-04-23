@@ -1,0 +1,614 @@
+{
+  "sub-cats": [
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["edge-tap", "floating", "shelf", "1 1/2\""],
+      "active": true,
+      "title": "1 1/2\" Floating Shelves with Edge Tape",
+      "code": "sh-fset",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/Shelfs/Inside.jpg"
+        }
+      ]
+    },
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["wood-edge", "floating", "shelf", "1 1/2\""],
+      "active": true,
+      "title": "1 1/2\" Floating Shelves with Solid Wood Edge Molding",
+      "code": "sh-fswe",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/SH-FSWE.jpg"
+        }
+      ]
+    },
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["edge-tap", "floating", "shelf", "2 1/2\""],
+      "active": true,
+      "title": "2 1/4\" Floating Shelf with Edge Tape",
+      "code": "sh-tfset",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/SH-TFS.jpg"
+        }
+      ]
+    },
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["wood-edge", "floating", "shelf", "2 1/2\""],
+      "active": true,
+      "title": "2 1/4\" Floating Shelf with Solid Wood Edge Molding",
+      "code": "sh-tfswe",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/SH-TFS-3d.jpg"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "active": true,
+      "title": "1 1/2\" Floating Shelves With Edge Tape",
+      "itemcodes": [
+        {
+          "title": "upto 18\" wide",
+          "itemcode": "-18",
+          "brackets": "2",
+          "widths": "10\" - 18\"",
+          "lbs": "22"
+        },
+        {
+          "title": "upto 24\" wide",
+          "itemcode": "-24",
+          "brackets": "2",
+          "widths": "18\" - 24\"",
+          "lbs": "20"
+        },
+        {
+          "title": "upto 30\" wide",
+          "itemcode": "-30",
+          "brackets": "2",
+          "widths": "24\" - 30\"",
+          "lbs": "17"
+        },
+        {
+          "title": "upto 36\" wide",
+          "itemcode": "-36",
+          "brackets": "3",
+          "widths": "30\" - 36\"",
+          "lbs": "30"
+        },
+        {
+          "title": "upto 42\" wide",
+          "itemcode": "-42",
+          "brackets": "3",
+          "widths": "36\" - 42\"",
+          "lbs": "27"
+        },
+        {
+          "title": "upto 48\" wide",
+          "itemcode": "-48",
+          "brackets": "4",
+          "widths": "42\" - 48\"",
+          "lbs": "40"
+        },
+        {
+          "title": "upto 54\" wide",
+          "itemcode": "-54",
+          "brackets": "4",
+          "widths": "48\" - 54\"",
+          "lbs": "37"
+        },
+        {
+          "title": "upto 60\" wide",
+          "itemcode": "-60",
+          "brackets": "4",
+          "widths": "54\" - 60\"",
+          "lbs": "35"
+        },
+        {
+          "title": "upto 66\" wide",
+          "itemcode": "-66",
+          "brackets": "5",
+          "widths": "60\" - 66\"",
+          "lbs": "48"
+        },
+        {
+          "title": "upto 72\" wide",
+          "itemcode": "-72",
+          "brackets": "5",
+          "widths": "66\" - 72\"",
+          "lbs": "45"
+        },
+        {
+          "title": "upto 78\" wide",
+          "itemcode": "-78",
+          "brackets": "5",
+          "widths": "72\" - 78\"",
+          "lbs": "42"
+        },
+        {
+          "title": "upto 84\" wide",
+          "itemcode": "-84",
+          "brackets": "6",
+          "widths": "78\" - 84\"",
+          "lbs": "55"
+        },
+        {
+          "title": "upto 90\" wide",
+          "itemcode": "-90",
+          "brackets": "6",
+          "widths": "84\" - 90\"",
+          "lbs": "52"
+        },
+        {
+          "title": "upto 94\" wide",
+          "itemcode": "-94",
+          "brackets": "7",
+          "widths": "90\" - 94\"",
+          "lbs": "65"
+        }
+      ],
+      "code": "sh-fset",
+      "description": "Floating Shelf 1 1/2\" Thick - with Edge Tape",
+      "specifications": [
+        "3007",
+        "3008",
+        "3009",
+        "3010",
+        "3011",
+        "3012",
+        "3013"
+      ],
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/Shelfs/Inside.jpg"
+        },
+        {
+          "title": "hardware - traide",
+          "image": "https://webquoin.com/catalog/images/Shelfs/bracket.jpg"
+        }
+      ],
+      "notes": ["24", "25"]
+    },
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "active": true,
+      "title": "1 1/2\" Floating Shelf with Solid Wood Edge Molding",
+      "itemcodes": [
+        {
+          "title": "upto 18\" wide",
+          "itemcode": "-18",
+          "brackets": "2",
+          "widths": "10\" - 18\"",
+          "lbs": "22"
+        },
+        {
+          "title": "upto 24\" wide",
+          "itemcode": "-24",
+          "brackets": "2",
+          "widths": "18\" - 24\"",
+          "lbs": "20"
+        },
+        {
+          "title": "upto 30\" wide",
+          "itemcode": "-30",
+          "brackets": "2",
+          "widths": "24\" - 30\"",
+          "lbs": "17"
+        },
+        {
+          "title": "upto 36\" wide",
+          "itemcode": "-36",
+          "brackets": "3",
+          "widths": "30\" - 36\"",
+          "lbs": "30"
+        },
+        {
+          "title": "upto 42\" wide",
+          "itemcode": "-42",
+          "brackets": "3",
+          "widths": "36\" - 42\"",
+          "lbs": "27"
+        },
+        {
+          "title": "upto 48\" wide",
+          "itemcode": "-48",
+          "brackets": "4",
+          "widths": "42\" - 48\"",
+          "lbs": "40"
+        },
+        {
+          "title": "upto 54\" wide",
+          "itemcode": "-54",
+          "brackets": "4",
+          "widths": "48\" - 54\"",
+          "lbs": "37"
+        },
+        {
+          "title": "upto 60\" wide",
+          "itemcode": "-60",
+          "brackets": "4",
+          "widths": "54\" - 60\"",
+          "lbs": "35"
+        },
+        {
+          "title": "upto 66\" wide",
+          "itemcode": "-66",
+          "brackets": "5",
+          "widths": "60\" - 66\"",
+          "lbs": "48"
+        },
+        {
+          "title": "upto 72\" wide",
+          "itemcode": "-72",
+          "brackets": "5",
+          "widths": "66\" - 72\"",
+          "lbs": "45"
+        },
+        {
+          "title": "upto 78\" wide",
+          "itemcode": "-78",
+          "brackets": "5",
+          "widths": "72\" - 78\"",
+          "lbs": "42"
+        },
+        {
+          "title": "upto 84\" wide",
+          "itemcode": "-84",
+          "brackets": "6",
+          "widths": "78\" - 84\"",
+          "lbs": "55"
+        },
+        {
+          "title": "upto 90\" wide",
+          "itemcode": "-90",
+          "brackets": "6",
+          "widths": "84\" - 90\"",
+          "lbs": "52"
+        },
+        {
+          "title": "upto 94\" wide",
+          "itemcode": "-94",
+          "brackets": "7",
+          "widths": "90\" - 94\"",
+          "lbs": "65"
+        }
+      ],
+      "code": "sh-fswe",
+      "description": "Floating Shelf 1 1/2\" Thick - with Wood Edge",
+      "specifications": [
+        "3007",
+        "3014",
+        "3009",
+        "3010",
+        "3011",
+        "3012",
+        "3013"
+      ],
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/SH-FSWE.jpg"
+        },
+        {
+          "title": "hardware - traide",
+          "image": "https://webquoin.com/catalog/images/Shelfs/bracket.jpg"
+        }
+      ],
+      "notes": ["24", "25"]
+    },
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "active": true,
+      "title": "2 1/4\" Floating Shelf with Edge Tape",
+      "itemcodes": [
+        {
+          "title": "upto 18\" wide",
+          "itemcode": "-18",
+          "brackets": "2",
+          "widths": "10\" - 18\"",
+          "lbs": "19"
+        },
+        {
+          "title": "upto 24\" wide",
+          "itemcode": "-24",
+          "brackets": "2",
+          "widths": "18\" - 24\"",
+          "lbs": "15"
+        },
+        {
+          "title": "upto 30\" wide",
+          "itemcode": "-30",
+          "brackets": "2",
+          "widths": "24\" - 30\"",
+          "lbs": "11"
+        },
+        {
+          "title": "upto 36\" wide",
+          "itemcode": "-36",
+          "brackets": "3",
+          "widths": "30\" - 36\"",
+          "lbs": "22"
+        },
+        {
+          "title": "upto 42\" wide",
+          "itemcode": "-42",
+          "brackets": "3",
+          "widths": "36\" - 42\"",
+          "lbs": "18"
+        },
+        {
+          "title": "upto 48\" wide",
+          "itemcode": "-48",
+          "brackets": "4",
+          "widths": "42\" - 48\"",
+          "lbs": "30"
+        },
+        {
+          "title": "upto 54\" wide",
+          "itemcode": "-54",
+          "brackets": "4",
+          "widths": "48\" - 54\"",
+          "lbs": "26"
+        },
+        {
+          "title": "upto 60\" wide",
+          "itemcode": "-60",
+          "brackets": "4",
+          "widths": "54\" - 60\"",
+          "lbs": "22"
+        },
+        {
+          "title": "upto 66\" wide",
+          "itemcode": "-66",
+          "brackets": "5",
+          "widths": "60\" - 66\"",
+          "lbs": "33"
+        },
+        {
+          "title": "upto 72\" wide",
+          "itemcode": "-72",
+          "brackets": "5",
+          "widths": "66\" - 72\"",
+          "lbs": "29"
+        },
+        {
+          "title": "upto 78\" wide",
+          "itemcode": "-78",
+          "brackets": "5",
+          "widths": "72\" - 78\"",
+          "lbs": "25"
+        },
+        {
+          "title": "upto 84\" wide",
+          "itemcode": "-84",
+          "brackets": "6",
+          "widths": "78\" - 84\"",
+          "lbs": "37"
+        },
+        {
+          "title": "upto 90\" wide",
+          "itemcode": "-90",
+          "brackets": "6",
+          "widths": "84\" - 90\"",
+          "lbs": "33"
+        },
+        {
+          "title": "upto 94\" wide",
+          "itemcode": "-94",
+          "brackets": "7",
+          "widths": "90\" - 94\"",
+          "lbs": "44"
+        }
+      ],
+      "code": "sh-tfset",
+      "description": "Floating Shelf 2 1/2\" Thick - with Edge Tape",
+      "specifications": [
+        "3007",
+        "3008",
+        "3009",
+        "3010",
+        "3015",
+        "3012",
+        "3013"
+      ],
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/SH-TFS.jpg"
+        },
+        {
+          "title": "hardware - traide",
+          "image": "https://webquoin.com/catalog/images/Shelfs/bracket.jpg"
+        }
+      ],
+      "notes": ["24", "25"]
+    },
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "active": true,
+      "title": "2 1/4\" Floating Shelf with Solid Wood Edge Molding",
+      "itemcodes": [
+        {
+          "title": "upto 18\" wide",
+          "itemcode": "-18",
+          "brackets": "2",
+          "widths": "10\" - 18\"",
+          "lbs": "19"
+        },
+        {
+          "title": "upto 24\" wide",
+          "itemcode": "-24",
+          "brackets": "2",
+          "widths": "18\" - 24\"",
+          "lbs": "15"
+        },
+        {
+          "title": "upto 30\" wide",
+          "itemcode": "-30",
+          "brackets": "2",
+          "widths": "24\" - 30\"",
+          "lbs": "11"
+        },
+        {
+          "title": "upto 36\" wide",
+          "itemcode": "-36",
+          "brackets": "3",
+          "widths": "30\" - 36\"",
+          "lbs": "22"
+        },
+        {
+          "title": "upto 42\" wide",
+          "itemcode": "-42",
+          "brackets": "3",
+          "widths": "36\" - 42\"",
+          "lbs": "18"
+        },
+        {
+          "title": "upto 48\" wide",
+          "itemcode": "-48",
+          "brackets": "4",
+          "widths": "42\" - 48\"",
+          "lbs": "30"
+        },
+        {
+          "title": "upto 54\" wide",
+          "itemcode": "-54",
+          "brackets": "4",
+          "widths": "48\" - 54\"",
+          "lbs": "26"
+        },
+        {
+          "title": "upto 60\" wide",
+          "itemcode": "-60",
+          "brackets": "4",
+          "widths": "54\" - 60\"",
+          "lbs": "22"
+        },
+        {
+          "title": "upto 66\" wide",
+          "itemcode": "-66",
+          "brackets": "5",
+          "widths": "60\" - 66\"",
+          "lbs": "33"
+        },
+        {
+          "title": "upto 72\" wide",
+          "itemcode": "-72",
+          "brackets": "5",
+          "widths": "66\" - 72\"",
+          "lbs": "29"
+        },
+        {
+          "title": "upto 78\" wide",
+          "itemcode": "-78",
+          "brackets": "5",
+          "widths": "72\" - 78\"",
+          "lbs": "25"
+        },
+        {
+          "title": "upto 84\" wide",
+          "itemcode": "-84",
+          "brackets": "6",
+          "widths": "78\" - 84\"",
+          "lbs": "37"
+        },
+        {
+          "title": "upto 90\" wide",
+          "itemcode": "-90",
+          "brackets": "6",
+          "widths": "84\" - 90\"",
+          "lbs": "33"
+        },
+        {
+          "title": "upto 94\" wide",
+          "itemcode": "-94",
+          "brackets": "7",
+          "widths": "90\" - 94\"",
+          "lbs": "44"
+        }
+      ],
+      "code": "sh-tfswe",
+      "description": "Floating Shelf 2 1/2\" Thick - with Wood Edge",
+      "specifications": [
+        "3007",
+        "3014",
+        "3009",
+        "3010",
+        "3011",
+        "3012",
+        "3013"
+      ],
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/SH-TFS-3d.jpg"
+        },
+        {
+          "title": "hardware - traide",
+          "image": "https://webquoin.com/catalog/images/Shelfs/bracket.jpg"
+        }
+      ],
+      "notes": ["24", "25"]
+    }
+  ]
+}

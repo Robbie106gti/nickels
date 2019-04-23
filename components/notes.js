@@ -3,22 +3,13 @@ function setNotes(loc, notes) {
     return;
   }
   fetch(loc + 'json/notes.json')
-    .then(function(response) {
+    .then(function (response) {
       return response.json();
     })
-    .then(function(data) {
-      var cards = data['notes'].filter(function(el, i) {
-        var t = notes.includes(el.id);
-        var id;
-        if (t === true) {
-          id = el.id;
-        } else {
-          id = t;
-        }
-        return el.id === id;
-      });
+    .then(function (data) {
+      var cards = filterItems(data['notes'], notes)
       var n = cards
-        .map(function(note) {
+        .map(function (note) {
           var newnote = note.contentLink ? noteHasLink(note) : noteNoLink(note);
           if (note.itemcodes) {
             newnote = noteHasCodes(newnote, note.itemcodes);
@@ -28,7 +19,7 @@ function setNotes(loc, notes) {
         .join('');
       $('#notes').html(n);
     })
-    .catch(function(err) {
+    .catch(function (err) {
       return console.log(err);
     });
 }
@@ -60,12 +51,12 @@ function noteNoLink(note) {
 }
 
 function noteHasCodes(note, itemcodes) {
-  console.log(note);
-  itemcodes.forEach(function(code) {
+  // console.log(note);
+  itemcodes.forEach(function (code) {
     var newstr = '<span class="ordercode">' + code + '</span>';
     note = note.replace(code, newstr);
   });
-  console.log(note);
+  // console.log(note);
   return note;
 }
 
@@ -77,7 +68,7 @@ function addnotes(add) {
   var tnotes = '<ul>\n            '
     .concat(
       add.notes
-        .map(function(n) {
+        .map(function (n) {
           return '<li>'.concat(n, '</li>');
         })
         .join(''),
@@ -88,7 +79,7 @@ function addnotes(add) {
 }
 
 function notes(notes) {
-  var n2 = notes.map(function(note) {
+  var n2 = notes.map(function (note) {
     return (
       '<div class="card orange lighten-4"><p class="note flow-text"><i class="material-icons">announcement</i><b>' +
       note.title +
