@@ -27,10 +27,27 @@ function optionSpecs(loc, items) {
       return response.json();
     })
     .then(function (data) {
-      var res = filterItems(data['options'], items);
+      var res = optionHtml(filterItems(data['options'], items));
       $('#options').html(res);
     })
     .catch(function (err) {
       return console.log(err);
     });
+}
+
+function optionHtml(options) {
+  return '<div class="divider"></div><h4>Options:</h4><ul class="flow-text">'.concat(options.map(function (opt) { return '<li>'.concat(optionSwitch(opt), '</li>') }).join(''), '</ul>');
+}
+
+function optionSwitch(opt) {
+  switch (opt.type) {
+    case 'list':
+      return listOption(opt);
+    default:
+      return '<b>' + opt.title + ' :</b> ' + opt.content;
+  }
+}
+
+function listOption(opt) {
+  return '<ul>'.concat('<b>' + opt.title + ':</b>', opt.list.map(function (li) { return '<li class="second">' + li + '</li>' }).join(''), '</ul>');
 }

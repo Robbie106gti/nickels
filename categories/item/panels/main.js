@@ -39,10 +39,12 @@ function makeStructure(info) {
   var structure =
     '<div class="col s12 m8"><div id="des"></div><div id="spec"></div><div id="notes"></div><div id="codes"></div></div><div id="images" class="col s12 m4">' +
     setMainImage(info.item) +
-    '</div><div id="table" class="col s12"></div>';
+    '</div><div id="table" class="col s4"></div>';
   $('#catalog').html(structure);
   setSpecsND('../../..', info.item.specifications);
-  $('#table').html(shTable(info));
+  if (info.item.options) optionSpecs('../../..', info.item.options);
+  if (info.item.restrictions) restrictionsSpecs('../../..', info.item.restrictions);
+  $('#table').html('<div class="card-panel">' + simpleTable(info) + '</div>');
   description(info.item.title, info.item.description);
   // $('#codes').html(setCode(info.item.code));
   setNotes('../../../', info.item.notes);

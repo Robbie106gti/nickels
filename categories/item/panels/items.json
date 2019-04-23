@@ -38,20 +38,14 @@
         },
         {
           "title": "Horizontal",
-          "itemcode": "H"
+          "itemcode": "h"
         }
       ],
       "code": "dep",
       "description": "Typically used for finishing the backs of islands or peninsulas but can also be used for any other application that calls for this type of material",
-      "specifications": [
-        "3012",
-        "3016",
-        "3017",
-        "3018",
-        "3019",
-        "3020",
-        "3021"
-      ],
+      "specifications": ["3016", "3017", "3018", "3019"],
+      "options": ["0", "1"],
+      "restrictions": ["0"],
       "images": [
         {
           "title": "FRONT VIEW - FINISHED",
