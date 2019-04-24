@@ -514,6 +514,78 @@
       "id": "3018",
       "title": "Construction",
       "content": "nominal 1 9/16\" thick panel constructed from a door integrated with a 3/4\" back panel. Can be ordered as a wide horizontal panel (DEPH) or a tall vertical panel (DEPV). The dimensions for the stiles and rails will match the specifications of the selected door"
+    },
+    {
+      "id": "3019",
+      "title": "Construction",
+      "content": "nominal 1 9/16\" thick panel constructed from a door integrated with a 3/4\" back panel. Can be ordered as a wide horizontal panel (DEPH-EBR) or a tall vertical panel (DEPV-EBR)._Total height includes the extended bottom rail."
+    },
+    {
+      "id": "3020",
+      "title": "Construction",
+      "content": "nominal 1 9/16\" thick panel constructed from a door integrated with a 3/4\" back panel. Can be ordered as a wide horizontal panel (DEPH-MK) or a tall vertical panel (DEPV-MK). Total height includes the mock kick."
+    },
+    {
+      "id": "3021",
+      "title": "Material",
+      "content": "The ABP material is ordered as either 1/8\" or 1/4\" thick unfinished material"
+    },
+    {
+      "id": "3022",
+      "title": "Finish",
+      "content": "Material is unfinished MDF"
+    },
+    {
+      "id": "3023",
+      "title": "Grain",
+      "content": "(if applicable) will run vertically, or in the direction of the selected exterior material if there is a choice of VG or HG."
+    },
+    {
+      "id": "3024",
+      "title": "Material",
+      "content": "The Panel material is 7/32\" thick and is available in for all wood veneers and MDF for all painted applications."
+    },
+    {
+      "id": "3025",
+      "title": "Material maximum sizes",
+      "type": "table",
+      "astrixs": ["** Available as a special order"],
+      "table": {
+        "headers": [
+          { "title": "Material" },
+          {
+            "title": "Vertical Grain",
+            "cw": 2
+          },
+          {
+            "title": "Horizontal Grain",
+            "cw": 2
+          }
+        ],
+        "headers2": [
+          { "title": "" },
+          { "title": "Width VG Maximum" },
+          { "title": "Height VG Maximum" },
+          { "title": "Width HG Maximum" },
+          { "title": "Height HG Maximum" }
+        ],
+        "rows": [
+          {
+            "title": "Wood Veneer*",
+            "wvgm": "48\"",
+            "hvgm": "120\"",
+            "whgm": "120\"",
+            "hhgm": "48\""
+          },
+          {
+            "title": "Engineered Veneer",
+            "wvgm": "48\"",
+            "hvgm": "96\" (120\"**)",
+            "whgm": "96\" (120\"**)",
+            "hhgm": "48\""
+          }
+        ]
+      }
     }
   ]
 }

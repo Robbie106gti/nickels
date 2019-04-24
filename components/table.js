@@ -3,7 +3,7 @@ function setTableColumns(item) {
     .concat(item.code, '</span></td>')
     .concat(
       item.cnm
-        .map(function (c) {
+        .map(function(c) {
           return '<td>'.concat(c, '</td>');
         })
         .join(''),
@@ -21,7 +21,7 @@ function setColumnHeights(item) {
   var heights = !item.requires ? item.heights : item.requires.heights;
   var table = '<table class="striped highlight"><thead >\n  <tr class=""><th colspan="3">Column heights</th></tr>\n                  <tr ><th>CLM</th><th>Description</th><th>Inch Heights</th></tr>\n                </thead><tbody>\n                  '.concat(
     heights
-      .map(function (h) {
+      .map(function(h) {
         return '<tr><td>'
           .concat(item.requires ? item.requires.code : item.code, '__')
           .concat(h, '</td><td>Column ')
@@ -39,10 +39,10 @@ function setFrontOptions(item) {
     '<table class="striped highlight"><thead >\n  <tr class=""><th colspan="3">Front options</th></tr>\n                  <tr ><th>CLM</th><th>Cornerblock</th><th>Molding</th></tr>\n                </thead><tbody>';
   table +=
     item.fronts
-      .map(function (f) {
+      .map(function(f) {
         return '<tr><td>'.concat(f.code, '</td>').concat(
           f.cnm
-            .map(function (c) {
+            .map(function(c) {
               return '<td>'.concat(c, '</td>');
             })
             .join(''),
@@ -57,7 +57,7 @@ function codeTable(page) {
   var table = '<div class="card padding"><table class="striped highlight centered"><thead><tr><th>Cabinet Widths</th>    <th>Order Codes</th></tr></thead><tbody id="tbody">'
     .concat(
       page.widths
-        .map(function (code) {
+        .map(function(code) {
           return '<tr><td>'
             .concat(code, '"</td><td><ul><li><span class="ordercode">')
             .concat(page.root)
@@ -93,7 +93,7 @@ function mscTable(info) {
     return '';
   }
   var msrow = info.item.itemcodes
-    .map(function (at) {
+    .map(function(at) {
       return '<tr>'
         .concat('<td>', at.title, '</td>')
         .concat('<td>', at.description, '</td>')
@@ -113,7 +113,7 @@ function mscTable(info) {
 
 function shTable(info) {
   var msrow = info.item.itemcodes
-    .map(function (at) {
+    .map(function(at) {
       return '<tr>'
         .concat('<td>', info.item.title, ' ', at.title, '</td>')
         .concat('<td>', at.brackets, '</td>')
@@ -135,5 +135,35 @@ function shTable(info) {
 }
 
 function simpleTable(info) {
-  return '<table class="striped highlight">'.concat('<thead>', '<tr><th>Title</th><th>Itemcode</th></tr>', '</thead><tbody>', info.item.itemcodes.map(function (rw) { return '<tr>'.concat('<td>', info.item.title + ' ' + rw.title, '</td><td><span class="ordercode">', info.item.code + rw.itemcode, '</span></td>', '</tr>') }).join(''), '</body></table>')
+  return '<table class="striped highlight">'.concat(
+    '<thead>',
+    '<tr><th>Title</th><th>Itemcode</th></tr>',
+    '</thead><tbody>',
+    info.item.itemcodes
+      .map(function(rw) {
+        const ordercode = constructOrdercode(info.item, rw);
+        const title = constructTitle(info.item, rw);
+        return '<tr>'.concat(
+          '<td>',
+          title,
+          '</td><td><span class="ordercode">',
+          ordercode,
+          '</span></td>',
+          '</tr>'
+        );
+      })
+      .join(''),
+    '</body></table>'
+  );
+}
+
+function constructOrdercode(item, row) {
+  return item.cib
+    ? item.code.replace(item.cib, '').concat(row.itemcode, item.cib)
+    : info.item.code + row.itemcode;
+}
+function constructTitle(item, row) {
+  return item.cib
+    ? item.title.replace(' - ', ' - ' + row.title + ' - ')
+    : info.item.title + ' - ' + row.title;
 }

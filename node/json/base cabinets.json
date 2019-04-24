@@ -891,7 +891,7 @@
         {
           "active": true,
           "lines": {
-            "custom": false,
+            "custom": true,
             "lighthouse": false,
             "cornerstone": false,
             "modal": false,
@@ -914,7 +914,7 @@
           "link": "page"
         }
       ],
-      "image": "https://webquoin.com/catalog/images/JPGs/Custom/Base/BSU__24sm.jpg",
+      "image": "/catalog/build/assets/cabinets/bs2du_30.jpg",
       "tags": [
         "base",
         "sink",
