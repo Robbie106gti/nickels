@@ -214,6 +214,22 @@
       "id": "29",
       "title": "The door style, ",
       "content": "will only be applied onto the front face of the panel. Be aware that the joints may develop hairline cracks when applying paint onto a 5 piece door. This is considered normal and acceptable and therefore, not a warranty item."
+    },
+    {
+      "id": "30",
+      "title": "Factory join, ",
+      "itemcodes": ["cc-fj"],
+      "content": "If a veneer panel width must exceed the material size use the customization charge cc-fj to Factory join a panel. Contact Dealer Service for restrictions before ordering."
+    },
+    {
+      "id": "31",
+      "title": "Beads, ",
+      "content": "will cut into material and expose the core on wood veneer applications."
+    },
+    {
+      "id": "32",
+      "title": "Edge-tape grain, ",
+      "content": " will run in direction of the edge."
     }
   ]
 }

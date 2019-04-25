@@ -43,6 +43,8 @@ function optionSwitch(opt) {
   switch (opt.type) {
     case 'list':
       return listOption(opt);
+    case 'modal':
+      return makemodalspec(opt);
     default:
       return '<b>' + opt.title + ' :</b> ' + opt.content;
   }

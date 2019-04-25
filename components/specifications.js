@@ -1,12 +1,12 @@
 function setSpecs(specs, page) {
   fetch('../../json/specifications.json')
-    .then(function(response) {
+    .then(function (response) {
       return response.json();
     })
-    .then(function(data) {
+    .then(function (data) {
       var spec = filterItems(data['specifications'], specs);
       var n = spec
-        .map(function(n) {
+        .map(function (n) {
           return '<li><b>' + n.title + '</b>: ' + n.content + '</li>';
         })
         .join('');
@@ -18,11 +18,11 @@ function setSpecs(specs, page) {
         '</ul>';
       $('#specli').html(n);
     })
-    .catch(function(err) {
+    .catch(function (err) {
       return console.log(err);
     });
   var s = specs
-    .map(function(spec) {
+    .map(function (spec) {
       return '<li><b>' + spec.title + '</b>: ' + spec.content + '</li>';
     })
     .join('');
@@ -31,13 +31,13 @@ function setSpecs(specs, page) {
 
 function setSpecsND(loc, specs) {
   fetch(loc + '/json/specifications.json')
-    .then(function(response) {
+    .then(function (response) {
       return response.json();
     })
-    .then(function(data) {
+    .then(function (data) {
       var spec = filterItems(data['specifications'], specs);
       var n = spec
-        .map(function(n) {
+        .map(function (n) {
           return styleSpec(n);
         })
         .join('');
@@ -47,7 +47,7 @@ function setSpecsND(loc, specs) {
         '</ul><div id="options"></div><div id="restrictions"></div></div>';
       $('#spec').html(n);
     })
-    .catch(function(err) {
+    .catch(function (err) {
       return console.log(err);
     });
 }
@@ -62,6 +62,9 @@ function styleSpec(n) {
     case 'table':
       sli = maketablespec(n);
       break;
+    case 'modal':
+      sli = makemodalspec(n);
+      break;
     default:
       sli = '<li><b>' + n.title + '</b>: ' + n.content + '</li>';
       break;
@@ -69,10 +72,26 @@ function styleSpec(n) {
   return sli;
 }
 
+function makemodalspec(n) {
+  let li = '<li><b>' + n.title + '</b>: ';
+  let button = n.content + ' ' + n.modal.text;
+  button = button.replace(n.modal.button, '<button data-target="' + n.id + 'modal" class="btn small modal-trigger">' + n.modal.button + '</button>');
+  let content = '<div class="row">'.concat(n.modal.images.map(function (i) { return '<div class="col s3"><div class="card-panel large"><p>' + i.title + '</p><img class="responsive-img materialboxed" src="' + i.image + '" alt="' + i.title + '"></div></div>' }).join(''), '</div>');
+  let modal = '<div id="' + n.id + 'modal" class="modal bottom-sheet"><div class="modal-content"><h4>'.concat(
+    n.modal.title, '</h4>', content, '</div>', '<div class="modal-footer">', '</div></div>');
+  $(document).ready(function () {
+    $('.modal').modal();
+  });
+  $(document).ready(function () {
+    $('.materialboxed').materialbox();
+  });
+  return li + button + '</li>' + modal;
+}
+
 function makelist(n) {
   return '<ul>'.concat('<b>', n.title, ':</b>').concat(
     n.list
-      .map(function(i) {
+      .map(function (i) {
         return '<li class="second">'.concat(i, '</li>');
       })
       .join(''),
@@ -82,11 +101,11 @@ function makelist(n) {
 
 function maketablespec(n) {
   let dh = false;
-  const table = '<table class="striped highlight"><thead>'
+  const table = '<b>' + n.title + ':</b><table style="font-size:12pt" class="striped highlight"><thead>'
     .concat(
       '<tr>',
       n.table.headers
-        .map(function(rw) {
+        .map(function (rw) {
           if (rw.cw) dh = true;
           return '<th colspan="'.concat(
             rw.cw ? rw.cw : 1,
@@ -101,7 +120,7 @@ function maketablespec(n) {
     )
     .concat(
       n.table.rows
-        .map(function(rw) {
+        .map(function (rw) {
           return '<tr>'.concat(
             makeTD(rw.title),
             makeTD(rw.wvgm),
@@ -112,13 +131,10 @@ function maketablespec(n) {
           );
         })
         .join(''),
-      '</tbody></table>'
-    )
-    .concat(
-      '',
-      n.astrixs.map(function(st) {
-        return '<small>', st, '</small>';
-      })
+      '</tbody></table>',
+      n.astrixs.map(function (st) {
+        return '<p class="tiny-note">' + st + '</p>';
+      }).join('')
     );
   return table;
 }
@@ -127,14 +143,15 @@ function secondHd(n) {
   return (
     '<tr>',
     n.table.headers2
-      .map(function(rw) {
-        return '<th '.concat('">', rw.title, '</th>');
+      .map(function (rw) {
+        return '<th '.concat('"><small>', rw.title, '</small></th>');
       })
       .join('') + '</tr>'
   );
 }
 
 function makeTD(text) {
+  if (!text) return '';
   return '<td>' + text + '</td>';
 }
 
@@ -153,7 +170,7 @@ function setSpecsCol(item) {
       { name: 'depths', title: 'Depth' },
       { name: 'thickness', title: 'Front' }
     ]
-      .map(function(li) {
+      .map(function (li) {
         return (
           '<li class="second">' +
           li.title +
@@ -165,15 +182,15 @@ function setSpecsCol(item) {
       .join('');
   }
   licol += item.standards
-    .map(function(st) {
+    .map(function (st) {
       return '<li>' + st + '<li>';
     })
     .join('');
   var resopt = item.options
     ? '<div id="options">' + setOptions(item.options) + '</div>'
     : '' + item.restrictions
-    ? '<div id="restrictions">' + setRestrictions(item.restrictions) + '</div>'
-    : '';
+      ? '<div id="restrictions">' + setRestrictions(item.restrictions) + '</div>'
+      : '';
   cardcol = cardcol + licol + resopt + '</ul></li></ul></div>';
 
   return cardcol;

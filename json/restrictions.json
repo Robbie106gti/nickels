@@ -9,6 +9,118 @@
       "id": "1",
       "title": "Maximum load",
       "content": "restriction is 7 kg (15 lbs) per bracket, not including the shelf. Maximum 94\" inch wide."
+    },
+    {
+      "id": "2",
+      "title": "Maximum panel sizes VG and HG",
+      "type": "table",
+      "codes": ["CC-FJ"],
+      "astrixs": [
+        "* Material can go beyond maximum sizes using a Factory Join - Order code: CC-FJ.",
+        "** 120\" material is only available in 3/4\" thick.",
+        "*** Available as a special order"
+      ],
+      "table": {
+        "headers": [
+          { "title": "Material" },
+          { "title": "Width VG Maximum" },
+          { "title": "Height VG Maximum" },
+          { "title": "Width HG Maximum" },
+          { "title": "Height HG Maximum" }
+        ],
+        "rows": [
+          {
+            "title": "Wood Veneer *, **",
+            "wvgm": "48\"",
+            "hvgm": "120\"",
+            "whgm": "120\"",
+            "hhgm": "48\""
+          },
+          {
+            "title": "Melamine Patterned",
+            "wvgm": "48\"",
+            "hvgm": "96\"",
+            "whgm": "96\"",
+            "hhgm": "48\""
+          },
+          {
+            "title": "Textured Melamine",
+            "wvgm": "48\"",
+            "hvgm": "96\"",
+            "whgm": "96\"",
+            "hhgm": "48\""
+          },
+          {
+            "title": "Engineered Veneer",
+            "wvgm": "48\"",
+            "hvgm": "96\" (120\"***)",
+            "whgm": "96\" (120\"***)",
+            "hhgm": "48\""
+          },
+          {
+            "title": "Euro Textured Melamine",
+            "wvgm": "84\"",
+            "hvgm": "104\"",
+            "whgm": "104\"",
+            "hhgm": "84\""
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "title": "Maximum panel sizes",
+      "type": "table",
+      "codes": ["CC-FJ"],
+      "astrixs": [
+        "* Material can go beyond maximum sizes using a Factory Join - Order code: CC-FJ.",
+        "** 120\" material is only available in 3/4\" thick.",
+        "*** Available as a special order"
+      ],
+      "table": {
+        "headers": [
+          { "title": "Material" },
+          { "title": "Width Maximum" },
+          { "title": "Height Maximum" }
+        ],
+        "rows": [
+          {
+            "title": "Wood Veneer *, **",
+            "wvgm": "48\"",
+            "hvgm": "120\""
+          },
+          {
+            "title": "Painted",
+            "wvgm": "48\"",
+            "hvgm": "120\""
+          },
+          {
+            "title": "Melamine Solid Color",
+            "wvgm": "48\"",
+            "hvgm": "96\""
+          },
+          {
+            "title": "Melamine Patterned",
+            "wvgm": "48\"",
+            "hvgm": "96\""
+          },
+          {
+            "title": "Textured Melamine",
+            "wvgm": "60\"",
+            "hvgm": "96\""
+          },
+          {
+            "title": "Engineered Veneer",
+            "wvgm": "48\"",
+            "hvgm": "96\" (120\"***)"
+          },
+          {
+            "title": "Euro Textured Melamine",
+            "wvgm": "84\"",
+            "hvgm": "104\""
+          }
+        ]
+      }
     }
   ]
 }

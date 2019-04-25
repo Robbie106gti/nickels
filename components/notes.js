@@ -56,7 +56,7 @@ function noteHasCodes(note, itemcodes) {
     var newstr = '<span class="ordercode">' + code + '</span>';
     note = note.replace(code, newstr);
   });
-  // console.log(note);
+  //console.log(note);
   return note;
 }
 

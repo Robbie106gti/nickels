@@ -547,23 +547,12 @@
     },
     {
       "id": "3025",
-      "title": "Material maximum sizes",
+      "title": "Maximum panel sizes",
       "type": "table",
       "astrixs": ["** Available as a special order"],
       "table": {
         "headers": [
           { "title": "Material" },
-          {
-            "title": "Vertical Grain",
-            "cw": 2
-          },
-          {
-            "title": "Horizontal Grain",
-            "cw": 2
-          }
-        ],
-        "headers2": [
-          { "title": "" },
           { "title": "Width VG Maximum" },
           { "title": "Height VG Maximum" },
           { "title": "Width HG Maximum" },
@@ -571,7 +560,7 @@
         ],
         "rows": [
           {
-            "title": "Wood Veneer*",
+            "title": "Wood Veneer",
             "wvgm": "48\"",
             "hvgm": "120\"",
             "whgm": "120\"",
@@ -586,6 +575,109 @@
           }
         ]
       }
+    },
+    {
+      "id": "3026",
+      "title": "Finish",
+      "content": "Only the front face of the panel is finished."
+    },
+    {
+      "id": "3027",
+      "title": "Material",
+      "content": "Matches interior of cabinet."
+    },
+    {
+      "id": "3028",
+      "title": "Drilling",
+      "content": "Attached to door with DFS system."
+    },
+    {
+      "id": "3029",
+      "title": "Attached",
+      "content": "For attaching hardware to door."
+    },
+    {
+      "id": "3030",
+      "title": "Available Materials",
+      "content": "Available in Wood and Painted."
+    },
+    {
+      "id": "3031",
+      "title": "Finishing",
+      "content": "A 3/4\" panel with finished both faces and 3 taped edges (only for the regular version).",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for examples",
+        "button": "examples",
+        "title": "Examples of finishing edges",
+        "images": [
+          {
+            "title": "Vertical Grain 2 Taped Wide + 1 Taped High",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-VG-L.png"
+          },
+          {
+            "title": "Vertical Grain 1 Taped high + 2 Taped Wide",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-VG-S.png"
+          },
+          {
+            "title": "Horizontal Grain 2 Taped Wide + 1 Taped High",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-HG-L.png"
+          },
+          {
+            "title": "Horizontal Grain 1 Taped high + 2 Taped Wide",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-HG-S.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3032",
+      "title": "Construction",
+      "content": "3/4\" thick MDF. Raw material is A1 (see Materials and Finishes section of the catalog for more information)"
+    },
+    {
+      "id": "3033",
+      "title": "Finishing",
+      "content": "A 1 1/2\" panel with finished both faces and 3 taped edges (only for the regular version).",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for examples",
+        "button": "examples",
+        "title": "Examples of finishing edges",
+        "images": [
+          {
+            "title": "Vertical Grain 2 Taped Wide + 1 Taped High",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-VG-L.png"
+          },
+          {
+            "title": "Vertical Grain 1 Taped high + 2 Taped Wide",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-VG-S.png"
+          },
+          {
+            "title": "Horizontal Grain 2 Taped Wide + 1 Taped High",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-HG-L.png"
+          },
+          {
+            "title": "Horizontal Grain 1 Taped high + 2 Taped Wide",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-HG-S.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3034",
+      "title": "Construction",
+      "content": "1 1/2\" thick MDF. Raw material is A1 (see Materials and Finishes section of the catalog for more information)."
+    },
+    {
+      "id": "3035",
+      "title": "Construction",
+      "content": "1 1/2\" thick Plywood. Raw material is A1 (see Materials and Finishes section of the catalog for more information)."
+    },
+    {
+      "id": "3036",
+      "title": "Plywood",
+      "content": "The panel is made using two sheets of 3/4\" thick material laminated together to form the 1 1/2\" nominal thickness (+/- 1/16\") and is approximately 30% lighter than the composite core."
     }
   ]
 }

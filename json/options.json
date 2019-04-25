@@ -25,6 +25,151 @@
       "id": "2",
       "title": "Options",
       "content": "N/A"
+    },
+    {
+      "id": "3",
+      "title": "Edges",
+      "content": "detailed edge options panels 3/4\".",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for edges",
+        "button": "edges",
+        "title": "Detailed Edge Options",
+        "images": [
+          {
+            "title": "SQ (Square)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/SQ-panel.png"
+          },
+          {
+            "title": "BV3 (Bevel)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/BV3-panel.png"
+          },
+          {
+            "title": "BV5 (Bevel)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/BV5-panel.png"
+          },
+          {
+            "title": "RD3 (Round)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/RD3-panel.png"
+          },
+          {
+            "title": "RD6 (Round)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/RD6-panel.png"
+          },
+          {
+            "title": "CV6 (Cove)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/CV6-panel.png"
+          },
+          {
+            "title": "SC (Step Cove)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/SC-panel.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "title": "Edges",
+      "content": "detailed edge options panels 1 1/2\".",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for edges",
+        "button": "edges",
+        "title": "Detailed Edge Options",
+        "images": [
+          {
+            "title": "SQ (Square)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/SQ-panel-112.png"
+          },
+          {
+            "title": "BV3 (Bevel)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/BV3-panel-112.png"
+          },
+          {
+            "title": "BV5 (Bevel)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/BV5-panel-112.png"
+          },
+          {
+            "title": "RD3 (Round)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/RD3-panel-112.png"
+          },
+          {
+            "title": "RD6 (Round)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/RD6-panel-112.png"
+          },
+          {
+            "title": "CV6 (Cove)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/CV6-panel-112.png"
+          },
+          {
+            "title": "SC (Step Cove)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/SC-panel-112.png"
+          },
+          {
+            "title": "OV",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/OV-panel-112.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "title": "Wood Edges",
+      "content": "wood edge options panels 1 1/2\".",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for edges",
+        "button": "edges",
+        "title": "Panel Edge Options",
+        "content": "Available in all wood (except Engineered) and painted applications.",
+        "note": "Note: The joint is 7/8\" from the front edge in solid wood applications.",
+        "images": [
+          {
+            "title": "W1",
+            "image": "http://testquoin.com/catalog/images/W1.gif"
+          },
+          {
+            "title": "W2",
+            "image": "http://testquoin.com/catalog/images/W2.gif"
+          },
+          {
+            "title": "W3",
+            "image": "http://testquoin.com/catalog/images/W3.gif"
+          },
+          {
+            "title": "W4",
+            "image": "http://testquoin.com/catalog/images/W4.gif"
+          },
+          {
+            "title": "W5",
+            "image": "http://testquoin.com/catalog/images/W5.gif"
+          },
+          {
+            "title": "W6",
+            "image": "http://testquoin.com/catalog/images/W6.gif"
+          },
+          {
+            "title": "W7",
+            "image": "http://testquoin.com/catalog/images/W7.gif"
+          },
+          {
+            "title": "W8",
+            "image": "http://testquoin.com/catalog/images/W8.gif"
+          },
+          {
+            "title": "W9",
+            "image": "http://testquoin.com/catalog/images/W9.gif"
+          },
+          {
+            "title": "W10",
+            "image": "http://testquoin.com/catalog/images/W10.gif"
+          },
+          {
+            "title": "W11",
+            "image": "http://testquoin.com/catalog/images/W11.gif"
+          }
+        ]
+      }
     }
   ]
 }

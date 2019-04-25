@@ -35,16 +35,24 @@ function restrictionsSpecs(loc, items) {
 }
 
 function restrictionsHtml(options) {
-  return '<div class="divider"></div><h4>Restrictions:</h4><ul class="flow-text">'.concat(options.map(function (opt) { return '<li>'.concat(optionSwitch(opt), '</li>') }).join(''), '</ul>');
+  return '<div class="divider"></div><h4>Restrictions:</h4><ul class="flow-text">'.concat(options.map(function (opt) { return '<li>'.concat(restrictionsSwitch(opt), '</li>') }).join(''), '</ul>');
 }
 
 function restrictionsSwitch(opt) {
+  let item;
   switch (opt.type) {
     case 'list':
-      return listOption(opt);
+      item = listOption(opt);
+      break;
+    case 'table':
+      item = maketablespec(opt);
+      break;
     default:
-      return '<b>' + opt.title + ' :</b> ' + opt.content;
+      item = '<b>' + opt.title + ' :</b> ' + opt.content;
+      break;
   }
+  if (opt.codes) item = htmlAddCodes(item, opt.codes);
+  return item;
 }
 
 function listRestrictions(opt) {
