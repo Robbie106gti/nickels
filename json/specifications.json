@@ -678,6 +678,81 @@
       "id": "3036",
       "title": "Plywood",
       "content": "The panel is made using two sheets of 3/4\" thick material laminated together to form the 1 1/2\" nominal thickness (+/- 1/16\") and is approximately 30% lighter than the composite core."
+    },
+    {
+      "id": "3037",
+      "title": "Construction",
+      "content": "the panel is made out of composite core 3/4\"."
+    },
+    {
+      "id": "3038",
+      "title": "Edges",
+      "content": "panel edges are not finished."
+    },
+    {
+      "id": "3039",
+      "title": "Height",
+      "content": "we recommend that filler heights match adjacent cabinet heights."
+    },
+    {
+      "id": "3040",
+      "title": "Finish",
+      "content": "front face will always be finished."
+    },
+    {
+      "id": "3041",
+      "title": "Construction",
+      "content": "the panel is made out of composite core."
+    },
+    {
+      "id": "3042",
+      "title": "Width",
+      "content": "Available in 1/8\" increments from 2\" - 6\" wide."
+    },
+    {
+      "id": "3043",
+      "title": "Materials",
+      "content": "Available in All materials."
+    },
+    {
+      "id": "3044",
+      "title": "Materials",
+      "content": "Available in Wood, Mesa, Como, Plateau and Painted materials."
+    },
+    {
+      "id": "3045",
+      "title": "Construction",
+      "content": "veneer for wood, MDF for painted applications. High Pressure laminate (HPL) for Mesa, Como and Plateau."
+    },
+    {
+      "id": "3046",
+      "title": "Specify",
+      "content": "cabinet’s End Application, L (left), R (right) or L/R. Choose FE from the the Finish Side Header Drop-Down Menu in WQ."
+    },
+    {
+      "id": "3047",
+      "title": "Materials",
+      "content": "Available in all Wood, M White Melamine, M Maple Melamine, Solid and Patterned Melamine, Engineered and Painted materials."
+    },
+    {
+      "id": "3048",
+      "title": "Finishing",
+      "content": "Finished on face and gable edges."
+    },
+    {
+      "id": "3049",
+      "title": "Finishing",
+      "content": "The bottom of a wall cabinet will match the selection made in the Interior Mtrl header Drop-Down Menu in WQ. However, if a cabinet is in a default room (DFZ for example), the bottom of the wall cabinet will match the main room."
+    },
+    {
+      "id": "3050",
+      "title": "Materials",
+      "content": "Available in all Wood, Engineered and Painted."
+    },
+    {
+      "id": "3051",
+      "title": "Construction",
+      "content": "The PBU is MDF core available in wood veneer and painted materials."
     }
   ]
 }

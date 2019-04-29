@@ -265,6 +265,25 @@
           "image": "http://testquoin.com/catalog/images/PNG/Modal/Custom/Panels/PBU-S-1.png"
         }
       ]
+    },
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "active": true,
+      "tags": ["painted", "veneer skin", "backers"],
+      "title": "Phenolic Backers",
+      "code": "lam",
+      "images": [
+        {
+          "title": "",
+          "image": "/catalog/build/assets/panels/phenolic-backer.jpg"
+        }
+      ]
     }
   ],
   "items": [
@@ -869,9 +888,8 @@
       ],
       "code": "pbu",
       "description": "Typically used for finishing the backs of islands or peninsulas but can also be used for any other application that calls for this type of material.",
-      "specifications": ["3009", "3030", "3033", "3034"],
-      "notes": ["30", "27", "32"],
-      "restrictions": ["2", "3"],
+      "specifications": ["3009", "3030", "3051"],
+      "notes": ["27", "32"],
       "images": [
         {
           "title": "FRONT VIEW - FINISHED",
@@ -880,6 +898,40 @@
         {
           "title": "BACK VIEW - FINISHED",
           "image": "http://testquoin.com/catalog/images/PNG/Modal/Custom/Panels/PBU-S.png"
+        }
+      ]
+    },
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "active": true,
+      "title": "Phenolic Backer",
+      "itemcodes": [
+        {
+          "title": "Painted",
+          "itemcode": "plam"
+        },
+        {
+          "title": "Veneer Skin",
+          "itemcode": "vlam"
+        }
+      ],
+      "code": "lam",
+      "cib": "lam",
+      "description": "Typically used to fix up site damage on finished ends.",
+      "specifications": ["3009", "3030"],
+      "notes": ["27"],
+      "options": ["6", "7"],
+      "restrictions": ["3"],
+      "images": [
+        {
+          "title": "",
+          "image": "/catalog/build/assets/panels/phenolic-backer.jpg"
         }
       ]
     }

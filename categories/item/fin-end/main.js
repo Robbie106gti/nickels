@@ -1,7 +1,7 @@
 //// Main js for catagories /////
 headerFooter(null);
 window.onload = getPage();
-info.cat = 'Fillers';
+info.cat = 'Finished Ends';
 var catalog = document.getElementById('catalog');
 function getPage() {
   fetch('./items.json')

@@ -143,7 +143,7 @@
           "cat": "Panels"
         }
       ],
-      "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/SH-TFS.jpg",
+      "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/DEP1.jpg",
       "tags": ["panels"],
       "active": true,
       "lines": {
@@ -165,8 +165,60 @@
           "cat": "Fillers"
         }
       ],
-      "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/SH-TFS.jpg",
+      "image": "https://webquoin.com/catalog/images/Filler.gif",
       "tags": ["fillers"],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
+    },
+    {
+      "code": "cab-ss",
+      "title": "Cabinet Storage Solutions",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Cabinet Storage Solutions",
+          "link": "cab-ss/index",
+          "cat": "Storage"
+        }
+      ],
+      "image": "/catalog/build/assets/tpod/tpod.jpg",
+      "tags": [
+        "pull-outs",
+        "drawer",
+        "inserts",
+        "garabe",
+        "suzans",
+        "lazy",
+        "storage"
+      ],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
+    },
+    {
+      "code": "fin-end",
+      "title": "Finished Ends",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Finished End",
+          "link": "fin-end/index",
+          "cat": "Finished Ends"
+        }
+      ],
+      "image": "https://webquoin.com/catalog/images/Headers/Finished-Sides/Webquoin/FE.png",
+      "tags": ["finish", "end", "right", "left", "bottom", "top"],
       "active": true,
       "lines": {
         "custom": true,
