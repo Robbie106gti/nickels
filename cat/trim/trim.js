@@ -1,10 +1,10 @@
 //// Main js for catagories /////
-headerFooter('../');
+headerFooter('../../');
 
 window.onload = getSubs();
 
 function getSubs() {
-  $.urlParam = function(name) {
+  $.urlParam = function (name) {
     var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(
       window.location.href
     );
@@ -24,10 +24,10 @@ function getSubs() {
   structure(params);
   setGI(cat);
   const catagory = cat.toLowerCase();
-  fetch(`../json/${catagory}.json`)
+  fetch(`../../json/${catagory}.json`)
     .then(response => response.json())
     .then(data => {
-      // console.log(data['catalog']);
+      console.log(data['catalog']);
       data = data[cat];
       const html =
         params.item !== null ? buildItem(data, params) : mainCatView(data);
@@ -37,7 +37,7 @@ function getSubs() {
 }
 
 function initMaterializeJS() {
-  $(document).ready(function() {
+  $(document).ready(function () {
     $('.modal').modal({
       dismissible: true
     });
@@ -64,7 +64,7 @@ function structure(params) {
 }
 
 function mainCatView(data) {
-  data.sort(function(a, b) {
+  data.sort(function (a, b) {
     if (a.title.toLowerCase() < b.title.toLowerCase()) return -1;
     if (a.title.toLowerCase() > b.title.toLowerCase()) return 1;
     return 0;
@@ -79,8 +79,8 @@ function mainCatView(data) {
                 </div>
                 <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">${
-                      cat.title
-                    }<i class="material-icons right">more_vert</i></span>
+        cat.title
+        }<i class="material-icons right">more_vert</i></span>
                     ${getTags(cat.tags)}
                 </div></a>
             </div>`
@@ -120,17 +120,17 @@ function setImages(item) {
       image = `<div class="card" style="overflow: hidden; max-height: 100%;">
                             <div class="padding">
                                 <img class="responsive-img materialboxed" src="${
-                                  item.image
-                                }" alt="${item.imageTitle}">
+        item.image
+        }" alt="${item.imageTitle}">
                                 <span class="card-title black-text"><b>${
-                                  item.imageTitle
-                                }</b></span>
+        item.imageTitle
+        }</b></span>
                             </div>
                             ${item.specImage ? specImage(item) : ''}
                         </div>`;
   }
   $('#images').html(image);
-  $(document).ready(function() {
+  $(document).ready(function () {
     $('.materialboxed').materialbox();
   });
 }
@@ -139,14 +139,14 @@ function imageCard(item) {
   let card = `<div class="col s4"><div class="card small" style="overflow: hidden; max-height: 100%;"><div class="padding">
       <img class="responsive-img materialboxed" src="${item.image}" alt="${
     item.imageTitle
-  }">
+    }">
       <span class="card-title black-text"><b>${item.imageTitle}</b></span>
   </div></div></div>`;
   card =
     card +
     `<div class="col s4"><div class="card small" style="overflow: hidden; max-height: 100%;"><div class="padding">
       <img class="responsive-img materialboxed" src="${item.specImage}" alt="${
-      item.specImageTitle
+    item.specImageTitle
     }">
       <span class="card-title black-text"><b>${item.specImageTitle}</b></span>
   </div></div></div>`;
@@ -155,7 +155,7 @@ function imageCard(item) {
       card +
       `<div class="col s4"><div class="card small" style="overflow: hidden; max-height: 100%;"><div class="padding">
       <img class="responsive-img materialboxed" src="${item.specImage2}" alt="${
-        item.specImageTitle2
+      item.specImageTitle2
       }">
       <span class="card-title black-text"><b>${item.specImageTitle2}</b></span>
   </div></div></div>`;
@@ -168,7 +168,7 @@ function specImage(item) {
   <div class="padding">
       <img class="responsive-img materialboxed" src="${item.specImage}" alt="${
     item.specImageTitle
-  }">
+    }">
       <span class="card-title black-text"><b>${item.specImageTitle}</b></span>
   </div>`;
 }
@@ -181,7 +181,7 @@ function setDescription(item) {
                         <div class="divider"></div>
                         <span id="des" class="flow-text">${item.title}, ${
     item.description
-  }</span>
+    }</span>
                     </div>`;
   $('#des').html(htmldes);
 }
@@ -194,13 +194,13 @@ function setStandards(item) {
                         </span>
                         <div class="divider"></div>
                         <div id="specli"><ul class="flow-text">${specs
-                          .map(
-                            spec =>
-                              `<li><small><b>${spec.title}: </b>${
-                                spec.content
-                              }</small></li>`
-                          )
-                          .join('')}</ul></div>
+      .map(
+        spec =>
+          `<li><small><b>${spec.title}: </b>${
+          spec.content
+          }</small></li>`
+      )
+      .join('')}</ul></div>
             <div id="options">${setOptions(item.options)}</div>
             <div id="restrictions">${setRestrictions(item.restrictions)}</div>
                     </div>`;
@@ -214,16 +214,16 @@ function setOptions(options) {
                         </span>
                         <div class="divider"></div>
                         <div id="specli"><ul class="flow-text">${options
-                          .map(option =>
-                            option.active === false
-                              ? ''
-                              : `<li><small><b>${option.title}: </b>${
-                                  option.content
-                                }</small>${
-                                  option.action ? actionButton(option) : ''
-                                }</li>`
-                          )
-                          .join('')}</ul></div>`;
+      .map(option =>
+        option.active === false
+          ? ''
+          : `<li><small><b>${option.title}: </b>${
+          option.content
+          }</small>${
+          option.action ? actionButton(option) : ''
+          }</li>`
+      )
+      .join('')}</ul></div>`;
   return htmloptions;
 }
 
@@ -238,13 +238,13 @@ function setOptions2(option) {
     <p>${option.description}</p>
     <ul class="col s9"><span>${option.optionsTitle}</span>
       ${option.options
-        .map(
-          option =>
-            `<li><b><span class="ordercode" >${option.code}</span>: </b>${
-              option.description
-            }</li>`
-        )
-        .join('')}
+      .map(
+        option =>
+          `<li><b><span class="ordercode" >${option.code}</span>: </b>${
+          option.description
+          }</li>`
+      )
+      .join('')}
     </ul>
     <div class="card-image col s3">
     <img src="${option.image}" class="responsive-img materialboxed">
@@ -272,20 +272,20 @@ function setCodes(item) {
       htmlcodes = `<div class="card-panel grey lighten-3">
                         <table class="bordered striped highlight">
                         <theader><tr>${item.table.header
-                          .map(th => `<th>${th}</th>`)
-                          .join('')}</tr></theader>
+          .map(th => `<th>${th}</th>`)
+          .join('')}</tr></theader>
                         <tbody>${item.table.content
-                          .map(
-                            row =>
-                              `<tr><td>${
-                                row.de
-                              }</td><td><ul><li><span  class="ordercode">${
-                                row.code
-                              }</span></li></ul></td><td>${
-                                row.description
-                              }</td></tr>`
-                          )
-                          .join('')}</tbody>
+          .map(
+            row =>
+              `<tr><td>${
+              row.de
+              }</td><td><ul><li><span  class="ordercode">${
+              row.code
+              }</span></li></ul></td><td>${
+              row.description
+              }</td></tr>`
+          )
+          .join('')}</tbody>
                         </table>
                     </div>`;
   }
@@ -300,23 +300,23 @@ function tableTwo(table) {
   const tableTwo = `<div class="card-panel grey lighten-3">
   <table class="bordered striped highlight">
   <theader><tr>${table.header
-    .map(th => `<th>${th}</th>`)
-    .join('')}</tr></theader>
+      .map(th => `<th>${th}</th>`)
+      .join('')}</tr></theader>
   <tbody>${table.content
-    .map(row =>
-      row.active === false
-        ? ''
-        : `<tr>
+      .map(row =>
+        row.active === false
+          ? ''
+          : `<tr>
           <td>${row.code}</td>
           <td>${row.unique ? 'Set height' : `${row.heights} (Inch)`}</td>
           <td>${row.unique ? 'Set lengths' : `${row.lengths} (feet)`}</td>
           <td>
           ${
-            row.unique
-              ? `<span class="ordercode" >${row.code}</span>`
-              : `<a class='dropdown-button btn' href='#' data-activates='dropdownordercodes${
-                  row.code
-                }'>OrderCodes</a>
+          row.unique
+            ? `<span class="ordercode" >${row.code}</span>`
+            : `<a class='dropdown-button btn' href='#' data-activates='dropdownordercodes${
+            row.code
+            }'>OrderCodes</a>
           <ul id='dropdownordercodes${row.code}' class='dropdown-content'>
             ${row.heights
               .map(height =>
@@ -324,7 +324,7 @@ function tableTwo(table) {
                   .map(
                     length =>
                       `<li><span class="ordercode">${row.code +
-                        height}-${length}</span><small>${height}" high - ${length}' long</small></li>`
+                      height}-${length}</span><small>${height}" high - ${length}' long</small></li>`
                   )
                   .join('')
               )
@@ -333,8 +333,8 @@ function tableTwo(table) {
           }</td>
           <td>${row.description}</td>
         </tr>`
-    )
-    .join('')}</tbody>
+      )
+      .join('')}</tbody>
   </table>
 </div>`;
   return tableTwo;
@@ -344,33 +344,33 @@ function tableThree(table) {
   const tableTwo = `<div class="card-panel grey lighten-3">
   <table class="bordered striped highlight">
   <theader><tr>${table.header
-    .map(th => `<th>${th}</th>`)
-    .join('')}</tr></theader>
+      .map(th => `<th>${th}</th>`)
+      .join('')}</tr></theader>
   <tbody>${table.content
-    .map(
-      row =>
-        `<tr>
+      .map(
+        row =>
+          `<tr>
           <td>${row.lengths}' (Feet)</td>
           <td>${row.return ? 'Yes' : 'No'}</td>
           <td>${row.de ? 'Yes' : 'No'}</td>
           <td>
           <a class='dropdown-button btn' href='#' data-activates='dropdownordercodes${
-            row.code
+          row.code
           }'>OrderCodes</a>
           <ul id='dropdownordercodes${row.code}' class='dropdown-content'>
                 ${row.lengths
-                  .map(
-                    length =>
-                      `<li><span class="ordercode">${
-                        row.code
-                      }-${length}</span><small>${length}' long</small></li>`
-                  )
-                  .join('')}
+            .map(
+              length =>
+                `<li><span class="ordercode">${
+                row.code
+                }-${length}</span><small>${length}' long</small></li>`
+            )
+            .join('')}
           </ul></td>
           <td>${row.description}</td>
         </tr>`
-    )
-    .join('')}</tbody>
+      )
+      .join('')}</tbody>
   </table>
 </div>`;
   return tableTwo;
@@ -381,7 +381,7 @@ function actionButton(option) {
 
   const htmlbutton = `<button data-target="modaledges" class="btn modal-trigger" (onclick)="openModal('modaledges')">${
     option.action
-  }</button>`;
+    }</button>`;
   getEdges(edges);
   return htmlbutton;
 }
@@ -401,11 +401,11 @@ function setRestrictions(res) {
                         </span>
                         <div class="divider"></div>
                         <div id="specli"><ul class="flow-text">${res
-                          .map(
-                            r =>
-                              `<li><small><i  class="material-icons">notifications</i> - ${r}</small></li>`
-                          )
-                          .join('')}</ul></div>`;
+      .map(
+        r =>
+          `<li><small><i  class="material-icons">notifications</i> - ${r}</small></li>`
+      )
+      .join('')}</ul></div>`;
   return htmlrestictions;
 }
 
@@ -430,7 +430,7 @@ function isString(value) {
 
 function setGI(data) {
   const link = isString(data)
-    ? '../catalog.html'
+    ? '../../index.html'
     : './trim.html?cat=Trims%20Moldings';
   let div = `
   <div class="container ">
@@ -443,8 +443,8 @@ function setGI(data) {
   const cat = isString(data)
     ? `<h1 id="topic">${data}</h1>`
     : `<h1 id="topic">${data.sub}</h1><h5>${
-        data.title
-      }</h5><div id="actions"></div>`;
+    data.title
+    }</h5><div id="actions"></div>`;
   $('#topic').html(cat);
 }
 
@@ -466,9 +466,9 @@ function getEdges() {
         .map(
           e =>
             `<div class="card padding"> <img class="responsive-img" src="${
-              e.image
+            e.image
             }"><h5>${e.title} ${
-              e.description ? `(${e.description})` : ''
+            e.description ? `(${e.description})` : ''
             }</h5><span>Length: ${e.size.inch}"</span></div>`
         )
         .join('')}`;

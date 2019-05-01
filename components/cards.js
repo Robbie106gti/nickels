@@ -100,7 +100,7 @@ function cardNoreveal(cat) {
       .concat(getTags(cat.tags), '</div></a></div>');
   } else {
     card = '<div class="card '
-      .concat(edge, '"><a href="./item/')
+      .concat(edge, '"><a href="./')
       .concat(
         configLink(cat),
         '"><div class="card-image waves-effect waves-block waves-light"><img class="image20" src="'

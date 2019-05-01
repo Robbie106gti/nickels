@@ -7,12 +7,12 @@
         {
           "title": "Terms & Conditions",
           "sub": "TNC",
-          "link": "gi"
+          "link": "gi/gi"
         },
         {
           "title": "Wood Characteristics",
           "sub": "WCS",
-          "link": "gi"
+          "link": "gi/gi"
         }
       ],
       "image": "https://usa.denon.com/Assets/images/Support_Warranty_Extended.jpg",
@@ -25,27 +25,27 @@
         {
           "sub": "PDR",
           "title": "Paint Disclaimer",
-          "link": "gi"
+          "link": "gi/gi"
         },
         {
           "sub": "WRG",
           "title": "Warping",
-          "link": "gi"
+          "link": "gi/gi"
         },
         {
           "sub": "DMS",
           "title": "Defective Materials",
-          "link": "gi"
+          "link": "gi/gi"
         },
         {
           "sub": "RBY",
           "title": "Responsibility",
-          "link": "gi"
+          "link": "gi/gi"
         },
         {
           "sub": "FAC",
           "title": "Filing a Claim",
-          "link": "gi"
+          "link": "gi/gi"
         }
       ],
       "image": "https://www.woodworkingnetwork.com/sites/woodworking/files/field/image/CKCA_RGB_Seal_POS.jpg",
@@ -58,7 +58,7 @@
         {
           "sub": "CCE",
           "title": "Cabinetry Care",
-          "link": "gi"
+          "link": "gi/gi"
         }
       ],
       "image": "data:image/jpeg;base64,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",
@@ -71,7 +71,7 @@
         {
           "sub": "OSN",
           "title": "Order Submission",
-          "link": "gi"
+          "link": "gi/gi"
         }
       ],
       "image": "https://www.handshake.com/blog/wp-content/uploads/2014/07/speeding_wholesale_order4.jpg",
@@ -84,7 +84,7 @@
         {
           "sub": "CPY",
           "title": "Cancellation Policy",
-          "link": "gi"
+          "link": "gi/gi"
         }
       ],
       "image": "https://www.astaritacarservice.com/images/yootheme/astaritacarservice/cancellation-policy.jpg",
@@ -97,7 +97,7 @@
         {
           "sub": "ORT",
           "title": "Order Replacement & Fixup Items",
-          "link": "gi"
+          "link": "gi/gi"
         }
       ],
       "image": "https://ecdn.teacherspayteachers.com/thumbitem/Fix-Up-Strategies-for-Readers-1506203618/original-345725-1.jpg",
@@ -110,17 +110,17 @@
         {
           "sub": "NCS",
           "title": "Nickels",
-          "link": "gi"
+          "link": "gi/gi"
         },
         {
           "sub": "CTM",
           "title": "Custom",
-          "link": "gi"
+          "link": "gi/gi"
         },
         {
           "sub": "CAB",
           "title": "Cabinets",
-          "link": "gi"
+          "link": "gi/gi"
         }
       ],
       "image": "http://sigmatechnology.se/wp-content/uploads/sites/2/2015/04/icon-research.png",
@@ -146,27 +146,27 @@
         {
           "sub": "PDY",
           "title": "Product Delivery",
-          "link": "gi"
+          "link": "gi/gi"
         },
         {
           "sub": "PNC",
           "title": "Prepaid & Charge",
-          "link": "gi"
+          "link": "gi/gi"
         },
         {
           "sub": "CCT",
           "title": "Collect",
-          "link": "gi"
+          "link": "gi/gi"
         },
         {
           "sub": "SOG",
           "title": "Ship With Other Goods",
-          "link": "gi"
+          "link": "gi/gi"
         },
         {
           "sub": "DFE",
           "title": "Drop Fee",
-          "link": "gi"
+          "link": "gi/gi"
         }
       ],
       "image": "https://chicagoinjurycenter.com/wp-content/uploads/2014/05/delivery-trucks.jpg",
@@ -179,7 +179,7 @@
         {
           "sub": "EPS",
           "title": "Employees",
-          "link": "gi"
+          "link": "gi/gi"
         }
       ],
       "image": "../assets/nc.gif",
@@ -192,17 +192,17 @@
         {
           "sub": "TVS",
           "title": "Tutorial videos",
-          "link": "mpt"
+          "link": "gi/mpt"
         },
         {
           "sub": "PHO",
           "title": "Photos",
-          "link": "mpt"
+          "link": "gi/mpt"
         },
         {
           "sub": "DLS",
           "title": "Downloads",
-          "link": "mpt"
+          "link": "gi/mpt"
         }
       ],
       "image": "http://thecinematheque.ca/education/wp-content/uploads/2012/12/Implementing-Media-Education-Large.jpg",
