@@ -158,12 +158,16 @@ function simpleTable(info) {
 }
 
 function constructOrdercode(item, row) {
-  return item.cib
+  if (row.itemcode === '') return item.code;
+  if (!item.cib) return item.code + row.itemcode;
+  return item.title.search(/-/) !== -1
     ? item.code.replace(item.cib, '').concat(row.itemcode, item.cib)
-    : info.item.code + row.itemcode;
+    : row.itemcode;
 }
 function constructTitle(item, row) {
-  return item.cib
+  if (row.title === '') return item.title;
+  if (!item.cib) return item.title + ' - ' + row.title;
+  return item.title.search(/-/) !== -1
     ? item.title.replace(' - ', ' - ' + row.title + ' - ')
-    : info.item.title + ' - ' + row.title;
+    : row.title + ' ' + item.title;
 }

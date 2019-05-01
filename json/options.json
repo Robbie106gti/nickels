@@ -170,6 +170,16 @@
           }
         ]
       }
+    },
+    {
+      "id": "6",
+      "title": "Painted",
+      "content": " something about the painted version"
+    },
+    {
+      "id": "7",
+      "title": "Veneer skin",
+      "content": " something about the veneer version"
     }
   ]
 }
