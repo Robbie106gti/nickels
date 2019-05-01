@@ -49,20 +49,6 @@
       "active": false
     },
     {
-      "code": "MC",
-      "title": "MC : Magic corners",
-      "attached": [
-        {
-          "code": "NONE",
-          "title": "Magic corners",
-          "link": "magic corner/index"
-        }
-      ],
-      "image": "/catalog/build/assets/mc/wari.jpg",
-      "tags": ["corner", "cab", "hardware", "maple", "white", "grey", "chrome"],
-      "active": false
-    },
-    {
       "code": "HFU",
       "title": "HFU : Hood fan units",
       "attached": [

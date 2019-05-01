@@ -1,6 +1,8 @@
 {
   "sub-cats": [
     {
+      "code": "RGB",
+      "title": "Recycle bins",
       "lines": {
         "custom": true,
         "lighthouse": true,
@@ -8,18 +10,18 @@
         "modal": false,
         "modcon": false
       },
-      "tags": ["filler", "composite", "3/4\""],
-      "active": true,
-      "title": "Filler",
-      "code": "f",
+      "template": "pod",
       "images": [
         {
-          "title": "",
-          "image": "https://webquoin.com/catalog/images/Filler.gif"
+          "image": "/catalog/build/assets/rgb/38L%2038L%2012L%202.5L%20461950100%20rgb-pod-25.jpg",
+          "title": ""
         }
-      ]
+      ],
+      "tags": ["single bin", "double bin", "4 bin"]
     },
     {
+      "code": "TPOD",
+      "title": "Tall pull-out door",
       "lines": {
         "custom": true,
         "lighthouse": true,
@@ -27,18 +29,27 @@
         "modal": false,
         "modcon": false
       },
-      "tags": ["filler-overlay", "composite", "3/4\"", "7/8\""],
-      "active": true,
-      "title": "Filler Overlay",
-      "code": "fo",
+      "template": "tpod",
       "images": [
         {
           "title": "",
-          "image": "https://webquoin.com/catalog/images/FillerOverlaySquare.gif"
+          "image": "/catalog/build/assets/tpod/tpod.jpg"
         }
-      ]
+      ],
+      "tags": [
+        "pantry",
+        "tall",
+        "hardware",
+        "maple",
+        "white",
+        "grey",
+        "chrome"
+      ],
+      "active": true
     },
     {
+      "code": "MC",
+      "title": "Magic corners",
       "lines": {
         "custom": true,
         "lighthouse": true,
@@ -46,16 +57,15 @@
         "modal": false,
         "modcon": false
       },
-      "tags": ["gable", "filler", "return", "miter"],
-      "active": true,
-      "title": "Gable Filler",
-      "code": "gf",
+      "template": "mc",
       "images": [
         {
           "title": "",
-          "image": "https://webquoin.com/catalog/images/CLM/GF-01.jpg"
+          "image": "/catalog/build/assets/mc/wari.jpg"
         }
-      ]
+      ],
+      "tags": ["corner", "cab", "hardware", "maple", "white", "grey", "chrome"],
+      "active": true
     }
   ],
   "items": [

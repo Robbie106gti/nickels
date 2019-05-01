@@ -1,7 +1,7 @@
 var csv = require('csv-parser');
 var createCsvWriter = require('csv-writer').createObjectCsvWriter;
 var fs = require('fs');
-var codes = JSON.parse(fs.readFileSync('./categories/item/columns/items.json'));
+var codes = JSON.parse(fs.readFileSync('./cat/columns/items.json'));
 
 var csvWriter = createCsvWriter({
   path: 'node/columns.csv',
@@ -24,10 +24,10 @@ const htmlFile = (code, title) => `<!DOCTYPE html>
   <head>
     <meta
       http-equiv="refresh"
-      content="0; url=/catalog/build/categories/item/columns/index.html?code=${code}"
+      content="0; url=/catalog/build/cat/columns/index.html?code=${code}"
     />
     <script type="text/javascript">
-      window.location.href = '/catalog/build/categories/item/columns/index.html?code=${code}';
+      window.location.href = '/catalog/build/cat/columns/index.html?code=${code}';
     </script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
@@ -40,11 +40,11 @@ const htmlFile = (code, title) => `<!DOCTYPE html>
 
   <body>
     <div class="container">
-      <a href="/catalog/build/categories/item/columns/index.html?code=${code}">
+      <a href="/catalog/build/cat/columns/index.html?code=${code}">
         <h1>${title}</h1>
       </a>
       <p>
-        <a href="/catalog/build/categories/item/columns/index.html?code=${code}">Redirect</a>
+        <a href="/catalog/build/cat/columns/index.html?code=${code}">Redirect</a>
       </p>
     </div>
   </body>

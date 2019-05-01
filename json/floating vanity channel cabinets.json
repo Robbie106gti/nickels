@@ -1,41 +1,50 @@
 {
-  "Floating Vanity Channel Cabinets": [{
+  "Floating Vanity Channel Cabinets": [
+    {
       "code": "FVFDC",
       "title": "FVFDC : Floating Vanity Full Door - Channel",
-      "attached": [{
-        "height": "24",
-        "link": "page"
-      }],
+      "attached": [
+        {
+          "height": "24",
+          "link": "cab"
+        }
+      ],
       "image": "/catalog/build/assets/cabinets/FVSFDC__24.png",
       "tags": ["vanity", "full", "door", "channel", "24\""]
     },
     {
       "code": "FVSFDC",
       "title": "FVSFDC : Floating Vanity Sink Full Door - Channel",
-      "attached": [{
-        "height": "24",
-        "link": "page"
-      }],
+      "attached": [
+        {
+          "height": "24",
+          "link": "cab"
+        }
+      ],
       "image": "/catalog/build/assets/cabinets/FVSFDC__24.png",
       "tags": ["vanity", "sink", "full", "door", "channel", "24\""]
     },
     {
       "code": "FV2DC",
       "title": "FV2DC : Floating Vanity 2 Drawer - Channel",
-      "attached": [{
-        "height": "24",
-        "link": "page"
-      }],
+      "attached": [
+        {
+          "height": "24",
+          "link": "cab"
+        }
+      ],
       "image": "/catalog/build/assets/cabinets/FV2DC__24.png",
       "tags": ["vanity", "2", "drawer", "channel", "24\""]
     },
     {
       "code": "FV3DC",
       "title": "FV3DC : Floating Vanity 3 Drawer - Channel",
-      "attached": [{
-        "height": "24",
-        "link": "page"
-      }],
+      "attached": [
+        {
+          "height": "24",
+          "link": "cab"
+        }
+      ],
       "image": "/catalog/build/assets/cabinets/FV3DC__24.png",
       "tags": ["vanity", "3", "drawer", "channel", "24\""]
     }

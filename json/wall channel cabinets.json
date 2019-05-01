@@ -1,125 +1,124 @@
 {
-    "Wall Channel Cabinets": [
-      {
-        "code": "WX",
+  "Wall Channel Cabinets": [
+    {
+      "code": "WX",
       "title": "WX : Wall - Extended",
       "attached": [
         {
           "height": "18",
-          "link": "page"
+          "link": "cab"
         },
         {
           "height": "30",
-          "link": "page"
+          "link": "cab"
         },
         {
           "height": "42",
-          "link": "page"
+          "link": "cab"
         },
         {
           "height": "60",
-          "link": "page"
+          "link": "cab"
         }
-        ],
+      ],
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Wall/P__30sm.jpg",
-      "tags": ["wall", "extended", "18\"", "30\"", "42\"", "60\"" ]
-      },
-      {
-        "code": "WLBX",
+      "tags": ["wall", "extended", "18\"", "30\"", "42\"", "60\""]
+    },
+    {
+      "code": "WLBX",
       "title": "WLBX : Wall Left Blind - Extended",
       "attached": [
         {
           "height": "18",
-          "link": "page"
+          "link": "cab"
         },
         {
           "height": "30",
-          "link": "page"
+          "link": "cab"
         },
         {
           "height": "42",
-          "link": "page"
+          "link": "cab"
         },
         {
           "height": "60",
-          "link": "page"
+          "link": "cab"
         }
-        ],
+      ],
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Wall/PLB__30sm.jpg",
-      "tags": ["wall", "left", "blind", "extended", "30\"" ]
-      },
-      {
-        "code": "WRBX",
+      "tags": ["wall", "left", "blind", "extended", "30\""]
+    },
+    {
+      "code": "WRBX",
       "title": "WRBX : Wall Right Blind - Extended",
       "attached": [
         {
           "height": "18",
-          "link": "page"
+          "link": "cab"
         },
         {
           "height": "30",
-          "link": "page"
+          "link": "cab"
         },
         {
           "height": "42",
-          "link": "page"
+          "link": "cab"
         },
         {
           "height": "60",
-          "link": "page"
+          "link": "cab"
         }
-        ],
+      ],
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Wall/PRB__30sm.jpg",
-      "tags": ["wall", "right", "blind", "extended", "30\"" ]
-      },
-      {
-        "code": "WCX",
+      "tags": ["wall", "right", "blind", "extended", "30\""]
+    },
+    {
+      "code": "WCX",
       "title": "WCX : Wall Corner - Extended",
       "attached": [
         {
           "height": "18",
-          "link": "page"
+          "link": "cab"
         },
         {
           "height": "30",
-          "link": "page"
+          "link": "cab"
         },
         {
           "height": "42",
-          "link": "page"
+          "link": "cab"
         },
         {
           "height": "60",
-          "link": "page"
+          "link": "cab"
         }
-        ],
+      ],
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Wall/PC__30sm.jpg",
-      "tags": ["wall", "corner", "extended", "18\"", "60\"" ]
-      },
-      {
-        "code": "WTLX",
+      "tags": ["wall", "corner", "extended", "18\"", "60\""]
+    },
+    {
+      "code": "WTLX",
       "title": "WTLX : Wall Transition L - Channel",
       "attached": [
         {
           "height": "2",
-          "link": "page"
+          "link": "cab"
         }
-        ],
+      ],
       "image": "https://webquoin.com/catalog/images/CABINETS/WXTL_C.jpg",
-      "tags": ["wall", "transition", "l", "extended", "2\"" ]
-      },
-      {
-        "code": "WTCX",
+      "tags": ["wall", "transition", "l", "extended", "2\""]
+    },
+    {
+      "code": "WTCX",
       "title": "WTCX : Wall Transition C - Channel",
       "attached": [
         {
           "height": "3",
-          "link": "page"
+          "link": "cab"
         }
-        ],
+      ],
       "image": "https://webquoin.com/catalog/images/CABINETS/WXTL_C.jpg",
-      "tags": ["wall", "transition", "c", "extended", "2 7/8\"" ]
-      }
-    ]
-  }
-  
+      "tags": ["wall", "transition", "c", "extended", "2 7/8\""]
+    }
+  ]
+}

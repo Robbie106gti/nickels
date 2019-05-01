@@ -5,7 +5,7 @@
       "title": "General Information",
       "description": "some information about general information",
       "image": "http://www.lawsonstate.edu/sites/www/Uploads/images/Programs_Of_Study/Academic_Programs/ss--general%20info.jpg",
-      "link": "categories/index.html?cat=General%20Information",
+      "link": "cat/index.html?cat=General%20Information",
       "tags": ["general", "information"]
     },
     {
@@ -13,7 +13,7 @@
       "title": "Base Cabinets",
       "description": "some information about general information",
       "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/cabinets%2FBase%20Cabinets%2FBase%20Sink%20Door%20%26%20False%20Drawer%2F1520288806580_image_BS__30.jpg?alt=media&token=bd126e19-9f13-465e-8e2a-de5e8165c48e",
-      "link": "categories/index.html?cat=Base%20Cabinets",
+      "link": "cat/index.html?cat=Base%20Cabinets",
       "tags": ["base", "cabinet"]
     },
     {
@@ -21,7 +21,7 @@
       "title": "Base Channel Cabinets",
       "description": "some information about general information",
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Base/MFD__29sm.jpg",
-      "link": "categories/index.html?cat=Base%20Channel%20Cabinets",
+      "link": "cat/index.html?cat=Base%20Channel%20Cabinets",
       "tags": ["base", "cabinet", "channel"]
     },
     {
@@ -29,7 +29,7 @@
       "title": "Vanity Cabinets",
       "description": "some information about general information",
       "image": "https://webquoin.com/catalog/images/VCMDL__26.jpg",
-      "link": "categories/index.html?cat=Vanity%20Cabinets",
+      "link": "cat/index.html?cat=Vanity%20Cabinets",
       "tags": ["vanity", "cabinet"]
     },
     {
@@ -37,7 +37,7 @@
       "title": "Vanity Channel Cabinets",
       "description": "some information about general information",
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Vanity/LFD__27sm.jpg",
-      "link": "categories/index.html?cat=Vanity%20Channel%20Cabinets",
+      "link": "cat/index.html?cat=Vanity%20Channel%20Cabinets",
       "tags": ["vanity", "cabinet", "channel"]
     },
     {
@@ -45,7 +45,7 @@
       "title": "Floating Vanity Cabinets",
       "description": "some information about general information",
       "image": "https://webquoin.com/catalog/images/JPGs/Custom/Floating%20Vanity/FVFD__26.jpg",
-      "link": "categories/index.html?cat=Floating%20Vanity%20Cabinets",
+      "link": "cat/index.html?cat=Floating%20Vanity%20Cabinets",
       "tags": ["vanity", "cabinet", "floating"]
     },
     {
@@ -53,7 +53,7 @@
       "title": "Floating Vanity Channel Cabinets",
       "description": "some information about general information",
       "image": "/catalog/build/assets/cabinets/FVSFDC__24.png",
-      "link": "categories/index.html?cat=Floating%20Vanity%20Channel%20Cabinets",
+      "link": "cat/index.html?cat=Floating%20Vanity%20Channel%20Cabinets",
       "tags": ["vanity", "cabinet", "floating", "channel"]
     },
     {
@@ -61,7 +61,7 @@
       "title": "Tall Cabinets",
       "description": "some information about general information",
       "image": "https://webquoin.com/catalog/images/TP__80.jpg",
-      "link": "categories/index.html?cat=Tall%20Cabinets",
+      "link": "cat/index.html?cat=Tall%20Cabinets",
       "tags": ["tall", "cabinet"]
     },
     {
@@ -69,7 +69,7 @@
       "title": "Tall Channel Cabinets",
       "description": "some information about general information",
       "image": "https://webquoin.com/catalog/images/CABINETS/DFD__79.jpg",
-      "link": "categories/index.html?cat=Tall%20Channel%20Cabinets",
+      "link": "cat/index.html?cat=Tall%20Channel%20Cabinets",
       "tags": ["tall", "cabinet", "channel"]
     },
     {
@@ -77,7 +77,7 @@
       "title": "Wall Cabinets",
       "description": "some information about general information",
       "image": "https://webquoin.com/catalog/images/W__33.jpg",
-      "link": "categories/index.html?cat=Wall%20Cabinets",
+      "link": "cat/index.html?cat=Wall%20Cabinets",
       "tags": ["wall", "cabinet"]
     },
     {
@@ -85,7 +85,7 @@
       "title": "Wall Channel Cabinets",
       "description": "some information about general information",
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Wall/P__30sm.jpg",
-      "link": "categories/index.html?cat=Wall%20Channel%20Cabinets",
+      "link": "cat/index.html?cat=Wall%20Channel%20Cabinets",
       "tags": ["tall", "cabinet", "channel"]
     },
     {
@@ -93,7 +93,7 @@
       "title": "Wardrobe Cabinets",
       "description": "some information about general information",
       "image": "https://webquoin.com/catalog/images/C2D22T__89.jpg",
-      "link": "categories/index.html?cat=Wardrobe%20Cabinets",
+      "link": "cat/index.html?cat=Wardrobe%20Cabinets",
       "tags": ["wardrobe", "cabinet"]
     },
     {
@@ -128,7 +128,7 @@
       "title": "columns",
       "description": "some information about general information",
       "image": "https://st.hzcdn.com/simgs/07c1025902e2b56a_4-8427/beach-style-kitchen.jpg",
-      "link": "categories/item/columns/index.html#fronts",
+      "link": "cat/columns/index.html#fronts",
       "tags": ["column"]
     },
     {
@@ -136,52 +136,16 @@
       "title": "Accessories: ",
       "description": "some information about general information",
       "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/categories%2Faccessories.jpg?alt=media&token=f878edb0-8911-4e73-a1d8-55b5875f9df8",
-      "link": "categories/index.html?cat=Accessories",
+      "link": "cat/index.html?cat=Accessories",
       "tags": ["led", "rgb", "accessory"],
       "visable": true
-    },
-    {
-      "id": "17",
-      "title": "Accessories: A-D",
-      "description": "some information about general information",
-      "image": "http://oslokitchens.com/images/access/12.jpg",
-      "link": "accessories-a-d",
-      "tags": ["accessories", "accessory"],
-      "visable": false
-    },
-    {
-      "id": "18",
-      "title": "Accessories: E-G",
-      "description": "some information about general information",
-      "image": "http://oslokitchens.com/images/access/12.jpg",
-      "link": "accessories-e-g",
-      "tags": ["accessories", "accessory"],
-      "visable": false
-    },
-    {
-      "id": "19",
-      "title": "Accessories: H-L",
-      "description": "some information about general information",
-      "image": "http://oslokitchens.com/images/access/12.jpg",
-      "link": "accessories-h-l",
-      "tags": ["accessories", "accessory"],
-      "visable": false
-    },
-    {
-      "id": "20",
-      "title": "Accessories: M-Z",
-      "description": "some information about general information",
-      "image": "http://oslokitchens.com/images/access/12.jpg",
-      "link": "accessories-m-z",
-      "tags": ["accessories", "accessory"],
-      "visable": false
     },
     {
       "id": "21",
       "title": "Trims and Moldings",
       "description": "some information about general information",
       "image": "https://thecraftsmanblog.com/wp-content/uploads/2012/05/wood-molding-trimwork-gtl0506-de.jpg",
-      "link": "categories/trim.html?cat=Trims%20Moldings",
+      "link": "cat/trim/trim.html?cat=Trims%20Moldings",
       "tags": ["trim", "molding"],
       "visable": true
     },
