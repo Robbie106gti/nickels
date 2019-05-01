@@ -173,13 +173,128 @@
     },
     {
       "id": "6",
-      "title": "Painted",
-      "content": " something about the painted version"
+      "title": "FO - Square",
+      "type": "list",
+      "list": [
+        "3/4\" thick composite core",
+        "The front face, top, bottom, and one long edge will be finished.",
+        "Taped edges"
+      ]
     },
     {
       "id": "7",
-      "title": "Veneer skin",
-      "content": " something about the veneer version"
+      "title": "FO - Detailed edge",
+      "type": "list",
+      "list": [
+        "7/8\" thick composite core",
+        "A detailed edge will be applied on the top, bottom, and one long edge."
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Edges",
+      "content": "detailed edge options.",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for edges",
+        "button": "edges",
+        "title": "Detailed Edge Options",
+        "images": [
+          {
+            "title": "SQ (Square)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/SQ.gif"
+          },
+          {
+            "title": "BV3 (Bevel)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/BV3.gif"
+          },
+          {
+            "title": "BV5 (Bevel)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/BV5.gif"
+          },
+          {
+            "title": "RD3 (Round)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/RD3.gif"
+          },
+          {
+            "title": "RD6 (Round)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/RD6.gif"
+          },
+          {
+            "title": "CV6 (Cove)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/CV6.gif"
+          },
+          {
+            "title": "CV11 (Cove)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/CV11.gif"
+          },
+          {
+            "title": "CA",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/CA.gif"
+          },
+          {
+            "title": "SC (Step Cove)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/SC.gif"
+          },
+          {
+            "title": "OV",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/OV.gif"
+          },
+          {
+            "title": "HS",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/HS.gif"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "title": "GF",
+      "type": "list",
+      "list": [
+        "The front face, inside edge and inside gable face are finished.",
+        "Available in All materials."
+      ]
+    },
+    {
+      "id": "10",
+      "title": "GF-R (with Return)",
+      "type": "list",
+      "list": [
+        "The front face, inside edge, inside gable face and return are finished.",
+        "Available in All materials."
+      ]
+    },
+    {
+      "id": "11",
+      "title": "GF-M (Mitered)",
+      "type": "list",
+      "list": [
+        "The front face, inside edge and inside gable face are finished.",
+        "A mitered construction",
+        "Available only in wood species and painted applications."
+      ]
+    },
+    {
+      "id": "12",
+      "title": "GF-MR (Mitered with Return)",
+      "type": "list",
+      "list": [
+        "The front face, inside edge, inside gable face and return are finished.",
+        "A mitered construction",
+        "Available only in wood species and painted applications."
+      ]
+    },
+    {
+      "id": "13",
+      "title": "On-site",
+      "content": "if required to be applied on-site order a custom FE through the Order Desk."
+    },
+    {
+      "id": "14",
+      "title": "On-site",
+      "content": "if required to be applied on-site order a VLAM or PLAM Accessory in WQ.",
+      "itemcodes": ["VLAM", "PLAM"]
     }
   ]
 }

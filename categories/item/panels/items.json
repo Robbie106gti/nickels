@@ -888,9 +888,8 @@
       ],
       "code": "pbu",
       "description": "Typically used for finishing the backs of islands or peninsulas but can also be used for any other application that calls for this type of material.",
-      "specifications": ["3009", "3030", "3033", "3034"],
-      "notes": ["30", "27", "32"],
-      "restrictions": ["2", "3"],
+      "specifications": ["3009", "3030", "3051"],
+      "notes": ["27", "32"],
       "images": [
         {
           "title": "FRONT VIEW - FINISHED",

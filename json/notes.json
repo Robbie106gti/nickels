@@ -230,6 +230,39 @@
       "id": "32",
       "title": "Edge-tape grain, ",
       "content": " will run in direction of the edge."
+    },
+    {
+      "id": "33",
+      "title": "Finished edges, ",
+      "content": "Euro Textured Melamine, Painted Gloss and UV Woodgrain Gloss must be a minimum of 4\" wide if you require all edges finished."
+    },
+    {
+      "id": "34",
+      "title": "Edges, ",
+      "content": "To detail and finish all edges of the over filler, add custom charge CC-FO-FINISH",
+      "itemcodes": ["CC-FO-FINISH"]
+    },
+    {
+      "id": "35",
+      "title": "Width, ",
+      "content": "Minimum width is 2\" wide"
+    },
+    {
+      "id": "36",
+      "title": "Finish side, ",
+      "content": "to finish the side of a cabinet in Melamine, Soho or Gloss use a PO.75P panel from the Finish Side Header Drop-Down Menu or manually attach a panel accessory, such as order code P.75P.",
+      "itemcodes": ["PO.75P", "P.75P"]
+    },
+    {
+      "id": "37",
+      "title": "Finish top/bottom, ",
+      "content": "to finish the top or bottom of a cabinet in TM (Textured Melamine), Soho or Gloss manually attach a panel accessory, such as order code P.75P or P.75P-1F.",
+      "itemcodes": ["P.75P", "P.75P-1F"]
+    },
+    {
+      "id": "38",
+      "title": "Finish bottom, ",
+      "content": "to finish the bottom of a cabinet in M White, M Maple, or Solid/Patterned Melamine where the interior and exterior materials do not match, attach a panel accessory."
     }
   ]
 }
