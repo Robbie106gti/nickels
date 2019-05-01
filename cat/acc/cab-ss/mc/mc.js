@@ -1,18 +1,5 @@
 //// Main js for catagories /////
-$.ajax({
-  url: '../../../layout/header.html',
-  context: document.body,
-  success: function(response) {
-    $('#header').html(response);
-  }
-});
-$.ajax({
-  url: '../../../layout/footer.html',
-  context: document.body,
-  success: function(response) {
-    $('#footer').html(response);
-  }
-});
+headerFooter('../../../')
 
 window.onload = getPage();
 var edge = '';
@@ -26,7 +13,7 @@ if (msie !== -1) {
 }
 
 function getPage() {
-  $.urlParam = function(name) {
+  $.urlParam = function (name) {
     var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(
       window.location.href
     );
@@ -87,8 +74,8 @@ function setImages(info, sides) {
       .map(
         basket => `<div class="col s12 m12 l6">
       <div id="imageCard${
-        basket.code
-      }" class="card hoverable tooltipped" data-position="top" data-tooltip="Click to see options and codes">
+          basket.code
+          }" class="card hoverable tooltipped" data-position="top" data-tooltip="Click to see options and codes">
         <div class="card-image waves-effect waves-block waves-light">
           <img class="responsive-img activator" src="${basket.image}">
         </div>
@@ -106,10 +93,10 @@ function setImages(info, sides) {
       )
       .join('')}</div><div class="col s6 m6 l3">${setMainImage(info)}</div>`;
   $('#images').html(images);
-  $(document).ready(function() {
+  $(document).ready(function () {
     $('.materialboxed').materialbox();
   });
-  $(document).ready(function() {
+  $(document).ready(function () {
     $('.tooltipped').tooltip();
   });
 }
@@ -119,21 +106,21 @@ function getCollections(info, basket, sides) {
   const col = `
     <div class="collection">
       <h5 class="collection-item blue-grey-text text-darken-1">${
-        basket.title
-      } basket width options</h5>
+    basket.title
+    } basket width options</h5>
       <ul>
       ${sides
-        .map(side => {
-          const wcode = `${info.code}-${side.code}-${basket.code}`;
-          const li = `<li class="collection-item">
+      .map(side => {
+        const wcode = `${info.code}-${side.code}-${basket.code}`;
+        const li = `<li class="collection-item">
                       Code for a ${side.option} hand cabinet<br>
                       <span class="ordercode tooltipped" data-position="top" data-tooltip="add to order" onclick="addCodenow(${"'" +
-                        wcode +
-                        "'"})">${wcode}</span>
+          wcode +
+          "'"})">${wcode}</span>
                     </li>`;
-          return li;
-        })
-        .join('')}
+        return li;
+      })
+      .join('')}
       </ul>
     </div>`;
   return col;
@@ -146,7 +133,7 @@ function setGI(information, code) {
   const cat = `<a href="${code}" class="right"><i class="small material-icons">arrow_back</i> <span class="lift">Back</span></a>
   <h1 id="topic">${information.title}${mc}</h1><h5>${
     information.subTitle
-  }</h5><div id="actions"></div>`;
+    }</h5><div id="actions"></div>`;
   $('#topic').html(cat);
 }
 
@@ -159,7 +146,7 @@ function titleCase(str) {
   return str
     .toLowerCase()
     .split(' ')
-    .map(function(word) {
+    .map(function (word) {
       if (!word) return;
       return word.replace(word[0], word[0].toUpperCase());
     })
@@ -191,7 +178,7 @@ function li(list) {
     .map(
       li =>
         `<li>${li.link ? '<a href="' + li.link + '">' : ''}<b>${
-          li.title
+        li.title
         }: </b><br>${li.content}.${li.link ? '</a>' : ''}</li>`
     )
     .join('')}`;
@@ -202,15 +189,15 @@ function cardWith(cat) {
   const card = `
   <div class="card ${edge}">
     <div class="card-image waves-effect waves-block waves-light"><a href="?code=${
-      cat.code
+    cat.code
     }">
       <img class="responsive-img" src="${cat.image}">
     </a></div>
     <div class="card-content">
       <a href="?code=${cat.code}">
         <span class="card-title grey-text text-darken-4">${titleCase(
-          cat.title
-        )}</span>
+      cat.title
+    )}</span>
         ${getTags(cat.tags)}
       </a>
     </div>
@@ -242,15 +229,15 @@ function noteCodes(note) {
   if (!note.codes) return '';
   return `<br>
   ${note.codes
-    .map(
-      code =>
-        `${
+      .map(
+        code =>
+          `${
           code.title
-        }: <span class="ordercode tooltipped" data-position="top" data-tooltip="add to order" onclick="addCodenow(${"'" +
+          }: <span class="ordercode tooltipped" data-position="top" data-tooltip="add to order" onclick="addCodenow(${"'" +
           code.code +
           "'"})">${code.code}</span><br>`
-    )
-    .join('')}`;
+      )
+      .join('')}`;
 }
 
 function setMainImage(info) {
@@ -265,10 +252,10 @@ function exampleImages(info) {
     .map(image => {
       return (im = `<div class="box-image">
                   <img src="${
-                    image.image
-                  }" class="materialboxed tooltipped" data-position="top" data-tooltip="click to enlarge" data-caption="${
+        image.image
+        }" class="materialboxed tooltipped" data-position="top" data-tooltip="click to enlarge" data-caption="${
         image.title
-      }">
+        }">
                </div>`);
     })
     .join('')}`;
@@ -285,7 +272,7 @@ function addCodenow(wcode) {
 
 function unique(array) {
   var seen = new Set();
-  return array.filter(function(item) {
+  return array.filter(function (item) {
     if (!seen.has(item)) {
       seen.add(item);
       return true;

@@ -28,7 +28,7 @@ async function getJoke() {
         const joke = data.joke
         const el = document.getElementById('dadjoke');
         if (joke && el) {
-          const html = '<div style="text-align:center;" class="card-panel"><span class"chip">' + joke + '</span> <br><small>From api: https://icanhazdadjoke.com</small></div>'
+          const html = '<div style="text-align:center;" ><span class="chip">' + joke + '<br><small>From api: https://icanhazdadjoke.com</small></span> </div>'
           el.classList.add('row');
           el.innerHTML = html;
         }

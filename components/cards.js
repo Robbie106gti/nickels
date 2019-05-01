@@ -1,14 +1,16 @@
 function cardWith(cat) {
-  // console.log(cat);
+  const dactive = cat.active ? '' : ' red';
+  const temp = cat.template !== '' ? cat.template : '?code=' + cat.code;
   var image = cat.image ? cat.image : cat.images[0].image;
   var card = '<div class="card '
     .concat(
+      dactive,
       edge,
-      '"><div class="card-image waves-effect waves-block waves-light"><a href="?code='
+      '"><div class="card-image waves-effect waves-block waves-light"><a href="'
     )
-    .concat(cat.code, '"><img class="responsive-img" src="')
-    .concat(image, '"></a></div><div class="card-content"><a href="?code=')
-    .concat(cat.code, '"><span class="card-title grey-text text-darken-4">')
+    .concat(temp, '"><img class="responsive-img" src="')
+    .concat(image, '"></a></div><div class="card-content"><a href="')
+    .concat(temp, '"><span class="card-title grey-text text-darken-4">')
     .concat(titleCase(cat.title), '</span>')
     .concat(getTags(cat.tags), '</a></div></div>');
   return card;

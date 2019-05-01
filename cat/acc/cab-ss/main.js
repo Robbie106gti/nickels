@@ -16,7 +16,7 @@ function getPage() {
             return cardWith(t);
           })
           .join('');
-        console.log(catalog);
+        // console.log(catalog);
 
         if (edge === '') catalog.classList.add('grid');
         catalog.innerHTML = html;
