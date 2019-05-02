@@ -1,18 +1,18 @@
 //// Main js for catagories /////
-headerFooter(null);
+headerFooter('../../../');
 window.onload = getPage();
 info.cat = 'Cabinet Storage Solutions';
 var catalog = document.getElementById('catalog');
 function getPage() {
   fetch('./items.json')
-    .then(function (response) {
+    .then(function(response) {
       return response.json();
     })
-    .then(function (data) {
+    .then(function(data) {
       if (!info.code) {
         var tabs = data['sub-cats'];
         var html = tabs
-          .map(function (t) {
+          .map(function(t) {
             return cardWith(t);
           })
           .join('');
@@ -23,13 +23,13 @@ function getPage() {
         setGIA(info);
         return;
       } else {
-        info.item = data.items.filter(function (item) {
+        info.item = data.items.filter(function(item) {
           return item.code.toLowerCase() === code;
         })[0];
       }
       makeStructure(info);
     })
-    .catch(function (err) {
+    .catch(function(err) {
       return console.log(err);
     });
 }

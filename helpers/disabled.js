@@ -1,5 +1,5 @@
 function disableItem(item) {
-  console.log(item);
+  // console.log(item);
   var disabled;
   if (item.active === false) disabled = 'disabled';
   if (pline) {

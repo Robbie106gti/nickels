@@ -1,18 +1,22 @@
 function cardWith(cat) {
   const dactive = cat.active ? '' : ' red';
-  const temp = cat.template !== '' ? cat.template : '?code=' + cat.code;
+  const temp = cat.template ? cat.template : '?code=' + cat.code;
   var image = cat.image ? cat.image : cat.images[0].image;
-  var card = '<div class="card '
-    .concat(
-      dactive,
-      edge,
-      '"><div class="card-image waves-effect waves-block waves-light"><a href="'
-    )
-    .concat(temp, '"><img class="responsive-img" src="')
-    .concat(image, '"></a></div><div class="card-content"><a href="')
-    .concat(temp, '"><span class="card-title grey-text text-darken-4">')
-    .concat(titleCase(cat.title), '</span>')
-    .concat(getTags(cat.tags), '</a></div></div>');
+  var card = '<div class="card '.concat(
+    dactive,
+    edge,
+    '"><div class="card-image waves-effect waves-block waves-light"><a href="',
+    temp,
+    '"><img class="responsive-img" src="',
+    imageSRC(image),
+    '"></a></div><div class="card-content"><a href="',
+    temp,
+    '"><span class="card-title grey-text text-darken-4">',
+    titleCase(cat.title),
+    '</span>',
+    getTags(cat.tags),
+    '</a></div></div>'
+  );
   return card;
 }
 
@@ -24,7 +28,7 @@ function cardMenu(cat) {
       '"><div class="card-image waves-effect waves-block waves-light"><img class="image20 activator" src="'
     )
     .concat(
-      cat.image,
+      imageSRC(cat.image),
       '"></div><div class="card-content"><span class="card-title activator grey-text text-darken-4">'
     )
     .concat(cat.title, '</span>')
@@ -40,7 +44,7 @@ function cabinetCard(cat) {
       '"><div class="card-image waves-effect waves-block waves-light"><img class="image20 activator" src="'
     )
     .concat(
-      cat.image,
+      imageSRC(cat.image),
       '"></div><div class="card-content"><span class="card-title grey-text text-darken-4 activator">'
     )
     .concat(cat.title, '<i class="material-icons right">more_vert</i></span>')
@@ -71,7 +75,7 @@ function cardReveal(cat) {
       '"><div class="card-image waves-effect waves-block waves-light"><img class="image20 activator" src="'
     )
     .concat(
-      cat.image,
+      imageSRC(cat.image),
       '"></div><div class="card-content"><span class="card-title activator grey-text text-darken-4">'
     )
     .concat(cat.title, '<i class="material-icons right">more_vert</i></span>')
@@ -95,7 +99,7 @@ function cardNoreveal(cat) {
         '.html"><div class="card-image waves-effect waves-block waves-light"><img class="image20 " src="'
       )
       .concat(
-        cat.image,
+        imageSRC(cat.image),
         '"></div><div class="card-content"><span class="card-title grey-text text-darken-4">'
       )
       .concat(cat.title, '<i class="material-icons right">more_vert</i></span>')
@@ -108,7 +112,7 @@ function cardNoreveal(cat) {
         '"><div class="card-image waves-effect waves-block waves-light"><img class="image20" src="'
       )
       .concat(
-        cat.image,
+        imageSRC(cat.image),
         '"></div><div class="card-content"><span class="card-title grey-text text-darken-4">'
       )
       .concat(cat.title, '<i class="material-icons right">more_vert</i></span>')

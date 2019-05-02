@@ -13,7 +13,7 @@ function setGI(page) {
     ' ' +
     page.height +
     '" high</h5></div>';
-  $('#topic').html(topic);
+  document.getElementById('topic').innerHTML = topic;
 }
 
 function setGIN(page) {
@@ -29,24 +29,22 @@ function setGIN(page) {
     ' ' +
     page.height +
     '" high</h5></div>';
-  $('#topic').html(topic);
+  document.getElementById('topic').innerHTML = topic;
 }
 
 function setGICol(page) {
-  var link = !info.code
-    ? '../../index.html'
-    : './index.html#' + info.item.root;
-  var topic = '\n        <a href="'
+  var link = !info.code ? '../../index.html' : './index.html#' + info.item.root;
+  var topic = '<a href="'
     .concat(
       link,
-      '" class="right">\n          <i class="small material-icons">arrow_back</i> <span class="lift">Back</span>\n        </a>\n        <div>\n            <h1 id="titleHeader">'
+      '" class="right"><i class="small material-icons">arrow_back</i> <span class="lift">Back</span></a><div><h1 id="titleHeader">'
     )
-    .concat(titleCase(info.title), '</h1>\n            ')
+    .concat(titleCase(info.title), '</h1>')
     .concat(
       info.item ? '<h5>'.concat(info.item.title, '</h5>') : '',
-      '\n        </div>\n        <div id="ddwn"></div>\n        '
+      '</div><div id="ddwn"></div>'
     );
-  $('#topic').html(topic);
+  document.getElementById('topic').innerHTML = topic;
 }
 
 function setGIA(page) {
@@ -62,5 +60,18 @@ function setGIA(page) {
     '</h1>' +
     giaTitle +
     '</div>';
-  $('#topic').html(topic);
+  document.getElementById('topic').innerHTML = topic;
+}
+
+function setGIA2(information) {
+  const back =
+    '<a href="../index.html?cat=Accessories" class="right"><i class="small material-icons">arrow_back</i><span class="lift">Back</span></a></div>';
+  const cat =
+    '<h1 id="topic">' +
+    information.title +
+    '</h1><h5>' +
+    information.subTitle +
+    '</h5><div id="actions"></div>';
+  document.getElementById('topic').innerHTML = back + cat;
+  document.getElementById('des').innerHTML = information.description;
 }

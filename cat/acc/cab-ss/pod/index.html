@@ -100,13 +100,7 @@
   <body>
     <div id="header"></div>
     <div id="top" class="card">
-      <div class="container ">
-        <a href="../index.html?cat=Accessories" class="right">
-          <i class="small material-icons">arrow_back</i>
-          <span class="lift">Back</span>
-        </a>
-        <div id="topic"></div>
-      </div>
+      <div id="topic" class="container "></div>
     </div>
     <div id="catalog" class="row">
       <div class="col s12 m6">
@@ -126,6 +120,7 @@
 
     <!--Import jQuery before materialize.js-->
     <script src="../../../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../../../helpers/url.js"></script>
     <script
       type="text/javascript"
       src="../../../../node_modules/materialize-css/dist/js/materialize.min.js"
@@ -151,27 +146,13 @@
     <script src="../../../../components/tags.js"></script>
     <script src="../../../../components/cards.js"></script>
     <script src="../../../../components/description.js"></script>
-    <script src="../../../../components/options.js"></script>
-    <script src="../../../../components/images.js"></script>
     <script src="../../../../components/table.js"></script>
-    <script src="../../../../components/restrictions.js"></script>
-    <script src="../../../../components/specifications.js"></script>
     <script src="../../../../components/notes.js"></script>
+    <script src="../../../../components/ordercodes.js"></script>
 
     <!-- item page functions -->
-    <script src="../../../../helpers/setCodes.js"></script>
     <script src="../../../../helpers/runcodes.js"></script>
-
-    <script type="text/javascript">
-      if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
-        document.write(
-          '<script src="../../node_modules/promise-polyfill/promise.min.js"><\/script><script src="../../node_modules/whatwg-fetch/fetch.js"><\/script><script src="../../includes.js"><\/script><script src="./pod-ms.js"><\/script>'
-        );
-        var ua = window.navigator.userAgent;
-        var msie = ua.indexOf('MSIE ');
-      } else {
-        document.write('<script src="./pod.js"><\/script>');
-      }
-    </script>
+    <script src="./pod.js"></script>
+    <script src="../../../../components/dadjokes.js"></script>
   </body>
 </html>
