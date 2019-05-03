@@ -63,15 +63,16 @@ function setGIA(page) {
   document.getElementById('topic').innerHTML = topic;
 }
 
-function setGIA2(information) {
-  const back =
+function setGIA2(obj) {
+  let cat =
     '<a href="../index.html?cat=Accessories" class="right"><i class="small material-icons">arrow_back</i><span class="lift">Back</span></a></div>';
-  const cat =
-    '<h1 id="topic">' +
-    information.title +
-    '</h1><h5>' +
-    information.subTitle +
-    '</h5><div id="actions"></div>';
-  document.getElementById('topic').innerHTML = back + cat;
-  document.getElementById('des').innerHTML = information.description;
+  cat += '<h1 id="topic">' + obj.title + '</h1>';
+  if (obj.subTitle) {
+    cat += '<h5>' + obj.subTitle + '</h5>';
+  }
+  cat += '<div id="actions"></div>';
+  document.getElementById('topic').innerHTML = cat;
+  obj.description
+    ? (document.getElementById('des').innerHTML = obj.description)
+    : '';
 }

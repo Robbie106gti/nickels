@@ -67,37 +67,10 @@
       ],
       "tags": ["corner", "cab", "hardware", "maple", "white", "grey", "chrome"],
       "active": true
-    }
-  ],
-  "items": [
-    {
-      "lines": {
-        "custom": true,
-        "lighthouse": true,
-        "cornerstone": true,
-        "modal": false,
-        "modcon": false
-      },
-      "active": true,
-      "title": "1 1/2\" Floating Shelves With Edge Tape",
-      "itemcodes": [
-        {
-          "title": "",
-          "itemcode": ""
-        }
-      ],
-      "code": "f",
-      "description": "Used to fill in gaps and allow scribing between cabinets and walls.",
-      "specifications": ["3009", "3037", "3038", "3039", "3040", "3030"],
-      "images": [
-        {
-          "title": "",
-          "image": "https://webquoin.com/catalog/images/Filler.gif"
-        }
-      ],
-      "notes": ["27"]
     },
     {
+      "code": "sor",
+      "title": "Slide-Out Storage Rack",
       "lines": {
         "custom": true,
         "lighthouse": true,
@@ -105,86 +78,15 @@
         "modal": false,
         "modcon": false
       },
-      "active": true,
-      "title": "Filler Overlay",
-      "itemcodes": [
-        {
-          "title": "Square",
-          "itemcode": ""
-        },
-        {
-          "title": "Detailed Edge",
-          "itemcode": "-de"
-        }
-      ],
-      "code": "fo",
-      "description": "Used to cover a filler and to give a flush finish between cabinets and walls. Designed to be installed 7/8\" proud of the cabinet and applied onto a Filler (ordered separately).",
+      "template": "sor",
       "images": [
-        {
-          "title": "Filler Overlay - Square",
-          "image": "https://webquoin.com/catalog/images/Filler.gif"
-        },
-        {
-          "title": "Fillrer Overlay - Detailed edege",
-          "image": "https://webquoin.com/catalog/images/FillerOverlayDetailedEdge.gif"
-        }
-      ],
-      "specifications": ["3009", "3041", "3039", "3030"],
-      "options": ["6", "7", "8"],
-      "notes": ["27", "33", "34"]
-    },
-    {
-      "lines": {
-        "custom": true,
-        "lighthouse": true,
-        "cornerstone": true,
-        "modal": false,
-        "modcon": false
-      },
-      "active": true,
-      "title": "Gable Filler",
-      "itemcodes": [
         {
           "title": "",
-          "itemcode": ""
-        },
-        {
-          "title": "with Return",
-          "itemcode": "-r"
-        },
-        {
-          "title": "Miter",
-          "itemcode": "-m"
-        },
-        {
-          "title": "Miter with Return",
-          "itemcode": "-mr"
+          "image": "https://webquoin.com/catalog/images/JPGs/Accessories/SOR-M-Upper.jpg"
         }
       ],
-      "code": "gf",
-      "description": "Typical application is beside an appliance when a filler and a finished extended end panel is required.",
-      "images": [
-        {
-          "title": "Gable Filler",
-          "image": "https://webquoin.com/catalog/images/CLM/GF-01.jpg"
-        },
-        {
-          "title": "Gable Filler with Return",
-          "image": "https://webquoin.com/catalog/images/CLM/GF-R-01.jpg"
-        },
-        {
-          "title": "Gable Filler Miter",
-          "image": "https://webquoin.com/catalog/images/CLM/GF-M-01.jpg"
-        },
-        {
-          "title": "Gable Filler Miter with Return",
-          "image": "https://webquoin.com/catalog/images/CLM/GF-MR-01.jpg"
-        }
-      ],
-      "specifications": ["3042"],
-      "options": ["9", "10", "11", "12"],
-      "restrictions": ["4"],
-      "notes": ["35", "27"]
+      "tags": ["pantry", "tall", "base"],
+      "active": true
     }
   ]
 }

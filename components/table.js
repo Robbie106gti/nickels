@@ -59,10 +59,11 @@ function codeTable(page) {
       page.widths
         .map(function(code) {
           return '<tr><td>'
-            .concat(code, '"</td><td><ul><li><span class="ordercode">')
-            .concat(page.root)
-            .concat(code)
-            .concat(page.height, '</span></li></ul></td></tr>');
+            .concat(code, '"</td><td><ul><li>')
+            .concat(
+              ordercodes(page.root + code + page.height),
+              '</li></ul></td></tr>'
+            );
         })
         .join(''),
       '</tbody></table>'
@@ -97,11 +98,7 @@ function mscTable(info) {
       return '<tr>'
         .concat('<td>', at.title, '</td>')
         .concat('<td>', at.description, '</td>')
-        .concat(
-          '<td><span class="ordercode">',
-          at.itemcode,
-          '</span></td></tr>'
-        );
+        .concat('<td>', ordercodes(at.itemcode), '</td></tr>');
     })
     .join('');
   var mstable = '<table><thead><tr><th>Title</th><th>Description</th><th>Itemcode</th></tr></thead><tbody>'.concat(
@@ -119,12 +116,7 @@ function shTable(info) {
         .concat('<td>', at.brackets, '</td>')
         .concat('<td>', at.widths, '</td>')
         .concat('<td>lb ', at.lbs, '</td>')
-        .concat(
-          '<td><span class="ordercode">',
-          info.item.code,
-          at.itemcode,
-          '</span></td></tr>'
-        );
+        .concat('<td>', ordercodes(info.item.code + at.itemcode), '</td></tr>');
     })
     .join('');
   var mstable = '<table><thead><tr><th>Title</th><th>Nº  Brackets</th><th>Widths</th><th>Max. distrubuted weight</th><th>Itemcode</th></tr></thead><tbody>'.concat(
@@ -146,9 +138,9 @@ function simpleTable(info) {
         return '<tr>'.concat(
           '<td>',
           title,
-          '</td><td><span class="ordercode">',
-          ordercode,
-          '</span></td>',
+          '</td><td>',
+          ordercodes(ordercode),
+          '</td>',
           '</tr>'
         );
       })

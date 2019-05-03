@@ -552,11 +552,11 @@
       "astrixs": ["** Available as a special order"],
       "table": {
         "headers": [
-          { "title": "Material" },
-          { "title": "Width VG Maximum" },
-          { "title": "Height VG Maximum" },
-          { "title": "Width HG Maximum" },
-          { "title": "Height HG Maximum" }
+          { "title": "Material", "key": "title" },
+          { "title": "Width VG Maximum", "key": "wvgm" },
+          { "title": "Height VG Maximum", "key": "hvgm" },
+          { "title": "Width HG Maximum", "key": "whgm" },
+          { "title": "Height HG Maximum", "key": "hhgm" }
         ],
         "rows": [
           {
@@ -753,6 +753,86 @@
       "id": "3051",
       "title": "Construction",
       "content": "The PBU is MDF core available in wood veneer and painted materials."
+    },
+    {
+      "id": "3052",
+      "title": "Slides and width",
+      "type": "list",
+      "list": [
+        "Racks in cabinets 6\" - 8\" wide will have 1 pair of slides.",
+        "Racks in cabinets 9\" - 18\" wide will have 2 pairs of slides."
+      ]
+    },
+    {
+      "id": "3053",
+      "title": "Construction depths",
+      "content": "available for cabinets with a minimum depth of 12\" and a maximum depth of 24\"."
+    },
+    {
+      "id": "3054",
+      "title": "Construction and finish",
+      "content": "Prefinished birch plywood construction."
+    },
+    {
+      "id": "3055",
+      "title": "Slides",
+      "content": "Blum full extension slides."
+    },
+    {
+      "id": "3056",
+      "title": "Number of Adjustable Shelves",
+      "type": "table",
+      "table": {
+        "headers": [
+          { "title": "Height", "key": "title" },
+          { "title": "# of shelves", "key": "col2" }
+        ],
+        "rows": [
+          {
+            "title": "24\" - 27\"",
+            "col2": "0"
+          },
+          {
+            "title": "27\" - 37\"",
+            "col2": "1"
+          },
+          {
+            "title": "37\" - 46\"",
+            "col2": "3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3057",
+      "title": "Slides and width",
+      "type": "list",
+      "list": [
+        "Cabinets between 18\" - 9 7/8\" wide will have 2 pair of Movento slides.",
+        "Cabinets between 9 7/8\" - 6 7/8\" wide will have 1 pairs of Movento slides.",
+        "Cabinets between 6 7/8\" - 5 7/8\" wide will have 1 pairs of Tandem slides."
+      ]
+    },
+    {
+      "id": "3058",
+      "title": "Number of Adjustable Shelves",
+      "type": "table",
+      "table": {
+        "headers": [
+          { "title": "Height", "key": "title" },
+          { "title": "# of shelves", "key": "col2" }
+        ],
+        "rows": [
+          {
+            "title": "24\" - 26 7/8\"",
+            "col2": "0"
+          },
+          {
+            "title": "27\" - 30\"",
+            "col2": "1"
+          }
+        ]
+      }
     }
   ]
 }

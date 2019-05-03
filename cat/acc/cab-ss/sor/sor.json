@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "title": "Slide-Out Storage Rack - Mid",
+      "code": "sor-m",
+      "tags": ["mid", "storage"],
+      "image": "https://webquoin.com/catalog/images/JPGs/Accessories/SOR-M-Upper.jpg"
+    },
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "title": "Slide-Out Storage Rack - Base",
+      "code": "sor-b",
+      "tags": ["base", "storage"],
+      "image": "https://webquoin.com/catalog/images/JPGs/Accessories/SOR-B-Base.jpg"
+    }
+  ],
+  "sors": [
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "title": "Slide-Out Storage Rack - Mid",
+      "code": "sor-m",
+      "images": [
+        {
+          "title": "Slide-Out Storage Rack - Mid",
+          "image": "https://webquoin.com/catalog/images/JPGs/Accessories/SOR-M-Upper.jpg"
+        },
+        {
+          "title": "Close-up of Slide-Out Storage Rack - Mid",
+          "image": "https://webquoin.com/catalog/images/JPGs/Accessories/SOR-B-Clip.jpg"
+        }
+      ],
+      "notes": ["39", "40"],
+      "specifications": ["3052", "3053", "3054", "3055", "3056"],
+      "description": "typically used in Wall and Pantry cabinets, with a \"Open-thru\" design for easy access. The center shelves and steel rods are adjustable."
+    },
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "title": "Slide-Out Storage Rack - Base",
+      "code": "sor-b",
+      "images": [
+        {
+          "title": "Slide-Out Storage Rack - Base",
+          "image": "https://webquoin.com/catalog/images/JPGs/Accessories/SOR-B-Base.jpg"
+        },
+        {
+          "title": "Close-up of Slide-Out Storage Rack - Base",
+          "image": "https://webquoin.com/catalog/images/JPGs/Accessories/SOR-B-Clip.jpg"
+        }
+      ],
+      "notes": ["39", "40"],
+      "specifications": ["3057", "3053", "3054", "3055", "3058"],
+      "description": "typically used in Base cabinets, with a \"Open-thru\" design for easy access. The center shelves and steel rods are adjustable. for a maximum height of 30\"."
+    }
+  ]
+}
