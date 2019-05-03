@@ -46,7 +46,7 @@
         "grey",
         "chrome"
       ],
-      "active": true
+      "active": false
     },
     {
       "code": "MC",
@@ -66,7 +66,7 @@
         }
       ],
       "tags": ["corner", "cab", "hardware", "maple", "white", "grey", "chrome"],
-      "active": true
+      "active": false
     },
     {
       "code": "sor",
@@ -86,6 +86,66 @@
         }
       ],
       "tags": ["pantry", "tall", "base"],
+      "active": true
+    },
+    {
+      "code": "podnr",
+      "title": "Pull-Out Door Narrow Rack",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "template": "sor",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/PullOutDoorNarrowRack-TowelRack.gif"
+        }
+      ],
+      "tags": ["base", "narrow", "in-between", "sliding"],
+      "active": true
+    },
+    {
+      "code": "bpods",
+      "title": "Base Pull-Out Door Storage",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "template": "sor",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/BPOD-O_SR.jpg"
+        }
+      ],
+      "tags": ["sliding", "storage", "base", "base"],
+      "active": true
+    },
+    {
+      "code": "tpods",
+      "title": "Tall Pull-Out Door Storage",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "template": "sor",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/TallPullOutDoorStorageRack-2.jpg"
+        }
+      ],
+      "tags": ["sliding", "storage", "tall"],
       "active": true
     }
   ]

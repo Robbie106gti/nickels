@@ -13,7 +13,11 @@ function getPage() {
         var tabs = data['sub-cats'];
         var html = tabs
           .map(function(t) {
-            return cardWith(t);
+            if (info.active) {
+              return t.active ? cardWith(t) : '';
+            } else {
+              return cardWith(t);
+            }
           })
           .join('');
         // console.log(catalog);

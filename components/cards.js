@@ -1,6 +1,6 @@
 function cardWith(cat) {
   const dactive = cat.active ? '' : ' red';
-  const temp = cat.template ? cat.template : '?code=' + cat.code;
+  const temp = cat.template ? template(cat) : '?code=' + cat.code;
   var image = cat.image ? cat.image : cat.images[0].image;
   var card = '<div class="card '.concat(
     dactive,
@@ -18,6 +18,15 @@ function cardWith(cat) {
     '</a></div></div>'
   );
   return card;
+}
+
+function template(cat) {
+  if (cat.template === cat.code) {
+    return cat.template;
+  }
+  if (cat.template !== cat.code) {
+    return cat.template + '/index.html?page=' + cat.code;
+  }
 }
 
 function cardMenu(cat) {

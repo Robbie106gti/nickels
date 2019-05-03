@@ -16,7 +16,7 @@ if (window.location !== window.parent.location) {
 }
 
 var code = $.urlParam('code') || null;
-var act = $.urlParam('act') || true;
+var act = $.urlParam('act') ? false : true;
 var page = $.urlParam('page') || null;
 var witem = $.urlParam('item') || null;
 var wpline = $.urlParam('pline') || null;

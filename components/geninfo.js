@@ -64,8 +64,11 @@ function setGIA(page) {
 }
 
 function setGIA2(obj) {
+  const link = !info.code ? '../index.html' : 'index.html';
   let cat =
-    '<a href="../index.html?cat=Accessories" class="right"><i class="small material-icons">arrow_back</i><span class="lift">Back</span></a></div>';
+    '<a href="' +
+    link +
+    '" class="right"><i class="small material-icons">arrow_back</i><span class="lift">Back</span></a></div>';
   cat += '<h1 id="topic">' + obj.title + '</h1>';
   if (obj.subTitle) {
     cat += '<h5>' + obj.subTitle + '</h5>';
