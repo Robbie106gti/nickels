@@ -1,5 +1,5 @@
 function setSpecs(specs, page) {
-  fetch('../../json/specifications.json')
+  fetch('../json/specifications.json')
     .then(function(response) {
       return response.json();
     })

@@ -1,13 +1,13 @@
 //// Main js for catagories /////
 $.ajax({
-  url: '../../../layout/header.html',
+  url: '../../layout/header.html',
   context: document.body,
   success: function(response) {
     $('#header').html(response);
   }
 });
 $.ajax({
-  url: '../../../layout/footer.html',
+  url: '../../layout/footer.html',
   context: document.body,
   success: function(response) {
     $('#footer').html(response);

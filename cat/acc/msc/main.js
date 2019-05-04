@@ -1,5 +1,5 @@
 //// Main js for catagories /////
-headerFooter(null);
+headerFooter('../../../');
 window.onload = getPage();
 info.cat = 'Miscellaneous';
 var catalog = document.getElementById('catalog');
@@ -48,5 +48,5 @@ function makeStructure(info) {
   $('#table').html(mscTable(info));
   description(info.item.title, info.item.description);
   // $('#codes').html(setCode(info.item.code));
-  setNotes('../../../', info.item.notes);
+  info.item.notes ? setNotes('../../../', info.item.notes) : '';
 }

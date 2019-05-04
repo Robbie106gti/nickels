@@ -1,5 +1,5 @@
 //// Main js for catagories /////
-headerFooter(null);
+headerFooter('../../');
 
 window.onload = getPage();
 info.title = 'Columns';
@@ -111,5 +111,5 @@ function makeStructure(info) {
   $('#catalog').html(structure);
   description(info.item.title, info.item.description);
   $('#codes').html(setCode(info.item.code));
-  setNotes('../../../', info.item.notes);
+  setNotes('../../', info.item.notes);
 }

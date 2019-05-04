@@ -7,7 +7,7 @@
       "images": [
         {
           "title": "drawing",
-          "image": "../../../assets/legs/Leg-LEG-TAPERED-01.png"
+          "image": "../../assets/legs/Leg-LEG-TAPERED-01.png"
         }
       ],
       "tags": ["leg", "post", "tapered", "36\""],
@@ -34,7 +34,7 @@
       "images": [
         {
           "title": "drawing",
-          "image": "../../../assets/legs/Leg-LEG-SQ-SOLID-01.png"
+          "image": "../../assets/legs/Leg-LEG-SQ-SOLID-01.png"
         }
       ],
       "tags": ["leg", "post", "solid", "sq", "36\""],
@@ -61,7 +61,7 @@
       "images": [
         {
           "title": "drawing",
-          "image": "../../../assets/legs/Leg-LEG-MITERED-01.png"
+          "image": "../../assets/legs/Leg-LEG-MITERED-01.png"
         }
       ],
       "tags": ["leg", "post", "mitered", "36\""],

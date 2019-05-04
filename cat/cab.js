@@ -1,5 +1,5 @@
 //// Page js for cabinet pages /////
-headerFooter('../../');
+headerFooter('../');
 
 window.onload = getPage();
 if ((pline = undefined)) {
@@ -10,7 +10,7 @@ if ((pline = undefined)) {
 
 function getPage() {
   makeStructure();
-  fetch('../../node/json/codes.json')
+  fetch('../node/json/codes.json')
     .then(function(response) {
       return response.json();
     })
@@ -52,13 +52,13 @@ function setCode(page) {
   setSpecs(page.specifications, page);
   codeTable(page);
   setImages(page.images, page.title, page.height);
-  setNotes('../../', page.notes);
+  setNotes('../', page.notes);
   setActions(page);
 }
 
 function setActions(page) {
   var cat = page.cat.toLowerCase();
-  fetch('../../json/'.concat(cat, '.json'))
+  fetch('../json/'.concat(cat, '.json'))
     .then(function(response) {
       return response.json();
     })

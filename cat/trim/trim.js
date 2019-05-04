@@ -547,7 +547,7 @@ function setGI(data) {
 }
 
 function getEdges() {
-  fetch('../../../json/edges.json')
+  fetch('../../json/edges.json')
     .then(function(response) {
       return response.json();
     })
