@@ -147,6 +147,26 @@
       ],
       "tags": ["sliding", "storage", "tall"],
       "active": true
+    },
+    {
+      "code": "ls",
+      "title": "Lazy Susans",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "template": "sor",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/PlasticPieCut-2.gif"
+        }
+      ],
+      "tags": ["rotates", "storage", "base", "corner"],
+      "active": true
     }
   ]
 }

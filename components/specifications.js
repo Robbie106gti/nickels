@@ -158,7 +158,11 @@ function maketablespec(n) {
             return '<tr>'.concat(
               n.table.headers
                 .map(function(hd) {
-                  return makeTD(rw[hd.key]);
+                  if (hd.key !== 'ordercode') {
+                    return makeTD(rw[hd.key]);
+                  } else {
+                    return makeTD(ordercodes(rw[hd.key]));
+                  }
                 })
                 .join(''),
               '</tr>'

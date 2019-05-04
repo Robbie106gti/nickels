@@ -273,6 +273,21 @@
       "id": "40",
       "title": "Tip-on, ",
       "content": "due to the size of Tip-on hardware, on ROS's no tip-on can be offered."
+    },
+    {
+      "id": "41",
+      "title": "Door and rail, ",
+      "content": "Will not fit a 20 7/8\" wide door with a 2 1/4\" rail."
+    },
+    {
+      "id": "42",
+      "title": "BB cabinets, ",
+      "content": "When using the BB cabinet be aware that the gap between the drawer and the handle is very small and might not be easy to grip. It is recommended that the Magic Corner 2 be used in the BBFD."
+    },
+    {
+      "id": "43",
+      "title": "BB cabinets, ",
+      "content": "LS-MSC2-MA is not available on 42\" and 43\" wide blind corner cabinets. When ordering on a 42\" BBFD the outer baskets will only be wire baskets."
     }
   ]
 }

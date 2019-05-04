@@ -64,7 +64,9 @@ function setGIA(page) {
 }
 
 function setGIA2(obj) {
-  const link = !info.code ? '../index.html' : 'index.html';
+  const link = !info.code
+    ? '../index.html?page=' + info.page
+    : 'index.html?page=' + info.page;
   let cat =
     '<a href="' +
     link +

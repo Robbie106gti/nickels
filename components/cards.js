@@ -1,6 +1,8 @@
 function cardWith(cat) {
   const dactive = cat.active ? '' : ' red';
-  const temp = cat.template ? template(cat) : '?code=' + cat.code;
+  const temp = cat.template
+    ? template(cat)
+    : '?code=' + cat.code + '&page=' + info.page;
   var image = cat.image ? cat.image : cat.images[0].image;
   var card = '<div class="card '.concat(
     dactive,
@@ -22,7 +24,7 @@ function cardWith(cat) {
 
 function template(cat) {
   if (cat.template === cat.code) {
-    return cat.template;
+    return cat.template + '?page=' + info.page;
   }
   if (cat.template !== cat.code) {
     return cat.template + '/index.html?page=' + cat.code;

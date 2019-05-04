@@ -1,6 +1,6 @@
 headerFooter('../../../../');
 window.onload = getPage();
-info.cat = 'Slide-Out Storage Rack';
+info.cat = 'Slide-Out Storage Racks';
 function getPage() {
   fetch('./sor.json')
     .then(function(response) {
@@ -8,15 +8,40 @@ function getPage() {
     })
     .then(function(data) {
       // console.log(data);
+      let page = new Array();
+      let items = new Object();
+      switch (info.page) {
+        case 'podnr':
+          page = data.items.podnr;
+          items = data.podnr;
+          break;
+        case 'tpods':
+          page = data.items.tpods;
+          items = data.tpods;
+          break;
+        case 'bpods':
+          page = data.items.bpods;
+          items = data.bpods;
+          break;
+        case 'ls':
+          info.cat = 'Lazy Susans';
+          page = data.items.ls;
+          items = data.ls;
+          break;
+        default:
+          page = data.items.sors;
+          items = data.sors;
+          break;
+      }
       setGIA2({ title: info.cat });
       if (info.code) {
         itemstructure(
-          data.sors.filter(function(sor) {
-            return sor.code === info.code;
+          items.filter(function(item) {
+            return item.code === info.code;
           })[0]
         );
       } else {
-        structure(data.items);
+        structure(page);
       }
     })
     .catch(function(err) {
@@ -46,6 +71,112 @@ function itemstructure(item) {
   setSpecsND('../../../../', item.specifications);
   setNotes('../../../../', item.notes);
   document.getElementById('images').innerHTML = setMainImage(item);
-  const order = 'Add ' + item.title + ' to your order ' + ordercodes(item.code);
-  document.getElementById('itemcode').innerHTML = order;
+  ordercodesConvertion(item);
+}
+
+function ordercodesConvertion(item) {
+  let codes = '';
+  switch (info.page) {
+    case 'podnr':
+      codes = basicCode(item);
+      break;
+    case 'tpods':
+      codes = codesWithHeights(item);
+      break;
+    case 'bpods':
+      codes = codesLRSizes(item);
+      break;
+    case 'ls':
+      codes = lemans(item);
+      break;
+    default:
+      codes = basicCode(item);
+      break;
+  }
+  document.getElementById('itemcode').innerHTML = codes;
+}
+function basicCode(item) {
+  return 'Add ' + item.title + ' to your order ' + ordercodes(item.code);
+}
+
+function codesWithHeights(item) {
+  return (
+    '<ul>' +
+    item.sizes
+      .map(function(size) {
+        const code = item.code.replace(item.cib, '') + size + item.cib;
+        const ncode = {
+          title: item.title + ' ' + size + '"',
+          code: code
+        };
+        return '<li>' + basicCode(ncode) + '</li>';
+      })
+      .join('') +
+    '</ul>'
+  );
+}
+
+function codesLRSizes(item) {
+  return (
+    '<ul>' +
+    item.lr
+      .map(function(lr) {
+        return item.sizes
+          .map(function(size) {
+            const ncode =
+              item.constr[0] + lr.code + item.constr[1] + size + item.constr[2];
+            const title =
+              item.title + ' ' + lr.title + ' for ' + size + '" wide cabinets';
+            return '<li>' + basicCode({ title: title, code: ncode }) + '</li>';
+          })
+          .join('');
+      })
+      .join('') +
+    '</ul>'
+  );
+}
+
+function lemans(item) {
+  if (item.code === 'ls-mc' || item.code === 'ls-mc2') {
+    return (
+      '<ul>' +
+      item.finish
+        .map(function(fi) {
+          const ncode = item.code + '-' + fi.code;
+          const title = item.title + ' - ' + titleCase(fi.title);
+          return '<li>' + basicCode({ title: title, code: ncode }) + '</li>';
+        })
+        .join('') +
+      '</ul>'
+    );
+  }
+  if (item.finish && item.lr && item.sizes) {
+    return (
+      '<h5>Hardware codes:</h5><table><tr><th>Finish</th><th>Cabinet width</th><th>Hinged</th><th>Ordercode</th></th>' +
+      item.sizes
+        .map(function(size) {
+          return item.lr
+            .map(function(lr) {
+              return item.finish
+                .map(function(fi) {
+                  const ncode = item.code + lr.code + '-' + fi.code + size;
+                  return (
+                    '<tr>' +
+                    makeTD(titleCase(fi.title)) +
+                    makeTD(size + '"') +
+                    makeTD(titleCase(lr.title)) +
+                    makeTD(ordercodes(ncode)) +
+                    '</tr>'
+                  );
+                })
+                .join('');
+            })
+            .join('');
+        })
+        .join('') +
+      '</table>'
+    );
+  } else {
+    return basicCode(item);
+  }
 }
