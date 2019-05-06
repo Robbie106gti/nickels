@@ -1,5 +1,5 @@
 function setDim(page) {
-  fetch('../json/iwhd.json')
+  fetch('../../json/iwhd.json')
     .then(function(response) {
       return response.json();
     })

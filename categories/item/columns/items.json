@@ -1,0 +1,1009 @@
+{
+  "sub-cats": [
+    {
+      "active": true,
+      "root": "construction",
+      "order": "3",
+      "title": "Column Construction",
+      "items": ["clm-miter", "clm"],
+      "size": "6",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["miter", "construction"]
+    },
+    {
+      "active": true,
+      "root": "cornerblocks",
+      "order": "2",
+      "title": "Cornerblocks & Moldings options",
+      "items": ["clm-cornerblocks", "clm-moldings"],
+      "size": "6",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["cornerblocks", "moldings"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column fronts",
+      "order": "1",
+      "items": [
+        "clm-100",
+        "clm-101",
+        "clm-201",
+        "clm-202",
+        "clm-203",
+        "clm-207",
+        "clm-208",
+        "clm-209",
+        "clm-220",
+        "clm-221",
+        "clm-222",
+        "clm-226",
+        "clm-227",
+        "clm-228",
+        "clm-250",
+        "clm-251",
+        "clm-301"
+      ],
+      "size": "12",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["column", "fronts"]
+    }
+  ],
+  "items": [
+    {
+      "active": true,
+      "root": "construction",
+      "title": "Column Miter",
+      "code": "clm-miter",
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/Columns-construction-Miter.jpg"
+        },
+        {
+          "title": "heights",
+          "image": "https://webquoin.com/catalog/images/CLM/Columns-Heights.jpg"
+        }
+      ],
+      "materials": "Woods and Painted Exterior Materials Only",
+      "standards": [
+        "Finished left and right, by default.",
+        "Depth of case is 24 7/8” by default, FRONT is included in case depth.",
+        "CLM-100 for front, by default."
+      ],
+      "options": [
+        "Available in 1/8” increments from 2” - 6” wide.",
+        "Available in Wood and Painted only."
+      ],
+      "dimensions": {
+        "depths": "4 7/8\" to 24 7/8\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "notes": ["21"],
+      "fronts": ["clm-100"],
+      "heights": [
+        "12",
+        "18",
+        "24",
+        "30",
+        "36",
+        "48",
+        "56",
+        "68",
+        "80",
+        "86",
+        "91",
+        "96"
+      ],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["column", "miter"]
+    },
+    {
+      "active": true,
+      "root": "construction",
+      "title": "Column",
+      "code": "clm",
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/Columns-construction.jpg"
+        },
+        {
+          "title": "heights",
+          "image": "https://webquoin.com/catalog/images/CLM/Columns-Heights.jpg"
+        }
+      ],
+      "materials": "Available in All materials",
+      "standards": [
+        "Left and Right sides are not finished. (specify - FEs)",
+        "Choose front of Column. (see table)"
+      ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "options": [
+        "Available in 1/8” increments from 2” - 6” wide.",
+        "Available in All materials.",
+        "FCB/FCT to finish bottom or top.",
+        "To finish back of column add a second Column front."
+      ],
+      "notes": ["19", "20"],
+      "fronts": [
+        "clm-101",
+        "clm-201",
+        "clm-202",
+        "clm-203",
+        "clm-207",
+        "clm-208",
+        "clm-209",
+        "clm-220",
+        "clm-221",
+        "clm-222",
+        "clm-226",
+        "clm-227",
+        "clm-228",
+        "clm-250",
+        "clm-251",
+        "clm-301"
+      ],
+      "heights": [
+        "12",
+        "18",
+        "24",
+        "30",
+        "36",
+        "48",
+        "56",
+        "68",
+        "80",
+        "86",
+        "91",
+        "96"
+      ],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["column"]
+    },
+    {
+      "active": true,
+      "root": "cornerblocks",
+      "category": "cornerblocks",
+      "title": "Rosette",
+      "code": "rrosette",
+      "description": "Series 200 Column Cornerblock Options",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["cornerblocks", "rosette"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/rosette.jpg"
+        }
+      ],
+      "standards": [
+        "The height is equal to the width",
+        "Minimum width of 2”",
+        "7/8” thick"
+      ]
+    },
+    {
+      "active": true,
+      "root": "cornerblocks",
+      "category": "cornerblocks",
+      "title": "Flat",
+      "code": "rflat",
+      "description": "Series 200 Column Cornerblock Options",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["cornerblocks", "rosette"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CornerFlat.jpg"
+        }
+      ],
+      "standards": [
+        "The height is equal to the width",
+        "Minimum width of 2”",
+        "7/8” thick"
+      ]
+    },
+    {
+      "active": true,
+      "root": "cornerblocks",
+      "category": "Molding",
+      "title": "Flat",
+      "code": "mflat",
+      "description": "Series 200 Column Molding Options",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["molding", "flat"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/flat.jpg"
+        }
+      ],
+      "standards": ["Minimum width of 2”", "7/8” thick"]
+    },
+    {
+      "active": true,
+      "root": "cornerblocks",
+      "category": "Molding",
+      "title": "Channel",
+      "code": "mchannel",
+      "description": "Series 200 Column Molding Options",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["molding", "channel"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/channel.jpg"
+        }
+      ],
+      "standards": [
+        "The channels are on 1/2” centers",
+        "The number of channels is in accordance to the width of the molding"
+      ]
+    },
+    {
+      "active": true,
+      "root": "cornerblocks",
+      "category": "Molding",
+      "title": "Fluted",
+      "code": "mfluted",
+      "description": "Series 200 Column Molding Options",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["molding", "fluted"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/fluted.jpg"
+        }
+      ],
+      "standards": [
+        "The channels are on 1/2” centers",
+        "The number of channels is in accordance to the width of the molding"
+      ]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 100",
+      "code": "clm-100",
+      "description": "Column 100 Front- Miter (Woods and Painted Exterior Materials Only)",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["column front", "veneer", "paint"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-100.jpg"
+        }
+      ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "standards": [
+        "Front will be either Veneer or Paint",
+        "Depth of case is 24 7/8” by default, FRONT is included in case depth",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "restrictions": [
+        "Only available for CLM-Miter column",
+        "Only available in WOOD Veneers, Engineered or Painted"
+      ],
+      "notes": ["22"],
+      "cnm": ["none", "none"],
+      "requires": ["clm-miter"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 101: Slab",
+      "code": "clm-101",
+      "description": "Column 101 Front - Slab",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["column front", "Solid Woods", "7/8\"", "3/4\""],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-101.jpg"
+        }
+      ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "standards": [
+        "A flat molding applied to the front of a CLM cabinet",
+        "Depth of case is 24” by default, FRONT is additional to case depth",
+        "Flat molding is 7/8” thick for Alder, Cherry, Fir, Maple, White Oak and Black Walnut. Flat molding is 3/4” thick for Engineered Veneer, all M (Melamine), Textured Melamine, Gloss and Euro Materials.",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "restrictions": ["Not available for CLM-Miter column"],
+      "notes": ["23"],
+      "cnm": ["none", "slab"],
+      "requires": ["clm"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 201: Flat",
+      "code": "clm-201",
+      "description": "Column 201 Front - Flat Cornerblock Top and Bottom, Flat Molding",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["column front", "cornerblocks", "flat"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-201.jpg"
+        }
+      ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "standards": [
+        "A solid Wood or Painted MDF cornerblock at top and bottom with a molding in between",
+        "Depth of case is 24” by default, FRONT is additional to case depth",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "restrictions": [
+        "Not available for CLM-Miter column",
+        "Not available in Engineered, Melamine, Gloss and Euro Materials",
+        "Height of cornerblocks matches width"
+      ],
+      "notes": ["23"],
+      "cnm": ["flat", "flat"],
+      "requires": ["clm"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 202: Flat channel",
+      "code": "clm-202",
+      "description": "Column 202 Front - Flat Cornerblock Top and Bottom, Channel Molding",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "tags": ["column front", "cornerblocks", "flat", "channel"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-202.jpg"
+        }
+      ],
+      "standards": [
+        "A solid Wood or Painted MDF cornerblock at top and bottom with a channel molding in between",
+        "Depth of case is 24” by default, FRONT is additional to case depth",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "restrictions": [
+        "Not available for CLM-Miter column",
+        "Not available in Engineered, Melamine, Gloss and Euro Materials",
+        "Height of cornerblocks matches width"
+      ],
+      "notes": ["23"],
+      "cnm": ["flat", "channel"],
+      "requires": ["clm"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 203: Flat fluted",
+      "code": "clm-203",
+      "description": "Column 203 Front - Flat Cornerblock Top and Bottom, Fluted Molding",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "tags": ["column front", "cornerblocks", "flat", "fluted"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-203.jpg"
+        }
+      ],
+      "standards": [
+        "A solid Wood or Painted MDF cornerblock at top and bottom with a fluted molding in between",
+        "Depth of case is 24” by default, FRONT is additional to case depth",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "restrictions": [
+        "Not available for CLM-Miter column",
+        "Not available in Engineered, Melamine, Gloss and Euro Materials",
+        "Height of cornerblocks matches width"
+      ],
+      "notes": ["23"],
+      "cnm": ["flat", "channel"],
+      "requires": ["clm"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 207: Rosette flat",
+      "code": "clm-207",
+      "description": "Column 207 Front - Rosette Cornerblock Top and Bottom, Flat Molding",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "tags": ["column front", "rosette", "flat"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-207.jpg"
+        }
+      ],
+      "standards": [
+        "A solid Wood or Painted MDF rosette 2 cornerblock at top and bottom with a molding in between",
+        "Depth of case is 24” by default, FRONT is additional to case depth",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "restrictions": [
+        "Not available for CLM-Miter column",
+        "Not available in Engineered, Melamine, Gloss and Euro Materials",
+        "Height of cornerblocks matches width"
+      ],
+      "notes": ["23"],
+      "cnm": ["rosette", "flat"],
+      "requires": ["clm"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 208: Rosette channel",
+      "code": "clm-208",
+      "description": "Column 208 Front - Rosette Cornerblock Top and Bottom, Channel Molding",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["column front", "rosette", "channel"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-208.jpg"
+        }
+      ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "standards": [
+        "A solid Wood or Painted MDF rosette 2 cornerblock at top and bottom with a channel molding in between",
+        "Depth of case is 24” by default, FRONT is additional to case depth",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "restrictions": [
+        "Not available for CLM-Miter column",
+        "Not available in Engineered, Melamine, Gloss and Euro Materials",
+        "Height of cornerblocks matches width"
+      ],
+      "notes": ["23"],
+      "cnm": ["rosette", "channel"],
+      "requires": ["clm"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 209: Rosette fluted",
+      "code": "clm-209",
+      "description": "Column 209 Front - Rosette Cornerblock Top and Bottom, Fluted Molding",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "tags": ["column front", "rosette", "fluted"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-209.jpg"
+        }
+      ],
+      "standards": [
+        "A solid Wood or Painted MDF rosette 2 cornerblock at top and bottom with a channel molding in between",
+        "Depth of case is 24” by default, FRONT is additional to case depth",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "restrictions": [
+        "Not available for CLM-Miter column",
+        "Not available in Engineered, Melamine, Gloss and Euro Materials",
+        "Height of cornerblocks matches width"
+      ],
+      "notes": ["23"],
+      "cnm": ["rosette", "fluted"],
+      "requires": ["clm"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 220: Top Flat flat",
+      "code": "clm-220",
+      "description": "Column 220 Front - Flat Cornerblock Top, Flat Molding",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["column front", "top", "flat", "flat"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-220.jpg"
+        }
+      ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "standards": [
+        "A solid Wood or Painted MDF cornerblock at top with a molding below",
+        "Depth of case is 24” by default, FRONT is additional to case depth",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "restrictions": [
+        "Not available for CLM-Miter column",
+        "Not available in Engineered, Melamine, Gloss and Euro Materials",
+        "Height of cornerblock matches width"
+      ],
+      "notes": ["23"],
+      "cnm": ["flat", "flat"],
+      "requires": ["clm"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 221: Top Flat channel",
+      "code": "clm-221",
+      "description": "Column 221 Front - Flat Cornerblock Top, Channel Molding",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["column front", "top", "flat", "channel"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-221.jpg"
+        }
+      ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "standards": [
+        "A solid Wood or Painted MDF cornerblock at top with a molding below",
+        "Depth of case is 24” by default, FRONT is additional to case depth",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "restrictions": [
+        "Not available for CLM-Miter column",
+        "Not available in Engineered, Melamine, Gloss and Euro Materials",
+        "Height of cornerblock matches width"
+      ],
+      "notes": ["23"],
+      "cnm": ["flat", "channel"],
+      "requires": ["clm"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 222: Top Flat fluted",
+      "code": "clm-222",
+      "description": "Column 222 Front - Flat Cornerblock Top, Fluted Molding",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["column front", "top", "flat", "fluted"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-222.jpg"
+        }
+      ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "standards": [
+        "A solid Wood or Painted MDF cornerblock at top with a fluted molding below",
+        "Depth of case is 24” by default, FRONT is additional to case depth",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "restrictions": [
+        "Not available for CLM-Miter column",
+        "Not available in Engineered, Melamine, Gloss and Euro Materials",
+        "Height of cornerblock matches width"
+      ],
+      "notes": ["23"],
+      "cnm": ["flat", "fluted"],
+      "requires": ["clm"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 226: Top Rosette flat",
+      "code": "clm-226",
+      "description": "Column 226 Front - Rosette Cornerblock Top, Flat Molding",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["column front", "top", "rosette", "flat"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-226.jpg"
+        }
+      ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "standards": [
+        "A solid Wood or Painted MDF rosette cornerblock at top with a molding in below",
+        "Depth of case is 24” by default, FRONT is additional to case depth",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "restrictions": [
+        "Not available for CLM-Miter column",
+        "Not available in Engineered, Melamine, Gloss and Euro Materials",
+        "Height of cornerblock matches width"
+      ],
+      "notes": ["23"],
+      "cnm": ["rosette", "flat"],
+      "requires": ["clm"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 227: Top Rosette channel",
+      "code": "clm-227",
+      "description": "Column 227 Front - Rosette Cornerblock Top, Channel Molding",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["column front", "top", "rosette", "channel"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-227.jpg"
+        }
+      ],
+      "standards": [
+        "A solid Wood or Painted MDF rosette cornerblock at top with a channel molding in below",
+        "Depth of case is 24” by default, FRONT is additional to case depth",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "restrictions": [
+        "Not available for CLM-Miter column",
+        "Not available in Engineered, Melamine, Gloss and Euro Materials",
+        "Height of cornerblock matches width"
+      ],
+      "notes": ["23"],
+      "cnm": ["rosette", "channel"],
+      "requires": ["clm"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 228: Top Rosette fluted",
+      "code": "clm-228",
+      "description": "Column 228 Front - Rosette Cornerblock Top, Fluted Molding",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["column front", "top", "rosette", "fluted"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-228.jpg"
+        }
+      ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "standards": [
+        "A solid Wood or Painted MDF rosette cornerblock at top with a fluted molding below",
+        "Depth of case is 24” by default, FRONT is additional to case depth",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "restrictions": [
+        "Not available for CLM-Miter column",
+        "Not available in Engineered, Melamine, Gloss and Euro Materials",
+        "Height of cornerblock matches width"
+      ],
+      "notes": ["23"],
+      "cnm": ["rosette", "fluted"],
+      "requires": ["clm"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 250: Fluted",
+      "code": "clm-250",
+      "description": "Column 250 Front - Fluted Molding",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["column front", "fluted"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-250.jpg"
+        }
+      ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "standards": [
+        "The front has the fluted molding that starts 3/4\" from either end",
+        "Depth of case is 24” by default, FRONT is additional to case depth",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "restrictions": [
+        "Not available for CLM-Miter column",
+        "Not available in Engineered, Melamine, Gloss and Euro Materials"
+      ],
+      "notes": ["23"],
+      "cnm": ["none", "fluted"],
+      "requires": ["clm"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 251: Channel",
+      "code": "clm-251",
+      "description": "Column 251 Front - Channel Molding",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["column front", "channel"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-251.jpg"
+        }
+      ],
+      "standards": [
+        "The front has the channel molding that starts 3/4\" from either end",
+        "Depth of case is 24” by default, FRONT is additional to case depth",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "restrictions": [
+        "Not available for CLM-Miter column",
+        "Not available in Engineered, Melamine, Gloss and Euro Materials"
+      ],
+      "notes": ["23"],
+      "cnm": ["none", "channel"],
+      "requires": ["clm"]
+    },
+    {
+      "active": true,
+      "root": "fronts",
+      "title": "Column 301: Wainscot",
+      "code": "clm-301",
+      "description": "Column 301 Front - Wainscot Molding",
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "tags": ["column front", "wainscot"],
+      "images": [
+        {
+          "title": "Drawing",
+          "image": "https://webquoin.com/catalog/images/CLM/CLM-301.jpg"
+        }
+      ],
+      "dimensions": {
+        "depths": "4\" to 24\"",
+        "heights": "12\" to 96\"",
+        "widths": "2\" to 6\"",
+        "thickness": "7/8\" or 3/4\""
+      },
+      "standards": [
+        "Wainscot design is on the front",
+        "Front face is made from 4 pieces of material with horizontal grain across the top and bottom rails, and vertical grain on the styles",
+        "Depth of case is 24” by default, FRONT is additional to case depth",
+        "Available in 1/8” increments from 2” - 6” wide"
+      ],
+      "restrictions": [
+        "Not available for CLM-Miter column",
+        "Not available in Engineered, Melamine, Gloss and Euro Materials"
+      ],
+      "notes": [],
+      "cnm": ["none", "wainscot"],
+      "requires": ["clm"],
+      "wainscot": {
+        "title": "detail wainscot molding",
+        "image": "https://webquoin.com/catalog/images/CLM/301-edge.jpg"
+      }
+    }
+  ]
+}

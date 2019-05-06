@@ -1,18 +1,5 @@
 //// Main js for catagories /////
-$.ajax({
-  url: '../../layout/header.html',
-  context: document.body,
-  success: function(response) {
-    $('#header').html(response);
-  }
-});
-$.ajax({
-  url: '../../layout/footer.html',
-  context: document.body,
-  success: function(response) {
-    $('#footer').html(response);
-  }
-});
+headerFooter('../../');
 
 window.onload = getPage();
 
@@ -27,7 +14,7 @@ if (msie !== -1) {
 }
 
 function getPage() {
-  $.urlParam = function(name) {
+  $.urlParam = function (name) {
     var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(
       window.location.href
     );
@@ -68,7 +55,7 @@ function getPage() {
 
 function unique(array) {
   var seen = new Set();
-  return array.filter(function(item) {
+  return array.filter(function (item) {
     if (!seen.has(item)) {
       seen.add(item);
       return true;
@@ -97,7 +84,7 @@ function setMainImage(info) {
   const main = `<div class="card card-panel"><div class="center"><span class="card-title ">Images</span></div>
     ${exampleImages(info)}
     <img class="responsive-img materialboxed" src="${
-      info.images[0].image
+    info.images[0].image
     }"></div>`;
   return main;
 }
@@ -107,10 +94,10 @@ function exampleImages(info) {
     .map(image => {
       return (im = `<div class="box-image">
                   <img src="${
-                    image.image
-                  }" class="materialboxed tooltipped" data-position="top" data-tooltip="click to enlarge" data-caption="${
+        image.image
+        }" class="materialboxed tooltipped" data-position="top" data-tooltip="click to enlarge" data-caption="${
         image.title
-      }">
+        }">
                </div>`);
     })
     .join('')}`;
@@ -137,7 +124,7 @@ function titleCase(str) {
   return str
     .toLowerCase()
     .split(' ')
-    .map(function(word) {
+    .map(function (word) {
       if (!word) return;
       return word.replace(word[0], word[0].toUpperCase());
     })
@@ -147,15 +134,15 @@ function titleCase(str) {
 function cardWith(cat) {
   const card = `<div class="card ${edge}"><a href="./index.html?code=${
     cat.code
-  }">
+    }">
                   <div class="card-image waves-effect waves-block waves-light">
                       <img class=""
                       src="${cat.images[0].image}" >
                   </div>
                   <div class="card-content">
                       <span class="card-title grey-text text-darken-4">${titleCase(
-                        cat.title
-                      )}<i class="material-icons right">more_vert</i></span>
+      cat.title
+    )}<i class="material-icons right">more_vert</i></span>
                       ${getTags(cat.tags)}
                   </div></a>
                 </div>`;
@@ -186,23 +173,23 @@ function setSpecs(item) {
       <ul class="flow-text">
         <li><ul>
         <li class="second"><i class="material-icons">tune</i> Height: ${
-          item.dimensions.height
-        }</li>
+    item.dimensions.height
+    }</li>
         <li class="second"><i class="material-icons">tune</i> Width: ${
-          item.dimensions.width
-        }</li>
+    item.dimensions.width
+    }</li>
         <li class="second"><i class="material-icons">tune</i> Depth: ${
-          item.dimensions.depth
-        }</li>
+    item.dimensions.depth
+    }</li>
         </ul></li>
         <li>Available in the following materials:
 ${item.materials
-  .map((mat, i, arr) => {
-    i++;
-    let text = i === arr.length ? ' and ' + mat : mat + ', ';
-    return text;
-  })
-  .join('')}
+      .map((mat, i, arr) => {
+        i++;
+        let text = i === arr.length ? ' and ' + mat : mat + ', ';
+        return text;
+      })
+      .join('')}
         </li>
       </ul>
     </div>
@@ -222,7 +209,7 @@ function setNotes(item) {
   fetch(`./loox.json`)
     .then(response => response.json())
     .then(data => {
-      let cards = data['notes'].filter(function(el, i) {
+      let cards = data['notes'].filter(function (el, i) {
         let t = item.notes.includes(el.id);
         let id;
         if (t === true) {
@@ -239,7 +226,7 @@ function setNotes(item) {
                             <p class="note flow-text">
                                 <i class="material-icons">announcement</i>
                                 <b>${note.title}</b>${note.content}<a href="${
-              note.link
+            note.link
             }">${note.contentLink}<a/>${note.ccontent}
                             </p>
                         </div>`

@@ -1,267 +1,241 @@
 {
-  "Wardrobe Cabinets": [
-    {
-      "code": "CD",
+    "Wardrobe Cabinets": [
+      {
+        "code": "CD",
       "title": "CD : Double Hanging",
       "attached": [
         {
           "height": "77",
-          "link": "cab"
+          "link": "page"
         },
         {
           "height": "89",
-          "link": "cab"
+          "link": "page"
         }
-      ],
+        ],
       "image": "https://webquoin.com/catalog/images/CD__89.jpg",
-      "tags": ["wardrobe", "cd", "double", "hanging", "77\"", "89\""]
-    },
-    {
-      "code": "CM",
+      "tags": ["wardrobe", "cd", "double", "hanging", "77\"", "89\"" ]
+      },
+      {
+        "code": "CM",
       "title": "CM : Mid Hanging",
       "attached": [
         {
           "height": "77",
-          "link": "cab"
+          "link": "page"
         },
         {
           "height": "89",
-          "link": "cab"
+          "link": "page"
         }
-      ],
+        ],
       "image": "https://webquoin.com/catalog/images/CM__89.jpg",
-      "tags": ["wardrobe", "cm", "mid", "hanging", "77\"", "89\""]
-    },
-    {
-      "code": "CT",
+      "tags": ["wardrobe", "cm", "mid", "hanging", "77\"", "89\"" ]
+      },
+      {
+        "code": "CT",
       "title": "CT : Tall Hanging",
       "attached": [
         {
           "height": "77",
-          "link": "cab"
+          "link": "page"
         },
         {
           "height": "89",
-          "link": "cab"
+          "link": "page"
         }
-      ],
+        ],
       "image": "https://webquoin.com/catalog/images/CT__89.jpg",
-      "tags": ["wardrobe", "ct", "tall", "hanging", "77\"", "89\""]
-    },
-    {
-      "code": "CH",
+      "tags": ["wardrobe", "ct", "tall", "hanging", "77\"", "89\"" ]
+      },
+      {
+        "code": "CH",
       "title": "CH : High Hanging",
       "attached": [
         {
           "height": "77",
-          "link": "cab"
+          "link": "page"
         },
         {
           "height": "89",
-          "link": "cab"
+          "link": "page"
         }
-      ],
+        ],
       "image": "https://webquoin.com/catalog/images/CH__89.jpg",
-      "tags": ["wardrobe", "ch", "high", "hanging", "77\"", "89\""]
-    },
-    {
-      "code": "C2D22T",
+      "tags": ["wardrobe", "ch", "high", "hanging", "77\"", "89\"" ]
+      },
+      {
+        "code": "C2D22T",
       "title": "C2D22T : Tall Hanging with 2 Drawer 22\" Base",
       "attached": [
-        {
-          "height": "77",
-          "link": "cab"
-        },
-        {
-          "height": "89",
-          "link": "cab"
-        }
-      ],
+          {
+            "height": "77",
+            "link": "page"
+          },
+          {
+            "height": "89",
+            "link": "page"
+          }
+        ],
       "image": "https://webquoin.com/catalog/images/C2D22T__89.jpg",
-      "tags": [
-        "wardrobe",
-        "c2d",
-        "tall",
-        "hanging",
-        "2",
-        "drawer",
-        "77\"",
-        "89\""
-      ]
-    },
-    {
-      "code": "C2D22H",
+      "tags": ["wardrobe", "c2d", "tall", "hanging", "2", "drawer", "77\"", "89\"" ]
+      },
+      {
+        "code": "C2D22H",
       "title": "C2D22H : High Hanging with 2 Drawer 22” Base",
       "attached": [
         {
           "height": "77",
-          "link": "cab"
+          "link": "page"
         }
-      ],
+        ],
       "image": "https://webquoin.com/catalog/images/C2D22H__77.jpg",
-      "tags": ["wardrobe", "c2d", "high", "hanging", "2", "drawer", "77\""]
-    },
-    {
-      "code": "C3D29T",
+      "tags": ["wardrobe", "c2d", "high", "hanging", "2", "drawer", "77\"" ]
+      },
+      {
+        "code": "C3D29T",
       "title": "C3D29T : Tall Hanging with 3 Drawer 29\" Base",
       "attached": [
         {
           "height": "89",
-          "link": "cab"
+          "link": "page"
         }
-      ],
+        ],
       "image": "https://webquoin.com/catalog/images/C3D29T__89.jpg",
-      "tags": ["wardrobe", "c3d", "tall", "hanging", "3", "drawer", "89\""]
-    },
-    {
-      "code": "C4D35T",
+      "tags": ["wardrobe", "c3d", "tall", "hanging", "3", "drawer", "89\"" ]
+      },
+      {
+        "code": "C4D35T",
       "title": "C4D35T : Tall Hanging with 4 Drawer 35\" Base",
       "attached": [
         {
           "height": "89",
-          "link": "cab"
+          "link": "page"
         }
-      ],
+        ],
       "image": "https://webquoin.com/catalog/images/C4D35T__89.jpg",
-      "tags": ["wardrobe", "c4d", "tall", "hanging", "4", "drawer", "89\""]
-    },
-    {
-      "code": "C3D29H",
+      "tags": ["wardrobe", "c4d", "tall", "hanging", "4", "drawer", "89\"" ]
+      },
+      {
+        "code": "C3D29H",
       "title": "C3D29H : High Hanging with 3 Drawer 29” Base",
       "attached": [
         {
           "height": "77",
-          "link": "cab"
+          "link": "page"
         }
-      ],
+        ],
       "image": "https://webquoin.com/catalog/images/C3D29H__77.jpg",
-      "tags": ["wardrobe", "c3d", "high", "hanging", "3", "drawer", "77\""]
-    },
-    {
-      "code": "C4D35H",
+      "tags": ["wardrobe", "c3d", "high", "hanging", "3", "drawer", "77\"" ]
+      },
+      {
+        "code": "C4D35H",
       "title": "C4D35H : High Hanging with 4 Drawer 35” Base",
       "attached": [
         {
           "height": "77",
-          "link": "cab"
+          "link": "page"
         }
-      ],
+        ],
       "image": "https://webquoin.com/catalog/images/C4D35H__77.jpg",
-      "tags": ["wardrobe", "c4d", "high", "hanging", "4", "drawer", "77\""]
-    },
-    {
-      "code": "CDCL",
+      "tags": ["wardrobe", "c4d", "high", "hanging", "4", "drawer", "77\"" ]
+      },
+      {
+        "code": "CDCL",
       "title": "CDCL : Double Hanging Corner Left",
       "attached": [
         {
           "height": "77",
-          "link": "cab"
+          "link": "page"
         },
         {
           "height": "89",
-          "link": "cab"
+          "link": "page"
         }
-      ],
+        ],
       "image": "https://webquoin.com/catalog/images/CDCL__77.jpg",
-      "tags": [
-        "wardrobe",
-        "cdc",
-        "double",
-        "hanging",
-        "corner",
-        "left",
-        "77\"",
-        "89\""
-      ]
-    },
-    {
-      "code": "CDCR",
+      "tags": ["wardrobe", "cdc", "double", "hanging", "corner", "left", "77\"", "89\"" ]
+      },
+      {
+        "code": "CDCR",
       "title": "CDCR : Double Hanging Corner Right",
       "attached": [
         {
           "height": "77",
-          "link": "cab"
+          "link": "page"
         },
         {
           "height": "89",
-          "link": "cab"
+          "link": "page"
         }
-      ],
+        ],
       "image": "https://webquoin.com/catalog/images/CDCR__77.jpg",
-      "tags": [
-        "wardrobe",
-        "cdc",
-        "double",
-        "hanging",
-        "corner",
-        "right",
-        "77\"",
-        "89\""
-      ]
-    },
-    {
-      "code": "CBD",
+      "tags": ["wardrobe", "cdc", "double", "hanging", "corner", "right", "77\"", "89\"" ]
+      },
+      {
+        "code": "CBD",
       "title": "CBD : Bridge Double Hanging",
       "attached": [
         {
           "height": "47",
-          "link": "cab"
+          "link": "page"
         },
         {
           "height": "59",
-          "link": "cab"
+          "link": "page"
         }
-      ],
+        ],
       "image": "https://webquoin.com/catalog/images/JPGs/Wardrobe/CBD__59.jpg",
-      "tags": ["wardrobe", "cbd", "bridge", "double", "hanging", "47\"", "59\""]
-    },
-    {
-      "code": "CBM",
+      "tags": ["wardrobe", "cbd", "bridge", "double", "hanging", "47\"", "59\"" ]
+      },
+      {
+        "code": "CBM",
       "title": "CBM : Bridge Mid Hanging",
       "attached": [
         {
           "height": "27",
-          "link": "cab"
+          "link": "page"
         },
         {
           "height": "39",
-          "link": "cab"
+          "link": "page"
         }
-      ],
+        ],
       "image": "https://webquoin.com/catalog/images/JPGs/Wardrobe/CBM__27.jpg",
-      "tags": ["wardrobe", "cbm", "bridge", "mid", "hanging", "27\"", "39\""]
-    },
-    {
-      "code": "CBT",
+      "tags": ["wardrobe", "cbm", "bridge", "mid", "hanging", "27\"", "39\"" ]
+      },
+      {
+        "code": "CBT",
       "title": "CBT : Bridge Tall Hanging",
       "attached": [
         {
           "height": "18",
-          "link": "cab"
+          "link": "page"
         },
         {
           "height": "30",
-          "link": "cab"
+          "link": "page"
         }
-      ],
+        ],
       "image": "https://webquoin.com/catalog/images/JPGs/Wardrobe/CBT__18.jpg",
-      "tags": ["wardrobe", "cbt", "bridge", "tall", "hanging", "18\"", "30\""]
-    },
-    {
-      "code": "CBH",
+      "tags": ["wardrobe", "cbt", "bridge", "tall", "hanging", "18\"", "30\"" ]
+      },
+      {
+        "code": "CBH",
       "title": "CBH : Bridge High Hanging",
       "attached": [
         {
           "height": "05",
-          "link": "cab"
+          "link": "page"
         },
         {
           "height": "17",
-          "link": "cab"
+          "link": "page"
         }
-      ],
+        ],
       "image": "https://webquoin.com/catalog/images/CBH__05.jpg",
-      "tags": ["wardrobe", "cbh", "bridge", "high", "hanging", "5\"", "17\""]
-    }
-  ]
-}
+      "tags": ["wardrobe", "cbh", "bridge", "high", "hanging", "5\"", "17\"" ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,121 @@
+[{
+    "title": "SQ",
+    "image": "https://webquoin.com/catalog/images/Edge-Details/SQ.gif",
+    "description": "Square",
+    "size": {
+      "inch": "0",
+      "mm": "0"
+    },
+    "replaces": []
+  },
+  {
+    "title": "SC",
+    "image": "https://webquoin.com/catalog/images/Edge-Details/SC.gif",
+    "description": "Step Cove",
+    "size": {
+      "inch": "1/4",
+      "mm": "6.35"
+    },
+    "replaces": []
+  },
+  {
+    "title": "OV",
+    "image": "https://webquoin.com/catalog/images/Edge-Details/OV.gif",
+    "description": "",
+    "size": {
+      "inch": "1/4",
+      "mm": "6.35"
+    },
+    "replaces": []
+  },
+  {
+    "title": "CA",
+    "image": "https://webquoin.com/catalog/images/Edge-Details/CA.gif",
+    "description": "",
+    "size": {
+      "inch": "11/16",
+      "mm": "17.4625"
+    },
+    "replaces": []
+  },
+  {
+    "title": "BV3",
+    "image": "https://webquoin.com/catalog/images/Edge-Details/BV3.gif",
+    "description": "Bevel",
+    "size": {
+      "inch": "1/8",
+      "mm": "3.175"
+    },
+    "replaces": []
+  },
+  {
+    "title": "BV5",
+    "image": "https://webquoin.com/catalog/images/Edge-Details/BV5.gif",
+    "description": "Bevel",
+    "size": {
+      "inch": "3/16",
+      "mm": "4.7625"
+    },
+    "replaces": []
+  },
+  {
+    "title": "CV6",
+    "image": "https://webquoin.com/catalog/images/Edge-Details/CV6.gif",
+    "description": "Cove",
+    "size": {
+      "inch": "1/4",
+      "mm": "6.35"
+    },
+    "replaces": []
+  },
+  {
+    "title": "CV11",
+    "image": "https://webquoin.com/catalog/images/Edge-Details/CV11.gif",
+    "description": "Cove",
+    "size": {
+      "inch": "7/16",
+      "mm": "11.1125"
+    },
+    "replaces": []
+  },
+  {
+    "title": "RD3",
+    "image": "https://webquoin.com/catalog/images/Edge-Details/RD3.gif",
+    "description": "Round",
+    "size": {
+      "inch": "1/8",
+      "mm": "3.175"
+    },
+    "replaces": []
+  },
+  {
+    "title": "RD6",
+    "image": "https://webquoin.com/catalog/images/Edge-Details/RD6.gif",
+    "description": "Round",
+    "size": {
+      "inch": "1/4",
+      "mm": "6.35"
+    },
+    "replaces": []
+  },
+  {
+    "title": "HS",
+    "image": "https://webquoin.com/catalog/images/Edge-Details/HS.gif",
+    "description": "",
+    "size": {
+      "inch": "11/16",
+      "mm": "17.4625"
+    },
+    "replaces": []
+  },
+  {
+    "title": "SH",
+    "image": "https://webquoin.com/catalog/images/Edge-Details/SH.gif",
+    "description": "",
+    "size": {
+      "inch": "7/16",
+      "mm": "11.1125"
+    },
+    "replaces": []
+  }
+]

@@ -2,11 +2,11 @@ function setImages(images, title, height) {
   var image = images
     .map(function(image) {
       return '<div class="card">\n                            <div class="padding">\n                                <img class="responsive-img materialboxed" src="'
-        .concat(imageSRC(image.image), '">\n                                ')
+        .concat(image.image, '">\n                                ')
         .concat(
           image.image2 !== undefined
             ? '<img class="responsive-img materialboxed" src="'.concat(
-                imageSRC(image.image2),
+                image.image2,
                 '">'
               )
             : '',
@@ -29,7 +29,7 @@ function setMainImage(info) {
       exampleImages(info),
       '\n    <img class="responsive-img materialboxed" src="'
     )
-    .concat(imageSRC(info.images[0].image), '"></div>');
+    .concat(info.images[0].image, '"></div>');
   return main;
 }
 
@@ -39,7 +39,7 @@ function exampleImages(info) {
       .map(function(image) {
         return (im = '<div class="box-image">\n                  <img src="'
           .concat(
-            imageSRC(image.image),
+            image.image,
             '" class="materialboxed tooltipped" data-position="top" data-tooltip="click to enlarge" data-caption="'
           )
           .concat(image.title, '">\n               </div>'));

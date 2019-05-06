@@ -1,0 +1,300 @@
+{
+  "options": [
+    {
+      "id": "0",
+      "title": "Horizontal",
+      "type": "list",
+      "list": [
+        "Maximum horizontal panel size 120\" wide x 48\" tall.",
+        "Panels that are up to 35 7/8\" wide will be 1 panel wide x 1 panel high.",
+        "Panels that are from 36\" to 65 7/8\" wide will be 2 panels wide x 1 panel high.",
+        "Panels that are from 66\" to 95 7/8\" wide will be 3 panels wide x 1 panel high."
+      ]
+    },
+    {
+      "id": "1",
+      "title": "Vertical",
+      "type": "list",
+      "list": [
+        "Maximum vertical panel size 36\" wide x 120\" tall.",
+        "Panels that are up to 47 7/8\" high will be 1 panel high x 1 panel wide.",
+        "Panels that are from 48\" to 95 7/8\" high will be 2 panels high x 1 panel wide."
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Options",
+      "content": "N/A"
+    },
+    {
+      "id": "3",
+      "title": "Edges",
+      "content": "detailed edge options panels 3/4\".",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for edges",
+        "button": "edges",
+        "title": "Detailed Edge Options",
+        "images": [
+          {
+            "title": "SQ (Square)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/SQ-panel.png"
+          },
+          {
+            "title": "BV3 (Bevel)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/BV3-panel.png"
+          },
+          {
+            "title": "BV5 (Bevel)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/BV5-panel.png"
+          },
+          {
+            "title": "RD3 (Round)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/RD3-panel.png"
+          },
+          {
+            "title": "RD6 (Round)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/RD6-panel.png"
+          },
+          {
+            "title": "CV6 (Cove)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/CV6-panel.png"
+          },
+          {
+            "title": "SC (Step Cove)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/SC-panel.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "title": "Edges",
+      "content": "detailed edge options panels 1 1/2\".",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for edges",
+        "button": "edges",
+        "title": "Detailed Edge Options",
+        "images": [
+          {
+            "title": "SQ (Square)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/SQ-panel-112.png"
+          },
+          {
+            "title": "BV3 (Bevel)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/BV3-panel-112.png"
+          },
+          {
+            "title": "BV5 (Bevel)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/BV5-panel-112.png"
+          },
+          {
+            "title": "RD3 (Round)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/RD3-panel-112.png"
+          },
+          {
+            "title": "RD6 (Round)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/RD6-panel-112.png"
+          },
+          {
+            "title": "CV6 (Cove)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/CV6-panel-112.png"
+          },
+          {
+            "title": "SC (Step Cove)",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/SC-panel-112.png"
+          },
+          {
+            "title": "OV",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/OV-panel-112.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "title": "Wood Edges",
+      "content": "wood edge options panels 1 1/2\".",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for edges",
+        "button": "edges",
+        "title": "Panel Edge Options",
+        "content": "Available in all wood (except Engineered) and painted applications.",
+        "note": "Note: The joint is 7/8\" from the front edge in solid wood applications.",
+        "images": [
+          {
+            "title": "W1",
+            "image": "http://testquoin.com/catalog/images/W1.gif"
+          },
+          {
+            "title": "W2",
+            "image": "http://testquoin.com/catalog/images/W2.gif"
+          },
+          {
+            "title": "W3",
+            "image": "http://testquoin.com/catalog/images/W3.gif"
+          },
+          {
+            "title": "W4",
+            "image": "http://testquoin.com/catalog/images/W4.gif"
+          },
+          {
+            "title": "W5",
+            "image": "http://testquoin.com/catalog/images/W5.gif"
+          },
+          {
+            "title": "W6",
+            "image": "http://testquoin.com/catalog/images/W6.gif"
+          },
+          {
+            "title": "W7",
+            "image": "http://testquoin.com/catalog/images/W7.gif"
+          },
+          {
+            "title": "W8",
+            "image": "http://testquoin.com/catalog/images/W8.gif"
+          },
+          {
+            "title": "W9",
+            "image": "http://testquoin.com/catalog/images/W9.gif"
+          },
+          {
+            "title": "W10",
+            "image": "http://testquoin.com/catalog/images/W10.gif"
+          },
+          {
+            "title": "W11",
+            "image": "http://testquoin.com/catalog/images/W11.gif"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "title": "FO - Square",
+      "type": "list",
+      "list": [
+        "3/4\" thick composite core",
+        "The front face, top, bottom, and one long edge will be finished.",
+        "Taped edges"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "FO - Detailed edge",
+      "type": "list",
+      "list": [
+        "7/8\" thick composite core",
+        "A detailed edge will be applied on the top, bottom, and one long edge."
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Edges",
+      "content": "detailed edge options.",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for edges",
+        "button": "edges",
+        "title": "Detailed Edge Options",
+        "images": [
+          {
+            "title": "SQ (Square)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/SQ.gif"
+          },
+          {
+            "title": "BV3 (Bevel)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/BV3.gif"
+          },
+          {
+            "title": "BV5 (Bevel)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/BV5.gif"
+          },
+          {
+            "title": "RD3 (Round)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/RD3.gif"
+          },
+          {
+            "title": "RD6 (Round)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/RD6.gif"
+          },
+          {
+            "title": "CV6 (Cove)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/CV6.gif"
+          },
+          {
+            "title": "CV11 (Cove)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/CV11.gif"
+          },
+          {
+            "title": "CA",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/CA.gif"
+          },
+          {
+            "title": "SC (Step Cove)",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/SC.gif"
+          },
+          {
+            "title": "OV",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/OV.gif"
+          },
+          {
+            "title": "HS",
+            "image": "https://webquoin.com/catalog/images/Edge-Details/HS.gif"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "title": "GF",
+      "type": "list",
+      "list": [
+        "The front face, inside edge and inside gable face are finished.",
+        "Available in All materials."
+      ]
+    },
+    {
+      "id": "10",
+      "title": "GF-R (with Return)",
+      "type": "list",
+      "list": [
+        "The front face, inside edge, inside gable face and return are finished.",
+        "Available in All materials."
+      ]
+    },
+    {
+      "id": "11",
+      "title": "GF-M (Mitered)",
+      "type": "list",
+      "list": [
+        "The front face, inside edge and inside gable face are finished.",
+        "A mitered construction",
+        "Available only in wood species and painted applications."
+      ]
+    },
+    {
+      "id": "12",
+      "title": "GF-MR (Mitered with Return)",
+      "type": "list",
+      "list": [
+        "The front face, inside edge, inside gable face and return are finished.",
+        "A mitered construction",
+        "Available only in wood species and painted applications."
+      ]
+    },
+    {
+      "id": "13",
+      "title": "On-site",
+      "content": "if required to be applied on-site order a custom FE through the Order Desk."
+    },
+    {
+      "id": "14",
+      "title": "On-site",
+      "content": "if required to be applied on-site order a VLAM or PLAM Accessory in WQ.",
+      "itemcodes": ["VLAM", "PLAM"]
+    }
+  ]
+}

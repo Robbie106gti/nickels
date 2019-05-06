@@ -2,7 +2,7 @@ function getLinks(cat) {
   if (!cat.attached) return;
   var keys = ''.concat(
     cat.attached
-      .map(function (a) {
+      .map(function(a) {
         if (a.active === false) return '';
         return formatLink(cat, a);
       })
@@ -15,13 +15,13 @@ function formatLink(cat, a) {
   var link = '';
 
   if (a.sub) {
-    link = '<a href="./'
+    link = '<a href="./item/'
       .concat(a.link, '.html?code=')
       .concat(cat.code)
       .concat(a.sub, '">')
       .concat(a.title, '</a><br>');
   } else {
-    link = '<a href="./'
+    link = '<a href="./item/'
       .concat(a.link, '.html?code=')
       .concat(cat.code)
       .concat(a.height, '">')

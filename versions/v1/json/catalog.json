@@ -1,0 +1,311 @@
+{
+  "catalog": [
+    {
+      "id": "0",
+      "title": "General Information",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "visable": false,
+      "description": "some information about general information",
+      "image": "http://www.lawsonstate.edu/sites/www/Uploads/images/Programs_Of_Study/Academic_Programs/ss--general%20info.jpg",
+      "link": "cat/index.html?cat=General%20Information",
+      "tags": ["general", "information"]
+    },
+    {
+      "id": "1",
+      "title": "Base Cabinets",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "description": "some information about general information",
+      "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/cabinets%2FBase%20Cabinets%2FBase%20Sink%20Door%20%26%20False%20Drawer%2F1520288806580_image_BS__30.jpg?alt=media&token=bd126e19-9f13-465e-8e2a-de5e8165c48e",
+      "link": "cat/index.html?cat=Base%20Cabinets",
+      "tags": ["base", "cabinet"]
+    },
+    {
+      "id": "2",
+      "title": "Base Channel Cabinets",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "description": "some information about general information",
+      "image": "https://webquoin.com/catalog/images/JPGs/Modal/Base/MFD__29sm.jpg",
+      "link": "cat/index.html?cat=Base%20Channel%20Cabinets",
+      "tags": ["base", "cabinet", "channel"]
+    },
+    {
+      "id": "3",
+      "title": "Vanity Cabinets",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "description": "some information about general information",
+      "image": "https://webquoin.com/catalog/images/VCMDL__26.jpg",
+      "link": "cat/index.html?cat=Vanity%20Cabinets",
+      "tags": ["vanity", "cabinet"]
+    },
+    {
+      "id": "4",
+      "title": "Vanity Channel Cabinets",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "description": "some information about general information",
+      "image": "https://webquoin.com/catalog/images/JPGs/Modal/Vanity/LFD__27sm.jpg",
+      "link": "cat/index.html?cat=Vanity%20Channel%20Cabinets",
+      "tags": ["vanity", "cabinet", "channel"]
+    },
+    {
+      "id": "5",
+      "title": "Floating Vanity Cabinets",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "description": "some information about general information",
+      "image": "https://webquoin.com/catalog/images/JPGs/Custom/Floating%20Vanity/FVFD__26.jpg",
+      "link": "cat/index.html?cat=Floating%20Vanity%20Cabinets",
+      "tags": ["vanity", "cabinet", "floating"]
+    },
+    {
+      "id": "6",
+      "title": "Floating Vanity Channel Cabinets",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "description": "some information about general information",
+      "image": "/catalog/build/assets/cabinets/FVSFDC__24.png",
+      "link": "cat/index.html?cat=Floating%20Vanity%20Channel%20Cabinets",
+      "tags": ["vanity", "cabinet", "floating", "channel"]
+    },
+    {
+      "id": "7",
+      "title": "Tall Cabinets",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "description": "some information about general information",
+      "image": "https://webquoin.com/catalog/images/TP__80.jpg",
+      "link": "cat/index.html?cat=Tall%20Cabinets",
+      "tags": ["tall", "cabinet"]
+    },
+    {
+      "id": "8",
+      "title": "Tall Channel Cabinets",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "description": "some information about general information",
+      "image": "https://webquoin.com/catalog/images/CABINETS/DFD__79.jpg",
+      "link": "cat/index.html?cat=Tall%20Channel%20Cabinets",
+      "tags": ["tall", "cabinet", "channel"]
+    },
+    {
+      "id": "9",
+      "title": "Wall Cabinets",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "description": "some information about general information",
+      "image": "https://webquoin.com/catalog/images/W__33.jpg",
+      "link": "cat/index.html?cat=Wall%20Cabinets",
+      "tags": ["wall", "cabinet"]
+    },
+    {
+      "id": "10",
+      "title": "Wall Channel Cabinets",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "description": "some information about general information",
+      "image": "https://webquoin.com/catalog/images/JPGs/Modal/Wall/P__30sm.jpg",
+      "link": "cat/index.html?cat=Wall%20Channel%20Cabinets",
+      "tags": ["tall", "cabinet", "channel"]
+    },
+    {
+      "id": "11",
+      "title": "Wardrobe Cabinets",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "description": "some information about general information",
+      "image": "https://webquoin.com/catalog/images/C2D22T__89.jpg",
+      "link": "cat/index.html?cat=Wardrobe%20Cabinets",
+      "tags": ["wardrobe", "cabinet"]
+    },
+    {
+      "id": "12",
+      "visable": false,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "title": "Doors",
+      "description": "some information about general information",
+      "image": "https://webquoin.com/catalog/images/Brunswick2PC.jpg",
+      "link": "../doorstyle.php",
+      "tags": ["door"]
+    },
+    {
+      "id": "13",
+      "title": "Materials and Finishes",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "visable": false,
+      "description": "some information about general information",
+      "image": "https://firebasestorage.googleapis.com/v0/b/modcon-2b3c7.appspot.com/o/uploads%2Fmaterials%2FTM-01.jpg?alt=media&token=cffb2dc4-b621-4406-b172-b03f4e46839a",
+      "link": "../exteriormaterial.html",
+      "tags": ["material", "finish"]
+    },
+    {
+      "id": "14",
+      "title": "Finished Sides",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "visable": false,
+      "description": "some information about general information",
+      "image": "https://firebasestorage.googleapis.com/v0/b/modcon-2b3c7.appspot.com/o/uploads%2Fmaterials%2FTM-01.jpg?alt=media&token=cffb2dc4-b621-4406-b172-b03f4e46839a",
+      "link": "../FinishSide.html",
+      "tags": ["finish"]
+    },
+    {
+      "id": "15",
+      "title": "columns",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "description": "some information about general information",
+      "image": "https://st.hzcdn.com/simgs/07c1025902e2b56a_4-8427/beach-style-kitchen.jpg",
+      "link": "cat/columns/index.html#fronts",
+      "tags": ["column"]
+    },
+    {
+      "id": "16",
+      "title": "Accessories: ",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "description": "some information about general information",
+      "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/categories%2Faccessories.jpg?alt=media&token=f878edb0-8911-4e73-a1d8-55b5875f9df8",
+      "link": "cat/index.html?cat=Accessories",
+      "tags": ["led", "rgb", "accessory"],
+      "visable": true
+    },
+    {
+      "id": "21",
+      "title": "Trims and Moldings",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "description": "some information about general information",
+      "image": "https://thecraftsmanblog.com/wp-content/uploads/2012/05/wood-molding-trimwork-gtl0506-de.jpg",
+      "link": "cat/trim/trim.html?cat=Trims%20Moldings",
+      "tags": ["trim", "molding"],
+      "visable": true
+    },
+    {
+      "id": "22",
+      "title": "Counters",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "description": "some information about general information",
+      "image": "http://russwittmann.com/wp-content/uploads/2017/04/kitchen-countertops-south-jersey-together-with-installing-new-countertops-for-modern-kitchen-kitchen-picture-kitchen-counter-options.jpg",
+      "link": "counters",
+      "tags": ["counter"],
+      "visable": false
+    },
+    {
+      "id": "23",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "title": "Customization Charges",
+      "description": "some information about general information",
+      "image": "https://webquoin.com/catalog/images/CustomCodes/NoGap.jpg",
+      "link": "../CC-____.html",
+      "tags": ["customization", "charge"]
+    }
+  ]
+}

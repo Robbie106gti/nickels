@@ -1,0 +1,183 @@
+{
+  "Accessories": [
+    {
+      "code": "LED",
+      "title": "LED : Led Loox Lighting",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Led Loox Lighting",
+          "link": "acc/loox/index"
+        }
+      ],
+      "image": "/catalog/build/assets/loox/Loox%20strip%20led%20couche.jpg",
+      "tags": ["led", "kits", "spot", "strip", "parts", "shelf", "loox"]
+    },
+    {
+      "code": "HFU",
+      "title": "HFU : Hood fan units",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Hood fan units",
+          "link": "acc/Hood fans/index"
+        }
+      ],
+      "image": "/catalog/build/assets/hfu/HFU%20E%20preview.jpg",
+      "tags": ["hoodfan", "cabinet", "chrome"]
+    },
+    {
+      "code": "LEGS",
+      "title": "LEGS : Legs and Posts",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Legs and Posts",
+          "link": "legs/index"
+        }
+      ],
+      "image": "/catalog/build/assets/legs/legs.jpg",
+      "tags": ["hoodfan", "cabinet", "chrome"]
+    },
+    {
+      "code": "MSC",
+      "title": "MSC : Miscellaneous",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Miscellaneous",
+          "link": "acc/msc/index",
+          "cat": "Miscellaneous"
+        }
+      ],
+      "image": "/catalog/build/assets/tpod/tpod.jpg",
+      "tags": ["soap"],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
+    },
+    {
+      "code": "SH",
+      "title": "SH : Shelves",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Shelves",
+          "link": "acc/shelves/index",
+          "cat": "Shelves"
+        }
+      ],
+      "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/SH-TFS.jpg",
+      "tags": ["shelves"],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
+    },
+    {
+      "code": "P",
+      "title": "P : Panels",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Panels",
+          "link": "acc/panels/index",
+          "cat": "Panels"
+        }
+      ],
+      "image": "https://webquoin.com/catalog/images/JPGs/Custom/Accessories/DEP1.jpg",
+      "tags": ["panels"],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
+    },
+    {
+      "code": "F",
+      "title": "F : Fillers",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Fillers",
+          "link": "acc/fillers/index",
+          "cat": "Fillers"
+        }
+      ],
+      "image": "https://webquoin.com/catalog/images/Filler.gif",
+      "tags": ["fillers"],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
+    },
+    {
+      "code": "cab-ss",
+      "title": "Cabinet Storage Solutions",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Cabinet Storage Solutions",
+          "link": "acc/cab-ss/index",
+          "cat": "Storage"
+        }
+      ],
+      "image": "/catalog/build/assets/tpod/tpod.jpg",
+      "tags": [
+        "pull-outs",
+        "drawer",
+        "inserts",
+        "garabe",
+        "suzans",
+        "lazy",
+        "storage"
+      ],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
+    },
+    {
+      "code": "fin-end",
+      "title": "Finished Ends",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Finished End",
+          "link": "acc/fin-end/index",
+          "cat": "Finished Ends"
+        }
+      ],
+      "image": "https://webquoin.com/catalog/images/Headers/Finished-Sides/Webquoin/FE.png",
+      "tags": ["finish", "end", "right", "left", "bottom", "top"],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      }
+    }
+  ]
+}

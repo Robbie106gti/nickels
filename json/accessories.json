@@ -7,11 +7,60 @@
         {
           "code": "NONE",
           "title": "Led Loox Lighting",
-          "link": "acc/loox/index"
+          "link": "loox/index"
         }
       ],
       "image": "/catalog/build/assets/loox/Loox%20strip%20led%20couche.jpg",
       "tags": ["led", "kits", "spot", "strip", "parts", "shelf", "loox"]
+    },
+    {
+      "code": "RGB",
+      "title": "RGB : Recycle bins",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Recycle bins",
+          "link": "pod"
+        }
+      ],
+      "image": "/catalog/build/assets/rgb/38L%2038L%2012L%202.5L%20461950100%20rgb-pod-25.jpg",
+      "tags": ["single bin", "double bin", "4 bin"]
+    },
+    {
+      "code": "TPOD",
+      "title": "TPOD : Tall pull-out door",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Tall pull-out",
+          "link": "tpod/index"
+        }
+      ],
+      "image": "/catalog/build/assets/tpod/tpod.jpg",
+      "tags": [
+        "pantry",
+        "tall",
+        "hardware",
+        "maple",
+        "white",
+        "grey",
+        "chrome"
+      ],
+      "active": false
+    },
+    {
+      "code": "MC",
+      "title": "MC : Magic corners",
+      "attached": [
+        {
+          "code": "NONE",
+          "title": "Magic corners",
+          "link": "magic corner/index"
+        }
+      ],
+      "image": "/catalog/build/assets/mc/wari.jpg",
+      "tags": ["corner", "cab", "hardware", "maple", "white", "grey", "chrome"],
+      "active": false
     },
     {
       "code": "HFU",
@@ -20,7 +69,7 @@
         {
           "code": "NONE",
           "title": "Hood fan units",
-          "link": "acc/Hood fans/index"
+          "link": "Hood fans/index"
         }
       ],
       "image": "/catalog/build/assets/hfu/HFU%20E%20preview.jpg",
@@ -46,7 +95,7 @@
         {
           "code": "NONE",
           "title": "Miscellaneous",
-          "link": "acc/msc/index",
+          "link": "msc/index",
           "cat": "Miscellaneous"
         }
       ],
@@ -68,7 +117,7 @@
         {
           "code": "NONE",
           "title": "Shelves",
-          "link": "acc/shelves/index",
+          "link": "shelves/index",
           "cat": "Shelves"
         }
       ],
@@ -90,7 +139,7 @@
         {
           "code": "NONE",
           "title": "Panels",
-          "link": "acc/panels/index",
+          "link": "panels/index",
           "cat": "Panels"
         }
       ],
@@ -112,7 +161,7 @@
         {
           "code": "NONE",
           "title": "Fillers",
-          "link": "acc/fillers/index",
+          "link": "fillers/index",
           "cat": "Fillers"
         }
       ],
@@ -134,7 +183,7 @@
         {
           "code": "NONE",
           "title": "Cabinet Storage Solutions",
-          "link": "acc/cab-ss/index",
+          "link": "cab-ss/index",
           "cat": "Storage"
         }
       ],
@@ -164,7 +213,7 @@
         {
           "code": "NONE",
           "title": "Finished End",
-          "link": "acc/fin-end/index",
+          "link": "fin-end/index",
           "cat": "Finished Ends"
         }
       ],

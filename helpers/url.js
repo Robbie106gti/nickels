@@ -16,12 +16,11 @@ if (window.location !== window.parent.location) {
 }
 
 var code = $.urlParam('code') || null;
-var act = $.urlParam('act') ? false : true;
+var act = $.urlParam('act') || true;
 var page = $.urlParam('page') || null;
 var witem = $.urlParam('item') || null;
 var wpline = $.urlParam('pline') || null;
 var wcat = $.urlParam('cat') || null;
-var id = $.urlParam('id') || null;
 var host = window.location.protocol + window.location.host;
 var pth = window.location.pathname;
 var hash = window.location.hash;
@@ -37,9 +36,7 @@ var info = {
   wcat: wcat,
   host: host,
   pth: pth,
-  hash: hash,
-  edge: null,
-  id: id
+  hash: hash
 };
 
 console.log(info);
@@ -50,15 +47,4 @@ function setPline() {
 
 function setLine() {
   document.getElementById('prodline').innerHTML = '- ' + info.pline;
-}
-
-function imageSRC(src) {
-  if (src.indexOf('quoin.com') !== -1 || src.indexOf('http') !== -1) {
-    return src;
-  }
-  if (info.host !== 'http:127.0.0.1:5500') {
-    return src;
-  }
-  src = 'https://webquoin.com' + src;
-  return src;
 }

@@ -4,17 +4,20 @@ headerFooter('./');
 window.onload = getCatalog();
 
 function getCatalog() {
-  fetch('./json/catalog.json')
-    .then(function(response) {
+  fetch('./versions/v1/json/catalog.json')
+    .then(function (response) {
       return response.json();
     })
-    .then(function(data) {
+    .then(function (data) {
       // console.log(data['catalog']);
       data = data['catalog'];
       var html = ''.concat(
         data
-          .map(function(cat) {
+          .map(function (cat) {
             if (cat.visable === false) {
+              return '';
+            }
+            if (info.pline.toLocaleLowerCase === 'cornerstone' && cat.lines.cornerstone) {
               return '';
             }
             var html = cardMenu(cat);
@@ -24,7 +27,7 @@ function getCatalog() {
       );
       $('#catalog').html(html);
     })
-    ['catch'](function(err) {
-      return console.log(err);
-    });
+  ['catch'](function (err) {
+    return console.log(err);
+  });
 }

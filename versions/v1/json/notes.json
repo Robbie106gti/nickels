@@ -1,0 +1,293 @@
+{
+  "notes": [
+    {
+      "id": "0",
+      "title": "",
+      "link": "",
+      "content": "3/4\" RGB’s only possible in 3/4\" cabinet rooms, same for 5/8\" only possible in 5/8\" cabinet rooms."
+    },
+    {
+      "id": "1",
+      "title": "Change! ",
+      "link": "https://webquoin.com/catalog/solidtop.html",
+      "content": "We are replacing stretchers for ",
+      "contentLink": "Solid tops",
+      "ccontent": ", please see link for details."
+    },
+    {
+      "id": "2",
+      "title": "Movento slides",
+      "link": "#",
+      "content": ", due to the size of Movento hardware, drawerboxes below 8 3/8\" wide will use Tandem not Movento slides. Roughly that translates to a 10\" cabinet for a Drawer and 11\" for Rollout",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "3",
+      "title": "CC-D6 ",
+      "link": "#",
+      "content": "Due to the complexity of what this code can do, we require a detailed sketches/drawings of what you want to do",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "4",
+      "title": "CC-INCR-CORNER or CC-DCR-CORNER ",
+      "link": "#",
+      "content": "The left and right widths will always match (use a note to indicate widths that do not match and attach CC-INCR-CORNER or CC-DCR-CORNER custom charge)",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "5",
+      "title": "Door styles ",
+      "link": "#",
+      "content": "Be aware of the minimum door widths available as some door styles (like wide rail doors) will not work. There is a U-shaped cutout at the top of the center backing on this unit to allow access for fastening counters",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "6",
+      "title": "Drawer styles ",
+      "link": "#",
+      "content": "Drawers will only be available with a slab face for this cabinet type (regardless of the drawer standard that is normal for the door style selected). Available only with the Blum Intivo drawer systems. Be aware that the drawers in this cabinet may not match the drawer system chosen as a default in the room.",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "7",
+      "title": "Appliance specs, ",
+      "link": "#",
+      "content": "we recommend you include all appliance specifications when ordering. If specs are not included, the frame will be replaced by a veneer composite panel with square taped edges and cutouts will be done on site by others",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "8",
+      "title": "Floating Cabinet, ",
+      "link": "#",
+      "content": "It is recommended that you use 3\" screws with washers for installation. These screws are to be installed into wall studs (16\" center) in order to secure the cabinet",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "9",
+      "title": "Maximum cutout, ",
+      "link": "#",
+      "content": "The maximum cutout size for a single large cutout (double oven) is: ",
+      "contentLink": "",
+      "ccontent": "E + F + G = 502\" high or E + F + *G = 542\" high."
+    },
+    {
+      "id": "10",
+      "title": "A vertical center divider, ",
+      "link": "#",
+      "content": "will automatically be added in cabinets over 39\" wide and 12\" high. This vertical divider will be set back from the front edge by 1/16\". Each adjustable shelf will be separated into two, one on either side of the vertical center divider. In Webquoin, each pair of shelves will remain as a quantity of one in the cabinet details",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "11",
+      "title": "Doors, ",
+      "link": "#",
+      "content": "if doors are going on a unit with rods inside, only the 24\" deep and deeper units will work",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "12",
+      "title": "Hanging Corner, ",
+      "link": "#",
+      "content": "By default, depth modifications ONLY affect the left (non-rod) side of the cabinet. The right (36\" long) side is to remain fixed in depth",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "13",
+      "title": "Flush mount, ",
+      "link": "#",
+      "content": "make and model of the appliance(s) must be supplied with the installation instructions. ",
+      "contentLink": "",
+      "ccontent": "Model must be flush mount."
+    },
+    {
+      "id": "14",
+      "title": "CC-MILLWORK, ",
+      "link": "#",
+      "content": "may be added if complexity increases",
+      "contentLink": "",
+      "ccontent": ".",
+      "itemcodes": ["CC-MILLWORK"]
+    },
+    {
+      "id": "15",
+      "title": "Notches, ",
+      "link": "#",
+      "content": "may need to be cut in set shevling to allow for air flow dependent on appliance specifications",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "17",
+      "title": "Finishing, ",
+      "link": "#",
+      "content": "The bottom of the cabinet is unfinished. If finishing the bottom is required, attach Finish Cabinet Bottom (FCB)",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "18",
+      "title": "Dowelled, ",
+      "link": "#",
+      "content": "The back of the cabinet is dowelled for added strength and is joined with the Plywood top",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "19",
+      "title": "Finished ends, ",
+      "link": "#",
+      "content": "Melamines and Soho materials do not have finished ends available. Attach accessories CLM-FEL, CLM-FER or CLM-FELR to finish sides",
+      "contentLink": "",
+      "ccontent": ".",
+      "itemcodes": ["CLM-FEL", "CLM-FER", "CLM-FELR"]
+    },
+    {
+      "id": "20",
+      "title": "Gables, ",
+      "link": "#",
+      "content": "The gable depth is controled in webquoin, the final depth is gable depth plus front",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "21",
+      "title": "Depth, ",
+      "link": "#",
+      "content": "The depth of a default regular COLUMN is 24\" plus the front, which is always additional to depth. For a MITERED COLUMN the depth is 24 7/8\" including the front of Column",
+      "contentLink": "",
+      "ccontent": "."
+    },
+    {
+      "id": "22",
+      "title": "Materials, ",
+      "content": "for Melanines, Euro Materials or Gloss Columns use CLM column with CLM-101 front",
+      "itemcodes": ["CLM", "CLM-101"]
+    },
+    {
+      "id": "23",
+      "title": "Miter, ",
+      "content": "for mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front",
+      "itemcodes": ["CLM-MITER", "CLM-100"]
+    },
+    {
+      "id": "24",
+      "title": "Additional traides, ",
+      "content": "Use MSC-TRIADE to add extra(s) bracket to support more weight (7 kg/15 lbs per traide.)",
+      "itemcodes": ["MSC-TRIADE"]
+    },
+    {
+      "id": "25",
+      "title": "Ordering, ",
+      "content": "Procedure: After entering the Floating Shelf code in webQuoin, double click into the CC-SH-WXD and enter the width and depth dimensions.",
+      "itemcodes": ["CC-SH-WXD"]
+    },
+    {
+      "id": "26",
+      "title": "Form, ",
+      "link": "http://testquoin.com/catalog/build/assets/forms/Sink-Drawer-Dealer-Form-custom.pdf",
+      "content": "please fill out ",
+      "contentLink": "this form",
+      "ccontent": " and attach to job."
+    },
+    {
+      "id": "27",
+      "title": "Grain, ",
+      "content": "(if applicable) will run vertically, or in the direction of the selection in the Exterior Material Header Drop-Down Menu if there is a choice of VG or HG"
+    },
+    {
+      "id": "28",
+      "title": "Edge, ",
+      "content": "Only a square outside edge profile can be used in this application"
+    },
+    {
+      "id": "29",
+      "title": "The door style, ",
+      "content": "will only be applied onto the front face of the panel. Be aware that the joints may develop hairline cracks when applying paint onto a 5 piece door. This is considered normal and acceptable and therefore, not a warranty item."
+    },
+    {
+      "id": "30",
+      "title": "Factory join, ",
+      "itemcodes": ["cc-fj"],
+      "content": "If a veneer panel width must exceed the material size use the customization charge cc-fj to Factory join a panel. Contact Dealer Service for restrictions before ordering."
+    },
+    {
+      "id": "31",
+      "title": "Beads, ",
+      "content": "will cut into material and expose the core on wood veneer applications."
+    },
+    {
+      "id": "32",
+      "title": "Edge-tape grain, ",
+      "content": " will run in direction of the edge."
+    },
+    {
+      "id": "33",
+      "title": "Finished edges, ",
+      "content": "Euro Textured Melamine, Painted Gloss and UV Woodgrain Gloss must be a minimum of 4\" wide if you require all edges finished."
+    },
+    {
+      "id": "34",
+      "title": "Edges, ",
+      "content": "To detail and finish all edges of the over filler, add custom charge CC-FO-FINISH",
+      "itemcodes": ["CC-FO-FINISH"]
+    },
+    {
+      "id": "35",
+      "title": "Width, ",
+      "content": "Minimum width is 2\" wide"
+    },
+    {
+      "id": "36",
+      "title": "Finish side, ",
+      "content": "to finish the side of a cabinet in Melamine, Soho or Gloss use a PO.75P panel from the Finish Side Header Drop-Down Menu or manually attach a panel accessory, such as order code P.75P.",
+      "itemcodes": ["PO.75P", "P.75P"]
+    },
+    {
+      "id": "37",
+      "title": "Finish top/bottom, ",
+      "content": "to finish the top or bottom of a cabinet in TM (Textured Melamine), Soho or Gloss manually attach a panel accessory, such as order code P.75P or P.75P-1F.",
+      "itemcodes": ["P.75P", "P.75P-1F"]
+    },
+    {
+      "id": "38",
+      "title": "Finish bottom, ",
+      "content": "to finish the bottom of a cabinet in M White, M Maple, or Solid/Patterned Melamine where the interior and exterior materials do not match, attach a panel accessory."
+    },
+    {
+      "id": "39",
+      "title": "Movento slides, ",
+      "content": "due to the size of Movento hardware, ROS below 7\" wide will use Tandem not Movento slides."
+    },
+    {
+      "id": "40",
+      "title": "Tip-on, ",
+      "content": "due to the size of Tip-on hardware, on ROS's no tip-on can be offered."
+    },
+    {
+      "id": "41",
+      "title": "Door and rail, ",
+      "content": "Will not fit a 20 7/8\" wide door with a 2 1/4\" rail."
+    },
+    {
+      "id": "42",
+      "title": "BB cabinets, ",
+      "content": "When using the BB cabinet be aware that the gap between the drawer and the handle is very small and might not be easy to grip. It is recommended that the Magic Corner 2 be used in the BBFD."
+    },
+    {
+      "id": "43",
+      "title": "Blind corner cabinets, ",
+      "content": "LS-MSC2-MA is not available on 42\" and 43\" wide blind corner cabinets. When ordering on a 42\" BBFD the outer baskets will only be wire baskets."
+    }
+  ]
+}
