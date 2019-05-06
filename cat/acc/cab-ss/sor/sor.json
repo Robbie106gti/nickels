@@ -643,6 +643,81 @@
       "notes": ["42", "43"],
       "specifications": ["3080", "3081"],
       "description": "Blind Corner storage system that allows maximum storage and access for full door applications. Brand new sliding technology ensures that all components slide silently and effortlessly, even when the baskets are full. Front baskets pull out and swivel for easy viewing and access to the entire storage space. Rear baskets slide out for easy access to all stored items."
+    },
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "title": "Super Susan-Metal",
+      "code": "ls-pc-ss",
+      "images": [
+        {
+          "title": "Super Susan-Metal",
+          "image": "https://webquoin.com/catalog/images/SuperSusan-Metal.gif"
+        },
+        {
+          "title": "Super Susan-Metal ",
+          "image": "https://webquoin.com/catalog/images/Accessories/LazySusans/LS-PC-SS%201.jpg"
+        }
+      ],
+      "notes": ["50"],
+      "specifications": ["3100"],
+      "description": "A pair of 3/4\" railing for kidney-shaped Lazy Susans. Great for Base Corner Cabinets."
+    },
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "title": "Super Susan-Wood",
+      "code": "ls-pc-ss-wd",
+      "images": [
+        {
+          "title": "Super Susan wood",
+          "image": "https://webquoin.com/catalog/images/Accessories/LazySusans/LS-PC-SS-WD%201.jpg"
+        },
+        {
+          "title": "Super Susan drawing ",
+          "image": "https://webquoin.com/catalog/images/SuperSusan-Wood-1.gif"
+        }
+      ],
+      "notes": [],
+      "specifications": ["3101"],
+      "description": "Incorporate the warmth of maple into your kitchen while improving the accessibility of your corner cabinet. Comes as a pair."
+    },
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "title": "Super Susan-Wood",
+      "code": "ls-pc-wd",
+      "images": [
+        {
+          "title": "Super Susan wood",
+          "image": "https://webquoin.com/catalog/images/WoodPieCut-1.gif"
+        },
+        {
+          "title": "Super Susan drawing ",
+          "image": "https://webquoin.com/catalog/images/PlasticPieCut-1.gif"
+        }
+      ],
+      "notes": ["51"],
+      "specifications": ["3102"],
+      "description": "pivoting trays in maple finish."
     }
   ]
 }

@@ -1054,6 +1054,51 @@
       "id": "3081",
       "title": "Applicable on",
       "content": "all BBFD units that are 42\" (minimum door width of 17\") and wider."
+    },
+    {
+      "id": "3100",
+      "title": "Specifications",
+      "type": "list",
+      "list": [
+        "Tray Diameter 28\".",
+        "Finish: Chrome",
+        "Material: Metal",
+        "Trays included 2",
+        "Ordered as a pair of tray units",
+        "Melamine bottom with a wire rail.",
+        "Attaches to bottom shelf and middle shelf.",
+        "Available in all standard BC units."
+      ]
+    },
+    {
+      "id": "3101",
+      "title": "Specifications",
+      "type": "list",
+      "list": [
+        "Tray Diameter 28\".",
+        "Finish: Natural maple veneer",
+        "Material: Plywood",
+        "Load Rating: 64 lb",
+        "Trays included 2",
+        "Ordered as a pair of tray units",
+        "Wood bottom with a wood rail.",
+        "Attaches to bottom shelf and middle shelf.",
+        "Available in all standard BC units."
+      ]
+    },
+    {
+      "id": "3102",
+      "title": "Specifications",
+      "type": "list",
+      "list": [
+        "Tray Diameter 28\".",
+        "Rim Type: Laminated Hardwood",
+        "Finish: Natural maple veneer",
+        "Material: Plywood",
+        "Load Rating: 75 lb",
+        "Number of trays 2",
+        "Available in all standard BC units."
+      ]
     }
   ]
 }
