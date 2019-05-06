@@ -21,7 +21,7 @@ function getSubs() {
 
 function fetchCabinets(cat) {
   var catagory = cat.toLowerCase();
-  fetch('../versions/v1/node/json/'.concat(catagory, '.json'))
+  fetch('../versions/v1/json/'.concat(catagory, '.json'))
     .then(function (response) {
       return response.json();
     })

@@ -10,7 +10,7 @@ if ((pline = undefined)) {
 
 function getPage() {
   makeStructure();
-  fetch('../versions/v1/node/json/codes.json')
+  fetch('../versions/v1/json/codes.json')
     .then(function (response) {
       return response.json();
     })

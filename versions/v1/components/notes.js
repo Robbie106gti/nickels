@@ -1,5 +1,9 @@
 function setNotes(loc, notes) {
-  if (!notes.length) {
+  if (notes === undefined) {
+    console.log('notes are ', notes)
+    return;
+  }
+  if (!notes.length || notes === undefined) {
     console.log('notes is empty');
     return;
   }
