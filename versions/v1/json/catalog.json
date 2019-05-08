@@ -232,6 +232,7 @@
     {
       "id": "15",
       "title": "columns",
+      "visable": false,
       "lines": {
         "custom": true,
         "lighthouse": true,

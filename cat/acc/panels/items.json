@@ -543,7 +543,6 @@
       "description": "Typically used for finishing the backs of islands or peninsulas but can also be used for any other application that calls for this type of material.",
       "specifications": ["3009", "3030", "3031", "3032"],
       "notes": ["30", "27", "31", "32"],
-      "restrictions": ["2", "3"],
       "options": ["15", "16"],
       "images": [
         {
@@ -588,7 +587,7 @@
       "description": "Typically used for finishing the backs of islands or peninsulas but can also be used for any other application that calls for this type of material.",
       "specifications": ["3009", "3030", "3031", "3032"],
       "notes": ["30", "27", "32"],
-      "restrictions": ["2", "3"],
+      "options": ["17", "18"],
       "images": [
         {
           "title": "FRONT VIEW - FINISHED",
@@ -628,7 +627,7 @@
           "itemcode": "-1f"
         },
         {
-          "title": "Two faces and 3 taped edges",
+          "title": "Two faces and 1 detailed edge and 2 taped edges",
           "itemcode": "-de"
         },
         {
@@ -640,8 +639,7 @@
       "description": "Typically used for finishing the backs of islands or peninsulas but can also be used for any other application that calls for this type of material.",
       "specifications": ["3009", "3030", "3031", "3032"],
       "notes": ["30", "27", "32"],
-      "restrictions": ["2", "3"],
-      "options": ["3"],
+      "options": ["3", "19", "20", "21", "22"],
       "images": [
         {
           "title": "FRONT VIEW - FINISHED",
@@ -685,7 +683,6 @@
       "description": "Typically used for finishing the backs of islands or peninsulas but can also be used for any other application that calls for this type of material.",
       "specifications": ["3009", "3030", "3033", "3034"],
       "notes": ["30", "27", "31", "32"],
-      "restrictions": ["2", "3"],
       "images": [
         {
           "title": "FRONT VIEW - FINISHED",
@@ -710,7 +707,7 @@
         "modcon": false
       },
       "active": true,
-      "title": "Panel - 3/4\" Thick - Grooved",
+      "title": "Panel - 1 1/2\" Thick - Grooved",
       "itemcodes": [
         {
           "title": "Two faces and 3 taped edges",
@@ -721,7 +718,6 @@
       "description": "Typically used for finishing the backs of islands or peninsulas but can also be used for any other application that calls for this type of material.",
       "specifications": ["3009", "3030", "3033", "3034"],
       "notes": ["30", "27", "32"],
-      "restrictions": ["2", "3"],
       "images": [
         {
           "title": "FRONT VIEW - FINISHED",
@@ -769,8 +765,7 @@
       "description": "Typically used for finishing the backs of islands or peninsulas but can also be used for any other application that calls for this type of material.",
       "specifications": ["3009", "3030", "3033", "3034"],
       "notes": ["30", "27", "32"],
-      "restrictions": ["2", "3"],
-      "options": ["4"],
+      "options": ["4", "23", "24", "25", "26"],
       "images": [
         {
           "title": "FRONT VIEW - FINISHED",
@@ -818,7 +813,7 @@
           "itemcode": "-1f"
         },
         {
-          "title": "Two faces and 3 taped edges",
+          "title": "Two faces and 1 detailed edge and 2 taped edges",
           "itemcode": "-de"
         },
         {
@@ -826,7 +821,7 @@
           "itemcode": "-all"
         },
         {
-          "title": "Wood Edge - Two faces and 3 taped edges",
+          "title": "Wood Edge - Two faces and 1 wood edge and 2 taped edges",
           "itemcode": "-we"
         }
       ],
@@ -834,8 +829,7 @@
       "description": "Typically used for finishing the backs of islands or peninsulas but can also be used for any other application that calls for this type of material.",
       "specifications": ["3009", "3030", "3033", "3035", "3036"],
       "notes": ["30", "27", "32"],
-      "restrictions": ["2", "3"],
-      "options": ["4", "5"],
+      "options": ["4", "5", "27", "28", "29", "30", "31"],
       "images": [
         {
           "title": "FRONT VIEW - FINISHED",

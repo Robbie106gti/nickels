@@ -299,14 +299,104 @@
     {
       "id": "15",
       "title": "Two Sided",
-      "content": "For this panel (p.75b) the front and back are finished plus 3 edges(taped).",
+      "content": "For this panel (p.75b) the front and back are finished plus 3 taped edges.",
       "itemcodes": ["p.75b"]
     },
     {
       "id": "16",
       "title": "One sided",
-      "content": "For this panel (p.75b-1f) the front and 4 edges(taped) are finished.",
+      "content": "For this panel (p.75b-1f) the front is finished plus 4 taped edges.",
       "itemcodes": ["p.75b-1f"]
+    },
+    {
+      "id": "17",
+      "title": "Two Sided",
+      "content": "For this panel (p.75g) the front and back are finished plus 3 taped edges.",
+      "itemcodes": ["p.75g"]
+    },
+    {
+      "id": "18",
+      "title": "One sided",
+      "content": "For this panel (p.75g-1f) the front is finished plus 4 taped edges.",
+      "itemcodes": ["p.75g-1f"]
+    },
+    {
+      "id": "19",
+      "title": "Two Sided",
+      "content": "For this panel (p.75p) the front and back are finished plus 3 taped edges.",
+      "itemcodes": ["p.75p"]
+    },
+    {
+      "id": "20",
+      "title": "One sided",
+      "content": "For this panel (p.75p-1f) the front is finished plus 4 taped edges.",
+      "itemcodes": ["p.75p-1f"]
+    },
+    {
+      "id": "21",
+      "title": "Detailed edge",
+      "content": "For this panel (p.75p-de) the front and back are finished plus  1 detailed edge and 2 taped edges.",
+      "itemcodes": ["p.75p-de"]
+    },
+    {
+      "id": "22",
+      "title": "All sides and edges",
+      "content": "For this panel (p.75p-all) the front and back are finished plus 4 taped edges.",
+      "itemcodes": ["p.75p-all"]
+    },
+    {
+      "id": "23",
+      "title": "One sided",
+      "content": "For this panel (p1.5p-c-1f) the front is finished plus 4 taped edges.",
+      "itemcodes": ["p1.5p-c-1f"]
+    },
+    {
+      "id": "24",
+      "title": "Two Sided",
+      "content": "For this panel (p1.5p-c) the front and back are finished plus 3 taped edges.",
+      "itemcodes": ["p1.5p-c"]
+    },
+    {
+      "id": "25",
+      "title": "Detailed edge",
+      "content": "For this panel (p1.5p-c-de) the front and back are finished plus  1 detailed edge and 2 taped edges.",
+      "itemcodes": ["p1.5p-c-de"]
+    },
+    {
+      "id": "26",
+      "title": "All sides and edges",
+      "content": "For this panel (p1.5p-c-all) the front and back are finished plus 4 taped edges.",
+      "itemcodes": ["p1.5p-c-all"]
+    },
+    {
+      "id": "27",
+      "title": "One sided",
+      "content": "For this panel (p1.5p-p-1f) the front is finished plus 4 taped edges.",
+      "itemcodes": ["p1.5p-p-1f"]
+    },
+    {
+      "id": "28",
+      "title": "Two Sided",
+      "content": "For this panel (p1.5p-p) the front and back are finished plus 3 taped edges.",
+      "itemcodes": ["p1.5p-p"]
+    },
+    {
+      "id": "29",
+      "title": "Detailed edge",
+      "content": "For this panel (p1.5p-p-de) the front and back are finished plus 1 detailed edge and 2 taped edges.",
+      "itemcodes": ["p1.5p-p-de"]
+    },
+    {
+      "id": "30",
+      "title": "All sides and edges",
+      "content": "For this panel (p1.5p-p-all) the front and back are finished plus 4 taped edges.",
+      "itemcodes": ["p1.5p-p-all"]
+    },
+    {
+      "id": "31",
+      "title": "Wood edge",
+      "content": "For this panel (p1.5p-p-we) the front and back are finished plus 1 wood edge and 2 taped edges.",
+      "itemcodes": ["p1.5p-p-we"]
     }
   ]
 }

@@ -3,10 +3,10 @@ window.onload = getPage();
 info.cat = 'Slide-Out Storage Racks';
 function getPage() {
   fetch('./sor.json')
-    .then(function(response) {
+    .then(function (response) {
       return response.json();
     })
-    .then(function(data) {
+    .then(function (data) {
       // console.log(data);
       let page = new Array();
       let items = new Object();
@@ -24,7 +24,7 @@ function getPage() {
           items = data.bpods;
           break;
         case 'ls':
-          info.cat = 'Lazy Susans';
+          info.cat = 'Corner Solutions';
           page = data.items.ls;
           items = data.ls;
           break;
@@ -36,7 +36,7 @@ function getPage() {
       setGIA2({ title: info.cat });
       if (info.code) {
         itemstructure(
-          items.filter(function(item) {
+          items.filter(function (item) {
             return item.code === info.code;
           })[0]
         );
@@ -44,7 +44,7 @@ function getPage() {
         structure(page);
       }
     })
-    .catch(function(err) {
+    .catch(function (err) {
       return console.log(err);
     });
 }
@@ -55,7 +55,7 @@ function structure(items) {
     catalog.classList.add('grid');
   }
   const html = items
-    .map(function(item) {
+    .map(function (item) {
       return cardWith(item);
     })
     .join('');
@@ -103,7 +103,7 @@ function codesWithHeights(item) {
   return (
     '<ul>' +
     item.sizes
-      .map(function(size) {
+      .map(function (size) {
         const code = item.code.replace(item.cib, '') + size + item.cib;
         const ncode = {
           title: item.title + ' ' + size + '"',
@@ -120,9 +120,9 @@ function codesLRSizes(item) {
   return (
     '<ul>' +
     item.lr
-      .map(function(lr) {
+      .map(function (lr) {
         return item.sizes
-          .map(function(size) {
+          .map(function (size) {
             const ncode =
               item.constr[0] + lr.code + item.constr[1] + size + item.constr[2];
             const title =
@@ -141,7 +141,7 @@ function lemans(item) {
     return (
       '<ul>' +
       item.finish
-        .map(function(fi) {
+        .map(function (fi) {
           const ncode = item.code + '-' + fi.code;
           const title = item.title + ' - ' + titleCase(fi.title);
           return '<li>' + basicCode({ title: title, code: ncode }) + '</li>';
@@ -154,11 +154,11 @@ function lemans(item) {
     return (
       '<h5>Hardware codes:</h5><table><tr><th>Finish</th><th>Cabinet width</th><th>Hinged</th><th>Ordercode</th></th>' +
       item.sizes
-        .map(function(size) {
+        .map(function (size) {
           return item.lr
-            .map(function(lr) {
+            .map(function (lr) {
               return item.finish
-                .map(function(fi) {
+                .map(function (fi) {
                   const ncode = item.code + lr.code + '-' + fi.code + size;
                   return (
                     '<tr>' +

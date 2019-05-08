@@ -150,7 +150,7 @@
     },
     {
       "code": "ls",
-      "title": "Lazy Susans",
+      "title": "Corner Solutions",
       "lines": {
         "custom": true,
         "lighthouse": true,
@@ -165,7 +165,7 @@
           "image": "https://webquoin.com/catalog/images/PlasticPieCut-2.gif"
         }
       ],
-      "tags": ["rotates", "storage", "base", "corner"],
+      "tags": ["lazy", "susans", "storage", "base", "corner", "magic"],
       "active": true
     }
   ]
