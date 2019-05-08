@@ -926,8 +926,7 @@
       "description": "Typically used to fix up site damage on finished ends.",
       "specifications": ["3009", "3030"],
       "notes": ["27"],
-      "options": ["6", "7"],
-      "restrictions": ["3"],
+      "options": ["14"],
       "images": [
         {
           "title": "",

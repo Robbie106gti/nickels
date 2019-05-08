@@ -48,6 +48,5 @@ function makeStructure(info) {
     restrictionsSpecs('../../..', info.item.restrictions);
   $('#table').html('<div class="card-panel">' + simpleTable(info) + '</div>');
   description(info.item.title, info.item.description);
-  // $('#codes').html(setCode(info.item.code));
   setNotes('../../../', info.item.notes);
 }
