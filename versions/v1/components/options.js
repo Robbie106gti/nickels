@@ -52,11 +52,11 @@ function optionHtml(options) {
 function optionSwitch(opt) {
   switch (opt.type) {
     case 'list':
-      return listOption(opt);
+      return opt.itemcodes ? htmlAddCodes(listOption(opt), opt.itemcodes) : listOption(opt);
     case 'modal':
-      return makemodalspec(opt);
+      return opt.itemcodes ? htmlAddCodes(makemodalspec(opt), opt.itemcodes) : makemodalspec(opt);
     default:
-      return '<b>' + opt.title + ' :</b> ' + opt.content;
+      return opt.itemcodes ? htmlAddCodes('<b>' + opt.title + ' :</b> ' + opt.content, opt.itemcodes) : '<b>' + opt.title + ' :</b> ' + opt.content;
   }
 }
 

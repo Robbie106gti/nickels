@@ -295,6 +295,18 @@
       "title": "On-site",
       "content": "if required to be applied on-site order a VLAM or PLAM Accessory in WQ.",
       "itemcodes": ["VLAM", "PLAM"]
+    },
+    {
+      "id": "15",
+      "title": "Two Sided",
+      "content": "For this panel (p.75b) the front and back are finished plus 3 edges(taped).",
+      "itemcodes": ["p.75b"]
+    },
+    {
+      "id": "16",
+      "title": "One sided",
+      "content": "For this panel (p.75b-1f) the front and 4 edges(taped) are finished.",
+      "itemcodes": ["p.75b-1f"]
     }
   ]
 }

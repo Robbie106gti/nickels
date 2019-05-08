@@ -544,6 +544,7 @@
       "specifications": ["3009", "3030", "3031", "3032"],
       "notes": ["30", "27", "31", "32"],
       "restrictions": ["2", "3"],
+      "options": ["15", "16"],
       "images": [
         {
           "title": "FRONT VIEW - FINISHED",
