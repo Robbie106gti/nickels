@@ -14,23 +14,23 @@ function getSubs() {
   setGI(cat);
   const catagory = cat.toLowerCase();
   fetch('../../versions/v1/json/' + catagory + '.json')
-    .then(function (response) {
+    .then(function(response) {
       return response.json();
     })
-    .then(function (data) {
+    .then(function(data) {
       data = data[cat];
       params.item !== null ? buildItem(data, params) : mainCatView(data);
     })
-    .then(function () {
+    .then(function() {
       initMaterializeJS();
     })
-    .catch(function (err) {
+    .catch(function(err) {
       console.log(err);
     });
 }
 
 function initMaterializeJS() {
-  $(document).ready(function () {
+  $(document).ready(function() {
     $('.modal').modal({
       dismissible: true
     });
@@ -41,23 +41,24 @@ function structure(params) {
   const html =
     params.item !== null
       ? '<div id="modals"></div>'.concat(
-        '<div class="col s12 m6">',
-        '<div id="des"></div>',
-        '<div id="specs"></div>',
-        '<div id="notes"></div>',
-        '</div>',
-        '<div class="col s12 m6">',
-        '<div id="images"></div>',
-        '</div>',
-        '<div id="codes" class="col s12 m6"></div>',
-        '<div id="options2" class="col s12 m6"></div>'
-      )
+          '<div class="col s12 m6">',
+          '<div id="des"></div>',
+          '<div id="specs"></div>',
+          '<div id="notes"></div>',
+          '</div>',
+          '<div class="col s12 m6">',
+          '<div id="images"></div>',
+          '</div>',
+          '<div id="codes" class="col s12 m6"></div>',
+          '<div id="options2" class="col s12 m6"></div>'
+        )
       : null;
   $('#catalog').html(html);
 }
 
 function mainCatView(data) {
-  data.sort(function (a, b) {
+  data = plinesFilterItems(data);
+  data.sort(function(a, b) {
     if (a.title.toLowerCase() < b.title.toLowerCase()) return -1;
     if (a.title.toLowerCase() > b.title.toLowerCase()) return 1;
     return 0;
@@ -65,7 +66,7 @@ function mainCatView(data) {
   const b = document.getElementById('catalog');
   !info.edge ? (b.className += ' grid') : '';
   const html = data
-    .map(function (cat) {
+    .map(function(cat) {
       return (
         '<div class="card ' +
         info.edge +
@@ -92,7 +93,7 @@ function mainCatView(data) {
 }
 
 function buildItem(data, params) {
-  const item = data.filter(function (item) {
+  const item = data.filter(function(item) {
     return item.code === params.item;
   })[0];
   setGI({
@@ -134,7 +135,7 @@ function setImages(item) {
       );
   }
   $('#images').html(image);
-  $(document).ready(function () {
+  $(document).ready(function() {
     $('.materialboxed').materialbox();
   });
 }
@@ -194,7 +195,7 @@ function setStandards(item) {
     '<div class="divider"></div>',
     '<div id="specli"><ul class="flow-text">',
     specs
-      .map(function (spec) {
+      .map(function(spec) {
         return (
           '<li><small><b>' +
           spec.title +
@@ -224,16 +225,16 @@ function setOptions(options) {
     '<div class="divider"></div>',
     '<div id="specli"><ul class="flow-text">',
     options
-      .map(function (option) {
+      .map(function(option) {
         return option.active === false
           ? ''
           : '<li><small><b>' +
-          option.title +
-          ': </b>' +
-          option.content +
-          '</small>' +
-          (option.action ? actionButton(option) : '') +
-          '</li>';
+              option.title +
+              ': </b>' +
+              option.content +
+              '</small>' +
+              (option.action ? actionButton(option) : '') +
+              '</li>';
       })
       .join(''),
     '</ul></div>'
@@ -258,7 +259,7 @@ function setOptions2(option) {
     option.optionsTitle,
     '</span>',
     option.options
-      .map(function (option) {
+      .map(function(option) {
         return (
           '<li><b>' +
           ordercodes(option.code) +
@@ -277,7 +278,7 @@ function setOptions2(option) {
     '<div class="divider"></div>',
     '<ul class="col s12"><span><h5>Standards</h5></span>',
     option.standards
-      .map(function (option) {
+      .map(function(option) {
         return '<li>' + option + '</li>';
       })
       .join(''),
@@ -304,14 +305,14 @@ function setCodes(item) {
         '<table class="bordered striped highlight">',
         '<theader><tr>',
         item.table.header
-          .map(function (th) {
+          .map(function(th) {
             return '<th>' + th + '</th>';
           })
           .join(''),
         '</tr></theader>',
         '<tbody>',
         item.table.content
-          .map(function (row) {
+          .map(function(row) {
             return '<tr><td>'.concat(
               row.de,
               '</td><td><ul><li>',
@@ -339,60 +340,60 @@ function tableTwo(table) {
     '<table class="bordered striped highlight">',
     '<theader><tr>',
     table.header
-      .map(function (th) {
+      .map(function(th) {
         return '<th>' + th + '</th>';
       })
       .join(''),
     '</tr></theader>',
     '<tbody>',
     table.content
-      .map(function (row) {
+      .map(function(row) {
         return row.active === false
           ? ''
           : '<tr>'.concat(
-            '<td>',
-            row.code,
-            '</td>',
-            '<td>',
-            row.unique ? 'Set height' : row.heights + ' (Inch)',
-            '</td>',
-            '<td>',
-            row.unique ? 'Set lengths' : row.lengths + ' (feet)',
-            '</td>',
-            '<td>',
-            row.unique
-              ? ordercodes(row.code)
-              : '<a class="dropdown-button btn" href="#" data-activates="dropdownordercodes' +
-              row.code +
-              '">OrderCodes</a>',
-            '<ul id="dropdownordercodes' +
-            row.code +
-            '" class="dropdown-content">' +
-            row.heights
-              .map(function (height) {
-                return row.lengths
-                  .map(function (length) {
-                    const wcode = row.code + height + '-' + length;
-                    return (
-                      '<li>' +
-                      ordercodes(wcode) +
-                      '<small>' +
-                      height +
-                      '" high - ' +
-                      length +
-                      ' long</small></li>'
-                    );
+              '<td>',
+              row.code,
+              '</td>',
+              '<td>',
+              row.unique ? 'Set height' : row.heights + ' (Inch)',
+              '</td>',
+              '<td>',
+              row.unique ? 'Set lengths' : row.lengths + ' (feet)',
+              '</td>',
+              '<td>',
+              row.unique
+                ? ordercodes(row.code)
+                : '<a class="dropdown-button btn" href="#" data-activates="dropdownordercodes' +
+                    row.code +
+                    '">OrderCodes</a>',
+              '<ul id="dropdownordercodes' +
+                row.code +
+                '" class="dropdown-content">' +
+                row.heights
+                  .map(function(height) {
+                    return row.lengths
+                      .map(function(length) {
+                        const wcode = row.code + height + '-' + length;
+                        return (
+                          '<li>' +
+                          ordercodes(wcode) +
+                          '<small>' +
+                          height +
+                          '" high - ' +
+                          length +
+                          ' long</small></li>'
+                        );
+                      })
+                      .join('');
                   })
-                  .join('');
-              })
-              .join(''),
-            '</ul>',
-            '</td>',
-            '<td>',
-            row.description,
-            '</td>',
-            '</tr>'
-          );
+                  .join(''),
+              '</ul>',
+              '</td>',
+              '<td>',
+              row.description,
+              '</td>',
+              '</tr>'
+            );
       })
       .join(''),
     '</tbody>',
@@ -407,14 +408,14 @@ function tableThree(table) {
     '<table class="bordered striped highlight">',
     '<theader><tr>',
     table.header
-      .map(function (th) {
+      .map(function(th) {
         return '<th>' + th + '</th>';
       })
       .join(''),
     '</tr></theader>',
     '<tbody>',
     table.content
-      .map(function (row) {
+      .map(function(row) {
         return '<tr>'.concat(
           '<td>',
           row.lengths,
@@ -433,7 +434,7 @@ function tableThree(table) {
           row.code,
           '" class="dropdown-content">',
           row.lengths
-            .map(function (length) {
+            .map(function(length) {
               const wcode = row.code + '-' + length;
               return (
                 '<li>' +
@@ -485,15 +486,15 @@ function setRestrictions(res) {
     '</span>',
     '<div class="divider"></div>',
     '<div id="specli"><ul class="flow-text">' +
-    res
-      .map(function (r) {
-        return (
-          '<li><small><i  class="material-icons">notifications</i> - ' +
-          r +
-          '</small></li>'
-        );
-      })
-      .join(''),
+      res
+        .map(function(r) {
+          return (
+            '<li><small><i  class="material-icons">notifications</i> - ' +
+            r +
+            '</small></li>'
+          );
+        })
+        .join(''),
     '</ul></div>'
   );
   return htmlrestictions;
@@ -502,7 +503,7 @@ function setRestrictions(res) {
 function setNotes(notes) {
   if (notes === undefined) return '';
   let htmlnotes = notes
-    .map(function (note) {
+    .map(function(note) {
       return '<div class="card orange lighten-4">'.concat(
         '<p class="note flow-text">',
         '<i class="material-icons">announcement</i>',
@@ -539,25 +540,25 @@ function setGI(data) {
   const cat = isString(data)
     ? '<h1 id="topic">' + data + '</h1>'
     : '<h1 id="topic">' +
-    data.sub +
-    '</h1><h5>' +
-    data.title +
-    '</h5><div id="actions"></div>';
+      data.sub +
+      '</h1><h5>' +
+      data.title +
+      '</h5><div id="actions"></div>';
   $('#topic').html(cat);
 }
 
 function getEdges() {
   fetch('../../json/edges.json')
-    .then(function (response) {
+    .then(function(response) {
       return response.json();
     })
-    .then(function (data) {
+    .then(function(data) {
       const shownEdges = new Array();
-      data.forEach(function (edge) {
+      data.forEach(function(edge) {
         return edges.includes(edge.title) ? shownEdges.push(edge) : '';
       });
       const html = shownEdges
-        .map(function (e) {
+        .map(function(e) {
           return (
             '<div class="card padding"> <img class="responsive-img" src="' +
             imageSRC(e.image) +
@@ -585,7 +586,7 @@ function getEdges() {
       $('#modals').html(modaledges);
       initMaterializeJS();
     })
-    .catch(function (err) {
+    .catch(function(err) {
       console.log(err);
     });
 }

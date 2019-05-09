@@ -74,17 +74,8 @@ npm-debug.log
 testem.log
 
 # JSON files
-<<<<<<< HEAD
-*/codes.json
-*/specifications.json
-*/notes.json
-*/addons.json
-*/pod.json
-package-lock.json
-=======
 # */codes.json
 # */specifications.json
 # */notes.json
 # */addons.json
 # */pod.json
->>>>>>> 921de2314a88e6623eaf5b747e927aacc0aa4827
