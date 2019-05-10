@@ -323,7 +323,7 @@
     {
       "id": "2006",
       "title": "Open Cabinets",
-      "content": "finish of the cabinet is controlled with the interior material dropdown-menu, best pratice for \"Open Cabinets\" is to create a separate room default for them."
+      "content": "Finish of the cabinet is controlled with the interior material dropdown-menu, best pratice for \"Open Cabinets\" is to create a separate room default for them."
     },
     {
       "id": "2007",
@@ -458,7 +458,7 @@
     {
       "id": "3007",
       "title": "Available Materials",
-      "content": "all Wood Species, Engineered and Painted applications."
+      "content": "All Wood Species and Painted applications."
     },
     {
       "id": "3008",
@@ -503,27 +503,27 @@
     {
       "id": "3016",
       "title": "Available Materials",
-      "content": "available in Wood Veneer and Painted doors."
+      "content": "Available in Wood Veneer and Painted doors."
     },
     {
       "id": "3017",
       "title": "Finishing",
-      "content": "Finished both faces and 2 taped edges"
+      "content": "Finished both faces and 3 taped edges"
     },
     {
       "id": "3018",
       "title": "Construction",
-      "content": "nominal 1 9/16\" thick panel constructed from a door integrated with a 3/4\" back panel. Can be ordered as a wide horizontal panel (DEPH) or a tall vertical panel (DEPV). The dimensions for the stiles and rails will match the specifications of the selected door"
+      "content": "Nominal 1 9/16\" thick panel constructed from a door integrated with a 3/4\" back panel. Can be ordered as a wide horizontal panel (DEPH) or a tall vertical panel (DEPV). The dimensions for the stiles and rails will match the specifications of the selected door"
     },
     {
       "id": "3019",
       "title": "Construction",
-      "content": "nominal 1 9/16\" thick panel constructed from a door integrated with a 3/4\" back panel. Can be ordered as a wide horizontal panel (DEPH-EBR) or a tall vertical panel (DEPV-EBR)._Total height includes the extended bottom rail."
+      "content": "Nominal 1 9/16\" thick panel constructed from a door integrated with a 3/4\" back panel. Can be ordered as a wide horizontal panel (DEPH-EBR) or a tall vertical panel (DEPV-EBR)._Total height includes the extended bottom rail."
     },
     {
       "id": "3020",
       "title": "Construction",
-      "content": "nominal 1 9/16\" thick panel constructed from a door integrated with a 3/4\" back panel. Can be ordered as a wide horizontal panel (DEPH-MK) or a tall vertical panel (DEPV-MK). Total height includes the mock kick."
+      "content": "Nominal 1 9/16\" thick panel constructed from a door integrated with a 3/4\" back panel. Can be ordered as a wide horizontal panel (DEPH-MK) or a tall vertical panel (DEPV-MK). Total height includes the mock kick."
     },
     {
       "id": "3021",
@@ -682,27 +682,27 @@
     {
       "id": "3037",
       "title": "Construction",
-      "content": "the panel is made out of composite core 3/4\"."
+      "content": "The panel is made out of composite core 3/4\"."
     },
     {
       "id": "3038",
       "title": "Edges",
-      "content": "panel edges are not finished."
+      "content": "Panel edges are not finished."
     },
     {
       "id": "3039",
       "title": "Height",
-      "content": "we recommend that filler heights match adjacent cabinet heights."
+      "content": "We recommend that filler heights match adjacent cabinet heights."
     },
     {
       "id": "3040",
       "title": "Finish",
-      "content": "front face will always be finished."
+      "content": "Front face will always be finished."
     },
     {
       "id": "3041",
       "title": "Construction",
-      "content": "the panel is made out of composite core."
+      "content": "The panel is made out of composite core."
     },
     {
       "id": "3042",
@@ -722,12 +722,12 @@
     {
       "id": "3045",
       "title": "Construction",
-      "content": "veneer for wood, MDF for painted applications. High Pressure laminate (HPL) for Mesa, Como and Plateau."
+      "content": "Veneer for wood, MDF for painted applications. High Pressure laminate (HPL) for Mesa, Como and Plateau."
     },
     {
       "id": "3046",
       "title": "Specify",
-      "content": "cabinet’s End Application, L (left), R (right) or L/R. Choose FE from the the Finish Side Header Drop-Down Menu in WQ."
+      "content": "Cabinet’s End Application, L (left), R (right) or L/R. Choose FE from the the Finish Side Header Drop-Down Menu in WQ."
     },
     {
       "id": "3047",
@@ -766,7 +766,7 @@
     {
       "id": "3053",
       "title": "Construction depths",
-      "content": "available for cabinets with a minimum depth of 12\" and a maximum depth of 24\"."
+      "content": "Available for cabinets with a minimum depth of 12\" and a maximum depth of 24\"."
     },
     {
       "id": "3054",
@@ -842,7 +842,7 @@
     {
       "id": "3060",
       "title": "Attaches",
-      "content": "unit is attached to door and pulls out when door is opened."
+      "content": "Unit is attached to door and pulls out when door is opened."
     },
     {
       "id": "3061",
@@ -896,7 +896,7 @@
     {
       "id": "3069",
       "title": "Towel rack",
-      "content": "has a non-slip surface to keep towels in place."
+      "content": "Has a non-slip surface to keep towels in place."
     },
     {
       "id": "3070",
@@ -906,7 +906,7 @@
     {
       "id": "3071",
       "title": "Slide",
-      "content": "uses a Soft-close mechanism."
+      "content": "Uses a Soft-close mechanism."
     },
     {
       "id": "3072",
@@ -926,7 +926,7 @@
     {
       "id": "3074",
       "title": "Storage shelves",
-      "content": "includes 2 chrome wire baskets."
+      "content": "Includes 2 chrome wire baskets."
     },
     {
       "id": "3075",
@@ -1038,7 +1038,7 @@
     {
       "id": "3079",
       "title": "Applicable on",
-      "content": "all BB and BBFD units that are 42\" (minimum door width of 17\") and wider."
+      "content": "All BB and BBFD units that are 42\" (minimum door width of 17\") and wider."
     },
     {
       "id": "3080",
@@ -1053,7 +1053,7 @@
     {
       "id": "3081",
       "title": "Applicable on",
-      "content": "all BBFD units that are 42\" (minimum door width of 17\") and wider."
+      "content": "All BBFD units that are 42\" (minimum door width of 17\") and wider."
     },
     {
       "id": "3100",
@@ -1099,6 +1099,11 @@
         "Number of trays 2",
         "Available in all standard BC units."
       ]
+    },
+    {
+      "id": "3103",
+      "title": "Maximum panel sizes",
+      "content": "Maximum panel size is based on the exterior material and door style."
     }
   ]
 }

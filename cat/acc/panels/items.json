@@ -309,9 +309,8 @@
       ],
       "code": "dep",
       "description": "Typically used for finishing the backs of islands or peninsulas but can also be used for any other application that calls for this type of material",
-      "specifications": ["3016", "3017", "3018"],
-      "options": ["0", "1"],
-      "restrictions": ["0"],
+      "specifications": ["3016", "3017", "3018", "3103"],
+      "restrictions": ["5"],
       "images": [
         {
           "title": "FRONT VIEW - FINISHED",
@@ -359,9 +358,8 @@
       "code": "dep-ebr",
       "cib": "-ebr",
       "description": "Typically used for finishing the backs of islands or peninsulas but can also be used for any other application that calls for this type of material.",
-      "specifications": ["3016", "3017", "3019"],
-      "options": ["0", "1"],
-      "restrictions": ["0"],
+      "specifications": ["3016", "3017", "3019", "3103"],
+      "restrictions": ["5"],
       "images": [
         {
           "title": "FRONT VIEW - FINISHED",
@@ -409,9 +407,8 @@
       "code": "dep-mk",
       "cib": "-mk",
       "description": "Typically used for finishing the backs of islands or peninsulas but can also be used for any other application that calls for this type of material.",
-      "specifications": ["3016", "3017", "3020"],
-      "options": ["0", "1"],
-      "restrictions": ["0"],
+      "specifications": ["3016", "3017", "3020", "3103"],
+      "restrictions": ["5"],
       "images": [
         {
           "title": "FRONT VIEW - FINISHED",
