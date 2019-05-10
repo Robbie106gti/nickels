@@ -1,10 +1,10 @@
 var csv = require('csv-parser');
 var createCsvWriter = require('csv-writer').createObjectCsvWriter;
 var fs = require('fs');
-var codes = JSON.parse(fs.readFileSync('./categories/item/columns/items.json'));
+var codes = JSON.parse(fs.readFileSync('./cat/columns/items.json'));
 
 var csvWriter = createCsvWriter({
-  path: 'categories/item/columns/data.csv',
+  path: 'cat/columns/data.csv',
   header: [
     { id: 'title', title: 'Title' },
     { id: 'itemcode', title: 'Item Code' },
@@ -24,10 +24,10 @@ const htmlFile = (code, title) => `<!DOCTYPE html>
   <head>
     <meta
       http-equiv="refresh"
-      content="0; url=/categories/item/columns/index.html?code=${code}"
+      content="0; url=/cat/columns/index.html?code=${code}"
     />
     <script type="text/javascript">
-      window.location.href = '/categories/item/columns/index.html?code=${code}';
+      window.location.href = '/cat/columns/index.html?code=${code}';
     </script>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
@@ -40,11 +40,11 @@ const htmlFile = (code, title) => `<!DOCTYPE html>
 
   <body>
     <div class="container">
-      <a href="/categories/item/columns/index.html?code=${code}">
+      <a href="/cat/columns/index.html?code=${code}">
         <h1>${title}</h1>
       </a>
       <p>
-        <a href="/categories/item/columns/index.html?code=${code}">Redirect</a>
+        <a href="/cat/columns/index.html?code=${code}">Redirect</a>
       </p>
     </div>
   </body>
@@ -67,14 +67,10 @@ const csvdata = codes.items.map(code => {
 createCsv(csvdata);
 
 function createFile(html, code, title) {
-  fs.writeFile(
-    'categories/item/columns/redirects/' + html,
-    htmlFile(code, title),
-    function(err) {
-      if (err) throw err;
-      console.log('File is created successfully.');
-    }
-  );
+  fs.writeFile('/redirects/' + html, htmlFile(code, title), function(err) {
+    if (err) throw err;
+    console.log('File is created successfully.');
+  });
 }
 
 function createCsv(data) {

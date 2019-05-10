@@ -20,15 +20,15 @@
       ]
     },
     {
+      "active": true,
       "lines": {
         "custom": true,
         "lighthouse": true,
         "cornerstone": true,
-        "modal": false,
-        "modcon": false
+        "modal": true,
+        "modcon": true
       },
       "tags": ["aluminum", "profiles"],
-      "active": true,
       "title": "Aluminum Profiles",
       "code": "alupro",
       "images": [
@@ -43,8 +43,8 @@
         "custom": true,
         "lighthouse": true,
         "cornerstone": true,
-        "modal": false,
-        "modcon": false
+        "modal": true,
+        "modcon": true
       },
       "tags": ["drawer", "sink", "order-later"],
       "active": true,
@@ -56,6 +56,25 @@
           "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FSink%20Drawer%2F1548861070840_Sink%20Drawer%20-%20custom%20dealer%20form.PNG?alt=media&token=4fdabae7-6e03-4b2d-8b19-e73ea51ba370"
         }
       ]
+    },
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "tags": ["prepare", "dowels"],
+      "active": true,
+      "title": "Insert plastic dowels for screws",
+      "code": "oe-prep",
+      "images": [
+        {
+          "title": "",
+          "image": "/catalog/build/assets/msc/oe-prep.png"
+        }
+      ]
     }
   ],
   "items": [
@@ -64,8 +83,8 @@
         "custom": true,
         "lighthouse": true,
         "cornerstone": true,
-        "modal": false,
-        "modcon": false
+        "modal": true,
+        "modcon": true
       },
       "active": true,
       "title": "Soap Trays",
@@ -133,8 +152,8 @@
         "custom": true,
         "lighthouse": true,
         "cornerstone": true,
-        "modal": false,
-        "modcon": false
+        "modal": true,
+        "modcon": true
       },
       "active": true,
       "title": "Aluminum Profiles",
@@ -154,8 +173,8 @@
         "custom": true,
         "lighthouse": true,
         "cornerstone": true,
-        "modal": false,
-        "modcon": false
+        "modal": true,
+        "modcon": true
       },
       "active": true,
       "title": "Sink drawer order later (per drawer)",
@@ -174,6 +193,31 @@
         {
           "title": "",
           "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FSink%20Drawer%2F1548861070840_Sink%20Drawer%20-%20custom%20dealer%20form.PNG?alt=media&token=4fdabae7-6e03-4b2d-8b19-e73ea51ba370"
+        }
+      ]
+    },
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "active": true,
+      "type": "simple",
+      "title": "OE: Prep hinge",
+      "itemcodes": [],
+      "code": "oe-prep",
+      "description": "Prep door for hinges with plastic insert",
+      "standards": [
+        "No charge hinge prep (used mainly for refacing kitchen with doors and dealer is supplying their own hinges)  (also used when sending a fix up door and hinges are on site) "
+      ],
+      "notes": [],
+      "images": [
+        {
+          "title": "",
+          "image": "/catalog/build/assets/msc/oe-prep.png"
         }
       ]
     }

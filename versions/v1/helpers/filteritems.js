@@ -20,6 +20,9 @@ function plinesFilterItems(array) {
 
 function skipItem(item) {
   let bull = true;
+  if (info.active === false) {
+    return bull;
+  }
   item.visable === false ? (bull = false) : '';
   item.active === false ? (bull = false) : '';
   if (item.lines) {

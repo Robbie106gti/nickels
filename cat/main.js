@@ -26,10 +26,7 @@ function fetchCabinets(cat) {
       return response.json();
     })
     .then(function(data) {
-      data = data[cat];
-      if (info.active !== 'false') {
-        data = plinesFilterItems(data);
-      }
+      data = plinesFilterItems(data[cat]);
       data.length === 0
         ? data.push({
             title: 'No items in this Category for ' + titleCase(pline),
@@ -61,11 +58,11 @@ function fetchGI(cat) {
     })
     .then(function(data) {
       // console.log(data['catalog']);
-      data = data[cat];
+      data = plinesFilterItems(data[cat]);
       var html = ''.concat(
         data
           .map(function(cat) {
-            return cat.active === false ? null : switchCard(cat);
+            return switchCard(cat);
           })
           .join('')
       );
