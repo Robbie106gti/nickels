@@ -1,6 +1,6 @@
 function filterItems(data, items) {
   // console.log(data)
-  return data.filter(function (el, i) {
+  return data.filter(function(el, i) {
     var t = items.includes(el.id);
     var id;
     if (t === true) {
@@ -10,4 +10,26 @@ function filterItems(data, items) {
     }
     return el.id === id;
   });
+}
+
+function plinesFilterItems(array) {
+  return array.filter(function(a) {
+    return skipItem(a);
+  });
+}
+
+function skipItem(item) {
+  let bull = true;
+  if (info.active === false) {
+    return bull;
+  }
+  item.visable === false ? (bull = false) : '';
+  item.active === false ? (bull = false) : '';
+  if (item.lines) {
+    item.lines[info.pline] === false ? (bull = false) : '';
+  }
+  if (!item.lines) {
+    console.log('this item has no product lines: ' + item.title);
+  }
+  return bull;
 }

@@ -36,8 +36,8 @@
       "title": "Base Channel Cabinets",
       "lines": {
         "custom": true,
-        "lighthouse": true,
-        "cornerstone": true,
+        "lighthouse": false,
+        "cornerstone": false,
         "modal": false,
         "modcon": false
       },
@@ -66,8 +66,8 @@
       "title": "Vanity Channel Cabinets",
       "lines": {
         "custom": true,
-        "lighthouse": true,
-        "cornerstone": true,
+        "lighthouse": false,
+        "cornerstone": false,
         "modal": false,
         "modcon": false
       },
@@ -96,8 +96,8 @@
       "title": "Floating Vanity Channel Cabinets",
       "lines": {
         "custom": true,
-        "lighthouse": true,
-        "cornerstone": true,
+        "lighthouse": false,
+        "cornerstone": false,
         "modal": false,
         "modcon": false
       },
@@ -126,8 +126,8 @@
       "title": "Tall Channel Cabinets",
       "lines": {
         "custom": true,
-        "lighthouse": true,
-        "cornerstone": true,
+        "lighthouse": false,
+        "cornerstone": false,
         "modal": false,
         "modcon": false
       },
@@ -156,8 +156,8 @@
       "title": "Wall Channel Cabinets",
       "lines": {
         "custom": true,
-        "lighthouse": true,
-        "cornerstone": true,
+        "lighthouse": false,
+        "cornerstone": false,
         "modal": false,
         "modcon": false
       },
@@ -171,8 +171,8 @@
       "title": "Wardrobe Cabinets",
       "lines": {
         "custom": true,
-        "lighthouse": true,
-        "cornerstone": true,
+        "lighthouse": false,
+        "cornerstone": false,
         "modal": false,
         "modcon": false
       },
@@ -295,6 +295,7 @@
     },
     {
       "id": "23",
+      "visable": true,
       "lines": {
         "custom": true,
         "lighthouse": true,

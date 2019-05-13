@@ -71,8 +71,12 @@
       "title": "Finished End",
       "itemcodes": [
         {
-          "title": "",
-          "itemcode": ""
+          "title": "Right",
+          "itemcode": "r"
+        },
+        {
+          "title": "Left",
+          "itemcode": "l"
         }
       ],
       "code": "fe",

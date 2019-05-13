@@ -10,6 +10,14 @@
           "link": "acc/loox/index"
         }
       ],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
       "image": "/catalog/build/assets/loox/Loox%20strip%20led%20couche.jpg",
       "tags": ["led", "kits", "spot", "strip", "parts", "shelf", "loox"]
     },
@@ -23,6 +31,14 @@
           "link": "acc/Hood fans/index"
         }
       ],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
       "image": "/catalog/build/assets/hfu/HFU%20E%20preview.jpg",
       "tags": ["hoodfan", "cabinet", "chrome"]
     },
@@ -36,6 +52,14 @@
           "link": "legs/index"
         }
       ],
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
       "image": "/catalog/build/assets/legs/legs.jpg",
       "tags": ["hoodfan", "cabinet", "chrome"]
     },
@@ -79,8 +103,8 @@
         "custom": true,
         "lighthouse": true,
         "cornerstone": true,
-        "modal": false,
-        "modcon": false
+        "modal": true,
+        "modcon": true
       }
     },
     {
@@ -101,8 +125,8 @@
         "custom": true,
         "lighthouse": true,
         "cornerstone": true,
-        "modal": false,
-        "modcon": false
+        "modal": true,
+        "modcon": true
       }
     },
     {
@@ -123,8 +147,8 @@
         "custom": true,
         "lighthouse": true,
         "cornerstone": true,
-        "modal": false,
-        "modcon": false
+        "modal": true,
+        "modcon": true
       }
     },
     {
@@ -153,8 +177,8 @@
         "custom": true,
         "lighthouse": true,
         "cornerstone": true,
-        "modal": false,
-        "modcon": false
+        "modal": true,
+        "modcon": true
       }
     },
     {
@@ -175,8 +199,8 @@
         "custom": true,
         "lighthouse": true,
         "cornerstone": true,
-        "modal": false,
-        "modcon": false
+        "modal": true,
+        "modcon": true
       }
     }
   ]

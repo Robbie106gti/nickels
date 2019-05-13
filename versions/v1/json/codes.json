@@ -7,7 +7,7 @@
       "root": "BFD",
       "height": "18",
       "title": "Base Full Door(s)",
-      "description": "Base Full Door(s)",
+      "description": "A base cabinet with full height door(s).",
       "specifications": ["000", "100", "500"],
       "iwhd": ["i18", "w0639", "h1218", "d0436"],
       "images": [
@@ -200,7 +200,7 @@
       "cat": "Base Cabinets",
       "root": "BFD",
       "height": "24",
-      "title": "Base Full Door(s)",
+      "title": "A base cabinet with full height door(s).",
       "description": "Base Full Door(s)",
       "specifications": ["000", "100", "501"],
       "iwhd": ["i18", "w0639", "h1824", "d0436"],
@@ -395,7 +395,7 @@
       "root": "BFD",
       "height": "30",
       "title": "Base Full Door(s)",
-      "description": "Base Full Door(s)",
+      "description": "A base cabinet with full height door(s).",
       "specifications": ["000", "100", "501"],
       "iwhd": ["i18", "w0639", "h2430", "d0436"],
       "images": [
@@ -589,7 +589,7 @@
       "root": "BFD",
       "height": "36",
       "title": "Base Full Door(s)",
-      "description": "Base Full Door(s)",
+      "description": "A base cabinet with full height door(s).",
       "specifications": ["000", "100", "502"],
       "iwhd": ["i18", "w0639", "h3036", "d0436"],
       "images": [
@@ -783,7 +783,7 @@
       "root": "BFD",
       "height": "48",
       "title": "Base Full Door(s)",
-      "description": "Base Full Door(s)",
+      "description": "A base cabinet with full height door(s).",
       "specifications": ["000", "100", "503"],
       "iwhd": ["i18", "w0639", "h3648", "d0436"],
       "images": [
@@ -2457,7 +2457,7 @@
       "root": "BSFD",
       "height": "24",
       "title": "Base Sink Full Door",
-      "description": "pair of doors",
+      "description": "a cabinet with full height door(s) and a 3\" high sink header.",
       "specifications": ["000", "100", "200", "301", "1401"],
       "iwhd": ["i18", "w1348", "h1224", "d0436"],
       "images": [
@@ -2663,7 +2663,7 @@
       "root": "BSFD",
       "height": "30",
       "title": "Base Sink Full Door",
-      "description": "pair of doors",
+      "description": "a cabinet with full height door(s) and a 3\" high sink header.",
       "specifications": ["000", "100", "200", "301", "1401"],
       "iwhd": ["i18", "w1348", "h2430", "d0436"],
       "images": [
@@ -2869,7 +2869,7 @@
       "root": "BSFD",
       "height": "36",
       "title": "Base Sink Full Door",
-      "description": "pair of doors",
+      "description": "a cabinet with full height door(s) and a 3\" high sink header.",
       "specifications": ["000", "100", "200", "301", "1401"],
       "iwhd": ["i18", "w1348", "h3036", "d0436"],
       "images": [

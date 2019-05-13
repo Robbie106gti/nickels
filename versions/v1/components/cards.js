@@ -32,8 +32,10 @@ function template(cat) {
 }
 
 function cardMenu(cat) {
+  const dactive = cat.visable !== false ? '' : ' red';
+  const line = cat.lines[info.pline] ? '' : plineBadge();
   return '<div class="card '
-    .concat(edge, '"><a href="')
+    .concat(edge, dactive, '"><a href="')
     .concat(
       cat.link,
       '"><div class="card-image waves-effect waves-block waves-light"><img class="image20 activator" src="'
@@ -42,12 +44,13 @@ function cardMenu(cat) {
       imageSRC(cat.image),
       '"></div><div class="card-content"><span class="card-title activator grey-text text-darken-4">'
     )
-    .concat(cat.title, '</span>')
+    .concat(cat.title, line, '</span>')
     .concat(getTags(cat.tags), '</div></a></div>');
 }
 
 function cabinetCard(cat) {
   const dactive = cat.active ? '' : ' red';
+  const line = cat.lines[info.pline] ? '' : plineBadge();
   return '<div class="card '
     .concat(
       edge,
@@ -58,7 +61,11 @@ function cabinetCard(cat) {
       imageSRC(cat.image),
       '"></div><div class="card-content"><span class="card-title grey-text text-darken-4 activator">'
     )
-    .concat(cat.title, '<i class="material-icons right">more_vert</i></span>')
+    .concat(
+      cat.title,
+      line,
+      '<i class="material-icons right">more_vert</i></span>'
+    )
     .concat(
       getTags(cat.tags),
       '</div><div class="card-reveal"><span class="card-title grey-text text-darken-4">'
@@ -80,16 +87,23 @@ function switchCard(cat) {
 }
 
 function cardReveal(cat) {
+  const dactive = cat.active ? '' : ' red';
+  const line = cat.lines[info.pline] ? '' : plineBadge();
   var card = '<div class="card '
     .concat(
       edge,
+      dactive,
       '"><div class="card-image waves-effect waves-block waves-light"><img class="image20 activator" src="'
     )
     .concat(
       imageSRC(cat.image),
       '"></div><div class="card-content"><span class="card-title activator grey-text text-darken-4">'
     )
-    .concat(cat.title, '<i class="material-icons right">more_vert</i></span>')
+    .concat(
+      cat.title,
+      line,
+      '<i class="material-icons right">more_vert</i></span>'
+    )
     .concat(
       getTags(cat.tags),
       '</div><div class="card-reveal"><span class="card-title grey-text text-darken-4">'
@@ -100,11 +114,13 @@ function cardReveal(cat) {
 }
 
 function cardNoreveal(cat) {
+  const dactive = cat.active ? '' : ' red';
+  const line = cat.lines[info.pline] ? '' : plineBadge();
   var card;
 
   if (cat.attached[0].sub === '') {
     var card = '<div class="card '
-      .concat(edge, '"><a href="')
+      .concat(edge, dactive, '"><a href="')
       .concat(
         cat.attached[0].link,
         '.html"><div class="card-image waves-effect waves-block waves-light"><img class="image20 " src="'
@@ -113,11 +129,15 @@ function cardNoreveal(cat) {
         imageSRC(cat.image),
         '"></div><div class="card-content"><span class="card-title grey-text text-darken-4">'
       )
-      .concat(cat.title, '<i class="material-icons right">more_vert</i></span>')
+      .concat(
+        cat.title,
+        line,
+        '<i class="material-icons right">more_vert</i></span>'
+      )
       .concat(getTags(cat.tags), '</div></a></div>');
   } else {
     card = '<div class="card '
-      .concat(edge, '"><a href="./')
+      .concat(edge, dactive, '"><a href="./')
       .concat(
         configLink(cat),
         '"><div class="card-image waves-effect waves-block waves-light"><img class="image20" src="'
@@ -126,7 +146,11 @@ function cardNoreveal(cat) {
         imageSRC(cat.image),
         '"></div><div class="card-content"><span class="card-title grey-text text-darken-4">'
       )
-      .concat(cat.title, '<i class="material-icons right">more_vert</i></span>')
+      .concat(
+        cat.title,
+        line,
+        '<i class="material-icons right">more_vert</i></span>'
+      )
       .concat(getTags(cat.tags), '</div></a></div>');
   }
 

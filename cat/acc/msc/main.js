@@ -41,11 +41,21 @@ function makeStructure(info) {
   var structure =
     '<div class="col s12 m8"><div id="des"></div><div id="spec">' +
     setSpecsCol(info.item) +
-    '</div><div id="notes"></div><div id="codes"></div></div><div id="images" class="col s12 m4">' +
+    '<div id="simple" class="card-panel hide"></div></div><div id="notes"></div><div id="codes"></div></div><div id="images" class="col s12 m4">' +
     setMainImage(info.item) +
     '</div><div id="table" class="col s12"></div>';
   $('#catalog').html(structure);
-  $('#table').html(mscTable(info));
+  switch (info.item.type) {
+    case 'simple':
+      const div = document.getElementById('simple');
+      div.classList.remove('hide');
+      div.innerHTML =
+        'Add item ordercode to your job: ' + ordercodes(info.item.code);
+      break;
+    default:
+      $('#table').html(mscTable(info));
+      return;
+  }
   description(info.item.title, info.item.description);
   // $('#codes').html(setCode(info.item.code));
   info.item.notes ? setNotes('../../../', info.item.notes) : '';

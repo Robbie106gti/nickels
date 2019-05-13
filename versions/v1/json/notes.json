@@ -82,7 +82,7 @@
       "id": "10",
       "title": "A vertical center divider, ",
       "link": "#",
-      "content": "will automatically be added in cabinets over 39\" wide and 12\" high. This vertical divider will be set back from the front edge by 1/16\". Each adjustable shelf will be separated into two, one on either side of the vertical center divider. In Webquoin, each pair of shelves will remain as a quantity of one in the cabinet details",
+      "content": "will automatically be added in cabinets over 39\" wide and 12\" high. This vertical divider will be set back from the front edge by 1/16\". Each adjustable shelf will be separated into two, one on either side of the vertical center divider. In WebQuoin, each pair of shelves will remain as a quantity of one in the cabinet details",
       "contentLink": "",
       "ccontent": "."
     },
@@ -156,7 +156,7 @@
       "id": "20",
       "title": "Gables, ",
       "link": "#",
-      "content": "The gable depth is controled in webquoin, the final depth is gable depth plus front",
+      "content": "The gable depth is controled in WebQuoin, the final depth is gable depth plus front",
       "contentLink": "",
       "ccontent": "."
     },
@@ -182,14 +182,14 @@
     },
     {
       "id": "24",
-      "title": "Additional traides, ",
+      "title": "Additional triades, ",
       "content": "Use MSC-TRIADE to add extra(s) bracket to support more weight (7 kg/15 lbs per traide.)",
       "itemcodes": ["MSC-TRIADE"]
     },
     {
       "id": "25",
       "title": "Ordering, ",
-      "content": "Procedure: After entering the Floating Shelf code in webQuoin, double click into the CC-SH-WXD and enter the width and depth dimensions.",
+      "content": "procedure: After entering the Floating Shelf code in WebQuoin, double click into the CC-SH-WXD and enter the width and depth dimensions.",
       "itemcodes": ["CC-SH-WXD"]
     },
     {

@@ -19,7 +19,7 @@ var code = $.urlParam('code') || null;
 var act = $.urlParam('act') ? false : true;
 var page = $.urlParam('page') || null;
 var witem = $.urlParam('item') || null;
-var wpline = $.urlParam('pline') || null;
+var wpline = $.urlParam('pline') || pline;
 var wcat = $.urlParam('cat') || null;
 var id = $.urlParam('id') || null;
 var host = window.location.protocol + window.location.host;
@@ -31,7 +31,7 @@ var info = {
   code: code,
   item: null,
   active: act,
-  pline: pline,
+  pline: wpline,
   page: page,
   witem: witem,
   wcat: wcat,
