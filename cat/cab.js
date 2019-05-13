@@ -34,6 +34,9 @@ function getPage() {
 
       setGI(page);
       setCode(page);
+    }).then(function () {
+      lastCallCodes();
+      $('.materialboxed').materialbox();
     })
     .catch(function (err) {
       return console.log(err);
