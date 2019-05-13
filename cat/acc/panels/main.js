@@ -28,6 +28,9 @@ function getPage() {
         })[0];
       }
       makeStructure(info);
+    }).then(function () {
+      lastCallCodes();
+      $('.materialboxed').materialbox();
     })
     .catch(function (err) {
       return console.log(err);

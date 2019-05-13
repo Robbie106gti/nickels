@@ -43,6 +43,9 @@ function getPage() {
       } else {
         structure(page);
       }
+    }).then(function () {
+      lastCallCodes();
+      $('.materialboxed').materialbox();
     })
     .catch(function (err) {
       return console.log(err);

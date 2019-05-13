@@ -47,6 +47,9 @@ function getPage() {
         setNotes(data.notes, item);
         setImages(item, data.information.sides);
       }
+    }).then(function () {
+      lastCallCodes();
+      $('.materialboxed').materialbox();
     })
     .catch(err => console.log(err));
 }
