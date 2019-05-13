@@ -56,10 +56,11 @@ function setSpecsND(loc, specs) {
           })
           .join('');
         n =
-          '<div class="card-panel"><ul class="flow-text">' +
+          '<ul class="flow-text">' +
           n +
-          '</ul><div id="options"></div><div id="restrictions"></div></div>';
-        $('#spec').html(n);
+          '</ul></div>';
+        document.getElementById('spec').innerHTML = n;
+        document.getElementById('div-sor').classList.remove('hide');
       })
       .catch(function (err) {
         return console.log(err);

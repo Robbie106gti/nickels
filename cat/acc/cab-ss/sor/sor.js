@@ -66,9 +66,22 @@ function structure(items) {
 }
 
 function itemstructure(item) {
-  const html =
-    '<div class="col s12 m8"><div id="des"></div><div id="spec"></div><div id="notes"></div><div id="codes"></div></div><div id="images" class="col s12 m4"></div><div class="col s4"><div id="table"></div><div id="itemcode" class="card-panel"></div></div>';
-  document.getElementById('catalog').innerHTML = html;
+
+  document.getElementById('catalog').innerHTML = ''.concat(
+    '<div class="col s12 m8">',
+    '<div id="des"></div>',
+    '<div id="div-sor" class="card-panel hide">',
+    '<div id="spec"></div>',
+    '<div id="options"></div>',
+    '<div id="restrictions"></div>',
+    '</div>',
+    '<div id="notes"></div>',
+    '<div id="codes"></div>',
+    '</div>',
+    '<div id="images" class="col s12 m4">',
+    '</div><div class="col s4"><div id="table"></div><div id="itemcode" class="card-panel"></div></div>');
+
+
   setGIA2({ title: info.cat, subTitle: item.title });
   description(item.title, item.description);
   setSpecsND('../../../../', item.specifications);

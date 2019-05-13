@@ -39,10 +39,20 @@ function getPage() {
 
 function makeStructure(info) {
   setGIA(info);
-  var structure =
-    '<div class="col s12 m8"><div id="des"></div><div id="spec"></div><div id="notes"></div><div id="codes"></div></div><div id="images" class="col s12 m4">' +
-    setMainImage(info.item) +
-    '</div><div id="table" class="col s12"></div>';
+  const structure = ''.concat(
+    '<div class="col s12 m8">',
+    '<div id="des"></div>',
+    '<div id="div-sor" class="card-panel hide">',
+    '<div id="spec"></div>',
+    '<div id="options"></div>',
+    '<div id="restrictions"></div>',
+    '</div>',
+    '<div id="notes"></div>',
+    '<div id="codes"></div>',
+    '</div>',
+    '<div id="images" class="col s12 m4">',
+    setMainImage(info.item),
+    '</div><div id="table" class="col s12"></div>');
   $('#catalog').html(structure);
   setSpecsND('../../..', info.item.specifications);
   $('#table').html(shTable(info));

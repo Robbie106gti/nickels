@@ -40,10 +40,25 @@ function getPage() {
 function makeStructure(info) {
   setGIA(info);
   // console.log(info)
-  var structure =
-    '<div class="col s12 m8"><div id="des"></div><div id="spec"></div><div id="notes"></div><div id="codes"></div></div><div id="images" class="col s12 m4">' +
-    setMainImage(info.item) +
-    '</div><div id="table" class="col s4"></div>';
+  var structure = ''.concat(
+    '<div class="col s12 m8">',
+    '<div id="des"></div>',
+    '<div id="div-sor" class="card-panel hide">',
+    '<div id="spec"></div>',
+    '<div id="options"></div>',
+    '<div id="restrictions"></div>',
+    '</div>',
+    '<div id="notes"></div>',
+    '<div id="codes"></div>',
+    '</div>',
+    '<div id="images" class="col s12 m4">',
+    setMainImage(info.item),
+    '</div><div id="table" class="col s4"></div>');
+
+
+  // '<div class="col s12 m8"><div id="des"></div><div id="div-sor" class="card-panel hide"><div id="spec"></div><div id="options"></div><div id="restrictions"></div><div id="notes"></div><div id="codes"></div></div><div id="images" class="col s12 m4">' +
+  // setMainImage(info.item) +
+  // '</div><div id="table" class="col s4"></div>';
   $('#catalog').html(structure);
   setSpecsND('../../..', info.item.specifications);
   if (info.item.options) optionSpecs('../../..', info.item.options);
