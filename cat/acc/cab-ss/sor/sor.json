@@ -189,7 +189,7 @@
         "title": "Magic Corner 1",
         "code": "ls-mc",
         "tags": ["maple", "grey", "chrome", "storage", "pullout", "I"],
-        "image": "https://webquoin.com/catalog/images/LS-MC-GA.gif"
+        "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2Fmain%2F1557931711827_Magic%20Corner.PNG?alt=media&token=6b3918c2-6bf2-4c46-9310-5f9f0a4ded62"
       },
       {
         "active": true,
@@ -584,7 +584,7 @@
       "images": [
         {
           "title": "Magic Corner I - left hinged Grey",
-          "image": "https://webquoin.com/catalog/images/LS-MC-GA.gif"
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2Fmain%2F1557931711827_Magic%20Corner.PNG?alt=media&token=6b3918c2-6bf2-4c46-9310-5f9f0a4ded62"
         },
         {
           "title": "Magic Corner I - right hinged Maple",
@@ -592,15 +592,19 @@
         },
         {
           "title": "Chrome Basket",
-          "image": "https://webquoin.com/catalog/images/magic-corner-chrome-arena-baskets.gif"
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FCorner%20Solution%20-%20Magic%20Corner%2F1557942836671_ls-mc-ch_baskets.jpg?alt=media&token=97f2743d-0a00-4a4c-8cf4-edb3ead8e0b0"
         },
         {
           "title": "Grey Basket",
-          "image": "https://webquoin.com/catalog/images/magic-corner-grey-arena-baskets.gif"
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FCorner%20Solution%20-%20Magic%20Corner%2F1557932661078_Grey%20Arena.PNG?alt=media&token=7b22e078-1a28-401a-baed-ed8a221335ff"
         },
         {
           "title": "Maple Basket",
-          "image": "https://webquoin.com/catalog/images/magic-corner-maple-arena-baskets.gif"
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FCorner%20Solution%20-%20Magic%20Corner%2F1557932867073_Maple%20Arena.PNG?alt=media&token=50a16f37-fcff-476f-a9b4-1812c3607084"
+        },
+        {
+          "title": "Frame opening right",
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FCorner%20Solution%20-%20Magic%20Corner%2F1557931850980_Right%20Opening%20Frame.PNG?alt=media&token=1c9e0604-456b-48d9-bf7f-d17df7017da7"
         }
       ],
       "notes": ["41"],
