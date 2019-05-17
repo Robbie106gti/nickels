@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>SHEEN HEADER DROP-DOWN MENU</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom Styles -->
+    <link href="css/custom.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <![endif]-->
+  </head>
+  <script>
+    var pline = null;
+    var ddoor = null;
+    var dmaterial = null;
+
+    if (window.location !== window.parent.location) {
+      pline = parent.document
+        .getElementById('pline')
+        .innerText.toLocaleLowerCase();
+      ddoor = parent.document.getElementById('DOORSTYLE');
+      dmaterial = parent.document.getElementById('EXTRMTRL');
+      console.log({ line: pline, door: ddoor, material: dmaterial });
+
+      switch (pline) {
+        case 'cornerstone':
+          window.location.href = 'sheenCornerstone.html';
+          break;
+        case 'lighthouse':
+          window.location.href = 'sheenlighthouse.html';
+          break;
+        case 'custom':
+          // window.location.href = 'sheen.html';
+          break;
+        case 'modcon':
+          window.location.href = 'sheen.html';
+          break;
+        case 'wardrobe':
+          window.location.href = 'sheen.html';
+          break;
+        default:
+          // window.location.href = 'sheen.html';
+          null;
+      }
+    }
+  </script>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Title Section -->
+        <div class="col-md-12">
+          <h1 class="text-center">SHEEN HEADER DROP-DOWN MENU</h1>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Accordion Section -->
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="panel-group" id="accordion1">
+            <div class="panel panel-default">
+              <!-- Start Matte Section -->
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a
+                    class="collapsed"
+                    data-toggle="collapse"
+                    data-parent="#accordion1"
+                    href="#accordionMatte"
+                    >Matte...</a
+                  >
+                </h4>
+              </div>
+              <div id="accordionMatte" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="row">
+                    <!-- Header Section -->
+                    <div class="col-md-12">
+                      <h3>
+                        Category: <small>Header Drop-Down Menu - SHEEN</small>
+                      </h3>
+                      <h3>Item Name: <small>Matte</small></h3>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <!-- App Title -->
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Description</span>
+                          </div>
+                          <br />
+                          <ul>
+                            <li>
+                              <p>
+                                All stained wood species and painted MDF or
+                                MDF/wood products have a topcoat sheen option of
+                                Matte (12 degree sheen).
+                              </p>
+                            </li>
+                          </ul>
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Specifications</span>
+                          </div>
+                          <br />
+                          <div>
+                            <h4>
+                              Available Materials:
+                              <span>All Wood, Engineered and Painted.</span>
+                            </h4>
+                            <h4>
+                              Finishing:
+                              <span
+                                >Click on
+                                <a href="Paint Standards.html"
+                                  >Paint Finishing Process</a
+                                >
+                                to see how paint is applied. Click on
+                                <a href="Stain Standards.html"
+                                  >Stain Finishing Process</a
+                                >
+                                to see how stain is applied.</span
+                              >
+                            </h4>
+                            <h4>Size: <span>-</span></h4>
+                            <h4>
+                              Pricing:
+                              <span
+                                >Parts and doors are calculated by Webquoin when
+                                Sheen is chosen.</span
+                              >
+                            </h4>
+                            <h4>Construction: <span>See finishing</span></h4>
+                            <h4>Options: <span>-</span></h4>
+                            <h4>Restrictions: <span>-</span></h4>
+                          </div>
+                          <div class="row">
+                            <!-- Ordering Title -->
+                            <div class="col-md-12">
+                              <br />
+                              <div class="black-line">
+                                <span class="reverse-text"
+                                  >Ordering Information</span
+                                >
+                              </div>
+                              <br />
+                            </div>
+                          </div>
+                          <!-- end Ordering Title -->
+                        </div>
+                        <!-- end Col12 Section-->
+                      </div>
+                      <!-- end row Section-->
+                    </div>
+                    <!-- end ColM12 Section-->
+                  </div>
+                  <!-- end Header Section-->
+                  <div class="row">
+                    <!-- Ordering Text -->
+                    <div class="col-md-12">
+                      <ul>
+                        <li>
+                          On the Sheen Header Drop-Down Menu in WQ, click on
+                          Matte from the list.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-second">
+              <!-- Start Satin Section -->
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a
+                    class="collapsed"
+                    data-toggle="collapse"
+                    data-parent="#accordion1"
+                    href="#accordionSatin"
+                    >Satin...</a
+                  >
+                </h4>
+              </div>
+              <div id="accordionSatin" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="row">
+                    <!-- Header Section -->
+                    <div class="col-md-12">
+                      <h3>
+                        Category: <small>Header Drop-Down Menu - SHEEN</small>
+                      </h3>
+                      <h3>Item Name: <small>Satin</small></h3>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <!-- App Title -->
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Description</span>
+                          </div>
+                          <br />
+                          <ul>
+                            <li>
+                              <p>
+                                All stained wood species and painted MDF or
+                                MDF/wood products have a topcoat sheen option of
+                                Satin (35 degree sheen).
+                              </p>
+                            </li>
+                          </ul>
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Specifications</span>
+                          </div>
+                          <br />
+                          <div>
+                            <h4>
+                              Available Materials:
+                              <span>All Wood species.</span>
+                            </h4>
+                            <h4>
+                              Finishing:
+                              <span
+                                >Click on
+                                <a href="Paint Standards.html"
+                                  >Paint Finishing Process</a
+                                >
+                                to see how paint is applied. Click on
+                                <a href="Stain Standards.html"
+                                  >Stain Finishing Process</a
+                                >
+                                to see how stain is applied.</span
+                              >
+                            </h4>
+                            <h4>Size: <span>-</span></h4>
+                            <h4>
+                              Pricing:
+                              <span
+                                >Parts and doors are calculated by Webquoin when
+                                Sheen is chosen.</span
+                              >
+                            </h4>
+                            <h4>Construction: <span>See finishing</span></h4>
+                            <h4>Options: <span>-</span></h4>
+                            <h4>Restrictions: <span>-</span></h4>
+                          </div>
+                          <div class="row">
+                            <!-- Ordering Title -->
+                            <div class="col-md-12">
+                              <br />
+                              <div class="black-line">
+                                <span class="reverse-text"
+                                  >Ordering Information</span
+                                >
+                              </div>
+                              <br />
+                            </div>
+                          </div>
+                          <!-- end Ordering Title -->
+                        </div>
+                        <!-- end Col12 Section-->
+                      </div>
+                      <!-- end row Section-->
+                    </div>
+                    <!-- end ColM12 Section-->
+                  </div>
+                  <!-- end Header Section-->
+                  <div class="row">
+                    <!-- Ordering Text -->
+                    <div class="col-md-12">
+                      <ul>
+                        <li>
+                          On the Sheen Header Drop-Down Menu in WQ, click on
+                          Satin from the list.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <!-- Start Satin Section -->
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a
+                    class="collapsed"
+                    data-toggle="collapse"
+                    data-parent="#accordion1"
+                    href="#accordionZero"
+                    >Zero Sheen...</a
+                  >
+                </h4>
+              </div>
+              <div id="accordionZero" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="row">
+                    <!-- Header Section -->
+                    <div class="col-md-12">
+                      <h3>
+                        Category: <small>Header Drop-Down Menu - SHEEN</small>
+                      </h3>
+                      <h3>Item Name: <small>Zero Sheen</small></h3>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <!-- App Title -->
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Description</span>
+                          </div>
+                          <br />
+                          <ul>
+                            <li>
+                              <p>
+                                All stained wood species products have a topcoat
+                                Zero Sheen option (0 degree sheen).
+                              </p>
+                            </li>
+                          </ul>
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Specifications</span>
+                          </div>
+                          <br />
+                          <div>
+                            <h4>
+                              Available Materials:
+                              <span>All Wood, Engineered and Painted.</span>
+                            </h4>
+                            <h4>
+                              Finishing:
+                              <span
+                                >Click on
+                                <a href="Stain Standards.html"
+                                  >Stain Finishing Process</a
+                                >
+                                to see how stain is applied.</span
+                              >
+                            </h4>
+                            <h4>Size: <span>-</span></h4>
+                            <h4>
+                              Pricing:
+                              <span
+                                >Parts and doors are calculated by Webquoin when
+                                Zero Sheen is chosen.</span
+                              >
+                            </h4>
+                            <h4>Construction: <span>See finishing</span></h4>
+                            <h4>Options: <span>-</span></h4>
+                            <h4>Restrictions: <span>-</span></h4>
+                          </div>
+                          <div class="row">
+                            <!-- Ordering Title -->
+                            <div class="col-md-12">
+                              <br />
+                              <div class="black-line">
+                                <span class="reverse-text"
+                                  >Ordering Information</span
+                                >
+                              </div>
+                              <br />
+                            </div>
+                          </div>
+                          <!-- end Ordering Title -->
+                        </div>
+                        <!-- end Col12 Section-->
+                      </div>
+                      <!-- end row Section-->
+                    </div>
+                    <!-- end ColM12 Section-->
+                  </div>
+                  <!-- end Header Section-->
+                  <div class="row">
+                    <!-- Ordering Text -->
+                    <div class="col-md-12">
+                      <ul>
+                        <li>
+                          On the Sheen Header Drop-Down Menu in WQ, click on
+                          Zero Sheen from the list.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-second">
+              <!-- Start Satin Section -->
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a
+                    class="collapsed"
+                    data-toggle="collapse"
+                    data-parent="#accordion1"
+                    href="#accordionCS"
+                    >Custom Sheen...</a
+                  >
+                </h4>
+              </div>
+              <div id="accordionCS" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="row">
+                    <!-- Header Section -->
+                    <div class="col-md-12">
+                      <h3>
+                        Category: <small>Header Drop-Down Menu - SHEEN</small>
+                      </h3>
+                      <h3>Item Name: <small>Custom Sheen</small></h3>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <!-- App Title -->
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Description</span>
+                          </div>
+                          <br />
+                          <ul>
+                            <li>
+                              <p>
+                                For custom sheen specify in webquoin what it is
+                                you want to do. also applicable for NO sheen.
+                              </p>
+                            </li>
+                          </ul>
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Specifications</span>
+                          </div>
+                          <br />
+                          <div>
+                            <h4>
+                              Available Materials:
+                              <span>All Wood, Engineered and Painted.</span>
+                            </h4>
+                            <h4>
+                              Finishing:
+                              <span
+                                >Click on
+                                <a href="Paint Standards.html"
+                                  >Paint Finishing Process</a
+                                >
+                                to see how paint is applied. Click on
+                                <a href="Stain Standards.html"
+                                  >Stain Finishing Process</a
+                                >
+                                to see how stain is applied.
+                              </span>
+                            </h4>
+                            <h4>Size: <span>-</span></h4>
+                            <h4>
+                              Pricing:
+                              <span
+                                >Parts and doors are calculated by Webquoin when
+                                Sheen is chosen.</span
+                              >
+                            </h4>
+                            <h4>Construction: <span>See finishing</span></h4>
+                            <h4>Options: <span>-</span></h4>
+                            <h4>Restrictions: <span>-</span></h4>
+                          </div>
+                          <div class="row">
+                            <!-- Ordering Title -->
+                            <div class="col-md-12">
+                              <br />
+                              <div class="black-line">
+                                <span class="reverse-text"
+                                  >Ordering Information</span
+                                >
+                              </div>
+                              <br />
+                            </div>
+                          </div>
+                          <!-- end Ordering Title -->
+                        </div>
+                        <!-- end Col12 Section-->
+                      </div>
+                      <!-- end row Section-->
+                    </div>
+                    <!-- end ColM12 Section-->
+                  </div>
+                  <!-- end Header Section-->
+                  <div class="row">
+                    <!-- Ordering Text -->
+                    <div class="col-md-12">
+                      <ul>
+                        <li>
+                          On the Sheen Header Drop-Down Menu in WQ, click on
+                          Custom Sheen from the list.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Col Section -->
+      </div>
+      <!-- End Accordion Section -->
+    </div>
+    <!-- End Container-fluid Section -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script>
+      $(function() {
+        $('#accordion1').on('shown.bs.collapse', function(e) {
+          var offset = $(this)
+            .find('.collapse.in')
+            .prev('.panel-heading');
+          if (offset) {
+            $('html,body').animate(
+              {
+                scrollTop: $(offset).offset().top - 20
+              },
+              0
+            );
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

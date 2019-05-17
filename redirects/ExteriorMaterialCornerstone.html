@@ -1,0 +1,1483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>EXTERIOR MATERIALS HEADER DROP-DOWN MENU - CORNERSTONE</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom Styles -->
+    <link href="css/custom.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <![endif]-->
+  </head>
+  <script>
+    var pline = null;
+    var ddoor = null;
+    var dmaterial = null;
+
+    if (window.location !== window.parent.location) {
+      pline = parent.document
+        .getElementById('pline')
+        .innerText.toLocaleLowerCase();
+      ddoor = parent.document.getElementById('DOORSTYLE');
+      dmaterial = parent.document.getElementById('EXTRMTRL');
+      console.log({ line: pline, door: ddoor, material: dmaterial });
+
+      switch (pline) {
+        case 'cornerstone':
+          // window.location.href = 'exteriormaterialCornerstone.html';
+          break;
+        case 'lighthouse':
+          window.location.href = 'exteriormateriallighthouse.html';
+          break;
+        case 'custom':
+          window.location.href = 'exteriormaterial.html';
+          break;
+        case 'modcon':
+          window.location.href = 'exteriormaterial.html';
+          break;
+        case 'wardrobe':
+          window.location.href = 'exteriormaterial.html';
+          break;
+        default:
+          // window.location.href = 'exteriormaterial.html';
+          null;
+      }
+    }
+  </script>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Title Section -->
+        <div class="col-md-12">
+          <h1 class="text-center">
+            EXTERIOR MATERIALS HEADER DROP-DOWN MENU - CORNERSTONE
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Accordion Section -->
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="col-md-crown well help-block">
+            The Exterior Mtrl - header drop-down menu will drive the material of
+            a molding/panel and filler, also the outside of a(n) (open-)cabinet
+            among others.
+          </div>
+          <div class="col-md-crown well help-block">
+            <h3>2-sided finish application</h3>
+            <p>
+              When a 2-sided finish is applied at Nickels, there will always be
+              an A-side and a B-side. The A-side will be inspected and will be
+              considered as the face of the panel. The B-side will be considered
+              the back of the panel and as such, may contain minor flaws. This
+              applies to all doors, finish panels and any other 2-sided
+              application. In the case of doors and drawer fronts, it will be
+              obvious which is the A-side, and which is the B-side. In cases
+              such as finish panels, where it may not be as obvious, Nickels
+              will indicate which is the B-side, by applying a blue
+              self-adhesive removable sticker.
+            </p>
+          </div>
+          <div class="panel-group" id="accordion1">
+            <div class="panel panel-default">
+              <!-- Start Painted Section -->
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a
+                    class="collapsed"
+                    data-toggle="collapse"
+                    data-parent="#accordion1"
+                    href="#accordionOne"
+                    >Painted...</a
+                  >
+                </h4>
+              </div>
+              <div id="accordionOne" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="row">
+                    <!-- Header Section -->
+                    <div class="col-md-12">
+                      <h3>
+                        Category:
+                        <small>Header Drop-Down Menu - Exterior Mtrl</small>
+                      </h3>
+                      <h3>
+                        Item Name:
+                        <small>Painted</small>
+                      </h3>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <!-- App Title -->
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Description</span>
+                          </div>
+                          <br />
+                          <ul>
+                            <li>
+                              <p>
+                                Painted material is typically either a paint
+                                grade solid wood (like poplar or soft maple),
+                                MDF (CARB II compliant medium density
+                                fiberboard) or a combination of both.
+                              </p>
+                              <p>
+                                As well some doors are painted on high-density
+                                fiberboard (HDF) which is much stronger and
+                                harder because it is made out of exploded wood
+                                fibers that have been highly compressed. HDF
+                                differs from particle board in that the bonding
+                                of the wood fibers requires no additional
+                                materials and unlike particle board, it will not
+                                split or crack. This combination of materials
+                                provides a smooth and consistent finished
+                                surface. Nickels applies paint onto 1-piece HDF
+                                and 5-piece MDF/wood doors.
+                              </p>
+                              <p>
+                                When a 5-piece door is painted, the joints will
+                                inevitably telegraph through the painted finish.
+                                On some occasions, the joints will open up,
+                                thereby developing hairline cracks on the door
+                                face. These cracks are considered normal and
+                                acceptable, and are therefore not covered as a
+                                warranty issue.
+                              </p>
+                            </li>
+                          </ul>
+                          <div class="row">
+                            <br />
+                            <ul>
+                              <li>Painted Colors:</li>
+                            </ul>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                src="images/Headers/Exterior-Materials/painted-black.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Black</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Chantilly Lace"
+                                src="https://webquoin.com/catalog/build/assets/samples/chantilly lace.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Chantilly Lace</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Chelsea Grey"
+                                src="https://webquoin.com/catalog/build/assets/samples/chesea grey.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Chelsea Grey</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Distance"
+                                src="https://webquoin.com/catalog/build/assets/samples/distance.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Distance</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                src="images/Headers/Exterior-Materials/painted-frosty white.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Frosty White</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Grey Owl"
+                                src="https://webquoin.com/catalog/build/assets/samples/grey owl.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Grey Owl</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                src="images/Headers/Exterior-Materials/painted-hale navy.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Hale Navy</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Kendall Charcoal"
+                                src="https://webquoin.com/catalog/build/assets/samples/kendall charcoal.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Kendall Charcoal</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Off the Grid"
+                                src="https://webquoin.com/catalog/build/assets/samples/off the grid.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Off the Grid</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Quiet Time"
+                                src="https://webquoin.com/catalog/build/assets/samples/quite time.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Quiet Time</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Simple White"
+                                src="https://webquoin.com/catalog/build/assets/samples/simple white.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Simply White</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                src="images/Headers/Exterior-Materials/painted-ultra white.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Shore White</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="White Dove"
+                                src="https://webquoin.com/catalog/build/assets/samples/white dove.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">White Dove</p>
+                            </div>
+                          </div>
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Specifications</span>
+                          </div>
+                          <br />
+                          <div>
+                            <h4>
+                              Available Materials:
+                              <span>Solid wood or MDF parts and doors.</span>
+                            </h4>
+                            <h4>
+                              Finishing:
+                              <span
+                                >Click on
+                                <a href="Paint Standards.html"
+                                  >Paint Finishing Process</a
+                                >
+                                to see how paint is applied.</span
+                              >
+                            </h4>
+                            <h4>
+                              Size:
+                              <span>Not applicable</span>
+                            </h4>
+                            <h4>
+                              Pricing:
+                              <span
+                                >Parts and doors are calculated by Webquoin when
+                                Painted Exterior Material is chosen.</span
+                              >
+                            </h4>
+                            <h4>
+                              Construction:
+                              <span>See finishing</span>
+                            </h4>
+                            <h4>
+                              Options:
+                              <span
+                                >Black, Chantilly Lace, Chelsea Grey, Distance,
+                                Frosty White, Grey Owl, Hale Navy, Kendall
+                                Charcoal, Off The Grid, Quiet Time, Simply
+                                White, Shore White and White Dove.</span
+                              >
+                            </h4>
+                            <h4>
+                              Restrictions:
+                              <span
+                                >Not available in all Melamines or Engineered
+                                Veneer.</span
+                              >
+                            </h4>
+                            <!-- Ordering Title -->
+                            <div class="col-md-12">
+                              <br />
+                              <div class="black-line">
+                                <span class="reverse-text"
+                                  >Ordering Information</span
+                                >
+                              </div>
+                              <br />
+                              <ul>
+                                <li>
+                                  On the Exterior Mtrl Header Drop-Down Menu in
+                                  WQ, click on Painted from the list.
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- end Col12 Section-->
+                      </div>
+                      <!-- end row Section-->
+                    </div>
+                    <!-- end ColM12 Section-->
+                  </div>
+                  <!-- end Header Section-->
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-second">
+              <!-- Start Wood Section -->
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a
+                    class="collapsed"
+                    data-toggle="collapse"
+                    data-parent="#accordion1"
+                    href="#accordionWood"
+                    >WOOD...</a
+                  >
+                </h4>
+              </div>
+              <div id="accordionWood" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="panel-body">
+                    <div class="panel-group" id="accordion11">
+                      <div class="panel">
+                        <!-- Start Alder Section -->
+                        <a
+                          class="collapsed panel-title"
+                          data-toggle="collapse"
+                          data-parent="#accordion11"
+                          href="#accordionAlder"
+                          >Alder »</a
+                        >
+                        <div
+                          id="accordionAlder"
+                          class="panel-collapse collapse"
+                        >
+                          <div class="panel-body">
+                            <div class="row">
+                              <!-- Header Section -->
+                              <div class="col-md-12">
+                                <h3>
+                                  Category:
+                                  <small
+                                    >Header Drop-Down Menu - Exterior
+                                    Mtrl</small
+                                  >
+                                </h3>
+                                <h3>
+                                  Item Name:
+                                  <small>Alder</small>
+                                </h3>
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <!-- App Title -->
+                                    <br />
+                                    <div class="black-line">
+                                      <span class="reverse-text"
+                                        >Description</span
+                                      >
+                                    </div>
+                                    <br />
+                                    <ul>
+                                      <li>
+                                        <p>
+                                          This is a straight-grained and evenly
+                                          textured medium hardwood with a
+                                          pleasing if not subdued figure. Color
+                                          ranges from a pale pinkish/brown to a
+                                          light tan and the wood accepts stain
+                                          very consistently. Alder is an
+                                          abundant and rapid growing tree,
+                                          native to the Northwest region.
+                                          Available with either a Clear or
+                                          Knotty grade. Clear Alder exhibits the
+                                          presence of occasional small, sound
+                                          knots and some mineral streaks. Knotty
+                                          Alder is truly characterized by its
+                                          knots which range in size and
+                                          character from tight and sound to
+                                          split and open with a random
+                                          distribution.
+                                        </p>
+                                      </li>
+                                    </ul>
+                                    <br />
+                                    <div class="black-line">
+                                      <span class="reverse-text"
+                                        >Specifications</span
+                                      >
+                                    </div>
+                                    <br />
+                                    <h4>
+                                      Size:
+                                      <span>Not applicable</span>
+                                    </h4>
+                                    <h4>
+                                      Pricing:
+                                      <span
+                                        >Parts and doors are calculated by
+                                        Webquoin when Alder is chosen.</span
+                                      >
+                                    </h4>
+                                    <h4>
+                                      Construction:
+                                      <span>See finishing</span>
+                                    </h4>
+                                    <h4>
+                                      Options:
+                                      <span>
+                                        <ul>
+                                          <li>
+                                            Stains available: Sesame, Blue Corn,
+                                            Cardamon, Chipotle, Coal, Coffee
+                                            Bean, Ecru, Hazelnut, Oyster,
+                                            Pebble, Polar, Shiitake, Sienna,
+                                            Smoke, Tamarind and Thunder.
+                                          </li>
+                                          <li>
+                                            Paints available: Chantilly Lace,
+                                            Chelsea Grey, Distance, Frosty
+                                            White, Grey Owl, Hale Navy, Kendall
+                                            Charcoal, Off The Grid, Quiet Time,
+                                            Simply White, Shore White, White
+                                            Dove and Black.
+                                          </li>
+                                        </ul>
+                                      </span>
+                                    </h4>
+                                    <h4>
+                                      Restrictions:
+                                      <span>Not applicable</span>
+                                    </h4>
+                                    <div class="wq-tip">
+                                      <img
+                                        class="img-responsive wq-tip-pic"
+                                        align="left"
+                                        src="images/Global/wq-note.png"
+                                      />
+                                      <strong
+                                        >Knotty Alder veneer is not available so
+                                        Clear Alder veneer will be used when
+                                        veneers are necessary, such as for
+                                        center panels on a recessed panel door,
+                                        finish panels, baseboards, etc.</strong
+                                      >
+                                    </div>
+                                    <!-- Ordering Title -->
+                                    <div class="col-md-12">
+                                      <br />
+                                      <div class="black-line">
+                                        <span class="reverse-text"
+                                          >Ordering Information</span
+                                        >
+                                      </div>
+                                      <br />
+                                      <ul>
+                                        <li>
+                                          On the Exterior Mtrl Header Drop-Down
+                                          Menu in WQ, click on WOOD... and then
+                                          choose Alder from the list.
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 text-center">
+                                    <!-- main image -->
+                                    <img
+                                      class="img-responsive center PImage2"
+                                      src="images/Headers/Exterior-Materials/alder.jpg"
+                                    />
+                                    <p>Raw Alder Sheet 4' x 8'</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- end Header Section-->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End Alder Section -->
+
+                      <div class="panel">
+                        <!-- Start Maple Section -->
+                        <a
+                          class="collapsed panel-title"
+                          data-toggle="collapse"
+                          data-parent="#accordion11"
+                          href="#accordionMaple"
+                          >Maple »</a
+                        >
+                        <div
+                          id="accordionMaple"
+                          class="panel-collapse collapse"
+                        >
+                          <div class="panel-body">
+                            <div class="row">
+                              <!-- Header Section -->
+                              <div class="col-md-12">
+                                <h3>
+                                  Category:
+                                  <small
+                                    >Header Drop-Down Menu - Exterior
+                                    Mtrl</small
+                                  >
+                                </h3>
+                                <h3>
+                                  Item Name:
+                                  <small>Maple</small>
+                                </h3>
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <!-- App Title -->
+                                    <br />
+                                    <div class="black-line">
+                                      <span class="reverse-text"
+                                        >Description</span
+                                      >
+                                    </div>
+                                    <br />
+                                    <ul>
+                                      <li>
+                                        <p>
+                                          This is a strong, fine textured
+                                          hardwood with a uniform grain and very
+                                          subtle figure. The color is creamy
+                                          white with a slight reddish brown
+                                          tinge. Maple will exhibit random black
+                                          to grey mineral streaks in addition to
+                                          areas of burl, birdseye, quilting, and
+                                          worm tracks. These characteristics are
+                                          considered normal and part of what
+                                          gives Maple its unique appeal.
+                                        </p>
+                                      </li>
+                                    </ul>
+                                    <br />
+                                    <div class="black-line">
+                                      <span class="reverse-text"
+                                        >Specifications</span
+                                      >
+                                    </div>
+                                    <br />
+                                    <h4>
+                                      Size:
+                                      <span>Not applicable</span>
+                                    </h4>
+                                    <h4>
+                                      Pricing:
+                                      <span
+                                        >Parts and doors are calculated by
+                                        Webquoin when Maple is chosen.</span
+                                      >
+                                    </h4>
+                                    <h4>
+                                      Construction:
+                                      <span>See finishing</span>
+                                    </h4>
+                                    <h4>
+                                      Options:
+                                      <span>
+                                        <ul>
+                                          <li>
+                                            Stains available: Sesame, Blue Corn,
+                                            Cardamon, Chipotle, Cinnamon, Clove,
+                                            Coal, Coffee Bean, Hazelnut,
+                                            Pasilla, Polar, Tamarind and
+                                            Thunder.
+                                          </li>
+                                          <li>
+                                            Paints available: Chantilly Lace,
+                                            Chelsea Grey, Distance, Frosty
+                                            White, Grey Owl, Hale Navy, Kendall
+                                            Charcoal, Off The Grid, Quiet Time,
+                                            Simply White, Shore White, White
+                                            Dove and Black.
+                                          </li>
+                                        </ul>
+                                      </span>
+                                    </h4>
+                                    <h4>
+                                      Restrictions:
+                                      <span>Not applicable</span>
+                                    </h4>
+                                    <div class="wq-tip">
+                                      <img
+                                        class="img-responsive wq-tip-pic"
+                                        align="left"
+                                        src="images/Global/wq-note.png"
+                                      />
+                                      <strong>
+                                        Maple will exhibit random black to grey
+                                        mineral streaks in addition to areas of
+                                        burl, birdseye, quilting, and worm
+                                        tracks.
+                                      </strong>
+                                    </div>
+                                    <!-- Ordering Title -->
+                                    <div class="col-md-12">
+                                      <br />
+                                      <div class="black-line">
+                                        <span class="reverse-text"
+                                          >Ordering Information</span
+                                        >
+                                      </div>
+                                      <br />
+                                      <ul>
+                                        <li>
+                                          On the Exterior Mtrl Header Drop-Down
+                                          Menu in WQ, click on WOOD... and then
+                                          choose Maple from the list.
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 text-center">
+                                    <!-- main image -->
+                                    <img
+                                      class="img-responsive center PImage2"
+                                      src="images/Headers/Exterior-Materials/maple.jpg"
+                                    />
+                                    <p>Raw Maple Sheet 4' x 8'</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- end Header Section-->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End Maple Section -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <!-- Start Melamine Section -->
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a
+                    class="collapsed"
+                    data-toggle="collapse"
+                    data-parent="#accordion1"
+                    href="#accordionMELAMINE"
+                    >MELAMINE...</a
+                  >
+                </h4>
+              </div>
+              <div id="accordionMELAMINE" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="panel-body">
+                    <div class="panel-group" id="accordion41">
+                      <div class="panel">
+                        <!-- Start M White Section -->
+                        <a
+                          class="collapsed panel-title"
+                          data-toggle="collapse"
+                          data-parent="#accordion41"
+                          href="#accordionFourOne"
+                          >M White »</a
+                        >
+                        <div
+                          id="accordionFourOne"
+                          class="panel-collapse collapse"
+                        >
+                          <div class="panel-body">
+                            <div class="row">
+                              <!-- Header Section -->
+                              <div class="col-md-12">
+                                <h3>
+                                  Category:
+                                  <small
+                                    >Header Drop-Down Menu - Special
+                                    Finish</small
+                                  >
+                                </h3>
+                                <h3>
+                                  Item Name:
+                                  <small>M White</small>
+                                </h3>
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <!-- App Title -->
+                                    <br />
+                                    <div class="black-line">
+                                      <span class="reverse-text"
+                                        >Description</span
+                                      >
+                                    </div>
+                                    <br />
+                                    <ul>
+                                      <li>
+                                        Decorative paper is impregnated with a
+                                        melamine resin and then thermally fused
+                                        to an industrial grade of composite core
+                                        board. Thermal fusion takes place under
+                                        heat and pressure and permanently bonds
+                                        the resin impregnated paper to the
+                                        substrate. The process of thermal fusion
+                                        produces a permanent bond between the
+                                        melamine surface and the substrate.
+                                      </li>
+                                    </ul>
+                                    <br />
+                                    <div class="black-line">
+                                      <span class="reverse-text"
+                                        >Specifications</span
+                                      >
+                                    </div>
+                                    <br />
+                                    <h4>
+                                      Available Materials:
+                                      <span
+                                        >Only available composite core.</span
+                                      >
+                                    </h4>
+                                    <h4>
+                                      Finishing:
+                                      <span>Not appliciable</span>
+                                    </h4>
+                                    <h4>
+                                      Size:
+                                      <span>Not applicable</span>
+                                    </h4>
+                                    <h4>
+                                      Pricing:
+                                      <span
+                                        >Parts and doors are calculated by
+                                        Webquoin when M White material is
+                                        chosen.</span
+                                      >
+                                    </h4>
+                                    <h4>
+                                      Construction:
+                                      <span>See finishing</span>
+                                    </h4>
+                                    <h4>
+                                      Options:
+                                      <span> ... </span>
+                                    </h4>
+                                    <h4>
+                                      Restrictions:
+                                      <span
+                                        >Doors are limited to the Lineal style
+                                        along other product limitations.
+                                      </span>
+                                    </h4>
+                                    <div class="wq-tip">
+                                      <img
+                                        class="img-responsive wq-tip-pic"
+                                        align="left"
+                                        src="images/Global/wq-note.png"
+                                      />
+                                      <strong>
+                                        <p>
+                                          CARB II compliant: formaldehyde
+                                          emitted &lt;0.09 ppm.
+                                        </p>
+                                      </strong>
+                                    </div>
+                                    <!-- Ordering Title -->
+                                    <div class="col-md-12">
+                                      <br />
+                                      <div class="black-line">
+                                        <span class="reverse-text"
+                                          >Ordering Information</span
+                                        >
+                                      </div>
+                                      <br />
+                                      <ul>
+                                        <li>
+                                          On the Exterior Mtrl Header Drop-Down
+                                          Menu in WQ, click on Melamine and then
+                                          choose the M White from the list.
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 text-center">
+                                    <!-- main image -->
+                                    <img
+                                      class="img-responsive center PImage2"
+                                      src="images/Headers/Exterior-Materials/M-White.jpg"
+                                    />
+                                    <p>FRONT VIEW - FINISHED</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- end Header Section-->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End M White Section -->
+                      <div class="panel">
+                        <!-- Start M Maple Section -->
+                        <a
+                          class="collapsed panel-title"
+                          data-toggle="collapse"
+                          data-parent="#accordion41"
+                          href="#accordionFourMaple"
+                          >M Maple »</a
+                        >
+                        <div
+                          id="accordionFourMaple"
+                          class="panel-collapse collapse"
+                        >
+                          <div class="panel-body">
+                            <div class="row">
+                              <!-- Header Section -->
+                              <div class="col-md-12">
+                                <h3>
+                                  Category:
+                                  <small
+                                    >Header Drop-Down Menu - Special
+                                    Finish</small
+                                  >
+                                </h3>
+                                <h3>
+                                  Item Name:
+                                  <small>M Maple</small>
+                                </h3>
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <!-- App Title -->
+                                    <br />
+                                    <div class="black-line">
+                                      <span class="reverse-text"
+                                        >Description</span
+                                      >
+                                    </div>
+                                    <br />
+                                    <ul>
+                                      <li>
+                                        Decorative paper is impregnated with a
+                                        melamine resin and then thermally fused
+                                        to an industrial grade of composite core
+                                        board. Thermal fusion takes place under
+                                        heat and pressure and permanently bonds
+                                        the resin impregnated paper to the
+                                        substrate. The process of thermal fusion
+                                        produces a permanent bond between the
+                                        melamine surface and the substrate.
+                                      </li>
+                                    </ul>
+                                    <br />
+                                    <div class="black-line">
+                                      <span class="reverse-text"
+                                        >Specifications</span
+                                      >
+                                    </div>
+                                    <br />
+                                    <h4>
+                                      Available Materials:
+                                      <span
+                                        >Only available composite core.</span
+                                      >
+                                    </h4>
+                                    <h4>
+                                      Finishing:
+                                      <span>Not appliciable</span>
+                                    </h4>
+                                    <h4>
+                                      Size:
+                                      <span>Not applicable</span>
+                                    </h4>
+                                    <h4>
+                                      Pricing:
+                                      <span
+                                        >Parts and doors are calculated by
+                                        Webquoin when M Maple material is
+                                        chosen.</span
+                                      >
+                                    </h4>
+                                    <h4>
+                                      Construction:
+                                      <span>See finishing</span>
+                                    </h4>
+                                    <h4>
+                                      Options:
+                                      <span> ... </span>
+                                    </h4>
+                                    <h4>
+                                      Restrictions:
+                                      <span
+                                        >Doors are limited to the Lineal style
+                                        along other product limitations.
+                                      </span>
+                                    </h4>
+                                    <div class="wq-tip">
+                                      <img
+                                        class="img-responsive wq-tip-pic"
+                                        align="left"
+                                        src="images/Global/wq-note.png"
+                                      />
+                                      <strong>
+                                        <p>
+                                          CARB II compliant: formaldehyde
+                                          emitted &lt;0.09 ppm.
+                                        </p>
+                                      </strong>
+                                    </div>
+                                    <!-- Ordering Title -->
+                                    <div class="col-md-12">
+                                      <br />
+                                      <div class="black-line">
+                                        <span class="reverse-text"
+                                          >Ordering Information</span
+                                        >
+                                      </div>
+                                      <br />
+                                      <ul>
+                                        <li>
+                                          On the Exterior Mtrl Header Drop-Down
+                                          Menu in WQ, click on Melamine and then
+                                          choose the M Maple from the list.
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4 text-center">
+                                    <!-- main image -->
+                                    <img
+                                      class="img-responsive center PImage2"
+                                      src="images/Headers/Exterior-Materials/M-Maple.jpg"
+                                    />
+                                    <p>FRONT VIEW - FINISHED</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- end Header Section-->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End M Maple Section -->
+
+                      <div class="panel ">
+                        <!-- Start textured Melamine VG Section -->
+                        <a
+                          class="collapsed panel-title"
+                          data-toggle="collapse"
+                          data-parent="#accordion41"
+                          href="#accordionFourTwo"
+                          >Textured VG»</a
+                        >
+                        <div class="changed">
+                          <span class="changes-info">Changed</span>
+                        </div>
+                        <div
+                          id="accordionFourTwo"
+                          class="panel-collapse collapse"
+                        >
+                          <div class="panel-body">
+                            <div class="row">
+                              <!-- Header Section -->
+                              <div class="col-md-12">
+                                <h3>
+                                  Category:
+                                  <small
+                                    >Header Drop-Down Menu - Special
+                                    Finish</small
+                                  >
+                                </h3>
+                                <h3>
+                                  Item Name:
+                                  <small>Textured VG</small>
+                                </h3>
+                                <div class="row">
+                                  <div class="col-md-12">
+                                    <!-- App Title -->
+                                    <br />
+                                    <div class="black-line">
+                                      <span class="reverse-text"
+                                        >Description</span
+                                      >
+                                    </div>
+                                    <br />
+                                    <ul>
+                                      <li>
+                                        Textured melamines offer the look and
+                                        feel of wood grain while being durable
+                                        and consistent in appearance.
+                                      </li>
+                                    </ul>
+                                    <br />
+                                    <div class="row">
+                                      <ul>
+                                        <li>
+                                          Textured Melamine Colors/Textures
+                                          Vertical Grain:
+                                        </li>
+                                      </ul>
+                                      <div class="col-md-3">
+                                        <img
+                                          src="images/Headers/Exterior-Materials/TM-Skye.jpg"
+                                          alt="Textured Melamine Skye vertical grain"
+                                          class="img-responsive center PImage Rotate-90"
+                                          style="border:1px solid black"
+                                        />
+                                        <p class="text-center">
+                                          TM Skye VG(See note)
+                                        </p>
+                                      </div>
+                                      <div class="col-md-3">
+                                        <img
+                                          src="images/Headers/Exterior-Materials/TM-Mistral.jpg"
+                                          alt="Textured Melamine Mistral vertical grain"
+                                          class="img-responsive center PImage"
+                                          style="border:1px solid black"
+                                        />
+                                        <p class="text-center">
+                                          TM Mistral VG(See note)
+                                        </p>
+                                      </div>
+                                      <div class="col-md-3">
+                                        <img
+                                          src="images/Headers/Exterior-Materials/TM-Cannes.jpg"
+                                          alt="Textured Melamine Cannes vertical grain"
+                                          class="img-responsive center PImage"
+                                          style="border:1px solid black"
+                                        />
+                                        <p class="text-center">
+                                          TM Cannes VG(See note)
+                                        </p>
+                                      </div>
+                                      <div class="col-md-3">
+                                        <img
+                                          src="images/Headers/Exterior-Materials/TM-Cassis.jpg"
+                                          alt="Textured Melamine Cassis vertical grain"
+                                          class="img-responsive center PImage"
+                                          style="border:1px solid black"
+                                        />
+                                        <p class="text-center">
+                                          TM Cassis VG(See note)
+                                        </p>
+                                      </div>
+                                      <div class="col-md-3">
+                                        <img
+                                          src="images/Headers/Exterior-Materials/TM-Monaco.jpg"
+                                          alt="Textured Melamine Monaco vertical grain"
+                                          class="img-responsive center PImage"
+                                          style="border:1px solid black"
+                                        />
+                                        <p class="text-center">
+                                          TM Monaco VG(See note)
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div class="black-line">
+                                      <span class="reverse-text"
+                                        >Specifications</span
+                                      >
+                                    </div>
+                                    <br />
+                                    <h4>
+                                      Available Materials:
+                                      <span
+                                        >Only available composite core.</span
+                                      >
+                                    </h4>
+                                    <h4>
+                                      Finishing:
+                                      <span>
+                                        <ul class="list-unstyled indent">
+                                          <li>
+                                            Textured melamines offer the look
+                                            and feel of wood grain while being
+                                            durable and consistent in
+                                            appearance.
+                                          </li>
+                                        </ul>
+                                      </span>
+                                    </h4>
+                                    <h4>
+                                      Size:
+                                      <span>48” wide X 96” high.</span>
+                                    </h4>
+                                    <h4>
+                                      Pricing:
+                                      <span>
+                                        Parts and doors are calculated by
+                                        Webquoin when Textured Melamine material
+                                        is chosen.</span
+                                      >
+                                    </h4>
+                                    <h4>
+                                      Construction:
+                                      <span>See finishing</span>
+                                    </h4>
+                                    <h4>
+                                      Options:
+                                      <span
+                                        >Textured melamines have been selected
+                                        to be part of our line:
+                                        <ul>
+                                          <li>
+                                            TM Skye VG, TM Mistral VG, TM Cannes
+                                            VG, TM Cassis VG and TM Monaco VG.
+                                          </li>
+                                        </ul>
+                                      </span>
+                                    </h4>
+                                    <h4>
+                                      Restrictions:
+                                      <span
+                                        >Doors are limited to the Lineal VG
+                                        style along with other product
+                                        limitations.
+                                      </span>
+                                    </h4>
+                                    <div class="wq-tip">
+                                      <img
+                                        class="img-responsive wq-tip-pic"
+                                        align="left"
+                                        src="images/Global/wq-note.png"
+                                      />
+                                      <strong>
+                                        <p>
+                                          CARB II compliant: formaldehyde
+                                          emitted &lt;0.09 ppm.
+                                        </p>
+                                      </strong>
+                                    </div>
+                                    <div class="wq-tip">
+                                      <img
+                                        class="img-responsive wq-tip-pic"
+                                        align="left"
+                                        src="images/Global/wq-note.png"
+                                      />
+                                      <strong>
+                                        <p>
+                                          Maximum size for Textured Melamine is
+                                          48” wide X 96” high.
+                                        </p>
+                                      </strong>
+                                    </div>
+                                    <div class="wq-tip">
+                                      <img
+                                        class="img-responsive wq-tip-pic"
+                                        align="left"
+                                        src="images/Global/wq-note.png"
+                                      />
+                                      <strong>
+                                        Fe's, FCB/FCT's will be made with high
+                                        pressure laminate(HPL).</strong
+                                      >
+                                    </div>
+                                    <!-- Ordering Title -->
+                                    <div class="col-md-12">
+                                      <br />
+                                      <div class="black-line">
+                                        <span class="reverse-text"
+                                          >Ordering Information</span
+                                        >
+                                      </div>
+                                      <br />
+                                      <ul>
+                                        <li>
+                                          On the Exterior Mtrl Header Drop-Down
+                                          Menu in WQ, click on Textured melamine
+                                          VG and then choose the color from the
+                                          list.
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- end Header Section-->
+                          </div>
+                        </div>
+                      </div>
+                      <!-- End textured Melamine Section -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-second">
+              <!-- Start Gloss Section -->
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a
+                    class="collapsed"
+                    data-toggle="collapse"
+                    data-parent="#accordion1"
+                    href="#accordionGloss"
+                    >GLOSS...</a
+                  >
+                </h4>
+              </div>
+              <div id="accordionGloss" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="panel-body">
+                    <div class="panel-group" id="accordionGlo">
+                      <div class="panel">
+                        <!-- Start LAMINATE Gloss Section -->
+                        <a
+                          class="collapsed panel-title"
+                          data-toggle="collapse"
+                          data-parent="#accordionGlo"
+                          href="#accordionGloss1"
+                          >Laminate Gloss »</a
+                        >
+                        <div
+                          id="accordionGloss1"
+                          class="panel-collapse collapse"
+                        >
+                          <div class="panel-body">
+                            <div class="row">
+                              <!-- Header Section -->
+                              <div class="col-md-12">
+                                <h3>
+                                  Category:
+                                  <small
+                                    >Header Drop-Down Menu - Exterior
+                                    Mtrl</small
+                                  >
+                                </h3>
+                                <h3>
+                                  Item Name:
+                                  <small>Laminate Gloss</small>
+                                </h3>
+                                <div class="row">
+                                  <div class="col-md-12">
+                                    <!-- App Title -->
+                                    <br />
+                                    <div class="black-line">
+                                      <span class="reverse-text"
+                                        >Description</span
+                                      >
+                                    </div>
+                                    <br />
+                                    <ul>
+                                      <li>
+                                        <p>
+                                          Option for the “extra” rooms of the
+                                          house, but does have some orange peel
+                                          effect which may seem significant when
+                                          compared directly to Flux, Soho and
+                                          Vivid.
+                                        </p>
+                                      </li>
+                                    </ul>
+                                    <br />
+                                    <div class="row">
+                                      <ul>
+                                        <li>Laminate Gloss Colors:</li>
+                                      </ul>
+                                      <div class="col-md-3">
+                                        <img
+                                          class="img-responsive center PImage"
+                                          src="images/Headers/Exterior-Materials/Arctic-Grey.jpg"
+                                          style="border:1px solid black"
+                                        />
+                                        <p class="text-center">Arctic Grey</p>
+                                      </div>
+                                      <div class="col-md-3">
+                                        <img
+                                          class="img-responsive center PImage"
+                                          src="images/Headers/Exterior-Materials/Cloud-White.jpg"
+                                          style="border:1px solid black"
+                                        />
+                                        <p class="text-center">Cloud White</p>
+                                      </div>
+                                      <div class="col-md-3">
+                                        <img
+                                          class="img-responsive center PImage"
+                                          src="images/Headers/Exterior-Materials/Cobolt-Grey.jpg"
+                                          style="border:1px solid black"
+                                        />
+                                        <p class="text-center">Cobalt</p>
+                                      </div>
+                                      <div class="col-md-3">
+                                        <img
+                                          class="img-responsive center PImage"
+                                          src="images/Headers/Exterior-Materials/Style-White.jpg"
+                                          style="border:1px solid black"
+                                        />
+                                        <p class="text-center">Style White</p>
+                                      </div>
+                                      <div class="col-md-3">
+                                        <img
+                                          class="img-responsive center PImage"
+                                          src="images/Headers/Exterior-Materials/Thunder-White.jpg"
+                                          style="border:1px solid black"
+                                        />
+                                        <p class="text-center">Thunder</p>
+                                      </div>
+                                    </div>
+                                    <div class="black-line">
+                                      <span class="reverse-text"
+                                        >Specifications</span
+                                      >
+                                    </div>
+                                    <br />
+                                    <h4>
+                                      Size:
+                                      <span>Not applicable</span>
+                                    </h4>
+                                    <h4>
+                                      Pricing:
+                                      <span
+                                        >Parts and doors are calculated by
+                                        Webquoin when Laminate Gloss is
+                                        chosen.</span
+                                      >
+                                    </h4>
+                                    <h4>
+                                      Construction:
+                                      <span> 3/4" composite core. </span>
+                                    </h4>
+                                    <h4>
+                                      Options:
+                                      <span>
+                                        <ul>
+                                          <li>
+                                            Colors available: Artic Grey, Cloud
+                                            White, Cobalt, Style White and
+                                            Thunder.
+                                          </li>
+                                        </ul>
+                                      </span>
+                                    </h4>
+                                    <h4>
+                                      Restrictions:
+                                      <span
+                                        >Not available on parts over 8 feet,
+                                        crown moldings, wainscot panels, door
+                                        end panels and other parts that are
+                                        solid wood.</span
+                                      >
+                                    </h4>
+                                    <!--<div class="wq-tip">
+                                    <img class="img-responsive wq-tip-pic" align="left" src="images/Global/wq-note.png" />
+                                    <strong> V-Edge will only be applied to doors and applied fillers, not panels and
+                                      other accessories.
+                                    </strong>
+                                  </div>
+                                   <div class="wq-tip">
+                                    <img class="img-responsive wq-tip-pic" align="left" src="images/Global/wq-tip.png" />
+                                    <strong>If applied doors require V-Edge select AD or ADP from Header Drop-Down Menu
+                                      and select the
+                                      V-Edge version
+                                      of the door.</strong>
+                                  </div> -->
+                                    <div class="wq-tip">
+                                      <img
+                                        class="img-responsive wq-tip-pic"
+                                        align="left"
+                                        src="images/Global/wq-note.png"
+                                      />
+                                      <strong>
+                                        Fe's, FCB/FCT's will be made with high
+                                        pressure laminate(HPL).</strong
+                                      >
+                                    </div>
+                                    <!-- Ordering Title -->
+                                    <div class="col-md-12">
+                                      <br />
+                                      <div class="black-line">
+                                        <span class="reverse-text"
+                                          >Ordering Information</span
+                                        >
+                                      </div>
+                                      <br />
+                                      <ul>
+                                        <li>
+                                          On the Exterior Mtrl Header Drop-Down
+                                          Menu in WQ, click on LAMINATE GLOSS...
+                                          and then choose the Color from the
+                                          list.
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- end Header Section-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Col Section -->
+    </div>
+    <!-- End Accordion Section -->
+    <!-- End Container-fluid Section -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script>
+      $(function() {
+        $('#accordion1').on('shown.bs.collapse', function(e) {
+          var offset = $(this)
+            .find('.collapse.in')
+            .prev('.panel-heading');
+          if (offset) {
+            $('html,body').animate(
+              {
+                scrollTop: $(offset).offset().top - 20
+              },
+              0
+            );
+          }
+        });
+      });
+      $(function() {
+        var imageDiv = $('.image');
+        var imageDivHeight;
+        var imageDivWidth;
+
+        $(imageDiv).each(function() {
+          imageDivHeight = $(this).height();
+          imageDivWidth = $(this).width();
+          if (imageDivWidth > imageDivHeight) $(this).addClass('vertical');
+        });
+      });
+    </script>
+  </body>
+</html>

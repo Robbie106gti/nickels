@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>COLOR HEADER DROP-DOWN MENU</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom Styles -->
+    <link href="css/custom.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <![endif]-->
+  </head>
+  <script>
+    var pline = null;
+    var ddoor = null;
+    var dmaterial = null;
+
+    if (window.location !== window.parent.location) {
+      pline = parent.document
+        .getElementById('pline')
+        .innerText.toLocaleLowerCase();
+      ddoor = parent.document.getElementById('DOORSTYLE');
+      dmaterial = parent.document.getElementById('EXTRMTRL');
+      console.log({ line: pline, door: ddoor, material: dmaterial });
+
+      switch (pline) {
+        case 'cornerstone':
+          window.location.href = 'colorcornerstone.html';
+          break;
+        case 'lighthouse':
+          window.location.href = 'colorlighthouse.html';
+          break;
+        case 'custom':
+          // window.location.href = 'color.html';
+          break;
+        case 'modcon':
+          window.location.href = 'color.html';
+          break;
+        case 'wardrobe':
+          window.location.href = 'color.html';
+          break;
+        default:
+          window.location.href = 'color.html';
+          null;
+      }
+    }
+  </script>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Title Section -->
+        <div class="col-md-12">
+          <h1 class="text-center">COLOR HEADER DROP-DOWN MENU</h1>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Accordion Section -->
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+          <div class="panel-group" id="accordion1">
+            <div class="panel panel-default">
+              <!-- Start Paint Section -->
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a
+                    class="collapsed"
+                    data-toggle="collapse"
+                    data-parent="#accordion1"
+                    href="#accordionOne"
+                    >Paint...</a
+                  >
+                </h4>
+              </div>
+
+              <div id="accordionOne" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="row">
+                    <!-- Header Section -->
+                    <div class="col-md-12">
+                      <h3>
+                        Category:
+                        <small>Header Drop-Down Menu - Color</small>
+                      </h3>
+                      <h3>
+                        Item Name:
+                        <small>Paint</small>
+                      </h3>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <!-- App Title -->
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Application</span>
+                          </div>
+                          <br />
+                          <ul>
+                            <li>
+                              <p>
+                                Painted material is typically either a paint
+                                grade solid wood (like poplar or soft maple),
+                                MDF (CARB II compliant medium density
+                                fiberboard) or a combination of both.
+                              </p>
+                              <p>
+                                As well some doors are painted on high-density
+                                fiberboard (HDF) which is much stronger and
+                                harder because it is made out of exploded wood
+                                fibers that have been highly compressed. HDF
+                                differs from particle board in that the bonding
+                                of the wood fibers requires no additional
+                                materials and unlike particle board, it will not
+                                split or crack. This combination of materials
+                                provides a smooth and consistent finished
+                                surface. Nickels applies paint onto 1-piece HDF
+                                and 5-piece MDF/wood doors.
+                              </p>
+                              <p>
+                                When a 5-piece door is painted, the joints will
+                                inevitably telegraph through the painted finish.
+                                On some occasions, the joints will open up,
+                                thereby developing hairline cracks on the door
+                                face. These cracks are considered normal and
+                                acceptable, and are therefore not covered as a
+                                warranty issue. When Nickels paints onto 1-piece
+                                MDF doors, the issue of the joints as described
+                                above is eliminated.
+                              </p>
+                            </li>
+                          </ul>
+                          <div class="row">
+                            <br />
+                            <ul>
+                              <li>Paint Colors:</li>
+                            </ul>
+                            <div class="col-md-2">
+                              <img
+                                src="images/Headers/Exterior-Materials/painted-antique white.jpg"
+                                alt="Anitque white"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Antique White</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="images/Headers/Exterior-Materials/painted-cloud white.jpg"
+                                alt="Cloud white"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Cloud White</p>
+                            </div>
+                            <!--
+													<div class="col-md-2">
+														<img src="images/Headers/Exterior-Materials/painted-designer white.jpg" alt="Designer white" class="img-responsive center" style="border:1px solid black" />
+														<p class="text-center">Designer White</p>
+													</div>-->
+                            <div class="col-md-2">
+                              <img
+                                src="images/Headers/Exterior-Materials/painted-frosty white.jpg"
+                                alt="Frosty White"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Frosty White</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="images/Headers/Exterior-Materials/painted-ultra white.jpg"
+                                alt="Ultra White"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Ultra White</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-2">
+                              <img
+                                src="images/Headers/Exterior-Materials/painted-sand.jpg"
+                                alt="Sand"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Sand</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="images/Headers/Exterior-Materials/painted-pewter.jpg"
+                                alt="Pewter"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Pewter</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="images/Headers/Exterior-Materials/painted-charcoal.jpg"
+                                alt="Charcoal"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Charcoal</p>
+                            </div>
+
+                            <div class="col-md-2">
+                              <img
+                                src="images/Headers/Exterior-Materials/painted-shale.jpg"
+                                alt="Shale"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Shale</p>
+                            </div>
+
+                            <div class="col-md-2">
+                              <img
+                                src="images/Headers/Exterior-Materials/painted-hale navy.jpg"
+                                alt="Hale Navy"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Hale Navy</p>
+                            </div>
+
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Chantilly Lace"
+                                src="/catalog/build/assets/samples/chantilly lace.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Chantilly Lace</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Chelsea Grey"
+                                src="/catalog/build/assets/samples/chesea grey.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Chelsea Grey</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Distance"
+                                src="/catalog/build/assets/samples/distance.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Distance</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Grey Owl"
+                                src="/catalog/build/assets/samples/grey owl.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Grey Owl</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Kendall Charcoal"
+                                src="/catalog/build/assets/samples/kendall charcoal.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Kendall Charcoal</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Off the Grid"
+                                src="/catalog/build/assets/samples/off the grid.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Off the Grid</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Quiet Time"
+                                src="/catalog/build/assets/samples/quite time.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Quiet Time</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Simply White"
+                                src="/catalog/build/assets/samples/simple white.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Simply White</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="White Dove"
+                                src="/catalog/build/assets/samples/white dove.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">White Dove</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                class="img-responsive center PImage"
+                                alt="Shore White"
+                                src="/catalog/build/assets/samples/simple white.jpg"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Shore White</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-2">
+                              <img
+                                src="images/Headers/Exterior-Materials/painted-black.jpg"
+                                alt="Black"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Black</p>
+                            </div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-2"></div>
+                          </div>
+
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Specifications</span>
+                          </div>
+                          <br />
+                          <div>
+                            <h4>
+                              Available Materials:
+                              <span>Solid wood or MDF parts and doors.</span>
+                            </h4>
+                            <h4>
+                              Finishing:
+                              <span></span>
+                            </h4>
+                            <ol>
+                              <h4>PAINT FINISHING PROCESS</h4>
+                              <li>
+                                Bare wood surfaces are carefully inspected for
+                                defects.
+                              </li>
+                              <li>
+                                Material is conditioned (sanded) for priming
+                                which includes removal of defects.
+                              </li>
+                              <li>
+                                Initial primer coat is applied to the surface.
+                              </li>
+                              <li>Material is inspected and sanded.</li>
+                              <li>
+                                Second primer coat is applied to the surface.
+                              </li>
+                              <li>Material is inspected and sanded.</li>
+                              <li>
+                                All sanded surfaces are top-coated with final
+                                non-yellowing two-part component catalyzed
+                                enamel paint in the desired color.
+                              </li>
+                              <li>Final inspection for defects and color.</li>
+                            </ol>
+                            <p>
+                              The resulting smooth surface provides a high
+                              performance finish that is resistant to spills,
+                              scratches and heat. All painted and wood species
+                              (with the exception of EW Engineered Veneers).
+                            </p>
+                          </div>
+                          <div class="row">
+                            <!-- Ordering Title -->
+                            <div class="col-md-12">
+                              <br />
+                              <div class="black-line">
+                                <span class="reverse-text"
+                                  >Ordering Information</span
+                                >
+                              </div>
+                              <br />
+                            </div>
+                          </div>
+                          <!-- end Ordering Title -->
+                        </div>
+                        <!-- end Col12 Section-->
+                      </div>
+                      <!-- end row Section-->
+                    </div>
+                    <!-- end ColM12 Section-->
+                  </div>
+                  <!-- end Header Section-->
+                  <div class="row">
+                    <!-- Ordering Text -->
+                    <div class="col-md-12">
+                      <ul>
+                        <li>
+                          On the Color Header Drop-Down Menu in WQ, click on
+                          Paint from the list.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-second">
+              <!-- Start Stain Section -->
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a
+                    class="collapsed"
+                    data-toggle="collapse"
+                    data-parent="#accordion1"
+                    href="#accordionStain"
+                    >Stain...</a
+                  >
+                </h4>
+              </div>
+
+              <div id="accordionStain" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="row">
+                    <!-- Header Section -->
+                    <div class="col-md-12">
+                      <h3>
+                        Category:
+                        <small>Header Drop-Down Menu - Color</small>
+                      </h3>
+                      <h3>
+                        Item Name:
+                        <small>Stain</small>
+                      </h3>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <!-- App Title -->
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Stains Colors:</span>
+                          </div>
+                          <br />
+
+                          <div class="row">
+                            <div class="col-md-12">
+                              <p>All samples on Alder - Satin sheen</p>
+                            </div>
+
+                            <div class="col-md-2">
+                              <img
+                                src="images/Finishes/JPEG/alder-blue corn.jpg"
+                                alt="Blue corn"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Blue Corn</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="images/Finishes/JPEG/alder-cardamon.jpg"
+                                alt="Cardamon"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Cardamon</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="images/Finishes/JPEG/alder-chipotle.jpg"
+                                alt="Chipotle"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Chipotle</p>
+                            </div>
+
+                            <div class="col-md-2">
+                              <img
+                                src="images/Finishes/JPEG/alder-cinnamon.jpg"
+                                alt="Cinnamon"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Cinnamon</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="images/Finishes/JPEG/alder-clove.jpg"
+                                alt="Clove"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Clove</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="images/Finishes/JPEG/alder-coffee bean.jpg"
+                                alt="Coffee Bean"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Coffee Bean</p>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-2">
+                              <img
+                                src="images/Finishes/JPEG/alder-hazelnut.jpg"
+                                alt="Hazelnut"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Hazelnut</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="images/Finishes/JPEG/alder-pasilla.jpg"
+                                alt="Pasilla"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Pasilla</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="images/Finishes/JPEG/alder-peppercorn.jpg"
+                                alt="Peppercorn"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Peppercorn</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="images/Finishes/JPEG/alder-sesame.jpg"
+                                alt="Sesame"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Sesame</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="images/Finishes/JPEG/alder-tamarind.jpg"
+                                alt="Tamarind"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Tamarind</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="/catalog/build/assets/samples/coal.jpg"
+                                alt="Coal"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Coal</p>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-2">
+                              <img
+                                src="/catalog/build/assets/samples/thunder.jpg"
+                                alt="Thunder"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Thunder</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="/catalog/build/assets/samples/Smoke.jpg"
+                                alt="Smoke"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Smoke</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="/catalog/build/assets/samples/Sienna.jpg"
+                                alt="Sienna"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Sienna</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="/catalog/build/assets/samples/Shiitake.jpg"
+                                alt="Shiitake"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Shiitake</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="/catalog/build/assets/samples/Oyster.jpg"
+                                alt="Oyster"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Oyster</p>
+                            </div>
+                            <div class="col-md-2">
+                              <img
+                                src="/catalog/build/assets/samples/Pebble.jpg"
+                                alt="Pebble"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Pebble</p>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-2">
+                              <img
+                                src="/catalog/build/assets/samples/edler.jpg"
+                                alt="Ecru"
+                                class="img-responsive center"
+                                style="border:1px solid black"
+                              />
+                              <p class="text-center">Ecru</p>
+                            </div>
+                          </div>
+
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Specifications</span>
+                          </div>
+                          <br />
+                          <div>
+                            <h4>
+                              Available Materials:
+                              <span>Solid wood or MDF parts and doors.</span>
+                            </h4>
+                            <h4>
+                              Finishing:
+                              <span></span>
+                            </h4>
+                            <ol>
+                              <h4>STAIN FINISHING PROCESS</h4>
+                              <li>
+                                Bare wood surfaces are carefully inspected for
+                                defects.
+                              </li>
+                              <li>
+                                Material is conditioned (sanded) for staining
+                                which includes removal of defects.
+                              </li>
+                              <li>
+                                Initial toner dye is applied to the surface to
+                                achieve the base color.
+                              </li>
+                              <li>
+                                A wiping stain is sprayed on the surface, then
+                                immediately wiped to achieve final color.
+                              </li>
+                              <li>
+                                Stained material is inspected for defects and
+                                color consistency.
+                              </li>
+                              <li>
+                                Control sample offcut from the batch is included
+                                in the job for future reference.
+                              </li>
+                              <li>
+                                Sealer coat is sprayed on all stained surfaces.
+                              </li>
+                              <li>
+                                All sealed surfaces are hand-sanded and
+                                inspected.
+                              </li>
+                              <li>
+                                All sanded surfaces are top-coated with
+                                non-yellowing, low HAPS, clear conversion
+                                varnish.
+                              </li>
+                              <li>Final inspection for defects and color.</li>
+                            </ol>
+                          </div>
+                          <div class="row">
+                            <!-- Ordering Title -->
+                            <div class="col-md-12">
+                              <br />
+                              <div class="black-line">
+                                <span class="reverse-text"
+                                  >Ordering Information</span
+                                >
+                              </div>
+                              <br />
+                            </div>
+                          </div>
+                          <!-- end Ordering Title -->
+                        </div>
+                        <!-- end Col12 Section-->
+                      </div>
+                      <!-- end row Section-->
+                    </div>
+                    <!-- end ColM12 Section-->
+                  </div>
+                  <!-- end Header Section-->
+                  <div class="row">
+                    <!-- Ordering Text -->
+                    <div class="col-md-12">
+                      <ul>
+                        <li>
+                          On the Color Header Drop-Down Menu in WQ, click on
+                          Stain from the list.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <!-- Start Premium Stain Section -->
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a
+                    class="collapsed"
+                    data-toggle="collapse"
+                    data-parent="#accordion1"
+                    href="#accordionEngineered"
+                    >Premium Stain...</a
+                  >
+                </h4>
+              </div>
+              <div id="accordionEngineered" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="row">
+                    <!-- Header Section -->
+                    <div class="col-md-12">
+                      <h3>
+                        Category:
+                        <small>Header Drop-Down Menu - Color</small>
+                      </h3>
+                      <h3>
+                        Item Name:
+                        <small>Premium Stain</small>
+                      </h3>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <!-- App Title -->
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text"
+                              >Premium Stain Colors:</span
+                            >
+                          </div>
+                          <br />
+
+                          <div class="row">
+                            <div class="col-md-12">
+                              <p>All samples on Black Walnut - Matte sheen</p>
+                            </div>
+                            <div class="col-md-12">
+                              <div class="col-md-3">
+                                <img
+                                  src="images/finishes/Driftwood-Black-Walnut-Matte.jpg"
+                                  alt="Driftwood"
+                                  class="img-responsive center"
+                                  style="border:1px solid black"
+                                />
+                                <p class="text-center">Driftwood</p>
+                              </div>
+                              <div class="col-md-3">
+                                <img
+                                  src="images/finishes/Rain-Black-walnut-Matte.jpg"
+                                  alt="Rain"
+                                  class="img-responsive center"
+                                  style="border:1px solid black"
+                                />
+                                <p class="text-center">Rain</p>
+                              </div>
+                              <div class="col-md-3">
+                                <img
+                                  src="images/finishes/Winter-Black-Walnut-matte.jpg"
+                                  alt="Winter"
+                                  class="img-responsive center"
+                                  style="border:1px solid black"
+                                />
+                                <p class="text-center">Winter</p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Specifications</span>
+                          </div>
+                          <br />
+                          <div>
+                            <h4>
+                              Available Stains:
+                              <span> Driftwood, Rain & Winter</span>
+                            </h4>
+                            <h4>
+                              Finishing:
+                              <span></span>
+                            </h4>
+                            <ol>
+                              <h4>PREMIUM STAIN FINISHING PROCESS</h4>
+                              <li>
+                                Bare wood surfaces are carefully inspected for
+                                defects.
+                              </li>
+                              <li>
+                                Material is conditioned (sanded) for staining
+                                which includes removal of defects.
+                              </li>
+                              <li>
+                                Stain is applied on to the surface, then
+                                immediately wiped to achieve color.
+                              </li>
+                              <li>
+                                Stained material is inspected for defects and
+                                color consistency.
+                              </li>
+                              <li>
+                                Control sample offcut from the batch is included
+                                in the job for future reference.
+                              </li>
+                              <li>
+                                Sealer coat is sprayed on all stained surfaces.
+                              </li>
+                              <li>
+                                All sealed surfaces are hand-sanded and
+                                inspected.
+                              </li>
+                              <li>
+                                All sanded surfaces are top-coated with
+                                non-yellowing, low HAPS, clear conversion
+                                varnish.
+                              </li>
+                              <li>Final inspection for defects and color.</li>
+                            </ol>
+                          </div>
+                          <div class="row">
+                            <!-- Ordering Title -->
+                            <div class="col-md-12">
+                              <br />
+                              <div class="black-line">
+                                <span class="reverse-text"
+                                  >Ordering Information</span
+                                >
+                              </div>
+                              <br />
+                            </div>
+                          </div>
+                          <!-- end Ordering Title -->
+                        </div>
+                        <!-- end Col12 Section-->
+                      </div>
+                      <!-- end row Section-->
+                    </div>
+                    <!-- end ColM12 Section-->
+                  </div>
+                  <!-- end Header Section-->
+                  <div class="row">
+                    <!-- Ordering Text -->
+                    <div class="col-md-12">
+                      <ul>
+                        <li>
+                          On the Color Header Drop-Down Menu in WQ, click on
+                          Premium Stain from the list.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-second">
+              <!-- Start Custom Section -->
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a
+                    class="collapsed"
+                    data-toggle="collapse"
+                    data-parent="#accordion1"
+                    href="#accordionCustom"
+                    >Custom...</a
+                  >
+                </h4>
+              </div>
+
+              <div id="accordionCustom" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="row">
+                    <!-- Header Section -->
+                    <div class="col-md-12">
+                      <h3>
+                        Category:
+                        <small>Header Drop-Down Menu - Color</small>
+                      </h3>
+                      <h3>
+                        Item Name:
+                        <small>Custom</small>
+                      </h3>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <!-- App Title -->
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Application</span>
+                          </div>
+                          <br />
+                          <p>Custom</p>
+
+                          <br />
+
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Specifications</span>
+                          </div>
+                          <br />
+                          <div>
+                            <h4>Custom Stain Option</h4>
+                            <p>
+                              A sample of the stain to be matched must be
+                              provided to Nickels Finishing Team Leader (via the
+                              Order Desk). This sample must have the customer
+                              name and dealer name attached as well as the wood
+                              species to be stained. Allow 8 - 10 working days
+                              for the Finishing Team to achieve a proper match
+                              and produce samples. Along with the original
+                              sample, 4 matched samples will be provided with
+                              the custom stain number and wood species labelled
+                              on the back. The Finishing Team retains a 5th
+                              matched sample for reference. Written approval is
+                              required before confirming order.
+                            </p>
+                            <p>
+                              <b
+                                >A Sample door with the final approved color is
+                                strongly recommended.</b
+                              >
+                              <br />
+                              Sheens and other special finishes are not included
+                              in this process and must be noted individually on
+                              every order. There will be a setup fee charged
+                              every time a new stain color is requested using
+                              the Customization Charge: CC-STAIN. Send in a
+                              separate order 10 - 15 working days prior to
+                              sending job to inbox with request for custom
+                              color. The entire custom stain process can take up
+                              to 10 - 15 working days to complete, so please
+                              plan accordingly. No order will be processed until
+                              a custom color has been approved by dealer.
+                            </p>
+                            <h4>Custom Paint Option</h4>
+                            <p>
+                              The custom paint procedure will be similar to the
+                              custom stain procedure except in the case where
+                              the color requested matches an existing laminate
+                              or paint color that is available as a sample in
+                              Vancouver. In this case, samples will be made to
+                              match the color requested and given a custom
+                              number.
+                            </p>
+                            <p>
+                              <b>Pricing</b>
+                              <br />
+                              Sheens and other special finishes are not included
+                              in this process and must be noted individually on
+                              every order. There will be a setup fee charged
+                              every time a new paint color is requested using
+                              the Customization Charge: CC-PAINT. The entire
+                              custom paint process can take up to 10 - 15
+                              working days to complete, so please plan
+                              accordingly. No order will be processed until a
+                              custom color has been approved and confirmed with
+                              a signature.
+                            </p>
+                            <h4>Custom Glaze Option</h4>
+                            <p>
+                              The custom glaze procedure will be similar to the
+                              custom stain procedure except in the case where
+                              the color requested matches an existing laminate
+                              or paint color that is available as a sample in
+                              Vancouver. In this case, samples will be made to
+                              match the color requested and given a custom
+                              number.
+                            </p>
+                            <p>
+                              <b
+                                >A sample door with the final approved color is
+                                required.</b
+                              >
+                              <br />Sheens and other special finishes are not
+                              included in this process and must be noted
+                              individually on every order. There will be a setup
+                              fee charged every time a new stain color is
+                              requested using the Customization Charge:
+                              CC-GLAZE. The entire custom stain process can take
+                              up to 10 - 15 working days to complete, so please
+                              plan accordingly. No order will be processed until
+                              a custom color has been approved and confirmed
+                              with a signature.
+                            </p>
+                            <h4>
+                              Construction:
+                              <span>see Finishing</span>
+                            </h4>
+                            <h4>
+                              Restrictions:
+                              <span
+                                >not available in MDF, all Melamines, Engineered
+                                Veneer.</span
+                              >
+                            </h4>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-12">
+                              <div class="wq-tip">
+                                <img
+                                  src="images/Global/wq-note.png"
+                                  alt="Note"
+                                  class="img-responsive wq-tip-pic"
+                                  align="left"
+                                />
+                                <strong
+                                  >Each custom process requires a separate
+                                  custom charge and approval prior to submitting
+                                  to Nickels inbox.</strong
+                                >
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- end Col12 Section-->
+                      </div>
+                      <!-- end row Section-->
+                    </div>
+                    <!-- end ColM12 Section-->
+                  </div>
+                  <!-- end Header Section-->
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <!-- Start Matches Exterior Section -->
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a
+                    class="collapsed"
+                    data-toggle="collapse"
+                    data-parent="#accordion1"
+                    href="#accordionME"
+                    >Matches Exterior...</a
+                  >
+                </h4>
+              </div>
+
+              <div id="accordionME" class="panel-collapse collapse">
+                <div class="panel-body">
+                  <div class="row">
+                    <!-- Header Section -->
+                    <div class="col-md-12">
+                      <h3>
+                        Category:
+                        <small>Header Drop-Down Menu - Color</small>
+                      </h3>
+                      <h3>
+                        Item Name:
+                        <small>Matches Exterior</small>
+                      </h3>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <!-- App Title -->
+                          <br />
+                          <div class="black-line">
+                            <span class="reverse-text">Application</span>
+                          </div>
+                          <br />
+                          <ul>
+                            <li>
+                              <p>
+                                The color of the material matches the selection
+                                made in the Exterior Header Drop-Down Menu.
+                              </p>
+                            </li>
+                          </ul>
+                          <br />
+                          <!--<div class="black-line">
+													<span class="reverse-text">Specifications</span>
+												</div>
+												<br>
+												<div>
+													<h4>Available Materials: <span>Solid wood or MDF parts and doors.</span></h4>
+													<h4>Finishing: <span>Click on <a href="Paint Standards.html">Paint Finishing Process</a> to see how paint is applied.</span></h4>
+													<h4>Size: <span>Not applicable</span></h4>
+													<h4>Pricing: <span>Parts and doors are calculated by Webquoin when Paint Color is chosen.</span></h4>
+													<h4>Construction: <span>See finishing</span></h4>
+													<h4>Options: <span>Antique White, Cloud White, Designer White, Frosty White, Cream, Sand, Shale, Pewter, Charcoal, Flint, Black, and Custom.</span></h4>
+													<h4>Restrictions: <span>Not available in all Melamines or Engineered Veneer.</span></h4>
+												</div>	-->
+                        </div>
+                        <!-- end Col12 Section-->
+                      </div>
+                      <!-- end row Section-->
+                    </div>
+                    <!-- end ColM12 Section-->
+                  </div>
+                  <!-- end Header Section-->
+                </div>
+              </div>
+            </div>
+            <!-- End Matches Exterior Section -->
+          </div>
+        </div>
+      </div>
+      <!-- End Col Section -->
+    </div>
+    <!-- End Accordion Section -->
+    <!-- End Container-fluid Section -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script>
+      $(function() {
+        $('#accordion1').on('shown.bs.collapse', function(e) {
+          var offset = $(this)
+            .find('.collapse.in')
+            .prev('.panel-heading');
+          if (offset) {
+            $('html,body').animate(
+              {
+                scrollTop: $(offset).offset().top - 20
+              },
+              0
+            );
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Finished Sides</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom Styles -->
+  <link href="css/custom.css" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<![endif]-->
+
+</head>
+<script>
+	var pline = null;
+	var ddoor = null;
+	var dmaterial = null;
+
+	if (window.location !== window.parent.location) {
+		pline = parent.document
+			.getElementById('pline')
+			.innerText.toLocaleLowerCase();
+		ddoor = parent.document.getElementById('DOORSTYLE');
+		dmaterial = parent.document.getElementById('EXTRMTRL');
+		console.log({ line: pline, door: ddoor, material: dmaterial });
+
+		switch (pline) {
+			case 'cornerstone':
+				// window.location.href = 'finishsideCornerstone.html';
+				break;
+			case 'lighthouse':
+				window.location.href = 'finishsidelighthouse.html';
+				break;
+			case 'custom':
+				window.location.href = 'finishside.html';
+				break;
+			case 'modcon':
+				window.location.href = 'finishside.html';
+				break;
+			case 'wardrobe':
+				window.location.href = 'finishside.html';
+				break;
+			default:
+				// window.location.href = 'finishside.html';
+				null;
+		}
+	}
+</script>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Title Section -->
+      <div class="col-md-12">
+        <h1 class="text-center">FINISHED SIDES</h1>
+      </div>
+
+    </div>
+    <div class="row">
+      <!-- General Info Section -->
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <h3 class="text-center">General Information</h3>
+        <div class="row">
+          <div class="col-md-12">
+            <br>
+            <ul>
+              <li>Cabinets, by default, will have the outside of the gables (sides)
+                <strong>unfinished</strong>, unless a Finished Side is specified.</li>
+              <li>Finished sides are ordered from the Finish Side Header Drop-Down Menu in Webquoin and will match the
+                Exterior Material
+                selected in the Exterior Mtrl Header Drop-Down Menu.</li>
+              <li>Options include finishing the left or right of a cabinet (FE or IFE), adding a plant-on panel (PO),
+                or adding an applied
+                door (AD, ADP).</li>
+              <li>In WQ a finished side will automatically be sized and priced when a cabinet’s End Application is
+                selected (left, right,
+                left/right) and will be shown in the Item List as an attachment to the cabinet</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="wq-tip">
+              <img class="img-responsive wq-tip-pic" align="left" src="images/Global/wq-tip.png" />To finish the top or
+              bottom of a cabinet attach the Accessory code FCB (Finish Cabinet Bottom) or FCT (Finish Cabinet
+              Top).
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <br>
+    <div class="row">
+      <!-- Accordion Section -->
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#accordionOne">
+                  FE - Finished End
+                </a>
+              </h4>
+            </div>
+
+            <div id="accordionOne" class="panel-collapse collapse">
+              <div class="panel-body">
+
+                <!-- Start FE Section -->
+                <div class="row">
+                  <!-- Header Section -->
+                  <div class="col-md-5">
+                    <h3>Category:
+                      <small>Header Drop-Down Menu - Finish Side</small>
+                    </h3>
+                    <h3>Item Name:
+                      <small>Finished End</small>
+                    </h3>
+                    <h3>Webquoin Code:
+                      <small>FE</small>
+                    </h3>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <!-- App Title -->
+                        <br>
+                        <div class="black-line">
+                          <span class="reverse-text">Application</span>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    <ul>
+                      <li>Specified on a cabinet that is to have a specific side finished to match the Exterior Mtrl
+                        Header Drop-Down Menu
+                        in WQ.</li>
+                      <li>Grain (if applicable) will run vertically unless HG material is selected in the Exterior Mtrl
+                        Header Drop-Down
+                        Menu in WQ.</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-7">
+                    <img class="img-responsive" align="center" src="images/Headers/Finished-Sides/Webquoin/FE.png" />
+                  </div>
+                </div>
+                <!-- end Header Section-->
+                <div class="row">
+                  <!-- Spec Title -->
+                  <div class="col-md-12">
+                    <br>
+                    <div class="black-line">
+                      <span class="reverse-text">Specifications</span>
+                    </div>
+                    <br>
+                  </div>
+                </div>
+                <!-- end Spec Title -->
+                <div class="row">
+                  <!-- Spec Section -->
+                  <div class="col-md-12">
+                    <h4>Available Materials:
+                      <span>available in all Wood and Painted materials.</span>
+                    </h4>
+                    <h4>Finishing:
+                      <span>
+                        finished left, right or left/right.
+                      </span>
+                    </h4>
+                    <h4>Size:
+                      <span>automatically sized to depth and height of the cabinet side.</span>
+                    </h4>
+                    <h4>Pricing:
+                      <span>square foot.</span>
+                    </h4>
+                    <h4>Construction:
+                      <span>veneer for wood, MDF for painted applications.</span>
+                    </h4>
+                    <h4>Options:
+                      <span>if required to be applied on-site order a VSKIN Accessory in WQ</span>
+                    </h4>
+                    <h4>Restrictions:
+                      <span>not available in Knotty Woods (knotty material will be replaced with clear wood), all
+                        Melamines, or Painted Gloss
+                        (see WQ Tip). </span>
+                    </h4>
+
+                  </div>
+                  <!-- end Spec Section -->
+                </div>
+                <!-- WQ Tip Section -->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="wq-tip">
+                      <img class="img-responsive wq-tip-pic" align="left" src="images/Global/wq-tip.png" />To finish
+                      the side of a cabinet in Melamine or Painted Gloss use a PO.75P panel from the Finish Side Header
+                      Drop-Down
+                      Menu or manually attach a panel accessory, such as order code P.75P.
+
+                    </div>
+                  </div>
+                </div>
+                <!-- end WQ Tip Section -->
+                <!-- Ordering Section -->
+                <div class="row">
+                  <!-- Ordering Title -->
+                  <div class="col-md-12">
+                    <br>
+                    <div class="black-line">
+                      <span class="reverse-text">Ordering Information</span>
+                    </div>
+                    <br>
+                  </div>
+                </div>
+                <!-- end Ordering Title -->
+                <div class="row">
+                  <!-- Ordering Text -->
+                  <div class="col-md-12">
+                    <ul>
+                      <li>Specify cabinet’s End Application, L (left), R (right) or L/R. Choose FE from the the Finish
+                        Side Header Drop-Down
+                        Menu in WQ.</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- end Ordering Text -->
+
+                <!-- end Ordering Section -->
+
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#accordionTwo">
+                  IFE - Integrated Finished End
+                </a>
+              </h4>
+            </div>
+
+            <div id="accordionTwo" class="panel-collapse collapse">
+              <div class="panel-body">
+
+                <!-- Start IFE Section -->
+                <div class="row">
+                  <!-- Header Section -->
+                  <div class="col-md-5">
+                    <h3>Category:
+                      <small>Header Drop-Down Menu - Finish Side</small>
+                    </h3>
+                    <h3>Item Name:
+                      <small>Integrated Finished End</small>
+                    </h3>
+                    <h3>Webquoin Code:
+                      <small>IFE</small>
+                    </h3>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <!-- App Title -->
+                        <br>
+                        <div class="black-line">
+                          <span class="reverse-text">Application</span>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    <ul>
+                      <li>Specified on a cabinet that is to have a specific side finished with exactly the same
+                        material and finish on the
+                        interior (Interior Mtrl Header Drop-Down Menu in WQ) and the exterior (Exterior Mtrl Header
+                        Drop-Down Menu in
+                        WQ).
+                      </li>
+                      <li>Grain (if applicable) will run vertically unless HG material is selected in the Exterior Mtrl
+                        Header Drop-Down
+                        Menu in WQ.</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-7">
+                    <img class="img-responsive" align="center" src="images/Headers/Finished-Sides/Webquoin/IFE.png" />
+                  </div>
+                </div>
+                <!-- end Header Section-->
+                <div class="row">
+                  <!-- Spec Title -->
+                  <div class="col-md-12">
+                    <br>
+                    <div class="black-line">
+                      <span class="reverse-text">Specifications</span>
+                    </div>
+                    <br>
+                  </div>
+                </div>
+                <!-- end Spec Title -->
+                <div class="row">
+                  <!-- Spec Section -->
+                  <div class="col-md-12">
+                    <h4>Available Materials:
+                      <span>available in Solid, Patterned Melamine, Textured Melamine, M Maple and M White Melamine,
+                        Wood, Engineered and
+                        Painted materials.</span>
+                    </h4>
+                    <h4>Finishing:
+                      <span>finished left, right or left/right.</span>
+                    </h4>
+                    <h4>Size:
+                      <span>automatically sized to depth and height of the cabinet side.</span>
+                    </h4>
+                    <h4>Pricing:
+                      <span>square foot.</span>
+                    </h4>
+                    <h4>Construction:
+                      <span>veneer for wood, MDF for painted applications.</span>
+                    </h4>
+                    <h4>Options:
+                      <span>none</span>
+                    </h4>
+                    <h4>Restrictions:
+                      <span>not available in Knotty Woods (knotty material will be replaced with clear wood), Euro
+                        Textured Melamines (ETM),
+                        or Painted Gloss (see WQ Tip).</span>
+                    </h4>
+
+                  </div>
+                  <!-- end Spec Section -->
+                </div>
+                <!-- WQ Tip Section -->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="wq-tip">
+                      <img class="img-responsive wq-tip-pic" align="left" src="images/Global/wq-tip.png" />To finish
+                      the side of a cabinet in ETM (Euro Textured Melamine or Painted Gloss use a PO.75P panel from the
+                      Finish
+                      Side Header Drop-Down Menu or manually attach a panel accessory, such as order code P.75P.
+
+                    </div>
+                  </div>
+                </div>
+                <!-- end WQ Tip Section -->
+                <!-- Ordering Section -->
+                <div class="row">
+                  <!-- Ordering Title -->
+                  <div class="col-md-12">
+                    <br>
+                    <div class="black-line">
+                      <span class="reverse-text">Ordering Information</span>
+                    </div>
+                    <br>
+                  </div>
+                </div>
+                <!-- end Ordering Title -->
+                <div class="row">
+                  <!-- Ordering Text -->
+                  <div class="col-md-12">
+                    <ul>
+                      <li>Specify cabinet’s End Application, L (left), R (right) or L/R. Choose IFE from the the Finish
+                        Side Header Drop-Down
+                        Menu in WQ.</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- end Ordering Text -->
+
+                <!-- end Ordering Section -->
+
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="panel panel-default">
+
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#accordionThree">
+                  PO.75P - Plant-On 3/4" Thick Panel
+                </a>
+              </h4>
+            </div>
+
+            <div id="accordionThree" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div class="row">
+                  <!-- Header Section -->
+                  <div class="col-md-5">
+                    <h3>Category:
+                      <small>Header Drop-Down Menu - Finish Side</small>
+                    </h3>
+                    <h3>Item Name:
+                      <small>Plant-On 3/4" Thick Panel</small>
+                    </h3>
+                    <h3>Webquoin Code:
+                      <small>PO.75P</small>
+                    </h3>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <!-- App Title -->
+                        <br>
+                        <div class="black-line">
+                          <span class="reverse-text">Application</span>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    <ul>
+                      <li>Plant-On panel is applied to the side of a cabinet.</li>
+                      <li>Shipped loose and applied on-site.</li>
+                      <li>Grain (if applicable) will run vertically unless HG material is selected in the Exterior Mtrl
+                        Header Drop-Down
+                        Menu in WQ.</li>
+                      <li>DE option - Not available</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-7">
+                    <img class="img-responsive" align="center" src="images/Headers/Finished-Sides/Webquoin/PO75P.png" />
+                  </div>
+                </div>
+                <!-- end Header Section-->
+                <div class="row">
+                  <!-- Spec Title -->
+                  <div class="col-md-12">
+                    <br>
+                    <div class="black-line">
+                      <span class="reverse-text">Specifications</span>
+                    </div>
+                    <br>
+                  </div>
+                </div>
+                <!-- end Spec Title -->
+                <div class="row">
+                  <!-- Spec Section -->
+                  <div class="col-md-12">
+                    <h4>Available Materials:
+                      <span>available in all materials.</span>
+                    </h4>
+                    <h4>Finishing:
+                      <span>finished on all faces and edges.</span>
+                    </h4>
+                    <h4>Size:
+                      <span>automatically sized to depth of the cabinet side (+ 7/8”) and the height of the cabinet
+                        side. See WQ Tip</span>
+                    </h4>
+                    <h4>Pricing:
+                      <span>square foot.</span>
+                    </h4>
+                    <h4>Construction:
+                      <span>3/4” thick composite core.</span>
+                    </h4>
+                    <h4>Options:
+                      <span>none</span>
+                    </h4>
+                    <h4>Restrictions:
+                      <span>not available in Knotty Woods (knotty material will be replaced with clear wood).</span>
+                    </h4>
+
+                  </div>
+                  <!-- end Spec Section -->
+                </div>
+                <!-- WQ Tip Section -->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="wq-tip">
+                      <img class="img-responsive wq-tip-pic" align="left" src="images/Global/wq-tip.png" />If a
+                      different size of panel is required, manually attach a panel accessory, such as order code P.75P.
+
+                    </div>
+                  </div>
+                </div>
+                <!-- end WQ Tip Section -->
+                <!-- Ordering Section -->
+                <div class="row">
+                  <!-- Ordering Title -->
+                  <div class="col-md-12">
+                    <br>
+                    <div class="black-line">
+                      <span class="reverse-text">Ordering Information</span>
+                    </div>
+                    <br>
+                  </div>
+                </div>
+                <!-- end Ordering Title -->
+                <div class="row">
+                  <!-- Ordering Text -->
+                  <div class="col-md-12">
+                    <ul>
+                      <li>Specify cabinet’s End Application, L (left), R (right) or L/R. Choose PO.75P from the the
+                        Finish Side Header Drop-Down
+                        Menu in WQ.</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- end Ordering Text -->
+
+                <!-- end Ordering Section -->
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#accordionFive">
+                  AD - Applied Door
+                </a>
+              </h4>
+            </div>
+            <div id="accordionFive" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div class="row">
+                  <!-- Header Section -->
+                  <div class="col-md-5">
+                    <h3>Category:
+                      <small>Header Drop-Down Menu - Finish Side</small>
+                    </h3>
+                    <h3>Item Name:
+                      <small>Applied Door</small>
+                    </h3>
+                    <h3>Webquoin Code:
+                      <small>AD</small>
+                    </h3>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <!-- App Title -->
+                        <br>
+                        <div class="black-line">
+                          <span class="reverse-text">Application</span>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    <ul>
+                      <li>AD is applied to the side of a cabinet.</li>
+                      <li>Shipped loose and applied on-site.</li>
+
+                    </ul>
+                  </div>
+                  <div class="col-md-7">
+                    <img class="img-responsive" align="center" src="images/Headers/Finished-Sides/Webquoin/AD.png" />
+                  </div>
+                </div>
+                <!-- end Header Section-->
+                <div class="row">
+                  <!-- Spec Title -->
+                  <div class="col-md-12">
+                    <br>
+                    <div class="black-line">
+                      <span class="reverse-text">Specifications</span>
+                    </div>
+                    <br>
+                  </div>
+                </div>
+                <!-- end Spec Title -->
+                <div class="row">
+                  <!-- Spec Section -->
+                  <div class="col-md-12">
+                    <h4>Available Materials:
+                      <span>based on the specification of the door as selected in the Finish Side Header Drop-Down Menu</span>
+                    </h4>
+                    <h4>Finishing:
+                      <span>finished on all faces and edges.</span>
+                    </h4>
+                    <h4>Size:
+                      <span>automatically sized to depth of the cabinet side(- 1/8”) and the height of the cabinet side
+                        (- 1/8”). See WQ Tip.</span>
+                    </h4>
+                    <h4>Pricing:
+                      <span>square foot.</span>
+                    </h4>
+                    <h4>Construction:
+                      <span>based on the specification of the door as selected in the Finish Side Header Drop-Down Menu
+                        (starting on page
+                        136). The side of a cabinet with an AD will be prepped with a matching edge tape.</span>
+                    </h4>
+                    <h4>Options:
+                      <span>based on the specification of the door as selected in the Finish Side Header Drop-Down Menu</span>
+                    </h4>
+                    <h4>Restrictions:
+                      <span>based on the specification of the door as selected in the Finish Side Header Drop-Down Menu</span>
+                    </h4>
+
+                  </div>
+                  <!-- end Spec Section -->
+                </div>
+                <!-- WQ Tip Section -->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="wq-tip">
+                      <img class="img-responsive wq-tip-pic" align="left" src="images/Global/wq-tip.png" />If a
+                      different size of door is required, manually add a door accessory, order code D (Door). Attach
+                      one of the
+                      following codes to the door: Customization Charge - Prep left side for AD, order code: CC-AL6,
+                      Customization Charge
+                      - Prep right side for AD, order code, CC-AR6 or Customization Charge - Prep back side for AD,
+                      order code: CC-AB6.
+
+                    </div>
+                  </div>
+                </div>
+                <!-- end WQ Tip Section -->
+                <!-- Ordering Section -->
+                <div class="row">
+                  <!-- Ordering Title -->
+                  <div class="col-md-12">
+                    <br>
+                    <div class="black-line">
+                      <span class="reverse-text">Ordering Information</span>
+                    </div>
+                    <br>
+                  </div>
+                </div>
+                <!-- end Ordering Title -->
+                <div class="row">
+                  <!-- Ordering Text -->
+                  <div class="col-md-12">
+                    <ul>
+                      <li>Specify cabinet’s End Application, L (left) or R (right). Choose AD from the the Finish Side
+                        Header Drop-Down
+                        Menu in WQ.</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- end Ordering Text -->
+
+                <!-- end Ordering Section -->
+
+
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#accordionSix">
+                  ADP - Applied Door Proud
+                </a>
+              </h4>
+            </div>
+
+            <div id="accordionSix" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div class="row">
+                  <!-- Header Section -->
+                  <div class="col-md-5">
+                    <h3>Category:
+                      <small>Header Drop-Down Menu - Finish Side</small>
+                    </h3>
+                    <h3>Item Name:
+                      <small>Applied Door Proud</small>
+                    </h3>
+                    <h3>Webquoin Code:
+                      <small>ADP</small>
+                    </h3>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <!-- App Title -->
+                        <br>
+                        <div class="black-line">
+                          <span class="reverse-text">Application</span>
+                        </div>
+                      </div>
+                    </div>
+                    <br>
+                    <ul>
+                      <li>ADP is applied to the side of a cabinet.</li>
+                      <li>Shipped loose and applied on-site.</li>
+
+                    </ul>
+                  </div>
+                  <div class="col-md-7">
+                    <img class="img-responsive" align="center" src="images/Headers/Finished-Sides/Webquoin/ADP.png" />
+                  </div>
+                </div>
+                <!-- end Header Section-->
+                <div class="row">
+                  <!-- Spec Title -->
+                  <div class="col-md-12">
+                    <br>
+                    <div class="black-line">
+                      <span class="reverse-text">Specifications</span>
+                    </div>
+                    <br>
+                  </div>
+                </div>
+                <!-- end Spec Title -->
+                <div class="row">
+                  <!-- Spec Section -->
+                  <div class="col-md-12">
+                    <h4>Available Materials:
+                      <span>based on the specification of the door as selected in the Finish Side Header Drop-Down Menu</span>
+                    </h4>
+                    <h4>Finishing:
+                      <span>finished on all faces and edges.</span>
+                    </h4>
+                    <h4>Size:
+                      <span>automatically sized to depth of the cabinet side (+ 3/4”) and the height of the cabinet
+                        side (- 1/8”). See WQ
+                        Tip.
+                      </span>
+                    </h4>
+                    <h4>Pricing:
+                      <span>square foot.</span>
+                    </h4>
+                    <h4>Construction:
+                      <span>based on the specification of the door as selected in the Finish Side Header Drop-Down
+                        Menu. The side of a cabinet
+                        with an ADP will be prepped with a matching edge tape.</span>
+                    </h4>
+                    <h4>Options:
+                      <span>based on the specification of the door as selected in the Finish Side Header Drop-Down Menu</span>
+                    </h4>
+                    <h4>Restrictions:
+                      <span>based on the specification of the door as selected in the Finish Side Header Drop-Down Menu</span>
+                    </h4>
+
+                  </div>
+                  <!-- end Spec Section -->
+                </div>
+                <!-- WQ Tip Section -->
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="wq-tip">
+                      <img class="img-responsive wq-tip-pic" align="left" src="images/Global/wq-tip.png" />If a
+                      different size of door is required, manually add a door accessory, order code D (Door). Attach
+                      one of the
+                      following codes to the door: Customization Charge - Prep left side for AD, order code: CC-AL6,
+                      Customization Charge
+                      - Prep right side for AD, order code, CC-AR6 or Customization Charge - Prep back side for AD,
+                      order code: CC-AB6.
+
+                    </div>
+                  </div>
+                </div>
+                <!-- end WQ Tip Section -->
+                <!-- Ordering Section -->
+                <div class="row">
+                  <!-- Ordering Title -->
+                  <div class="col-md-12">
+                    <br>
+                    <div class="black-line">
+                      <span class="reverse-text">Ordering Information</span>
+                    </div>
+                    <br>
+                  </div>
+                </div>
+                <!-- end Ordering Title -->
+                <div class="row">
+                  <!-- Ordering Text -->
+                  <div class="col-md-12">
+                    <ul>
+                      <li>Specify cabinet’s End Application, L (left) or R (right). Choose ADP from the the Finish Side
+                        Header Drop-Down Menu in WQ.</li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- end Ordering Text -->
+
+                <!-- end Ordering Section -->
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script>
+      $(function () {
+        $('#accordion').on('shown.bs.collapse', function (e) {
+          var offset = $(this).find('.collapse.in').prev('.panel-heading');
+          if (offset) {
+            $('html,body').animate({
+              scrollTop: $(offset).offset().top - 1
+            }, 0);
+          }
+        });
+      });
+    </script>
+</body>
+
+</html>
