@@ -298,6 +298,11 @@
       "id": "51",
       "title": "Cabinet dimensions, ",
       "content": "Interior Dimensions Required - Height 26 to 31\""
+    },
+    {
+      "id": "52",
+      "title": "Door Closing Alert, ",
+      "content": "Closing the cabinet door before it is fully extended will damage the door front and the slides. The leverage can cause slide separation"
     }
   ]
 }
