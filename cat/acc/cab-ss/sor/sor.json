@@ -331,7 +331,7 @@
       ],
       "notes": [],
       "specifications": ["3067", "3060", "3066", "3065"],
-      "description": "typically used in BFD cabinets, with a \"Open-thru\" design for easy access."
+      "description": "typically used in BFD and B cabinets, with a \"Open-thru\" design for easy access."
     },
     {
       "active": true,
@@ -362,7 +362,7 @@
       ],
       "notes": [],
       "specifications": ["3067", "3060", "3068", "3065"],
-      "description": "typically used in BFD cabinets, with a \"Open-thru\" design for easy access."
+      "description": "typically used in BFD and B cabinets, with a \"Open-thru\" design for easy access."
     }
   ],
   "podnr": [
