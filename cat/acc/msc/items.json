@@ -75,6 +75,25 @@
           "image": "/catalog/build/assets/msc/oe-prep.png"
         }
       ]
+    },
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "tags": ["appliance", "garage"],
+      "active": true,
+      "title": "Appliance Garage - Flip Up Door",
+      "code": "apgr-stfd",
+      "images": [
+        {
+          "title": "",
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2F1559151096113_APGR-STFD.jpg?alt=media&token=bd160071-ed70-47ba-8604-7c4acd044d2f"
+        }
+      ]
     }
   ],
   "items": [
@@ -218,6 +237,45 @@
         {
           "title": "",
           "image": "/catalog/build/assets/msc/oe-prep.png"
+        }
+      ]
+    },
+    {
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": true,
+        "modcon": true
+      },
+      "active": true,
+      "type": "simple",
+      "title": "Appliance Garage - Flip Up Door",
+      "itemcodes": [],
+      "code": "apgr-stfd",
+      "description": "Great for storing your appliances on counter within a cabinet with no bottom",
+      "standards": [
+        "Available in all wood species and painted applications",
+        "Specify width: 21\", 24\", 27\", 30\", 33\" or 36\"",
+        "The door matches the cabinet door specification and is on flip-up and slide-in hardware",
+        "The inside and outside of the unit will be finished to match the cabinet exterior finish",
+        "The required height must be specified on the order (14\" - 24\" max.)",
+        "Designed to be trimmed off the top for on site height adjustments",
+        "Scribe Molding (SCM) should be ordered to finish the top trim after installation."
+      ],
+      "notes": ["52"],
+      "images": [
+        {
+          "title": "",
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2F1559151096113_APGR-STFD.jpg?alt=media&token=bd160071-ed70-47ba-8604-7c4acd044d2f"
+        },
+        {
+          "title": "Specifications",
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FAppliance%20Garage%20-%20Flip%20Up%20Door%20(APGR-STFD)%2F1559589367477_dealer%20specs.PNG?alt=media&token=d3a260eb-2e01-4112-b30e-860ec8f4df0d"
+        },
+        {
+          "title": "Door travel specs",
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FAppliance%20Garage%20-%20Flip%20Up%20Door%20(APGR-STFD)%2F1557239047566_APGR-STFD%20door%20travel%20specs.PNG?alt=media&token=e1152fc2-aa9d-4c3b-b99f-85b0014fe525"
         }
       ]
     }
