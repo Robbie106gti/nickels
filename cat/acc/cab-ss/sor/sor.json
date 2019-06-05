@@ -40,9 +40,9 @@
           "modal": false,
           "modcon": false
         },
-        "title": "Base Pull-Out Door Storage - Chrome",
+        "title": "Base Pull-Out Door Storage - Grey",
         "code": "bpod-osr-ga",
-        "tags": ["base", "storage", "chrome"],
+        "tags": ["base", "storage", "grey"],
         "image": "https://webquoin.com/catalog/images/BPOD-O_SR.jpg"
       },
       {
@@ -311,7 +311,7 @@
         "modal": false,
         "modcon": false
       },
-      "title": "Base Pull-Out Door Storage 3 Rack - Chrome",
+      "title": "Base Pull-Out Door Storage 3 Rack - Grey",
       "code": "bpod-osr-ga",
       "constr": ["bpod-o", "sr-", "ga"],
       "sizes": [7, 9, 12, 16],
@@ -321,7 +321,7 @@
       ],
       "images": [
         {
-          "title": "Base Pull-Out Door Storage Chrome",
+          "title": "Base Pull-Out Door Storage Grey",
           "image": "https://webquoin.com/catalog/images/TallPullOutDoorStorageRack-1.jpg"
         },
         {

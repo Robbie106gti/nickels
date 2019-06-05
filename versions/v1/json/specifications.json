@@ -875,18 +875,19 @@
       "type": "list",
       "list": [
         "Minimum cabinet depth is 21\"",
-        "Minimum cabinet height is 27\""
+        "Minimum inside cabinet height is 19 5/8\" (499mm)",
+        "Maximum hardware height 26 1/8\" (663mm)"
       ]
     },
     {
       "id": "3066",
       "title": "includes",
-      "content": "3 Chrome baskets."
+      "content": "3 Grey baskets."
     },
     {
       "id": "3067",
       "title": "Hardware",
-      "content": "For BFD and B : Tall Broom & Base cabinets 27 - 36\" high."
+      "content": "For BFD and B : Tall Broom & Base cabinets."
     },
     {
       "id": "3068",
