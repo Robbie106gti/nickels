@@ -139,7 +139,7 @@
         },
         {
           "title": "with Return",
-          "itemcode": "-r"
+          "itemcode": "-return"
         },
         {
           "title": "Miter",
@@ -147,7 +147,7 @@
         },
         {
           "title": "Miter with Return",
-          "itemcode": "-mr"
+          "itemcode": "-m-return"
         }
       ],
       "code": "gf",

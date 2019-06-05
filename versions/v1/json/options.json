@@ -258,7 +258,7 @@
     },
     {
       "id": "10",
-      "title": "GF-R (with Return)",
+      "title": "GF-RETURN",
       "type": "list",
       "list": [
         "The front face, inside edge, inside gable face and return are finished.",
@@ -277,7 +277,7 @@
     },
     {
       "id": "12",
-      "title": "GF-MR (Mitered with Return)",
+      "title": "GF-M-RETURN (Mitered)",
       "type": "list",
       "list": [
         "The front face, inside edge, inside gable face and return are finished.",
