@@ -13045,7 +13045,7 @@
       "height": "48",
       "title": "Base Triangle Full Door",
       "description": "doors, all shelves are set.",
-      "specifications": ["000", "105", "527", "2004"],
+      "specifications": ["000", "105", "526", "2004"],
       "iwhd": ["i18", "w0727", "h3036", "d0727"],
       "images": [
         {
@@ -13479,7 +13479,7 @@
       "height": "36",
       "title": "Base Open Left End",
       "description": "Open left end unit. All shelves are fixed. Available in all wood species and solid painted applications.",
-      "specifications": ["527", "2006"],
+      "specifications": ["526", "2006"],
       "iwhd": ["i18", "w0618", "h3036", "d0727"],
       "images": [
         {
@@ -13887,7 +13887,7 @@
       "height": "36",
       "title": "Base Open Right End",
       "description": "Open Right end unit. All shelves are fixed. Available in all wood species and solid painted applications.",
-      "specifications": ["527", "2006"],
+      "specifications": ["526", "2006"],
       "iwhd": ["i18", "w0618", "h3036", "d0727"],
       "images": [
         {
@@ -50151,7 +50151,7 @@
       "height": "24",
       "title": "Wall Triangle",
       "description": "Door(s).",
-      "specifications": ["000", "105", "2004", "501"],
+      "specifications": ["000", "105", "2004", "525"],
       "iwhd": ["i18", "w0727", "h1066", "d0727"],
       "images": [
         {
@@ -50291,7 +50291,7 @@
       "height": "30",
       "title": "Wall Triangle",
       "description": "Door(s).",
-      "specifications": ["000", "105", "2004", "502"],
+      "specifications": ["000", "105", "2004", "526"],
       "iwhd": ["i18", "w0727", "h1066", "d0727"],
       "images": [
         {
@@ -50431,7 +50431,7 @@
       "height": "36",
       "title": "Wall Triangle",
       "description": "Door(s).",
-      "specifications": ["000", "105", "2004", "502"],
+      "specifications": ["000", "105", "2004", "526"],
       "iwhd": ["i18", "w0727", "h1066", "d0727"],
       "images": [
         {
@@ -50571,7 +50571,7 @@
       "height": "42",
       "title": "Wall Triangle",
       "description": "Door(s).",
-      "specifications": ["000", "105", "2004", "503"],
+      "specifications": ["000", "105", "2004", "527"],
       "iwhd": ["i18", "w0727", "h1066", "d0727"],
       "images": [
         {
@@ -50711,7 +50711,7 @@
       "height": "48",
       "title": "Wall Triangle",
       "description": "Door(s).",
-      "specifications": ["000", "105", "2004", "503"],
+      "specifications": ["000", "105", "2004", "527"],
       "iwhd": ["i18", "w0727", "h1066", "d0727"],
       "images": [
         {
@@ -50851,7 +50851,7 @@
       "height": "54",
       "title": "Wall Triangle",
       "description": "Door(s).",
-      "specifications": ["000", "105", "2004", "507"],
+      "specifications": ["000", "105", "2004", "528"],
       "iwhd": ["i18", "w0727", "h1066", "d0727"],
       "images": [
         {
@@ -50991,7 +50991,7 @@
       "height": "60",
       "title": "Wall Triangle",
       "description": "Door(s).",
-      "specifications": ["000", "105", "2004", "507"],
+      "specifications": ["000", "105", "2004", "528"],
       "iwhd": ["i18", "w0727", "h1066", "d0727"],
       "images": [
         {
@@ -51131,7 +51131,7 @@
       "height": "66",
       "title": "Wall Triangle",
       "description": "Door(s).",
-      "specifications": ["000", "105", "2004", "508"],
+      "specifications": ["000", "105", "2004", "529"],
       "iwhd": ["i18", "w0727", "h1066", "d0727"],
       "images": [
         {
@@ -58234,7 +58234,7 @@
         },
         {
           "title": "Drawing ",
-          "image": "/catalog/images/GIFs/Wardrobe/CDCL__77.gif"
+          "image": "/catalog/build/assets/cabinets/CDCL__77.png"
         }
       ],
       "notes": ["11", "12"],
@@ -58292,7 +58292,7 @@
         },
         {
           "title": "Drawing ",
-          "image": "/catalog/images/GIFs/Wardrobe/CDCL__89.gif"
+          "image": "/catalog/build/assets/cabinets/CDCL__89.png"
         }
       ],
       "notes": ["11", "12"],
@@ -58350,7 +58350,7 @@
         },
         {
           "title": "Drawing ",
-          "image": "/catalog/images/GIFs/Wardrobe/CDCR__77.gif"
+          "image": "/catalog/build/assets/cabinets/CDCR__77.png"
         }
       ],
       "notes": ["11", "12"],
@@ -58408,7 +58408,7 @@
         },
         {
           "title": "Drawing ",
-          "image": "/catalog/images/GIFs/Wardrobe/CDCR__89.gif"
+          "image": "/catalog/build/assets/cabinets/CDCR__89.png"
         }
       ],
       "notes": ["11", "12"],

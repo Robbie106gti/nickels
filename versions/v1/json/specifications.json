@@ -228,7 +228,17 @@
     {
       "id": "527",
       "title": "Shelves",
-      "content": "Two fixed shelves will be added by default for this height."
+      "content": "Three fixed shelves will be added by default for this height."
+    },
+    {
+      "id": "528",
+      "title": "Shelves",
+      "content": "Four fixed shelves will be added by default for this height."
+    },
+    {
+      "id": "529",
+      "title": "Shelves",
+      "content": "Five fixed shelves will be added by default for this height."
     },
     {
       "id": "600",
