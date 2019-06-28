@@ -182,6 +182,88 @@
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Base/M2D__29sm.jpg",
       "tags": ["base", "drawer", "2", "channel", "30\""]
     },
+
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "code": "BS2DC",
+      "title": "BS2DC : Base Sink 2 Drawer - Channel",
+      "attached": [
+        {
+          "active": true,
+          "lines": {
+            "custom": true,
+            "lighthouse": false,
+            "cornerstone": false,
+            "modal": false,
+            "modcon": false
+          },
+          "itemcodes": [
+            "BS2DC2130",
+            "BS2DC2430",
+            "BS2DC2730",
+            "BS2DC3030",
+            "BS2DC3330",
+            "BS2DC3630",
+            "BS2DC3930",
+            "BS2DC4230",
+            "BS2DC__30",
+            "BS2DC30"
+          ],
+          "height": "30",
+          "link": "cab"
+        }
+      ],
+      "image": "https://webquoin.com/catalog/images/JPGs/Modal/Base/M2D__29sm.jpg",
+      "tags": ["sink", "drawer", "2", "channel", "30\""]
+    },
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "code": "BS3DC",
+      "title": "BS3DC : Base Sink 3 Drawer - Channel",
+      "attached": [
+        {
+          "active": true,
+          "lines": {
+            "custom": true,
+            "lighthouse": false,
+            "cornerstone": false,
+            "modal": false,
+            "modcon": false
+          },
+          "itemcodes": [
+            "BS3DC2130",
+            "BS3DC2430",
+            "BS3DC2730",
+            "BS3DC3030",
+            "BS3DC3330",
+            "BS3DC3630",
+            "BS3DC3930",
+            "BS3DC4230",
+            "BS3DC__30",
+            "BS3DC30"
+          ],
+          "height": "30",
+          "link": "cab"
+        }
+      ],
+      "image": "https://webquoin.com/catalog/images/JPGs/Modal/Base/MCT3D__29sm.jpg",
+      "tags": ["sink", "drawer", "2", "channel", "30\""]
+    },
+
     {
       "active": true,
       "lines": {

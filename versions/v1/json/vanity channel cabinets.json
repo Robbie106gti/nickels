@@ -136,6 +136,48 @@
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Vanity/L2D__27sm.jpg",
       "tags": ["vanity", "2", "drawer", "channel", "26\""]
     },
+
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "code": "VS2DC",
+      "title": "VS2DC : Vanity Sink 2 Drawer - Channel",
+      "attached": [
+        {
+          "active": true,
+          "lines": {
+            "custom": true,
+            "lighthouse": false,
+            "cornerstone": false,
+            "modal": false,
+            "modcon": false
+          },
+          "itemcodes": [
+            "VS2DC2126",
+            "VS2DC2426",
+            "VS2DC2726",
+            "VS2DC3026",
+            "VS2DC3326",
+            "VS2DC3626",
+            "VS2DC3926",
+            "VS2DC4226",
+            "VS2DC__26",
+            "VS2DC26"
+          ],
+          "height": "26",
+          "link": "cab"
+        }
+      ],
+      "image": "https://webquoin.com/catalog/images/JPGs/Modal/Vanity/L2D__27sm.jpg",
+      "tags": ["sink", "2", "drawer", "channel", "26\""]
+    },
+
     {
       "active": true,
       "lines": {
@@ -182,6 +224,48 @@
       "image": "https://webquoin.com/catalog/images/JPGs/Modal/Vanity/L3D__27sm.jpg",
       "tags": ["vanity", "3", "drawer", "channel", "26\""]
     },
+
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "code": "VS3DC",
+      "title": "VS3DC : Vanity Sink 3 Drawer - Channel",
+      "attached": [
+        {
+          "active": true,
+          "lines": {
+            "custom": true,
+            "lighthouse": false,
+            "cornerstone": false,
+            "modal": false,
+            "modcon": false
+          },
+          "itemcodes": [
+            "VS3DC2126",
+            "VS3DC2426",
+            "VS3DC2726",
+            "VS3DC3026",
+            "VS3DC3326",
+            "VS3DC3626",
+            "VS3DC3926",
+            "VS3DC4226",
+            "VS3DC__26",
+            "VS3DC26"
+          ],
+          "height": "26",
+          "link": "cab"
+        }
+      ],
+      "image": "https://webquoin.com/catalog/images/JPGs/Modal/Vanity/L3D__27sm.jpg",
+      "tags": ["sink", "3", "drawer", "channel", "26\""]
+    },
+
     {
       "active": false,
       "lines": {

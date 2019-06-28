@@ -878,6 +878,66 @@
     {
       "active": true,
       "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "id": "6",
+      "title": "BS2D : Base Sink 2 Drawer",
+      "code": "BS2D",
+      "attached": [
+        {
+          "active": true,
+          "lines": {
+            "custom": true,
+            "lighthouse": false,
+            "cornerstone": false,
+            "modal": false,
+            "modcon": false
+          },
+          "itemcodes": [],
+          "height": "30",
+          "link": "cab"
+        }
+      ],
+      "image": "/catalog/images/B2D__30.jpg",
+      "tags": ["sink", "30\""]
+    },
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "id": "6",
+      "title": "BS3D : Base Sink 3 Drawer",
+      "code": "BS3D",
+      "attached": [
+        {
+          "active": true,
+          "lines": {
+            "custom": true,
+            "lighthouse": false,
+            "cornerstone": false,
+            "modal": false,
+            "modcon": false
+          },
+          "itemcodes": [],
+          "height": "30",
+          "link": "cab"
+        }
+      ],
+      "image": "/catalog/images/BCT3D__30.jpg",
+      "tags": ["sink", "30\""]
+    },
+    {
+      "active": true,
+      "lines": {
         "custom": false,
         "lighthouse": false,
         "cornerstone": false,

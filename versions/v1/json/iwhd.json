@@ -76,6 +76,11 @@
       "content": "21\" - 36\""
     },
     {
+      "id": "w2142",
+      "title": "Widths",
+      "content": "21\" - 42\""
+    },
+    {
       "id": "w2433",
       "title": "Widths",
       "content": "24\" - 33\""
@@ -539,6 +544,11 @@
       "id": "d12",
       "title": "Depth",
       "content": "12\""
+    },
+    {
+      "id": "d21",
+      "title": "Depth",
+      "content": "21\""
     },
     {
       "id": "d23",

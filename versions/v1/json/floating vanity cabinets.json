@@ -435,6 +435,48 @@
       "image": "https://webquoin.com/catalog/images/JPGs/Custom/Floating%20Vanity/FV2D__26.jpg",
       "tags": ["vanity", "floating", "2", "drawer", "24\""]
     },
+
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "code": "FVS2D",
+      "title": "FVS2D : Floating Vanity Sink 2 Drawer",
+      "attached": [
+        {
+          "active": true,
+          "lines": {
+            "custom": true,
+            "lighthouse": true,
+            "cornerstone": true,
+            "modal": false,
+            "modcon": false
+          },
+          "itemcodes": [
+            "FVS2D2124",
+            "FVS2D2424",
+            "FVS2D2724",
+            "FVS2D3024",
+            "FVS2D3324",
+            "FVS2D3624",
+            "FVS2D3924",
+            "FVS2D4224",
+            "FVS2D__24",
+            "FVS2D24"
+          ],
+          "height": "24",
+          "link": "cab"
+        }
+      ],
+      "image": "https://webquoin.com/catalog/images/JPGs/Custom/Floating%20Vanity/FV2D__26.jpg",
+      "tags": ["sink", "floating", "2", "drawer", "24\""]
+    },
+
     {
       "active": true,
       "lines": {
@@ -505,6 +547,48 @@
       "image": "https://webquoin.com/catalog/images/JPGs/Custom/Floating%20Vanity/FV3D__26.jpg",
       "tags": ["vanity", "floating", "3", "drawer", "24\""]
     },
+
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "code": "FVS3D",
+      "title": "FVS3D : Floating Vanity Sink 3 Drawer",
+      "attached": [
+        {
+          "active": true,
+          "lines": {
+            "custom": true,
+            "lighthouse": true,
+            "cornerstone": true,
+            "modal": false,
+            "modcon": false
+          },
+          "itemcodes": [
+            "FVS3D2124",
+            "FVS3D2424",
+            "FVS3D2724",
+            "FVS3D3024",
+            "FVS3D3324",
+            "FVS3D3624",
+            "FVS3D3924",
+            "FVS3D4224",
+            "FVS3D__24",
+            "FVS3D24"
+          ],
+          "height": "24",
+          "link": "cab"
+        }
+      ],
+      "image": "https://webquoin.com/catalog/images/JPGs/Custom/Floating%20Vanity/FV3D__26.jpg",
+      "tags": ["sink", "floating", "3", "drawer", "24\""]
+    },
+
     {
       "active": false,
       "lines": {
@@ -532,6 +616,7 @@
             "FV3DD3326",
             "FV3DD3626",
             "FV3DD3926",
+            "FV3DD4226",
             "FV3DD__26",
             "FV3DD26"
           ],

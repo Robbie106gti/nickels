@@ -338,6 +338,48 @@
       "image": "https://webquoin.com/catalog/images/V2D__26.jpg",
       "tags": ["vanity", "2", "drawer", "26\""]
     },
+
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "code": "VS2D",
+      "title": "VS2D : Vanity Sink 2 Drawer",
+      "attached": [
+        {
+          "active": true,
+          "lines": {
+            "custom": true,
+            "lighthouse": true,
+            "cornerstone": true,
+            "modal": false,
+            "modcon": false
+          },
+          "itemcodes": [
+            "VS2D2126",
+            "VS2D2426",
+            "VS2D2726",
+            "VS2D3026",
+            "VS2D3326",
+            "VS2D3626",
+            "VS2D3926",
+            "VS2D4226",
+            "VS2D__26",
+            "VS2D26"
+          ],
+          "height": "26",
+          "link": "cab"
+        }
+      ],
+      "image": "/catalog/images/V2D__26.jpg",
+      "tags": ["sink", "2", "drawer", "26\""]
+    },
+
     {
       "active": true,
       "lines": {
@@ -381,6 +423,48 @@
       "image": "https://webquoin.com/catalog/images/V3D__26.jpg",
       "tags": ["vanity", "3", "drawer", "26\""]
     },
+
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "code": "VS3D",
+      "title": "VS3D : Vanity Sink 3 Drawer",
+      "attached": [
+        {
+          "active": true,
+          "lines": {
+            "custom": true,
+            "lighthouse": true,
+            "cornerstone": true,
+            "modal": false,
+            "modcon": false
+          },
+          "itemcodes": [
+            "VS3D2126",
+            "VS3D2426",
+            "VS3D2726",
+            "VS3D3026",
+            "VS3D3326",
+            "VS3D3626",
+            "VS3D3926",
+            "VS3D4226",
+            "VS3D__26",
+            "VS3D26"
+          ],
+          "height": "26",
+          "link": "cab"
+        }
+      ],
+      "image": "https://webquoin.com/catalog/images/V3D__26.jpg",
+      "tags": ["sink", "3", "drawer", "26\""]
+    },
+
     {
       "active": false,
       "lines": {

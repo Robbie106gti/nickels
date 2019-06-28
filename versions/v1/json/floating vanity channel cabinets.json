@@ -135,6 +135,46 @@
         "modal": false,
         "modcon": false
       },
+      "code": "FVS2DC",
+      "title": "FVS2DC : Floating Vanity Sink 2 Drawer - Channel",
+      "attached": [
+        {
+          "active": true,
+          "lines": {
+            "custom": true,
+            "lighthouse": false,
+            "cornerstone": false,
+            "modal": false,
+            "modcon": false
+          },
+          "itemcodes": [
+            "FVS2DC2124",
+            "FVS2DC2424",
+            "FVS2DC2724",
+            "FVS2DC3024",
+            "FVS2DC3324",
+            "FVS2DC3624",
+            "FVS2DC3924",
+            "FVS2DC4224",
+            "FVS2DC__24",
+            "FVS2DC24"
+          ],
+          "height": "24",
+          "link": "cab"
+        }
+      ],
+      "image": "/catalog/build/assets/cabinets/FV2DC__24.png",
+      "tags": ["sink", "2", "drawer", "channel", "24\""]
+    },
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
       "code": "FV3DC",
       "title": "FV3DC : Floating Vanity 3 Drawer - Channel",
       "attached": [
@@ -167,6 +207,46 @@
       ],
       "image": "/catalog/build/assets/cabinets/FV3DC__24.png",
       "tags": ["vanity", "3", "drawer", "channel", "24\""]
+    },
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "code": "FVS3DC",
+      "title": "FVS3DC : Floating Vanity Sink 3 Drawer - Channel",
+      "attached": [
+        {
+          "active": true,
+          "lines": {
+            "custom": true,
+            "lighthouse": false,
+            "cornerstone": false,
+            "modal": false,
+            "modcon": false
+          },
+          "itemcodes": [
+            "FVS3DC2124",
+            "FVS3DC2424",
+            "FVS3DC2724",
+            "FVS3DC3024",
+            "FVS3DC3324",
+            "FVS3DC3624",
+            "FVS3DC3924",
+            "FVS3DC4224",
+            "FVS3DC__24",
+            "FVS3DC24"
+          ],
+          "height": "24",
+          "link": "cab"
+        }
+      ],
+      "image": "/catalog/build/assets/cabinets/FV3DC__24.png",
+      "tags": ["sink", "3", "drawer", "channel", "24\""]
     }
   ]
 }
