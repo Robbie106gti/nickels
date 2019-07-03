@@ -1,0 +1,648 @@
+{
+  "information": {
+    "metal": {
+      "id": "0",
+      "title": "Recycle bins",
+      "subTitle": "pull out drawers - Metal Frame",
+      "description": "Covered slides helps avoid the accumulation of dust and ensures a longer life. Metal cover is a clean and trendy look that blends with your kitchen interior. Designed for door mounting.",
+      "specifications": [
+        {
+          "id": "0",
+          "title": "Specifications",
+          "items": [
+            {
+              "id": "0",
+              "title": "",
+              "content": "Over extension slides provide complete access to bins."
+            },
+            {
+              "id": "1",
+              "title": "",
+              "content": "Manufactured from steel metal parts with silver grey finish."
+            },
+            {
+              "id": "2",
+              "title": "",
+              "content": "Tested with 100,000 opening and closing cycles."
+            },
+            {
+              "id": "3",
+              "title": "",
+              "content": "Weight capacity of 50 kg."
+            },
+            {
+              "id": "4",
+              "title": "",
+              "content": "Bin equipped with handles for maneuverability."
+            },
+            {
+              "id": "5",
+              "title": "",
+              "content": "Lid prevents odors from escaping and provides additional space for recycling papers such as newspapers."
+            },
+            {
+              "id": "6",
+              "title": "",
+              "content": "Easily 3-way front adjustment (cam adjustment screw)."
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Door/Drawer",
+          "items": [
+            {
+              "id": "0",
+              "title": "",
+              "content": "Door Drawer combination is not recommended. Bins might not be able to come out due to Countertop Overhang or Handle/Knob on Drawer Front, etc... "
+            },
+            {
+              "id": "1",
+              "title": "",
+              "content": "For Door Drawer look use CC-GAP. Add a Roll-out in place of the Drawer"
+            },
+            {
+              "id": "2",
+              "title": "",
+              "content": "A backer panel is used for attaching hardware to Door. The backer panel will be the same material as the interior material selected; for example, if White Melamine is chosen for the interior of the cabinets the back panel is White Melamine."
+            }
+          ]
+        }
+      ],
+      "imageCards": [
+        {
+          "id": "0",
+          "image": "/catalog/build/assets/rgb/30l%20461912100%20rgb-pod-13.jpg",
+          "tags": ["single bin", "30L capacity"],
+          "links": [
+            {
+              "id": "0",
+              "cat": "0",
+              "link": "RGB-POD12",
+              "title": "12\" cabinet"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "image": "/catalog/build/assets/rgb/38l 7l 461935100 rgb-pod-15.jpg",
+          "tags": ["2 bins", "38L & 7L capacity"],
+          "links": [
+            {
+              "id": "0",
+              "cat": "0",
+              "link": "RGB-POD14",
+              "title": "14\" cabinet"
+            },
+            {
+              "id": "1",
+              "cat": "0",
+              "link": "RGB-POD16",
+              "title": "16\" cabinet"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "image": "/catalog/build/assets/rgb/38L 38L 461950100 rgb-pod-19.jpg",
+          "tags": ["Double bin", "38L x 2 capacity"],
+          "links": [
+            {
+              "id": "0",
+              "cat": "0",
+              "link": "RGB-POD18",
+              "title": "18\" cabinet"
+            },
+            {
+              "id": "1",
+              "cat": "0",
+              "link": "RGB-POD20",
+              "title": "20\" cabinet"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "image": "/catalog/build/assets/rgb/38L 38L 12L 2.5L 461950100 rgb-pod-25.jpg",
+          "tags": ["4 bins", "38L x 2", "12L", "2.5L"],
+          "links": [
+            {
+              "id": "0",
+              "cat": "0",
+              "link": "RGB-POD24",
+              "title": "24\" cabinet"
+            }
+          ]
+        }
+      ],
+      "catagories": [
+        {
+          "id": "0",
+          "title": "RGB-POD's"
+        }
+      ],
+      "image": "",
+      "tags": ["5/8\"", "3/4\"", "RGB", "POD", "garbage", "recycling"],
+      "notes": [],
+      "ordering": "Attach the accessory to the cabinet, use the code of choicen version.",
+      "array": "rgb",
+      "codes": [
+        "RGB-POD12",
+        "RGB-POD14",
+        "RGB-POD16",
+        "RGB-POD18",
+        "RGB-POD20",
+        "RGB-POD24"
+      ]
+    },
+    "wood": {
+      "id": "0",
+      "title": "Recycle bins",
+      "subTitle": "pull out drawers - Wood Frame",
+      "description": "Covered slides helps avoid the accumulation of dust and ensures a longer life. Metal cover is a clean and trendy look that blends with your kitchen interior. Designed for door mounting.",
+      "specifications": [
+        {
+          "id": "0",
+          "title": "Specifications",
+          "items": [
+            {
+              "id": "0",
+              "title": "",
+              "content": "Over extension slides provide complete access to bins."
+            },
+            {
+              "id": "1",
+              "title": "",
+              "content": "Manufactured from steel metal parts with silver grey finish."
+            },
+            {
+              "id": "2",
+              "title": "",
+              "content": "Tested with 100,000 opening and closing cycles."
+            },
+            {
+              "id": "3",
+              "title": "",
+              "content": "Weight capacity of 50 kg."
+            },
+            {
+              "id": "4",
+              "title": "",
+              "content": "Bin equipped with handles for maneuverability."
+            },
+            {
+              "id": "5",
+              "title": "",
+              "content": "Lid prevents odors from escaping and provides additional space for recycling papers such as newspapers."
+            },
+            {
+              "id": "6",
+              "title": "",
+              "content": "Easily 3-way front adjustment (cam adjustment screw)."
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "title": "Door/Drawer",
+          "items": [
+            {
+              "id": "0",
+              "title": "",
+              "content": "Door Drawer combination is not recommended. Bins might not be able to come out due to Countertop Overhang or Handle/Knob on Drawer Front, etc... "
+            },
+            {
+              "id": "1",
+              "title": "",
+              "content": "For Door Drawer look use CC-GAP. Add a Roll-out in place of the Drawer"
+            },
+            {
+              "id": "2",
+              "title": "",
+              "content": "A backer panel is used for attaching hardware to Door. The backer panel will be the same material as the interior material selected; for example, if White Melamine is chosen for the interior of the cabinets the back panel is White Melamine."
+            }
+          ]
+        }
+      ],
+      "imageCards": [
+        {
+          "id": "0",
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FRGB-NEW%2F1561143630766_RGB12.jpg?alt=media&token=5f25c2d6-14ad-4791-98c7-28f64c47045c",
+          "tags": ["2 bin", "26L", "8.5L"],
+          "links": [
+            {
+              "id": "0",
+              "cat": "0",
+              "link": "RGB-12",
+              "title": "12\" cabinet"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FRGB-NEW%2F1561143668167_RGB18.jpg?alt=media&token=10ca7ea0-e82b-4939-b782-b640e49acb4b",
+          "tags": ["2 bins", "26L x 2", "or 38 L x 2"],
+          "links": [
+            {
+              "id": "0",
+              "cat": "0",
+              "link": "RGB-15",
+              "title": "15\" cabinet"
+            },
+            {
+              "id": "1",
+              "cat": "0",
+              "link": "RGB-18",
+              "title": "18\" cabinet"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FRGB-NEW%2F1561143687439_RGB21.jpg?alt=media&token=454f87a3-8905-467e-9086-429e49726550",
+          "tags": ["4 bin", "26L x 2", "8.5L x 2"],
+          "links": [
+            {
+              "id": "0",
+              "cat": "0",
+              "link": "RGB-21",
+              "title": "21\" cabinet"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FRGB-NEW%2F1561143703744_RGB24.jpg?alt=media&token=e24a0560-f217-4b3c-a5c7-91041ee0d747",
+          "tags": ["4 bins", "38L x 2", "8.5L x 2"],
+          "links": [
+            {
+              "id": "0",
+              "cat": "0",
+              "link": "RGB-24",
+              "title": "24\" cabinet"
+            }
+          ]
+        }
+      ],
+      "catagories": [
+        {
+          "id": "0",
+          "title": "RGB-POD's"
+        }
+      ],
+      "image": "",
+      "tags": ["5/8\"", "3/4\"", "RGB", "POD", "garbage", "recycling"],
+      "notes": [],
+      "ordering": "Attach the accessory to the cabinet, use the code of choicen version.",
+      "array": "rgb",
+      "codes": ["RGB-12", "RGB-15", "RGB-18", "RGB-21", "RGB-24"]
+    }
+  },
+  "rgb": {
+    "metal": [
+      {
+        "id": "10",
+        "title": "RGB-POD12",
+        "code": "RGB-POD12",
+        "active": "true",
+        "image": "/catalog/build/assets/rgb/POD 30L 12.png",
+        "image2": "/catalog/build/assets/rgb/POD front 30L.png",
+        "cardId": "0",
+        "specifications": [
+          {
+            "id": "0",
+            "content": "12\"",
+            "title": "Cabinet width"
+          },
+          {
+            "id": "1",
+            "content": "1",
+            "title": "Bin quantity"
+          },
+          {
+            "id": "2",
+            "content": "30L",
+            "title": "Bin capacity"
+          },
+          {
+            "id": "3",
+            "content": "Grey",
+            "title": "Bin finish"
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "title": "RGB-POD14",
+        "code": "RGB-POD14",
+        "active": "true",
+        "image": "/catalog/build/assets/rgb/POD 38L 7L 14.png",
+        "image2": "/catalog/build/assets/rgb/POD front 38L 7L.png",
+        "cardId": "1",
+        "specifications": [
+          {
+            "id": "0",
+            "content": "14\"",
+            "title": "Cabinet width"
+          },
+          {
+            "id": "1",
+            "content": "2",
+            "title": "Bin quantity"
+          },
+          {
+            "id": "2",
+            "content": "38L & 7L",
+            "title": "Bin capacity"
+          },
+          {
+            "id": "3",
+            "content": "Grey",
+            "title": "Bin finish"
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "title": "RGB-POD16",
+        "code": "RGB-POD16",
+        "active": "true",
+        "image": "/catalog/build/assets/rgb/POD 38L 7L 16.png",
+        "image2": "/catalog/build/assets/rgb/POD front 38L 7L.png",
+        "cardId": "1",
+        "specifications": [
+          {
+            "id": "0",
+            "content": "16\"",
+            "title": "Cabinet width"
+          },
+          {
+            "id": "1",
+            "content": "2",
+            "title": "Bin quantity"
+          },
+          {
+            "id": "2",
+            "content": "38L & 7L",
+            "title": "Bin capacity"
+          },
+          {
+            "id": "3",
+            "content": "Grey",
+            "title": "Bin finish"
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "code": "RGB-POD18",
+        "title": "RGB-POD18",
+        "active": "true",
+        "image": "/catalog/build/assets/rgb/POD 38Lx2 18.png",
+        "image2": "/catalog/build/assets/rgb/POD front 38Lx2.png",
+        "cardId": "2",
+        "specifications": [
+          {
+            "id": "0",
+            "content": "18\"",
+            "title": "Cabinet width"
+          },
+          {
+            "id": "1",
+            "content": "2",
+            "title": "Bin quantity"
+          },
+          {
+            "id": "2",
+            "content": "38L x 2",
+            "title": "Bin capacity"
+          },
+          {
+            "id": "3",
+            "content": "Grey",
+            "title": "Bin finish"
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "code": "RGB-POD20",
+        "title": "RGB-POD20",
+        "active": "true",
+        "image": "/catalog/build/assets/rgb/POD-38Lx2-20.png",
+        "image2": "/catalog/build/assets/rgb/POD front 38Lx2.png",
+        "cardId": "2",
+        "specifications": [
+          {
+            "id": "0",
+            "content": "20\"",
+            "title": "Cabinet width"
+          },
+          {
+            "id": "1",
+            "content": "1",
+            "title": "Bin quantity"
+          },
+          {
+            "id": "2",
+            "content": "38L x 24",
+            "title": "Bin capacity"
+          },
+          {
+            "id": "3",
+            "content": "Grey",
+            "title": "Bin finish"
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "code": "RGB-POD24",
+        "title": "RGB-POD24",
+        "active": "true",
+        "image": "/catalog/build/assets/rgb/POD-38Lx2-12L-2.5L-24.png",
+        "image2": "/catalog/build/assets/rgb/POD-front-38Lx2-12L-2.5L.png",
+        "cardId": "3",
+        "specifications": [
+          {
+            "id": "0",
+            "content": "24\"",
+            "title": "Cabinet width"
+          },
+          {
+            "id": "1",
+            "content": "1",
+            "title": "Bin quantity"
+          },
+          {
+            "id": "2",
+            "content": "38L x 2 & 12L & 2 1/2L",
+            "title": "Bin capacity"
+          },
+          {
+            "id": "3",
+            "content": "Grey",
+            "title": "Bin finish"
+          }
+        ]
+      }
+    ],
+    "wood": [
+      {
+        "id": "10",
+        "title": "RGB-12",
+        "code": "RGB-12",
+        "active": "true",
+        "image": "/catalog/build/assets/rgb/RGB-12-front.png",
+        "image2": "/catalog/build/assets/rgb/RGB-12-side.png",
+        "cardId": "0",
+        "specifications": [
+          {
+            "id": "0",
+            "content": "12\"",
+            "title": "Cabinet width"
+          },
+          {
+            "id": "1",
+            "content": "2",
+            "title": "Bin quantity"
+          },
+          {
+            "id": "2",
+            "content": "26L & 8.5L",
+            "title": "Bin capacity"
+          },
+          {
+            "id": "3",
+            "content": "Grey",
+            "title": "Bin finish"
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "title": "RGB-15",
+        "code": "RGB-15",
+        "active": "true",
+        "image": "/catalog/build/assets/rgb/RGB-15-front.png",
+        "image2": "/catalog/build/assets/rgb/RGB-15-side.png",
+        "cardId": "0",
+        "specifications": [
+          {
+            "id": "0",
+            "content": "15\"",
+            "title": "Cabinet width"
+          },
+          {
+            "id": "1",
+            "content": "2",
+            "title": "Bin quantity"
+          },
+          {
+            "id": "2",
+            "content": "26L x 2",
+            "title": "Bin capacity"
+          },
+          {
+            "id": "3",
+            "content": "Grey",
+            "title": "Bin finish"
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "title": "RGB-18",
+        "code": "RGB-18",
+        "active": "true",
+        "image": "/catalog/build/assets/rgb/RGB-18-front.png",
+        "image2": "/catalog/build/assets/rgb/RGB-18-side.png",
+        "cardId": "0",
+        "specifications": [
+          {
+            "id": "0",
+            "content": "18\"",
+            "title": "Cabinet width"
+          },
+          {
+            "id": "1",
+            "content": "2",
+            "title": "Bin quantity"
+          },
+          {
+            "id": "2",
+            "content": "38L x 2",
+            "title": "Bin capacity"
+          },
+          {
+            "id": "3",
+            "content": "Grey",
+            "title": "Bin finish"
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "title": "RGB-21",
+        "code": "RGB-21",
+        "active": "true",
+        "image": "/catalog/build/assets/rgb/RGB-21-front.png",
+        "image2": "/catalog/build/assets/rgb/RGB-21-side.png",
+        "cardId": "0",
+        "specifications": [
+          {
+            "id": "0",
+            "content": "21\"",
+            "title": "Cabinet width"
+          },
+          {
+            "id": "1",
+            "content": "4",
+            "title": "Bin quantity"
+          },
+          {
+            "id": "2",
+            "content": "26L x 2 & 8.5L x 2",
+            "title": "Bin capacity"
+          },
+          {
+            "id": "3",
+            "content": "Grey",
+            "title": "Bin finish"
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "title": "RGB-24",
+        "code": "RGB-24",
+        "active": "true",
+        "image": "/catalog/build/assets/rgb/RGB-24-front.png",
+        "image2": "/catalog/build/assets/rgb/RGB-24-side.png",
+        "cardId": "0",
+        "specifications": [
+          {
+            "id": "0",
+            "content": "22\"",
+            "title": "Cabinet width"
+          },
+          {
+            "id": "1",
+            "content": "4",
+            "title": "Bin quantity"
+          },
+          {
+            "id": "2",
+            "content": "38L x 2 & 8.5L x 2",
+            "title": "Bin capacity"
+          },
+          {
+            "id": "3",
+            "content": "Grey",
+            "title": "Bin finish"
+          }
+        ]
+      }
+    ]
+  }
+}

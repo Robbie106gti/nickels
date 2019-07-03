@@ -1,0 +1,173 @@
+{
+  "sub-cats": [
+    {
+      "code": "RGB",
+      "title": "Recycle/Garbage bins",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "template": "link",
+      "link": "./sor/index.html?page=rgbs",
+      "images": [
+        {
+          "image": "/catalog/build/assets/rgb/38L%2038L%2012L%202.5L%20461950100%20rgb-pod-25.jpg",
+          "title": ""
+        }
+      ],
+      "active": true,
+      "tags": ["single bin", "double bin", "4 bin"]
+    },
+    {
+      "code": "TPOD",
+      "title": "Tall pull-out door",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "template": "tpod",
+      "images": [
+        {
+          "title": "",
+          "image": "/catalog/build/assets/tpod/tpod.jpg"
+        }
+      ],
+      "tags": [
+        "pantry",
+        "tall",
+        "hardware",
+        "maple",
+        "white",
+        "grey",
+        "chrome"
+      ],
+      "active": false
+    },
+    {
+      "code": "MC",
+      "title": "Magic corners",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "template": "mc",
+      "images": [
+        {
+          "title": "",
+          "image": "/catalog/build/assets/mc/wari.jpg"
+        }
+      ],
+      "tags": ["corner", "cab", "hardware", "maple", "white", "grey", "chrome"],
+      "active": false
+    },
+    {
+      "code": "sor",
+      "title": "Slide-Out Storage Rack",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "template": "sor",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/JPGs/Accessories/SOR-M-Upper.jpg"
+        }
+      ],
+      "tags": ["pantry", "tall", "base"],
+      "active": true
+    },
+    {
+      "code": "podnr",
+      "title": "Pull-Out Door Narrow Rack",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "template": "sor",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/PullOutDoorNarrowRack-TowelRack.gif"
+        }
+      ],
+      "tags": ["base", "narrow", "in-between", "sliding"],
+      "active": true
+    },
+    {
+      "code": "bpods",
+      "title": "Base Pull-Out Door Storage",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "template": "sor",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/BPOD-O_SR.jpg"
+        }
+      ],
+      "tags": ["sliding", "storage", "base", "base"],
+      "active": true
+    },
+    {
+      "code": "tpods",
+      "title": "Tall Pull-Out Door Storage",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "template": "sor",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/TallPullOutDoorStorageRack-2.jpg"
+        }
+      ],
+      "tags": ["sliding", "storage", "tall"],
+      "active": true
+    },
+    {
+      "code": "ls",
+      "title": "Corner Solutions",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "template": "sor",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/PlasticPieCut-2.gif"
+        }
+      ],
+      "tags": ["lazy", "susans", "storage", "base", "corner", "magic"],
+      "active": true
+    }
+  ]
+}
