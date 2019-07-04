@@ -136,6 +136,15 @@ p > i {
   padding: 0.5em;
 }
 
+.flex {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
 @supports (display: grid) {
   .detail-card {
     width: 50%;
