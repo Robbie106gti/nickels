@@ -163,7 +163,7 @@
           "link": "cab"
         }
       ],
-      "image": "/catalog/build/assets/cabinets/FV2DC__24.png",
+      "image": "/catalog/build/assets/cabinets/FVS2DC__24.png",
       "tags": ["sink", "2", "drawer", "channel", "24\""]
     },
     {
@@ -245,7 +245,7 @@
           "link": "cab"
         }
       ],
-      "image": "/catalog/build/assets/cabinets/FV3DC__24.png",
+      "image": "/catalog/build/assets/cabinets/FVS3DC__24.png",
       "tags": ["sink", "3", "drawer", "channel", "24\""]
     }
   ]

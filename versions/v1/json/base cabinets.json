@@ -902,7 +902,7 @@
           "link": "cab"
         }
       ],
-      "image": "/catalog/images/B2D__30.jpg",
+      "image": "https://webquoin.com/catalog/build/assets/cabinets/BS2d__30.png",
       "tags": ["sink", "30\""]
     },
     {
@@ -932,7 +932,7 @@
           "link": "cab"
         }
       ],
-      "image": "/catalog/images/BCT3D__30.jpg",
+      "image": "https://webquoin.com/catalog/build/assets/cabinets/BS3d__30.png",
       "tags": ["sink", "30\""]
     },
     {

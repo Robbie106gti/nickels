@@ -1,0 +1,1132 @@
+{
+  "specifications": [
+    {
+      "id": "000",
+      "title": "Hinging",
+      "content": "Specify hinging L (left) or R (right) when applicable."
+    },
+    {
+      "id": "001",
+      "title": "Hinging",
+      "content": "Single door units (all units less than 49\") will be hinged on the blind side."
+    },
+    {
+      "id": "002",
+      "title": "Hinging",
+      "content": "Single door units (all units less than 42\") will be hinged on the blind side."
+    },
+    {
+      "id": "003",
+      "title": "Hinging",
+      "content": "Single door units (all units less than 46\" wide) will be hinged on the blind side"
+    },
+    {
+      "id": "99",
+      "title": "Doors",
+      "content": "Doors are optional on this cabinet."
+    },
+    {
+      "id": "100",
+      "title": "Doors",
+      "content": "Units wider than 24\" will have a pair of doors."
+    },
+    {
+      "id": "101",
+      "title": "Doors",
+      "content": "Units over 42\" will have a pair of doors."
+    },
+    {
+      "id": "102",
+      "title": "Doors",
+      "content": "When opened, the folding doors are drawn inward by a cam system and revolve through the interior of the cabinet with the fittings."
+    },
+    {
+      "id": "103",
+      "title": "Damping",
+      "content": "An integral, adjustable pneumatic damping device ensures that the doors close quietly."
+    },
+    {
+      "id": "104",
+      "title": "Doors",
+      "content": "Three dimensional adjustment."
+    },
+    {
+      "id": "105",
+      "title": "Doors",
+      "content": "Units wider than 18\" will have a pair of doors."
+    },
+    {
+      "id": "106",
+      "title": "Doors",
+      "content": "Units over 46\" will have a pair of doors."
+    },
+    {
+      "id": "107",
+      "title": "Doors",
+      "content": "The door on these units are always hinged on the small side of the front of the unit."
+    },
+    {
+      "id": "200",
+      "title": "Door height",
+      "content": "By default, height reductions will decrease the door height of this cabinet."
+    },
+    {
+      "id": "201",
+      "title": "Height",
+      "content": "By default, height reductions will decrease the top door section height of this cabinet down to a minimum of 12\", then the height of the bottom drawer section will decrease to a minimum of 6\" until the desired height is achieved."
+    },
+    {
+      "id": "202",
+      "title": "Height",
+      "content": "By default, height reductions will decrease the top door section height of this cabinet down to a minimum of 12\", then the height of the bottom door will decrease until the desired height is achieved."
+    },
+    {
+      "id": "203",
+      "title": "Height",
+      "content": "By default, height reductions will decrease the top section height of this cabinet down to a minimum of 12\", then the height of the bottom section will decrease until the desired height is achieved."
+    },
+    {
+      "id": "204",
+      "title": "Height",
+      "content": "By default, height reductions will decrease the top door height of this cabinet to a minimum of 12 7/8\". The height of the bottom section can be decreased to 29\" high."
+    },
+    {
+      "id": "205",
+      "title": "Height",
+      "content": "By default, height reductions will decrease the top door height of this cabinet to a minimum of 38 7/8\". The height of the bottom section can be decreased to 29\" high."
+    },
+    {
+      "id": "206",
+      "title": "Height",
+      "content": "By default, height reductions will decrease the top door height of this cabinet to a minimum of 50 7/8\". The height of the bottom section can be decreased to 29\" high."
+    },
+    {
+      "id": "207",
+      "title": "Height",
+      "content": "By default, height reductions will decrease the door height of this cabinet down to a minimum of 11 7/8\"."
+    },
+    {
+      "id": "208",
+      "title": "Appliance Frame",
+      "content": "By default, height reductions will decrease the total appliance frame section down to a minimum of 12 7/8\" until desired height is reached. The frame configuration will be changed according to your requirements and/or appliance specs."
+    },
+    {
+      "id": "300",
+      "title": "Header",
+      "content": "On cabinets with double doors, a stretcher matching the cabinet interior will be added below the false front. The front and bottom edge of the stretcher will be finished to match the cabinet exterior."
+    },
+    {
+      "id": "301",
+      "title": "Header",
+      "content": "The header is finished to match the cabinet exterior."
+    },
+    {
+      "id": "302",
+      "title": "Stretcher",
+      "content": "A stretcher matching the cabinet interior will be added below the false front. The front and bottom edge of the stretcher will be finished to match the cabinet exterior."
+    },
+    {
+      "id": "400",
+      "title": "Installation",
+      "content": "This unit is designed to be installed 3\" off the wall on the blind side."
+    },
+    {
+      "id": "500",
+      "title": "Shelves",
+      "content": "No adjustable shelves or fixed shelves will be added by default for this height."
+    },
+    {
+      "id": "501",
+      "title": "Shelves",
+      "content": "One adjustable shelf will be added by default for this height."
+    },
+    {
+      "id": "502",
+      "title": "Shelves",
+      "content": "Two adjustable shelf will be added by default for this height."
+    },
+    {
+      "id": "503",
+      "title": "Shelves",
+      "content": "Three adjustable shelf will be added by default for this height."
+    },
+    {
+      "id": "507",
+      "title": "Shelves",
+      "content": "Four adjustable shelf will be added by default for this height."
+    },
+    {
+      "id": "508",
+      "title": "Shelves",
+      "content": "Five adjustable shelf will be added by default for this height."
+    },
+    {
+      "id": "504",
+      "title": "Trays",
+      "content": "Trays are height adjustable and have a non-slip grey or maple arena surface and chrome railing. 2 trays included."
+    },
+    {
+      "id": "505",
+      "title": "Trays",
+      "content": "Grey arena tray."
+    },
+    {
+      "id": "506",
+      "title": "Trays",
+      "content": "Maple arena tray."
+    },
+    {
+      "id": "509",
+      "title": "Shelves",
+      "content": "The top shelf changes from a 45° to a 90° corner on all widths less than 6\"."
+    },
+    {
+      "id": "511",
+      "title": "Shelves",
+      "content": "One adjustable shelf will be added by default for this height in lower section."
+    },
+    {
+      "id": "512",
+      "title": "Shelves",
+      "content": "Two adjustable shelfs will be added by default for this height in lower section."
+    },
+    {
+      "id": "513",
+      "title": "Shelves",
+      "content": "Three adjustable shelfs will be added by default for this height in lower section."
+    },
+    {
+      "id": "521",
+      "title": "Shelves",
+      "content": "One adjustable shelf will be added by default for this height in upper section."
+    },
+    {
+      "id": "522",
+      "title": "Shelves",
+      "content": "Two adjustable shelfs will be added by default for this height in upper section."
+    },
+    {
+      "id": "523",
+      "title": "Shelves",
+      "content": "Three adjustable shelfs will be added by default for this height in upper section."
+    },
+    {
+      "id": "524",
+      "title": "Shelves",
+      "content": "Four adjustable shelfs will be added by default for this height in upper section."
+    },
+    {
+      "id": "525",
+      "title": "Shelves",
+      "content": "One fixed shelf will be added by default for this height."
+    },
+    {
+      "id": "526",
+      "title": "Shelves",
+      "content": "Two fixed shelves will be added by default for this height."
+    },
+    {
+      "id": "527",
+      "title": "Shelves",
+      "content": "Three fixed shelves will be added by default for this height."
+    },
+    {
+      "id": "528",
+      "title": "Shelves",
+      "content": "Four fixed shelves will be added by default for this height."
+    },
+    {
+      "id": "529",
+      "title": "Shelves",
+      "content": "Five fixed shelves will be added by default for this height."
+    },
+    {
+      "id": "600",
+      "title": "Drawer",
+      "content": "Drawer height may be decreased to a minimum of 5 7/8\" each."
+    },
+    {
+      "id": "601",
+      "title": "Drawer",
+      "content": "By default, height reductions will decrease the height of the bottom drawer down to a minimum of 5 7/8\" until the desired height is reached. "
+    },
+    {
+      "id": "602",
+      "title": "Drawer",
+      "content": "By default, height reductions will decrease the height of the first drawer over 5 7/8\" down to a minimum of 5 7/8\", then each successive drawer will be reduced in the same manner until the desired height is achieved."
+    },
+    {
+      "id": "603",
+      "title": "Drawer",
+      "content": "By default, height reductions will decrease the 3rd drawer (from top) height down to a minimum of 6 7/8\" until the desired height is reached."
+    },
+    {
+      "id": "604",
+      "title": "Drawer",
+      "content": "By default, height reductions will decrease the bottom drawer height down to a minimum of 6 7/8\" until the desired height is reached."
+    },
+    {
+      "id": "605",
+      "title": "Drawer",
+      "content": "By default, height reductions will decrease the height of the bottom drawer down to a minimum of 6 7/8\" until the desired height is reached."
+    },
+    {
+      "id": "606",
+      "title": "Drawers",
+      "content": "3 drawer options, White Intivo Drawers / Black Intivo Drawers / Stainless Steel Intivo Drawers."
+    },
+    {
+      "id": "607",
+      "title": "Drawer",
+      "content": "By default, height reductions will reduce the height of the middle drawer down to a minimum of 5 7/8\" until the desired height is reached."
+    },
+    {
+      "id": "608",
+      "title": "Drawer",
+      "content": "By default, height reductions will decrease the height of the top drawer down to a minimum of 6 7/8\" until the desired height is reached."
+    },
+    {
+      "id": "1400",
+      "title": "Sink",
+      "content": "A 4 7/16\" high header will be included on cabinet (as shown), which will serve to support a sink."
+    },
+    {
+      "id": "1401",
+      "title": "Sink",
+      "content": "A 3\" high header will be included on cabinet (as shown), which will serve to support a sink."
+    },
+    {
+      "id": "1402",
+      "title": "Sink",
+      "content": "A 6\" high header will be included on cabinet, which will serve to support a sink."
+    },
+    {
+      "id": "2000",
+      "title": "Cabinet",
+      "content": "Heavy duty slides are installed on cabinets over 42\" (42\" wide receive standard slides)"
+    },
+    {
+      "id": "2001",
+      "title": "Cabinet",
+      "content": "When something other than the default height reduction is required, you must specify the desired drawer heights on a drawing and as a note attached to the cabinet in webquoin. The modify section height custom charge (CC-MODSECTIONH) will apply."
+    },
+    {
+      "id": "2002",
+      "title": "Cabinet",
+      "content": "If the cabinet is open, a note must be added in webquoin to remove the mini gables."
+    },
+    {
+      "id": "2003",
+      "title": "Cabinet",
+      "content": "If a custom width greater than 36\" is ordered (CC-INCR-CORNER), both doors will be hinged and will open independently."
+    },
+    {
+      "id": "2004",
+      "title": "Cabinet",
+      "content": "The left and right widths (W) will always match so the cabinet will always have a 45 degree angle."
+    },
+    {
+      "id": "2005",
+      "title": "Cabinet",
+      "content": "For any height dimension or frame configuration changes, please specify your requirements on a drawing and as a note attached to the cabinet in webquoin. The frame configuration will be changed according to your requirements and/or the appliance specifications."
+    },
+    {
+      "id": "2006",
+      "title": "Open Cabinets",
+      "content": "Finish of the cabinet is controlled with the interior material dropdown-menu, best pratice for \"Open Cabinets\" is to create a separate room default for them."
+    },
+    {
+      "id": "2007",
+      "title": "Channel Cabinets",
+      "content": "The height of the cabinet can NOT be decreased due to the fixed location of the channel."
+    },
+    {
+      "id": "2008",
+      "title": "Cabinets",
+      "content": "This unit is designed to be installed 3” off the wall on the blind side."
+    },
+    {
+      "id": "2009",
+      "title": "Cabinets",
+      "content": "For a base corner cabinet with left and right widths that do NOT match, please specify your requirements on a drawing and as a note attached to the cabinet in webquoin."
+    },
+    {
+      "id": "2010",
+      "title": "Cabinets",
+      "content": "Specify L (the front is small on the left side) or R (the front is small on the right side)."
+    },
+    {
+      "id": "2011",
+      "title": "Cabinets",
+      "content": "The top of the unit is filled in and the bottom has spreaders across the width at the front and back of the unit. This setup allows access from the bottom of the unit for installation purposes."
+    },
+    {
+      "id": "2012",
+      "title": "Cabinets",
+      "content": "The top set shelf is constructed of solid 5/8” plywood for strength and stability."
+    },
+    {
+      "id": "2013",
+      "title": "Cabinets bottom",
+      "content": "The bottom of the cabinet is unfinished. If finishing the bottom is required, attach an Finish Cabinet Bottom (FCB)."
+    },
+    {
+      "id": "2014",
+      "title": "Walloven frame",
+      "content": "The walloven frame will have a detailed edge with the material type matching the door if the cutout sizes have been specified. The walloven frame will have a square edge with a veneer composite core panel if cutout sizes are not specified so the cutouts can be done on site."
+    },
+    {
+      "id": "2015",
+      "title": "Microwave frame",
+      "content": "The microwave area will only be finished inside (same color as the exterior of the cabinets) if requested on the cabinet order and the appropriate charges are applied."
+    },
+    {
+      "id": "2016",
+      "title": "Microwave frame",
+      "content": "The microwave frame will have a detailed edge with the material type match the door edgeprofile."
+    },
+    {
+      "id": "2017",
+      "title": "Cutout",
+      "content": "The standard cutout is 15\" H x 24\" W"
+    },
+    {
+      "id": "2018",
+      "title": "Blind wall",
+      "content": "Single door units (all units less than 37\") will be hinged on the blind side. This unit is designed to be installed 2\" off the wall on the blind side. "
+    },
+    {
+      "id": "2019",
+      "title": "Cabinet bottom",
+      "content": "The bottom of an open cabinet will match the bottoms of the balance of cabinets in the room"
+    },
+    {
+      "id": "2020",
+      "title": "Micro frame",
+      "content": "Supply the microwave cutout sizes. The maximum cutout height is 17 5/8\". The microwave frame will have a profile and the material type matching the door. "
+    },
+    {
+      "id": "2021",
+      "title": "Extended doors",
+      "content": "Doors for the wall cabinets extend 1/2\" below the bottom set shelf to allow for a handle-free opening. Wall cabinet codes are based on the box height and do not include the additional 1/2\" door overhang."
+    },
+    {
+      "id": "2022",
+      "title": "L channel",
+      "content": "Actual height is 2 1/4\" (not 2\" as per the nomenclature). You may need to modify the door height of the cabinet onto which you stack this item so the door will overhang onto the L channel for handle-free opening."
+    },
+    {
+      "id": "2023",
+      "title": "C channel",
+      "content": "Actual height is 2 7/8\" (not 3\" as per the nomenclature). You may need to modify the door height of the cabinet onto which you stack this item so the door will overhang onto the C channel for handle-free opening."
+    },
+    {
+      "id": "2024",
+      "title": "Wardrobe",
+      "content": "Interior and exterior material and color MUST match."
+    },
+    {
+      "id": "2025",
+      "title": "Setshelf",
+      "content": "The top set shelf  is constructed of solid 5/8” plywood for strength and stability."
+    },
+    {
+      "id": "3000",
+      "title": "Lazy Susan",
+      "content": "Adding a Lazy Susan does not automatically remove the adjustable shelf(s)."
+    },
+    {
+      "id": "3001",
+      "title": "Lazy Susan",
+      "content": "When a full round lazy susan is ordered for this cabinet, the 24\" depth increases to 28\" and the 11\" side width increases to 16 11/16\"."
+    },
+    {
+      "id": "3002",
+      "title": "TO1FM",
+      "content": "The appliance(s) are meant for flush installation and have a door/face thickness that matches the cabinet doors (7/8\" thick)."
+    },
+    {
+      "id": "3003",
+      "title": "TO2FM",
+      "content": "When one or multiple appliances have a door/face thickness that is greater than the cabinet doors. The cabinet is split into sections with varying depths to make the appliance face sit flush with the cabinet doors."
+    },
+    {
+      "id": "3004",
+      "title": "TO3FM",
+      "content": "When the cabinet being ordered is wider than the appliance spec recommends. A frame or overlay filler with finished inside edges is placed on top of a backer panel to give the illusion of a flush installation."
+    },
+    {
+      "id": "3005",
+      "title": "Gables",
+      "content": "Seams are visible on gables."
+    },
+    {
+      "id": "3006",
+      "title": "Finished ends",
+      "content": "Seamless finished ends are possible."
+    },
+    {
+      "id": "3007",
+      "title": "Available Materials",
+      "content": "All Wood Species and Painted applications."
+    },
+    {
+      "id": "3008",
+      "title": "Finishing",
+      "content": "Top face, bottom face, front edge and both side edges are finished."
+    },
+    {
+      "id": "3009",
+      "title": "Size",
+      "content": "W x D"
+    },
+    {
+      "id": "3010",
+      "title": "Brackets",
+      "content": "Bracket hardware supplied will be 1 for every 16\" of shelf. See chart."
+    },
+    {
+      "id": "3011",
+      "title": "Construction",
+      "content": "Minimum shelf depth is 8\" and maximum shelf depth is 15 3/4\", 1 1/2\" thick composite core with a taped edge."
+    },
+    {
+      "id": "3012",
+      "title": "Options",
+      "content": "N/A"
+    },
+    {
+      "id": "3013",
+      "title": "Restrictions",
+      "content": "Maximum load restriction is 7 kg (15 lbs) per bracket, not including the shelf. Maximum 94\" inch wide."
+    },
+    {
+      "id": "3014",
+      "title": "Finishing",
+      "content": "Shelf has a solid wood edge on the front and both sides, Top and bottom faces are finished."
+    },
+    {
+      "id": "3015",
+      "title": "Construction",
+      "content": "Minimum shelf depth is 8\" and maximum shelf depth is 15 3/4\". 2 1/4\" thick composite core with a taped edge."
+    },
+    {
+      "id": "3016",
+      "title": "Available Materials",
+      "content": "Available in Wood Veneer and Painted doors."
+    },
+    {
+      "id": "3017",
+      "title": "Finishing",
+      "content": "Finished both faces and 3 taped edges"
+    },
+    {
+      "id": "3018",
+      "title": "Construction",
+      "content": "Nominal 1 9/16\" thick panel constructed from a door integrated with a 3/4\" back panel. Can be ordered as a wide horizontal panel (DEPH) or a tall vertical panel (DEPV). The dimensions for the stiles and rails will match the specifications of the selected door"
+    },
+    {
+      "id": "3019",
+      "title": "Construction",
+      "content": "Nominal 1 9/16\" thick panel constructed from a door integrated with a 3/4\" back panel. Can be ordered as a wide horizontal panel (DEPH-EBR) or a tall vertical panel (DEPV-EBR)._Total height includes the extended bottom rail."
+    },
+    {
+      "id": "3020",
+      "title": "Construction",
+      "content": "Nominal 1 9/16\" thick panel constructed from a door integrated with a 3/4\" back panel. Can be ordered as a wide horizontal panel (DEPH-MK) or a tall vertical panel (DEPV-MK). Total height includes the mock kick."
+    },
+    {
+      "id": "3021",
+      "title": "Material",
+      "content": "The ABP material is ordered as either 1/8\" or 1/4\" thick unfinished material"
+    },
+    {
+      "id": "3022",
+      "title": "Finish",
+      "content": "Material is unfinished MDF"
+    },
+    {
+      "id": "3023",
+      "title": "Grain",
+      "content": "(if applicable) will run vertically, or in the direction of the selected exterior material if there is a choice of VG or HG."
+    },
+    {
+      "id": "3024",
+      "title": "Material",
+      "content": "The Panel material is 7/32\" thick and is available in for all wood veneers and MDF for all painted applications."
+    },
+    {
+      "id": "3025",
+      "title": "Maximum panel sizes",
+      "type": "table",
+      "astrixs": ["** Available as a special order"],
+      "table": {
+        "headers": [
+          { "title": "Material", "key": "title" },
+          { "title": "Width VG Maximum", "key": "wvgm" },
+          { "title": "Height VG Maximum", "key": "hvgm" },
+          { "title": "Width HG Maximum", "key": "whgm" },
+          { "title": "Height HG Maximum", "key": "hhgm" }
+        ],
+        "rows": [
+          {
+            "title": "Wood Veneer",
+            "wvgm": "48\"",
+            "hvgm": "120\"",
+            "whgm": "120\"",
+            "hhgm": "48\""
+          },
+          {
+            "title": "Engineered Veneer",
+            "wvgm": "48\"",
+            "hvgm": "96\" (120\"**)",
+            "whgm": "96\" (120\"**)",
+            "hhgm": "48\""
+          }
+        ]
+      }
+    },
+    {
+      "id": "3026",
+      "title": "Finish",
+      "content": "Only the front face of the panel is finished."
+    },
+    {
+      "id": "3027",
+      "title": "Material",
+      "content": "Matches interior of cabinet."
+    },
+    {
+      "id": "3028",
+      "title": "Drilling",
+      "content": "Attached to door with DFS system."
+    },
+    {
+      "id": "3029",
+      "title": "Attached",
+      "content": "For attaching hardware to door."
+    },
+    {
+      "id": "3030",
+      "title": "Available Materials",
+      "content": "Available in Wood and Painted."
+    },
+    {
+      "id": "3031",
+      "title": "Finishing",
+      "content": "A 3/4\" panel with finished both faces and 3 taped edges (only for the regular version).",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for examples",
+        "button": "examples",
+        "title": "Examples of finishing edges",
+        "images": [
+          {
+            "title": "Vertical Grain 2 Taped Wide + 1 Taped High",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-VG-L.png"
+          },
+          {
+            "title": "Vertical Grain 1 Taped high + 2 Taped Wide",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-VG-S.png"
+          },
+          {
+            "title": "Horizontal Grain 2 Taped Wide + 1 Taped High",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-HG-L.png"
+          },
+          {
+            "title": "Horizontal Grain 1 Taped high + 2 Taped Wide",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-HG-S.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3032",
+      "title": "Construction",
+      "content": "3/4\" thick MDF. Raw material is A1 (see Materials and Finishes section of the catalog for more information)"
+    },
+    {
+      "id": "3033",
+      "title": "Finishing",
+      "content": "A 1 1/2\" panel with finished both faces and 3 taped edges (only for the regular version).",
+      "type": "modal",
+      "modal": {
+        "text": "Click button for examples",
+        "button": "examples",
+        "title": "Examples of finishing edges",
+        "images": [
+          {
+            "title": "Vertical Grain 2 Taped Wide + 1 Taped High",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-VG-L.png"
+          },
+          {
+            "title": "Vertical Grain 1 Taped high + 2 Taped Wide",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-VG-S.png"
+          },
+          {
+            "title": "Horizontal Grain 2 Taped Wide + 1 Taped High",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-HG-L.png"
+          },
+          {
+            "title": "Horizontal Grain 1 Taped high + 2 Taped Wide",
+            "image": "http://testquoin.com/catalog/images/Edge-Details/p75p-HG-S.png"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3034",
+      "title": "Construction",
+      "content": "1 1/2\" thick MDF. Raw material is A1 (see Materials and Finishes section of the catalog for more information)."
+    },
+    {
+      "id": "3035",
+      "title": "Construction",
+      "content": "1 1/2\" thick Plywood. Raw material is A1 (see Materials and Finishes section of the catalog for more information)."
+    },
+    {
+      "id": "3036",
+      "title": "Plywood",
+      "content": "The panel is made using two sheets of 3/4\" thick material laminated together to form the 1 1/2\" nominal thickness (+/- 1/16\") and is approximately 30% lighter than the composite core."
+    },
+    {
+      "id": "3037",
+      "title": "Construction",
+      "content": "The panel is made out of composite core 3/4\"."
+    },
+    {
+      "id": "3038",
+      "title": "Edges",
+      "content": "Panel edges are not finished."
+    },
+    {
+      "id": "3039",
+      "title": "Height",
+      "content": "We recommend that filler heights match adjacent cabinet heights."
+    },
+    {
+      "id": "3040",
+      "title": "Finish",
+      "content": "Front face will always be finished."
+    },
+    {
+      "id": "3041",
+      "title": "Construction",
+      "content": "The panel is made out of composite core."
+    },
+    {
+      "id": "3042",
+      "title": "Width",
+      "content": "Available in 1/8\" increments from 2\" - 6\" wide."
+    },
+    {
+      "id": "3043",
+      "title": "Materials",
+      "content": "Available in All materials."
+    },
+    {
+      "id": "3044",
+      "title": "Materials",
+      "content": "Available in Wood, Mesa, Como, Plateau and Painted materials."
+    },
+    {
+      "id": "3045",
+      "title": "Construction",
+      "content": "Veneer for wood, MDF for painted applications. High Pressure laminate (HPL) for Mesa, Como and Plateau."
+    },
+    {
+      "id": "3046",
+      "title": "Specify",
+      "content": "Cabinet’s End Application, L (left), R (right) or L/R. Choose FE from the the Finish Side Header Drop-Down Menu in WQ."
+    },
+    {
+      "id": "3047",
+      "title": "Materials",
+      "content": "Available in all Wood, M White Melamine, M Maple Melamine, Solid and Patterned Melamine, Engineered and Painted materials."
+    },
+    {
+      "id": "3048",
+      "title": "Finishing",
+      "content": "Finished on face and gable edges."
+    },
+    {
+      "id": "3049",
+      "title": "Finishing",
+      "content": "The bottom of a wall cabinet will match the selection made in the Interior Mtrl header Drop-Down Menu in WQ. However, if a cabinet is in a default room (DFZ for example), the bottom of the wall cabinet will match the main room."
+    },
+    {
+      "id": "3050",
+      "title": "Materials",
+      "content": "Available in all Wood, Engineered and Painted."
+    },
+    {
+      "id": "3051",
+      "title": "Construction",
+      "content": "The PBU is MDF core available in wood veneer and painted materials."
+    },
+    {
+      "id": "3052",
+      "title": "Slides and width",
+      "type": "list",
+      "list": [
+        "Racks in cabinets 6\" - 8\" wide will have 1 pair of slides.",
+        "Racks in cabinets 9\" - 18\" wide will have 2 pairs of slides."
+      ]
+    },
+    {
+      "id": "3053",
+      "title": "Construction depths",
+      "content": "Available for cabinets with a minimum depth of 12\" and a maximum depth of 24\"."
+    },
+    {
+      "id": "3054",
+      "title": "Construction and finish",
+      "content": "Prefinished birch plywood construction."
+    },
+    {
+      "id": "3055",
+      "title": "Slides",
+      "content": "Blum full extension slides."
+    },
+    {
+      "id": "3056",
+      "title": "Number of Adjustable Shelves",
+      "type": "table",
+      "table": {
+        "headers": [
+          { "title": "Height", "key": "title" },
+          { "title": "# of shelves", "key": "col2" }
+        ],
+        "rows": [
+          {
+            "title": "24\" - 27\"",
+            "col2": "0"
+          },
+          {
+            "title": "27\" - 37\"",
+            "col2": "1"
+          },
+          {
+            "title": "37\" - 46\"",
+            "col2": "3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3057",
+      "title": "Slides and width",
+      "type": "list",
+      "list": [
+        "Cabinets between 18\" - 9 7/8\" wide will have 2 pair of Movento slides.",
+        "Cabinets between 9 7/8\" - 6 7/8\" wide will have 1 pairs of Movento slides.",
+        "Cabinets between 6 7/8\" - 5 7/8\" wide will have 1 pairs of Tandem slides."
+      ]
+    },
+    {
+      "id": "3058",
+      "title": "Number of Adjustable Shelves",
+      "type": "table",
+      "table": {
+        "headers": [
+          { "title": "Height", "key": "title" },
+          { "title": "# of shelves", "key": "col2" }
+        ],
+        "rows": [
+          {
+            "title": "24\" - 26 7/8\"",
+            "col2": "0"
+          },
+          {
+            "title": "27\" - 30\"",
+            "col2": "1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3059",
+      "title": "Hardware",
+      "content": "For TBR : Tall Broom cabinets."
+    },
+    {
+      "id": "3060",
+      "title": "Attaches",
+      "content": "Unit is attached to door and pulls out when door is opened."
+    },
+    {
+      "id": "3061",
+      "title": "Includes",
+      "content": "4 Chrome baskets."
+    },
+    {
+      "id": "3062",
+      "title": "Includes",
+      "content": "4 Grey Arena non-slip baskets."
+    },
+    {
+      "id": "3063",
+      "title": "Includes",
+      "content": "4 Maple Arena non-slip baskets."
+    },
+    {
+      "id": "3064",
+      "title": "Dimensions",
+      "type": "list",
+      "list": [
+        "Minimum cabinet depth is 21\"",
+        "Minimum opening height is 47 1/4\"",
+        "Maximum opening height is 90 5/8\""
+      ]
+    },
+    {
+      "id": "3065",
+      "title": "Dimensions",
+      "type": "list",
+      "list": [
+        "Minimum cabinet depth is 21\"",
+        "Minimum inside cabinet height is 19 5/8\" (499mm)",
+        "Maximum hardware height 26 1/8\" (663mm)",
+        "Available in a Left or Right design in the following widths 7\", 9\", 12\" and 16\"."
+      ]
+    },
+    {
+      "id": "3066",
+      "title": "Includes",
+      "content": "3 Greybaskets on a Base Full door (26 1/8\" interior height), only 2 on Base cabinets below 26 1/8\" interior height."
+    },
+    {
+      "id": "3067",
+      "title": "Hardware",
+      "content": "recommended for Base Full Door(s) cabinets."
+    },
+    {
+      "id": "3068",
+      "title": "Includes",
+      "content": "3 Maple baskets on a Base Full door (26 1/8\" interior height), only 2 on Base cabinets below 26 1/8\" interior height."
+    },
+    {
+      "id": "3069",
+      "title": "Towel rack",
+      "content": "Has a non-slip surface to keep towels in place."
+    },
+    {
+      "id": "3070",
+      "title": "Shelf",
+      "content": "Chrome shelf on the bottom for additional storage."
+    },
+    {
+      "id": "3071",
+      "title": "Slide",
+      "content": "Uses a Soft-close mechanism."
+    },
+    {
+      "id": "3072",
+      "title": "Dimensions",
+      "type": "list",
+      "list": [
+        "Minimum inside dimensions: 23 1/4\" high x 4 7/16\" wide x 19\" deep.",
+        "Minimum cabinet size of 25\" high x 6\" wide x 20\" deep",
+        "Maximum cabinet width is 9\"."
+      ]
+    },
+    {
+      "id": "3073",
+      "title": "Cookware",
+      "content": "Chrome rack for convenient baking pan storage."
+    },
+    {
+      "id": "3074",
+      "title": "Storage shelves",
+      "content": "Includes 2 chrome wire baskets."
+    },
+    {
+      "id": "3075",
+      "title": "Storage shelves",
+      "type": "list",
+      "list": [
+        "Tray Diameter 28\"",
+        "Number of Trays 2",
+        "Material: Polymer - White",
+        "Available in all standard BC units"
+      ]
+    },
+    {
+      "id": "3076",
+      "title": "Dimensions",
+      "type": "list",
+      "list": [
+        "Available in 42\" (door width of 18\") or 45\" (door width of 21\").",
+        "Minimum cabinet depth of 21\" is required."
+      ]
+    },
+    {
+      "id": "3077",
+      "title": "Applicable on the following cabinets",
+      "astrixs": [
+        "* cabinets need to be 30\" high",
+        "** width of doors cannot be changed"
+      ],
+      "type": "table",
+      "table": {
+        "headers": [
+          { "title": "Cabinet style", "key": "title" },
+          { "title": "Doors", "key": "col2" },
+          { "title": "Cabinet width", "key": "col3" },
+          { "title": "Fixed door width", "key": "col4" },
+          { "title": "Ordercode", "key": "ordercode" }
+        ],
+        "rows": [
+          {
+            "title": "Base Door & Drawer Left Blind",
+            "col2": "1 hinged left",
+            "col3": "42\"",
+            "col4": "18\"",
+            "ordercode": "BLB4230"
+          },
+          {
+            "title": "Base Door & Drawer Left Blind",
+            "col2": "1 hinged left",
+            "col3": "45\"",
+            "col4": "21\"",
+            "ordercode": "BLB4530"
+          },
+          {
+            "title": "Base Door & Drawer Right Blind",
+            "col2": "1 hinged right",
+            "col3": "42\"",
+            "col4": "18\"",
+            "ordercode": "BRB4230"
+          },
+          {
+            "title": "Base Door & Drawer Right Blind",
+            "col2": "1 hinged right",
+            "col3": "45\"",
+            "col4": "21\"",
+            "ordercode": "BRB4530"
+          },
+
+          {
+            "title": "Base Full Door Left Blind",
+            "col2": "1 hinged left",
+            "col3": "42\"",
+            "col4": "18\"",
+            "ordercode": "BFDLB4230"
+          },
+          {
+            "title": "Base Full Door Left Blind",
+            "col2": "1 hinged left",
+            "col3": "45\"",
+            "col4": "21\"",
+            "ordercode": "BFDLB4530"
+          },
+          {
+            "title": "Base Full Door Right Blind",
+            "col2": "1 hinged right",
+            "col3": "42\"",
+            "col4": "18\"",
+            "ordercode": "BFDRB4230"
+          },
+          {
+            "title": "Base Full Door Right Blind",
+            "col2": "1 hinged right",
+            "col3": "45\"",
+            "col4": "21\"",
+            "ordercode": "BFDRB4530"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3078",
+      "title": "Baskets",
+      "type": "list",
+      "list": [
+        "Each front basket holds up to 14 kg (30 lb.) and each rear basket holds up to 18 kg (40 lb.).",
+        "Trays are height adjustable and made of chrome wire or a non-slip grey or maple arena surface with chrome railing.",
+        "4 trays included (front unit x 2 plus back unit x 2)."
+      ]
+    },
+    {
+      "id": "3079",
+      "title": "Applicable on",
+      "content": "All BB and BBFD units that are 41\" (minimum door width of 16 7/8\") and wider."
+    },
+    {
+      "id": "3080",
+      "title": "Baskets",
+      "type": "list",
+      "list": [
+        "Each front basket holds up to 10 kg (22 lb.) and each rear basket holds up to 8 kg (17 lb.).",
+        "Trays are height adjustable and made of a non-slip grey or maple arena surface with chrome railing.",
+        "4 trays included (front unit x 2 plus back unit x 2)."
+      ]
+    },
+    {
+      "id": "3081",
+      "title": "Applicable on",
+      "content": "All BBFD units that are 42\" (minimum door width of 17\") and wider."
+    },
+    {
+      "id": "3100",
+      "title": "Specifications",
+      "type": "list",
+      "list": [
+        "Tray Diameter 28\".",
+        "Finish: Chrome",
+        "Material: Metal",
+        "Trays included 2",
+        "Ordered as a pair of tray units",
+        "Melamine bottom with a wire rail.",
+        "Attaches to bottom shelf and middle shelf.",
+        "Available in all standard BC units."
+      ]
+    },
+    {
+      "id": "3101",
+      "title": "Specifications",
+      "type": "list",
+      "list": [
+        "Tray Diameter 28\".",
+        "Finish: Natural maple veneer",
+        "Material: Plywood",
+        "Load Rating: 64 lb",
+        "Trays included 2",
+        "Ordered as a pair of tray units",
+        "Wood bottom with a wood rail.",
+        "Attaches to bottom shelf and middle shelf.",
+        "Available in all standard BC units."
+      ]
+    },
+    {
+      "id": "3102",
+      "title": "Specifications",
+      "type": "list",
+      "list": [
+        "Tray Diameter 28\".",
+        "Rim Type: Laminated Hardwood",
+        "Finish: Natural maple veneer",
+        "Material: Plywood",
+        "Load Rating: 75 lb",
+        "Number of trays 2",
+        "Available in all standard BC units."
+      ]
+    },
+    {
+      "id": "3103",
+      "title": "Maximum panel sizes",
+      "content": "Maximum panel size is based on the exterior material and door style."
+    },
+    {
+      "id": "3104",
+      "title": "Specify",
+      "type": "list",
+      "list": [
+        "Depth: ",
+        "Width: 2\" to 6\"",
+        "Height: ",
+        "Return: Maximum of 6\" - (optional)."
+      ]
+    }
+  ]
+}
