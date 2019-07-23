@@ -308,6 +308,16 @@
       "id": "53",
       "title": "In order for flush look of panels with door-face. ",
       "content": "The slight variation in door thickness needs to be accounted for (13/16\", 3/4\", 7/8\" to name a few), the panel width will need to be adjusted for this variation when panels are entered in webquoin"
+    },
+    {
+      "id": "54",
+      "title": "Material and finish, ",
+      "content": "the material or finish can not be changed for these drawers and will not match exterior or interior material."
+    },
+    {
+      "id": "55",
+      "title": "Drawer modifications, ",
+      "content": "to modify the dimension of a drawer use the Custom Charges for custom dimensions."
     }
   ]
 }

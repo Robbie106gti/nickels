@@ -159,31 +159,26 @@
       "id": "0",
       "title": "Recycle bins",
       "subTitle": "pull out drawers - Wood Frame",
-      "description": "Covered slides helps avoid the accumulation of dust and ensures a longer life. Metal cover is a clean and trendy look that blends with your kitchen interior. Designed for door mounting.",
+      "description": "These Baltic Birch Dovetail drawers finished in clear lacquer, allow for a great flexibility in cabinet and drawers widths over their metal counter parts. The drawers in general can be increased in width by upto 2\" without the need of spacers or other complications.",
       "specifications": [
         {
           "id": "0",
           "title": "Specifications",
           "items": [
             {
-              "id": "0",
-              "title": "",
-              "content": "Over extension slides provide complete access to bins."
-            },
-            {
               "id": "1",
               "title": "",
-              "content": "Manufactured from steel metal parts with silver grey finish."
+              "content": "Manufactured from Baltic Birch Dovetail drawers."
             },
             {
               "id": "2",
               "title": "",
-              "content": "Tested with 100,000 opening and closing cycles."
+              "content": "The birch is finished in clear lacquer."
             },
             {
               "id": "3",
               "title": "",
-              "content": "Weight capacity of 50 kg."
+              "content": "Weight capacity of the slides is 60 kg."
             },
             {
               "id": "4",
@@ -193,12 +188,7 @@
             {
               "id": "5",
               "title": "",
-              "content": "Lid prevents odors from escaping and provides additional space for recycling papers such as newspapers."
-            },
-            {
-              "id": "6",
-              "title": "",
-              "content": "Easily 3-way front adjustment (cam adjustment screw)."
+              "content": "8.5 L bins come with Lid prevents odors from escaping and provides additional space for recycling papers such as newspapers."
             }
           ]
         },
@@ -209,17 +199,12 @@
             {
               "id": "0",
               "title": "",
-              "content": "Door Drawer combination is not recommended. Bins might not be able to come out due to Countertop Overhang or Handle/Knob on Drawer Front, etc... "
+              "content": "Door Drawer combination is possible."
             },
             {
-              "id": "1",
+              "id": "0",
               "title": "",
-              "content": "For Door Drawer look use CC-GAP. Add a Roll-out in place of the Drawer"
-            },
-            {
-              "id": "2",
-              "title": "",
-              "content": "A backer panel is used for attaching hardware to Door. The backer panel will be the same material as the interior material selected; for example, if White Melamine is chosen for the interior of the cabinets the back panel is White Melamine."
+              "content": "With a Door & Drawer setup a extra set shelf will be applied."
             }
           ]
         }
@@ -227,58 +212,65 @@
       "imageCards": [
         {
           "id": "0",
-          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FRGB-NEW%2F1561143630766_RGB12.jpg?alt=media&token=5f25c2d6-14ad-4791-98c7-28f64c47045c",
+          "image": "/catalog/build/assets/rgb/RGB12.jpg",
           "tags": ["2 bin", "26L", "8.5L"],
           "links": [
             {
               "id": "0",
               "cat": "0",
-              "link": "RGB-12",
+              "link": "RGB12",
               "title": "12\" cabinet"
             }
           ]
         },
         {
           "id": "1",
-          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FRGB-NEW%2F1561143668167_RGB18.jpg?alt=media&token=10ca7ea0-e82b-4939-b782-b640e49acb4b",
-          "tags": ["2 bins", "26L x 2", "or 38 L x 2"],
+          "image": "/catalog/build/assets/rgb/RGB15.jpg",
+          "tags": ["2 bins", "26L x 2"],
           "links": [
             {
               "id": "0",
               "cat": "0",
-              "link": "RGB-15",
+              "link": "RGB15",
               "title": "15\" cabinet"
-            },
-            {
-              "id": "1",
-              "cat": "0",
-              "link": "RGB-18",
-              "title": "18\" cabinet"
             }
           ]
         },
         {
           "id": "2",
-          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FRGB-NEW%2F1561143687439_RGB21.jpg?alt=media&token=454f87a3-8905-467e-9086-429e49726550",
-          "tags": ["4 bin", "26L x 2", "8.5L x 2"],
+          "image": "/catalog/build/assets/rgb/RGB18.jpg",
+          "tags": ["2 bins", "38 L x 2"],
           "links": [
             {
-              "id": "0",
+              "id": "1",
               "cat": "0",
-              "link": "RGB-21",
-              "title": "21\" cabinet"
+              "link": "RGB18",
+              "title": "18\" cabinet"
             }
           ]
         },
         {
           "id": "3",
-          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FRGB-NEW%2F1561143703744_RGB24.jpg?alt=media&token=e24a0560-f217-4b3c-a5c7-91041ee0d747",
+          "image": "/catalog/build/assets/rgb/RGB21.jpg",
+          "tags": ["4 bin", "26L x 2", "8.5L x 2"],
+          "links": [
+            {
+              "id": "0",
+              "cat": "0",
+              "link": "RGB21",
+              "title": "21\" cabinet"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "image": "/catalog/build/assets/rgb/RGB24.jpg",
           "tags": ["4 bins", "38L x 2", "8.5L x 2"],
           "links": [
             {
               "id": "0",
               "cat": "0",
-              "link": "RGB-24",
+              "link": "RGB24",
               "title": "24\" cabinet"
             }
           ]
@@ -292,10 +284,10 @@
       ],
       "image": "",
       "tags": ["5/8\"", "3/4\"", "RGB", "POD", "garbage", "recycling"],
-      "notes": [],
+      "notes": ["54"],
       "ordering": "Attach the accessory to the cabinet, use the code of choicen version.",
       "array": "rgb",
-      "codes": ["RGB-12", "RGB-15", "RGB-18", "RGB-21", "RGB-24"]
+      "codes": ["RGB12", "RGB-15", "RGB-18", "RGB-21", "RGB-24"]
     }
   },
   "rgb": {
@@ -490,8 +482,8 @@
     "wood": [
       {
         "id": "10",
-        "title": "RGB-12",
-        "code": "RGB-12",
+        "title": "RGB12",
+        "code": "RGB12",
         "active": "true",
         "image": "/catalog/build/assets/rgb/RGB-12-front.png",
         "image2": "/catalog/build/assets/rgb/RGB-12-side.png",
@@ -521,8 +513,8 @@
       },
       {
         "id": "11",
-        "title": "RGB-15",
-        "code": "RGB-15",
+        "title": "RGB15",
+        "code": "RGB15",
         "active": "true",
         "image": "/catalog/build/assets/rgb/RGB-15-front.png",
         "image2": "/catalog/build/assets/rgb/RGB-15-side.png",
@@ -552,8 +544,8 @@
       },
       {
         "id": "12",
-        "title": "RGB-18",
-        "code": "RGB-18",
+        "title": "RGB18",
+        "code": "RGB18",
         "active": "true",
         "image": "/catalog/build/assets/rgb/RGB-18-front.png",
         "image2": "/catalog/build/assets/rgb/RGB-18-side.png",
@@ -583,8 +575,8 @@
       },
       {
         "id": "13",
-        "title": "RGB-21",
-        "code": "RGB-21",
+        "title": "RGB21",
+        "code": "RGB21",
         "active": "true",
         "image": "/catalog/build/assets/rgb/RGB-21-front.png",
         "image2": "/catalog/build/assets/rgb/RGB-21-side.png",
@@ -614,8 +606,8 @@
       },
       {
         "id": "14",
-        "title": "RGB-24",
-        "code": "RGB-24",
+        "title": "RGB24",
+        "code": "RGB24",
         "active": "true",
         "image": "/catalog/build/assets/rgb/RGB-24-front.png",
         "image2": "/catalog/build/assets/rgb/RGB-24-side.png",

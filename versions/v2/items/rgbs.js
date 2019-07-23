@@ -29,6 +29,7 @@ function getPage() {
       setSpecs(information);
       setImages(information);
       setCode(items);
+      setNotes('../../../../', information.notes);
     }).then(function () {
       lastCallCodes();
       $('.materialboxed').materialbox();
@@ -38,26 +39,30 @@ function getPage() {
     });
 }
 
-function setImages(info) {
-  let style = '';
-  if ($.urlParam('code')) {
-    style = 'inactive';
-  }
-  const images = info.imageCards
-    .map(function (image) {
-      return '<div class="col s6 m3 l3"><div id="imageCard'.concat(
-        image.id,
-        '" class="card hoverable medium',
-        style,
-        '"><div class="card-image waves-effect waves-block waves-light"><img class="responsive-img activator" src="',
-        imageSRC(image.image),
-        '"></div><div class="card-content activator open"><span><i class="material-icons activator">details</i></span>',
-        getTags(image.tags),
-        '</div><div class="card-reveal"><span class="card-title blue-grey-text text-darken-3">Codes: <i class="material-icons right">close</i></span>',
-        getCollections(info, image.links),
-        '</div></div></div>'
-      );
-    })
+function setImages(information) {
+  const images = information.imageCards.map(function (image) {
+    let style = info.code ? ' inactive' : '';
+    if (info.code !== null) {
+      image.links.map(function (li) {
+        if (li.link === info.code) {
+          return style = '';
+        }
+      });
+    }
+    const div = '<div class="col s6 m3 l3"><div id="imageCard'.concat(
+      image.id,
+      '" class="card hoverable medium',
+      style,
+      '"><div class="card-image waves-effect waves-block waves-light"><img class="responsive-img activator" src="',
+      imageSRC(image.image),
+      '" /></div><div class="card-content activator open"><span><i class="material-icons activator">details</i></span>',
+      getTags(image.tags),
+      '</div><div class="card-reveal"><span class="card-title blue-grey-text text-darken-3">Codes: <i class="material-icons right">close</i></span>',
+      getCollections(information, image.links),
+      '</div></div></div>'
+    );
+    return div;
+  })
     .join('');
   $('#images').html(images);
 }
@@ -86,14 +91,11 @@ function li(list) {
 }
 
 function setCode(data) {
-  if ($.urlParam('code') && data) {
-    let id = $.urlParam('code');
+  if (info.code && data) {
+    const type = '?type=' + $.urlParam('type');
     let card = data.filter(function (el) {
-      return el.title == id;
+      return el.title == info.code;
     });
-    let cardId = 'imageCard' + card[0].cardId;
-    document.getElementById(cardId).classList.remove('inactive');
-    document.getElementById(card[0].title).className += ' active';
     const code = card
       .map(function (spec) {
         return '<div class="card horizontal blue-grey lighten-5"><div class="detail-card"><span><img class="detail-image materialboxed" src="'.concat(
@@ -106,7 +108,7 @@ function setCode(data) {
           makeSpec(spec.specifications),
           '<div class="collection-item blue-grey-text text-darken-4"><b><ul><li>Code</b>: ',
           ordercodes(spec.title),
-          '</span></li></ul></div></div></div><a href="index.html"><i id="close" class="close material-icons">close</i></a></div>'
+          '</span></li></ul></div></div></div><a href="index.html', type, '"><i id="close" class="close material-icons">close</i></a></div>'
         );
       })
       .join('');
@@ -126,9 +128,9 @@ function getLinks(tags) {
   return keys;
 }
 
-function getCollections(info, links) {
+function getCollections(information, links) {
   if (!links) return;
-  const col = info.catagories
+  const col = information.catagories
     .map(function (cat) {
       return (
         '<div class="collection"><h5 class="collection-item blue-grey-text text-darken-1">' +
@@ -149,6 +151,7 @@ function makeLink(catagory, links) {
   });
   const linkArray = filteredLinks
     .map(function (link) {
+      const act = link.link === info.code ? ' active' : '';
       return (
         '<a id="' +
         link.link +
@@ -156,7 +159,7 @@ function makeLink(catagory, links) {
         link.link +
         '&type=' +
         info.type +
-        '" class="collection-item deep-orange-text text-darken-4">' +
+        '" class="collection-item deep-orange-text text-darken-4' + act + '">' +
         link.title +
         ' - ' +
         link.link +

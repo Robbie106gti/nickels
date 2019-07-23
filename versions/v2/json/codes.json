@@ -4696,7 +4696,7 @@
       "height": "30",
       "title": "Base Sink 2 Drawer",
       "description": "double drawer, the top drawer box is 6 1/8\" hight for clearing the sink.",
-      "specifications": ["1401"],
+      "specifications": ["1401", "2000"],
       "iwhd": ["i18", "w2142", "h30", "d24"],
       "images": [
         {
@@ -4708,7 +4708,7 @@
           "image": "/catalog/build/assets/cabinets/BS2D.png"
         }
       ],
-      "notes": [],
+      "notes": ["55"],
       "widths": ["21", "24", "27", "30", "33", "36", "39", "42"],
       "options": [],
       "lines": {
@@ -4739,7 +4739,7 @@
       "height": "30",
       "title": "Base Sink 3 Drawer",
       "description": "one false drawer and a double drawer.",
-      "specifications": ["1401"],
+      "specifications": ["1401", "2000"],
       "iwhd": ["i18", "w2142", "h30", "d24"],
       "images": [
         {
@@ -4751,7 +4751,7 @@
           "image": "/catalog/build/assets/cabinets/BS3D.png"
         }
       ],
-      "notes": [],
+      "notes": ["55"],
       "widths": ["21", "24", "27", "30", "33", "36", "39", "42"],
       "options": [],
       "lines": {
@@ -16513,7 +16513,7 @@
       "height": "30",
       "title": "Base Sink 2 Drawer - Channel",
       "description": "double drawer and 2 channels, top drawer box is 4 3/16\" to clear the sink.",
-      "specifications": ["1401"],
+      "specifications": ["1401", "2000"],
       "iwhd": ["i18", "w2142", "h30", "d24"],
       "images": [
         {
@@ -16525,7 +16525,7 @@
           "image": "/catalog/build/assets/cabinets/BS2DC.png"
         }
       ],
-      "notes": [],
+      "notes": ["55"],
       "widths": ["21", "24", "27", "30", "33", "36", "39", "42"],
       "options": [],
       "lines": {
@@ -16555,8 +16555,8 @@
       "root": "BS3DC",
       "height": "30",
       "title": "Base Sink 3 Drawer - Channel",
-      "description": "3",
-      "specifications": ["1401"],
+      "description": "double drawer, and one false with 2 channels, top drawer box is 4 3/16\" to clear the sink.",
+      "specifications": ["1401", "2000"],
       "iwhd": ["i18", "w2142", "h30", "d24"],
       "images": [
         {
@@ -16568,7 +16568,7 @@
           "image": "/catalog/build/assets/cabinets/BS3DC.png"
         }
       ],
-      "notes": [],
+      "notes": ["55"],
       "widths": ["21", "24", "27", "30", "33", "36", "39", "42"],
       "options": [],
       "lines": {
@@ -18945,7 +18945,7 @@
       "height": "26",
       "title": "Vanity Sink 2 Drawer",
       "description": "2 drawers.",
-      "specifications": [],
+      "specifications": ["1401","2000"],
       "iwhd": ["i18", "w2142", "h26", "d21"],
       "images": [
         {
@@ -18957,7 +18957,7 @@
           "image": "/catalog/build/assets/cabinets/VS2D.png"
         }
       ],
-      "notes": ["1"],
+      "notes": ["55"],
       "widths": [
         "21",
         "24",
@@ -19191,7 +19191,7 @@
       "height": "26",
       "title": "Vanity Sink 3 Drawer",
       "description": "3 drawers.",
-      "specifications": [],
+      "specifications": ["1401", "2000"],
       "iwhd": ["i18", "w2142", "h26", "d21"],
       "images": [
         {
@@ -19203,7 +19203,7 @@
           "image": "/catalog/build/assets/cabinets/VS3D.png"
         }
       ],
-      "notes": ["1"],
+      "notes": ["55"],
       "widths": [
         "09",
         "12",
@@ -22057,7 +22057,7 @@
       "height": "26",
       "title": "Vanity Sink 2 Drawer - Channel",
       "description": "2 channels and 2 drawers.",
-      "specifications": [],
+      "specifications": ["1401", "2000"],
       "iwhd": ["i18", "w2142", "h26", "d21"],
       "images": [
         {
@@ -22069,7 +22069,7 @@
           "image": "/catalog/build/assets/cabinets/VS2DC.png"
         }
       ],
-      "notes": ["1"],
+      "notes": ["55"],
       "widths": [
         "21",
         "24",
@@ -22345,7 +22345,7 @@
       "height": "26",
       "title": "Vanity Sink 3 Drawer - Channel",
       "description": "2 channels and 3 drawers.",
-      "specifications": [],
+      "specifications": ["1401", "2000"],
       "iwhd": ["i18", "w2142", "h26", "d21"],
       "images": [
         {
@@ -22357,7 +22357,7 @@
           "image": "/catalog/build/assets/cabinets/VS3DC.png"
         }
       ],
-      "notes": ["1"],
+      "notes": ["55"],
       "widths": [
         "21",
         "24",
@@ -23285,7 +23285,7 @@
       "height": "24",
       "title": "Floating Vanity Sink 2 Drawer - Channel",
       "description": "2 channels and 2 drawers, floating vanity drawer cabinet 24\" high.",
-      "specifications": [],
+      "specifications": ["1401", "2000"],
       "iwhd": ["i18", "w2142", "h24", "d21"],
       "images": [
         {
@@ -23297,7 +23297,7 @@
           "image": "/catalog/build/assets/cabinets/FVS2DC.png"
         }
       ],
-      "notes": ["8", "17", "18"],
+      "notes": ["8", "17", "18","55"],
       "widths": ["21", "24", "27", "30", "33", "36", "39", "42"],
       "options": [],
       "lines": {
@@ -23497,7 +23497,7 @@
       "height": "24",
       "title": "Floating Vanity Sink 3 Drawer - Channel",
       "description": "2 channels and 3 drawers, floating vanity drawer cabinet 24\" high.",
-      "specifications": [],
+      "specifications": ["1401", "2000"],
       "iwhd": ["i18", "w2142", "h24", "d21"],
       "images": [
         {
@@ -23509,7 +23509,7 @@
           "image": "/catalog/build/assets/cabinets/fvs3dc.png"
         }
       ],
-      "notes": ["8", "17", "18"],
+      "notes": ["8", "17", "18", "55"],
       "widths": ["21", "24", "27", "30", "33", "36", "39", "42"],
       "options": [],
       "lines": {
@@ -25590,7 +25590,7 @@
       "height": "24",
       "title": "Floating Vanity Sink 2 Drawer",
       "description": "2 drawers.",
-      "specifications": [ "2013"],
+      "specifications": ["1401", "2000", "2013"],
       "iwhd": ["i18", "w2142", "h24", "d21"],
       "images": [
         {
@@ -25602,7 +25602,7 @@
           "image": "/catalog/build/assets/cabinets/fvs2d.png"
         }
       ],
-      "notes": ["8"],
+      "notes": ["8", "55"],
       "widths": [
         "21",
         "24",
@@ -26030,7 +26030,7 @@
       "height": "24",
       "title": "Floating Vanity Sink 3 Drawer",
       "description": "3 drawers.",
-      "specifications": ["2013"],
+      "specifications": ["1401", "2000","2013"],
       "iwhd": ["i18", "w2142", "h26", "d21"],
       "images": [
         {
@@ -26042,7 +26042,7 @@
           "image": "/catalog/build/assets/cabinets/fvs3d.png"
         }
       ],
-      "notes": ["8"],
+      "notes": ["8", "55"],
       "widths": [
         "21",
         "24",
