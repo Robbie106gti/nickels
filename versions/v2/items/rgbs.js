@@ -4,7 +4,7 @@ headerFooter('../../../../');
 window.onload = getPage();
 
 function getPage() {
-  fetch('../../../../versions/v2/items/rgbs.json')
+  fetch('../../../../versions/v2/items/rgbs.json', { cache: "reload" })
     .then(function (response) {
       return response.json();
     })
