@@ -1,6 +1,6 @@
 function addons(page) {
   try {
-    fetch(`../../versions/v1/json/addons.json`)
+    fetch(`../../versions/v1/json/addons.json`, { cache: "reload" })
       .then(function (response) {
         return response.json();
       })

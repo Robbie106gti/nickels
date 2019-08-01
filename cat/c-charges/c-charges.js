@@ -43,7 +43,7 @@ function getSubs() {
 function fetchCabinets(cat) {
   let catagory = cat.toLowerCase();
   // console.log(catagory);
-  fetch(`../json/${catagory}.json`)
+  fetch(`../json/${catagory}.json`, { cache: "reload" })
     .then(response => response.json())
     .then(data => {
       console.log(data[cat]);
@@ -79,7 +79,7 @@ function fetchCabinets(cat) {
 function fetchGI(cat) {
   let catagory = cat.toLowerCase();
   // console.log(catagory);
-  fetch(`../json/${catagory}.json`)
+  fetch(`../json/${catagory}.json`, { cache: "reload" })
     .then(response => response.json())
     .then(data => {
       // console.log(data['catalog']);

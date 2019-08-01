@@ -10,7 +10,7 @@ if ((pline = undefined)) {
 
 function getPage() {
   makeStructure();
-  fetch('../versions/v1/json/codes.json')
+  fetch('../versions/v1/json/codes.json', { cache: "reload" })
     .then(function(response) {
       return response.json();
     })
@@ -62,7 +62,7 @@ function setCode(page) {
 
 function setActions(page) {
   var cat = page.cat.toLowerCase();
-  fetch('../versions/v1/json/'.concat(cat, '.json'))
+  fetch('../versions/v1/json/'.concat(cat, '.json'), { cache: "reload" })
     .then(function(response) {
       return response.json();
     })

@@ -4,20 +4,21 @@ headerFooter('../../../../');
 window.onload = getPage();
 
 function getPage() {
-  fetch('./pod.json')
-    .then(function (response) {
+  fetch('./pod.json', { cache: 'reload' })
+    .then(function(response) {
       return response.json();
     })
-    .then(function (data) {
+    .then(function(data) {
       setGIA2(data.information);
       setSpecs(data.information);
       setImages(data.information);
       setCode(data.rgb);
-    }).then(function () {
+    })
+    .then(function() {
       lastCallCodes();
       $('.materialboxed').materialbox();
     })
-    .catch(function (err) {
+    .catch(function(err) {
       console.log(err);
     });
 }
@@ -28,7 +29,7 @@ function setImages(info) {
     style = 'inactive';
   }
   const images = info.imageCards
-    .map(function (image) {
+    .map(function(image) {
       return '<div class="col s6 m3 l3"><div id="imageCard'.concat(
         image.id,
         '" class="card hoverable medium',
@@ -48,7 +49,7 @@ function setImages(info) {
 
 function setSpecs(info) {
   const spec = info.specifications
-    .map(function (spec) {
+    .map(function(spec) {
       return '<div class="card-panel grey lighten-3 bullet"><span class="card-title"><h4>'.concat(
         spec.title,
         '</h4>            </span><div class="divider"></div><ul class="flow-text">',
@@ -62,7 +63,7 @@ function setSpecs(info) {
 
 function li(list) {
   const lis = list
-    .map(function (li) {
+    .map(function(li) {
       return '<li>' + li.content + '</li>';
     })
     .join('');
@@ -72,14 +73,14 @@ function li(list) {
 function setCode(data) {
   if ($.urlParam('code') && data) {
     let id = $.urlParam('code');
-    let card = data.filter(function (el) {
+    let card = data.filter(function(el) {
       return el.title == id;
     });
     let cardId = 'imageCard' + card[0].cardId;
     document.getElementById(cardId).classList.remove('inactive');
     document.getElementById(card[0].title).className += ' active';
     const code = card
-      .map(function (spec) {
+      .map(function(spec) {
         return '<div class="card horizontal blue-grey lighten-5"><div class="detail-card"><span><img class="detail-image materialboxed" src="'.concat(
           imageSRC(spec.image),
           '"></span><span><img class="detail-image materialboxed" src="',
@@ -101,7 +102,7 @@ function setCode(data) {
 function getLinks(tags) {
   if (!tags) return;
   const keys = tags
-    .map(function (a) {
+    .map(function(a) {
       return (
         '<a id="' + a.title + '" href="' + a.link + '">' + a.title + '</a><br>'
       );
@@ -113,7 +114,7 @@ function getLinks(tags) {
 function getCollections(info, links) {
   if (!links) return;
   const col = info.catagories
-    .map(function (cat) {
+    .map(function(cat) {
       return (
         '<div class="collection"><h5 class="collection-item blue-grey-text text-darken-1">' +
         cat.title +
@@ -128,11 +129,11 @@ function getCollections(info, links) {
 
 function makeLink(catagory, links) {
   if (!links) return;
-  let filteredLinks = links.filter(function (el) {
+  let filteredLinks = links.filter(function(el) {
     return el.cat == catagory.id;
   });
   const linkArray = filteredLinks
-    .map(function (link) {
+    .map(function(link) {
       return (
         '<a id="' +
         link.link +
@@ -151,7 +152,7 @@ function makeLink(catagory, links) {
 
 function makeSpec(items) {
   const item = items
-    .map(function (i) {
+    .map(function(i) {
       return (
         '<div class="collection-item blue-grey-text text-darken-4"><b>' +
         i.title +

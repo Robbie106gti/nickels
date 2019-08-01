@@ -2,7 +2,7 @@ headerFooter('../../../../');
 window.onload = getPage();
 info.cat = 'Slide-Out Storage Racks';
 function getPage() {
-  fetch('../../../../versions/v2/items/sor.json')
+  fetch('../../../../versions/v2/items/sor.json', { cache: "reload" })
     .then(function (response) {
       return response.json();
     })

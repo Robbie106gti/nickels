@@ -4,7 +4,7 @@ window.onload = getPage();
 info.cat = 'Panels';
 var catalog = document.getElementById('catalog');
 function getPage() {
-  fetch('../../../versions/v2/items/panels.json')
+  fetch('../../../versions/v2/items/panels.json', { cache: "reload" })
     .then(function (response) {
       return response.json();
     })

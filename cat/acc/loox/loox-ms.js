@@ -35,7 +35,7 @@ function getPage() {
   };
   var code = $.urlParam('code');
   var page = $.urlParam('page');
-  fetch('./loox.json')
+  fetch('./loox.json', { cache: "reload" })
     .then(function(response) {
       return response.json();
     })
@@ -426,7 +426,7 @@ function setSlides(image) {
 }
 
 function setNotes(item) {
-  fetch('./loox.json')
+  fetch('./loox.json', { cache: "reload" })
     .then(function(response) {
       return response.json();
     })
@@ -471,7 +471,7 @@ function setSpecs(item) {
   if (!item.specifications) {
     return '';
   }
-  fetch('./loox.json')
+  fetch('./loox.json', { cache: "reload" })
     .then(function(response) {
       return response.json();
     })
@@ -502,7 +502,7 @@ function setSpecs(item) {
 }
 
 function setSpecs2(item) {
-  fetch('./loox.json')
+  fetch('./loox.json', { cache: "reload" })
     .then(function(response) {
       return response.json();
     })
@@ -538,7 +538,7 @@ function setSpecs2(item) {
 
 function setSpecNversions(item) {
   console.log(item);
-  fetch('./loox.json')
+  fetch('./loox.json', { cache: "reload" })
     .then(function(response) {
       return response.json();
     })

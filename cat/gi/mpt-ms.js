@@ -30,7 +30,7 @@ function getPage() {
     }
   };
   var code = $.urlParam('code');
-  fetch('../../json/general information.json')
+  fetch('../../json/general information.json', { cache: "reload" })
     .then(function(response) {
       return response.json();
     })

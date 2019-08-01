@@ -39,7 +39,7 @@ function getPage() {
     }
   };
   const code = $.urlParam('code');
-  fetch(`../../json/general information.json`)
+  fetch(`../../json/general information.json`, { cache: "reload" })
     .then(response => response.json())
     .then(data => {
       let codes = data[`items`];

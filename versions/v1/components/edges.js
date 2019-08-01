@@ -3,7 +3,7 @@ function getEdges(loc, edges) {
     console.log(edges + 'Maybe edges.js is not needed')
   }
   try {
-    fetch(loc + '/versions/v1/json/edges.json')
+    fetch(loc + '/versions/v1/json/edges.json', { cache: "reload" })
       .then(function (response) {
         return response.json();
       })

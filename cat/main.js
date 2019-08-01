@@ -21,7 +21,7 @@ function getSubs() {
 
 function fetchCabinets(cat) {
   var catagory = cat.toLowerCase();
-  fetch('../versions/v1/json/'.concat(catagory, '.json'))
+  fetch('../versions/v1/json/'.concat(catagory, '.json'), { cache: "reload" })
     .then(function(response) {
       return response.json();
     })
@@ -52,7 +52,7 @@ function fetchCabinets(cat) {
 
 function fetchGI(cat) {
   var catagory = cat.toLowerCase();
-  fetch('../versions/v1/json/'.concat(catagory, '.json'))
+  fetch('../versions/v1/json/'.concat(catagory, '.json'), { cache: "reload" })
     .then(function(response) {
       return response.json();
     })

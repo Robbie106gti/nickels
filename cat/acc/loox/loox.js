@@ -43,7 +43,7 @@ function getPage() {
   const page = $.urlParam('page');
   const id = $.urlParam('id');
   const tab = $.urlParam('tab');
-  fetch(`./loox.json`)
+  fetch(`./loox.json`, { cache: "reload" })
     .then(response => response.json())
     .then(data => {
       // console.log(data);
@@ -636,7 +636,7 @@ function setSlides(image) {
 }
 
 function setNotes(item) {
-  fetch(`./loox.json`)
+  fetch(`./loox.json`, { cache: "reload" })
     .then(response => response.json())
     .then(data => {
       let cards = data['notes'].filter(function(el, i) {
@@ -671,7 +671,7 @@ function setSpecs(item) {
   if (!item.specifications) {
     return ``;
   }
-  fetch(`./loox.json`)
+  fetch(`./loox.json`, { cache: "reload" })
     .then(response => response.json())
     .then(data => {
       let spec = data['specifications'].sort((a, b) => {
@@ -698,7 +698,7 @@ function setSpecs(item) {
 }
 
 function setSpecs2(item) {
-  fetch(`./loox.json`)
+  fetch(`./loox.json`, { cache: "reload" })
     .then(response => response.json())
     .then(data => {
       let spec = data['specifications'].sort((a, b) => {
@@ -734,7 +734,7 @@ function setSpecs2(item) {
 }
 
 function setPrepare(preps) {
-  fetch(`./loox.json`)
+  fetch(`./loox.json`, { cache: "reload" })
     .then(response => response.json())
     .then(data => {
       let prepare = data['prepare'];
@@ -795,7 +795,7 @@ function prepareCodes(pre) {
 
 function setSpecNversions(item) {
   console.log(item);
-  fetch(`./loox.json`)
+  fetch(`./loox.json`, { cache: "reload" })
     .then(response => response.json())
     .then(data => {
       let spec = data['specifications'];

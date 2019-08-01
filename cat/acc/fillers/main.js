@@ -4,15 +4,15 @@ window.onload = getPage();
 info.cat = 'Fillers';
 var catalog = document.getElementById('catalog');
 function getPage() {
-  fetch('./items.json')
-    .then(function (response) {
+  fetch('./items.json', { cache: 'reload' })
+    .then(function(response) {
       return response.json();
     })
-    .then(function (data) {
+    .then(function(data) {
       if (!info.code) {
         var tabs = data['sub-cats'];
         var html = tabs
-          .map(function (t) {
+          .map(function(t) {
             return cardWith(t);
           })
           .join('');
@@ -23,16 +23,17 @@ function getPage() {
         setGIA(info);
         return;
       } else {
-        info.item = data.items.filter(function (item) {
+        info.item = data.items.filter(function(item) {
           return item.code.toLowerCase() === code;
         })[0];
       }
       makeStructure(info);
-    }).then(function () {
+    })
+    .then(function() {
       lastCallCodes();
       $('.materialboxed').materialbox();
     })
-    .catch(function (err) {
+    .catch(function(err) {
       return console.log(err);
     });
 }
@@ -52,7 +53,8 @@ function makeStructure(info) {
     '</div>',
     '<div id="images" class="col s12 m4">',
     setMainImage(info.item),
-    '</div><div id="table" class="col s4"></div>');
+    '</div><div id="table" class="col s4"></div>'
+  );
 
   $('#catalog').html(structure);
   setSpecsND('../../..', info.item.specifications);

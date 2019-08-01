@@ -36,7 +36,7 @@ function getPage() {
   };
 
   var code = $.urlParam('code');
-  fetch('./legs.json')
+  fetch('./legs.json', { cache: "reload" })
     .then(function(response) {
       return response.json();
     })
@@ -215,7 +215,7 @@ function setCodes(item) {
 }
 
 function setNotes(item) {
-  fetch('./loox.json')
+  fetch('./loox.json', { cache: "reload" })
     .then(function(response) {
       return response.json();
     })

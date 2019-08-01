@@ -4,7 +4,7 @@ window.onload = getPage();
 info.cat = 'Fillers';
 var catalog = document.getElementById('catalog');
 function getPage() {
-  fetch('../../../versions/v2/items/fillers.json')
+  fetch('../../../versions/v2/items/fillers.json', { cache: "reload" })
     .then(function (response) {
       return response.json();
     })

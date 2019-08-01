@@ -13,7 +13,7 @@ function getSubs() {
   structure(params);
   setGI(cat);
   const catagory = cat.toLowerCase();
-  fetch('../../versions/v1/json/' + catagory + '.json')
+  fetch('../../versions/v1/json/' + catagory + '.json', { cache: "reload" })
     .then(function(response) {
       return response.json();
     })

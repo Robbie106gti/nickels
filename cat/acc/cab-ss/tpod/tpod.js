@@ -4,21 +4,22 @@ headerFooter('../../../../');
 window.onload = getPage();
 
 function getPage() {
-  fetch('./tpod.json')
-    .then(function (response) {
+  fetch('./tpod.json', { cache: 'reload' })
+    .then(function(response) {
       return response.json();
     })
-    .then(function (data) {
+    .then(function(data) {
       const item = data.information;
       setGIA2(item);
       setSpecs(item.specifications);
       setNotes('../../../../', item.notes);
       setImages(item);
-    }).then(function () {
+    })
+    .then(function() {
       lastCallCodes();
       $('.materialboxed').materialbox();
     })
-    .catch(function (err) {
+    .catch(function(err) {
       console.log(err);
     });
 }
@@ -36,7 +37,7 @@ function setMainImage(info) {
 function setImages(info) {
   const images = '<div class="col s6 m6 l5">'.concat(
     info.baskets
-      .map(function (basket) {
+      .map(function(basket) {
         return '<div class="col s12 m12 l6"><div id="imageCard'.concat(
           basket.code,
           '" class="card hoverable tooltipped" data-position="top" data-tooltip="Click to see width options and codes"><div  class="card-image waves-effect waves-block waves-light"> <img class="responsive-img activator" src="',
@@ -54,10 +55,10 @@ function setImages(info) {
     '</div>'
   );
   $('#images').html(images);
-  $(document).ready(function () {
+  $(document).ready(function() {
     $('.materialboxed').materialbox();
   });
-  $(document).ready(function () {
+  $(document).ready(function() {
     $('.tooltipped').tooltip();
   });
 }
@@ -72,7 +73,7 @@ function setSpecs(specs) {
 
 function li(list) {
   const lis = list
-    .map(function (li) {
+    .map(function(li) {
       return '<li><b>' + li.title + ': </b><br>' + li.content + '.</li>';
     })
     .join('');
@@ -85,7 +86,7 @@ function getCollections(info, basket) {
     basket.title,
     'basket width options</h5><ul>',
     info.widths
-      .map(function (width) {
+      .map(function(width) {
         const wcode = info.code + '-' + width + '-' + basket.code;
         const li =
           '<li class="collection-item">Code for ' +
@@ -103,7 +104,7 @@ function getCollections(info, basket) {
 
 function exampleImages(info) {
   let icons = info.images
-    .map(function (image) {
+    .map(function(image) {
       return (
         '<div class="box-image"><img src="' +
         imageSRC(image.image) +

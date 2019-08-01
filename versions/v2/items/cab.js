@@ -10,7 +10,7 @@ if ((pline = undefined)) {
 
 function getPage() {
   makeStructure();
-  fetch('../versions/v2/json/codes.json')
+  fetch('../versions/v2/json/codes.json', { cache: "reload" })
     .then(function (response) {
       return response.json();
     })

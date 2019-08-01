@@ -29,7 +29,7 @@ function getPage() {
     }
   };
   var code = $.urlParam('code');
-  fetch('../../json/general information.json')
+  fetch('../../json/general information.json', { cache: "reload" })
     .then(function(response) {
       return response.json();
     })
@@ -225,7 +225,7 @@ function imageTitle(image) {
 }
 
 function setNotes(notes) {
-  fetch('../../json/notes.json')
+  fetch('../../json/notes.json', { cache: "reload" })
     .then(function(response) {
       return response.json();
     })
@@ -269,7 +269,7 @@ function setNotes(notes) {
 
 function setOptions(page) {
   if (page.options.length === 0) return;
-  fetch('../../json/addons.json')
+  fetch('../../json/addons.json', { cache: "reload" })
     .then(function(response) {
       return response.json();
     })

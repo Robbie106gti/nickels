@@ -23,7 +23,7 @@ function setRestrictions(res) {
 function restrictionsSpecs(loc, items) {
   console.log(items, loc)
   try {
-    fetch(loc + '/versions/v1/json/restrictions.json')
+    fetch(loc + '/versions/v1/json/restrictions.json', { cache: "reload" })
       .then(function (response) {
         return response.json();
       })

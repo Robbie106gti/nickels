@@ -9,7 +9,7 @@ function setNotes(loc, notes) {
   }
   const el = document.getElementById('notes');
   try {
-    fetch(loc + '/versions/v1/json/notes.json')
+    fetch(loc + '/versions/v1/json/notes.json', { cache: "reload" })
       .then(function (response) {
         return response.json();
       })

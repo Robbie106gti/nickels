@@ -4,7 +4,7 @@ headerFooter('./');
 window.onload = getCatalog();
 
 function getCatalog() {
-  fetch('./versions/v1/json/catalog.json')
+  fetch('./versions/v1/json/catalog.json', { cache: 'reload' })
     .then(function(response) {
       return response.json();
     })

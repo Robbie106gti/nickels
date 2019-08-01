@@ -4,7 +4,7 @@ window.onload = getPage();
 info.cat = 'Shelves';
 var catalog = document.getElementById('catalog');
 function getPage() {
-  fetch('./items.json')
+  fetch('./items.json', { cache: "reload" })
     .then(function (response) {
       return response.json();
     })

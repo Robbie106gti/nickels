@@ -27,7 +27,7 @@ function optionSpecs(loc, items) {
     return ''
   }
   try {
-    fetch(loc + '/versions/v1/json/options.json')
+    fetch(loc + '/versions/v1/json/options.json', { cache: "reload" })
       .then(function (response) {
         return response.json();
       })

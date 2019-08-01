@@ -27,7 +27,7 @@ function getPage() {
     }
   };
   const code = $.urlParam('code');
-  fetch(`./legs.json`)
+  fetch(`./legs.json`, { cache: "reload" })
     .then(response => response.json())
     .then(data => {
       // console.log(data);
@@ -206,7 +206,7 @@ function setCodes(item) {
 }
 
 function setNotes(item) {
-  fetch(`./loox.json`)
+  fetch(`./loox.json`, { cache: "reload" })
     .then(response => response.json())
     .then(data => {
       let cards = data['notes'].filter(function (el, i) {

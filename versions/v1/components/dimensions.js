@@ -3,7 +3,7 @@ function setDim(page) {
     console.log('No dimensions, please remove this dimensions.js as an import', page)
   }
   try {
-    fetch('../versions/v1/json/iwhd.json')
+    fetch('../versions/v1/json/iwhd.json', { cache: "reload" })
       .then(function (response) {
         return response.json();
       })

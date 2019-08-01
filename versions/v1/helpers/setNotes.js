@@ -10,7 +10,7 @@ function setNotes(location, notes) {
     location: location,
     notes: notes
   });
-  fetch(location)
+  fetch(location, { cache: "reload" })
     .then(
       function(response) {
         _newArrowCheck(this, _this);

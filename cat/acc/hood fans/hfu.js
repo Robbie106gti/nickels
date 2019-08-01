@@ -7,7 +7,7 @@ function getPage() {
   const code = info.code;
   const page = info.page;
 
-  fetch('./hfu.json')
+  fetch('./hfu.json', { cache: "reload" })
     .then(function (response) {
       return response.json();
     })

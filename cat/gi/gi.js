@@ -28,7 +28,7 @@ function getPage() {
     }
   };
   const code = $.urlParam('code');
-  fetch(`../../json/general information.json`)
+  fetch(`../../json/general information.json`, { cache: "reload" })
     .then(response => response.json())
     .then(data => {
       let codes = data[`items`];
@@ -230,7 +230,7 @@ function imageTitle(image) {
 }
 
 function set(notes) {
-  fetch(`../../json/notes.json`)
+  fetch(`../../json/notes.json`, { cache: "reload" })
     .then(response => response.json())
     .then(data => {
       let cards = data['notes'].filter(function(el, i) {
@@ -265,7 +265,7 @@ function set(notes) {
 
 function setOptions(page) {
   if (page.options.length === 0) return;
-  fetch(`../../json/addons.json`)
+  fetch(`../../json/addons.json`, { cache: "reload" })
     .then(response => response.json())
     .then(data => {
       let addons = data['addons'].filter(function(el, i) {

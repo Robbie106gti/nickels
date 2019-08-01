@@ -5,7 +5,7 @@ window.onload = getPage();
 info.title = 'Columns';
 
 function getPage() {
-  fetch('./items.json')
+  fetch('./items.json', { cache: "reload" })
     .then(function(response) {
       return response.json();
     })

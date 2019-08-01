@@ -4,7 +4,7 @@ function setSpecs(specs, page) {
     return ''
   }
   try {
-    fetch('../versions/v1/json/specifications.json')
+    fetch('../versions/v1/json/specifications.json', { cache: "reload" })
       .then(function (response) {
         return response.json();
       })

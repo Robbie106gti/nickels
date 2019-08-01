@@ -4,7 +4,7 @@ window.onload = getPage();
 info.cat = 'Cabinet Storage Solutions';
 var catalog = document.getElementById('catalog');
 function getPage() {
-  fetch('../../../versions/v2/items/cab-ss.json')
+  fetch('../../../versions/v2/items/cab-ss.json', { cache: "reload" })
     .then(function (response) {
       return response.json();
     })
