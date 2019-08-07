@@ -11,21 +11,21 @@ if ((pline = undefined)) {
 function getPage() {
   makeStructure();
   fetch('../versions/v1/json/codes.json', { cache: "reload" })
-    .then(function(response) {
+    .then(function (response) {
       return response.json();
     })
-    .then(function(data) {
+    .then(function (data) {
       var codes = data['codes'];
-      var page = codes.filter(function(el) {
-        var res = code.search(el.root);
+      var page = codes.filter(function (el) {
+        var res = code.search(/el.root/i);
         var arr = new Array();
         arr.push(el.root + '__' + el.height);
         arr.push(el.code);
         if (res !== -1) {
           el.height
-            ? el.widths.map(function(h) {
-                return arr.push(el.root + h + el.height);
-              })
+            ? el.widths.map(function (h) {
+              return arr.push(el.root + h + el.height);
+            })
             : '';
         }
         return arr.includes(code);
@@ -35,11 +35,11 @@ function getPage() {
       setGI(page);
       setCode(page);
     })
-    .then(function() {
+    .then(function () {
       lastCallCodes();
       $('.materialboxed').materialbox();
     })
-    .catch(function(err) {
+    .catch(function (err) {
       return console.log(err);
     });
 }
@@ -63,11 +63,11 @@ function setCode(page) {
 function setActions(page) {
   var cat = page.cat.toLowerCase();
   fetch('../versions/v1/json/'.concat(cat, '.json'), { cache: "reload" })
-    .then(function(response) {
+    .then(function (response) {
       return response.json();
     })
-    .then(function(data) {
-      var card = data[page.cat].filter(function(el, i) {
+    .then(function (data) {
+      var card = data[page.cat].filter(function (el, i) {
         return el.code === page.root;
       });
       card = card[0];
@@ -88,14 +88,14 @@ function setActions(page) {
         stopPropagation: false // Stops event propagation
       });
     })
-    .catch(function(err) {
+    .catch(function (err) {
       return console.log(err);
     });
 }
 function makeActions(card) {
   // console.log(card);
   var action = card.attached
-    .map(function(a) {
+    .map(function (a) {
       // console.log(a);
       if (skipItem(a) === true) {
         return '<li class="waves-effect waves-light"><a class="white-text" href="./'
@@ -119,7 +119,7 @@ function additional(page) {
   var add = '<br><div class="divider"></div><br><table class="striped highlight centered"><thead><tr>'
     .concat(
       page.additional.header
-        .map(function(h) {
+        .map(function (h) {
           return '<th>'.concat(h, '</th>');
         })
         .join(''),
@@ -127,7 +127,7 @@ function additional(page) {
     )
     .concat(
       page.additional.rows
-        .map(function(r) {
+        .map(function (r) {
           return '<tr><td>'
             .concat(r.cw, '</td><td>')
             .concat(r.fw, '</td><td>')
