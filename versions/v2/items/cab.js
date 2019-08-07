@@ -21,7 +21,6 @@ function getPage() {
         var arr = new Array();
         arr.push(el.root + '__' + el.height);
         arr.push(el.code);
-        console.log({ res, info, height: el.height, widths: el.widths, code: el, arr })
         if (res !== -1) {
           el.height
             ? el.widths.map(function (h) {
@@ -29,10 +28,8 @@ function getPage() {
             })
             : '';
         }
-        console.log(arr)
         return arr.includes(code);
       });
-      console.log(page)
       page = page[0];
 
       setGI(page);
