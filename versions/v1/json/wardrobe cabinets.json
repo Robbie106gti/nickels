@@ -925,6 +925,106 @@
       ],
       "image": "https://webquoin.com/catalog/images/CBH__05.jpg",
       "tags": ["wardrobe", "cbh", "bridge", "high", "hanging", "5\"", "17\""]
+    },
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "code": "CS",
+      "title": "CS : Shelving Units",
+      "attached": [
+        {
+          "active": true,
+          "lines": {
+            "custom": true,
+            "lighthouse": false,
+            "cornerstone": false,
+            "modal": false,
+            "modcon": false
+          },
+          "itemcodes": [
+            "CS1265",
+            "CS1565",
+            "CS1865",
+            "CS2165",
+            "CS2465",
+            "CS2765",
+            "CS3065",
+            "CS3365",
+            "CS3665",
+            "CS__65",
+            "CS65"
+          ],
+          "height": "65",
+          "link": "cab"
+        },
+        {
+          "active": true,
+          "lines": {
+            "custom": true,
+            "lighthouse": false,
+            "cornerstone": false,
+            "modal": false,
+            "modcon": false
+          },
+          "itemcodes": [
+            "CS1277",
+            "CS1577",
+            "CS1877",
+            "CS2177",
+            "CS2477",
+            "CS2777",
+            "CS3077",
+            "CS3377",
+            "CS3677",
+            "CS__77",
+            "CS77"
+          ],
+          "height": "77",
+          "link": "cab"
+        },
+        {
+          "active": true,
+          "lines": {
+            "custom": true,
+            "lighthouse": false,
+            "cornerstone": false,
+            "modal": false,
+            "modcon": false
+          },
+          "itemcodes": [
+            "CS1289",
+            "CS1589",
+            "CS1889",
+            "CS2189",
+            "CS2489",
+            "CS2897",
+            "CS3089",
+            "CS3389",
+            "CS3689",
+            "CS__89",
+            "CS89"
+          ],
+          "height": "89",
+          "link": "cab"
+        }
+      ],
+      "image": "/catalog/build/assets/cabinets/CS__77.jpeg",
+      "tags": [
+        "wardrobe",
+        "cs",
+        "shelving",
+        "no doors",
+        "open",
+        "65\"",
+        "77\"",
+        "89\""
+      ]
     }
   ]
 }

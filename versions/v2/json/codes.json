@@ -56970,6 +56970,142 @@
         }
       ]
     },
+
+    {
+      "active": true,
+      "code": "CS65",
+      "cat": "Wardrobe Cabinets",
+      "root": "CS",
+      "height": "65",
+      "title": "Wardrobe Shelving Units",
+      "description": "1 set shelf and 4 adjustable shelves. Standard depth is 18”.",
+      "specifications": ["209", "2024"],
+      "iwhd": ["i18", "w1236", "h5365", "d1236"],
+      "images": [
+        {
+          "title": "",
+          "image": "/catalog/build/assets/cabinets/CS__65.jpeg"
+        },
+        {
+          "title": "Drawing ",
+          "image": "/catalog/build/assets/cabinets/CS-65.png"
+        }
+      ],
+      "notes": ["56", "57"],
+      "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "itemcodes": [
+        "CS1265",
+        "CS1565",
+        "CS1865",
+        "CS2165",
+        "CS2465",
+        "CS2765",
+        "CS3065",
+        "CS3365",
+        "CS3665",
+        "CS__65",
+        "CS65"
+      ]
+    },
+    {
+      "active": true,
+      "code": "CS77",
+      "cat": "Wardrobe Cabinets",
+      "root": "CS",
+      "height": "77",
+      "title": "Wardrobe Shelving Units",
+      "description": "1 set shelf and 4 adjustable shelves. Standard depth is 18”.",
+      "specifications": ["209", "2024"],
+      "iwhd": ["i18", "w1236", "h6577", "d1236"],
+      "images": [
+        {
+          "title": "",
+          "image": "/catalog/build/assets/cabinets/CS__77.jpeg"
+        },
+        {
+          "title": "Drawing ",
+          "image": "/catalog/build/assets/cabinets/CS-77.png"
+        }
+      ],
+      "notes": ["56", "57"],
+      "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "itemcodes": [
+        "CS1277",
+        "CS1577",
+        "CS1877",
+        "CS2177",
+        "CS2477",
+        "CS2777",
+        "CS3077",
+        "CS3377",
+        "CS3677",
+        "CS__77",
+        "CS77"
+      ]
+    },
+    {
+      "active": true,
+      "code": "CS89",
+      "cat": "Wardrobe Cabinets",
+      "root": "CS",
+      "height": "89",
+      "title": "Wardrobe Shelving Units",
+      "description": "1 set shelf and 4 adjustable shelves. Standard depth is 18”.",
+      "specifications": ["209", "2024"],
+      "iwhd": ["i18", "w1236", "h7789", "d1236"],
+      "images": [
+        {
+          "title": "",
+          "image": "/catalog/build/assets/cabinets/CS__89.jpeg"
+        },
+        {
+          "title": "Drawing ",
+          "image": "/catalog/build/assets/cabinets/CS-89.png"
+        }
+      ],
+      "notes": ["56", "57"],
+      "widths": ["12", "15", "18", "21", "24", "27", "30", "33", "36"],
+      "options": ["ccd6"],
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": false,
+        "modal": false,
+        "modcon": false
+      },
+      "itemcodes": [
+        "CS1289",
+        "CS1589",
+        "CS1889",
+        "CS2189",
+        "CS2489",
+        "CS2789",
+        "CS3089",
+        "CS3389",
+        "CS3689",
+        "CS__89",
+        "CS89"
+      ]
+    },
+
+
+
     {
       "active": true,
       "code": "CT77",

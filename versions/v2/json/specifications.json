@@ -111,6 +111,11 @@
       "content": "By default, height reductions will decrease the total appliance frame section down to a minimum of 12 7/8\" until desired height is reached. The frame configuration will be changed according to your requirements and/or appliance specs."
     },
     {
+      "id": "209",
+      "title": "Height",
+      "content": "By default, height reductions will decrease the top shelf section down to a minimum of 18\". The lower shelf section will remain unchanged."
+    },
+    {
       "id": "300",
       "title": "Header",
       "content": "On cabinets with double doors, a stretcher matching the cabinet interior will be added below the false front. The front and bottom edge of the stretcher will be finished to match the cabinet exterior."

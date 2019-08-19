@@ -318,6 +318,17 @@
       "id": "55",
       "title": "Drawer modifications, ",
       "content": "to modify the dimension of a drawer use the Custom Charges for custom dimensions."
+    },
+    {
+      "id": "56",
+      "title": "Interior and Exterior, ",
+      "content": "of cabinet are controlled by the header-drop-down menu"
+    },
+    {
+      "id": "57",
+      "title": "Doors are not included, ",
+      "content": "even if specified in the headerdrop-down menu. To add a door use accessory D and MSC-H100D/MSC-170D for hinges. Units wider than 24\" will have a pair of doors. Specify hinging L (left) or R (right) when applicable.",
+      "itemcodes": ["MSC-H100D", "MSC-170D"]
     }
   ]
 }
