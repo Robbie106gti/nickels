@@ -1980,7 +1980,7 @@
       "lines": {
         "custom": true,
         "lighthouse": true,
-        "cornerstone": false,
+        "cornerstone": true,
         "modal": false,
         "modcon": false
       },
@@ -1992,7 +1992,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2012,7 +2012,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2032,7 +2032,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2052,7 +2052,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2072,7 +2072,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2092,7 +2092,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2112,7 +2112,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2132,7 +2132,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2152,7 +2152,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2172,7 +2172,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2211,7 +2211,7 @@
       "lines": {
         "custom": true,
         "lighthouse": true,
-        "cornerstone": false,
+        "cornerstone": true,
         "modal": false,
         "modcon": false
       },
@@ -2223,7 +2223,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2243,7 +2243,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2263,7 +2263,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2283,7 +2283,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2303,7 +2303,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2323,7 +2323,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2343,7 +2343,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2363,7 +2363,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2383,7 +2383,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
@@ -2403,7 +2403,7 @@
           "lines": {
             "custom": true,
             "lighthouse": true,
-            "cornerstone": false,
+            "cornerstone": true,
             "modal": false,
             "modcon": false
           },
