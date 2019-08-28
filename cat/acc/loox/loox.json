@@ -181,6 +181,7 @@
             "LED-ML-SQ",
             "LED-SWITCH-LEAD",
             "LED-ML-LEAD",
+            "LED-LEAD-EX",
             "LED-PWR-CORD"
           ],
           "prepare": [
@@ -328,6 +329,24 @@
         {
           "title": "",
           "image": "/catalog/build/assets/loox/833.72.128.9.3.jpg"
+        }
+      ],
+      "notes": ["13"]
+    },
+    {
+      "active": true,
+      "code": "LED-LEAD-EX",
+      "cat": "Loox LEDs",
+      "root": "LED",
+      "title": "Lead for modular LED spot Extension",
+      "tab": "extensions",
+      "description": "Extend the lead length of both the modular light and profile or strip light leads, rated for 12v only. Length of 78 3/4\"",
+      "specifications": ["4001"],
+      "iwhd": ["Length of 78 3/4"],
+      "images": [
+        {
+          "title": "",
+          "image": "/catalog/build/assets/loox/extension-lead.PNG"
         }
       ],
       "notes": ["13"]
