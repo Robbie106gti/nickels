@@ -736,7 +736,7 @@
       ]
     },
     {
-      "active": true,
+      "active": false,
       "lines": {
         "custom": true,
         "lighthouse": true,
@@ -876,7 +876,7 @@
       ]
     },
     {
-      "active": true,
+      "active": false,
       "lines": {
         "custom": true,
         "lighthouse": false,
@@ -906,7 +906,7 @@
       "tags": ["sink", "30\""]
     },
     {
-      "active": true,
+      "active": false,
       "lines": {
         "custom": true,
         "lighthouse": false,

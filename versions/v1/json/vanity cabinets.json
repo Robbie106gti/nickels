@@ -340,7 +340,7 @@
     },
 
     {
-      "active": true,
+      "active": false,
       "lines": {
         "custom": true,
         "lighthouse": true,
@@ -425,7 +425,7 @@
     },
 
     {
-      "active": true,
+      "active": false,
       "lines": {
         "custom": true,
         "lighthouse": true,

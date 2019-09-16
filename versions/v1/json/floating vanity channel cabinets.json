@@ -127,7 +127,7 @@
       "tags": ["vanity", "2", "drawer", "channel", "24\""]
     },
     {
-      "active": true,
+      "active": false,
       "lines": {
         "custom": true,
         "lighthouse": false,
@@ -209,7 +209,7 @@
       "tags": ["vanity", "3", "drawer", "channel", "24\""]
     },
     {
-      "active": true,
+      "active": false,
       "lines": {
         "custom": true,
         "lighthouse": false,

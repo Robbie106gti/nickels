@@ -184,7 +184,7 @@
     },
 
     {
-      "active": true,
+      "active": false,
       "lines": {
         "custom": true,
         "lighthouse": false,
@@ -224,7 +224,7 @@
       "tags": ["sink", "drawer", "2", "channel", "30\""]
     },
     {
-      "active": true,
+      "active": false,
       "lines": {
         "custom": true,
         "lighthouse": false,
