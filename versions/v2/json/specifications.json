@@ -1132,6 +1132,16 @@
         "Height: ",
         "Return: Maximum of 6\" - (optional)."
       ]
+    },
+    {
+      "id": "3105",
+      "title": "Construction",
+      "content": "butt joint with dowel construction."
+    },
+    {
+      "id": "3106",
+      "title": "Material",
+      "content": "baltic birch plywood - finished in clear lacquer."
     }
   ]
 }

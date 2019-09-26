@@ -90,6 +90,26 @@
       "active": true
     },
     {
+      "code": "ros",
+      "title": "Roll-out shelves",
+      "lines": {
+        "custom": true,
+        "lighthouse": true,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "template": "sor",
+      "images": [
+        {
+          "title": "",
+          "image": "https://webquoin.com/catalog/images/Rollout%20Tray%20Dividers.jpg"
+        }
+      ],
+      "tags": ["pantry", "tall", "base"],
+      "active": true
+    },
+    {
       "code": "podnr",
       "title": "Pull-Out Door Narrow Rack",
       "lines": {

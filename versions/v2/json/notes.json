@@ -329,6 +329,11 @@
       "title": "Doors are not included, ",
       "content": "even if specified in the headerdrop-down menu. To add a door use accessory D and MSC-H100D/MSC-170D for hinges. Units wider than 24\" will have a pair of doors. Specify hinging L (left) or R (right) when applicable.",
       "itemcodes": ["MSC-H100D", "MSC-170D"]
+    },
+    {
+      "id": "58",
+      "title": "Slides, ",
+      "content": "heavy duty slides are use in this situation."
     }
   ]
 }
