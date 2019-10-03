@@ -12,7 +12,10 @@
         },
         "title": "Slide-Out Storage Rack - Mid",
         "code": "sor-m",
-        "tags": ["mid", "storage"],
+        "tags": [
+          "mid",
+          "storage"
+        ],
         "image": "https://webquoin.com/catalog/images/JPGs/Accessories/SOR-M-Upper.jpg"
       },
       {
@@ -26,7 +29,10 @@
         },
         "title": "Slide-Out Storage Rack - Base",
         "code": "sor-b",
-        "tags": ["base", "storage"],
+        "tags": [
+          "base",
+          "storage"
+        ],
         "image": "https://webquoin.com/catalog/images/JPGs/Accessories/SOR-B-Base.jpg"
       },
       {
@@ -40,7 +46,12 @@
         },
         "title": "Slide Out - Knife / Utensil - Wood",
         "code": "sor-ku-wd",
-        "tags": ["knife", "utensil", "storage", "cooking"],
+        "tags": [
+          "knife",
+          "utensil",
+          "storage",
+          "cooking"
+        ],
         "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2Fmain%2F1568828887774_Wood%20Knife%20Pull%20Out.jpg?alt=media&token=dc3dd07b-9f18-46b3-8b13-7077f0245900"
       }
     ],
@@ -56,7 +67,10 @@
         },
         "title": "Recycle bins - Wood frame",
         "code": "wood",
-        "tags": ["wood", "bins"],
+        "tags": [
+          "wood",
+          "bins"
+        ],
         "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FRGB-NEW%2F1561143703744_RGB24.jpg?alt=media&token=e24a0560-f217-4b3c-a5c7-91041ee0d747",
         "link": "../pod/index.html?page=RGB&type=wood",
         "template": "link"
@@ -72,7 +86,10 @@
         },
         "title": "Recycle bins - Metal frame",
         "code": "metal",
-        "tags": ["metal", "bins"],
+        "tags": [
+          "metal",
+          "bins"
+        ],
         "image": "https://webquoin.com/catalog/build/assets/rgb/38L%2038L%2012L%202.5L%20461950100%20rgb-pod-25.jpg",
         "link": "../pod/index.html?page=RGB&type=metal",
         "template": "link"
@@ -90,7 +107,11 @@
         },
         "title": "Base Pull-Out Door Storage - Grey",
         "code": "bpod-osr-ga",
-        "tags": ["base", "storage", "grey"],
+        "tags": [
+          "base",
+          "storage",
+          "grey"
+        ],
         "image": "https://webquoin.com/catalog/images/BPOD-O_SR.jpg"
       },
       {
@@ -104,7 +125,11 @@
         },
         "title": "Base Pull-Out Door Storage - Maple",
         "code": "bpod-osr-ma",
-        "tags": ["base", "storage", "maple"],
+        "tags": [
+          "base",
+          "storage",
+          "maple"
+        ],
         "image": "https://webquoin.com/catalog/images/BPOD-O_SR.jpg"
       }
     ],
@@ -120,7 +145,12 @@
         },
         "title": "Towel Rack",
         "code": "bpod-nr-tr",
-        "tags": ["base", "storage", "towel", "narrow"],
+        "tags": [
+          "base",
+          "storage",
+          "towel",
+          "narrow"
+        ],
         "image": "https://webquoin.com/catalog/images/PullOutDoorNarrowRack-TowelRack.gif"
       },
       {
@@ -134,7 +164,12 @@
         },
         "title": "Cookware",
         "code": "bpod-nr-cw",
-        "tags": ["base", "storage", "cookware", "narrow"],
+        "tags": [
+          "base",
+          "storage",
+          "cookware",
+          "narrow"
+        ],
         "image": "https://webquoin.com/catalog/images/PullOutDoorNarrowRack-Cookware.gif"
       },
       {
@@ -148,7 +183,12 @@
         },
         "title": "2-Shelf Storage",
         "code": "bpod-nr-2s",
-        "tags": ["base", "storage", "shelves", "narrow"],
+        "tags": [
+          "base",
+          "storage",
+          "shelves",
+          "narrow"
+        ],
         "image": "https://webquoin.com/catalog/images/PullOutDoorNarrowRack-2ShelfStorage.gif"
       }
     ],
@@ -164,7 +204,11 @@
         },
         "title": "Tall Pull-Out Door Storage Chrome",
         "code": "tpod-sr-ch",
-        "tags": ["chrome", "storage", "pullout"],
+        "tags": [
+          "chrome",
+          "storage",
+          "pullout"
+        ],
         "image": "https://webquoin.com/catalog/images/TallPullOutDoorStorageRack-2.jpg"
       },
       {
@@ -178,7 +222,11 @@
         },
         "title": "Tall Pull-Out Door Storage Grey",
         "code": "tpod-sr-ga",
-        "tags": ["grey", "storage", "pullout"],
+        "tags": [
+          "grey",
+          "storage",
+          "pullout"
+        ],
         "image": "https://webquoin.com/catalog/images/TallPullOutDoorStorageRack-2.jpg"
       },
       {
@@ -192,7 +240,11 @@
         },
         "title": "Tall Pull-Out Door Storage Maple",
         "code": "tpod-sr-ma",
-        "tags": ["maple", "storage", "pullout"],
+        "tags": [
+          "maple",
+          "storage",
+          "pullout"
+        ],
         "image": "https://webquoin.com/catalog/images/TallPullOutDoorStorageRack-2.jpg"
       }
     ],
@@ -208,7 +260,10 @@
         },
         "title": "Plastic Pie Cut",
         "code": "ls-pc-pl",
-        "tags": ["plastic", "storage"],
+        "tags": [
+          "plastic",
+          "storage"
+        ],
         "image": "https://webquoin.com/catalog/images/PlasticPieCut-2.gif"
       },
       {
@@ -222,7 +277,12 @@
         },
         "title": "Le Mans Corner - Maple/Gray",
         "code": "ls-lmc",
-        "tags": ["maple", "grey", "storage", "pullout"],
+        "tags": [
+          "maple",
+          "grey",
+          "storage",
+          "pullout"
+        ],
         "image": "https://webquoin.com/catalog/images/LeMansCorner.jpg"
       },
       {
@@ -236,7 +296,14 @@
         },
         "title": "Magic Corner 1",
         "code": "ls-mc",
-        "tags": ["maple", "grey", "chrome", "storage", "pullout", "I"],
+        "tags": [
+          "maple",
+          "grey",
+          "chrome",
+          "storage",
+          "pullout",
+          "I"
+        ],
         "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2Fmain%2F1557931711827_Magic%20Corner.PNG?alt=media&token=6b3918c2-6bf2-4c46-9310-5f9f0a4ded62"
       },
       {
@@ -250,7 +317,14 @@
         },
         "title": "Magic Corner 2",
         "code": "ls-mc2",
-        "tags": ["maple", "grey", "chrome", "storage", "pullout", "II"],
+        "tags": [
+          "maple",
+          "grey",
+          "chrome",
+          "storage",
+          "pullout",
+          "II"
+        ],
         "image": "https://webquoin.com/catalog/images/LS-MC2-GA.gif"
       },
       {
@@ -264,7 +338,10 @@
         },
         "title": "Super Susan-Metal",
         "code": "ls-pc-ss",
-        "tags": ["metal", "storage"],
+        "tags": [
+          "metal",
+          "storage"
+        ],
         "image": "https://webquoin.com/catalog/images/SuperSusan-Metal.gif"
       },
       {
@@ -278,7 +355,10 @@
         },
         "title": "Super Susan-Wood",
         "code": "ls-pc-ss-wd",
-        "tags": ["wood", "storage"],
+        "tags": [
+          "wood",
+          "storage"
+        ],
         "image": "https://webquoin.com/catalog/images/Accessories/LazySusans/LS-PC-SS-WD%201.jpg"
       },
       {
@@ -292,7 +372,10 @@
         },
         "title": "Wood Pie Cut",
         "code": "ls-pc-wd",
-        "tags": ["wood", "storage"],
+        "tags": [
+          "wood",
+          "storage"
+        ],
         "image": "https://webquoin.com/catalog/images/WoodPieCut-1.gif"
       }
     ],
@@ -308,7 +391,11 @@
         },
         "title": "Roll Out Shelf - Tray Divider",
         "code": "ros-td",
-        "tags": ["storage", "tray", "shelf"],
+        "tags": [
+          "storage",
+          "tray",
+          "shelf"
+        ],
         "image": "https://webquoin.com/catalog/images/Rollout%20Tray%20Dividers.jpg"
       }
     ]
@@ -335,8 +422,17 @@
           "image": "https://webquoin.com/catalog/images/JPGs/Accessories/SOR-B-Clip.jpg"
         }
       ],
-      "notes": ["39", "40"],
-      "specifications": ["3052", "3053", "3054", "3055", "3056"],
+      "notes": [
+        "39",
+        "40"
+      ],
+      "specifications": [
+        "3052",
+        "3053",
+        "3054",
+        "3055",
+        "3056"
+      ],
       "description": "typically used in Wall and Pantry cabinets, with a \"Open-thru\" design for easy access. The center shelves and steel rods are adjustable."
     },
     {
@@ -360,8 +456,17 @@
           "image": "https://webquoin.com/catalog/images/JPGs/Accessories/SOR-B-Clip.jpg"
         }
       ],
-      "notes": ["39", "40"],
-      "specifications": ["3057", "3053", "3054", "3055", "3058"],
+      "notes": [
+        "39",
+        "40"
+      ],
+      "specifications": [
+        "3057",
+        "3053",
+        "3054",
+        "3055",
+        "3058"
+      ],
       "description": "typically used in Base cabinets, with a \"Open-thru\" design for easy access. The center shelves and steel rods are adjustable. for a maximum height of 30\"."
     },
     {
@@ -393,8 +498,13 @@
           "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2Fengineering%2FSOR-KU-WD%20Slide%20Out%20Knife%20Utensil%20Wood%2F1568836051565_SOR-KU-WD%20top%20view.PNG?alt=media&token=fdbb7266-8f48-473d-b579-b10faa92fe32"
         }
       ],
-      "notes": ["58"],
-      "specifications": ["3105", "3106"],
+      "notes": [
+        "58"
+      ],
+      "specifications": [
+        "3105",
+        "3106"
+      ],
       "description": "A slide out rack, designed to hold knives and untensils."
     }
   ],
@@ -410,11 +520,26 @@
       },
       "title": "Base Pull-Out Door Storage 3 Rack - Grey",
       "code": "bpod-osr-ga",
-      "constr": ["bpod-o", "sr-", "ga"],
-      "sizes": [7, 9, 12, 16],
+      "constr": [
+        "bpod-o",
+        "sr-",
+        "ga"
+      ],
+      "sizes": [
+        7,
+        9,
+        12,
+        16
+      ],
       "lr": [
-        { "code": "l", "title": "left" },
-        { "code": "r", "title": "right" }
+        {
+          "code": "l",
+          "title": "left"
+        },
+        {
+          "code": "r",
+          "title": "right"
+        }
       ],
       "images": [
         {
@@ -431,7 +556,12 @@
         }
       ],
       "notes": [],
-      "specifications": ["3067", "3060", "3066", "3065"],
+      "specifications": [
+        "3067",
+        "3060",
+        "3066",
+        "3065"
+      ],
       "description": "typically used in BFD : Base Full Door(s) cabinets, with a \"Open-thru\" design for easy access."
     },
     {
@@ -445,11 +575,26 @@
       },
       "title": "Base Pull-Out Door Storage 3 Rack - Maple",
       "code": "bpod-osr-ma",
-      "constr": ["bpod-o", "sr-", "ma"],
-      "sizes": [7, 9, 12, 16],
+      "constr": [
+        "bpod-o",
+        "sr-",
+        "ma"
+      ],
+      "sizes": [
+        7,
+        9,
+        12,
+        16
+      ],
       "lr": [
-        { "code": "l", "title": "left" },
-        { "code": "r", "title": "right" }
+        {
+          "code": "l",
+          "title": "left"
+        },
+        {
+          "code": "r",
+          "title": "right"
+        }
       ],
       "images": [
         {
@@ -466,7 +611,12 @@
         }
       ],
       "notes": [],
-      "specifications": ["3067", "3060", "3068", "3065"],
+      "specifications": [
+        "3067",
+        "3060",
+        "3068",
+        "3065"
+      ],
       "description": "typically used in BFD : Base Full Door(s) cabinets, with a \"Open-thru\" design for easy access."
     }
   ],
@@ -489,7 +639,12 @@
         }
       ],
       "notes": [],
-      "specifications": ["3069", "3070", "3071", "3072"],
+      "specifications": [
+        "3069",
+        "3070",
+        "3071",
+        "3072"
+      ],
       "description": "typically used besides stoves, with a \"Open-thru\" design for easy access."
     },
     {
@@ -510,7 +665,11 @@
         }
       ],
       "notes": [],
-      "specifications": ["3073", "3071", "3072"],
+      "specifications": [
+        "3073",
+        "3071",
+        "3072"
+      ],
       "description": "typically used besides stoves, with a \"Open-thru\" design for easy access."
     },
     {
@@ -531,7 +690,11 @@
         }
       ],
       "notes": [],
-      "specifications": ["3074", "3071", "3072"],
+      "specifications": [
+        "3074",
+        "3071",
+        "3072"
+      ],
       "description": "typically used besides stoves, with a \"Open-thru\" design for easy access."
     }
   ],
@@ -548,7 +711,11 @@
       "title": "Tall Pull-Out Door Storage 4 Rack - Chrome",
       "code": "tpod-sr-ch",
       "cib": "ch",
-      "sizes": [12, 16, 18],
+      "sizes": [
+        12,
+        16,
+        18
+      ],
       "images": [
         {
           "title": "Tall Chrome Pullout",
@@ -560,7 +727,12 @@
         }
       ],
       "notes": [],
-      "specifications": ["3059", "3060", "3061", "3064"],
+      "specifications": [
+        "3059",
+        "3060",
+        "3061",
+        "3064"
+      ],
       "description": "typically used in TBR cabinets, with a \"Open-thru\" design for easy access."
     },
     {
@@ -575,7 +747,11 @@
       "title": "Tall Pull-Out Door Storage 4 Rack - Grey",
       "code": "tpod-sr-ga",
       "cib": "ga",
-      "sizes": [12, 16, 18],
+      "sizes": [
+        12,
+        16,
+        18
+      ],
       "images": [
         {
           "title": "Tall Pull-Out Door Storage 4 Rack",
@@ -583,7 +759,12 @@
         }
       ],
       "notes": [],
-      "specifications": ["3059", "3060", "3062", "3064"],
+      "specifications": [
+        "3059",
+        "3060",
+        "3062",
+        "3064"
+      ],
       "description": "typically used in TBR cabinets, with a \"Open-thru\" design for easy access."
     },
     {
@@ -598,7 +779,11 @@
       "title": "Tall Pull-Out Door Storage 4 Rack - Maple",
       "code": "tpod-sr-ma",
       "cib": "ma",
-      "sizes": [12, 16, 18],
+      "sizes": [
+        12,
+        16,
+        18
+      ],
       "images": [
         {
           "title": "Tall Maple Pullout",
@@ -610,7 +795,12 @@
         }
       ],
       "notes": [],
-      "specifications": ["3059", "3060", "3063", "3064"],
+      "specifications": [
+        "3059",
+        "3060",
+        "3063",
+        "3064"
+      ],
       "description": "typically used in TBR cabinets, with a \"Open-thru\" design for easy access."
     }
   ],
@@ -637,7 +827,9 @@
         }
       ],
       "notes": [],
-      "specifications": ["3075"],
+      "specifications": [
+        "3075"
+      ],
       "description": "typically used in Corner cabinets."
     },
     {
@@ -657,17 +849,36 @@
           "image": "https://webquoin.com/catalog/images/LeMansCorner.jpg"
         }
       ],
-      "sizes": [42, 45],
+      "sizes": [
+        42,
+        45
+      ],
       "lr": [
-        { "title": "left", "code": "l" },
-        { "title": "right", "code": "r" }
+        {
+          "title": "left",
+          "code": "l"
+        },
+        {
+          "title": "right",
+          "code": "r"
+        }
       ],
       "finish": [
-        { "title": "maple", "code": "ma" },
-        { "title": "grey", "code": "ga" }
+        {
+          "title": "maple",
+          "code": "ma"
+        },
+        {
+          "title": "grey",
+          "code": "ga"
+        }
       ],
       "notes": [],
-      "specifications": ["3076", "504", "3077"],
+      "specifications": [
+        "3076",
+        "504",
+        "3077"
+      ],
       "description": "typically used in Blind Corner storage system that allows full and easy access - each tray pulls out independently."
     },
     {
@@ -682,9 +893,18 @@
       "title": "Magic Corner I",
       "code": "ls-mc",
       "finish": [
-        { "title": "chrome", "code": "ch" },
-        { "title": "grey", "code": "ga" },
-        { "title": "maple", "code": "ma" }
+        {
+          "title": "chrome",
+          "code": "ch"
+        },
+        {
+          "title": "grey",
+          "code": "ga"
+        },
+        {
+          "title": "maple",
+          "code": "ma"
+        }
       ],
       "images": [
         {
@@ -712,8 +932,13 @@
           "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2FEngineering%2FCorner%20Solution%20-%20Magic%20Corner%2F1557931850980_Right%20Opening%20Frame.PNG?alt=media&token=1c9e0604-456b-48d9-bf7f-d17df7017da7"
         }
       ],
-      "notes": ["41"],
-      "specifications": ["3078", "3079"],
+      "notes": [
+        "41"
+      ],
+      "specifications": [
+        "3078",
+        "3079"
+      ],
       "description": "blind Corner storage system that allows maximum storage and access. When you open the door, the two rear baskets slide laterally to face the opening. Because the front baskets are attached to the door, they can be removed completely from the cabinet when the door is opened."
     },
     {
@@ -728,8 +953,14 @@
       "title": "Magic Corner II",
       "code": "ls-mc2",
       "finish": [
-        { "title": "grey", "code": "ga" },
-        { "title": "maple", "code": "ma" }
+        {
+          "title": "grey",
+          "code": "ga"
+        },
+        {
+          "title": "maple",
+          "code": "ma"
+        }
       ],
       "images": [
         {
@@ -749,8 +980,14 @@
           "image": "https://webquoin.com/catalog/images/magic-corner-2-maple-arena-baskets.gif"
         }
       ],
-      "notes": ["42", "43"],
-      "specifications": ["3080", "3081"],
+      "notes": [
+        "42",
+        "43"
+      ],
+      "specifications": [
+        "3080",
+        "3081"
+      ],
       "description": "Blind Corner storage system that allows maximum storage and access for full door applications. Brand new sliding technology ensures that all components slide silently and effortlessly, even when the baskets are full. Front baskets pull out and swivel for easy viewing and access to the entire storage space. Rear baskets slide out for easy access to all stored items."
     },
     {
@@ -774,8 +1011,12 @@
           "image": "https://webquoin.com/catalog/images/Accessories/LazySusans/LS-PC-SS%201.jpg"
         }
       ],
-      "notes": ["50"],
-      "specifications": ["3100"],
+      "notes": [
+        "50"
+      ],
+      "specifications": [
+        "3100"
+      ],
       "description": "A pair of 3/4\" railing for kidney-shaped Lazy Susans. Great for Base Corner Cabinets."
     },
     {
@@ -800,7 +1041,9 @@
         }
       ],
       "notes": [],
-      "specifications": ["3101"],
+      "specifications": [
+        "3101"
+      ],
       "description": "Incorporate the warmth of maple into your kitchen while improving the accessibility of your corner cabinet. Comes as a pair."
     },
     {
@@ -824,12 +1067,16 @@
           "image": "https://webquoin.com/catalog/images/PlasticPieCut-1.gif"
         }
       ],
-      "notes": ["51"],
-      "specifications": ["3102"],
+      "notes": [
+        "51"
+      ],
+      "specifications": [
+        "3102"
+      ],
       "description": "pivoting trays in maple finish."
     }
   ],
-  "ross": [
+  "ros": [
     {
       "active": false,
       "lines": {
@@ -851,8 +1098,12 @@
           "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2Fmain%2F1568826131685_ROS-TD%20side%20view.PNG?alt=media&token=f237c1b1-9f87-4575-9eda-b08e99514866"
         }
       ],
-      "notes": ["51"],
-      "specifications": ["3102"],
+      "notes": [
+        "51"
+      ],
+      "specifications": [
+        "3102"
+      ],
       "description": "pivoting trays in maple finish."
     }
   ]
