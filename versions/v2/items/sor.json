@@ -1088,6 +1088,13 @@
       },
       "title": "Roll Out Shelf - Tray Divider",
       "code": "ros-td",
+      "pre": "-",
+      "sizes": [
+        18,
+        24,
+        30,
+        36
+      ],
       "images": [
         {
           "title": "Roll Out Shelf - Tray Divider",
@@ -1099,12 +1106,15 @@
         }
       ],
       "notes": [
-        "51"
+        "59"
       ],
       "specifications": [
-        "3102"
+        "3105",
+        "3106",
+        "3107",
+        "3108"
       ],
-      "description": "pivoting trays in maple finish."
+      "description": "A roll out shelf designed to hold trays and cooking sheets."
     }
   ]
 }

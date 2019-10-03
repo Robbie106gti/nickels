@@ -564,14 +564,31 @@
       "id": "3025",
       "title": "Maximum panel sizes",
       "type": "table",
-      "astrixs": ["** Available as a special order"],
+      "astrixs": [
+        "** Available as a special order"
+      ],
       "table": {
         "headers": [
-          { "title": "Material", "key": "title" },
-          { "title": "Width VG Maximum", "key": "wvgm" },
-          { "title": "Height VG Maximum", "key": "hvgm" },
-          { "title": "Width HG Maximum", "key": "whgm" },
-          { "title": "Height HG Maximum", "key": "hhgm" }
+          {
+            "title": "Material",
+            "key": "title"
+          },
+          {
+            "title": "Width VG Maximum",
+            "key": "wvgm"
+          },
+          {
+            "title": "Height VG Maximum",
+            "key": "hvgm"
+          },
+          {
+            "title": "Width HG Maximum",
+            "key": "whgm"
+          },
+          {
+            "title": "Height HG Maximum",
+            "key": "hhgm"
+          }
         ],
         "rows": [
           {
@@ -799,8 +816,14 @@
       "type": "table",
       "table": {
         "headers": [
-          { "title": "Height", "key": "title" },
-          { "title": "# of shelves", "key": "col2" }
+          {
+            "title": "Height",
+            "key": "title"
+          },
+          {
+            "title": "# of shelves",
+            "key": "col2"
+          }
         ],
         "rows": [
           {
@@ -834,8 +857,14 @@
       "type": "table",
       "table": {
         "headers": [
-          { "title": "Height", "key": "title" },
-          { "title": "# of shelves", "key": "col2" }
+          {
+            "title": "Height",
+            "key": "title"
+          },
+          {
+            "title": "# of shelves",
+            "key": "col2"
+          }
         ],
         "rows": [
           {
@@ -975,11 +1004,26 @@
       "type": "table",
       "table": {
         "headers": [
-          { "title": "Cabinet style", "key": "title" },
-          { "title": "Doors", "key": "col2" },
-          { "title": "Cabinet width", "key": "col3" },
-          { "title": "Fixed door width", "key": "col4" },
-          { "title": "Ordercode", "key": "ordercode" }
+          {
+            "title": "Cabinet style",
+            "key": "title"
+          },
+          {
+            "title": "Doors",
+            "key": "col2"
+          },
+          {
+            "title": "Cabinet width",
+            "key": "col3"
+          },
+          {
+            "title": "Fixed door width",
+            "key": "col4"
+          },
+          {
+            "title": "Ordercode",
+            "key": "ordercode"
+          }
         ],
         "rows": [
           {
@@ -1010,7 +1054,6 @@
             "col4": "21\"",
             "ordercode": "BRB4530"
           },
-
           {
             "title": "Base Full Door Left Blind",
             "col2": "1 hinged left",
@@ -1134,14 +1177,30 @@
       ]
     },
     {
+      "id": "3106",
+      "title": "Material",
+      "content": "baltic birch plywood - finished in clear lacquer."
+    },
+    {
       "id": "3105",
       "title": "Construction",
       "content": "butt joint with dowel construction."
     },
     {
-      "id": "3106",
-      "title": "Material",
-      "content": "baltic birch plywood - finished in clear lacquer."
+      "id": "3107",
+      "title": "Tray divider amount",
+      "type": "list",
+      "list": [
+        "ROS-TD-18 (15\"-18\"): 1 divider",
+        "ROS-TD-24 (21\"-24\"): 2 dividers",
+        "ROS-TD-30 (27\"-30\"): 3 dividers",
+        "ROS-TD-36 (33\"-36\"): 4 dividers"
+      ]
+    },
+    {
+      "id": "3108",
+      "title": "Minimum Cabinet Depth",
+      "content": "21\""
     }
   ]
 }
