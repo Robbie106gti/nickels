@@ -117,7 +117,9 @@
       "content": "may be added if complexity increases",
       "contentLink": "",
       "ccontent": ".",
-      "itemcodes": ["CC-MILLWORK"]
+      "itemcodes": [
+        "CC-MILLWORK"
+      ]
     },
     {
       "id": "15",
@@ -150,7 +152,11 @@
       "content": "Melamines and Soho materials do not have finished ends available. Attach accessories CLM-FEL, CLM-FER or CLM-FELR to finish sides",
       "contentLink": "",
       "ccontent": ".",
-      "itemcodes": ["CLM-FEL", "CLM-FER", "CLM-FELR"]
+      "itemcodes": [
+        "CLM-FEL",
+        "CLM-FER",
+        "CLM-FELR"
+      ]
     },
     {
       "id": "20",
@@ -172,25 +178,35 @@
       "id": "22",
       "title": "Materials, ",
       "content": "for Melanines, Euro Materials or Gloss Columns use CLM column with CLM-101 front",
-      "itemcodes": ["CLM", "CLM-101"]
+      "itemcodes": [
+        "CLM",
+        "CLM-101"
+      ]
     },
     {
       "id": "23",
       "title": "Miter, ",
       "content": "for mitered column in WOOD veneer or Painted use CLM-MITER with a CLM-100 front",
-      "itemcodes": ["CLM-MITER", "CLM-100"]
+      "itemcodes": [
+        "CLM-MITER",
+        "CLM-100"
+      ]
     },
     {
       "id": "24",
       "title": "Additional triades, ",
       "content": "Use MSC-TRIADE to add extra(s) bracket to support more weight (7 kg/15 lbs per triade.)",
-      "itemcodes": ["MSC-TRIADE"]
+      "itemcodes": [
+        "MSC-TRIADE"
+      ]
     },
     {
       "id": "25",
       "title": "Ordering, ",
       "content": "procedure: After entering the Floating Shelf code in WebQuoin, double click into the CC-SH-WXD and enter the width and depth dimensions.",
-      "itemcodes": ["CC-SH-WXD"]
+      "itemcodes": [
+        "CC-SH-WXD"
+      ]
     },
     {
       "id": "26",
@@ -218,7 +234,9 @@
     {
       "id": "30",
       "title": "Factory join, ",
-      "itemcodes": ["cc-fj"],
+      "itemcodes": [
+        "cc-fj"
+      ],
       "content": "If a veneer panel width must exceed the material size use the customization charge cc-fj to Factory join a panel. Contact Dealer Service for restrictions before ordering."
     },
     {
@@ -240,7 +258,9 @@
       "id": "34",
       "title": "Edges, ",
       "content": "To detail and finish all edges of the over filler, add custom charge CC-FO-FINISH",
-      "itemcodes": ["CC-FO-FINISH"]
+      "itemcodes": [
+        "CC-FO-FINISH"
+      ]
     },
     {
       "id": "35",
@@ -251,13 +271,19 @@
       "id": "36",
       "title": "Finish side, ",
       "content": "to finish the side of a cabinet in Melamine, Soho or Gloss use a PO.75P panel from the Finish Side Header Drop-Down Menu or manually attach a panel accessory, such as order code P.75P.",
-      "itemcodes": ["PO.75P", "P.75P"]
+      "itemcodes": [
+        "PO.75P",
+        "P.75P"
+      ]
     },
     {
       "id": "37",
       "title": "Finish top/bottom, ",
       "content": "to finish the top or bottom of a cabinet in TM (Textured Melamine), Soho or Gloss manually attach a panel accessory, such as order code P.75P or P.75P-1F.",
-      "itemcodes": ["P.75P", "P.75P-1F"]
+      "itemcodes": [
+        "P.75P",
+        "P.75P-1F"
+      ]
     },
     {
       "id": "38",
@@ -328,12 +354,20 @@
       "id": "57",
       "title": "Doors are not included, ",
       "content": "even if specified in the headerdrop-down menu. To add a door use accessory D and MSC-H100D/MSC-170D for hinges. Units wider than 24\" will have a pair of doors. Specify hinging L (left) or R (right) when applicable.",
-      "itemcodes": ["MSC-H100D", "MSC-170D"]
+      "itemcodes": [
+        "MSC-H100D",
+        "MSC-170D"
+      ]
     },
     {
       "id": "58",
       "title": "Slides, ",
       "content": "heavy duty slides are use in this situation."
+    },
+    {
+      "id": "59",
+      "title": "Tray Dividers, ",
+      "content": "are spaced 4\" - 6\" apart, depending on cabinet width."
     }
   ]
 }

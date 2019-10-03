@@ -19,7 +19,11 @@
         }
       ],
       "active": true,
-      "tags": ["single bin", "double bin", "4 bin"]
+      "tags": [
+        "single bin",
+        "double bin",
+        "4 bin"
+      ]
     },
     {
       "code": "TPOD",
@@ -66,7 +70,15 @@
           "image": "/catalog/build/assets/mc/wari.jpg"
         }
       ],
-      "tags": ["corner", "cab", "hardware", "maple", "white", "grey", "chrome"],
+      "tags": [
+        "corner",
+        "cab",
+        "hardware",
+        "maple",
+        "white",
+        "grey",
+        "chrome"
+      ],
       "active": false
     },
     {
@@ -86,7 +98,11 @@
           "image": "https://webquoin.com/catalog/images/JPGs/Accessories/SOR-M-Upper.jpg"
         }
       ],
-      "tags": ["pantry", "tall", "base"],
+      "tags": [
+        "pantry",
+        "tall",
+        "base"
+      ],
       "active": true
     },
     {
@@ -106,8 +122,12 @@
           "image": "https://webquoin.com/catalog/images/Rollout%20Tray%20Dividers.jpg"
         }
       ],
-      "tags": ["pantry", "tall", "base"],
-      "active": true
+      "tags": [
+        "pantry",
+        "tall",
+        "base"
+      ],
+      "active": false
     },
     {
       "code": "podnr",
@@ -126,7 +146,12 @@
           "image": "https://webquoin.com/catalog/images/PullOutDoorNarrowRack-TowelRack.gif"
         }
       ],
-      "tags": ["base", "narrow", "in-between", "sliding"],
+      "tags": [
+        "base",
+        "narrow",
+        "in-between",
+        "sliding"
+      ],
       "active": true
     },
     {
@@ -146,7 +171,12 @@
           "image": "https://webquoin.com/catalog/images/BPOD-O_SR.jpg"
         }
       ],
-      "tags": ["sliding", "storage", "base", "base"],
+      "tags": [
+        "sliding",
+        "storage",
+        "base",
+        "base"
+      ],
       "active": true
     },
     {
@@ -166,7 +196,11 @@
           "image": "https://webquoin.com/catalog/images/TallPullOutDoorStorageRack-2.jpg"
         }
       ],
-      "tags": ["sliding", "storage", "tall"],
+      "tags": [
+        "sliding",
+        "storage",
+        "tall"
+      ],
       "active": true
     },
     {
@@ -186,7 +220,14 @@
           "image": "https://webquoin.com/catalog/images/PlasticPieCut-2.gif"
         }
       ],
-      "tags": ["lazy", "susans", "storage", "base", "corner", "magic"],
+      "tags": [
+        "lazy",
+        "susans",
+        "storage",
+        "base",
+        "corner",
+        "magic"
+      ],
       "active": true
     }
   ]

@@ -3,10 +3,10 @@ window.onload = getPage();
 info.cat = 'Slide-Out Storage Racks';
 function getPage() {
   fetch('../../../../versions/v2/items/sor.json', { cache: 'reload' })
-    .then(function(response) {
+    .then(function (response) {
       return response.json();
     })
-    .then(function(data) {
+    .then(function (data) {
       // console.log(data);
       let page = new Array();
       let items = new Object();
@@ -46,7 +46,7 @@ function getPage() {
       setGIA2({ title: info.cat });
       if (info.code) {
         itemstructure(
-          items.filter(function(item) {
+          items.filter(function (item) {
             return item.code === info.code;
           })[0]
         );
@@ -54,11 +54,11 @@ function getPage() {
         structure(page);
       }
     })
-    .then(function() {
+    .then(function () {
       lastCallCodes();
       $('.materialboxed').materialbox();
     })
-    .catch(function(err) {
+    .catch(function (err) {
       return console.log(err);
     });
 }
@@ -69,7 +69,7 @@ function structure(items) {
     catalog.classList.add('grid');
   }
   const html = items
-    .map(function(item) {
+    .map(function (item) {
       return cardWith(item);
     })
     .join('');
@@ -109,6 +109,9 @@ function ordercodesConvertion(item) {
     case 'tpods':
       codes = codesWithHeights(item);
       break;
+    case 'ros':
+      codes = codesWithHeights(item);
+      break;
     case 'bpods':
       codes = codesLRSizes(item);
       break;
@@ -129,8 +132,8 @@ function codesWithHeights(item) {
   return (
     '<ul>' +
     item.sizes
-      .map(function(size) {
-        const code = item.code.replace(item.cib, '') + size + item.cib;
+      .map(function (size) {
+        const code = item.cib ? item.code.replace(item.cib, '') + size + item.cib : item.pre ? item.code + item.pre + size : item.code + size;
         const ncode = {
           title: item.title + ' ' + size + '"',
           code: code
@@ -146,9 +149,9 @@ function codesLRSizes(item) {
   return (
     '<ul>' +
     item.lr
-      .map(function(lr) {
+      .map(function (lr) {
         return item.sizes
-          .map(function(size) {
+          .map(function (size) {
             const ncode =
               item.constr[0] + lr.code + item.constr[1] + size + item.constr[2];
             const title =
@@ -167,7 +170,7 @@ function lemans(item) {
     return (
       '<ul>' +
       item.finish
-        .map(function(fi) {
+        .map(function (fi) {
           const ncode = item.code + '-' + fi.code;
           const title = item.title + ' - ' + titleCase(fi.title);
           return '<li>' + basicCode({ title: title, code: ncode }) + '</li>';
@@ -180,11 +183,11 @@ function lemans(item) {
     return (
       '<h5>Hardware codes:</h5><table><tr><th>Finish</th><th>Cabinet width</th><th>Hinged</th><th>Ordercode</th></th>' +
       item.sizes
-        .map(function(size) {
+        .map(function (size) {
           return item.lr
-            .map(function(lr) {
+            .map(function (lr) {
               return item.finish
-                .map(function(fi) {
+                .map(function (fi) {
                   const ncode = item.code + lr.code + '-' + fi.code + size;
                   return (
                     '<tr>' +
