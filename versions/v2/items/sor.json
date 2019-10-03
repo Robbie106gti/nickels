@@ -397,6 +397,24 @@
           "shelf"
         ],
         "image": "https://webquoin.com/catalog/images/Rollout%20Tray%20Dividers.jpg"
+      },
+      {
+        "active": false,
+        "lines": {
+          "custom": true,
+          "lighthouse": false,
+          "cornerstone": true,
+          "modal": false,
+          "modcon": false
+        },
+        "title": "Food Storage Containers - Roll Out",
+        "code": "ros-fsc",
+        "tags": [
+          "storage",
+          "tray",
+          "shelf"
+        ],
+        "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2Fmain%2F1568065714901_Food%20Storage%20Container.jpg?alt=media&token=2f0d2840-f3e8-46b8-a7dd-c29e03265d3f"
       }
     ]
   },
@@ -1115,6 +1133,51 @@
         "3108"
       ],
       "description": "A roll out shelf designed to hold trays and cooking sheets."
+    },
+    {
+      "active": true,
+      "lines": {
+        "custom": true,
+        "lighthouse": false,
+        "cornerstone": true,
+        "modal": false,
+        "modcon": false
+      },
+      "title": "Food Storage Containers - Roll Out",
+      "code": "ros-fsc",
+      "pre": "-",
+      "sizes": [
+        15,
+        18,
+        21,
+        24,
+        27,
+        30
+      ],
+      "images": [
+        {
+          "title": "Food Storage Containers - Roll Out",
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2Fmain%2F1568065714901_Food%20Storage%20Container.jpg?alt=media&token=2f0d2840-f3e8-46b8-a7dd-c29e03265d3f"
+        },
+        {
+          "title": "Food Storage Containers - Roll Out, Side View",
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2Fengineering%2FROS-FSC%20Roll%20Out%20Shelf%20-%20Food%20Storage%20Container%20%2F1568823832411_ROS-FSC%20side%20view.PNG?alt=media&token=633ca197-a222-40bf-b516-6240b5996b03"
+        },
+        {
+          "title": "Food Storage Containers - Roll Out, Front View Setup",
+          "image": "https://firebasestorage.googleapis.com/v0/b/nickels-catalog.appspot.com/o/sop%2Fengineering%2FROS-FSC%20Roll%20Out%20Shelf%20-%20Food%20Storage%20Container%20%2F1568908838050_ROS-FSC%20front%20view%20setup.PNG?alt=media&token=37aab9d9-8a48-44b4-8022-d822e723e978"
+        }
+      ],
+      "notes": [
+        "60",
+        "58"
+      ],
+      "specifications": [
+        "3105",
+        "3106",
+        "3109"
+      ],
+      "description": "A roll out shelf designed to hold pots, pans and tupperware etc."
     }
   ]
 }
