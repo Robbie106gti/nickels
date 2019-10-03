@@ -1135,7 +1135,7 @@
       "description": "A roll out shelf designed to hold trays and cooking sheets."
     },
     {
-      "active": true,
+      "active": false,
       "lines": {
         "custom": true,
         "lighthouse": false,
