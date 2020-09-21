@@ -876,7 +876,7 @@
       ]
     },
     {
-      "active": false,
+      "active": true,
       "lines": {
         "custom": true,
         "lighthouse": false,
