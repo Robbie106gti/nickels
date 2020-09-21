@@ -8,14 +8,14 @@ function headerFooter(location) {
   $.ajax({
     url: header,
     context: document.body,
-    success: function(response) {
+    success: function (response) {
       $('#header').html(response);
     }
   });
   $.ajax({
     url: footer,
     context: document.body,
-    success: function(response) {
+    success: function (response) {
       $('#footer').html(response);
     }
   });
